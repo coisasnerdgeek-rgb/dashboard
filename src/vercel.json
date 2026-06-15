@@ -1,1 +1,29 @@
-﻿@{data=ew0KICAgICJoZWFkZXJzIjogWw0KICAgICAgICB7DQogICAgICAgICAgICAic291cmNlIjogIi8oLiopIiwNCiAgICAgICAgICAgICJoZWFkZXJzIjogWw0KICAgICAgICAgICAgICAgIHsNCiAgICAgICAgICAgICAgICAgICAgImtleSI6ICJBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4iLA0KICAgICAgICAgICAgICAgICAgICAidmFsdWUiOiAiKiINCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICBdDQogICAgICAgIH0NCiAgICBdLA0KICAgICJyZXdyaXRlcyI6IFsNCiAgICAgICAgew0KICAgICAgICAgICAgInNvdXJjZSI6ICIvYXBpLyguKikiLA0KICAgICAgICAgICAgImRlc3RpbmF0aW9uIjogIi9hcGkvJDEiDQogICAgICAgIH0sDQogICAgICAgIHsNCiAgICAgICAgICAgICJzb3VyY2UiOiAiLyguKikiLA0KICAgICAgICAgICAgImRlc3RpbmF0aW9uIjogIi9pbmRleC5odG1sIg0KICAgICAgICB9DQogICAgXSwNCiAgICAiY3JvbnMiOiBbDQogICAgICAgIHsNCiAgICAgICAgICAgICJwYXRoIjogIi9hcGkvcHJvY2Vzcy1yZXRyeS1xdWV1ZSIsDQogICAgICAgICAgICAic2NoZWR1bGUiOiAiMTAgOSAqICogKiINCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgInBhdGgiOiAiL2FwaS9zeW5jLXRpbnkiLA0KICAgICAgICAgICAgInNjaGVkdWxlIjogIjEwIDkgKiAqICoiDQogICAgICAgIH0NCiAgICBdDQp9}
+{
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                }
+            ]
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "/api/$1"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ],
+    "crons": [
+        {
+            "path": "/api/process-retry-queue",
+            "schedule": "0 9 * * *"
+        }
+    ]
+}

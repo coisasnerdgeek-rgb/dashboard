@@ -1,1 +1,404 @@
-﻿@{data=aW1wb3J0IHR5cGUgeyBWZXJjZWxSZXF1ZXN0LCBWZXJjZWxSZXNwb25zZSB9IGZyb20gJ0B2ZXJjZWwvbm9kZSc7DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBzdXBhYmFzZVVybCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBzdXBhYmFzZUtleSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KY29uc3QgdGlueVRva2VuID0gcHJvY2Vzcy5lbnYuVElOWV9BUElfVE9LRU4hOw0KDQpjb25zdCBGSUxFTkFNRSA9ICJUaW55IEVSUCBBdXRvLUltcG9ydCI7DQoNCmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIGhhbmRsZXIocmVxOiBWZXJjZWxSZXF1ZXN0LCByZXM6IFZlcmNlbFJlc3BvbnNlKSB7DQogICAgdHJ5IHsNCiAgICAgICAgcmVzLnNldEhlYWRlcignQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJywgJyonKTsNCiAgICAgICAgcmVzLnNldEhlYWRlcignQWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcycsICdQT1NULCBHRVQsIE9QVElPTlMnKTsNCiAgICAgICAgcmVzLnNldEhlYWRlcignQWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVycycsICdDb250ZW50LVR5cGUnKTsNCg0KICAgICAgICBpZiAocmVxLm1ldGhvZCA9PT0gJ09QVElPTlMnKSB7DQogICAgICAgICAgICByZXR1cm4gcmVzLnN0YXR1cygyMDApLmVuZCgpOw0KICAgICAgICB9DQoNCiAgICAgICAgaWYgKCFzdXBhYmFzZVVybCB8fCAhc3VwYWJhc2VLZXkgfHwgIXRpbnlUb2tlbikgew0KICAgICAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsgZXJyb3I6ICdNaXNzaW5nIGVudmlyb25tZW50IHZhcmlhYmxlcycgfSk7DQogICAgICAgIH0NCg0KICAgICAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChzdXBhYmFzZVVybCwgc3VwYWJhc2VLZXkpOw0KDQogICAgICAgIGNvbnNvbGUubG9nKCfwn5SEIE1hbnVhbCByZXRyeSBxdWV1ZSBwcm9jZXNzaW5nIHRyaWdnZXJlZCcpOw0KDQogICAgICAgIC8vIEdldCBhbGwgcGVuZGluZyByZXRyaWVzICh1c2luZyBjb3JyZWN0IHNjaGVtYSEpDQogICAgICAgIGNvbnN0IHsgZGF0YTogcGVuZGluZ1JldHJpZXMsIGVycm9yOiBmZXRjaEVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgICAgICAuZXEoJ3N0YXR1cycsICdwZW5kaW5nJykNCiAgICAgICAgICAgIC5vcmRlcignbmV4dF9yZXRyeV9hdCcsIHsgYXNjZW5kaW5nOiB0cnVlIH0pOw0KDQogICAgICAgIGlmIChmZXRjaEVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZyByZXRyeSBxdWV1ZTonLCBmZXRjaEVycm9yKTsNCiAgICAgICAgICAgIHJldHVybiByZXMuc3RhdHVzKDUwMCkuanNvbih7IGVycm9yOiAnRmFpbGVkIHRvIGZldGNoIHJldHJ5IHF1ZXVlJywgZGV0YWlsczogZmV0Y2hFcnJvci5tZXNzYWdlIH0pOw0KICAgICAgICB9DQoNCiAgICAgICAgaWYgKCFwZW5kaW5nUmV0cmllcyB8fCBwZW5kaW5nUmV0cmllcy5sZW5ndGggPT09IDApIHsNCiAgICAgICAgICAgIHJldHVybiByZXMuc3RhdHVzKDIwMCkuanNvbih7DQogICAgICAgICAgICAgICAgbWVzc2FnZTogJ05vIHBlbmRpbmcgcmV0cmllcycsDQogICAgICAgICAgICAgICAgcHJvY2Vzc2VkOiAwDQogICAgICAgICAgICB9KTsNCiAgICAgICAgfQ0KDQogICAgICAgIGNvbnNvbGUubG9nKGDwn5OLIEZvdW5kICR7cGVuZGluZ1JldHJpZXMubGVuZ3RofSBwZW5kaW5nIHJldHJpZXNgKTsNCg0KICAgICAgICBjb25zdCByZXN1bHRzID0gew0KICAgICAgICAgICAgdG90YWw6IHBlbmRpbmdSZXRyaWVzLmxlbmd0aCwNCiAgICAgICAgICAgIHByb2Nlc3NlZDogMCwNCiAgICAgICAgICAgIGZhaWxlZDogMCwNCiAgICAgICAgICAgIGRldGFpbHM6IFtdIGFzIGFueVtdDQogICAgICAgIH07DQoNCiAgICAgICAgLy8gUHJvY2VzcyBlYWNoIHJldHJ5DQogICAgICAgIGZvciAoY29uc3QgcmV0cnkgb2YgcGVuZGluZ1JldHJpZXMpIHsNCiAgICAgICAgICAgIHRyeSB7DQogICAgICAgICAgICAgICAgY29uc29sZS5sb2coYOKPsyBQcm9jZXNzaW5nIHJldHJ5IGZvciBvcmRlcjogJHtyZXRyeS5vcmRlcl9pZH1gKTsNCg0KICAgICAgICAgICAgICAgIC8vIEZldGNoIG9yZGVyIGZyb20gVGlueSBBUEkNCiAgICAgICAgICAgICAgICBjb25zdCB0aW55UmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgNCiAgICAgICAgICAgICAgICAgICAgYGh0dHBzOi8vYXBpLnRpbnkuY29tLmJyL2FwaTIvcGVkaWRvLm9idGVyLnBocD90b2tlbj0ke3RpbnlUb2tlbn0maWQ9JHtyZXRyeS5vcmRlcl9pZH0mZm9ybWF0bz1qc29uYCwNCiAgICAgICAgICAgICAgICAgICAgeyBtZXRob2Q6ICdHRVQnIH0NCiAgICAgICAgICAgICAgICApOw0KDQogICAgICAgICAgICAgICAgY29uc3QgdGlueURhdGEgPSBhd2FpdCB0aW55UmVzcG9uc2UuanNvbigpOw0KDQogICAgICAgICAgICAgICAgaWYgKHRpbnlEYXRhPy5yZXRvcm5vPy5zdGF0dXNfcHJvY2Vzc2FtZW50byA9PT0gJzMnICYmIHRpbnlEYXRhPy5yZXRvcm5vPy5wZWRpZG8pIHsNCiAgICAgICAgICAgICAgICAgICAgLy8gT3JkZXIgZm91bmQhIFByb2Nlc3MgaXQNCiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coYOKchSBPcmRlciAke3JldHJ5Lm9yZGVyX2lkfSBmb3VuZCBpbiBUaW55IEFQSSAtIHByb2Nlc3Npbmcgbm93YCk7DQoNCiAgICAgICAgICAgICAgICAgICAgY29uc3QgcGVkaWRvID0gdGlueURhdGEucmV0b3Juby5wZWRpZG87DQoNCiAgICAgICAgICAgICAgICAgICAgLy8gQ2hlY2sgZm9yIGR1cGxpY2F0ZXMgYmVmb3JlIGluc2VydGluZw0KICAgICAgICAgICAgICAgICAgICBjb25zdCB7IGRhdGE6IGV4aXN0aW5nT3JkZXJzIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgICAgICAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgICAgICAgICAgICAgICAgICAuZXEoJ2ZpbGVuYW1lJywgRklMRU5BTUUpDQogICAgICAgICAgICAgICAgICAgICAgICAuZmlsdGVyKCdyb3dfZGF0YS0+PklEIFRpbnknLCAnZXEnLCBTdHJpbmcocmV0cnkub3JkZXJfaWQpKTsNCg0KICAgICAgICAgICAgICAgICAgICBpZiAoZXhpc3RpbmdPcmRlcnMgJiYgZXhpc3RpbmdPcmRlcnMubGVuZ3RoID4gMCkgew0KICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coYOKaoO+4jyBPcmRlciAke3JldHJ5Lm9yZGVyX2lkfSBhbHJlYWR5IGV4aXN0cyAtIHNraXBwaW5nYCk7DQogICAgICAgICAgICAgICAgICAgICAgICBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudXBkYXRlKHsgc3RhdHVzOiAnY29tcGxldGVkJyB9KQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5lcSgnaWQnLCBTdHJpbmcocmV0cnkuaWQpKTsNCg0KICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0cy5kZXRhaWxzLnB1c2goew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9yZGVyX2lkOiByZXRyeS5vcmRlcl9pZCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXM6ICdkdXBsaWNhdGUnDQogICAgICAgICAgICAgICAgICAgICAgICB9KTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICAgICAgLy8gUHJvY2VzcyBpdGVtcyBhbmQgaW5zZXJ0DQogICAgICAgICAgICAgICAgICAgIGNvbnN0IGl0ZW1zID0gQXJyYXkuaXNBcnJheShwZWRpZG8uaXRlbnMpID8gcGVkaWRvLml0ZW5zIDogW3BlZGlkby5pdGVucz8uaXRlbV0uZmlsdGVyKEJvb2xlYW4pOw0KDQogICAgICAgICAgICAgICAgICAgIGNvbnN0IHJvd3NUb0luc2VydCA9IGl0ZW1zLm1hcCgoaXRlbTogYW55KSA9PiAoew0KICAgICAgICAgICAgICAgICAgICAgICAgZmlsZW5hbWU6IEZJTEVOQU1FLA0KICAgICAgICAgICAgICAgICAgICAgICAgaW1wb3J0X2RhdGU6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwNCiAgICAgICAgICAgICAgICAgICAgICAgIHJvd19kYXRhOiB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIlNLVSI6IGl0ZW0uY29kaWdvLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICJQcm9kdXRvIjogaXRlbS5kZXNjcmljYW8gfHwgIk4vQSIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNvciI6ICJOL0EiLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICJUYW1hbmhvIjogIk4vQSIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIlF1YW50aWRhZGUiOiBpdGVtLnF1YW50aWRhZGUsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIlZhbG9yIFVuaXRhcmlvIjogaXRlbS52YWxvcl91bml0YXJpbywNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiTm9tZSI6IHBlZGlkby5jbGllbnRlPy5ub21lIHx8ICIiLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICJEYXRhIjogcGVkaWRvLmRhdGFfcGVkaWRvLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICJOw7ptZXJvIGRhIG9yZGVtIGRlIGNvbXByYSI6IHBlZGlkby5udW1lcm9fZWNvbW1lcmNlIHx8ICIiLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICJJRCBUaW55IjogU3RyaW5nKHJldHJ5Lm9yZGVyX2lkKSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiQ2FuYWwiOiBwZWRpZG8ubm9tZV9lY29tbWVyY2UgfHwgIk4vQSIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIlNpdHVhw6fDo28iOiBwZWRpZG8uc2l0dWFjYW8sDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNOUEoiOiByZXRyeS5jbnBqLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICJFbXByZXNhIjogcmV0cnkuY29tcGFueSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiT3JpZ2VtIjogIlRpbnkgRVJQIFdlYmhvb2sgKFJldHJ5KSIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkRhdGEgbcOheGltYSBkZSBkZXNwYWNobyI6IHBlZGlkby5kYXRhX3ByZXZpc3RhIHx8ICIiLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICJJZGVudGlmaWNhZG9yIGRvIHBlZGlkbyBlLWNvbW1lcmNlIjogcGVkaWRvLm51bWVyb19lY29tbWVyY2UgfHwgIiIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkRlc2NyacOnw6NvIjogaXRlbS5kZXNjcmljYW8gfHwgIiINCiAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgfSkpOw0KDQogICAgICAgICAgICAgICAgICAgIGNvbnN0IHsgZXJyb3I6IGluc2VydEVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgICAgICAgICAgICAgLmluc2VydChyb3dzVG9JbnNlcnQpOw0KDQogICAgICAgICAgICAgICAgICAgIGlmIChpbnNlcnRFcnJvcikgew0KICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcihg4p2MIEVycm9yIGluc2VydGluZyBvcmRlciAke3JldHJ5Lm9yZGVyX2lkfTpgLCBpbnNlcnRFcnJvcik7DQogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRzLmZhaWxlZCsrOw0KICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0cy5kZXRhaWxzLnB1c2goew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9yZGVyX2lkOiByZXRyeS5vcmRlcl9pZCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXM6ICdlcnJvcicsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3I6IGluc2VydEVycm9yLm1lc3NhZ2UNCiAgICAgICAgICAgICAgICAgICAgICAgIH0pOw0KICAgICAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICAgICAgLy8gTWFyayBhcyBjb21wbGV0ZWQNCiAgICAgICAgICAgICAgICAgICAgICAgIGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC51cGRhdGUoeyBzdGF0dXM6ICdjb21wbGV0ZWQnIH0pDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmVxKCdpZCcsIFN0cmluZyhyZXRyeS5pZCkpOw0KDQogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRzLnByb2Nlc3NlZCsrOw0KICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0cy5kZXRhaWxzLnB1c2goew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9yZGVyX2lkOiByZXRyeS5vcmRlcl9pZCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXM6ICdzdWNjZXNzJywNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpdGVtc19pbnNlcnRlZDogcm93c1RvSW5zZXJ0Lmxlbmd0aA0KICAgICAgICAgICAgICAgICAgICAgICAgfSk7DQogICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhg4pyFIE9yZGVyICR7cmV0cnkub3JkZXJfaWR9IHN1Y2Nlc3NmdWxseSBwcm9jZXNzZWQhYCk7DQogICAgICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAodGlueURhdGE/LnJldG9ybm8/LmNvZGlnb19lcnJvID09PSAnMzInKSB7DQogICAgICAgICAgICAgICAgICAgIC8vIFN0aWxsIG5vdCBmb3VuZA0KICAgICAgICAgICAgICAgICAgICBpZiAoKHJldHJ5LnJldHJ5X2NvdW50IHx8IDApID49IDEwKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAvLyBHaXZlIHVwIGFmdGVyIDEwIGF0dGVtcHRzDQogICAgICAgICAgICAgICAgICAgICAgICBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudXBkYXRlKHsgc3RhdHVzOiAnZmFpbGVkJywgbGFzdF9lcnJvcjogJ01heCByZXRyaWVzIHJlYWNoZWQnIH0pDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmVxKCdpZCcsIFN0cmluZyhyZXRyeS5pZCkpOw0KDQogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRzLmZhaWxlZCsrOw0KICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0cy5kZXRhaWxzLnB1c2goew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9yZGVyX2lkOiByZXRyeS5vcmRlcl9pZCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXM6ICdnYXZlX3VwJywNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFzb246ICdNYXggcmV0cmllcyByZWFjaGVkJw0KICAgICAgICAgICAgICAgICAgICAgICAgfSk7DQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgICAgICAvLyBJbmNyZW1lbnQgcmV0cnkgY291bnQNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IG5ld1JldHJ5Q291bnQgPSAocmV0cnkucmV0cnlfY291bnQgfHwgMCkgKyAxOw0KICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgbmV4dFJldHJ5QXQgPSBuZXcgRGF0ZShEYXRlLm5vdygpICsgNSAqIDYwICogMTAwMCk7IC8vIDUgbWludXRlcw0KDQogICAgICAgICAgICAgICAgICAgICAgICBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudXBkYXRlKHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0cnlfY291bnQ6IG5ld1JldHJ5Q291bnQsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5leHRfcmV0cnlfYXQ6IG5leHRSZXRyeUF0LnRvSVNPU3RyaW5nKCksDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhc3RfZXJyb3I6ICdPcmRlciBzdGlsbCBub3QgZm91bmQnDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZXEoJ2lkJywgU3RyaW5nKHJldHJ5LmlkKSk7DQoNCiAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdHMuZGV0YWlscy5wdXNoKHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcmRlcl9pZDogcmV0cnkub3JkZXJfaWQsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzOiAncmVzY2hlZHVsZWQnLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5leHRfcmV0cnk6IG5leHRSZXRyeUF0LnRvSVNPU3RyaW5nKCkNCiAgICAgICAgICAgICAgICAgICAgICAgIH0pOw0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAgICAgLy8gT3RoZXIgZXJyb3INCiAgICAgICAgICAgICAgICAgICAgYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgICAgICAgICAgICAgIC51cGRhdGUoeyBzdGF0dXM6ICdmYWlsZWQnLCBsYXN0X2Vycm9yOiBKU09OLnN0cmluZ2lmeSh0aW55RGF0YSkgfSkNCiAgICAgICAgICAgICAgICAgICAgICAgIC5lcSgnaWQnLCBTdHJpbmcocmV0cnkuaWQpKTsNCg0KICAgICAgICAgICAgICAgICAgICByZXN1bHRzLmZhaWxlZCsrOw0KICAgICAgICAgICAgICAgICAgICByZXN1bHRzLmRldGFpbHMucHVzaCh7DQogICAgICAgICAgICAgICAgICAgICAgICBvcmRlcl9pZDogcmV0cnkub3JkZXJfaWQsDQogICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXM6ICdlcnJvcicsDQogICAgICAgICAgICAgICAgICAgICAgICBlcnJvcjogdGlueURhdGENCiAgICAgICAgICAgICAgICAgICAgfSk7DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgLy8gUmF0ZSBsaW1pdGluZw0KICAgICAgICAgICAgICAgIGF3YWl0IG5ldyBQcm9taXNlKHJlc29sdmUgPT4gc2V0VGltZW91dChyZXNvbHZlLCAyMDApKTsNCg0KICAgICAgICAgICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgew0KICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYEVycm9yIHByb2Nlc3NpbmcgcmV0cnkgJHtyZXRyeS5vcmRlcl9pZH06YCwgZXJyb3IpOw0KICAgICAgICAgICAgICAgIHJlc3VsdHMuZmFpbGVkKys7DQogICAgICAgICAgICAgICAgcmVzdWx0cy5kZXRhaWxzLnB1c2goew0KICAgICAgICAgICAgICAgICAgICBvcmRlcl9pZDogcmV0cnkub3JkZXJfaWQsDQogICAgICAgICAgICAgICAgICAgIHN0YXR1czogJ2Vycm9yJywNCiAgICAgICAgICAgICAgICAgICAgZXJyb3I6IGVycm9yLm1lc3NhZ2UNCiAgICAgICAgICAgICAgICB9KTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KDQogICAgICAgIHJldHVybiByZXMuc3RhdHVzKDIwMCkuanNvbih7DQogICAgICAgICAgICBtZXNzYWdlOiAnUmV0cnkgcXVldWUgcHJvY2Vzc2VkJywNCiAgICAgICAgICAgIC4uLnJlc3VsdHMNCiAgICAgICAgfSk7DQoNCiAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ01hbnVhbCByZXRyeSBlcnJvcjonLCBlcnJvcik7DQogICAgICAgIHJldHVybiByZXMuc3RhdHVzKDUwMCkuanNvbih7DQogICAgICAgICAgICBlcnJvcjogJ0ludGVybmFsIHNlcnZlciBlcnJvcicsDQogICAgICAgICAgICBtZXNzYWdlOiBlcnJvci5tZXNzYWdlDQogICAgICAgIH0pOw0KICAgIH0NCn0NCg==}
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = process.env.SUPABASE_URL!;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const tinyToken = process.env.TINY_API_TOKEN!;
+
+const FILENAME = "Tiny ERP Auto-Import";
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+    try {
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
+        res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+        if (req.method === 'OPTIONS') {
+            return res.status(200).end();
+        }
+
+        if (!supabaseUrl || !supabaseKey || !tinyToken) {
+            return res.status(500).json({ error: 'Missing environment variables' });
+        }
+
+        const supabase = createClient(supabaseUrl, supabaseKey);
+
+        // Fetch SKU mappings to align parsing with the frontend rules
+        let mappings = null;
+        try {
+            const { data: mappingsData } = await supabase.from('sku_mappings').select('*');
+            if (mappingsData) {
+                const rawProductMap: Record<string, string> = {};
+                const rawColorMap: Record<string, string> = {};
+                const rawSizeMap: Record<string, string> = {};
+                const rawPhoneBrandMap: Record<string, string> = {};
+
+                mappingsData.forEach((item: any) => {
+                    if (item.mapping_type === 'product') rawProductMap[item.mapping_key] = item.mapping_value;
+                    if (item.mapping_type === 'color') rawColorMap[item.mapping_key] = item.mapping_value;
+                    if (item.mapping_type === 'size') rawSizeMap[item.mapping_key] = item.mapping_value;
+                    if (item.mapping_type === 'brand') rawPhoneBrandMap[item.mapping_key] = item.mapping_value;
+                });
+
+                const sortMap = (map: Record<string, string>) => {
+                    const sortedKeys = Object.keys(map).sort((a, b) => b.length - a.length);
+                    const sortedMap: Record<string, string> = {};
+                    for (const key of sortedKeys) {
+                        sortedMap[key] = map[key];
+                    }
+                    return sortedMap;
+                };
+
+                mappings = {
+                    productMap: sortMap(rawProductMap),
+                    colorMap: sortMap(rawColorMap),
+                    sizeMap: sortMap(rawSizeMap),
+                    phoneBrandMap: sortMap(rawPhoneBrandMap)
+                };
+            }
+        } catch (e) {
+            console.error('Error loading SKU mappings:', e);
+        }
+
+        console.log('🔄 Manual retry queue processing triggered');
+
+        // Get all pending retries (using correct schema!)
+        const { data: pendingRetries, error: fetchError } = await supabase
+            .from('webhook_retry_queue')
+            .select('*')
+            .eq('status', 'pending')
+            .order('next_retry_at', { ascending: true });
+
+        if (fetchError) {
+            console.error('Error fetching retry queue:', fetchError);
+            return res.status(500).json({ error: 'Failed to fetch retry queue', details: fetchError.message });
+        }
+
+        if (!pendingRetries || pendingRetries.length === 0) {
+            return res.status(200).json({
+                message: 'No pending retries',
+                processed: 0
+            });
+        }
+
+        console.log(`📋 Found ${pendingRetries.length} pending retries`);
+
+        const results = {
+            total: pendingRetries.length,
+            processed: 0,
+            failed: 0,
+            details: [] as any[]
+        };
+
+        // Process each retry
+        for (const retry of pendingRetries) {
+            try {
+                console.log(`⏳ Processing retry for order: ${retry.order_id}`);
+
+                // Fetch order from Tiny API
+                const tinyResponse = await fetch(
+                    `https://api.tiny.com.br/api2/pedido.obter.php?token=${tinyToken}&id=${retry.order_id}&formato=json`,
+                    { method: 'GET' }
+                );
+
+                const tinyData = await tinyResponse.json();
+
+                if (tinyData?.retorno?.status_processamento === '3' && tinyData?.retorno?.pedido) {
+                    // Order found! Process it
+                    console.log(`✅ Order ${retry.order_id} found in Tiny API - processing now`);
+
+                    const pedido = tinyData.retorno.pedido;
+
+                    // Check for duplicates before inserting
+                    const { data: existingOrders } = await supabase
+                        .from('spreadsheet_data')
+                        .select('*')
+                        .eq('filename', FILENAME)
+                        .filter('row_data->>ID Tiny', 'eq', String(retry.order_id));
+
+                    if (existingOrders && existingOrders.length > 0) {
+                        console.log(`⚠️ Order ${retry.order_id} already exists - skipping`);
+                        await supabase
+                            .from('webhook_retry_queue')
+                            .update({ status: 'completed' })
+                            .eq('id', String(retry.id));
+
+                        results.details.push({
+                            order_id: retry.order_id,
+                            status: 'duplicate'
+                        });
+                        continue;
+                    }
+
+                    // Process items and insert
+                    const items = Array.isArray(pedido.itens) ? pedido.itens : [pedido.itens?.item].filter(Boolean);
+
+                    const rowsToInsert = items.map((item: any) => {
+                        const parsed = parseSkuDynamic(item.codigo, mappings);
+                        return {
+                            filename: FILENAME,
+                            import_date: new Date().toISOString(),
+                            row_data: {
+                                "SKU": item.codigo,
+                                "Produto": parsed.productName,
+                                "Cor": parsed.colorName,
+                                "Tamanho": parsed.sizeName,
+                                "Quantidade": item.quantidade,
+                                "Valor Unitario": item.valor_unitario,
+                                "Nome": pedido.cliente?.nome || "",
+                                "Data": pedido.data_pedido,
+                            "Número da ordem de compra": pedido.numero_ecommerce || "",
+                            "ID Tiny": String(retry.order_id),
+                            "Canal": pedido.nome_ecommerce || "N/A",
+                            "Situação": pedido.situacao,
+                            "CNPJ": retry.cnpj,
+                            "Empresa": retry.company,
+                            "Origem": "Tiny ERP Webhook (Retry)",
+                            "Data máxima de despacho": pedido.data_prevista || "",
+                            "Identificador do pedido e-commerce": pedido.numero_ecommerce || "",
+                            "Descrição": item.descricao || ""
+                            }
+                        };
+                    });
+
+                    const { error: insertError } = await supabase
+                        .from('spreadsheet_data')
+                        .insert(rowsToInsert);
+
+                    if (insertError) {
+                        console.error(`❌ Error inserting order ${retry.order_id}:`, insertError);
+                        results.failed++;
+                        results.details.push({
+                            order_id: retry.order_id,
+                            status: 'error',
+                            error: insertError.message
+                        });
+                    } else {
+                        // Mark as completed
+                        await supabase
+                            .from('webhook_retry_queue')
+                            .update({ status: 'completed' })
+                            .eq('id', String(retry.id));
+
+                        results.processed++;
+                        results.details.push({
+                            order_id: retry.order_id,
+                            status: 'success',
+                            items_inserted: rowsToInsert.length
+                        });
+                        console.log(`✅ Order ${retry.order_id} successfully processed!`);
+                    }
+
+                } else if (tinyData?.retorno?.codigo_erro === '32') {
+                    // Still not found
+                    if ((retry.retry_count || 0) >= 10) {
+                        // Give up after 10 attempts
+                        await supabase
+                            .from('webhook_retry_queue')
+                            .update({ status: 'failed', last_error: 'Max retries reached' })
+                            .eq('id', String(retry.id));
+
+                        results.failed++;
+                        results.details.push({
+                            order_id: retry.order_id,
+                            status: 'gave_up',
+                            reason: 'Max retries reached'
+                        });
+                    } else {
+                        // Increment retry count
+                        const newRetryCount = (retry.retry_count || 0) + 1;
+                        const nextRetryAt = new Date(Date.now() + 5 * 60 * 1000); // 5 minutes
+
+                        await supabase
+                            .from('webhook_retry_queue')
+                            .update({
+                                retry_count: newRetryCount,
+                                next_retry_at: nextRetryAt.toISOString(),
+                                last_error: 'Order still not found'
+                            })
+                            .eq('id', String(retry.id));
+
+                        results.details.push({
+                            order_id: retry.order_id,
+                            status: 'rescheduled',
+                            next_retry: nextRetryAt.toISOString()
+                        });
+                    }
+                } else {
+                    // Other error
+                    await supabase
+                        .from('webhook_retry_queue')
+                        .update({ status: 'failed', last_error: JSON.stringify(tinyData) })
+                        .eq('id', String(retry.id));
+
+                    results.failed++;
+                    results.details.push({
+                        order_id: retry.order_id,
+                        status: 'error',
+                        error: tinyData
+                    });
+                }
+
+                // Rate limiting
+                await new Promise(resolve => setTimeout(resolve, 200));
+
+            } catch (error: any) {
+                console.error(`Error processing retry ${retry.order_id}:`, error);
+                results.failed++;
+                results.details.push({
+                    order_id: retry.order_id,
+                    status: 'error',
+                    error: error.message
+                });
+            }
+        }
+
+        return res.status(200).json({
+            message: 'Retry queue processed',
+            ...results
+        });
+
+    } catch (error: any) {
+        console.error('Manual retry error:', error);
+        return res.status(500).json({
+            error: 'Internal server error',
+            message: error.message
+        });
+    }
+}
+
+function parseSkuDynamic(sku: string, mappings: any) {
+    if (!sku) return { productName: 'N/A', colorName: 'N/A', sizeName: 'N/A' };
+    let lowerSku = sku.toLowerCase();
+
+    // Strip kit prefix
+    lowerSku = lowerSku.replace(/^kit\d+-/, '');
+
+    const productRules = mappings ? mappings.productMap : {};
+    const colorRules = mappings ? mappings.colorMap : {};
+    const sizeRules = mappings ? mappings.sizeMap : {};
+
+    // Get product name
+    let productName = 'N/A';
+    let productKey = '';
+    for (const key in productRules) {
+        if (lowerSku.startsWith(key)) {
+            productKey = key;
+            productName = productRules[key];
+            break;
+        }
+    }
+
+    if (productName === 'N/A') {
+        const defaultProductMap: Record<string, string> = {
+            'polo-fem': 'Polo Feminina', 'polo-masc': 'Polo Masculina',
+            'mol-cang': 'Moletom Canguru', 'mol-careca': 'Moletom Careca',
+            'cam-masc': 'Camiseta Masculina', 'babylook': 'Babylook',
+            'regata': 'Regata', 'capa-': 'Capinha'
+        };
+        for (const [key, value] of Object.entries(defaultProductMap)) {
+            if (lowerSku.startsWith(key)) {
+                productKey = key;
+                productName = value;
+                break;
+            }
+        }
+    }
+
+    const restOfSku = lowerSku.substring(productKey.length).replace(/^-/, '');
+    if (!restOfSku) {
+        return { productName, colorName: 'N/A', sizeName: 'N/A' };
+    }
+
+    const parts = restOfSku.split('-').map(p => p.trim()).filter(p => !!p);
+
+    function findLongestSuffix(parts: string[], rules: Record<string, string>) {
+        for (let i = Math.min(parts.length, 3); i > 0; i--) {
+            const potentialParts = parts.slice(-i);
+            const potentialKey = potentialParts.join('-');
+            if (rules[potentialKey]) {
+                return {
+                    value: rules[potentialKey],
+                    key: potentialKey,
+                    partsCount: i,
+                };
+            }
+        }
+        return null;
+    }
+
+    // Attempt 1: Size is Suffix, Color is Suffix of remainder
+    let colorName1 = 'N/A';
+    let sizeName1 = 'N/A';
+    const sizeInfo1 = findLongestSuffix(parts, sizeRules);
+    if (sizeInfo1) {
+        sizeName1 = sizeInfo1.value;
+        const remainingParts1 = parts.slice(0, parts.length - sizeInfo1.partsCount);
+        if (remainingParts1.length > 0) {
+            const colorInfo1 = findLongestSuffix(remainingParts1, colorRules);
+            if (colorInfo1) {
+                colorName1 = colorInfo1.value;
+            }
+        }
+    }
+
+    // Attempt 2: Color is Suffix, Size is Suffix of remainder
+    let colorName2 = 'N/A';
+    let sizeName2 = 'N/A';
+    const colorInfo2 = findLongestSuffix(parts, colorRules);
+    if (colorInfo2) {
+        colorName2 = colorInfo2.value;
+        const remainingParts2 = parts.slice(0, parts.length - colorInfo2.partsCount);
+        if (remainingParts2.length > 0) {
+            const sizeInfo2 = findLongestSuffix(remainingParts2, sizeRules);
+            if (sizeInfo2) {
+                sizeName2 = sizeInfo2.value;
+            }
+        }
+    }
+
+    // Score and decide which attempt was better
+    const score1 = (colorName1 !== 'N/A' ? 1 : 0) + (sizeName1 !== 'N/A' ? 1 : 0);
+    const score2 = (colorName2 !== 'N/A' ? 1 : 0) + (sizeName2 !== 'N/A' ? 1 : 0);
+
+    if (score1 > score2) {
+        return { productName, colorName: colorName1, sizeName: sizeName1 };
+    } else if (score2 > score1) {
+        return { productName, colorName: colorName2, sizeName: sizeName2 };
+    }
+
+    const finalResult = { colorName: colorName1, sizeName: sizeName1 };
+
+    // Fallback: simple check on last 2 parts
+    if ((finalResult.colorName === 'N/A' || finalResult.sizeName === 'N/A') && parts.length >= 2) {
+        const potentialSizeKey = parts[parts.length - 1];
+        const potentialColorKey = parts[parts.length - 2];
+
+        const sizeMatch = sizeRules[potentialSizeKey];
+        const colorMatch = colorRules[potentialColorKey];
+
+        if (sizeMatch && colorMatch) {
+            return { productName, colorName: colorMatch, sizeName: sizeMatch };
+        }
+    }
+
+    // Fallback to static parser logic if we still don't have color/size
+    if (finalResult.colorName === 'N/A' && finalResult.sizeName === 'N/A') {
+        const defaultColorMap: Record<string, string> = {
+            'p': 'Preto', 'b': 'Branco', 'ma': 'Marinho', 'vm': 'Vermelho', 'cm': 'Mescla',
+            'ar': 'Royal', 'vi': 'Vinho', 'vde': 'Musgo', 'am': 'Amarelo', 'la': 'Laranja',
+            'ch': 'Chumbo', 'at': 'Turquesa', 'pi': 'Pink', 'vl': 'Verde Limao'
+        };
+        const defaultSizeMap: Record<string, string> = {
+            'p': 'P', 'm': 'M', 'g': 'G', 'gg': 'GG', 'xg': 'XG', 'eg': 'EG'
+        };
+        for (let i = parts.length - 1; i >= 0; i--) {
+            const part = parts[i];
+            if (sizeName1 === 'N/A' && defaultSizeMap[part]) sizeName1 = defaultSizeMap[part];
+            else if (colorName1 === 'N/A' && defaultColorMap[part]) colorName1 = defaultColorMap[part];
+        }
+        return { productName, colorName: colorName1, sizeName: sizeName1 };
+    }
+
+    return { productName, colorName: finalResult.colorName, sizeName: finalResult.sizeName };
+}
