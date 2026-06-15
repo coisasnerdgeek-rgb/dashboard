@@ -1,1 +1,83 @@
-﻿@{data=CmltcG9ydCB7IFRhYmxlUm93IH0gZnJvbSAnLi4vRGFzaGJvYXJkL3R5cGVzJzsKCi8vIFhMU1ggaXMgZ2xvYmFsbHkgYXZhaWxhYmxlIGZyb20gdGhlIHNjcmlwdCB0YWcgaW4gaW5kZXguaHRtbApkZWNsYXJlIGNvbnN0IFhMU1g6IGFueTsKCmV4cG9ydCBjb25zdCBwYXJzZVNwcmVhZHNoZWV0ID0gKGZpbGU6IEZpbGUpOiBQcm9taXNlPHsgZGF0YTogVGFibGVSb3dbXSwgaGVhZGVyczogc3RyaW5nW10gfT4gPT4gewogIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBjb25zdCByZWFkZXIgPSBuZXcgRmlsZVJlYWRlcigpOwoKICAgIHJlYWRlci5vbmxvYWQgPSAoZXZlbnQ6IFByb2dyZXNzRXZlbnQ8RmlsZVJlYWRlcj4pID0+IHsKICAgICAgdHJ5IHsKICAgICAgICBpZiAoIWV2ZW50LnRhcmdldD8ucmVzdWx0KSB7CiAgICAgICAgICByZXR1cm4gcmVqZWN0KG5ldyBFcnJvcigiRmFpbGVkIHRvIHJlYWQgZmlsZS4iKSk7CiAgICAgICAgfQogICAgICAgIGNvbnN0IHdvcmtib29rID0gWExTWC5yZWFkKGV2ZW50LnRhcmdldC5yZXN1bHQsIHsgdHlwZTogJ2JpbmFyeScgfSk7CiAgICAgICAgY29uc3Qgc2hlZXROYW1lID0gd29ya2Jvb2suU2hlZXROYW1lc1swXTsKICAgICAgICBjb25zdCB3b3Jrc2hlZXQgPSB3b3JrYm9vay5TaGVldHNbc2hlZXROYW1lXTsKCiAgICAgICAgLy8gVXNpbmcgeyByYXc6IGZhbHNlIH0gdGVsbHMgc2hlZXRfdG9fanNvbiB0byB1c2UgdGhlIGZvcm1hdHRlZCB0ZXh0ICgudykgb2YgY2VsbHMuCiAgICAgICAgLy8gVGhpcyBwcmV2ZW50cyBsb25nIG51bWJlcnMgKGxpa2Ugb3JkZXIgSURzKSBmcm9tIGJlaW5nIGNvbnZlcnRlZCB0byBKUyBudW1iZXJzIGFuZCBsb3NpbmcgcHJlY2lzaW9uLgogICAgICAgIC8vIGRlZnZhbDogbnVsbCBlbnN1cmVzIGVtcHR5IGNlbGxzIGFyZSBwYXJzZWQgYXMgbnVsbC4KICAgICAgICBjb25zdCBqc29uRGF0YTogYW55W10gPSBYTFNYLnV0aWxzLnNoZWV0X3RvX2pzb24od29ya3NoZWV0LCB7IGhlYWRlcjogMSwgcmF3OiBmYWxzZSwgZGVmdmFsOiBudWxsIH0pOwoKICAgICAgICBpZiAoanNvbkRhdGEubGVuZ3RoIDwgMSB8fCAhanNvbkRhdGFbMF0pIHsKICAgICAgICAgIHJldHVybiByZXNvbHZlKHsgZGF0YTogW10sIGhlYWRlcnM6IFtdIH0pOwogICAgICAgIH0KCiAgICAgICAgY29uc3QgaGVhZGVyczogc3RyaW5nW10gPSBqc29uRGF0YVswXS5tYXAoU3RyaW5nKTsKICAgICAgICBjb25zdCBkYXRhOiBUYWJsZVJvd1tdID0ganNvbkRhdGEuc2xpY2UoMSkubWFwKChyb3c6IGFueVtdKSA9PiB7CiAgICAgICAgICBjb25zdCByb3dEYXRhOiBUYWJsZVJvdyA9IHt9OwogICAgICAgICAgaGVhZGVycy5mb3JFYWNoKChoZWFkZXIsIGluZGV4KSA9PiB7CiAgICAgICAgICAgIC8vIEFsbCB2YWx1ZXMgYXJlIG5vdyBzdHJpbmdzIChvciBudWxsKSwgd2hpY2ggaXMgc2FmZXIgZm9yIElEcy4KICAgICAgICAgICAgLy8gT3RoZXIgcGFydHMgb2YgdGhlIGNvZGUgKGxpa2UgY2xlYW5BbmRQYXJzZSkgd2lsbCBoYW5kbGUgY29udmVyc2lvbiBiYWNrIHRvIG51bWJlciB3aGVyZSBuZWVkZWQuCiAgICAgICAgICAgIHJvd0RhdGFbaGVhZGVyXSA9IHJvd1tpbmRleF07CiAgICAgICAgICB9KTsKICAgICAgICAgIHJldHVybiByb3dEYXRhOwogICAgICAgIH0pOwoKICAgICAgICAvLyBJZGVudGlmeSB0aGUgZGF0ZSBjb2x1bW4gKHVzdWFsbHkgIkRhdGEiIG9yICJEYXRhIGRvIFBlZGlkbyIpCiAgICAgICAgY29uc3QgZGF0ZUhlYWRlciA9IGhlYWRlcnMuZmluZChoID0+IHsKICAgICAgICAgIGNvbnN0IGxvd2VyID0gaC50b0xvd2VyQ2FzZSgpOwogICAgICAgICAgcmV0dXJuIGxvd2VyID09PSAnZGF0YScgfHwgbG93ZXIgPT09ICdkYXRhIGRvIHBlZGlkbycgfHwgbG93ZXIgPT09ICdkYXRhIHBlZGlkbyc7CiAgICAgICAgfSk7CgogICAgICAgIGxldCBmaW5hbERhdGEgPSBkYXRhOwogICAgICAgIGNvbnN0IENVVE9GRl9EQVRFID0gbmV3IERhdGUoMjAyNCwgMTEsIDEpOyAvLyAyMDI0LTEyLTAxCgogICAgICAgIGlmIChkYXRlSGVhZGVyKSB7CiAgICAgICAgICBmaW5hbERhdGEgPSBkYXRhLmZpbHRlcihyb3cgPT4gewogICAgICAgICAgICBjb25zdCB2YWwgPSByb3dbZGF0ZUhlYWRlcl07CiAgICAgICAgICAgIGlmICghdmFsKSByZXR1cm4gdHJ1ZTsgLy8gS2VlcCByb3dzIHdpdGhvdXQgZGF0ZSB0byBiZSBzYWZlIG9yIG1heWJlIGZhbHNlPyBLZWVwaW5nIGZvciBub3cuCgogICAgICAgICAgICAvLyBQYXJzZSBERC9NTS9ZWVlZCiAgICAgICAgICAgIGNvbnN0IHBhcnRzID0gU3RyaW5nKHZhbCkuc3BsaXQoJy8nKTsKICAgICAgICAgICAgaWYgKHBhcnRzLmxlbmd0aCA9PT0gMykgewogICAgICAgICAgICAgIGNvbnN0IGRheSA9IHBhcnNlSW50KHBhcnRzWzBdLCAxMCk7CiAgICAgICAgICAgICAgY29uc3QgbW9udGggPSBwYXJzZUludChwYXJ0c1sxXSwgMTApIC0gMTsKICAgICAgICAgICAgICBjb25zdCB5ZWFyID0gcGFyc2VJbnQocGFydHNbMl0sIDEwKTsKICAgICAgICAgICAgICBjb25zdCByb3dEYXRlID0gbmV3IERhdGUoeWVhciwgbW9udGgsIGRheSk7CgogICAgICAgICAgICAgIGlmIChyb3dEYXRlIDwgQ1VUT0ZGX0RBVEUpIHsKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICB9KTsKICAgICAgICB9CgogICAgICAgIHJlc29sdmUoeyBkYXRhOiBmaW5hbERhdGEsIGhlYWRlcnMgfSk7CgogICAgICB9IGNhdGNoIChlcnJvcikgewogICAgICAgIHJlamVjdChlcnJvcik7CiAgICAgIH0KICAgIH07CgogICAgcmVhZGVyLm9uZXJyb3IgPSAoZXJyb3IpID0+IHsKICAgICAgcmVqZWN0KGVycm9yKTsKICAgIH07CgogICAgcmVhZGVyLnJlYWRBc0JpbmFyeVN0cmluZyhmaWxlKTsKICB9KTsKfTs=}
+
+import { TableRow } from '../Dashboard/types';
+
+// XLSX is globally available from the script tag in index.html
+declare const XLSX: any;
+
+export const parseSpreadsheet = (file: File): Promise<{ data: TableRow[], headers: string[] }> => {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+
+    reader.onload = (event: ProgressEvent<FileReader>) => {
+      try {
+        if (!event.target?.result) {
+          return reject(new Error("Failed to read file."));
+        }
+        const workbook = XLSX.read(event.target.result, { type: 'binary' });
+        const sheetName = workbook.SheetNames[0];
+        const worksheet = workbook.Sheets[sheetName];
+
+        // Using { raw: false } tells sheet_to_json to use the formatted text (.w) of cells.
+        // This prevents long numbers (like order IDs) from being converted to JS numbers and losing precision.
+        // defval: null ensures empty cells are parsed as null.
+        const jsonData: any[] = XLSX.utils.sheet_to_json(worksheet, { header: 1, raw: false, defval: null });
+
+        if (jsonData.length < 1 || !jsonData[0]) {
+          return resolve({ data: [], headers: [] });
+        }
+
+        const headers: string[] = jsonData[0].map(String);
+        const data: TableRow[] = jsonData.slice(1).map((row: any[]) => {
+          const rowData: TableRow = {};
+          headers.forEach((header, index) => {
+            // All values are now strings (or null), which is safer for IDs.
+            // Other parts of the code (like cleanAndParse) will handle conversion back to number where needed.
+            rowData[header] = row[index];
+          });
+          return rowData;
+        });
+
+        // Identify the date column (usually "Data" or "Data do Pedido")
+        const dateHeader = headers.find(h => {
+          const lower = h.toLowerCase();
+          return lower === 'data' || lower === 'data do pedido' || lower === 'data pedido';
+        });
+
+        let finalData = data;
+        const CUTOFF_DATE = new Date(2024, 11, 1); // 2024-12-01
+
+        if (dateHeader) {
+          finalData = data.filter(row => {
+            const val = row[dateHeader];
+            if (!val) return true; // Keep rows without date to be safe or maybe false? Keeping for now.
+
+            // Parse DD/MM/YYYY
+            const parts = String(val).split('/');
+            if (parts.length === 3) {
+              const day = parseInt(parts[0], 10);
+              const month = parseInt(parts[1], 10) - 1;
+              const year = parseInt(parts[2], 10);
+              const rowDate = new Date(year, month, day);
+
+              if (rowDate < CUTOFF_DATE) {
+                return false;
+              }
+            }
+            return true;
+          });
+        }
+
+        resolve({ data: finalData, headers });
+
+      } catch (error) {
+        reject(error);
+      }
+    };
+
+    reader.onerror = (error) => {
+      reject(error);
+    };
+
+    reader.readAsBinaryString(file);
+  });
+};

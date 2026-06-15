@@ -1,1 +1,91 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOw0KDQppbnRlcmZhY2UgRGF0ZVJhbmdlIHsNCiAgICBzdGFydDogc3RyaW5nIHwgbnVsbDsNCiAgICBlbmQ6IHN0cmluZyB8IG51bGw7DQp9DQoNCmludGVyZmFjZSBBcHBDb250ZXh0VHlwZSB7DQogICAgc2VsZWN0ZWRDbnBqOiAnTU0nIHwgJ01WRicgfCAnVG9kb3MnOw0KICAgIHNldFNlbGVjdGVkQ25wajogKGNucGo6ICdNTScgfCAnTVZGJyB8ICdUb2RvcycpID0+IHZvaWQ7DQogICAgZGF0ZVJhbmdlOiBEYXRlUmFuZ2U7DQogICAgc2V0RGF0ZVJhbmdlOiAocmFuZ2U6IERhdGVSYW5nZSkgPT4gdm9pZDsNCiAgICBnbG9iYWxTZWFyY2hUZXJtOiBzdHJpbmc7DQogICAgc2V0R2xvYmFsU2VhcmNoVGVybTogKHRlcm06IHN0cmluZykgPT4gdm9pZDsNCiAgICBjbGVhckZpbHRlcnM6ICgpID0+IHZvaWQ7DQogICAgY2xlYXJGaWx0ZXJzVGltZXN0YW1wOiBudW1iZXI7DQogICAgcnVsZVZlcnNpb246IG51bWJlcjsNCiAgICByZWZyZXNoUnVsZXM6ICgpID0+IHZvaWQ7DQp9DQoNCmNvbnN0IEFwcENvbnRleHQgPSBSZWFjdC5jcmVhdGVDb250ZXh0PEFwcENvbnRleHRUeXBlIHwgdW5kZWZpbmVkPih1bmRlZmluZWQpOw0KDQpleHBvcnQgY29uc3QgQXBwUHJvdmlkZXI6IFJlYWN0LkZDPHsgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZSB9PiA9ICh7IGNoaWxkcmVuIH0pID0+IHsNCiAgICAvLyAxLiBDTlBKIHN0YXRlDQogICAgY29uc3QgW3NlbGVjdGVkQ25waiwgc2V0U2VsZWN0ZWRDbnBqXSA9IFJlYWN0LnVzZVN0YXRlPCdNTScgfCAnTVZGJyB8ICdUb2Rvcyc+KCgpID0+IHsNCiAgICAgICAgY29uc3Qgc2F2ZWQgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc2VsZWN0ZWRDbnBqJyk7DQogICAgICAgIHJldHVybiAoc2F2ZWQgYXMgJ01NJyB8ICdNVkYnIHwgJ1RvZG9zJykgfHwgJ1RvZG9zJzsNCiAgICB9KTsNCg0KICAgIC8vIDIuIERhdGUgUmFuZ2Ugc3RhdGUNCiAgICBjb25zdCBbZGF0ZVJhbmdlLCBzZXREYXRlUmFuZ2VdID0gUmVhY3QudXNlU3RhdGU8RGF0ZVJhbmdlPigoKSA9PiB7DQogICAgICAgIHRyeSB7DQogICAgICAgICAgICBjb25zdCBzYXZlZCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdkYXRlUmFuZ2UnKTsNCiAgICAgICAgICAgIHJldHVybiBzYXZlZCA/IEpTT04ucGFyc2Uoc2F2ZWQpIDogeyBzdGFydDogbnVsbCwgZW5kOiBudWxsIH07DQogICAgICAgIH0gY2F0Y2ggKGUpIHsNCiAgICAgICAgICAgIHJldHVybiB7IHN0YXJ0OiBudWxsLCBlbmQ6IG51bGwgfTsNCiAgICAgICAgfQ0KICAgIH0pOw0KDQogICAgLy8gMy4gR2xvYmFsIFNlYXJjaCBUZXJtDQogICAgY29uc3QgW2dsb2JhbFNlYXJjaFRlcm0sIHNldEdsb2JhbFNlYXJjaFRlcm1dID0gUmVhY3QudXNlU3RhdGUoJycpOw0KDQogICAgLy8gNC4gQ2xlYXIgRmlsdGVycyBUaW1lc3RhbXANCiAgICBjb25zdCBbY2xlYXJGaWx0ZXJzVGltZXN0YW1wLCBzZXRDbGVhckZpbHRlcnNUaW1lc3RhbXBdID0gUmVhY3QudXNlU3RhdGUoMCk7DQoNCiAgICAvLyA1LiBTS1UgUnVsZSBWZXJzaW9uIChHbG9iYWwgc3luY2hyb25pemF0aW9uKQ0KICAgIGNvbnN0IFtydWxlVmVyc2lvbiwgc2V0UnVsZVZlcnNpb25dID0gUmVhY3QudXNlU3RhdGUoMCk7DQoNCiAgICAvLyBQZXJzaXN0ZW5jZSBFZmZlY3RzDQogICAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsNCiAgICAgICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oJ3NlbGVjdGVkQ25waicsIHNlbGVjdGVkQ25waik7DQogICAgfSwgW3NlbGVjdGVkQ25wal0pOw0KDQogICAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsNCiAgICAgICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oJ2RhdGVSYW5nZScsIEpTT04uc3RyaW5naWZ5KGRhdGVSYW5nZSkpOw0KICAgIH0sIFtkYXRlUmFuZ2VdKTsNCg0KICAgIGNvbnN0IGNsZWFyRmlsdGVycyA9IFJlYWN0LnVzZUNhbGxiYWNrKCgpID0+IHsNCiAgICAgICAgc2V0U2VsZWN0ZWRDbnBqKCdUb2RvcycpOw0KICAgICAgICBzZXREYXRlUmFuZ2UoeyBzdGFydDogbnVsbCwgZW5kOiBudWxsIH0pOw0KICAgICAgICBzZXRHbG9iYWxTZWFyY2hUZXJtKCcnKTsNCiAgICAgICAgc2V0Q2xlYXJGaWx0ZXJzVGltZXN0YW1wKERhdGUubm93KCkpOw0KICAgIH0sIFtdKTsNCg0KICAgIGNvbnN0IHJlZnJlc2hSdWxlcyA9IFJlYWN0LnVzZUNhbGxiYWNrKCgpID0+IHsNCiAgICAgICAgc2V0UnVsZVZlcnNpb24odiA9PiB2ICsgMSk7DQogICAgfSwgW10pOw0KDQogICAgY29uc3QgdmFsdWUgPSBSZWFjdC51c2VNZW1vKCgpID0+ICh7DQogICAgICAgIHNlbGVjdGVkQ25waiwNCiAgICAgICAgc2V0U2VsZWN0ZWRDbnBqLA0KICAgICAgICBkYXRlUmFuZ2UsDQogICAgICAgIHNldERhdGVSYW5nZSwNCiAgICAgICAgZ2xvYmFsU2VhcmNoVGVybSwNCiAgICAgICAgc2V0R2xvYmFsU2VhcmNoVGVybSwNCiAgICAgICAgY2xlYXJGaWx0ZXJzLA0KICAgICAgICBjbGVhckZpbHRlcnNUaW1lc3RhbXAsDQogICAgICAgIHJ1bGVWZXJzaW9uLA0KICAgICAgICByZWZyZXNoUnVsZXMNCiAgICB9KSwgW3NlbGVjdGVkQ25waiwgZGF0ZVJhbmdlLCBnbG9iYWxTZWFyY2hUZXJtLCBjbGVhckZpbHRlcnMsIGNsZWFyRmlsdGVyc1RpbWVzdGFtcCwgcnVsZVZlcnNpb24sIHJlZnJlc2hSdWxlc10pOw0KDQogICAgcmV0dXJuIDxBcHBDb250ZXh0LlByb3ZpZGVyIHZhbHVlPXt2YWx1ZX0+e2NoaWxkcmVufTwvQXBwQ29udGV4dC5Qcm92aWRlcj47DQp9Ow0KDQpleHBvcnQgY29uc3QgdXNlQXBwQ29udGV4dCA9ICgpID0+IHsNCiAgICBjb25zdCBjb250ZXh0ID0gUmVhY3QudXNlQ29udGV4dChBcHBDb250ZXh0KTsNCiAgICBpZiAoY29udGV4dCA9PT0gdW5kZWZpbmVkKSB7DQogICAgICAgIHRocm93IG5ldyBFcnJvcigndXNlQXBwQ29udGV4dCBtdXN0IGJlIHVzZWQgd2l0aGluIGFuIEFwcFByb3ZpZGVyJyk7DQogICAgfQ0KICAgIHJldHVybiBjb250ZXh0Ow0KfTsNCg==}
+import * as React from 'react';
+
+interface DateRange {
+    start: string | null;
+    end: string | null;
+}
+
+interface AppContextType {
+    selectedCnpj: 'MM' | 'MVF' | 'Todos';
+    setSelectedCnpj: (cnpj: 'MM' | 'MVF' | 'Todos') => void;
+    dateRange: DateRange;
+    setDateRange: (range: DateRange) => void;
+    globalSearchTerm: string;
+    setGlobalSearchTerm: (term: string) => void;
+    clearFilters: () => void;
+    clearFiltersTimestamp: number;
+    ruleVersion: number;
+    refreshRules: () => void;
+}
+
+const AppContext = React.createContext<AppContextType | undefined>(undefined);
+
+export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+    // 1. CNPJ state
+    const [selectedCnpj, setSelectedCnpj] = React.useState<'MM' | 'MVF' | 'Todos'>(() => {
+        const saved = localStorage.getItem('selectedCnpj');
+        return (saved as 'MM' | 'MVF' | 'Todos') || 'Todos';
+    });
+
+    // 2. Date Range state
+    const [dateRange, setDateRange] = React.useState<DateRange>(() => {
+        try {
+            const saved = localStorage.getItem('dateRange');
+            return saved ? JSON.parse(saved) : { start: null, end: null };
+        } catch (e) {
+            return { start: null, end: null };
+        }
+    });
+
+    // 3. Global Search Term
+    const [globalSearchTerm, setGlobalSearchTerm] = React.useState('');
+
+    // 4. Clear Filters Timestamp
+    const [clearFiltersTimestamp, setClearFiltersTimestamp] = React.useState(0);
+
+    // 5. SKU Rule Version (Global synchronization)
+    const [ruleVersion, setRuleVersion] = React.useState(0);
+
+    // Persistence Effects
+    React.useEffect(() => {
+        localStorage.setItem('selectedCnpj', selectedCnpj);
+    }, [selectedCnpj]);
+
+    React.useEffect(() => {
+        localStorage.setItem('dateRange', JSON.stringify(dateRange));
+    }, [dateRange]);
+
+    const clearFilters = React.useCallback(() => {
+        setSelectedCnpj('Todos');
+        setDateRange({ start: null, end: null });
+        setGlobalSearchTerm('');
+        setClearFiltersTimestamp(Date.now());
+    }, []);
+
+    const refreshRules = React.useCallback(() => {
+        setRuleVersion(v => v + 1);
+    }, []);
+
+    const value = React.useMemo(() => ({
+        selectedCnpj,
+        setSelectedCnpj,
+        dateRange,
+        setDateRange,
+        globalSearchTerm,
+        setGlobalSearchTerm,
+        clearFilters,
+        clearFiltersTimestamp,
+        ruleVersion,
+        refreshRules
+    }), [selectedCnpj, dateRange, globalSearchTerm, clearFilters, clearFiltersTimestamp, ruleVersion, refreshRules]);
+
+    return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
+};
+
+export const useAppContext = () => {
+    const context = React.useContext(AppContext);
+    if (context === undefined) {
+        throw new Error('useAppContext must be used within an AppProvider');
+    }
+    return context;
+};

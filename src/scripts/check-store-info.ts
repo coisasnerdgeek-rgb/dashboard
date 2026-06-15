@@ -1,1 +1,92 @@
-﻿@{data=LyoqDQogKiBWZXJpZmljYXIgZGUgb25kZSB2ZW0gYSBpbmZvcm1hw6fDo28gZGEgbG9qYSBub3MgcGVkaWRvcw0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIC5lbnYubG9jYWwNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KY29uc3QgVElOWV9UT0tFTl9NTSA9IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOX01NIHx8IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja1N0b3JlSW5mbygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5SNIFZlcmlmaWNhbmRvIEluZm9ybWHDp8OjbyBkZSBMb2phXG4nKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSArICdcbicpOw0KDQogICAgLy8gQnVzY2FyIHVtIHBlZGlkbyBkbyBkaWEgMjggY29tIGxvamEgaW5jb3JyZXRhDQogICAgY29uc3QgeyBkYXRhOiBzYW1wbGVzIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJ3Jvd19kYXRhJykNCiAgICAgICAgLmVxKCdyb3dfZGF0YS0+PkRhdGEnLCAnMjgvMDEvMjAyNicpDQogICAgICAgIC5saW1pdCg1KTsNCg0KICAgIGlmIChzYW1wbGVzICYmIHNhbXBsZXMubGVuZ3RoID4gMCkgew0KICAgICAgICBjb25zb2xlLmxvZygn8J+TpiBBbW9zdHJhcyBkZSBwZWRpZG9zIGNvbSBMT0pBIElOQ09SUkVUQTpcbicpOw0KICAgICAgICBzYW1wbGVzLmZvckVhY2goKHJvdzogYW55LCBpZHg6IG51bWJlcikgPT4gew0KICAgICAgICAgICAgY29uc29sZS5sb2coYCR7aWR4ICsgMX0uIElEIFRpbnk6ICR7cm93LnJvd19kYXRhWydJRCBUaW55J119YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgTG9qYSBhdHVhbDogIiR7cm93LnJvd19kYXRhWydMb2phJ119ImApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIE9ic2VydmHDp8O1ZXM6ICIke3Jvdy5yb3dfZGF0YVsnT2JzZXJ2YcOnw7VlcyddPy5zdWJzdHJpbmcoMCwgMTAwKX0uLi4iYCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgT2JzIEludGVybmFzOiAiJHtyb3cucm93X2RhdGFbJ09ic2VydmHDp8O1ZXMgSW50ZXJuYXMnXT8uc3Vic3RyaW5nKDAsIDEwMCl9Li4uImApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coJycpOw0KICAgICAgICB9KTsNCg0KICAgICAgICAvLyBCdXNjYXIgZGV0YWxoZXMgY29tcGxldG9zIGRlIHVtIHBlZGlkbyBkbyBUaW55IHBhcmEgdmVyIGVzdHJ1dHVyYQ0KICAgICAgICBjb25zdCBzYW1wbGVJZCA9IHNhbXBsZXNbMF0ucm93X2RhdGFbJ0lEIFRpbnknXTsNCiAgICAgICAgY29uc29sZS5sb2coYPCfk6EgQnVzY2FuZG8gZXN0cnV0dXJhIGNvbXBsZXRhIGRvIHBlZGlkbyAjJHtzYW1wbGVJZH0gbm8gVGlueS4uLlxuYCk7DQoNCiAgICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgNCiAgICAgICAgICAgIGBodHRwczovL2FwaS50aW55LmNvbS5ici9hcGkyL3BlZGlkby5vYnRlci5waHA/dG9rZW49JHtUSU5ZX1RPS0VOX01NfSZpZD0ke3NhbXBsZUlkfSZmb3JtYXRvPUpTT05gDQogICAgICAgICk7DQogICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7DQoNCiAgICAgICAgaWYgKGRhdGEucmV0b3Jubz8uc3RhdHVzID09PSAnT0snKSB7DQogICAgICAgICAgICBjb25zdCBwZWRpZG8gPSBkYXRhLnJldG9ybm8ucGVkaWRvOw0KICAgICAgICAgICAgY29uc29sZS5sb2coJ0NhbXBvcyBkaXNwb27DrXZlaXM6Jyk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgbm9tZV92ZW5kZWRvcjogIiR7cGVkaWRvLm5vbWVfdmVuZGVkb3J9ImApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIGlkX3ZlbmRlZG9yOiAiJHtwZWRpZG8uaWRfdmVuZGVkb3J9ImApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIGVjb21tZXJjZS5udW1lcm9fbG9qYTogIiR7cGVkaWRvLmVjb21tZXJjZT8ubnVtZXJvX2xvamF9ImApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIG9iczogIiR7cGVkaWRvLm9icz8uc3Vic3RyaW5nKDAsIDEwMCl9Li4uImApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIG9ic19pbnRlcm5hOiAiJHtwZWRpZG8ub2JzX2ludGVybmE/LnN1YnN0cmluZygwLCAxMDApfS4uLiJgKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCcnKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8vIEJ1c2NhciBwZWRpZG9zIEFOVElHT1MgY29tIGxvamEgQ09SUkVUQSBwYXJhIGNvbXBhcmFyDQogICAgY29uc29sZS5sb2coJ1xu8J+TpiBBbW9zdHJhcyBkZSBwZWRpZG9zIEFOVElHT1MgY29tIGxvamEgQ09SUkVUQTpcbicpOw0KDQogICAgY29uc3QgeyBkYXRhOiBvbGRTYW1wbGVzIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJ3Jvd19kYXRhJykNCiAgICAgICAgLm9yKCdyb3dfZGF0YS0+PkxvamEuaWxpa2UuJVNIIE1NJSxyb3dfZGF0YS0+PkxvamEuaWxpa2UuJU1MIE1NJSxyb3dfZGF0YS0+PkxvamEuaWxpa2UuJU5HIE1NJScpDQogICAgICAgIC5saW1pdCg1KTsNCg0KICAgIGlmIChvbGRTYW1wbGVzICYmIG9sZFNhbXBsZXMubGVuZ3RoID4gMCkgew0KICAgICAgICBvbGRTYW1wbGVzLmZvckVhY2goKHJvdzogYW55LCBpZHg6IG51bWJlcikgPT4gew0KICAgICAgICAgICAgY29uc29sZS5sb2coYCR7aWR4ICsgMX0uIElEIFRpbnk6ICR7cm93LnJvd19kYXRhWydJRCBUaW55J119YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgTG9qYTogIiR7cm93LnJvd19kYXRhWydMb2phJ119ImApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIERhdGE6ICR7cm93LnJvd19kYXRhWydEYXRhJ119YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnJyk7DQogICAgICAgIH0pOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCc9Jy5yZXBlYXQoNjApICsgJ1xuJyk7DQp9DQoNCmNoZWNrU3RvcmVJbmZvKCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+/**
+ * Verificar de onde vem a informação da loja nos pedidos
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const TINY_TOKEN_MM = process.env.TINY_API_TOKEN_MM || process.env.TINY_API_TOKEN;
+
+async function checkStoreInfo() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🔍 Verificando Informação de Loja\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Buscar um pedido do dia 28 com loja incorreta
+    const { data: samples } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data')
+        .eq('row_data->>Data', '28/01/2026')
+        .limit(5);
+
+    if (samples && samples.length > 0) {
+        console.log('📦 Amostras de pedidos com LOJA INCORRETA:\n');
+        samples.forEach((row: any, idx: number) => {
+            console.log(`${idx + 1}. ID Tiny: ${row.row_data['ID Tiny']}`);
+            console.log(`   Loja atual: "${row.row_data['Loja']}"`);
+            console.log(`   Observações: "${row.row_data['Observações']?.substring(0, 100)}..."`);
+            console.log(`   Obs Internas: "${row.row_data['Observações Internas']?.substring(0, 100)}..."`);
+            console.log('');
+        });
+
+        // Buscar detalhes completos de um pedido do Tiny para ver estrutura
+        const sampleId = samples[0].row_data['ID Tiny'];
+        console.log(`📡 Buscando estrutura completa do pedido #${sampleId} no Tiny...\n`);
+
+        const response = await fetch(
+            `https://api.tiny.com.br/api2/pedido.obter.php?token=${TINY_TOKEN_MM}&id=${sampleId}&formato=JSON`
+        );
+        const data = await response.json();
+
+        if (data.retorno?.status === 'OK') {
+            const pedido = data.retorno.pedido;
+            console.log('Campos disponíveis:');
+            console.log(`   nome_vendedor: "${pedido.nome_vendedor}"`);
+            console.log(`   id_vendedor: "${pedido.id_vendedor}"`);
+            console.log(`   ecommerce.numero_loja: "${pedido.ecommerce?.numero_loja}"`);
+            console.log(`   obs: "${pedido.obs?.substring(0, 100)}..."`);
+            console.log(`   obs_interna: "${pedido.obs_interna?.substring(0, 100)}..."`);
+            console.log('');
+        }
+    }
+
+    // Buscar pedidos ANTIGOS com loja CORRETA para comparar
+    console.log('\n📦 Amostras de pedidos ANTIGOS com loja CORRETA:\n');
+
+    const { data: oldSamples } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data')
+        .or('row_data->>Loja.ilike.%SH MM%,row_data->>Loja.ilike.%ML MM%,row_data->>Loja.ilike.%NG MM%')
+        .limit(5);
+
+    if (oldSamples && oldSamples.length > 0) {
+        oldSamples.forEach((row: any, idx: number) => {
+            console.log(`${idx + 1}. ID Tiny: ${row.row_data['ID Tiny']}`);
+            console.log(`   Loja: "${row.row_data['Loja']}"`);
+            console.log(`   Data: ${row.row_data['Data']}`);
+            console.log('');
+        });
+    }
+
+    console.log('='.repeat(60) + '\n');
+}
+
+checkStoreInfo().catch(console.error);

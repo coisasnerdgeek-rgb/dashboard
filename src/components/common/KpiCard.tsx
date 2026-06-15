@@ -1,1 +1,90 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOw0KDQppbnRlcmZhY2UgS3BpQ2FyZFByb3BzIHsNCiAgICB0aXRsZTogc3RyaW5nOw0KICAgIHZhbHVlOiBzdHJpbmc7DQogICAgaWNvbjogUmVhY3QuUmVhY3ROb2RlOw0KICAgIGNvbG9yT2JqOiB7DQogICAgICAgIGZyb206IHN0cmluZzsNCiAgICAgICAgdG86IHN0cmluZzsNCiAgICAgICAgc2hhZG93OiBzdHJpbmc7DQogICAgICAgIGljb25CZz86IHN0cmluZzsNCiAgICAgICAgYm9yZGVyPzogc3RyaW5nOw0KICAgICAgICB0ZXh0Pzogc3RyaW5nOw0KICAgIH07DQogICAgc3VidGl0bGU/OiBzdHJpbmc7DQogICAgYnJlYWtkb3duPzogc3RyaW5nOw0KICAgIHZhbHVlQ2xhc3NOYW1lPzogc3RyaW5nOw0KICAgIHZhcmlhbnQ/OiAncHJpbWFyeScgfCAnc2Vjb25kYXJ5JzsNCiAgICBvbkNsaWNrPzogKCkgPT4gdm9pZDsNCiAgICBpc0FjdGl2ZT86IGJvb2xlYW47DQogICAgY2xhc3NOYW1lPzogc3RyaW5nOw0KfQ0KDQpjb25zdCBLcGlDYXJkOiBSZWFjdC5GQzxLcGlDYXJkUHJvcHM+ID0gKHsgdGl0bGUsIHZhbHVlLCBpY29uLCBjb2xvck9iaiwgc3VidGl0bGUsIGJyZWFrZG93biwgdmFsdWVDbGFzc05hbWUsIHZhcmlhbnQgPSAncHJpbWFyeScsIG9uQ2xpY2ssIGlzQWN0aXZlLCBjbGFzc05hbWUgPSAnJyB9KSA9PiB7DQogICAgY29uc3QgW2lzSG92ZXJlZCwgc2V0SXNIb3ZlcmVkXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTsNCiAgICBjb25zdCBDb21wb25lbnQgPSBvbkNsaWNrID8gJ2J1dHRvbicgOiAnZGl2JzsNCiAgICBjb25zdCBjbGlja1Byb3BzID0gb25DbGljayA/IHsNCiAgICAgICAgb25DbGljaywNCiAgICAgICAgdHlwZTogJ2J1dHRvbicgYXMgY29uc3QsDQogICAgICAgIG9uTW91c2VFbnRlcjogKCkgPT4gc2V0SXNIb3ZlcmVkKHRydWUpLA0KICAgICAgICBvbk1vdXNlTGVhdmU6ICgpID0+IHNldElzSG92ZXJlZChmYWxzZSkNCiAgICB9IDoge307DQoNCiAgICBpZiAodmFyaWFudCA9PT0gJ3NlY29uZGFyeScpIHsNCiAgICAgICAgcmV0dXJuICgNCiAgICAgICAgICAgIC8vIEB0cy1pZ25vcmUNCiAgICAgICAgICAgIDxDb21wb25lbnQNCiAgICAgICAgICAgICAgICB7Li4uY2xpY2tQcm9wc30NCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2B3LWZ1bGwgbWQ6dy1hdXRvIG1pbi13LVsxMjBweF0gdGV4dC1sZWZ0IHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiBiZy13aGl0ZS80MCBkYXJrOmJnLVsjMWUyNTMwXS80MCBiYWNrZHJvcC1ibHVyLXNtIGJvcmRlciAke2lzQWN0aXZlID8gJ2JvcmRlci1wcmltYXJ5LTUwMCByaW5nLTIgcmluZy1wcmltYXJ5LTUwMC8yMCcgOiBjb2xvck9iai5ib3JkZXIgfHwgJ2JvcmRlci1ncmF5LTIwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCd9IHJvdW5kZWQteGwgcHgtMiBweS0yIHNoYWRvdy1zbSBob3ZlcjpzaGFkb3ctbGcgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwICR7b25DbGljayA/ICdob3ZlcjotdHJhbnNsYXRlLXktMScgOiAnJ30gZ3JvdXAgaC1mdWxsYH0NCiAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YGFic29sdXRlIHRvcC0wIHJpZ2h0LTAgcC0yIG9wYWNpdHktMTAgZ3JvdXAtaG92ZXI6b3BhY2l0eS0yMCB0cmFuc2l0aW9uLW9wYWNpdHkgdHJhbnNmb3JtIGdyb3VwLWhvdmVyOnNjYWxlLTExMCAke2NvbG9yT2JqLnRleHQgfHwgJ3RleHQtZ3JheS00MDAnfWB9Pg0KICAgICAgICAgICAgICAgICAgICB7UmVhY3QuY2xvbmVFbGVtZW50KGljb24gYXMgUmVhY3QuUmVhY3RFbGVtZW50PGFueT4sIHsgY2xhc3NOYW1lOiAiaC0xMiB3LTEyIiB9KX0NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcmVsYXRpdmUgei0xMCI+DQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgcC0xIHJvdW5kZWQtbGcgJHtjb2xvck9iai5pY29uQmcgfHwgJ2JnLWdyYXktMTAwIGRhcms6YmctZ3JheS04MDAnfSAke2NvbG9yT2JqLnRleHQgfHwgJ3RleHQtZ3JheS02MDAgZGFyazp0ZXh0LWdyYXktMzAwJ30gc2hhZG93LWlubmVyYH0+DQogICAgICAgICAgICAgICAgICAgICAgICB7UmVhY3QuY2xvbmVFbGVtZW50KGljb24gYXMgUmVhY3QuUmVhY3RFbGVtZW50PGFueT4sIHsgY2xhc3NOYW1lOiAiaC0zLjUgdy0zLjUiIH0pfQ0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LTAgZmxleC0xIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgdGV4dC1sZyBmb250LWJvbGQgJHtjb2xvck9iai50ZXh0IHx8ICd0ZXh0LWdyYXktOTAwIGRhcms6dGV4dC13aGl0ZSd9IHRydW5jYXRlIGxlYWRpbmctdGlnaHRgfSB0aXRsZT17dmFsdWV9Pnt2YWx1ZX08L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIGZvbnQtc2VtaWJvbGQgdGV4dC1ncmF5LTUwMCBkYXJrOnRleHQtZ3JheS00MDAgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUgdHJ1bmNhdGUgbGVhZGluZy10aWdodCIgdGl0bGU9e3RpdGxlfT57dGl0bGV9PC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIHtzdWJ0aXRsZSAmJiA8ZGl2IGNsYXNzTmFtZT0ibXQtMSB0ZXh0LVs5cHhdIGZvbnQtbWVkaXVtIHRleHQtZ3JheS00MDAgcGwtMSB0cnVuY2F0ZSIgdGl0bGU9e3N1YnRpdGxlfT57c3VidGl0bGV9PC9kaXY+fQ0KICAgICAgICAgICAgICAgIHticmVha2Rvd24gJiYgPGRpdiBjbGFzc05hbWU9Im10LTAuNSB0ZXh0LVs4cHhdIGZvbnQtbWVkaXVtIHRleHQtYmx1ZS00MDAvODAgcGwtMSB0cnVuY2F0ZSBpdGFsaWMiIHRpdGxlPXticmVha2Rvd259PnticmVha2Rvd259PC9kaXY+fQ0KICAgICAgICAgICAgPC9Db21wb25lbnQ+DQogICAgICAgICk7DQogICAgfQ0KDQogICAgLy8gRVNUQU1QQSAvIENPTVBBQ1QgU1RZTEUNCiAgICBjb25zdCBncmFkaWVudENsYXNzID0gYGJnLWdyYWRpZW50LXRvLWJyICR7Y29sb3JPYmouZnJvbX0gJHtjb2xvck9iai50b31gOw0KDQogICAgcmV0dXJuICgNCiAgICAgICAgLy8gQHRzLWlnbm9yZQ0KICAgICAgICA8Q29tcG9uZW50DQogICAgICAgICAgICB7Li4uY2xpY2tQcm9wc30NCiAgICAgICAgICAgIGNsYXNzTmFtZT17YHctZnVsbCByZWxhdGl2ZSBvdmVyZmxvdy1oaWRkZW4gJHtncmFkaWVudENsYXNzfSByb3VuZGVkLXhsIHB4LTIgcHktMS41IHRleHQtd2hpdGUgc2hhZG93LW1kIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTMwMCAke29uQ2xpY2sgPyAnaG92ZXI6c2NhbGUtMTA1IGFjdGl2ZTpzY2FsZS05NSBjdXJzb3ItcG9pbnRlcicgOiAnJ30gaC1mdWxsIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG1pbi1oLVs1NXB4XSB0ZXh0LWNlbnRlciAke2lzQWN0aXZlID8gJ3JpbmctMiByaW5nLXdoaXRlIHJpbmctb2Zmc2V0LTInIDogJyd9ICR7Y2xhc3NOYW1lfWB9DQogICAgICAgID4NCiAgICAgICAgICAgIHsvKiBTdWJ0bGUgYmFja2dyb3VuZCBpY29uICovfQ0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2BhYnNvbHV0ZSAtcmlnaHQtMiAtYm90dG9tLTIgb3BhY2l0eS0yMCB0cmFuc2Zvcm0gLXJvdGF0ZS0xMiBwb2ludGVyLWV2ZW50cy1ub25lIHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTUwMCAke2lzSG92ZXJlZCA/ICdzY2FsZS1bMi41XScgOiAnc2NhbGUtWzJdJ31gfT4NCiAgICAgICAgICAgICAgICB7UmVhY3QuY2xvbmVFbGVtZW50KGljb24gYXMgUmVhY3QuUmVhY3RFbGVtZW50PGFueT4sIHsgY2xhc3NOYW1lOiAiaC04IHctOCB0ZXh0LXdoaXRlIiB9KX0NCiAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgei0xMCBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB3LWZ1bGwiPg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIGZvbnQtYmxhY2sgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVzdCBvcGFjaXR5LTgwIGxlYWRpbmctdGlnaHQgbWItMC41Ij4NCiAgICAgICAgICAgICAgICAgICAge3RpdGxlfQ0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgJHt2YWx1ZUNsYXNzTmFtZSB8fCAndGV4dC14bCd9IGZvbnQtYmxhY2sgdGV4dC13aGl0ZSBsZWFkaW5nLXRpZ2h0IHRyYWNraW5nLXRpZ2h0YH0+DQogICAgICAgICAgICAgICAgICAgIHt2YWx1ZX0NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICB7YnJlYWtkb3duICYmICgNCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEgdGV4dC1bOHB4XSBmb250LWJvbGQgdGV4dC13aGl0ZS82MCB0cnVuY2F0ZSBtYXgtdy1mdWxsIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIHticmVha2Rvd259DQogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICl9DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgPC9Db21wb25lbnQ+DQogICAgKTsNCn07DQoNCmV4cG9ydCBkZWZhdWx0IEtwaUNhcmQ7DQo=}
+import * as React from 'react';
+
+interface KpiCardProps {
+    title: string;
+    value: string;
+    icon: React.ReactNode;
+    colorObj: {
+        from: string;
+        to: string;
+        shadow: string;
+        iconBg?: string;
+        border?: string;
+        text?: string;
+    };
+    subtitle?: string;
+    breakdown?: string;
+    valueClassName?: string;
+    variant?: 'primary' | 'secondary';
+    onClick?: () => void;
+    isActive?: boolean;
+    className?: string;
+}
+
+const KpiCard: React.FC<KpiCardProps> = ({ title, value, icon, colorObj, subtitle, breakdown, valueClassName, variant = 'primary', onClick, isActive, className = '' }) => {
+    const [isHovered, setIsHovered] = React.useState(false);
+    const Component = onClick ? 'button' : 'div';
+    const clickProps = onClick ? {
+        onClick,
+        type: 'button' as const,
+        onMouseEnter: () => setIsHovered(true),
+        onMouseLeave: () => setIsHovered(false)
+    } : {};
+
+    if (variant === 'secondary') {
+        return (
+            // @ts-ignore
+            <Component
+                {...clickProps}
+                className={`w-full md:w-auto min-w-[120px] text-left relative overflow-hidden bg-white/40 dark:bg-[#1e2530]/40 backdrop-blur-sm border ${isActive ? 'border-primary-500 ring-2 ring-primary-500/20' : colorObj.border || 'border-gray-200 dark:border-gray-700'} rounded-xl px-2 py-2 shadow-sm hover:shadow-lg transition-all duration-300 ${onClick ? 'hover:-translate-y-1' : ''} group h-full`}
+            >
+                <div className={`absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-20 transition-opacity transform group-hover:scale-110 ${colorObj.text || 'text-gray-400'}`}>
+                    {React.cloneElement(icon as React.ReactElement<any>, { className: "h-12 w-12" })}
+                </div>
+                <div className="flex items-center gap-2 relative z-10">
+                    <div className={`p-1 rounded-lg ${colorObj.iconBg || 'bg-gray-100 dark:bg-gray-800'} ${colorObj.text || 'text-gray-600 dark:text-gray-300'} shadow-inner`}>
+                        {React.cloneElement(icon as React.ReactElement<any>, { className: "h-3.5 w-3.5" })}
+                    </div>
+                    <div className="min-w-0 flex-1">
+                        <div className={`text-lg font-bold ${colorObj.text || 'text-gray-900 dark:text-white'} truncate leading-tight`} title={value}>{value}</div>
+                        <div className="text-[9px] font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide truncate leading-tight" title={title}>{title}</div>
+                    </div>
+                </div>
+                {subtitle && <div className="mt-1 text-[9px] font-medium text-gray-400 pl-1 truncate" title={subtitle}>{subtitle}</div>}
+                {breakdown && <div className="mt-0.5 text-[8px] font-medium text-blue-400/80 pl-1 truncate italic" title={breakdown}>{breakdown}</div>}
+            </Component>
+        );
+    }
+
+    // ESTAMPA / COMPACT STYLE
+    const gradientClass = `bg-gradient-to-br ${colorObj.from} ${colorObj.to}`;
+
+    return (
+        // @ts-ignore
+        <Component
+            {...clickProps}
+            className={`w-full relative overflow-hidden ${gradientClass} rounded-xl px-2 py-1.5 text-white shadow-md transition-all duration-300 ${onClick ? 'hover:scale-105 active:scale-95 cursor-pointer' : ''} h-full flex flex-col items-center justify-center min-h-[55px] text-center ${isActive ? 'ring-2 ring-white ring-offset-2' : ''} ${className}`}
+        >
+            {/* Subtle background icon */}
+            <div className={`absolute -right-2 -bottom-2 opacity-20 transform -rotate-12 pointer-events-none transition-transform duration-500 ${isHovered ? 'scale-[2.5]' : 'scale-[2]'}`}>
+                {React.cloneElement(icon as React.ReactElement<any>, { className: "h-8 w-8 text-white" })}
+            </div>
+
+            <div className="relative z-10 flex flex-col items-center justify-center w-full">
+                <div className="text-[9px] font-black uppercase tracking-widest opacity-80 leading-tight mb-0.5">
+                    {title}
+                </div>
+                <div className={`${valueClassName || 'text-xl'} font-black text-white leading-tight tracking-tight`}>
+                    {value}
+                </div>
+                {breakdown && (
+                    <div className="mt-1 text-[8px] font-bold text-white/60 truncate max-w-full">
+                        {breakdown}
+                    </div>
+                )}
+            </div>
+        </Component>
+    );
+};
+
+export default KpiCard;

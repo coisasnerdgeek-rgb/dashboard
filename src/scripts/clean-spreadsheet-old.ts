@@ -1,1 +1,45 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgU0VSVklDRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCmNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE5FV19TVVBBQkFTRV9VUkwsIFNFUlZJQ0VfS0VZLCB7IGF1dGg6IHsgYXV0b1JlZnJlc2hUb2tlbjogZmFsc2UsIHBlcnNpc3RTZXNzaW9uOiBmYWxzZSB9IH0pOw0KDQphc3luYyBmdW5jdGlvbiBjbGVhblNwcmVhZHNoZWV0KCkgew0KICAgIGNvbnNvbGUubG9nKCdDbGVhbmluZyBzcHJlYWRzaGVldF9kYXRhIChpbXBvcnRfZGF0ZSA8PSAyNS8wMS8yMDI2KS4uLicpOw0KDQogICAgLy8gQ2hlY2sgZGlzdHJpYnV0aW9uDQogICAgY29uc3QgeyBkYXRhOiBtaW5EYXRlIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykuc2VsZWN0KCdpbXBvcnRfZGF0ZScpLm9yZGVyKCdpbXBvcnRfZGF0ZScsIHsgYXNjZW5kaW5nOiB0cnVlIH0pLmxpbWl0KDEpOw0KICAgIGNvbnNvbGUubG9nKGBPbGRlc3QgSW1wb3J0OiAke21pbkRhdGU/LlswXT8uaW1wb3J0X2RhdGV9YCk7DQoNCiAgICAvLyBDdXRvZmY6IDIwMjYtMDEtMjUgMjM6NTk6NTkNCiAgICBjb25zdCBjdXRPZmYgPSAnMjAyNi0wMS0yNVQyMzo1OTo1OS45OTlaJzsNCg0KICAgIC8vIENvdW50IHRvIGRlbGV0ZQ0KICAgIGNvbnN0IHsgY291bnQgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgLmx0ZSgnaW1wb3J0X2RhdGUnLCBjdXRPZmYpOw0KDQogICAgY29uc29sZS5sb2coYEZvdW5kICR7Y291bnR9IG9sZCBzcHJlYWRzaGVldCByb3dzIHRvIGRlbGV0ZS5gKTsNCg0KICAgIGlmICghY291bnQgfHwgY291bnQgPT09IDApIHJldHVybjsNCg0KICAgIC8vIERlbGV0ZSBlZmZpY2llbnRseT8gREVMRVRFIHdoZXJlIGltcG9ydF9kYXRlIDwgY3V0T2ZmDQogICAgLy8gU2luY2Ugd2UgaGF2ZSA2MWsgcm93cyBhbmQgbWF5YmUgNDBrIGFyZSBvbGQsIGJ1bGsgZGVsZXRlIG1pZ2h0IHRpbWVvdXQuDQogICAgLy8gQnV0IGxldCdzIHRyeSBkaXJlY3QgZGVsZXRlIGZpcnN0Lg0KDQogICAgY29uc3QgeyBlcnJvcjogZGVsRXJyb3IsIGNvdW50OiBkZWxDb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuZGVsZXRlKHsgY291bnQ6ICdleGFjdCcgfSkNCiAgICAgICAgLmx0ZSgnaW1wb3J0X2RhdGUnLCBjdXRPZmYpOw0KDQogICAgaWYgKGRlbEVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0J1bGsgZGVsZXRlIGZhaWxlZDonLCBkZWxFcnJvcik7DQogICAgICAgIC8vIEZhbGxiYWNrIHRvIGJhdGNoZXMNCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZyhgU3VjY2Vzc2Z1bGx5IGRlbGV0ZWQgJHtkZWxDb3VudH0gcm93cy5gKTsNCiAgICB9DQp9DQoNCmNsZWFuU3ByZWFkc2hlZXQoKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, SERVICE_KEY, { auth: { autoRefreshToken: false, persistSession: false } });
+
+async function cleanSpreadsheet() {
+    console.log('Cleaning spreadsheet_data (import_date <= 25/01/2026)...');
+
+    // Check distribution
+    const { data: minDate } = await supabase.from('spreadsheet_data').select('import_date').order('import_date', { ascending: true }).limit(1);
+    console.log(`Oldest Import: ${minDate?.[0]?.import_date}`);
+
+    // Cutoff: 2026-01-25 23:59:59
+    const cutOff = '2026-01-25T23:59:59.999Z';
+
+    // Count to delete
+    const { count } = await supabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true })
+        .lte('import_date', cutOff);
+
+    console.log(`Found ${count} old spreadsheet rows to delete.`);
+
+    if (!count || count === 0) return;
+
+    // Delete efficiently? DELETE where import_date < cutOff
+    // Since we have 61k rows and maybe 40k are old, bulk delete might timeout.
+    // But let's try direct delete first.
+
+    const { error: delError, count: delCount } = await supabase
+        .from('spreadsheet_data')
+        .delete({ count: 'exact' })
+        .lte('import_date', cutOff);
+
+    if (delError) {
+        console.error('Bulk delete failed:', delError);
+        // Fallback to batches
+    } else {
+        console.log(`Successfully deleted ${delCount} rows.`);
+    }
+}
+
+cleanSpreadsheet();

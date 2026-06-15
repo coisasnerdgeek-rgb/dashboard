@@ -1,1 +1,214 @@
-﻿@{data=CmltcG9ydCAqIGFzIFJlYWN0IGZyb20gJ3JlYWN0JzsKCmludGVyZmFjZSBJbWFnZW1EYXNoYm9hcmRQcm9wcyB7CiAgICBpbWFnZU1hcHBpbmdzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+OwogICAgaW1hZ2VDYXRlZ29yaWVzOiB7IGlkOiBzdHJpbmc7IG5hbWU6IHN0cmluZyB9W107CiAgICBpbWFnZUNhdGVnb3J5QXNzaWdubWVudHM6IFJlY29yZDxzdHJpbmcsIHN0cmluZyB8IG51bGw+Owp9CgovLyAtLS0gQ29tcG9uZW50cyAtLS0KCmNvbnN0IEtwaUNhcmQ6IFJlYWN0LkZDPHsgdGl0bGU6IHN0cmluZzsgdmFsdWU6IHN0cmluZzsgaWNvbjogUmVhY3QuUmVhY3ROb2RlOyBncmFkaWVudDogc3RyaW5nOyBzaGFkb3c6IHN0cmluZyB9PiA9ICh7IHRpdGxlLCB2YWx1ZSwgaWNvbiwgZ3JhZGllbnQsIHNoYWRvdyB9KSA9PiAoCiAgICA8ZGl2IGNsYXNzTmFtZT17YHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiBiZy1ncmFkaWVudC10by1iciAke2dyYWRpZW50fSByb3VuZGVkLTJ4bCBwLTQgdGV4dC13aGl0ZSBzaGFkb3ctbGcgJHtzaGFkb3d9IHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTMwMCBob3ZlcjotdHJhbnNsYXRlLXktMSBob3ZlcjpzaGFkb3cteGwgZ3JvdXBgfT4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgLXJpZ2h0LTQgLWJvdHRvbS00IG9wYWNpdHktMTAgdHJhbnNmb3JtIHJvdGF0ZS0xMiBncm91cC1ob3ZlcjpzY2FsZS0xMTAgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tNTAwIFsmPnN2Z106aC0xNiBbJj5zdmddOnctMTYiPgogICAgICAgICAgICB7aWNvbn0KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgei0xMCI+CiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIHRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciBvcGFjaXR5LTkwIj57dGl0bGV9PC9oMz4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0cmFja2luZy10aWdodCBtdC0xIj57dmFsdWV9PC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KKTsKCmNvbnN0IERvbnV0Q2hhcnQ6IFJlYWN0LkZDPHsgZGF0YTogeyBsYWJlbDogc3RyaW5nOyB2YWx1ZTogbnVtYmVyOyBjb2xvcjogc3RyaW5nIH1bXSB9PiA9ICh7IGRhdGEgfSkgPT4gewogICAgY29uc3QgdG90YWwgPSBkYXRhLnJlZHVjZSgoYWNjLCBpdGVtKSA9PiBhY2MgKyBpdGVtLnZhbHVlLCAwKTsKICAgIGxldCBjdW11bGF0aXZlUGVyY2VudCA9IDA7CgogICAgY29uc3QgZ2V0Q29vcmRpbmF0ZXNGb3JQZXJjZW50ID0gKHBlcmNlbnQ6IG51bWJlcikgPT4gewogICAgICAgIGNvbnN0IHggPSBNYXRoLmNvcygyICogTWF0aC5QSSAqIHBlcmNlbnQpOwogICAgICAgIGNvbnN0IHkgPSBNYXRoLnNpbigyICogTWF0aC5QSSAqIHBlcmNlbnQpOwogICAgICAgIHJldHVybiBbeCwgeV07CiAgICB9OwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaC1mdWxsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB3LTY0IGgtNjQgZmxleC1zaHJpbmstMCBtYi02Ij4KICAgICAgICAgICAgICAgIDxzdmcgdmlld0JveD0iLTEgLTEgMiAyIiBjbGFzc05hbWU9InRyYW5zZm9ybSAtcm90YXRlLTkwIHctZnVsbCBoLWZ1bGwiPgogICAgICAgICAgICAgICAgICAgIHtkYXRhLm1hcCgoc2xpY2UsIGkpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHNsaWNlLnZhbHVlID09PSAwKSByZXR1cm4gbnVsbDsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgc3RhcnRQZXJjZW50ID0gY3VtdWxhdGl2ZVBlcmNlbnQ7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IHNsaWNlUGVyY2VudCA9IHNsaWNlLnZhbHVlIC8gdG90YWw7CiAgICAgICAgICAgICAgICAgICAgICAgIGN1bXVsYXRpdmVQZXJjZW50ICs9IHNsaWNlUGVyY2VudDsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgZW5kUGVyY2VudCA9IGN1bXVsYXRpdmVQZXJjZW50OwoKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgW3N0YXJ0WCwgc3RhcnRZXSA9IGdldENvb3JkaW5hdGVzRm9yUGVyY2VudChzdGFydFBlcmNlbnQpOwogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBbZW5kWCwgZW5kWV0gPSBnZXRDb29yZGluYXRlc0ZvclBlcmNlbnQoZW5kUGVyY2VudCk7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGxhcmdlQXJjRmxhZyA9IHNsaWNlUGVyY2VudCA+IDAuNSA/IDEgOiAwOwoKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgcGF0aERhdGEgPSBbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBgTSAke3N0YXJ0WH0gJHtzdGFydFl9YCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGBBIDEgMSAwICR7bGFyZ2VBcmNGbGFnfSAxICR7ZW5kWH0gJHtlbmRZfWAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBgTCAwIDBgLAogICAgICAgICAgICAgICAgICAgICAgICBdLmpvaW4oJyAnKTsKCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiA8cGF0aCBrZXk9e2l9IGQ9e3BhdGhEYXRhfSBmaWxsPXtzbGljZS5jb2xvcn0gY2xhc3NOYW1lPSJ0cmFuc2l0aW9uLWFsbCBob3ZlcjpvcGFjaXR5LTkwIiAvPjsKICAgICAgICAgICAgICAgICAgICB9KX0KICAgICAgICAgICAgICAgICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMC42NSIgY2xhc3NOYW1lPSJmaWxsLXdoaXRlIGRhcms6ZmlsbC1ncmF5LTgwMCIgLz4KICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZmxleC1jb2wgcG9pbnRlci1ldmVudHMtbm9uZSI+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZ3JheS01MDAgZGFyazp0ZXh0LWdyYXktNDAwIGZvbnQtbWVkaXVtIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QiPlRvdGFsPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC00eGwgZm9udC1ib2xkIHRleHQtZ3JheS04MDAgZGFyazp0ZXh0LXdoaXRlIG10LTEiPnt0b3RhbC50b0xvY2FsZVN0cmluZygncHQtQlInKX08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBqdXN0aWZ5LWNlbnRlciBnYXAteC02IGdhcC15LTMgdy1mdWxsIHB4LTQiPgogICAgICAgICAgICAgICAge2RhdGEubWFwKChpdGVtLCBpKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSBiZy1ncmF5LTUwIGRhcms6YmctZ3JheS03MDAvNTAgcHgtMyBweS0xLjUgcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItZ3JheS0xMDAgZGFyazpib3JkZXItZ3JheS02MDAiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMyBoLTMgcm91bmRlZC1mdWxsIGZsZXgtc2hyaW5rLTAgc2hhZG93LXNtIiBzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6IGl0ZW0uY29sb3IgfX0+PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtZ3JheS02MDAgZGFyazp0ZXh0LWdyYXktMzAwIGZvbnQtbWVkaXVtIj57aXRlbS5sYWJlbH08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtZ3JheS05MDAgZGFyazp0ZXh0LXdoaXRlIG1sLTEiPntpdGVtLnZhbHVlfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZ3JheS00MDAgbWwtMSI+KHt0b3RhbCA+IDAgPyBNYXRoLnJvdW5kKChpdGVtLnZhbHVlIC8gdG90YWwpICogMTAwKSA6IDB9JSk8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKY29uc3QgQmFyQ2hhcnQ6IFJlYWN0LkZDPHsgZGF0YTogeyBsYWJlbDogc3RyaW5nOyB2YWx1ZTogbnVtYmVyIH1bXTsgdGl0bGU6IHN0cmluZyB9PiA9ICh7IGRhdGEsIHRpdGxlIH0pID0+IHsKICAgIGNvbnN0IG1heCA9IE1hdGgubWF4KC4uLmRhdGEubWFwKGQgPT4gZC52YWx1ZSksIDEpOwoKICAgIC8vIEZpbHRlciBvdXQgemVybyB2YWx1ZXMgYW5kIGxpbWl0IHRvIHZhbGlkIGRhdGEKICAgIGNvbnN0IHZhbGlkRGF0YSA9IGRhdGEuZmlsdGVyKGQgPT4gZC52YWx1ZSA+IDApOwoKICAgIGlmICh2YWxpZERhdGEubGVuZ3RoID09PSAwKSB7CiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWJvbGQgdGV4dC1ncmF5LTgwMCBkYXJrOnRleHQtd2hpdGUgbWItNCI+e3RpdGxlfTwvaDM+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1ncmF5LTQwMCBkYXJrOnRleHQtZ3JheS01MDAgdGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtMTYgdy0xNiBteC1hdXRvIG1iLTIgb3BhY2l0eS01MCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPSIxLjUiIGQ9Ik05IDE5di02YTIgMiAwIDAwLTItMkg1YTIgMiAwIDAwLTIgMnY2YTIgMiAwIDAwMiAyaDJhMiAyIDAgMDAyLTJ6bTAgMFY5YTIgMiAwIDAxMi0yaDJhMiAyIDAgMDEyIDJ2MTBtLTYgMGEyIDIgMCAwMDIgMmgyYTIgMiAwIDAwMi0ybTAgMFY1YTIgMiAwIDAxMi0yaDJhMiAyIDAgMDEyIDJ2MTRhMiAyIDAgMDEtMiAyaC0yYTIgMiAwIDAxLTItMnoiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIj5OZW5odW1hIGNhdGVnb3JpYSBlbmNvbnRyYWRhPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICk7CiAgICB9CgogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBmbGV4IGZsZXgtY29sIj4KICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWJvbGQgdGV4dC1ncmF5LTgwMCBkYXJrOnRleHQtd2hpdGUgbWItNiI+e3RpdGxlfTwvaDM+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgZmxleCBpdGVtcy1lbmQgZ2FwLTIiPgogICAgICAgICAgICAgICAge3ZhbGlkRGF0YS5tYXAoKGl0ZW0sIGkpID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBoZWlnaHRQZXJjZW50ID0gKGl0ZW0udmFsdWUgLyBtYXgpICogMTAwOwogICAgICAgICAgICAgICAgICAgIC8vIEVuc3VyZSBtaW5pbXVtIDUlIGhlaWdodCBmb3IgdmlzaWJpbGl0eQogICAgICAgICAgICAgICAgICAgIGNvbnN0IGRpc3BsYXlIZWlnaHQgPSBNYXRoLm1heChoZWlnaHRQZXJjZW50LCA1KTsKCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0iZmxleC0xIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdyb3VwIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBiZy1ibHVlLTUwMCByb3VuZGVkLXQtbWQgaG92ZXI6YmctYmx1ZS02MDAgdHJhbnNpdGlvbi1jb2xvcnMgcmVsYXRpdmUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sgaGVpZ2h0OiBgJHtkaXNwbGF5SGVpZ2h0fSVgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im9wYWNpdHktMCBncm91cC1ob3ZlcjpvcGFjaXR5LTEwMCBhYnNvbHV0ZSBib3R0b20tZnVsbCBtYi0yIGxlZnQtMS8yIC10cmFuc2xhdGUteC0xLzIgYmctZ3JheS05MDAgdGV4dC13aGl0ZSB0ZXh0LXhzIGZvbnQtYm9sZCBweC0yIHB5LTEgcm91bmRlZCB3aGl0ZXNwYWNlLW5vd3JhcCB0cmFuc2l0aW9uLW9wYWNpdHkgcG9pbnRlci1ldmVudHMtbm9uZSB6LTEwIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2l0ZW0udmFsdWV9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWdyYXktNTAwIGRhcms6dGV4dC1ncmF5LTQwMCBtdC0yIHRydW5jYXRlIHctZnVsbCB0ZXh0LWNlbnRlciIgdGl0bGU9e2l0ZW0ubGFiZWx9PntpdGVtLmxhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07Cgpjb25zdCBJbWFnZW1EYXNoYm9hcmQ6IFJlYWN0LkZDPEltYWdlbURhc2hib2FyZFByb3BzPiA9ICh7IGltYWdlTWFwcGluZ3MsIGltYWdlQ2F0ZWdvcmllcywgaW1hZ2VDYXRlZ29yeUFzc2lnbm1lbnRzIH0pID0+IHsKICAgIGNvbnN0IHsgbWV0cmljcywgY2F0ZWdvcnlDb3VudHMgfSA9IFJlYWN0LnVzZU1lbW8oKCkgPT4gewogICAgICAgIGNvbnN0IHRvdGFsSW1hZ2VzID0gT2JqZWN0LmtleXMoaW1hZ2VNYXBwaW5ncykubGVuZ3RoOwogICAgICAgIGNvbnN0IHRvdGFsQ2F0ZWdvcmllcyA9IGltYWdlQ2F0ZWdvcmllcy5sZW5ndGg7CiAgICAgICAgbGV0IGNhdGVnb3JpemVkSW1hZ2VzID0gMDsKICAgICAgICBjb25zdCBjb3VudHM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7ICdTZW0gQ2F0ZWdvcmlhJzogMCB9OwoKICAgICAgICBpbWFnZUNhdGVnb3JpZXMuZm9yRWFjaChjID0+IGNvdW50c1tjLm5hbWVdID0gMCk7CgogICAgICAgIE9iamVjdC5rZXlzKGltYWdlTWFwcGluZ3MpLmZvckVhY2goaW1nSWQgPT4gewogICAgICAgICAgICBjb25zdCBjYXRJZCA9IGltYWdlQ2F0ZWdvcnlBc3NpZ25tZW50c1tpbWdJZF07CiAgICAgICAgICAgIGlmIChjYXRJZCkgewogICAgICAgICAgICAgICAgY2F0ZWdvcml6ZWRJbWFnZXMrKzsKICAgICAgICAgICAgICAgIGNvbnN0IGNhdE5hbWUgPSBpbWFnZUNhdGVnb3JpZXMuZmluZChjID0+IGMuaWQgPT09IGNhdElkKT8ubmFtZSB8fCAnRGVzY29uaGVjaWRhJzsKICAgICAgICAgICAgICAgIGNvdW50c1tjYXROYW1lXSA9IChjb3VudHNbY2F0TmFtZV0gfHwgMCkgKyAxOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgY291bnRzWydTZW0gQ2F0ZWdvcmlhJ10rKzsKICAgICAgICAgICAgfQogICAgICAgIH0pOwoKICAgICAgICAvLyBTb3J0IGNvdW50cyBkZXNjCiAgICAgICAgY29uc3Qgc29ydGVkQ291bnRzID0gT2JqZWN0LmVudHJpZXMoY291bnRzKQogICAgICAgICAgICAuc29ydCgoYSwgYikgPT4gYlsxXSAtIGFbMV0pCiAgICAgICAgICAgIC5tYXAoKFtsYWJlbCwgdmFsdWVdKSA9PiAoeyBsYWJlbCwgdmFsdWUgfSkpOwoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICBtZXRyaWNzOiB7CiAgICAgICAgICAgICAgICB0b3RhbEltYWdlcywKICAgICAgICAgICAgICAgIHRvdGFsQ2F0ZWdvcmllcywKICAgICAgICAgICAgICAgIGNhdGVnb3JpemVkSW1hZ2VzLAogICAgICAgICAgICAgICAgY2F0ZWdvcml6ZWRSYXRlOiB0b3RhbEltYWdlcyA+IDAgPyAoY2F0ZWdvcml6ZWRJbWFnZXMgLyB0b3RhbEltYWdlcykgKiAxMDAgOiAwCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGNhdGVnb3J5Q291bnRzOiBzb3J0ZWRDb3VudHMKICAgICAgICB9OwogICAgfSwgW2ltYWdlTWFwcGluZ3MsIGltYWdlQ2F0ZWdvcmllcywgaW1hZ2VDYXRlZ29yeUFzc2lnbm1lbnRzXSk7CgogICAgY29uc3QgZG9udXREYXRhID0gWwogICAgICAgIHsgbGFiZWw6ICdDYXRlZ29yaXphZGFzJywgdmFsdWU6IG1ldHJpY3MuY2F0ZWdvcml6ZWRJbWFnZXMsIGNvbG9yOiAnIzEwYjk4MScgfSwKICAgICAgICB7IGxhYmVsOiAnU2VtIENhdGVnb3JpYScsIHZhbHVlOiBtZXRyaWNzLnRvdGFsSW1hZ2VzIC0gbWV0cmljcy5jYXRlZ29yaXplZEltYWdlcywgY29sb3I6ICcjOWNhM2FmJyB9CiAgICBdOwoKICAgIHJldHVybiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFuaW1hdGUtZmFkZS1pbi1zY2FsZSBzcGFjZS15LTYiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtNCBnYXAtNiI+CiAgICAgICAgICAgICAgICA8S3BpQ2FyZAogICAgICAgICAgICAgICAgICAgIHRpdGxlPSJUb3RhbCBkZSBJbWFnZW5zIgogICAgICAgICAgICAgICAgICAgIHZhbHVlPXttZXRyaWNzLnRvdGFsSW1hZ2VzLnRvU3RyaW5nKCl9CiAgICAgICAgICAgICAgICAgICAgaWNvbj17PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT0iaC02IHctNiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9IjIiIGQ9Ik00IDE2bDQuNTg2LTQuNTg2YTIgMiAwIDAxMi44MjggMEwxNiAxNm0tMi0ybDEuNTg2LTEuNTg2YTIgMiAwIDAxMi44MjggMEwyMCAxNG0tNi02aC4wMU02IDIwaDEyYTIgMiAwIDAwMi0yVjZhMiAyIDAgMDAtMi0ySDZhMiAyIDAgMDAtMiAydjEyYTIgMiAwIDAwMiAyeiIgLz48L3N2Zz59CiAgICAgICAgICAgICAgICAgICAgZ3JhZGllbnQ9ImZyb20tYmx1ZS01MDAgdG8taW5kaWdvLTYwMCIKICAgICAgICAgICAgICAgICAgICBzaGFkb3c9InNoYWRvdy1ibHVlLTUwMC8yMCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8S3BpQ2FyZAogICAgICAgICAgICAgICAgICAgIHRpdGxlPSJDYXRlZ29yaXphZGFzIgogICAgICAgICAgICAgICAgICAgIHZhbHVlPXtgJHttZXRyaWNzLmNhdGVnb3JpemVkUmF0ZS50b0ZpeGVkKDApfSVgfQogICAgICAgICAgICAgICAgICAgIGljb249ezxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtNiB3LTYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPSIyIiBkPSJNNyA3aC4wMU03IDNoNWMuNTEyIDAgMS4wMjQuMTk1IDEuNDE0LjU4Nmw3IDdhMiAyIDAgMDEwIDIuODI4bC03IDdhMiAyIDAgMDEtMi44MjggMGwtNy03QTEuOTk0IDEuOTk0IDAgMDEzIDEyVjdhNCA0IDAgMDE0LTR6IiAvPjwvc3ZnPn0KICAgICAgICAgICAgICAgICAgICBncmFkaWVudD0iZnJvbS1lbWVyYWxkLTUwMCB0by10ZWFsLTYwMCIKICAgICAgICAgICAgICAgICAgICBzaGFkb3c9InNoYWRvdy1lbWVyYWxkLTUwMC8yMCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8S3BpQ2FyZAogICAgICAgICAgICAgICAgICAgIHRpdGxlPSJDYXRlZ29yaWFzIENyaWFkYXMiCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9e21ldHJpY3MudG90YWxDYXRlZ29yaWVzLnRvU3RyaW5nKCl9CiAgICAgICAgICAgICAgICAgICAgaWNvbj17PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT0iaC02IHctNiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9IjIiIGQ9Ik0xOSAxMUg1bTE0IDBhMiAyIDAgMDEyIDJ2NmEyIDIgMCAwMS0yIDJINWEyIDIgMCAwMS0yLTJ2LTZhMiAyIDAgMDEyLTJtMTQgMFY5YTIgMiAwIDAwLTItMk01IDExVjlhMiAyIDAgMDEyLTJtMCAwVjVhMiAyIDAgMDEyLTJoNmEyIDIgMCAwMTIgMnYyTTcgN2gxMCIgLz48L3N2Zz59CiAgICAgICAgICAgICAgICAgICAgZ3JhZGllbnQ9ImZyb20tcHVycGxlLTUwMCB0by1mdWNoc2lhLTYwMCIKICAgICAgICAgICAgICAgICAgICBzaGFkb3c9InNoYWRvdy1wdXJwbGUtNTAwLzIwIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDxLcGlDYXJkCiAgICAgICAgICAgICAgICAgICAgdGl0bGU9IlNlbSBDYXRlZ29yaWEiCiAgICAgICAgICAgICAgICAgICAgdmFsdWU9eyhtZXRyaWNzLnRvdGFsSW1hZ2VzIC0gbWV0cmljcy5jYXRlZ29yaXplZEltYWdlcykudG9TdHJpbmcoKX0KICAgICAgICAgICAgICAgICAgICBpY29uPXs8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3NOYW1lPSJoLTYgdy02IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIj48cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD0iMiIgZD0iTTEyIDl2Mm0wIDRoLjAxbS02LjkzOCA0aDEzLjg1NmMxLjU0IDAgMi41MDItMS42NjcgMS43MzItM0wxMy43MzIgNGMtLjc3LTEuMzMzLTIuNjk0LTEuMzMzLTMuNDY0IDBMMy4zNCAxNmMtLjc3IDEuMzMzLjE5MiAzIDEuNzMyIDN6IiAvPjwvc3ZnPn0KICAgICAgICAgICAgICAgICAgICBncmFkaWVudD0iZnJvbS1ncmF5LTUwMCB0by1zbGF0ZS02MDAiCiAgICAgICAgICAgICAgICAgICAgc2hhZG93PSJzaGFkb3ctZ3JheS01MDAvMjAiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGxnOmdyaWQtY29scy0yIGdhcC02Ij4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy13aGl0ZSBkYXJrOmJnLWdyYXktODAwIHJvdW5kZWQtMnhsIHAtNiBzaGFkb3ctc20gYm9yZGVyIGJvcmRlci1ncmF5LTEwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCBoLVs0MDBweF0gZmxleCBmbGV4LWNvbCI+CiAgICAgICAgICAgICAgICAgICAgPEJhckNoYXJ0IGRhdGE9e2NhdGVnb3J5Q291bnRzLnNsaWNlKDAsIDEwKX0gdGl0bGU9IlRvcCBDYXRlZ29yaWFzIChWb2x1bWUpIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIGRhcms6YmctZ3JheS04MDAgcm91bmRlZC0yeGwgcC02IHNoYWRvdy1zbSBib3JkZXIgYm9yZGVyLWdyYXktMTAwIGRhcms6Ym9yZGVyLWdyYXktNzAwIGgtWzQwMHB4XSBmbGV4IGZsZXgtY29sIGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtYm9sZCB0ZXh0LWdyYXktODAwIGRhcms6dGV4dC13aGl0ZSBtYi00IHRleHQtY2VudGVyIj5Pcmdhbml6YcOnw6NvPC9oMz4KICAgICAgICAgICAgICAgICAgICA8RG9udXRDaGFydCBkYXRhPXtkb251dERhdGF9IC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgSW1hZ2VtRGFzaGJvYXJkOwo=}
+
+import * as React from 'react';
+
+interface ImagemDashboardProps {
+    imageMappings: Record<string, string>;
+    imageCategories: { id: string; name: string }[];
+    imageCategoryAssignments: Record<string, string | null>;
+}
+
+// --- Components ---
+
+const KpiCard: React.FC<{ title: string; value: string; icon: React.ReactNode; gradient: string; shadow: string }> = ({ title, value, icon, gradient, shadow }) => (
+    <div className={`relative overflow-hidden bg-gradient-to-br ${gradient} rounded-2xl p-4 text-white shadow-lg ${shadow} transition-all duration-300 hover:-translate-y-1 hover:shadow-xl group`}>
+        <div className="absolute -right-4 -bottom-4 opacity-10 transform rotate-12 group-hover:scale-110 transition-transform duration-500 [&>svg]:h-16 [&>svg]:w-16">
+            {icon}
+        </div>
+        <div className="relative z-10">
+            <h3 className="font-medium text-[10px] uppercase tracking-wider opacity-90">{title}</h3>
+            <div className="text-2xl font-bold tracking-tight mt-1">{value}</div>
+        </div>
+    </div>
+);
+
+const DonutChart: React.FC<{ data: { label: string; value: number; color: string }[] }> = ({ data }) => {
+    const total = data.reduce((acc, item) => acc + item.value, 0);
+    let cumulativePercent = 0;
+
+    const getCoordinatesForPercent = (percent: number) => {
+        const x = Math.cos(2 * Math.PI * percent);
+        const y = Math.sin(2 * Math.PI * percent);
+        return [x, y];
+    };
+
+    return (
+        <div className="flex flex-col h-full items-center justify-center">
+            <div className="relative w-64 h-64 flex-shrink-0 mb-6">
+                <svg viewBox="-1 -1 2 2" className="transform -rotate-90 w-full h-full">
+                    {data.map((slice, i) => {
+                        if (slice.value === 0) return null;
+                        const startPercent = cumulativePercent;
+                        const slicePercent = slice.value / total;
+                        cumulativePercent += slicePercent;
+                        const endPercent = cumulativePercent;
+
+                        const [startX, startY] = getCoordinatesForPercent(startPercent);
+                        const [endX, endY] = getCoordinatesForPercent(endPercent);
+                        const largeArcFlag = slicePercent > 0.5 ? 1 : 0;
+
+                        const pathData = [
+                            `M ${startX} ${startY}`,
+                            `A 1 1 0 ${largeArcFlag} 1 ${endX} ${endY}`,
+                            `L 0 0`,
+                        ].join(' ');
+
+                        return <path key={i} d={pathData} fill={slice.color} className="transition-all hover:opacity-90" />;
+                    })}
+                    <circle cx="0" cy="0" r="0.65" className="fill-white dark:fill-gray-800" />
+                </svg>
+                <div className="absolute inset-0 flex items-center justify-center flex-col pointer-events-none">
+                    <span className="text-sm text-gray-500 dark:text-gray-400 font-medium uppercase tracking-widest">Total</span>
+                    <span className="text-4xl font-bold text-gray-800 dark:text-white mt-1">{total.toLocaleString('pt-BR')}</span>
+                </div>
+            </div>
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 w-full px-4">
+                {data.map((item, i) => (
+                    <div key={i} className="flex items-center gap-2 text-sm bg-gray-50 dark:bg-gray-700/50 px-3 py-1.5 rounded-full border border-gray-100 dark:border-gray-600">
+                        <span className="w-3 h-3 rounded-full flex-shrink-0 shadow-sm" style={{ backgroundColor: item.color }}></span>
+                        <span className="text-gray-600 dark:text-gray-300 font-medium">{item.label}</span>
+                        <span className="font-bold text-gray-900 dark:text-white ml-1">{item.value}</span>
+                        <span className="text-xs text-gray-400 ml-1">({total > 0 ? Math.round((item.value / total) * 100) : 0}%)</span>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+};
+
+const BarChart: React.FC<{ data: { label: string; value: number }[]; title: string }> = ({ data, title }) => {
+    const max = Math.max(...data.map(d => d.value), 1);
+
+    // Filter out zero values and limit to valid data
+    const validData = data.filter(d => d.value > 0);
+
+    if (validData.length === 0) {
+        return (
+            <div className="w-full h-full flex flex-col items-center justify-center">
+                <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-4">{title}</h3>
+                <div className="text-gray-400 dark:text-gray-500 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mx-auto mb-2 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                    <p className="text-sm">Nenhuma categoria encontrada</p>
+                </div>
+            </div>
+        );
+    }
+
+    return (
+        <div className="w-full h-full flex flex-col">
+            <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-6">{title}</h3>
+            <div className="flex-1 flex items-end gap-2">
+                {validData.map((item, i) => {
+                    const heightPercent = (item.value / max) * 100;
+                    // Ensure minimum 5% height for visibility
+                    const displayHeight = Math.max(heightPercent, 5);
+
+                    return (
+                        <div key={i} className="flex-1 flex flex-col items-center group">
+                            <div
+                                className="w-full bg-blue-500 rounded-t-md hover:bg-blue-600 transition-colors relative"
+                                style={{ height: `${displayHeight}%` }}
+                            >
+                                <div className="opacity-0 group-hover:opacity-100 absolute bottom-full mb-2 left-1/2 -translate-x-1/2 bg-gray-900 text-white text-xs font-bold px-2 py-1 rounded whitespace-nowrap transition-opacity pointer-events-none z-10">
+                                    {item.value}
+                                </div>
+                            </div>
+                            <span className="text-xs text-gray-500 dark:text-gray-400 mt-2 truncate w-full text-center" title={item.label}>{item.label}</span>
+                        </div>
+                    );
+                })}
+            </div>
+        </div>
+    );
+};
+
+const ImagemDashboard: React.FC<ImagemDashboardProps> = ({ imageMappings, imageCategories, imageCategoryAssignments }) => {
+    const { metrics, categoryCounts } = React.useMemo(() => {
+        const totalImages = Object.keys(imageMappings).length;
+        const totalCategories = imageCategories.length;
+        let categorizedImages = 0;
+        const counts: Record<string, number> = { 'Sem Categoria': 0 };
+
+        imageCategories.forEach(c => counts[c.name] = 0);
+
+        Object.keys(imageMappings).forEach(imgId => {
+            const catId = imageCategoryAssignments[imgId];
+            if (catId) {
+                categorizedImages++;
+                const catName = imageCategories.find(c => c.id === catId)?.name || 'Desconhecida';
+                counts[catName] = (counts[catName] || 0) + 1;
+            } else {
+                counts['Sem Categoria']++;
+            }
+        });
+
+        // Sort counts desc
+        const sortedCounts = Object.entries(counts)
+            .sort((a, b) => b[1] - a[1])
+            .map(([label, value]) => ({ label, value }));
+
+        return {
+            metrics: {
+                totalImages,
+                totalCategories,
+                categorizedImages,
+                categorizedRate: totalImages > 0 ? (categorizedImages / totalImages) * 100 : 0
+            },
+            categoryCounts: sortedCounts
+        };
+    }, [imageMappings, imageCategories, imageCategoryAssignments]);
+
+    const donutData = [
+        { label: 'Categorizadas', value: metrics.categorizedImages, color: '#10b981' },
+        { label: 'Sem Categoria', value: metrics.totalImages - metrics.categorizedImages, color: '#9ca3af' }
+    ];
+
+    return (
+        <div className="animate-fade-in-scale space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <KpiCard
+                    title="Total de Imagens"
+                    value={metrics.totalImages.toString()}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>}
+                    gradient="from-blue-500 to-indigo-600"
+                    shadow="shadow-blue-500/20"
+                />
+                <KpiCard
+                    title="Categorizadas"
+                    value={`${metrics.categorizedRate.toFixed(0)}%`}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" /></svg>}
+                    gradient="from-emerald-500 to-teal-600"
+                    shadow="shadow-emerald-500/20"
+                />
+                <KpiCard
+                    title="Categorias Criadas"
+                    value={metrics.totalCategories.toString()}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>}
+                    gradient="from-purple-500 to-fuchsia-600"
+                    shadow="shadow-purple-500/20"
+                />
+                <KpiCard
+                    title="Sem Categoria"
+                    value={(metrics.totalImages - metrics.categorizedImages).toString()}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>}
+                    gradient="from-gray-500 to-slate-600"
+                    shadow="shadow-gray-500/20"
+                />
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-sm border border-gray-100 dark:border-gray-700 h-[400px] flex flex-col">
+                    <BarChart data={categoryCounts.slice(0, 10)} title="Top Categorias (Volume)" />
+                </div>
+
+                <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-sm border border-gray-100 dark:border-gray-700 h-[400px] flex flex-col justify-center">
+                    <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-4 text-center">Organização</h3>
+                    <DonutChart data={donutData} />
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default ImagemDashboard;

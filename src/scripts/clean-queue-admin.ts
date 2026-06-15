@@ -1,1 +1,86 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgU0VSVklDRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCg0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgU0VSVklDRV9LRVksIHsgYXV0aDogeyBhdXRvUmVmcmVzaFRva2VuOiBmYWxzZSwgcGVyc2lzdFNlc3Npb246IGZhbHNlIH0gfSk7DQoNCmZ1bmN0aW9uIHBhcnNlUFREYXRlKGRhdGVTdHI6IHN0cmluZyk6IERhdGUgfCBudWxsIHsNCiAgICBpZiAoIWRhdGVTdHIpIHJldHVybiBudWxsOw0KICAgIGNvbnN0IHBhcnRzID0gZGF0ZVN0ci5zcGxpdCgnLycpOw0KICAgIGlmIChwYXJ0cy5sZW5ndGggIT09IDMpIHJldHVybiBudWxsOw0KICAgIHJldHVybiBuZXcgRGF0ZShgJHtwYXJ0c1syXX0tJHtwYXJ0c1sxXX0tJHtwYXJ0c1swXX1UMTI6MDA6MDBaYCk7DQp9DQoNCmFzeW5jIGZ1bmN0aW9uIGNsZWFuUXVldWVBZG1pbigpIHsNCiAgICBjb25zb2xlLmxvZygnQ2xlYW5pbmcgd2ViaG9va19yZXRyeV9xdWV1ZSAoQURNSU4pIC0gSXRlbXMgPD0gMjUvMDEvMjAyNi4uLicpOw0KDQogICAgLy8gQ2hlY2sgU3RhdHVzIGJlZm9yZQ0KICAgIGNvbnN0IHsgY291bnQ6IHBlbmRpbmdCZWZvcmUgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKS5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pLmVxKCdzdGF0dXMnLCAncGVuZGluZycpOw0KICAgIGNvbnNvbGUubG9nKGBQZW5kaW5nIGl0ZW1zIGJlZm9yZTogJHtwZW5kaW5nQmVmb3JlfWApOw0KDQogICAgY29uc3QgY3V0T2ZmRGF0ZSA9IG5ldyBEYXRlKCcyMDI2LTAxLTI1VDIzOjU5OjU5WicpOw0KICAgIGxldCB0b3RhbERlbGV0ZWQgPSAwOw0KDQogICAgLy8gTG9vcCBwcm9jZXNzaW5nDQogICAgd2hpbGUgKHRydWUpIHsNCiAgICAgICAgLy8gRmV0Y2ggYmF0Y2gNCiAgICAgICAgY29uc3QgeyBkYXRhOiByb3dzLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgIC5zZWxlY3QoJ2lkLCBvcmRlcl9kYXRlJykNCiAgICAgICAgICAgIC5saW1pdCgxMDAwKTsNCg0KICAgICAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ0ZldGNoIGVycm9yOicsIGVycm9yKTsNCiAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICB9DQoNCiAgICAgICAgaWYgKCFyb3dzIHx8IHJvd3MubGVuZ3RoID09PSAwKSBicmVhazsNCg0KICAgICAgICBjb25zdCB0b0RlbGV0ZTogc3RyaW5nW10gPSBbXTsNCg0KICAgICAgICByb3dzLmZvckVhY2gocm93ID0+IHsNCiAgICAgICAgICAgIGNvbnN0IG9yZGVyRGF0ZSA9IHBhcnNlUFREYXRlKHJvdy5vcmRlcl9kYXRlIHx8ICcnKTsNCiAgICAgICAgICAgIGlmIChvcmRlckRhdGUgJiYgb3JkZXJEYXRlIDw9IGN1dE9mZkRhdGUpIHsNCiAgICAgICAgICAgICAgICB0b0RlbGV0ZS5wdXNoKHJvdy5pZCk7DQogICAgICAgICAgICB9DQogICAgICAgIH0pOw0KDQogICAgICAgIGlmICh0b0RlbGV0ZS5sZW5ndGggPT09IDApIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCdCYXRjaCBoYXMgbm8gb2xkIGl0ZW1zLiBDaGVja2luZyBpZiB3ZSBuZWVkIHRvIHBhZ2luYXRlIG9yIHN0b3A/Jyk7DQogICAgICAgICAgICAvLyBJZiB3ZSBmZXRjaGVkIDEwMDAgYW5kIE5PTkUgbWF0Y2hlZCwgYnV0IHRoZXJlIGFyZSBtb3JlLi4uDQogICAgICAgICAgICAvLyBXZSBuZWVkIHRvIHZlcmlmeSBpZiB3ZSBqdXN0IGdyYWJiZWQgIm5ldyIgb25lcy4NCiAgICAgICAgICAgIC8vIEJ1dCB3ZSBhcmUgbm90IG9yZGVyaW5nLiBEZWZhdWx0IG9yZGVyIHVzdWFsbHkgUEsuDQogICAgICAgICAgICAvLyBJZiB3ZSBhcmUgZGVsZXRpbmcgdGhlbSwgdGhleSBkaXNhcHBlYXIsIHNvIG5leHQgZmV0Y2ggZ2V0cyBkaWZmZXJlbnQgb25lcy4NCiAgICAgICAgICAgIC8vIEJVVCBpZiB3ZSBET04nVCBkZWxldGUgdGhlbSAoYmVjYXVzZSB0aGV5IGFyZSBuZXcpLCB3ZSBnZXQgc3R1Y2sgaW4gbG9vcCBmZXRjaGluZyBzYW1lIDEwMDAuDQogICAgICAgICAgICAvLyBTbyB3ZSBtdXN0IGJyZWFrIGlmIHRvRGVsZXRlIGlzIGVtcHR5LCBVTkxFU1Mgd2UgY2FuIHNjcm9sbC4NCiAgICAgICAgICAgIC8vIEJldHRlcjogZmV0Y2ggb25seSB0aG9zZSBtYXRjaGluZyBvdXIgY3JpdGVyaWEgaWYgcG9zc2libGUuDQogICAgICAgICAgICAvLyBTYWRseSBvcmRlcl9kYXRlIGlzIHRleHQgaW4gSlNPTi9jb2x1bW4/IEl0J3MgYSBjb2x1bW4gJ29yZGVyX2RhdGUnLg0KICAgICAgICAgICAgLy8gTm90ZTogZGF0ZSBjb21wYXJpc29uIG9uIEREL01NL1lZWVkgc3RyaW5nIGluIFNRTCBpcyBiYWQuDQogICAgICAgICAgICAvLyBTbyB3ZSBzdGljayB0byBjbGllbnQgc2lkZS4NCiAgICAgICAgICAgIC8vIFRvIGF2b2lkIGluZmluaXRlIGxvb3AsIHdlIHNob3VsZCBwcm9iYWJseSBvcmRlciBieSBzb21ldGhpbmcgb3IgdXNlIG9mZnNldC4NCiAgICAgICAgICAgIC8vIE9yIGp1c3QgYnJlYWsuDQogICAgICAgICAgICBicmVhazsNCiAgICAgICAgfQ0KDQogICAgICAgIC8vIERlbGV0ZQ0KICAgICAgICBjb25zdCB7IGVycm9yOiBkZWxFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgIC5kZWxldGUoKQ0KICAgICAgICAgICAgLmluKCdpZCcsIHRvRGVsZXRlKTsNCg0KICAgICAgICBpZiAoZGVsRXJyb3IpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ0RlbGV0ZSBlcnJvcjonLCBkZWxFcnJvcik7DQogICAgICAgICAgICBicmVhazsNCiAgICAgICAgfQ0KDQogICAgICAgIHRvdGFsRGVsZXRlZCArPSB0b0RlbGV0ZS5sZW5ndGg7DQogICAgICAgIGNvbnNvbGUubG9nKGBEZWxldGVkICR7dG9EZWxldGUubGVuZ3RofSBpdGVtcy4gVG90YWw6ICR7dG90YWxEZWxldGVkfWApOw0KICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgMjAwKSk7DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coYERvbmUuIFRvdGFsIGRlbGV0ZWQ6ICR7dG90YWxEZWxldGVkfWApOw0KfQ0KDQpjbGVhblF1ZXVlQWRtaW4oKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const supabase = createClient(NEW_SUPABASE_URL, SERVICE_KEY, { auth: { autoRefreshToken: false, persistSession: false } });
+
+function parsePTDate(dateStr: string): Date | null {
+    if (!dateStr) return null;
+    const parts = dateStr.split('/');
+    if (parts.length !== 3) return null;
+    return new Date(`${parts[2]}-${parts[1]}-${parts[0]}T12:00:00Z`);
+}
+
+async function cleanQueueAdmin() {
+    console.log('Cleaning webhook_retry_queue (ADMIN) - Items <= 25/01/2026...');
+
+    // Check Status before
+    const { count: pendingBefore } = await supabase.from('webhook_retry_queue').select('*', { count: 'exact', head: true }).eq('status', 'pending');
+    console.log(`Pending items before: ${pendingBefore}`);
+
+    const cutOffDate = new Date('2026-01-25T23:59:59Z');
+    let totalDeleted = 0;
+
+    // Loop processing
+    while (true) {
+        // Fetch batch
+        const { data: rows, error } = await supabase
+            .from('webhook_retry_queue')
+            .select('id, order_date')
+            .limit(1000);
+
+        if (error) {
+            console.error('Fetch error:', error);
+            break;
+        }
+
+        if (!rows || rows.length === 0) break;
+
+        const toDelete: string[] = [];
+
+        rows.forEach(row => {
+            const orderDate = parsePTDate(row.order_date || '');
+            if (orderDate && orderDate <= cutOffDate) {
+                toDelete.push(row.id);
+            }
+        });
+
+        if (toDelete.length === 0) {
+            console.log('Batch has no old items. Checking if we need to paginate or stop?');
+            // If we fetched 1000 and NONE matched, but there are more...
+            // We need to verify if we just grabbed "new" ones.
+            // But we are not ordering. Default order usually PK.
+            // If we are deleting them, they disappear, so next fetch gets different ones.
+            // BUT if we DON'T delete them (because they are new), we get stuck in loop fetching same 1000.
+            // So we must break if toDelete is empty, UNLESS we can scroll.
+            // Better: fetch only those matching our criteria if possible.
+            // Sadly order_date is text in JSON/column? It's a column 'order_date'.
+            // Note: date comparison on DD/MM/YYYY string in SQL is bad.
+            // So we stick to client side.
+            // To avoid infinite loop, we should probably order by something or use offset.
+            // Or just break.
+            break;
+        }
+
+        // Delete
+        const { error: delError } = await supabase
+            .from('webhook_retry_queue')
+            .delete()
+            .in('id', toDelete);
+
+        if (delError) {
+            console.error('Delete error:', delError);
+            break;
+        }
+
+        totalDeleted += toDelete.length;
+        console.log(`Deleted ${toDelete.length} items. Total: ${totalDeleted}`);
+        await new Promise(r => setTimeout(r, 200));
+    }
+
+    console.log(`Done. Total deleted: ${totalDeleted}`);
+}
+
+cleanQueueAdmin();

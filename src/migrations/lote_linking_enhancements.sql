@@ -1,1 +1,80 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQotLSBMb3RlLVBlZGlkbyBMaW5raW5nIEVuaGFuY2VtZW50DQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIFRoaXMgbWlncmF0aW9uIGFkZHMgcGVyZm9ybWFuY2Ugb3B0aW1pemF0aW9ucyBhbmQgdXRpbGl0eSBmdW5jdGlvbnMgDQotLSBmb3IgdGhlIGxvdGUtdG8tcGVkaWRvIGxpbmtpbmcgZmVhdHVyZQ0KDQotLSAxLiBBZGQgaW5kZXggb24gcHJpbnRfY29udHJvbC5MIGNvbHVtbiBmb3IgZmFzdGVyIGxvdGUgcXVlcmllcw0KLS0gVGhpcyBzaWduaWZpY2FudGx5IGltcHJvdmVzIHBlcmZvcm1hbmNlIHdoZW4gZmlsdGVyaW5nIHBlZGlkb3MgYnkgbG90ZQ0KQ1JFQVRFIElOREVYIElGIE5PVCBFWElTVFMgaWR4X3ByaW50X2NvbnRyb2xfbCBPTiBwcmludF9jb250cm9sKGwpOw0KDQotLSAyLiBDcmVhdGUgZnVuY3Rpb24gdG8gZ2V0IGxvdGUgc3RhdGlzdGljcw0KLS0gUmV0dXJucyBhZ2dyZWdhdGVkIHN0YXRpc3RpY3MgZm9yIGEgZ2l2ZW4gbG90ZSBudW1iZXINCkNSRUFURSBPUiBSRVBMQUNFIEZVTkNUSU9OIGdldF9sb3RlX3N0YXRzKHBfbG90ZV9udW1lcm8gdGV4dCkNClJFVFVSTlMgVEFCTEUgKA0KICAgIGxvdGVfbnVtZXJvIHRleHQsDQogICAgdG90YWxfcGVkaWRvcyBiaWdpbnQsDQogICAgc3RhdHVzX2JyZWFrZG93biBqc29uYg0KKSANCkxBTkdVQUdFIHBscGdzcWwNCkFTICQkDQpCRUdJTg0KICAgIFJFVFVSTiBRVUVSWQ0KICAgIFNFTEVDVCANCiAgICAgICAgcF9sb3RlX251bWVybyBBUyBsb3RlX251bWVybywNCiAgICAgICAgQ09VTlQoKikgQVMgdG90YWxfcGVkaWRvcywNCiAgICAgICAganNvbmJfb2JqZWN0X2FnZygNCiAgICAgICAgICAgIENPQUxFU0NFKHN0YXR1cywgJ1NFTSBTVEFUVVMnKSwNCiAgICAgICAgICAgIHN0YXR1c19jb3VudA0KICAgICAgICApIEFTIHN0YXR1c19icmVha2Rvd24NCiAgICBGUk9NICgNCiAgICAgICAgU0VMRUNUIA0KICAgICAgICAgICAgc3RhdHVzLA0KICAgICAgICAgICAgQ09VTlQoKikgQVMgc3RhdHVzX2NvdW50DQogICAgICAgIEZST00gcHJpbnRfY29udHJvbA0KICAgICAgICBXSEVSRSBsID0gcF9sb3RlX251bWVybw0KICAgICAgICBHUk9VUCBCWSBzdGF0dXMNCiAgICApIHN1YnF1ZXJ5Ow0KRU5EOw0KJCQ7DQoNCi0tIDMuIENyZWF0ZSBmdW5jdGlvbiB0byBnZXQgYWxsIGxvdGVzIHdpdGggdGhlaXIgcGVkaWRvIGNvdW50cw0KLS0gVXNlZnVsIGZvciBkYXNoYm9hcmQgdmlld3MNCkNSRUFURSBPUiBSRVBMQUNFIEZVTkNUSU9OIGdldF9hbGxfbG90ZXNfd2l0aF9jb3VudHMoKQ0KUkVUVVJOUyBUQUJMRSAoDQogICAgbnVtZXJvX2xvdGUgdGV4dCwNCiAgICBwZWRpZG9fY291bnQgYmlnaW50LA0KICAgIGltYWdlbV91cmwgdGV4dCwNCiAgICB0aHVtYm5haWwgdGV4dCwNCiAgICBkYXRhX2NyaWFjYW8gdGltZXN0YW1wdHoNCikNCkxBTkdVQUdFIHBscGdzcWwNCkFTICQkDQpCRUdJTg0KICAgIFJFVFVSTiBRVUVSWQ0KICAgIFNFTEVDVCANCiAgICAgICAgbC5udW1lcm9fbG90ZSwNCiAgICAgICAgQ09VTlQocGMub3JkZXJfaWQpIEFTIHBlZGlkb19jb3VudCwNCiAgICAgICAgbC5pbWFnZW1fdXJsLA0KICAgICAgICBsLnRodW1ibmFpbCwNCiAgICAgICAgbC5kYXRhX2NyaWFjYW8NCiAgICBGUk9NIGxvdGVzIGwNCiAgICBMRUZUIEpPSU4gcHJpbnRfY29udHJvbCBwYyBPTiBsLm51bWVyb19sb3RlID0gcGMubA0KICAgIEdST1VQIEJZIGwubnVtZXJvX2xvdGUsIGwuaW1hZ2VtX3VybCwgbC50aHVtYm5haWwsIGwuZGF0YV9jcmlhY2FvDQogICAgT1JERVIgQlkgbC5kYXRhX2NyaWFjYW8gREVTQzsNCkVORDsNCiQkOw0KDQotLSA0LiBDcmVhdGUgaW5kZXggb24gcHJpbnRfY29udHJvbC5vcmRlcl9pZCBmb3IgZmFzdGVyIGxvb2t1cHMNCi0tIEVuc3VyZXMgdW5pcXVlIGNvbnN0cmFpbnQgYW5kIHNwZWVkcyB1cCBidWxrIG9wZXJhdGlvbnMNCkNSRUFURSBVTklRVUUgSU5ERVggSUYgTk9UIEVYSVNUUyBpZHhfcHJpbnRfY29udHJvbF9vcmRlcl9pZCBPTiBwcmludF9jb250cm9sKG9yZGVyX2lkKTsNCg0KLS0gR3JhbnQgbmVjZXNzYXJ5IHBlcm1pc3Npb25zIChhZGp1c3QgYmFzZWQgb24geW91ciBSTFMgcG9saWNpZXMpDQotLSBUaGVzZSBmdW5jdGlvbnMgc2hvdWxkIGJlIGFjY2Vzc2libGUgdG8gYXV0aGVudGljYXRlZCB1c2Vycw0KR1JBTlQgRVhFQ1VURSBPTiBGVU5DVElPTiBnZXRfbG90ZV9zdGF0cyh0ZXh0KSBUTyBhdXRoZW50aWNhdGVkOw0KR1JBTlQgRVhFQ1VURSBPTiBGVU5DVElPTiBnZXRfYWxsX2xvdGVzX3dpdGhfY291bnRzKCkgVE8gYXV0aGVudGljYXRlZDsNCg0KLS0gQWRkIGNvbW1lbnRzIGZvciBkb2N1bWVudGF0aW9uDQpDT01NRU5UIE9OIElOREVYIGlkeF9wcmludF9jb250cm9sX2wgSVMgJ0luZGV4IGZvciBmYXN0ZXIgbG90ZS1iYXNlZCBxdWVyaWVzIG9uIHByaW50X2NvbnRyb2wgdGFibGUnOw0KQ09NTUVOVCBPTiBGVU5DVElPTiBnZXRfbG90ZV9zdGF0cyh0ZXh0KSBJUyAnUmV0dXJucyB0b3RhbCBwZWRpZG9zIGFuZCBzdGF0dXMgYnJlYWtkb3duIGZvciBhIGdpdmVuIGxvdGUgbnVtYmVyJzsNCkNPTU1FTlQgT04gRlVOQ1RJT04gZ2V0X2FsbF9sb3Rlc193aXRoX2NvdW50cygpIElTICdSZXR1cm5zIGFsbCBsb3RlcyB3aXRoIHRoZWlyIHJlc3BlY3RpdmUgcGVkaWRvIGNvdW50cyc7DQo=}
+-- ================================================
+-- Lote-Pedido Linking Enhancement
+-- ================================================
+-- This migration adds performance optimizations and utility functions 
+-- for the lote-to-pedido linking feature
+
+-- 1. Add index on print_control.L column for faster lote queries
+-- This significantly improves performance when filtering pedidos by lote
+CREATE INDEX IF NOT EXISTS idx_print_control_l ON print_control(l);
+
+-- 2. Create function to get lote statistics
+-- Returns aggregated statistics for a given lote number
+CREATE OR REPLACE FUNCTION get_lote_stats(p_lote_numero text)
+RETURNS TABLE (
+    lote_numero text,
+    total_pedidos bigint,
+    status_breakdown jsonb
+) 
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        p_lote_numero AS lote_numero,
+        COUNT(*) AS total_pedidos,
+        jsonb_object_agg(
+            COALESCE(status, 'SEM STATUS'),
+            status_count
+        ) AS status_breakdown
+    FROM (
+        SELECT 
+            status,
+            COUNT(*) AS status_count
+        FROM print_control
+        WHERE l = p_lote_numero
+        GROUP BY status
+    ) subquery;
+END;
+$$;
+
+-- 3. Create function to get all lotes with their pedido counts
+-- Useful for dashboard views
+CREATE OR REPLACE FUNCTION get_all_lotes_with_counts()
+RETURNS TABLE (
+    numero_lote text,
+    pedido_count bigint,
+    imagem_url text,
+    thumbnail text,
+    data_criacao timestamptz
+)
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        l.numero_lote,
+        COUNT(pc.order_id) AS pedido_count,
+        l.imagem_url,
+        l.thumbnail,
+        l.data_criacao
+    FROM lotes l
+    LEFT JOIN print_control pc ON l.numero_lote = pc.l
+    GROUP BY l.numero_lote, l.imagem_url, l.thumbnail, l.data_criacao
+    ORDER BY l.data_criacao DESC;
+END;
+$$;
+
+-- 4. Create index on print_control.order_id for faster lookups
+-- Ensures unique constraint and speeds up bulk operations
+CREATE UNIQUE INDEX IF NOT EXISTS idx_print_control_order_id ON print_control(order_id);
+
+-- Grant necessary permissions (adjust based on your RLS policies)
+-- These functions should be accessible to authenticated users
+GRANT EXECUTE ON FUNCTION get_lote_stats(text) TO authenticated;
+GRANT EXECUTE ON FUNCTION get_all_lotes_with_counts() TO authenticated;
+
+-- Add comments for documentation
+COMMENT ON INDEX idx_print_control_l IS 'Index for faster lote-based queries on print_control table';
+COMMENT ON FUNCTION get_lote_stats(text) IS 'Returns total pedidos and status breakdown for a given lote number';
+COMMENT ON FUNCTION get_all_lotes_with_counts() IS 'Returns all lotes with their respective pedido counts';

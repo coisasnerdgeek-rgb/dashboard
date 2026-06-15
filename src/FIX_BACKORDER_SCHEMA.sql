@@ -1,1 +1,26 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIFNDUklQVCBERSBDT1JSRcOHw4NPOiBUQUJFTEEgQkFDS09SREVSRURfSVRFTVMNCi0tIEV4ZWN1dGUgZXN0ZSBzY3JpcHQgbm8gU1FMIEVkaXRvciBkbyBzZXUgTk9WTyBwcm9qZXRvIFN1cGFiYXNlLg0KLS0gSXNzbyBmb3LDp2Fyw6EgbyBiYW5jbyBhIHJlY29uaGVjZXIgYSBjb2x1bmEgZGF0YV9qc29uLg0KLS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KLS0gMS4gUmVtb3ZlciBhIHRhYmVsYSBhbnRpZ2EgKHNlIGhvdXZlciBjb25mbGl0byBkZSBjYWNoZSkNCkRST1AgVEFCTEUgSUYgRVhJU1RTIHB1YmxpYy5iYWNrb3JkZXJlZF9pdGVtcyBDQVNDQURFOw0KDQotLSAyLiBSZWNyaWFyIGNvbSBhIGVzdHJ1dHVyYSBleGF0YSBlc3BlcmFkYQ0KQ1JFQVRFIFRBQkxFIHB1YmxpYy5iYWNrb3JkZXJlZF9pdGVtcyAoDQogICAgaWQgdGV4dCBQUklNQVJZIEtFWSwNCiAgICBkYXRhX2pzb24ganNvbmIgTk9UIE5VTEwsDQogICAgaXNfcmVzb2x2ZWQgYm9vbGVhbiBERUZBVUxUIGZhbHNlLA0KICAgIGNyZWF0ZWRfYXQgdGltZXN0YW1wIHdpdGggdGltZSB6b25lIERFRkFVTFQgdGltZXpvbmUoJ3V0YycsIG5vdygpKSBOT1QgTlVMTCwNCiAgICB1cGRhdGVkX2F0IHRpbWVzdGFtcCB3aXRoIHRpbWUgem9uZSBERUZBVUxUIHRpbWV6b25lKCd1dGMnLCBub3coKSkgTk9UIE5VTEwsDQogICAgcmVzb2x2ZWRfYXQgdGltZXN0YW1wIHdpdGggdGltZSB6b25lDQopOw0KDQotLSAzLiBIYWJpbGl0YXIgcGVybWlzc8O1ZXMNCkFMVEVSIFRBQkxFIHB1YmxpYy5iYWNrb3JkZXJlZF9pdGVtcyBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOw0KQ1JFQVRFIFBPTElDWSAiQWxsb3cgYWxsIiBPTiBwdWJsaWMuYmFja29yZGVyZWRfaXRlbXMgRk9SIEFMTCBVU0lORyAodHJ1ZSkgV0lUSCBDSEVDSyAodHJ1ZSk7DQpHUkFOVCBBTEwgT04gcHVibGljLmJhY2tvcmRlcmVkX2l0ZW1zIFRPIGFub24sIGF1dGhlbnRpY2F0ZWQsIHNlcnZpY2Vfcm9sZTsNCg0KLS0gNC4gTm90aWZpY2FyIG8gc2lzdGVtYSBwYXJhIGF0dWFsaXphciBvIGNhY2hlDQpOT1RJRlkgcGdyc3QsICdyZWxvYWQgc2NoZW1hJzsNCg==}
+-- ========================================================
+-- SCRIPT DE CORREÇÃO: TABELA BACKORDERED_ITEMS
+-- Execute este script no SQL Editor do seu NOVO projeto Supabase.
+-- Isso forçará o banco a reconhecer a coluna data_json.
+-- ========================================================
+
+-- 1. Remover a tabela antiga (se houver conflito de cache)
+DROP TABLE IF EXISTS public.backordered_items CASCADE;
+
+-- 2. Recriar com a estrutura exata esperada
+CREATE TABLE public.backordered_items (
+    id text PRIMARY KEY,
+    data_json jsonb NOT NULL,
+    is_resolved boolean DEFAULT false,
+    created_at timestamp with time zone DEFAULT timezone('utc', now()) NOT NULL,
+    updated_at timestamp with time zone DEFAULT timezone('utc', now()) NOT NULL,
+    resolved_at timestamp with time zone
+);
+
+-- 3. Habilitar permissões
+ALTER TABLE public.backordered_items ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Allow all" ON public.backordered_items FOR ALL USING (true) WITH CHECK (true);
+GRANT ALL ON public.backordered_items TO anon, authenticated, service_role;
+
+-- 4. Notificar o sistema para atualizar o cache
+NOTIFY pgrst, 'reload schema';

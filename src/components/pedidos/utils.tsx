@@ -1,1 +1,84 @@
-﻿@{data=aW1wb3J0IHsgbm9ybWFsaXplU3RyaW5nIH0gZnJvbSAnLi4vLi4vdXRpbHMvc3RyaW5nVXRpbHMnOw0KDQovLyBDb2x1bmFzIGVzcGVjw61maWNhcyBxdWUgZGV2ZW0gc2VyIGV4aWJpZGFzIGUgZmlsdHJhZGFzIG5hIHDDoWdpbmEgZGUgUGVkaWRvcw0KZXhwb3J0IGNvbnN0IFBFRElET1NfS0VZUyA9IFsnaW1hZ2VtJywgJ2RhdGEnLCAnZGF0YSBtYXhpbWEgZGUgZGVzcGFjaG8nLCAnaWRlbnRpZmljYWRvciBkbyBwZWRpZG8gZS1jb21tZXJjZScsICdub21lJywgJ3Byb2R1dG8nLCAndGFtYW5obycsICdjb3InLCAncXVhbnRpZGFkZScsICdjYW5hbCcsICdzaXR1YWNhbycsICdjbnBqJywgJ3ZhbG9yIHVuaXRhcmlvJ107DQoNCi8vIEhlYWRlciBUaXRsZSBNYXANCmV4cG9ydCBjb25zdCBIRUFERVJfVElUTEVfTUFQOiB7IFtrZXk6IHN0cmluZ106IHN0cmluZyB9ID0gew0KICAgICdpbWFnZW0nOiAnSW1nJywNCiAgICAnbm9tZSBkZSBjb250YXRvJzogJ05vbWUnLA0KICAgICdub21lJzogJ05vbWUnLA0KICAgICd2YWxvciB1bml0YXJpbyc6ICdWYWxvcicsDQogICAgJ3ZhbG9yX3VuaXRhcmlvJzogJ1ZhbG9yJywNCiAgICAndmFsb3IgdG90YWwnOiAnVG90YWwnLA0KICAgICdpZGVudGlmaWNhZG9yIGRvIHBlZGlkbyBlLWNvbW1lcmNlJzogJ0lEJywNCiAgICAnbnVtZXJvIGRhIG9yZGVtIGRlIGNvbXByYSc6ICdJRCcsDQogICAgJ2lkJzogJ0lEJywNCiAgICAnZGF0YSBtYXhpbWEgZGUgZGVzcGFjaG8nOiAnUHJldicsDQogICAgJ3ByZXZpc3RhJzogJ1ByZXYnLA0KICAgICdjbnBqJzogJ0NOUEonLA0KICAgICdxdWFudGlkYWRlJzogJ1F0LicsDQogICAgJ3RhbWFuaG8nOiAnVGFtL1ZhcicsDQogICAgJ2Nvcic6ICdDb3InLA0KICAgICdwcm9kdXRvJzogJ1Byb2R1dG8nLA0KICAgICdza3UnOiAnU0tVJywNCiAgICAnY29kaWdvIChza3UpJzogJ1NLVScsDQogICAgJ2NvZGlnbyc6ICdTS1UnLA0KICAgICdjYW5hbCc6ICdDYW5hbCcsDQogICAgJ3NpdHVhY2FvJzogJ1NpdHVhw6fDo28nLA0KICAgICdkYXRhJzogJ0RhdGEnLA0KICAgICdjYXRlZ29yaWEnOiAnQ2F0ZWdvcmlhJw0KfTsNCg0KLy8gSGVscGVyIHRvIGZvcm1hdCBERC9NTS9ZWVlZIHRvIEREL01NDQpleHBvcnQgY29uc3QgZm9ybWF0RGF0ZSA9IChkYXRlU3RyaW5nOiBzdHJpbmcgfCBudW1iZXIgfCB1bmRlZmluZWQpOiBzdHJpbmcgPT4gew0KICAgIGlmICghZGF0ZVN0cmluZykgcmV0dXJuICcnOw0KICAgIGNvbnN0IHN0ciA9IFN0cmluZyhkYXRlU3RyaW5nKTsNCiAgICBpZiAoIXN0ci5pbmNsdWRlcygnLycpKSByZXR1cm4gc3RyOw0KICAgIGNvbnN0IHBhcnRzID0gc3RyLnNwbGl0KCcvJyk7DQogICAgaWYgKHBhcnRzLmxlbmd0aCA9PT0gMykgew0KICAgICAgICByZXR1cm4gYCR7cGFydHNbMF19LyR7cGFydHNbMV19YDsNCiAgICB9DQogICAgcmV0dXJuIHN0cjsNCn07DQoNCi8vIEZvcm1hdGEgdW0gbsO6bWVybyBjb21vIG1vZWRhIGJyYXNpbGVpcmENCmV4cG9ydCBjb25zdCBmb3JtYXRDdXJyZW5jeSA9ICh2YWx1ZTogbnVtYmVyKTogc3RyaW5nID0+IHsNCiAgICByZXR1cm4gbmV3IEludGwuTnVtYmVyRm9ybWF0KCdwdC1CUicsIHsNCiAgICAgICAgc3R5bGU6ICdjdXJyZW5jeScsDQogICAgICAgIGN1cnJlbmN5OiAnQlJMJywNCiAgICB9KS5mb3JtYXQodmFsdWUpOw0KfTsNCg0KLy8gUmV0b3JuYSBjbGFzc2VzIGRlIENTUyBwYXJhIGEgZXRpcXVldGEgZGUgc3RhdHVzIGNvbSBiYXNlIG5vIHRleHRvDQpleHBvcnQgY29uc3QgZ2V0U3RhdHVzQmFkZ2VDbGFzc2VzID0gKHN0YXR1czogc3RyaW5nKTogc3RyaW5nID0+IHsNCiAgICBjb25zdCBub3JtYWxpemVkU3RhdHVzID0gbm9ybWFsaXplU3RyaW5nKFN0cmluZyhzdGF0dXMgPz8gJycpKTsNCiAgICBpZiAoWydhcHJvdmFkbycsICdlbnRyZWd1ZScsICdwYWdvJywgJ2NvbmZpcm1hZG8nLCAnY29uY2x1aWRvJ10uc29tZShzID0+IG5vcm1hbGl6ZWRTdGF0dXMuaW5jbHVkZXMocykpKSB7DQogICAgICAgIHJldHVybiAnYmctZW1lcmFsZC0xMDAvODAgdGV4dC1lbWVyYWxkLTgwMCBib3JkZXIgYm9yZGVyLWVtZXJhbGQtMjAwIGRhcms6YmctZW1lcmFsZC05MDAvNDAgZGFyazp0ZXh0LWVtZXJhbGQtMzAwIGRhcms6Ym9yZGVyLWVtZXJhbGQtODAwIHNoYWRvdy1zbSc7DQogICAgfQ0KICAgIGlmIChbJ2ZhdHVyYWRvJ10uc29tZShzID0+IG5vcm1hbGl6ZWRTdGF0dXMuaW5jbHVkZXMocykpKSB7DQogICAgICAgIHJldHVybiAnYmctcHVycGxlLTEwMC84MCB0ZXh0LXB1cnBsZS04MDAgYm9yZGVyIGJvcmRlci1wdXJwbGUtMjAwIGRhcms6YmctcHVycGxlLTkwMC80MCBkYXJrOnRleHQtcHVycGxlLTMwMCBkYXJrOmJvcmRlci1wdXJwbGUtODAwIHNoYWRvdy1zbSc7DQogICAgfQ0KICAgIGlmIChbJ3BlbmRlbnRlJywgJ2FndWFyZGFuZG8nLCAncHJvY2Vzc2FuZG8nLCAnZW0gdHJhbnNpdG8nXS5zb21lKHMgPT4gbm9ybWFsaXplZFN0YXR1cy5pbmNsdWRlcyhzKSkpIHsNCiAgICAgICAgcmV0dXJuICdiZy1hbWJlci0xMDAvODAgdGV4dC1hbWJlci04MDAgYm9yZGVyIGJvcmRlci1hbWJlci0yMDAgZGFyazpiZy1hbWJlci05MDAvNDAgZGFyazp0ZXh0LWFtYmVyLTMwMCBkYXJrOmJvcmRlci1hbWJlci04MDAgc2hhZG93LXNtJzsNCiAgICB9DQogICAgaWYgKFsnY2FuY2VsYWRvJywgJ3JlY3VzYWRvJywgJ2Rldm9sdmlkbycsICdmYWxob3UnXS5zb21lKHMgPT4gbm9ybWFsaXplZFN0YXR1cy5pbmNsdWRlcyhzKSkpIHsNCiAgICAgICAgcmV0dXJuICdiZy1yb3NlLTEwMC84MCB0ZXh0LXJvc2UtODAwIGJvcmRlciBib3JkZXItcm9zZS0yMDAgZGFyazpiZy1yb3NlLTkwMC80MCBkYXJrOnRleHQtcm9zZS0zMDAgZGFyazpib3JkZXItcm9zZS04MDAgc2hhZG93LXNtJzsNCiAgICB9DQogICAgaWYgKG5vcm1hbGl6ZWRTdGF0dXMuaW5jbHVkZXMoJ2VudmlhZG8nKSkgew0KICAgICAgICByZXR1cm4gJ2JnLWJsdWUtMTAwLzgwIHRleHQtYmx1ZS04MDAgYm9yZGVyIGJvcmRlci1ibHVlLTIwMCBkYXJrOmJnLWJsdWUtOTAwLzQwIGRhcms6dGV4dC1ibHVlLTMwMCBkYXJrOmJvcmRlci1ibHVlLTgwMCBzaGFkb3ctc20nOw0KICAgIH0NCiAgICByZXR1cm4gJ2JnLWdyYXktMTAwLzgwIHRleHQtZ3JheS04MDAgYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBkYXJrOmJnLWdyYXktODAwIGRhcms6dGV4dC1ncmF5LTMwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCBzaGFkb3ctc20nOw0KfTsNCg0KZXhwb3J0IGNvbnN0IGdldE5ld1N0YXR1c0NvbG9yID0gKHN0YXR1czogc3RyaW5nKTogc3RyaW5nID0+IHsNCiAgICBjb25zdCBub3JtYWxpemVkID0gbm9ybWFsaXplU3RyaW5nKHN0YXR1cyk7DQogICAgaWYgKG5vcm1hbGl6ZWQuaW5jbHVkZXMoJ2Fwcm92YWRvJykpIHJldHVybiAnYmctZW1lcmFsZC00MDAvMzAgdGV4dC1lbWVyYWxkLTgwMCBkYXJrOnRleHQtZW1lcmFsZC0yMDAgaG92ZXI6YmctZW1lcmFsZC00MDAvNTAnOw0KICAgIGlmIChub3JtYWxpemVkLmluY2x1ZGVzKCdmYXR1cmFkbycpKSByZXR1cm4gJ2JnLXB1cnBsZS00MDAvMzAgdGV4dC1wdXJwbGUtODAwIGRhcms6dGV4dC1wdXJwbGUtMjAwIGhvdmVyOmJnLXB1cnBsZS00MDAvNTAnOw0KICAgIGlmIChub3JtYWxpemVkLmluY2x1ZGVzKCdkYWRvcyBpbmNvbXBsZXRvcycpKSByZXR1cm4gJ2JnLXJvc2UtNTAwLzMwIHRleHQtcm9zZS04MDAgZGFyazp0ZXh0LXJvc2UtMjAwIGhvdmVyOmJnLXJvc2UtNTAwLzUwJzsNCiAgICBpZiAobm9ybWFsaXplZC5pbmNsdWRlcygnZXJybyBkZSBza3UnKSkgcmV0dXJuICdiZy1vcmFuZ2UtNTAwLzMwIHRleHQtb3JhbmdlLTgwMCBkYXJrOnRleHQtb3JhbmdlLTIwMCBob3ZlcjpiZy1vcmFuZ2UtNTAwLzUwJzsNCiAgICBpZiAobm9ybWFsaXplZC5pbmNsdWRlcygnZW52aWFkbycpKSByZXR1cm4gJ2JnLXNreS01MDAvMzAgdGV4dC1za3ktODAwIGRhcms6dGV4dC1za3ktMjAwIGhvdmVyOmJnLXNreS01MDAvNTAnOw0KICAgIGlmIChub3JtYWxpemVkLmluY2x1ZGVzKCdlbnRyZWd1ZScpKSByZXR1cm4gJ2JnLWdyZWVuLTYwMC8zMCB0ZXh0LWdyZWVuLTgwMCBkYXJrOnRleHQtZ3JlZW4tMjAwIGhvdmVyOmJnLWdyZWVuLTYwMC81MCc7DQogICAgaWYgKG5vcm1hbGl6ZWQuaW5jbHVkZXMoJ2NhbmNlbGFkbycpKSByZXR1cm4gJ2JnLXNsYXRlLTUwMC8zMCB0ZXh0LXNsYXRlLTgwMCBkYXJrOnRleHQtc2xhdGUtMjAwIGhvdmVyOmJnLXNsYXRlLTUwMC81MCc7DQogICAgcmV0dXJuICdiZy1ncmF5LTQwMC8zMCB0ZXh0LWdyYXktODAwIGRhcms6dGV4dC1ncmF5LTIwMCBob3ZlcjpiZy1ncmF5LTQwMC81MCc7DQp9Ow0K}
+import { normalizeString } from '../../utils/stringUtils';
+
+// Colunas específicas que devem ser exibidas e filtradas na página de Pedidos
+export const PEDIDOS_KEYS = ['imagem', 'data', 'data maxima de despacho', 'identificador do pedido e-commerce', 'nome', 'produto', 'tamanho', 'cor', 'quantidade', 'canal', 'situacao', 'cnpj', 'valor unitario'];
+
+// Header Title Map
+export const HEADER_TITLE_MAP: { [key: string]: string } = {
+    'imagem': 'Img',
+    'nome de contato': 'Nome',
+    'nome': 'Nome',
+    'valor unitario': 'Valor',
+    'valor_unitario': 'Valor',
+    'valor total': 'Total',
+    'identificador do pedido e-commerce': 'ID',
+    'numero da ordem de compra': 'ID',
+    'id': 'ID',
+    'data maxima de despacho': 'Prev',
+    'prevista': 'Prev',
+    'cnpj': 'CNPJ',
+    'quantidade': 'Qt.',
+    'tamanho': 'Tam/Var',
+    'cor': 'Cor',
+    'produto': 'Produto',
+    'sku': 'SKU',
+    'codigo (sku)': 'SKU',
+    'codigo': 'SKU',
+    'canal': 'Canal',
+    'situacao': 'Situação',
+    'data': 'Data',
+    'categoria': 'Categoria'
+};
+
+// Helper to format DD/MM/YYYY to DD/MM
+export const formatDate = (dateString: string | number | undefined): string => {
+    if (!dateString) return '';
+    const str = String(dateString);
+    if (!str.includes('/')) return str;
+    const parts = str.split('/');
+    if (parts.length === 3) {
+        return `${parts[0]}/${parts[1]}`;
+    }
+    return str;
+};
+
+// Formata um número como moeda brasileira
+export const formatCurrency = (value: number): string => {
+    return new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+    }).format(value);
+};
+
+// Retorna classes de CSS para a etiqueta de status com base no texto
+export const getStatusBadgeClasses = (status: string): string => {
+    const normalizedStatus = normalizeString(String(status ?? ''));
+    if (['aprovado', 'entregue', 'pago', 'confirmado', 'concluido'].some(s => normalizedStatus.includes(s))) {
+        return 'bg-emerald-100/80 text-emerald-800 border border-emerald-200 dark:bg-emerald-900/40 dark:text-emerald-300 dark:border-emerald-800 shadow-sm';
+    }
+    if (['faturado'].some(s => normalizedStatus.includes(s))) {
+        return 'bg-purple-100/80 text-purple-800 border border-purple-200 dark:bg-purple-900/40 dark:text-purple-300 dark:border-purple-800 shadow-sm';
+    }
+    if (['pendente', 'aguardando', 'processando', 'em transito'].some(s => normalizedStatus.includes(s))) {
+        return 'bg-amber-100/80 text-amber-800 border border-amber-200 dark:bg-amber-900/40 dark:text-amber-300 dark:border-amber-800 shadow-sm';
+    }
+    if (['cancelado', 'recusado', 'devolvido', 'falhou'].some(s => normalizedStatus.includes(s))) {
+        return 'bg-rose-100/80 text-rose-800 border border-rose-200 dark:bg-rose-900/40 dark:text-rose-300 dark:border-rose-800 shadow-sm';
+    }
+    if (normalizedStatus.includes('enviado')) {
+        return 'bg-blue-100/80 text-blue-800 border border-blue-200 dark:bg-blue-900/40 dark:text-blue-300 dark:border-blue-800 shadow-sm';
+    }
+    return 'bg-gray-100/80 text-gray-800 border border-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700 shadow-sm';
+};
+
+export const getNewStatusColor = (status: string): string => {
+    const normalized = normalizeString(status);
+    if (normalized.includes('aprovado')) return 'bg-emerald-400/30 text-emerald-800 dark:text-emerald-200 hover:bg-emerald-400/50';
+    if (normalized.includes('faturado')) return 'bg-purple-400/30 text-purple-800 dark:text-purple-200 hover:bg-purple-400/50';
+    if (normalized.includes('dados incompletos')) return 'bg-rose-500/30 text-rose-800 dark:text-rose-200 hover:bg-rose-500/50';
+    if (normalized.includes('erro de sku')) return 'bg-orange-500/30 text-orange-800 dark:text-orange-200 hover:bg-orange-500/50';
+    if (normalized.includes('enviado')) return 'bg-sky-500/30 text-sky-800 dark:text-sky-200 hover:bg-sky-500/50';
+    if (normalized.includes('entregue')) return 'bg-green-600/30 text-green-800 dark:text-green-200 hover:bg-green-600/50';
+    if (normalized.includes('cancelado')) return 'bg-slate-500/30 text-slate-800 dark:text-slate-200 hover:bg-slate-500/50';
+    return 'bg-gray-400/30 text-gray-800 dark:text-gray-200 hover:bg-gray-400/50';
+};

@@ -1,1 +1,18 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgT0xEX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL25ieHViZG1zZXBuaGhoc2Jwem9xLnN1cGFiYXNlLmNvJzsNCmNvbnN0IE9MRF9TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW01aWVIVmlaRzF6WlhCdWFHaG9jMkp3ZW05eElpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyTVRJMU16VXdNaXdpWlhod0lqb3lNRGMyT0RJNU5UQXlmUS5MeDJIMmRIYnBocFRPbEgwUEtkLXY0RTdrSkdhclU0aFlNS0xyV0JINnVzJzsNCmNvbnN0IG9sZFN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE9MRF9TVVBBQkFTRV9VUkwsIE9MRF9TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBsaXN0QWxsVGFibGVzKCkgew0KICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IG9sZFN1cGFiYXNlLnJwYygnZ2V0X3RhYmxlc19pbmZvJyk7IC8vIElmIHJwYyBleGlzdHMsIGJ1dCBwcm9iYWJseSBub3QuDQogICAgLy8gTGV0J3MgdXNlIHJhdyBTUUwgaWYgcG9zc2libGUgb3IgYSB0cmljayB3aXRoIGEgY29tbW9uIHRhYmxlLg0KICAgIC8vIFNpbmNlIEkgY2FuJ3QgcnVuIHJhdyBTUUwgZWFzaWx5IHZpYSBjbGllbnQgd2l0aG91dCBSUEMsIEknbGwgdHJ5IHRvIGd1ZXNzIGNvbW1vbiBuYW1lcy4NCiAgICBjb25zdCBndWVzc2VzID0gWydpbWFnZXMnLCAnaW1hZ2VfbGlicmFyeScsICdwcm9kdWN0X2ltYWdlcycsICdlc3RhbXBhc19pbWFnZXMnLCAnaW1hZ2VfbWFwcGluZ3MnLCAnaW1hZ2VfY2F0ZWdvcmllcyddOw0KICAgIGZvciAoY29uc3QgZyBvZiBndWVzc2VzKSB7DQogICAgICAgIGNvbnN0IHsgY291bnQgfSA9IGF3YWl0IG9sZFN1cGFiYXNlLmZyb20oZykuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCiAgICAgICAgaWYgKGNvdW50ICE9PSBudWxsKSBjb25zb2xlLmxvZyhgJHtnfTogJHtjb3VudH0gcm93c2ApOw0KICAgIH0NCn0NCg0KbGlzdEFsbFRhYmxlcygpOw0K}
+import { createClient } from '@supabase/supabase-js';
+
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+
+async function listAllTables() {
+    const { data, error } = await oldSupabase.rpc('get_tables_info'); // If rpc exists, but probably not.
+    // Let's use raw SQL if possible or a trick with a common table.
+    // Since I can't run raw SQL easily via client without RPC, I'll try to guess common names.
+    const guesses = ['images', 'image_library', 'product_images', 'estampas_images', 'image_mappings', 'image_categories'];
+    for (const g of guesses) {
+        const { count } = await oldSupabase.from(g).select('*', { count: 'exact', head: true });
+        if (count !== null) console.log(`${g}: ${count} rows`);
+    }
+}
+
+listAllTables();

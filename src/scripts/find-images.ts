@@ -1,1 +1,23 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgT0xEX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL25ieHViZG1zZXBuaGhoc2Jwem9xLnN1cGFiYXNlLmNvJzsNCmNvbnN0IE9MRF9TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW01aWVIVmlaRzF6WlhCdWFHaG9jMkp3ZW05eElpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyTVRJMU16VXdNaXdpWlhod0lqb3lNRGMyT0RJNU5UQXlmUS5MeDJIMmRIYnBocFRPbEgwUEtkLXY0RTdrSkdhclU0aFlNS0xyV0JINnVzJzsNCmNvbnN0IG9sZFN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE9MRF9TVVBBQkFTRV9VUkwsIE9MRF9TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBmaW5kSW1hZ2VzKCkgew0KICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgb2xkU3VwYWJhc2UuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpLnNlbGVjdCgnKicpLmxpbWl0KDUwKTsNCiAgICBjb25zdCBrZXlzRm91bmQgPSBuZXcgU2V0KCk7DQogICAgZGF0YT8uZm9yRWFjaChyb3cgPT4gew0KICAgICAgICBpZiAocm93LnJvd19kYXRhKSB7DQogICAgICAgICAgICBPYmplY3Qua2V5cyhyb3cucm93X2RhdGEpLmZvckVhY2goayA9PiB7DQogICAgICAgICAgICAgICAgaWYgKGsudG9Mb3dlckNhc2UoKS5pbmNsdWRlcygnaW1hZ2VtJykgfHwgay50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKCd1cmwnKSB8fCBrLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoJ2xpbmsnKSkgew0KICAgICAgICAgICAgICAgICAgICBrZXlzRm91bmQuYWRkKGspOw0KICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgRm91bmQgaW1hZ2Uga2V5OiAke2t9IHZhbHVlOiAke3Jvdy5yb3dfZGF0YVtrXX1gKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9KTsNCiAgICAgICAgfQ0KICAgIH0pOw0KICAgIGNvbnNvbGUubG9nKCJVbmlxdWUga2V5cyBmb3VuZDoiLCBBcnJheS5mcm9tKGtleXNGb3VuZCkpOw0KfQ0KDQpmaW5kSW1hZ2VzKCk7DQo=}
+import { createClient } from '@supabase/supabase-js';
+
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+
+async function findImages() {
+    const { data } = await oldSupabase.from('spreadsheet_data').select('*').limit(50);
+    const keysFound = new Set();
+    data?.forEach(row => {
+        if (row.row_data) {
+            Object.keys(row.row_data).forEach(k => {
+                if (k.toLowerCase().includes('imagem') || k.toLowerCase().includes('url') || k.toLowerCase().includes('link')) {
+                    keysFound.add(k);
+                    console.log(`Found image key: ${k} value: ${row.row_data[k]}`);
+                }
+            });
+        }
+    });
+    console.log("Unique keys found:", Array.from(keysFound));
+}
+
+findImages();

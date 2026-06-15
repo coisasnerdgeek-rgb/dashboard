@@ -1,1 +1,96 @@
-﻿@{data=LyoqDQogKiBWZXJpZmljYXIgRWNvbW1lcmNlIElEcyBkb3MgcGVkaWRvcyBpbXBvcnRhZG9zDQogKi8NCg0KaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCmltcG9ydCAqIGFzIHBhdGggZnJvbSAncGF0aCc7DQoNCi8vIExvYWQgLmVudi5sb2NhbA0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpOw0KaWYgKGZzLmV4aXN0c1N5bmMoZW52UGF0aCkpIHsNCiAgICBjb25zdCBlbnZGaWxlID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGY4Jyk7DQogICAgZW52RmlsZS5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgICAgICBjb25zdCBtYXRjaCA9IGxpbmUubWF0Y2goL14oW149OiNdKyk9KC4qKSQvKTsNCiAgICAgICAgaWYgKG1hdGNoKSB7DQogICAgICAgICAgICBjb25zdCBrZXkgPSBtYXRjaFsxXS50cmltKCk7DQogICAgICAgICAgICBjb25zdCB2YWx1ZSA9IG1hdGNoWzJdLnRyaW0oKS5yZXBsYWNlKC9eWyInXXxbIiddJC9nLCAnJyk7DQogICAgICAgICAgICBpZiAoIXByb2Nlc3MuZW52W2tleV0pIHByb2Nlc3MuZW52W2tleV0gPSB2YWx1ZTsNCiAgICAgICAgfQ0KICAgIH0pOw0KfQ0KDQpjb25zdCBTVVBBQkFTRV9VUkwgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkwhOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSE7DQpjb25zdCBUSU5ZX1RPS0VOX01NID0gcHJvY2Vzcy5lbnYuVElOWV9BUElfVE9LRU5fTU0gfHwgcHJvY2Vzcy5lbnYuVElOWV9BUElfVE9LRU47DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrRWNvbW1lcmNlSWRzKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCflI0gVmVyaWZpY2FuZG8gRWNvbW1lcmNlIElEcyBkb3MgUGVkaWRvc1xuJyk7DQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCg0KICAgIC8vIEJ1c2NhciBhbW9zdHJhcyBkZSBwZWRpZG9zIGRvIGRpYSAyOA0KICAgIGNvbnN0IHsgZGF0YTogc2FtcGxlcyB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCdyb3dfZGF0YScpDQogICAgICAgIC5lcSgncm93X2RhdGEtPj5EYXRhJywgJzI4LzAxLzIwMjYnKQ0KICAgICAgICAubGltaXQoMTApOw0KDQogICAgaWYgKCFzYW1wbGVzIHx8IHNhbXBsZXMubGVuZ3RoID09PSAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCfinYwgTmVuaHVtIHBlZGlkbyBlbmNvbnRyYWRvIVxuJyk7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygn8J+TpiBBbW9zdHJhcyBkZSBQZWRpZG9zIGRvIERpYSAyODpcbicpOw0KDQogICAgZm9yIChjb25zdCBzYW1wbGUgb2Ygc2FtcGxlcykgew0KICAgICAgICBjb25zdCByb3dEYXRhID0gc2FtcGxlLnJvd19kYXRhOw0KICAgICAgICBjb25zb2xlLmxvZyhgSUQgVGlueTogJHtyb3dEYXRhWydJRCBUaW55J119YCk7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICBFY29tbWVyY2UgSUQ6ICIke3Jvd0RhdGFbJ0Vjb21tZXJjZSBJRCddfSIgJHshcm93RGF0YVsnRWNvbW1lcmNlIElEJ10gPyAn4p2MIFZBWklPIScgOiAnJ31gKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIExvamE6ICIke3Jvd0RhdGFbJ0xvamEnXX0iYCk7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICBDbGllbnRlOiAiJHtyb3dEYXRhWydDbGllbnRlJ10/LnN1YnN0cmluZygwLCAzMCl9Li4uImApOw0KICAgICAgICBjb25zb2xlLmxvZygnJyk7DQogICAgfQ0KDQogICAgLy8gQnVzY2FyIGRpcmV0YW1lbnRlIGRvIFRpbnkgcGFyYSBjb21wYXJhcg0KICAgIGNvbnN0IHNhbXBsZVRpbnlJZCA9IHNhbXBsZXNbMF0ucm93X2RhdGFbJ0lEIFRpbnknXTsNCiAgICBjb25zb2xlLmxvZyhg8J+ToSBCdXNjYW5kbyAjJHtzYW1wbGVUaW55SWR9IGRpcmV0YW1lbnRlIGRvIFRpbnkuLi5cbmApOw0KDQogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgNCiAgICAgICAgYGh0dHBzOi8vYXBpLnRpbnkuY29tLmJyL2FwaTIvcGVkaWRvLm9idGVyLnBocD90b2tlbj0ke1RJTllfVE9LRU5fTU19JmlkPSR7c2FtcGxlVGlueUlkfSZmb3JtYXRvPUpTT05gDQogICAgKTsNCiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNvbigpOw0KDQogICAgaWYgKGRhdGEucmV0b3Jubz8uc3RhdHVzID09PSAnT0snKSB7DQogICAgICAgIGNvbnN0IHBlZGlkbyA9IGRhdGEucmV0b3Juby5wZWRpZG87DQogICAgICAgIGNvbnNvbGUubG9nKCdEYWRvcyBkbyBUaW55OicpOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgSUQ6ICR7cGVkaWRvLmlkfWApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgRWNvbW1lcmNlIG51bWVybzogIiR7cGVkaWRvLmVjb21tZXJjZT8ubnVtZXJvX2Vjb21tZXJjZX0iYCk7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICBFY29tbWVyY2UgbnVtZXJvX2xvamE6ICIke3BlZGlkby5lY29tbWVyY2U/Lm51bWVyb19sb2phfSJgKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIE5vbWUgdmVuZGVkb3I6ICIke3BlZGlkby5ub21lX3ZlbmRlZG9yfSJgKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIElEIHZlbmRlZG9yOiAiJHtwZWRpZG8uaWRfdmVuZGVkb3J9ImApOw0KICAgICAgICBjb25zb2xlLmxvZygnJyk7DQogICAgfQ0KDQogICAgLy8gVmVyaWZpY2FyIHVtIHBlZGlkbyBBTlRJR08gcXVlIHRlbSBsb2phIGNvcnJldGENCiAgICBjb25zb2xlLmxvZygn8J+TpiBDb21wYXJhbmRvIGNvbSBQZWRpZG8gQW50aWdvIChsb2phIGNvcnJldGEpOlxuJyk7DQoNCiAgICBjb25zdCB7IGRhdGE6IG9sZFNhbXBsZSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCdyb3dfZGF0YScpDQogICAgICAgIC5pbGlrZSgncm93X2RhdGEtPj5Mb2phJywgJyVTSCBNTSUnKQ0KICAgICAgICAubGltaXQoMSk7DQoNCiAgICBpZiAob2xkU2FtcGxlICYmIG9sZFNhbXBsZS5sZW5ndGggPiAwKSB7DQogICAgICAgIGNvbnN0IG9sZERhdGEgPSBvbGRTYW1wbGVbMF0ucm93X2RhdGE7DQogICAgICAgIGNvbnNvbGUubG9nKGBJRCBUaW55OiAke29sZERhdGFbJ0lEIFRpbnknXX1gKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIEVjb21tZXJjZSBJRDogIiR7b2xkRGF0YVsnRWNvbW1lcmNlIElEJ119ImApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgTG9qYTogIiR7b2xkRGF0YVsnTG9qYSddfSJgKTsNCiAgICAgICAgY29uc29sZS5sb2coJycpOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCc9Jy5yZXBlYXQoNjApICsgJ1xuJyk7DQp9DQoNCmNoZWNrRWNvbW1lcmNlSWRzKCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+/**
+ * Verificar Ecommerce IDs dos pedidos importados
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const TINY_TOKEN_MM = process.env.TINY_API_TOKEN_MM || process.env.TINY_API_TOKEN;
+
+async function checkEcommerceIds() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🔍 Verificando Ecommerce IDs dos Pedidos\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Buscar amostras de pedidos do dia 28
+    const { data: samples } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data')
+        .eq('row_data->>Data', '28/01/2026')
+        .limit(10);
+
+    if (!samples || samples.length === 0) {
+        console.log('❌ Nenhum pedido encontrado!\n');
+        return;
+    }
+
+    console.log('📦 Amostras de Pedidos do Dia 28:\n');
+
+    for (const sample of samples) {
+        const rowData = sample.row_data;
+        console.log(`ID Tiny: ${rowData['ID Tiny']}`);
+        console.log(`   Ecommerce ID: "${rowData['Ecommerce ID']}" ${!rowData['Ecommerce ID'] ? '❌ VAZIO!' : ''}`);
+        console.log(`   Loja: "${rowData['Loja']}"`);
+        console.log(`   Cliente: "${rowData['Cliente']?.substring(0, 30)}..."`);
+        console.log('');
+    }
+
+    // Buscar diretamente do Tiny para comparar
+    const sampleTinyId = samples[0].row_data['ID Tiny'];
+    console.log(`📡 Buscando #${sampleTinyId} diretamente do Tiny...\n`);
+
+    const response = await fetch(
+        `https://api.tiny.com.br/api2/pedido.obter.php?token=${TINY_TOKEN_MM}&id=${sampleTinyId}&formato=JSON`
+    );
+    const data = await response.json();
+
+    if (data.retorno?.status === 'OK') {
+        const pedido = data.retorno.pedido;
+        console.log('Dados do Tiny:');
+        console.log(`   ID: ${pedido.id}`);
+        console.log(`   Ecommerce numero: "${pedido.ecommerce?.numero_ecommerce}"`);
+        console.log(`   Ecommerce numero_loja: "${pedido.ecommerce?.numero_loja}"`);
+        console.log(`   Nome vendedor: "${pedido.nome_vendedor}"`);
+        console.log(`   ID vendedor: "${pedido.id_vendedor}"`);
+        console.log('');
+    }
+
+    // Verificar um pedido ANTIGO que tem loja correta
+    console.log('📦 Comparando com Pedido Antigo (loja correta):\n');
+
+    const { data: oldSample } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data')
+        .ilike('row_data->>Loja', '%SH MM%')
+        .limit(1);
+
+    if (oldSample && oldSample.length > 0) {
+        const oldData = oldSample[0].row_data;
+        console.log(`ID Tiny: ${oldData['ID Tiny']}`);
+        console.log(`   Ecommerce ID: "${oldData['Ecommerce ID']}"`);
+        console.log(`   Loja: "${oldData['Loja']}"`);
+        console.log('');
+    }
+
+    console.log('='.repeat(60) + '\n');
+}
+
+checkEcommerceIds().catch(console.error);

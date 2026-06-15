@@ -1,1 +1,28 @@
-﻿@{data=LS0gTWlncmF0aW9uOiBDcmVhdGUgV2ViaG9vayBSZXRyeSBRdWV1ZSBUYWJsZQ0KLS0gRXhlY3V0ZSB0aGlzIFNRTCBpbiBTdXBhYmFzZSBEYXNoYm9hcmQ6IFNRTCBFZGl0b3INCg0KLS0gQ3JlYXRlIHRhYmxlIGZvciB3ZWJob29rIHJldHJ5IHF1ZXVlDQpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyB3ZWJob29rX3JldHJ5X3F1ZXVlICgNCiAgaWQgVVVJRCBQUklNQVJZIEtFWSBERUZBVUxUIGdlbl9yYW5kb21fdXVpZCgpLA0KICBvcmRlcl9pZCBURVhUIE5PVCBOVUxMLA0KICBjbnBqIFRFWFQsDQogIGNvbXBhbnkgVEVYVCwNCiAgcGF5bG9hZCBKU09OQiwNCiAgcmV0cnlfY291bnQgSU5URUdFUiBERUZBVUxUIDAsDQogIG1heF9yZXRyaWVzIElOVEVHRVIgREVGQVVMVCAxMCwNCiAgbmV4dF9yZXRyeV9hdCBUSU1FU1RBTVAgV0lUSCBUSU1FIFpPTkUsDQogIGNyZWF0ZWRfYXQgVElNRVNUQU1QIFdJVEggVElNRSBaT05FIERFRkFVTFQgTk9XKCksDQogIGxhc3RfZXJyb3IgVEVYVCwNCiAgc3RhdHVzIFRFWFQgREVGQVVMVCAncGVuZGluZycgQ0hFQ0sgKHN0YXR1cyBJTiAoJ3BlbmRpbmcnLCAncHJvY2Vzc2luZycsICdjb21wbGV0ZWQnLCAnZmFpbGVkJykpDQopOw0KDQotLSBDcmVhdGUgaW5kZXhlcyBmb3IgcGVyZm9ybWFuY2UNCkNSRUFURSBJTkRFWCBJRiBOT1QgRVhJU1RTIGlkeF9yZXRyeV9xdWV1ZV9zdGF0dXMgT04gd2ViaG9va19yZXRyeV9xdWV1ZShzdGF0dXMpOw0KQ1JFQVRFIElOREVYIElGIE5PVCBFWElTVFMgaWR4X3JldHJ5X3F1ZXVlX25leHRfcmV0cnkgT04gd2ViaG9va19yZXRyeV9xdWV1ZShuZXh0X3JldHJ5X2F0KTsNCkNSRUFURSBJTkRFWCBJRiBOT1QgRVhJU1RTIGlkeF9yZXRyeV9xdWV1ZV9vcmRlcl9pZCBPTiB3ZWJob29rX3JldHJ5X3F1ZXVlKG9yZGVyX2lkKTsNCg0KLS0gQWRkIGNvbW1lbnQNCkNPTU1FTlQgT04gVEFCTEUgd2ViaG9va19yZXRyeV9xdWV1ZSBJUyAnUXVldWUgZm9yIHJldHJ5aW5nIHdlYmhvb2sgb3JkZXJzIHRoYXQgd2VyZSBub3QgaW1tZWRpYXRlbHkgYXZhaWxhYmxlIGluIFRpbnkgQVBJJzsNCg0KLS0gVmVyaWZ5IHRhYmxlIHdhcyBjcmVhdGVkDQpTRUxFQ1QgdGFibGVfbmFtZSBGUk9NIGluZm9ybWF0aW9uX3NjaGVtYS50YWJsZXMgV0hFUkUgdGFibGVfbmFtZSA9ICd3ZWJob29rX3JldHJ5X3F1ZXVlJzsNCg==}
+-- Migration: Create Webhook Retry Queue Table
+-- Execute this SQL in Supabase Dashboard: SQL Editor
+
+-- Create table for webhook retry queue
+CREATE TABLE IF NOT EXISTS webhook_retry_queue (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  order_id TEXT NOT NULL,
+  cnpj TEXT,
+  company TEXT,
+  payload JSONB,
+  retry_count INTEGER DEFAULT 0,
+  max_retries INTEGER DEFAULT 10,
+  next_retry_at TIMESTAMP WITH TIME ZONE,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  last_error TEXT,
+  status TEXT DEFAULT 'pending' CHECK (status IN ('pending', 'processing', 'completed', 'failed'))
+);
+
+-- Create indexes for performance
+CREATE INDEX IF NOT EXISTS idx_retry_queue_status ON webhook_retry_queue(status);
+CREATE INDEX IF NOT EXISTS idx_retry_queue_next_retry ON webhook_retry_queue(next_retry_at);
+CREATE INDEX IF NOT EXISTS idx_retry_queue_order_id ON webhook_retry_queue(order_id);
+
+-- Add comment
+COMMENT ON TABLE webhook_retry_queue IS 'Queue for retrying webhook orders that were not immediately available in Tiny API';
+
+-- Verify table was created
+SELECT table_name FROM information_schema.tables WHERE table_name = 'webhook_retry_queue';

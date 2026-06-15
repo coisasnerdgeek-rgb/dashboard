@@ -1,1 +1,51 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpOw0KY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KY29uc3QgZW52OiBhbnkgPSB7fTsNCmVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICBjb25zdCBtYXRjaCA9IGxpbmUubWF0Y2goL14oW149OiNdKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIGVudlttYXRjaFsxXS50cmltKCldID0gbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL15bIiddfFsiJ10kL2csICcnKTsNCn0pOw0KDQpjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChlbnYuU1VQQUJBU0VfVVJMLCBlbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrKCkgew0KICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnaWQsIHJvd19kYXRhJykNCiAgICAgICAgLmxpbWl0KDEwKTsNCg0KICAgIGlmIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKGVycm9yKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKGBcbvCflI0gQW1vc3RyYSBkZSBQZWRpZG9zICgke2RhdGEubGVuZ3RofSBlbmNvbnRyYWRvcyk6XG5gKTsNCiAgICBkYXRhLmZvckVhY2goaXRlbSA9PiB7DQogICAgICAgIGNvbnN0IHJvdyA9IGl0ZW0ucm93X2RhdGE7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICAtIElEOiAke3Jvd1snTsO6bWVybyBkYSBvcmRlbSBkZSBjb21wcmEnXSB8fCByb3dbJ2lkJ119YCk7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICAgIFNpdHVhw6fDo286ICR7cm93WydTaXR1YcOnw6NvJ10gfHwgcm93WydzaXR1YWNhbyddfWApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgICBEYXRhOiAke3Jvd1snRGF0YSddIHx8IHJvd1snZGF0YSddfWApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgICBDYW5hbDogJHtyb3dbJ0NhbmFsJ10gfHwgcm93WydjYW5hbCddfWApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgICBDTlBKOiAke3Jvd1snQ05QSiddIHx8IHJvd1snY25waiddfWApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgICAtLS1gKTsNCiAgICB9KTsNCg0KICAgIGNvbnN0IHsgZGF0YTogc3RhdHVzQ291bnRzIH0gPSBhd2FpdCBzdXBhYmFzZS5ycGMoJ2dldF9zdGF0dXNfY291bnRzX3YyJyk7IC8vIElmIGV4aXN0cw0KICAgIC8vIEZhbGxiYWNrOiBtYW51YWwgY291bnQNCiAgICBjb25zdCB7IGRhdGE6IGFsbFJvd3MgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKS5zZWxlY3QoJ3Jvd19kYXRhJyk7DQogICAgY29uc3QgY291bnRzOiBhbnkgPSB7fTsNCiAgICBhbGxSb3dzPy5mb3JFYWNoKHIgPT4gew0KICAgICAgICBjb25zdCBzID0gci5yb3dfZGF0YT8uWydTaXR1YcOnw6NvJ10gfHwgci5yb3dfZGF0YT8uc2l0dWFjYW8gfHwgJ1NFTSBTVEFUVVMnOw0KICAgICAgICBjb3VudHNbc10gPSAoY291bnRzW3NdIHx8IDApICsgMTsNCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCfk4ggUmVzdW1vIGRlIFN0YXR1czonKTsNCiAgICBjb25zb2xlLmxvZyhKU09OLnN0cmluZ2lmeShjb3VudHMsIG51bGwsIDIpKTsNCn0NCg0KY2hlY2soKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const envPath = path.join(process.cwd(), '.env.local');
+const envFile = fs.readFileSync(envPath, 'utf8');
+const env: any = {};
+envFile.split('\n').forEach(line => {
+    const match = line.match(/^([^=:#]+)=(.*)$/);
+    if (match) env[match[1].trim()] = match[2].trim().replace(/^["']|["']$/g, '');
+});
+
+const supabase = createClient(env.SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY);
+
+async function check() {
+    const { data, error } = await supabase
+        .from('spreadsheet_data')
+        .select('id, row_data')
+        .limit(10);
+
+    if (error) {
+        console.error(error);
+        return;
+    }
+
+    console.log(`\n🔍 Amostra de Pedidos (${data.length} encontrados):\n`);
+    data.forEach(item => {
+        const row = item.row_data;
+        console.log(`   - ID: ${row['Número da ordem de compra'] || row['id']}`);
+        console.log(`     Situação: ${row['Situação'] || row['situacao']}`);
+        console.log(`     Data: ${row['Data'] || row['data']}`);
+        console.log(`     Canal: ${row['Canal'] || row['canal']}`);
+        console.log(`     CNPJ: ${row['CNPJ'] || row['cnpj']}`);
+        console.log(`     ---`);
+    });
+
+    const { data: statusCounts } = await supabase.rpc('get_status_counts_v2'); // If exists
+    // Fallback: manual count
+    const { data: allRows } = await supabase.from('spreadsheet_data').select('row_data');
+    const counts: any = {};
+    allRows?.forEach(r => {
+        const s = r.row_data?.['Situação'] || r.row_data?.situacao || 'SEM STATUS';
+        counts[s] = (counts[s] || 0) + 1;
+    });
+
+    console.log('\n📈 Resumo de Status:');
+    console.log(JSON.stringify(counts, null, 2));
+}
+
+check();

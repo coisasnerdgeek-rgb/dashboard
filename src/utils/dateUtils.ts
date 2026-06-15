@@ -1,1 +1,51 @@
-﻿@{data=LyoqDQogKiBHbG9iYWwgY3V0b2ZmIGZvciBvcmRlciBmaWx0ZXJpbmcuDQogKiBGb3JtYXQ6IFlZWVktTU0tREQNCiAqIE9yZGVycyBmcm9tIHRoaXMgZGF0ZSBvbndhcmRzIChpbmNsdXNpdmUpIHNob3VsZCBiZSBkaXNwbGF5ZWQgYW5kIHByb2Nlc3NlZC4NCiAqLw0KZXhwb3J0IGNvbnN0IEdMT0JBTF9EQVRFX0NVVE9GRiA9ICcyMDI1LTExLTI4JzsNCg0KLyoqDQogKiBDb252ZXJ0cyB2YXJpb3VzIGRhdGUgZm9ybWF0cyBmb3VuZCBpbiBzcHJlYWRzaGVldHMgdG8gWVlZWS1NTS1ERCBmb3IgY29tcGFyaXNvbi4NCiAqIFN1cHBvcnRzOg0KICogLSBERC9NTS9ZWVlZDQogKiAtIEREL01NL1lZDQogKiAtIFlZWVktTU0tREQgKElTTykNCiAqLw0KZXhwb3J0IGNvbnN0IHRvQ29tcGFyYWJsZURhdGUgPSAoZGF0ZVN0cmluZzogc3RyaW5nIHwgbnVtYmVyIHwgbnVsbCB8IHVuZGVmaW5lZCk6IHN0cmluZyB8IG51bGwgPT4gew0KICAgIGlmIChkYXRlU3RyaW5nID09PSBudWxsIHx8IGRhdGVTdHJpbmcgPT09IHVuZGVmaW5lZCkgcmV0dXJuIG51bGw7DQogICAgY29uc3Qgc3RyID0gU3RyaW5nKGRhdGVTdHJpbmcpLnRyaW0oKTsNCiAgICBpZiAoIXN0cikgcmV0dXJuIG51bGw7DQoNCiAgICAvLyBIYW5kbGUgSVNPIGZvcm1hdCBZWVlZLU1NLUREIG9yIHNpbWlsYXINCiAgICBpZiAoc3RyLm1hdGNoKC9eXGR7NH0tXGR7Mn0tXGR7Mn0vKSkgcmV0dXJuIHN0ci5zdWJzdHJpbmcoMCwgMTApOw0KDQogICAgLy8gSGFuZGxlIEREL01NL1lZWVkgb3IgREQvTU0vWVkNCiAgICBjb25zdCBwYXJ0cyA9IHN0ci5zcGxpdCgnLycpOw0KICAgIGlmIChwYXJ0cy5sZW5ndGggPj0gMykgew0KICAgICAgICBjb25zdCBkYXkgPSBwYXJ0c1swXS5wYWRTdGFydCgyLCAnMCcpOw0KICAgICAgICBjb25zdCBtb250aCA9IHBhcnRzWzFdLnBhZFN0YXJ0KDIsICcwJyk7DQogICAgICAgIGxldCB5ZWFyID0gcGFydHNbMl0uc3BsaXQoL1xzKy8pWzBdOyAvLyBSZW1vdmUgdGltZSBpZiBwcmVzZW50ICIyMDI0IDEwOjAwIg0KDQogICAgICAgIGlmICh5ZWFyLmxlbmd0aCA9PT0gMikgew0KICAgICAgICAgICAgeWVhciA9ICcyMCcgKyB5ZWFyOw0KICAgICAgICB9DQoNCiAgICAgICAgaWYgKHllYXIubGVuZ3RoID09PSA0KSB7DQogICAgICAgICAgICByZXR1cm4gYCR7eWVhcn0tJHttb250aH0tJHtkYXl9YDsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIHJldHVybiBudWxsOw0KfTsNCg0KLyoqDQogKiBDaGVja3MgaWYgYSBkYXRlIGlzIG9uIG9yIGFmdGVyIHRoZSBnbG9iYWwgY3V0b2ZmLg0KICovDQpleHBvcnQgY29uc3QgaXNBZnRlckN1dG9mZiA9IChkYXRlU3RyaW5nOiBzdHJpbmcgfCBudW1iZXIgfCBudWxsIHwgdW5kZWZpbmVkKTogYm9vbGVhbiA9PiB7DQogICAgY29uc3QgY29tcGFyYWJsZSA9IHRvQ29tcGFyYWJsZURhdGUoZGF0ZVN0cmluZyk7DQogICAgaWYgKCFjb21wYXJhYmxlKSByZXR1cm4gdHJ1ZTsgLy8gRGVmYXVsdCB0byBzaG93aW5nIGlmIGRhdGUgaXMgdW5wYXJzZWFibGU/IE9yIGZhbHNlIHRvIGJlIHN0cmljdD8NCiAgICAvLyBMZXQncyBiZSBzZW1pLXN0cmljdDogaWYgd2UgaGF2ZSBhIGRhdGUgYW5kIGl0J3Mgb2xkLCBoaWRlIGl0LiANCiAgICAvLyBJZiBpdCdzIGVtcHR5L251bGwsIHdlIG1pZ2h0IHNob3cgaXQgZGVwZW5kaW5nIG9uIHRoZSB1c2UgY2FzZS4NCiAgICByZXR1cm4gY29tcGFyYWJsZSA+PSBHTE9CQUxfREFURV9DVVRPRkY7DQp9Ow0K}
+/**
+ * Global cutoff for order filtering.
+ * Format: YYYY-MM-DD
+ * Orders from this date onwards (inclusive) should be displayed and processed.
+ */
+export const GLOBAL_DATE_CUTOFF = '2025-11-28';
+
+/**
+ * Converts various date formats found in spreadsheets to YYYY-MM-DD for comparison.
+ * Supports:
+ * - DD/MM/YYYY
+ * - DD/MM/YY
+ * - YYYY-MM-DD (ISO)
+ */
+export const toComparableDate = (dateString: string | number | null | undefined): string | null => {
+    if (dateString === null || dateString === undefined) return null;
+    const str = String(dateString).trim();
+    if (!str) return null;
+
+    // Handle ISO format YYYY-MM-DD or similar
+    if (str.match(/^\d{4}-\d{2}-\d{2}/)) return str.substring(0, 10);
+
+    // Handle DD/MM/YYYY or DD/MM/YY
+    const parts = str.split('/');
+    if (parts.length >= 3) {
+        const day = parts[0].padStart(2, '0');
+        const month = parts[1].padStart(2, '0');
+        let year = parts[2].split(/\s+/)[0]; // Remove time if present "2024 10:00"
+
+        if (year.length === 2) {
+            year = '20' + year;
+        }
+
+        if (year.length === 4) {
+            return `${year}-${month}-${day}`;
+        }
+    }
+
+    return null;
+};
+
+/**
+ * Checks if a date is on or after the global cutoff.
+ */
+export const isAfterCutoff = (dateString: string | number | null | undefined): boolean => {
+    const comparable = toComparableDate(dateString);
+    if (!comparable) return true; // Default to showing if date is unparseable? Or false to be strict?
+    // Let's be semi-strict: if we have a date and it's old, hide it. 
+    // If it's empty/null, we might show it depending on the use case.
+    return comparable >= GLOBAL_DATE_CUTOFF;
+};

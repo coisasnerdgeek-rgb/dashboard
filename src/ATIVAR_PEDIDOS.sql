@@ -1,1 +1,27 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIEFUSVZBUiBQRURJRE9TIFBBUkEgQVBBUkVDRVJFTSBOTyBEQVNIQk9BUkQNCi0tIEV4ZWN1dGUgbm8gU1FMIEVkaXRvciBkbyBCQU5DTyBOT1ZPIChnZWFidmNxY3ltYXFzcXh4ZnF5dykNCi0tID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCi0tIERlc21hcmNhciBvcyAxMCBwZWRpZG9zIG1haXMgcmVjZW50ZXMgY29tbyBhdGl2b3MNCi0tIHBhcmEgcXVlIGFwYXJlw6dhbSBubyBkYXNoYm9hcmQNClVQREFURSBwdWJsaWMuc2F2ZWRfb3JkZXJzDQpTRVQgYXJjaGl2ZWRfZGF0ZSA9IE5VTEwNCldIRVJFIGlkIElOICgNCiAgU0VMRUNUIGlkIA0KICBGUk9NIHB1YmxpYy5zYXZlZF9vcmRlcnMgDQogIE9SREVSIEJZIGNyZWF0ZWRfYXQgREVTQyANCiAgTElNSVQgMTANCik7DQoNCi0tIFZlcmlmaWNhciBxdWFudG9zIHBlZGlkb3MgYXRpdm9zIHRlbW9zIGFnb3JhDQpTRUxFQ1QgQ09VTlQoKikgYXMgcGVkaWRvc19hdGl2b3MgDQpGUk9NIHB1YmxpYy5zYXZlZF9vcmRlcnMgDQpXSEVSRSBhcmNoaXZlZF9kYXRlIElTIE5VTEw7DQoNCi0tIFZlciBxdWFpcyBwZWRpZG9zIGZpY2FyYW0gYXRpdm9zDQpTRUxFQ1QgaWQsIGNyZWF0ZWRfYXQsIExFRlQoZGF0YV9qc29uOjp0ZXh0LCAxMDApIGFzIHByZXZpZXcNCkZST00gcHVibGljLnNhdmVkX29yZGVycyANCldIRVJFIGFyY2hpdmVkX2RhdGUgSVMgTlVMTA0KT1JERVIgQlkgY3JlYXRlZF9hdCBERVNDDQpMSU1JVCAxMDsNCg==}
+-- ========================================================
+-- ATIVAR PEDIDOS PARA APARECEREM NO DASHBOARD
+-- Execute no SQL Editor do BANCO NOVO (geabvcqcymaqsqxxfqyw)
+-- ========================================================
+
+-- Desmarcar os 10 pedidos mais recentes como ativos
+-- para que apareçam no dashboard
+UPDATE public.saved_orders
+SET archived_date = NULL
+WHERE id IN (
+  SELECT id 
+  FROM public.saved_orders 
+  ORDER BY created_at DESC 
+  LIMIT 10
+);
+
+-- Verificar quantos pedidos ativos temos agora
+SELECT COUNT(*) as pedidos_ativos 
+FROM public.saved_orders 
+WHERE archived_date IS NULL;
+
+-- Ver quais pedidos ficaram ativos
+SELECT id, created_at, LEFT(data_json::text, 100) as preview
+FROM public.saved_orders 
+WHERE archived_date IS NULL
+ORDER BY created_at DESC
+LIMIT 10;

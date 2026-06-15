@@ -1,1 +1,32 @@
-﻿@{data=LyoqIEB0eXBlIHtpbXBvcnQoJ3RhaWx3aW5kY3NzJykuQ29uZmlnfSAqLw0KZXhwb3J0IGRlZmF1bHQgew0KICAgIGNvbnRlbnQ6IFsNCiAgICAgICAgIi4vaW5kZXguaHRtbCIsDQogICAgICAgICIuL2luZGV4LnRzeCIsDQogICAgICAgICIuL0FwcC50c3giLA0KICAgICAgICAiLi9jb21wb25lbnRzLyoqLyoue2pzLHRzLGpzeCx0c3h9IiwNCiAgICAgICAgIi4vc2VydmljZXMvKiovKi57anMsdHMsanN4LHRzeH0iLA0KICAgICAgICAiLi91dGlscy8qKi8qLntqcyx0cyxqc3gsdHN4fSIsDQogICAgXSwNCiAgICBkYXJrTW9kZTogJ2NsYXNzJywNCiAgICB0aGVtZTogew0KICAgICAgICBleHRlbmQ6IHsNCiAgICAgICAgICAgIGNvbG9yczogew0KICAgICAgICAgICAgICAgIHByaW1hcnk6IHsNCiAgICAgICAgICAgICAgICAgICAgIjUwIjogIiNlZmY2ZmYiLA0KICAgICAgICAgICAgICAgICAgICAiMTAwIjogIiNkYmVhZmUiLA0KICAgICAgICAgICAgICAgICAgICAiMjAwIjogIiNiZmRiZmUiLA0KICAgICAgICAgICAgICAgICAgICAiMzAwIjogIiM5M2M1ZmQiLA0KICAgICAgICAgICAgICAgICAgICAiNDAwIjogIiM2MGE1ZmEiLA0KICAgICAgICAgICAgICAgICAgICAiNTAwIjogIiMzYjgyZjYiLA0KICAgICAgICAgICAgICAgICAgICAiNjAwIjogIiMyNTYzZWIiLA0KICAgICAgICAgICAgICAgICAgICAiNzAwIjogIiMxZDRlZDgiLA0KICAgICAgICAgICAgICAgICAgICAiODAwIjogIiMxZTQwYWYiLA0KICAgICAgICAgICAgICAgICAgICAiOTAwIjogIiMxZTNhOGEiLA0KICAgICAgICAgICAgICAgICAgICAiOTUwIjogIiMxNzI1NTQiDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9LA0KICAgIH0sDQogICAgcGx1Z2luczogW10sDQp9DQo=}
+/** @type {import('tailwindcss').Config} */
+export default {
+    content: [
+        "./index.html",
+        "./index.tsx",
+        "./App.tsx",
+        "./components/**/*.{js,ts,jsx,tsx}",
+        "./services/**/*.{js,ts,jsx,tsx}",
+        "./utils/**/*.{js,ts,jsx,tsx}",
+    ],
+    darkMode: 'class',
+    theme: {
+        extend: {
+            colors: {
+                primary: {
+                    "50": "#eff6ff",
+                    "100": "#dbeafe",
+                    "200": "#bfdbfe",
+                    "300": "#93c5fd",
+                    "400": "#60a5fa",
+                    "500": "#3b82f6",
+                    "600": "#2563eb",
+                    "700": "#1d4ed8",
+                    "800": "#1e40af",
+                    "900": "#1e3a8a",
+                    "950": "#172554"
+                }
+            }
+        },
+    },
+    plugins: [],
+}

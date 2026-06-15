@@ -1,1 +1,120 @@
-﻿@{data=LyoqDQogKiBEZWxldGFyIHJlZ2lzdHJvcyBjb21wbGV0ZWQgYW50aWdvcyBkYSBmaWxhIGRlIHJldHJ5DQogKiBNYW50w6ltIGFwZW5hcyBvcyDDumx0aW1vcyA3IGRpYXMgcGFyYSBoaXN0w7NyaWNvDQogKi8NCg0KaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCmltcG9ydCAqIGFzIHBhdGggZnJvbSAncGF0aCc7DQoNCi8vIExvYWQgLmVudi5sb2NhbA0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpOw0KaWYgKGZzLmV4aXN0c1N5bmMoZW52UGF0aCkpIHsNCiAgICBjb25zdCBlbnZGaWxlID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGY4Jyk7DQogICAgZW52RmlsZS5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgICAgICBjb25zdCBtYXRjaCA9IGxpbmUubWF0Y2goL14oW149OiNdKyk9KC4qKSQvKTsNCiAgICAgICAgaWYgKG1hdGNoKSB7DQogICAgICAgICAgICBjb25zdCBrZXkgPSBtYXRjaFsxXS50cmltKCk7DQogICAgICAgICAgICBjb25zdCB2YWx1ZSA9IG1hdGNoWzJdLnRyaW0oKS5yZXBsYWNlKC9eWyInXXxbIiddJC9nLCAnJyk7DQogICAgICAgICAgICBpZiAoIXByb2Nlc3MuZW52W2tleV0pIHByb2Nlc3MuZW52W2tleV0gPSB2YWx1ZTsNCiAgICAgICAgfQ0KICAgIH0pOw0KfQ0KDQpjb25zdCBTVVBBQkFTRV9VUkwgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkwhOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSE7DQoNCmFzeW5jIGZ1bmN0aW9uIGRlbGV0ZU9sZENvbXBsZXRlZCgpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5eR77iPICBEZWxldGFuZG8gUmVnaXN0cm9zIENvbXBsZXRlZCBBbnRpZ29zXG4nKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSArICdcbicpOw0KDQogICAgLy8gRGF0YSBkZSBjb3J0ZTogNyBkaWFzIGF0csOhcw0KICAgIGNvbnN0IHNldmVuRGF5c0FnbyA9IG5ldyBEYXRlKCk7DQogICAgc2V2ZW5EYXlzQWdvLnNldERhdGUoc2V2ZW5EYXlzQWdvLmdldERhdGUoKSAtIDcpOw0KICAgIGNvbnN0IGN1dE9mZkRhdGUgPSBzZXZlbkRheXNBZ28udG9JU09TdHJpbmcoKTsNCg0KICAgIGNvbnNvbGUubG9nKGDwn5OFIERhdGEgZGUgY29ydGU6ICR7Y3V0T2ZmRGF0ZX1gKTsNCiAgICBjb25zb2xlLmxvZyhgICAgKFJlZ2lzdHJvcyBDT01QTEVURUQgYW50ZXMgZGVzc2EgZGF0YSBzZXLDo28gZGVsZXRhZG9zKVxuYCk7DQoNCiAgICAvLyBDb250YXIgcmVnaXN0cm9zIGEgZGVsZXRhcg0KICAgIGNvbnN0IHsgY291bnQ6IHRvRGVsZXRlQ291bnQgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnaWQnLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pDQogICAgICAgIC5lcSgnc3RhdHVzJywgJ2NvbXBsZXRlZCcpDQogICAgICAgIC5sdCgnY3JlYXRlZF9hdCcsIGN1dE9mZkRhdGUpOw0KDQogICAgY29uc29sZS5sb2coYPCfk4ogUmVnaXN0cm9zIGEgZGVsZXRhcjogJHt0b0RlbGV0ZUNvdW50IHx8IDB9XG5gKTsNCg0KICAgIGlmICghdG9EZWxldGVDb3VudCB8fCB0b0RlbGV0ZUNvdW50ID09PSAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCfinIUgTmVuaHVtIHJlZ2lzdHJvIGFudGlnbyBhIGRlbGV0YXIhXG4nKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCfwn5SEIERlbGV0YW5kbyByZWdpc3Ryb3MgZW0gbG90ZXMuLi5cbicpOw0KDQogICAgbGV0IHRvdGFsRGVsZXRlZCA9IDA7DQogICAgY29uc3QgYmF0Y2hTaXplID0gMTAwMDsNCg0KICAgIHdoaWxlICh0cnVlKSB7DQogICAgICAgIC8vIERlbGV0YXIgZW0gbG90ZXMgZGUgMTAwMA0KICAgICAgICBjb25zdCB7IGNvdW50LCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgIC5kZWxldGUoeyBjb3VudDogJ2V4YWN0JyB9KQ0KICAgICAgICAgICAgLmVxKCdzdGF0dXMnLCAnY29tcGxldGVkJykNCiAgICAgICAgICAgIC5sdCgnY3JlYXRlZF9hdCcsIGN1dE9mZkRhdGUpDQogICAgICAgICAgICAubGltaXQoYmF0Y2hTaXplKTsNCg0KICAgICAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvIGFvIGRlbGV0YXI6JywgZXJyb3IpOw0KICAgICAgICAgICAgYnJlYWs7DQogICAgICAgIH0NCg0KICAgICAgICBjb25zdCBkZWxldGVkID0gY291bnQgfHwgMDsNCiAgICAgICAgdG90YWxEZWxldGVkICs9IGRlbGV0ZWQ7DQoNCiAgICAgICAgY29uc29sZS5sb2coYCAgIERlbGV0YWRvczogJHt0b3RhbERlbGV0ZWR9LyR7dG9EZWxldGVDb3VudH1gKTsNCg0KICAgICAgICBpZiAoZGVsZXRlZCA8IGJhdGNoU2l6ZSkgew0KICAgICAgICAgICAgLy8gTsOjbyBow6EgbWFpcyByZWdpc3Ryb3MgcGFyYSBkZWxldGFyDQogICAgICAgICAgICBicmVhazsNCiAgICAgICAgfQ0KDQogICAgICAgIC8vIFBlcXVlbm8gZGVsYXkgZW50cmUgbG90ZXMNCiAgICAgICAgYXdhaXQgbmV3IFByb21pc2UociA9PiBzZXRUaW1lb3V0KHIsIDEwMCkpOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCdcbicgKyAnPScucmVwZWF0KDYwKSk7DQogICAgY29uc29sZS5sb2coJ1xu8J+OryBSRVNVTU86XG4nKTsNCiAgICBjb25zb2xlLmxvZyhgICAg4pyFIFRvdGFsIGRlbGV0YWRvOiAke3RvdGFsRGVsZXRlZH1gKTsNCg0KICAgIC8vIEVzdGF0w61zdGljYXMgZmluYWlzDQogICAgY29uc29sZS5sb2coJ1xu8J+TiiBFc3RhdMOtc3RpY2FzIEF0dWFpcyBkYSBGaWxhOlxuJyk7DQoNCiAgICBjb25zdCB7IGNvdW50OiB0b3RhbFBlbmRpbmcgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnaWQnLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pDQogICAgICAgIC5lcSgnc3RhdHVzJywgJ3BlbmRpbmcnKTsNCg0KICAgIGNvbnN0IHsgY291bnQ6IHRvdGFsQ29tcGxldGVkIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJ2lkJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KQ0KICAgICAgICAuZXEoJ3N0YXR1cycsICdjb21wbGV0ZWQnKTsNCg0KICAgIGNvbnN0IHsgY291bnQ6IHRvdGFsRmFpbGVkIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJ2lkJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KQ0KICAgICAgICAuZXEoJ3N0YXR1cycsICdmYWlsZWQnKTsNCg0KICAgIGNvbnN0IHRvdGFsID0gKHRvdGFsUGVuZGluZyB8fCAwKSArICh0b3RhbENvbXBsZXRlZCB8fCAwKSArICh0b3RhbEZhaWxlZCB8fCAwKTsNCg0KICAgIGNvbnNvbGUubG9nKGAgICDij7MgUGVuZGVudGVzOiAke3RvdGFsUGVuZGluZyB8fCAwfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICDinIUgQ29tcGxldGFkb3MgKMO6bHRpbW9zIDcgZGlhcyk6ICR7dG90YWxDb21wbGV0ZWQgfHwgMH1gKTsNCiAgICBjb25zb2xlLmxvZyhgICAg4p2MIEZhbGhhZG9zOiAke3RvdGFsRmFpbGVkIHx8IDB9YCk7DQogICAgY29uc29sZS5sb2coYCAgIPCfk4ogVG90YWw6ICR7dG90YWx9XG5gKTsNCg0KICAgIGNvbnNvbGUubG9nKCfinIUgTGltcGV6YSBjb25jbHXDrWRhISBGaWxhIG90aW1pemFkYS5cbicpOw0KfQ0KDQpkZWxldGVPbGRDb21wbGV0ZWQoKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+/**
+ * Deletar registros completed antigos da fila de retry
+ * Mantém apenas os últimos 7 dias para histórico
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function deleteOldCompleted() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🗑️  Deletando Registros Completed Antigos\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Data de corte: 7 dias atrás
+    const sevenDaysAgo = new Date();
+    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+    const cutOffDate = sevenDaysAgo.toISOString();
+
+    console.log(`📅 Data de corte: ${cutOffDate}`);
+    console.log(`   (Registros COMPLETED antes dessa data serão deletados)\n`);
+
+    // Contar registros a deletar
+    const { count: toDeleteCount } = await supabase
+        .from('webhook_retry_queue')
+        .select('id', { count: 'exact', head: true })
+        .eq('status', 'completed')
+        .lt('created_at', cutOffDate);
+
+    console.log(`📊 Registros a deletar: ${toDeleteCount || 0}\n`);
+
+    if (!toDeleteCount || toDeleteCount === 0) {
+        console.log('✅ Nenhum registro antigo a deletar!\n');
+        return;
+    }
+
+    console.log('🔄 Deletando registros em lotes...\n');
+
+    let totalDeleted = 0;
+    const batchSize = 1000;
+
+    while (true) {
+        // Deletar em lotes de 1000
+        const { count, error } = await supabase
+            .from('webhook_retry_queue')
+            .delete({ count: 'exact' })
+            .eq('status', 'completed')
+            .lt('created_at', cutOffDate)
+            .limit(batchSize);
+
+        if (error) {
+            console.error('❌ Erro ao deletar:', error);
+            break;
+        }
+
+        const deleted = count || 0;
+        totalDeleted += deleted;
+
+        console.log(`   Deletados: ${totalDeleted}/${toDeleteCount}`);
+
+        if (deleted < batchSize) {
+            // Não há mais registros para deletar
+            break;
+        }
+
+        // Pequeno delay entre lotes
+        await new Promise(r => setTimeout(r, 100));
+    }
+
+    console.log('\n' + '='.repeat(60));
+    console.log('\n🎯 RESUMO:\n');
+    console.log(`   ✅ Total deletado: ${totalDeleted}`);
+
+    // Estatísticas finais
+    console.log('\n📊 Estatísticas Atuais da Fila:\n');
+
+    const { count: totalPending } = await supabase
+        .from('webhook_retry_queue')
+        .select('id', { count: 'exact', head: true })
+        .eq('status', 'pending');
+
+    const { count: totalCompleted } = await supabase
+        .from('webhook_retry_queue')
+        .select('id', { count: 'exact', head: true })
+        .eq('status', 'completed');
+
+    const { count: totalFailed } = await supabase
+        .from('webhook_retry_queue')
+        .select('id', { count: 'exact', head: true })
+        .eq('status', 'failed');
+
+    const total = (totalPending || 0) + (totalCompleted || 0) + (totalFailed || 0);
+
+    console.log(`   ⏳ Pendentes: ${totalPending || 0}`);
+    console.log(`   ✅ Completados (últimos 7 dias): ${totalCompleted || 0}`);
+    console.log(`   ❌ Falhados: ${totalFailed || 0}`);
+    console.log(`   📊 Total: ${total}\n`);
+
+    console.log('✅ Limpeza concluída! Fila otimizada.\n');
+}
+
+deleteOldCompleted().catch(console.error);

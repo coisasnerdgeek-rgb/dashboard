@@ -1,1 +1,37 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gTkVXIERCIENyZWRlbnRpYWxzDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KDQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gdmVyaWZ5KCkgew0KICAgIGNvbnNvbGUubG9nKCctLS0gRklOQUwgVkVSSUZJQ0FUSU9OIC0tLScpOw0KDQogICAgLy8gMS4gU2F2ZWQgT3JkZXJzDQogICAgY29uc3QgeyBjb3VudDogb3JkZXJzQ291bnQsIGVycm9yOiBvcmRlcnNFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KDQogICAgY29uc29sZS5sb2coYFNhdmVkIE9yZGVycyBDb3VudDogJHtvcmRlcnNDb3VudH0gKEVycm9yOiAke29yZGVyc0Vycm9yPy5tZXNzYWdlIHx8ICdub25lJ30pYCk7DQoNCiAgICAvLyAyLiBTcHJlYWRzaGVldCBEYXRhDQogICAgY29uc3QgeyBjb3VudDogc2hlZXRDb3VudCwgZXJyb3I6IHNoZWV0RXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSk7DQoNCiAgICBjb25zb2xlLmxvZyhgU3ByZWFkc2hlZXQgZmlsZXMgQ291bnQ6ICR7c2hlZXRDb3VudH0gKEVycm9yOiAke3NoZWV0RXJyb3I/Lm1lc3NhZ2UgfHwgJ25vbmUnfSlgKTsNCg0KICAgIC8vIDMuIFNhbXBsZSBEYXRhIEludGVncml0eQ0KICAgIGNvbnN0IHsgZGF0YTogc2FtcGxlT3JkZXIgfSA9IGF3YWl0IG5ld1N1cGFiYXNlLmZyb20oJ3NhdmVkX29yZGVycycpLnNlbGVjdCgnaWQsIGRhdGFfanNvbicpLmxpbWl0KDEpOw0KICAgIGlmIChzYW1wbGVPcmRlciAmJiBzYW1wbGVPcmRlci5sZW5ndGggPiAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCdTYW1wbGUgT3JkZXIgSUQ6Jywgc2FtcGxlT3JkZXJbMF0uaWQpOw0KICAgICAgICBjb25zdCBoYXNEYXRhID0gc2FtcGxlT3JkZXJbMF0uZGF0YV9qc29uICYmIE9iamVjdC5rZXlzKHNhbXBsZU9yZGVyWzBdLmRhdGFfanNvbikubGVuZ3RoID4gMDsNCiAgICAgICAgY29uc29sZS5sb2coJ1NhbXBsZSBPcmRlciBIYXMgSlNPTjonLCBoYXNEYXRhKTsNCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZygnV0FSTklORzogTm8gU2F2ZWQgT3JkZXJzIGZvdW5kIGZvciBzYW1wbGUuJyk7DQogICAgfQ0KfQ0KDQp2ZXJpZnkoKTsNCg==}
+import { createClient } from '@supabase/supabase-js';
+
+// NEW DB Credentials
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function verify() {
+    console.log('--- FINAL VERIFICATION ---');
+
+    // 1. Saved Orders
+    const { count: ordersCount, error: ordersError } = await newSupabase
+        .from('saved_orders')
+        .select('*', { count: 'exact', head: true });
+
+    console.log(`Saved Orders Count: ${ordersCount} (Error: ${ordersError?.message || 'none'})`);
+
+    // 2. Spreadsheet Data
+    const { count: sheetCount, error: sheetError } = await newSupabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true });
+
+    console.log(`Spreadsheet files Count: ${sheetCount} (Error: ${sheetError?.message || 'none'})`);
+
+    // 3. Sample Data Integrity
+    const { data: sampleOrder } = await newSupabase.from('saved_orders').select('id, data_json').limit(1);
+    if (sampleOrder && sampleOrder.length > 0) {
+        console.log('Sample Order ID:', sampleOrder[0].id);
+        const hasData = sampleOrder[0].data_json && Object.keys(sampleOrder[0].data_json).length > 0;
+        console.log('Sample Order Has JSON:', hasData);
+    } else {
+        console.log('WARNING: No Saved Orders found for sample.');
+    }
+}
+
+verify();

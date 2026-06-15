@@ -1,1 +1,48 @@
-﻿@{data=DQpjb25zdCB7IGNyZWF0ZUNsaWVudCB9ID0gcmVxdWlyZSgnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJyk7DQpjb25zdCBmcyA9IHJlcXVpcmUoJ2ZzJyk7DQpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOw0KDQovLyBMb2FkIGVudg0KdHJ5IHsNCiAgICBjb25zdCBlbnZQYXRoID0gcGF0aC5yZXNvbHZlKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQogICAgaWYgKGZzLmV4aXN0c1N5bmMoZW52UGF0aCkpIHsNCiAgICAgICAgY29uc3QgZW52Q29uZmlnID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGY4Jyk7DQogICAgICAgIGVudkNvbmZpZy5zcGxpdCgnXG4nKS5mb3JFYWNoKChsaW5lKSA9PiB7DQogICAgICAgICAgICBjb25zdCBba2V5LCAuLi52YWx1ZVBhcnRzXSA9IGxpbmUuc3BsaXQoJz0nKTsNCiAgICAgICAgICAgIGlmIChrZXkgJiYgdmFsdWVQYXJ0cy5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICAgICAgY29uc3QgdmFsdWUgPSB2YWx1ZVBhcnRzLmpvaW4oJz0nKS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgICAgIHByb2Nlc3MuZW52W2tleS50cmltKCldID0gdmFsdWU7DQogICAgICAgICAgICB9DQogICAgICAgIH0pOw0KICAgIH0NCn0gY2F0Y2ggKGUpIHsgfQ0KDQpjb25zdCBzdXBhYmFzZVVybCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCB8fCBwcm9jZXNzLmVudi5WSVRFX1NVUEFCQVNFX1VSTDsNCmNvbnN0IHN1cGFiYXNlS2V5ID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSB8fCBwcm9jZXNzLmVudi5WSVRFX1NVUEFCQVNFX0FOT05fS0VZOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja0RhdGVzKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KHN1cGFiYXNlVXJsLCBzdXBhYmFzZUtleSk7DQoNCiAgICAvLyBHZXQgNSByZWNlbnQgcm93cw0KICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQ0KICAgICAgICAubGltaXQoNSk7DQoNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcihlcnJvcik7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygnXG5cbvCfk4UgQ0hFQ0tJTkcgREFURSBGT1JNQVRTIChSZWNlbnQgNSk6Jyk7DQogICAgZGF0YS5mb3JFYWNoKHJvdyA9PiB7DQogICAgICAgIC8vIExvZyBrZXlzIHRvIHNlZSB3aGF0IG1hdGNoZXMNCiAgICAgICAgY29uc3Qga2V5cyA9IE9iamVjdC5rZXlzKHJvdy5yb3dfZGF0YSk7DQogICAgICAgIGNvbnNvbGUubG9nKGBJRDogJHtyb3cuaWR9IHwgS2V5czogJHtrZXlzLnNsaWNlKDAsIDUpLmpvaW4oJywgJyl9Li4uYCk7DQogICAgICAgIGNvbnNvbGUubG9nKGBGVUxMIEpTT04gKEZpcnN0IEl0ZW0pOmAsIEpTT04uc3RyaW5naWZ5KHJvdy5yb3dfZGF0YSwgbnVsbCwgMikpOw0KICAgIH0pOw0KfQ0KDQpjaGVja0RhdGVzKCk7DQo=}
+
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+// Load env
+try {
+    const envPath = path.resolve(process.cwd(), '.env.local');
+    if (fs.existsSync(envPath)) {
+        const envConfig = fs.readFileSync(envPath, 'utf8');
+        envConfig.split('\n').forEach((line) => {
+            const [key, ...valueParts] = line.split('=');
+            if (key && valueParts.length > 0) {
+                const value = valueParts.join('=').trim().replace(/^["']|["']$/g, '');
+                process.env[key.trim()] = value;
+            }
+        });
+    }
+} catch (e) { }
+
+const supabaseUrl = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_ANON_KEY;
+
+async function checkDates() {
+    const supabase = createClient(supabaseUrl, supabaseKey);
+
+    // Get 5 recent rows
+    const { data, error } = await supabase
+        .from('spreadsheet_data')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(5);
+
+    if (error) {
+        console.error(error);
+        return;
+    }
+
+    console.log('\n\n📅 CHECKING DATE FORMATS (Recent 5):');
+    data.forEach(row => {
+        // Log keys to see what matches
+        const keys = Object.keys(row.row_data);
+        console.log(`ID: ${row.id} | Keys: ${keys.slice(0, 5).join(', ')}...`);
+        console.log(`FULL JSON (First Item):`, JSON.stringify(row.row_data, null, 2));
+    });
+}
+
+checkDates();

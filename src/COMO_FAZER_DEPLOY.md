@@ -1,1 +1,41 @@
-﻿@{data=IyBDb21vIEZhemVyIERlcGxveSBkYXMgU3VhcyBBbHRlcmHDp8O1ZXMNCg0KQXMgc3VhcyBhbHRlcmHDp8O1ZXMgZXN0w6NvIGFwZW5hcyBubyBjw7NkaWdvICoqbG9jYWwqKiBlIGFpbmRhIG7Do28gZm9yYW0gZW52aWFkYXMgcGFyYSBvIFZlcmNlbC4gDQoNCiMjIE9ww6fDo28gMTogVmVyY2VsIENMSSAoUmVjb21lbmRhZG8gLSBNYWlzIFLDoXBpZG8pDQoNCmBgYGJhc2gNCiMgSW5zdGFsYXIgVmVyY2VsIENMSSAoYXBlbmFzIHVtYSB2ZXopDQpucG0gaW5zdGFsbCAtZyB2ZXJjZWwNCg0KIyBGYXplciBkZXBsb3kNCnZlcmNlbCAtLXByb2QNCmBgYA0KDQpOYSBwcmltZWlyYSB2ZXosIHZhaSBwZWRpciBwYXJhIGZhemVyIGxvZ2luLiBEZXBvaXMgw6kgc8OzIGNvbmZpcm1hciBhcyBvcMOnw7Vlcy4NCg0KIyMgT3DDp8OjbyAyOiBHaXQgKyBQdXNoDQoNClNlIHZvY8OqIGrDoSB0ZW0gR2l0IGluc3RhbGFkbyBlIGNvbmZpZ3VyYWRvOg0KDQpgYGBiYXNoDQpnaXQgYWRkIC4NCmdpdCBjb21taXQgLW0gImZlYXQ6IFVJIGltcHJvdmVtZW50cyAtIHJlbmFtZSwgbXVsdGktc2VsZWN0LCBTS1UgZWRpdGluZyINCmdpdCBwdXNoDQpgYGANCg0KU2UgbsOjbyB0ZW0gR2l0LCBiYWl4ZSBlbTogaHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZC93aW4NCg0KIyMgT3DDp8OjbyAzOiBSZWRlcGxveSBNYW51YWwNCg0KMS4gQWNlc3NlOiBodHRwczovL3ZlcmNlbC5jb20vZGFzaGJvYXJkDQoyLiBTZWxlY2lvbmUgc2V1IHByb2pldG8NCjMuIFbDoSBlbSAiRGVwbG95bWVudHMiDQo0LiBDbGlxdWUgZW0gIlJlZGVwbG95IiBubyDDumx0aW1vIGRlcGxveW1lbnQNCg0KIyMgVmVyaWZpY2FyIERlcGxveQ0KDQpBcMOzcyBvIGRlcGxveSwgYWNlc3NlOg0KLSBodHRwczovL2NvcHktb2YtZGFzaGJvYXJkLWQudmVyY2VsLmFwcA0KDQpPIGRlcGxveSBsZXZhIGNlcmNhIGRlIDEtMiBtaW51dG9zLg0K}
+# Como Fazer Deploy das Suas Alterações
+
+As suas alterações estão apenas no código **local** e ainda não foram enviadas para o Vercel. 
+
+## Opção 1: Vercel CLI (Recomendado - Mais Rápido)
+
+```bash
+# Instalar Vercel CLI (apenas uma vez)
+npm install -g vercel
+
+# Fazer deploy
+vercel --prod
+```
+
+Na primeira vez, vai pedir para fazer login. Depois é só confirmar as opções.
+
+## Opção 2: Git + Push
+
+Se você já tem Git instalado e configurado:
+
+```bash
+git add .
+git commit -m "feat: UI improvements - rename, multi-select, SKU editing"
+git push
+```
+
+Se não tem Git, baixe em: https://git-scm.com/download/win
+
+## Opção 3: Redeploy Manual
+
+1. Acesse: https://vercel.com/dashboard
+2. Selecione seu projeto
+3. Vá em "Deployments"
+4. Clique em "Redeploy" no último deployment
+
+## Verificar Deploy
+
+Após o deploy, acesse:
+- https://copy-of-dashboard-d.vercel.app
+
+O deploy leva cerca de 1-2 minutos.

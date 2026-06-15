@@ -1,1 +1,22 @@
-﻿@{data=aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JzsNCg0KLyoqDQogKiBIb29rIHRvIGRlYm91bmNlIGEgdmFsdWUNCiAqIEBwYXJhbSB2YWx1ZSAtIFRoZSB2YWx1ZSB0byBkZWJvdW5jZQ0KICogQHBhcmFtIGRlbGF5IC0gRGVsYXkgaW4gbWlsbGlzZWNvbmRzIChkZWZhdWx0OiAzMDBtcykNCiAqLw0KZXhwb3J0IGZ1bmN0aW9uIHVzZURlYm91bmNlPFQ+KHZhbHVlOiBULCBkZWxheTogbnVtYmVyID0gMzAwKTogVCB7DQogICAgY29uc3QgW2RlYm91bmNlZFZhbHVlLCBzZXREZWJvdW5jZWRWYWx1ZV0gPSB1c2VTdGF0ZTxUPih2YWx1ZSk7DQoNCiAgICB1c2VFZmZlY3QoKCkgPT4gew0KICAgICAgICBjb25zdCB0aW1lciA9IHNldFRpbWVvdXQoKCkgPT4gew0KICAgICAgICAgICAgc2V0RGVib3VuY2VkVmFsdWUodmFsdWUpOw0KICAgICAgICB9LCBkZWxheSk7DQoNCiAgICAgICAgcmV0dXJuICgpID0+IHsNCiAgICAgICAgICAgIGNsZWFyVGltZW91dCh0aW1lcik7DQogICAgICAgIH07DQogICAgfSwgW3ZhbHVlLCBkZWxheV0pOw0KDQogICAgcmV0dXJuIGRlYm91bmNlZFZhbHVlOw0KfQ0K}
+import { useEffect, useState } from 'react';
+
+/**
+ * Hook to debounce a value
+ * @param value - The value to debounce
+ * @param delay - Delay in milliseconds (default: 300ms)
+ */
+export function useDebounce<T>(value: T, delay: number = 300): T {
+    const [debouncedValue, setDebouncedValue] = useState<T>(value);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setDebouncedValue(value);
+        }, delay);
+
+        return () => {
+            clearTimeout(timer);
+        };
+    }, [value, delay]);
+
+    return debouncedValue;
+}

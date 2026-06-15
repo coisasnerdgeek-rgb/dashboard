@@ -1,1 +1,56 @@
-﻿@{data=LS0gTWlncmF0aW9uOiBVcGRhdGUgRXN0YW1wYXMgc3RhdHVzIGJhc2VkIG9uIFRpbnkgRVJQIG9yZGVyIHByb2dyZXNzaW9uDQotLSBEYXRlOiAyMDI2LTAxLTIxDQotLSBQdXJwb3NlOiBJZiBhbiBvcmRlciBpbiBUaW55IGhhcyBzdGF0dXMgRU5WSUFETy9BIENBTUlOSE8vRU5UUkVHVUUvZXRjLA0KLS0gICAgICAgICAgaXQgbWVhbnMgaXQgaGFzIGFscmVhZHkgYmVlbiBwcmludGVkLCBzbyB1cGRhdGUgcHJpbnRfY29udHJvbCB0byBJTVBSRVNTTw0KDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KLS0gU1RFUCAxOiBQUkVWSUVXIC0gRXhlY3V0ZSB0aGlzIGZpcnN0IHRvIHNlZSB3aGF0IHdpbGwgY2hhbmdlDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KLS0gVGhpcyBzaG93cyBleGFjdGx5IHdoaWNoIG9yZGVycyB3aWxsIGJlIHVwZGF0ZWQgYW5kIFdIWQ0KLS0gUnVuIHRoaXMgQkVGT1JFIHJ1bm5pbmcgdGhlIFVQREFURSB0byBjb25maXJtIGl0J3Mgc2FmZQ0KDQpTRUxFQ1QgDQogIHBjLm9yZGVyX2lkLA0KICBwYy5zdGF0dXMgYXMgY3VycmVudF9lc3RhbXBhc19zdGF0dXMsDQogIHNvLmRhdGFfanNvbi0+PidzdGF0dXMnIGFzIHRpbnlfc3RhdHVzLA0KICAnV2lsbCBjaGFuZ2UgdG8gSU1QUkVTU08nIGFzIGFjdGlvbg0KRlJPTSBwcmludF9jb250cm9sIHBjDQpJTk5FUiBKT0lOIHNhdmVkX29yZGVycyBzbyBPTiBwYy5vcmRlcl9pZCA9IHNvLmlkDQpXSEVSRSBwYy5zdGF0dXMgIT0gJ0lNUFJFU1NPJw0KICBBTkQgKA0KICAgIHNvLmRhdGFfanNvbi0+PidzdGF0dXMnID0gJ0VOVklBRE8nDQogICAgT1Igc28uZGF0YV9qc29uLT4+J3N0YXR1cycgPSAnQSBDQU1JTkhPJw0KICAgIE9SIHNvLmRhdGFfanNvbi0+PidzdGF0dXMnID0gJ0VOVFJFR1VFJw0KICAgIE9SIHNvLmRhdGFfanNvbi0+PidzdGF0dXMnID0gJ0VudmlhZG8nDQogICAgT1Igc28uZGF0YV9qc29uLT4+J3N0YXR1cycgPSAnQSBjYW1pbmhvJw0KICAgIE9SIHNvLmRhdGFfanNvbi0+PidzdGF0dXMnID0gJ0VudHJlZ3VlJw0KICApDQpPUkRFUiBCWSBwYy5vcmRlcl9pZCBERVNDOw0KDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KLS0gU1RFUCAyOiBVUERBVEUgLSBFeGVjdXRlIHRoaXMgb25seSBhZnRlciBjb25maXJtaW5nIFNURVAgMSByZXN1bHRzDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KLS0gVGhpcyB3aWxsIGFjdHVhbGx5IGNoYW5nZSB0aGUgZGF0YSBpbiBwcmludF9jb250cm9sDQoNCi0tIFVQREFURSBwcmludF9jb250cm9sIHBjDQotLSBTRVQgc3RhdHVzID0gJ0lNUFJFU1NPJw0KLS0gRlJPTSBzYXZlZF9vcmRlcnMgc28NCi0tIFdIRVJFIHBjLm9yZGVyX2lkID0gc28uaWQNCi0tICAgQU5EIHBjLnN0YXR1cyAhPSAnSU1QUkVTU08nDQotLSAgIEFORCAoDQotLSAgICAgc28uZGF0YV9qc29uLT4+J3N0YXR1cycgPSAnRU5WSUFETycNCi0tICAgICBPUiBzby5kYXRhX2pzb24tPj4nc3RhdHVzJyA9ICdBIENBTUlOSE8nDQotLSAgICAgT1Igc28uZGF0YV9qc29uLT4+J3N0YXR1cycgPSAnRU5UUkVHVUUnDQotLSAgICAgT1Igc28uZGF0YV9qc29uLT4+J3N0YXR1cycgPSAnRW52aWFkbycNCi0tICAgICBPUiBzby5kYXRhX2pzb24tPj4nc3RhdHVzJyA9ICdBIGNhbWluaG8nDQotLSAgICAgT1Igc28uZGF0YV9qc29uLT4+J3N0YXR1cycgPSAnRW50cmVndWUnDQotLSAgICk7DQoNCi0tID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQotLSBHQVJBTlRJQVMgREUgU0VHVVJBTsOHQToNCi0tID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQotLSDinIUgU8OzIG11ZGEgcGVkaWRvcyBxdWUgZXhpc3RlbSBuYXMgRFVBUyB0YWJlbGFzIChJTk5FUiBKT0lOKQ0KLS0g4pyFIFPDsyBtdWRhIHNlIG8gVGlueSB0ZW0gc3RhdHVzIEVOVklBRE8vQSBDQU1JTkhPL0VOVFJFR1VFDQotLSDinIUgTsOjbyB0b2NhIGVtIHBlZGlkb3MgcXVlIErDgSBlc3TDo28gY29tbyBJTVBSRVNTTw0KLS0g4pyFIE7Do28gYWZldGEgcGVkaWRvcyBjb20gb3V0cm9zIHN0YXR1cyBubyBUaW55IChFTSBBUFJPVkHDh8ODTywgQUdVQVJEQU5ETyBBUlRFLCBldGMpDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0K}
+-- Migration: Update Estampas status based on Tiny ERP order progression
+-- Date: 2026-01-21
+-- Purpose: If an order in Tiny has status ENVIADO/A CAMINHO/ENTREGUE/etc,
+--          it means it has already been printed, so update print_control to IMPRESSO
+
+-- ============================================
+-- STEP 1: PREVIEW - Execute this first to see what will change
+-- ============================================
+-- This shows exactly which orders will be updated and WHY
+-- Run this BEFORE running the UPDATE to confirm it's safe
+
+SELECT 
+  pc.order_id,
+  pc.status as current_estampas_status,
+  so.data_json->>'status' as tiny_status,
+  'Will change to IMPRESSO' as action
+FROM print_control pc
+INNER JOIN saved_orders so ON pc.order_id = so.id
+WHERE pc.status != 'IMPRESSO'
+  AND (
+    so.data_json->>'status' = 'ENVIADO'
+    OR so.data_json->>'status' = 'A CAMINHO'
+    OR so.data_json->>'status' = 'ENTREGUE'
+    OR so.data_json->>'status' = 'Enviado'
+    OR so.data_json->>'status' = 'A caminho'
+    OR so.data_json->>'status' = 'Entregue'
+  )
+ORDER BY pc.order_id DESC;
+
+-- ============================================
+-- STEP 2: UPDATE - Execute this only after confirming STEP 1 results
+-- ============================================
+-- This will actually change the data in print_control
+
+-- UPDATE print_control pc
+-- SET status = 'IMPRESSO'
+-- FROM saved_orders so
+-- WHERE pc.order_id = so.id
+--   AND pc.status != 'IMPRESSO'
+--   AND (
+--     so.data_json->>'status' = 'ENVIADO'
+--     OR so.data_json->>'status' = 'A CAMINHO'
+--     OR so.data_json->>'status' = 'ENTREGUE'
+--     OR so.data_json->>'status' = 'Enviado'
+--     OR so.data_json->>'status' = 'A caminho'
+--     OR so.data_json->>'status' = 'Entregue'
+--   );
+
+-- ============================================
+-- GARANTIAS DE SEGURANÇA:
+-- ============================================
+-- ✅ Só muda pedidos que existem nas DUAS tabelas (INNER JOIN)
+-- ✅ Só muda se o Tiny tem status ENVIADO/A CAMINHO/ENTREGUE
+-- ✅ Não toca em pedidos que JÁ estão como IMPRESSO
+-- ✅ Não afeta pedidos com outros status no Tiny (EM APROVAÇÃO, AGUARDANDO ARTE, etc)
+-- ============================================

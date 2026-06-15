@@ -1,1 +1,17 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCmNvbnN0IG5ld1N1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE5FV19TVVBBQkFTRV9VUkwsIE5FV19TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja0ZpbmFsQ291bnRzKCkgew0KICAgIGNvbnN0IHRhYmxlcyA9IFsnaW1hZ2VfY2F0ZWdvcmllcycsICdpbWFnZV9tYXBwaW5ncycsICdwYXltZW50cycsICd2ZXJpZmljYXRpb25fc3RhdHVzJywgJ3Bob25lX2Nhc2VfbW9kZWxzJywgJ3RyYWNraW5nX21hcHBpbmdzJywgJ2FwcF9zZXR0aW5ncyddOw0KICAgIGNvbnNvbGUubG9nKCctLS0gUkVMQVTDk1JJTyBERSBJTVBPUlRBw4fDg08gKEJBTkNPIE5PVk8pIC0tLScpOw0KDQogICAgZm9yIChjb25zdCB0YWJsZSBvZiB0YWJsZXMpIHsNCiAgICAgICAgY29uc3QgeyBjb3VudCwgZXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlLmZyb20odGFibGUpLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSk7DQogICAgICAgIGNvbnNvbGUubG9nKGAke3RhYmxlfTogJHtjb3VudCB8fCAwfSByZWdpc3Ryb3MgJHtlcnJvciA/ICcoRXJybzogJyArIGVycm9yLm1lc3NhZ2UgKyAnKScgOiAnJ31gKTsNCiAgICB9DQp9DQoNCmNoZWNrRmluYWxDb3VudHMoKTsNCg==}
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function checkFinalCounts() {
+    const tables = ['image_categories', 'image_mappings', 'payments', 'verification_status', 'phone_case_models', 'tracking_mappings', 'app_settings'];
+    console.log('--- RELATÓRIO DE IMPORTAÇÃO (BANCO NOVO) ---');
+
+    for (const table of tables) {
+        const { count, error } = await newSupabase.from(table).select('*', { count: 'exact', head: true });
+        console.log(`${table}: ${count || 0} registros ${error ? '(Erro: ' + error.message + ')' : ''}`);
+    }
+}
+
+checkFinalCounts();

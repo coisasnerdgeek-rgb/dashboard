@@ -1,1 +1,55 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrU3ByZWFkc2hlZXREYXRhKCkgew0KICAgIGNvbnNvbGUubG9nKCdDaGVja2luZyBzcHJlYWRzaGVldF9kYXRhLi4uJyk7DQoNCiAgICAvLyAxLiBDaGVjayBmb3IgJ3VuZGVmaW5lZCcgaW4gcmVsZXZhbnQgY29sdW1ucw0KICAgIC8vIFdlIG5lZWQgdG8ga25vdyBjb2x1bW4gbmFtZXMgZmlyc3QuIFVzdWFsbHk6ICdJZGVudGlmaWNhZG9yIGRvIHBlZGlkbyBlLWNvbW1lcmNlJywgJ0NsaWVudGUnDQogICAgLy8gQnV0IHNpbmNlIGl0J3MgSlNPTi1iYXNlZCBvciBkeW5hbWljIGNvbHVtbnMgaW4gU3VwYWJhc2U/IE5vLCB1c3VhbGx5IHRleHQgY29sdW1ucy4NCg0KICAgIC8vIExldCdzIGdldCBvbmUgcm93IHRvIHNlZSBrZXlzDQogICAgY29uc3QgeyBkYXRhOiBzYW1wbGUgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKS5zZWxlY3QoJyonKS5saW1pdCgxKTsNCiAgICBjb25zdCBrZXlzID0gc2FtcGxlICYmIHNhbXBsZVswXSA/IE9iamVjdC5rZXlzKHNhbXBsZVswXSkgOiBbXTsNCiAgICBjb25zb2xlLmxvZygnQ29sdW1uczonLCBrZXlzKTsNCg0KICAgIC8vIEFzc3VtaW5nIHN0YW5kYXJkIGNvbHVtbiBuYW1lcyBtYXBwZWQgZnJvbSBub3JtYWxpemVkIENTVg0KICAgIGNvbnN0IGlkQ29sID0ga2V5cy5maW5kKGsgPT4gay50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKCdpZGVudGlmaWNhZG9yJykgfHwgay50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKCdwZWRpZG8nKSkgfHwgJ0lkZW50aWZpY2Fkb3IgZG8gcGVkaWRvIGUtY29tbWVyY2UnOw0KICAgIGNvbnN0IGNsaWVudENvbCA9IGtleXMuZmluZChrID0+IGsudG9Mb3dlckNhc2UoKS5pbmNsdWRlcygnY2xpZW50ZScpKSB8fCAnQ2xpZW50ZSc7DQoNCiAgICBjb25zb2xlLmxvZyhgVXNpbmcgSUQgQ29sOiAiJHtpZENvbH0iLCBDbGllbnQgQ29sOiAiJHtjbGllbnRDb2x9ImApOw0KDQogICAgLy8gMi4gQ291bnQgInVuZGVmaW5lZCIgbGl0ZXJhbCBzdHJpbmdzDQogICAgY29uc3QgeyBjb3VudDogdW5kZWZpbmVkQ291bnQgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgLm9yKGAiJHtpZENvbH0iLmlsaWtlLiV1bmRlZmluZWQlYCk7IC8vIENoZWNrIElEIGNvbHVtbiBmb3Igc3RyaW5nICJ1bmRlZmluZWQiDQoNCiAgICBjb25zb2xlLmxvZyhgUm93cyB3aXRoICJ1bmRlZmluZWQiIGluIElEOiAke3VuZGVmaW5lZENvdW50fWApOw0KDQogICAgLy8gMy4gQ291bnQgcm93cyB3aXRoIG1pc3NpbmcgZXNzZW50aWFsIGRhdGENCiAgICBjb25zdCB7IGNvdW50OiBlbXB0eUNvdW50IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pDQogICAgICAgIC5pcyhpZENvbCwgbnVsbCk7DQoNCiAgICBjb25zb2xlLmxvZyhgUm93cyB3aXRoIE5VTEwgSUQ6ICR7ZW1wdHlDb3VudH1gKTsNCg0KICAgIC8vIDQuIENoZWNrICJWaXRvciBCcnVlbCIgc3BlY2lmaWNhbGx5IGZvciB0aGUgZHVwbGljYXRpb24gaXNzdWUNCiAgICBjb25zdCB7IGRhdGE6IHZpdG9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJyonKQ0KICAgICAgICAuaWxpa2UoY2xpZW50Q29sLCAnJVZpdG9yIEJydWVsJScpDQogICAgICAgIC5saW1pdCg1KTsNCg0KICAgIGNvbnNvbGUubG9nKGBTYW1wbGUgVml0b3IgQnJ1ZWwgcm93czpgLCB2aXRvcj8ubGVuZ3RoKTsNCiAgICBpZiAodml0b3I/Lmxlbmd0aCkgew0KICAgICAgICBjb25zb2xlLmxvZygnU2FtcGxlIHJvdzonLCBKU09OLnN0cmluZ2lmeSh2aXRvclswXSwgbnVsbCwgMikpOw0KICAgIH0NCn0NCg0KY2hlY2tTcHJlYWRzaGVldERhdGEoKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function checkSpreadsheetData() {
+    console.log('Checking spreadsheet_data...');
+
+    // 1. Check for 'undefined' in relevant columns
+    // We need to know column names first. Usually: 'Identificador do pedido e-commerce', 'Cliente'
+    // But since it's JSON-based or dynamic columns in Supabase? No, usually text columns.
+
+    // Let's get one row to see keys
+    const { data: sample } = await supabase.from('spreadsheet_data').select('*').limit(1);
+    const keys = sample && sample[0] ? Object.keys(sample[0]) : [];
+    console.log('Columns:', keys);
+
+    // Assuming standard column names mapped from normalized CSV
+    const idCol = keys.find(k => k.toLowerCase().includes('identificador') || k.toLowerCase().includes('pedido')) || 'Identificador do pedido e-commerce';
+    const clientCol = keys.find(k => k.toLowerCase().includes('cliente')) || 'Cliente';
+
+    console.log(`Using ID Col: "${idCol}", Client Col: "${clientCol}"`);
+
+    // 2. Count "undefined" literal strings
+    const { count: undefinedCount } = await supabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true })
+        .or(`"${idCol}".ilike.%undefined%`); // Check ID column for string "undefined"
+
+    console.log(`Rows with "undefined" in ID: ${undefinedCount}`);
+
+    // 3. Count rows with missing essential data
+    const { count: emptyCount } = await supabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true })
+        .is(idCol, null);
+
+    console.log(`Rows with NULL ID: ${emptyCount}`);
+
+    // 4. Check "Vitor Bruel" specifically for the duplication issue
+    const { data: vitor } = await supabase
+        .from('spreadsheet_data')
+        .select('*')
+        .ilike(clientCol, '%Vitor Bruel%')
+        .limit(5);
+
+    console.log(`Sample Vitor Bruel rows:`, vitor?.length);
+    if (vitor?.length) {
+        console.log('Sample row:', JSON.stringify(vitor[0], null, 2));
+    }
+}
+
+checkSpreadsheetData();

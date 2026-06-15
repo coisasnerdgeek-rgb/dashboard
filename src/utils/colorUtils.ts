@@ -1,1 +1,100 @@
-﻿@{data=ZXhwb3J0IGNvbnN0IGNvbG9yTmFtZVRvSGV4OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICAgJ1ByZXRvJzogJyMwMDAwMDAnLAogICAgJ0JyYW5jbyc6ICcjRkZGRkZGJywKICAgICdNZXNjbGEnOiAnI0JFQkVCRScsCiAgICAnQ2luemEgTWVzY2xhJzogJyNCRUJFQkUnLAogICAgJ0NodW1ibyc6ICcjNjk2OTY5JywKICAgICdDaW56YSBDaHVtYm8nOiAnIzY5Njk2OScsCiAgICAnTWFyaW5obyc6ICcjMDAwMDhCJywKICAgICdSb3lhbCc6ICcjMDAwMEZGJywKICAgICdWZXJkZSc6ICcjNURCQjYzJywKICAgICdWZXJkZSBCYW5kZWlyYSc6ICcjMDA5YjNhJywKICAgICdNdXNnbyc6ICcjMDA2NDAwJywKICAgICdWZXJkZSBFc2N1cm8nOiAnIzAwNjQwMCcsCiAgICAnVmluaG8nOiAnIzgwMDAwMCcsCiAgICAnQm9yZMO0JzogJyM4MDAwMDAnLAogICAgJ1Zlcm1lbGhvJzogJyNGRjAwMDAnLAogICAgJ0xhcmFuamEnOiAnI0ZGQTUwMCcsCiAgICAnQW1hcmVsbyc6ICcjRkZGRjAwJywKICAgICdSb3hvJzogJyM4QTJCRTInLAogICAgJ1BpbmsnOiAnI0ZGMDBGRicsCiAgICAnUm9zYSBQaW5rJzogJyNGRjY5QjQnLAogICAgJ0xpbMOhcyc6ICcjQzhBMkM4JywKICAgICdMaWxhcyc6ICcjQzhBMkM4JywgLy8gQWxpYXMKICAgICdSb3NhIEJlYsOqJzogJyNGNEMyQzInLAogICAgJ1R1cnF1ZXNhJzogJyMwMEZGRkYnLAogICAgJ1ZlcmRlIEV1Zm9yaWEnOiAnIzAwRkY3RicsCiAgICAnVmVyZGUgTGltw6NvJzogJyNBREZGMkYnLAogICAgJ01hcnJvbSBDYXJhbWVsbyc6ICcjRDI2OTFFJywKICAgICdDYXJhbWVsbyc6ICcjRDI2OTFFJywKICAgICdDb3JhbCc6ICcjRkY3RjUwJywKICAgICdBenVsIENsYXJvJzogJyM4N0NFRUInLAogICAgJ0F6dWwgQmViw6onOiAnIzg5Q0ZGMCcsCgogICAgLy8gRmFsbGJhY2tzIGFuZCBvdGhlciBleGlzdGluZyBjb2xvcnMKICAgICd2YSc6ICcjQkRCREJEJywgLy8gVmFyaWFkYXMKICAgICdjaGF0JzogJyNCREJEQkQnLCAvLyBDaGF0Cn07CgpleHBvcnQgY29uc3QgZ2V0Q29sb3JIZXggPSAoY29sb3JOYW1lOiBzdHJpbmcpOiBzdHJpbmcgPT4gewogICAgY29uc3Qgbm9ybWFsaXplZE5hbWUgPSBPYmplY3Qua2V5cyhjb2xvck5hbWVUb0hleCkuZmluZChrZXkgPT4ga2V5LnRvTG93ZXJDYXNlKCkgPT09IGNvbG9yTmFtZS50b0xvd2VyQ2FzZSgpKTsKICAgIHJldHVybiBub3JtYWxpemVkTmFtZSA/IGNvbG9yTmFtZVRvSGV4W25vcm1hbGl6ZWROYW1lXSA6ICcjQ0NDQ0NDJzsKfTsKCi8qKgogKiBHZW5lcmF0ZXMgYW4gYXJyYXkgb2YgZGlzdGluY3QgcGFzdGVsIGNvbG9ycy4KICogQHBhcmFtIGNvdW50IFRoZSBudW1iZXIgb2YgY29sb3JzIHRvIGdlbmVyYXRlLgogKiBAcmV0dXJucyBBbiBhcnJheSBvZiBoZXggY29sb3Igc3RyaW5ncy4KICovCmV4cG9ydCBjb25zdCBnZW5lcmF0ZVBhc3RlbENvbG9ycyA9IChjb3VudDogbnVtYmVyKTogc3RyaW5nW10gPT4gewogICAgY29uc3QgY29sb3JzOiBzdHJpbmdbXSA9IFtdOwogICAgY29uc3Qgc2F0dXJhdGlvbiA9IDkwOyAvLyBJbmNyZWFzZWQgZm9yIG1vcmUgdmlicmFudCBwYXN0ZWxzCiAgICBjb25zdCBsaWdodG5lc3MgPSA4NTsgIC8vIEluY3JlYXNlZCBmb3IgYmV0dGVyIHZpc2liaWxpdHkgaW4gZGFyayBtb2RlCiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGNvdW50OyBpKyspIHsKICAgICAgICAvLyBEaXN0cmlidXRlIGh1ZXMgZXZlbmx5IGFyb3VuZCB0aGUgY29sb3Igd2hlZWwKICAgICAgICBjb25zdCBodWUgPSAoaSAqICgzNjAgLyBjb3VudCkpICUgMzYwOwogICAgICAgIGNvbG9ycy5wdXNoKGBoc2woJHtodWV9LCAke3NhdHVyYXRpb259JSwgJHtsaWdodG5lc3N9JSlgKTsKICAgIH0KICAgIHJldHVybiBjb2xvcnM7Cn07CgovKioKICogR2VuZXJhdGVzIGEgZGV0ZXJtaW5pc3RpYyBjb2xvciBiYXNlZCBvbiBhIHN0cmluZyBpbnB1dC4KICogVXNlZnVsIGZvciBhc3NpZ25pbmcgY29uc2lzdGVudCBjb2xvcnMgdG8gcHJvZHVjdHMsIHRhZ3MsIGV0Yy4KICovCmV4cG9ydCBjb25zdCBnZXRTdHJpbmdDb2xvciA9IChzdHI6IHN0cmluZywgc2F0dXJhdGlvbiA9IDcwLCBsaWdodG5lc3MgPSA4NSk6IHN0cmluZyA9PiB7CiAgICBsZXQgaGFzaCA9IDA7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IHN0ci5sZW5ndGg7IGkrKykgewogICAgICAgIGhhc2ggPSBzdHIuY2hhckNvZGVBdChpKSArICgoaGFzaCA8PCA1KSAtIGhhc2gpOwogICAgfQogICAgY29uc3QgaCA9IE1hdGguYWJzKGhhc2gpICUgMzYwOwogICAgcmV0dXJuIGBoc2woJHtofSwgJHtzYXR1cmF0aW9ufSUsICR7bGlnaHRuZXNzfSUpYDsKfTsKCmV4cG9ydCBjb25zdCBnZXRUZXh0Q29sb3JGb3JCYWNrZ3JvdW5kID0gKGNvbG9yOiBzdHJpbmcpOiBzdHJpbmcgPT4gewogICAgLy8gSGFuZGxlIEhTTCBzdHJpbmdzIGxpa2UgJ2hzbCgxODAsIDcwJSwgODAlKScgb3IgJ2hzbGEoMTgwLCA3MCUsIDgwJSwgMC41KScKICAgIGNvbnN0IGhzbE1hdGNoID0gY29sb3IubWF0Y2goL2hzbChhKT9cKFxzKltcZC5dK1xzKixccypbXGQuXSslXHMqLFxzKihbXGQuXSspJVxzKigsXHMqW1xkLl0rXHMqKT9cKS8pOwogICAgaWYgKGhzbE1hdGNoICYmIGhzbE1hdGNoWzJdKSB7IC8vIGhzbE1hdGNoWzJdIGlzIHRoZSBsaWdodG5lc3MgdmFsdWUKICAgICAgICBjb25zdCBsaWdodG5lc3MgPSBwYXJzZUZsb2F0KGhzbE1hdGNoWzJdKTsKICAgICAgICByZXR1cm4gbGlnaHRuZXNzID4gNjAgPyAnIzAwMDAwMCcgOiAnI0ZGRkZGRic7IC8vIEEgbGlnaHRuZXNzID4gNjAlIGlzIGxpZ2h0IGVub3VnaCBmb3IgYmxhY2sgdGV4dC4KICAgIH0KCiAgICAvLyBIYW5kbGUgSEVYIHN0cmluZ3MKICAgIGlmIChjb2xvci5zdGFydHNXaXRoKCcjJykpIHsKICAgICAgICBsZXQgaGV4ID0gY29sb3Iuc2xpY2UoMSk7CiAgICAgICAgaWYgKGhleC5sZW5ndGggPT09IDMpIHsKICAgICAgICAgICAgaGV4ID0gaGV4LnNwbGl0KCcnKS5tYXAoY2hhciA9PiBjaGFyICsgY2hhcikuam9pbignJyk7CiAgICAgICAgfQogICAgICAgIGlmIChoZXgubGVuZ3RoICE9PSA2KSByZXR1cm4gJyMwMDAwMDAnOwoKICAgICAgICBjb25zdCByID0gcGFyc2VJbnQoaGV4LnN1YnN0cmluZygwLCAyKSwgMTYpOwogICAgICAgIGNvbnN0IGcgPSBwYXJzZUludChoZXguc3Vic3RyaW5nKDIsIDQpLCAxNik7CiAgICAgICAgY29uc3QgYiA9IHBhcnNlSW50KGhleC5zdWJzdHJpbmcoNCwgNiksIDE2KTsKICAgICAgICAvLyBVc2luZyB0aGUgWUlRIGZvcm11bGEgdG8gZGV0ZXJtaW5lIGJyaWdodG5lc3MKICAgICAgICBjb25zdCB5aXEgPSAoKHIgKiAyOTkpICsgKGcgKiA1ODcpICsgKGIgKiAxMTQpKSAvIDEwMDA7CiAgICAgICAgcmV0dXJuIHlpcSA+PSAxNTAgPyAnIzAwMDAwMCcgOiAnI0ZGRkZGRic7CiAgICB9CgogICAgLy8gRGVmYXVsdCBmb3IgdW5rbm93biBmb3JtYXRzCiAgICByZXR1cm4gJyMwMDAwMDAnOwp9Ow==}
+export const colorNameToHex: Record<string, string> = {
+    'Preto': '#000000',
+    'Branco': '#FFFFFF',
+    'Mescla': '#BEBEBE',
+    'Cinza Mescla': '#BEBEBE',
+    'Chumbo': '#696969',
+    'Cinza Chumbo': '#696969',
+    'Marinho': '#00008B',
+    'Royal': '#0000FF',
+    'Verde': '#5DBB63',
+    'Verde Bandeira': '#009b3a',
+    'Musgo': '#006400',
+    'Verde Escuro': '#006400',
+    'Vinho': '#800000',
+    'Bordô': '#800000',
+    'Vermelho': '#FF0000',
+    'Laranja': '#FFA500',
+    'Amarelo': '#FFFF00',
+    'Roxo': '#8A2BE2',
+    'Pink': '#FF00FF',
+    'Rosa Pink': '#FF69B4',
+    'Lilás': '#C8A2C8',
+    'Lilas': '#C8A2C8', // Alias
+    'Rosa Bebê': '#F4C2C2',
+    'Turquesa': '#00FFFF',
+    'Verde Euforia': '#00FF7F',
+    'Verde Limão': '#ADFF2F',
+    'Marrom Caramelo': '#D2691E',
+    'Caramelo': '#D2691E',
+    'Coral': '#FF7F50',
+    'Azul Claro': '#87CEEB',
+    'Azul Bebê': '#89CFF0',
+
+    // Fallbacks and other existing colors
+    'va': '#BDBDBD', // Variadas
+    'chat': '#BDBDBD', // Chat
+};
+
+export const getColorHex = (colorName: string): string => {
+    const normalizedName = Object.keys(colorNameToHex).find(key => key.toLowerCase() === colorName.toLowerCase());
+    return normalizedName ? colorNameToHex[normalizedName] : '#CCCCCC';
+};
+
+/**
+ * Generates an array of distinct pastel colors.
+ * @param count The number of colors to generate.
+ * @returns An array of hex color strings.
+ */
+export const generatePastelColors = (count: number): string[] => {
+    const colors: string[] = [];
+    const saturation = 90; // Increased for more vibrant pastels
+    const lightness = 85;  // Increased for better visibility in dark mode
+    for (let i = 0; i < count; i++) {
+        // Distribute hues evenly around the color wheel
+        const hue = (i * (360 / count)) % 360;
+        colors.push(`hsl(${hue}, ${saturation}%, ${lightness}%)`);
+    }
+    return colors;
+};
+
+/**
+ * Generates a deterministic color based on a string input.
+ * Useful for assigning consistent colors to products, tags, etc.
+ */
+export const getStringColor = (str: string, saturation = 70, lightness = 85): string => {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const h = Math.abs(hash) % 360;
+    return `hsl(${h}, ${saturation}%, ${lightness}%)`;
+};
+
+export const getTextColorForBackground = (color: string): string => {
+    // Handle HSL strings like 'hsl(180, 70%, 80%)' or 'hsla(180, 70%, 80%, 0.5)'
+    const hslMatch = color.match(/hsl(a)?\(\s*[\d.]+\s*,\s*[\d.]+%\s*,\s*([\d.]+)%\s*(,\s*[\d.]+\s*)?\)/);
+    if (hslMatch && hslMatch[2]) { // hslMatch[2] is the lightness value
+        const lightness = parseFloat(hslMatch[2]);
+        return lightness > 60 ? '#000000' : '#FFFFFF'; // A lightness > 60% is light enough for black text.
+    }
+
+    // Handle HEX strings
+    if (color.startsWith('#')) {
+        let hex = color.slice(1);
+        if (hex.length === 3) {
+            hex = hex.split('').map(char => char + char).join('');
+        }
+        if (hex.length !== 6) return '#000000';
+
+        const r = parseInt(hex.substring(0, 2), 16);
+        const g = parseInt(hex.substring(2, 4), 16);
+        const b = parseInt(hex.substring(4, 6), 16);
+        // Using the YIQ formula to determine brightness
+        const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        return yiq >= 150 ? '#000000' : '#FFFFFF';
+    }
+
+    // Default for unknown formats
+    return '#000000';
+};

@@ -1,1 +1,87 @@
-﻿@{data=CmltcG9ydCAqIGFzIFJlYWN0IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgVGFibGVSb3cgfSBmcm9tICcuLi90eXBlcyc7CmltcG9ydCB7IGdldENhdGVnb3J5LCBwYXJzZVNrdSwgZ2V0RWZmZWN0aXZlUXVhbnRpdHksIGlzUGVyc29uYWxpemFkbywgaXNLaXQgfSBmcm9tICcuLi9zZXJ2aWNlcy9za3VTZXJ2aWNlJzsKaW1wb3J0IHsgbm9ybWFsaXplU3RyaW5nIH0gZnJvbSAnLi4vdXRpbHMvc3RyaW5nVXRpbHMnOwppbXBvcnQgeyBnZXRTYWxlc0NoYW5uZWwgfSBmcm9tICcuLi9zZXJ2aWNlcy9lY29tbWVyY2VTZXJ2aWNlJzsKaW1wb3J0IFVuaXZlcnNhbFBpY2tpbmcsIHsgVW5pdmVyc2FsUGlja2luZ0l0ZW0gfSBmcm9tICcuL1VuaXZlcnNhbFBpY2tpbmcnOwoKaW50ZXJmYWNlIFBpY2tpbmdQcm9wcyB7CiAgICBoZWFkZXJzOiBzdHJpbmdbXTsKICAgIGRhdGE6IFRhYmxlUm93W107CiAgICBvblJvd0NsaWNrOiAocm93OiBUYWJsZVJvdykgPT4gdm9pZDsKICAgIHRyYWNraW5nTWFwcGluZ3M6IFJlY29yZDxzdHJpbmcsIHN0cmluZz47CiAgICBpbWFnZU1hcHBpbmdzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+Owp9Cgpjb25zdCBQaWNraW5nOiBSZWFjdC5GQzxQaWNraW5nUHJvcHM+ID0gKHsgaGVhZGVycywgZGF0YSwgb25Sb3dDbGljaywgdHJhY2tpbmdNYXBwaW5ncywgaW1hZ2VNYXBwaW5ncyB9KSA9PiB7CiAgICBjb25zdCB7IGlkVmVuZGFIZWFkZXIsIHNrdUhlYWRlciwgcXVhbnRpZGFkZUhlYWRlciwgc2l0dWFjYW9IZWFkZXIsIG5vbWVIZWFkZXIgfSA9IFJlYWN0LnVzZU1lbW8oKCkgPT4gewogICAgICAgIGNvbnN0IGZpbmQgPSAoa2V5OiBzdHJpbmcpID0+IGhlYWRlcnMuZmluZChoID0+IG5vcm1hbGl6ZVN0cmluZyhoKS5pbmNsdWRlcyhrZXkpKTsKICAgICAgICByZXR1cm4gewogICAgICAgICAgICBza3VIZWFkZXI6IGZpbmQoJ3NrdScpLAogICAgICAgICAgICBxdWFudGlkYWRlSGVhZGVyOiBmaW5kKCdxdWFudGlkYWRlJyksCiAgICAgICAgICAgIGlkVmVuZGFIZWFkZXI6IGZpbmQoJ251bWVybyBkYSBvcmRlbSBkZSBjb21wcmEnKSwKICAgICAgICAgICAgc2l0dWFjYW9IZWFkZXI6IGZpbmQoJ3NpdHVhY2FvJyksCiAgICAgICAgICAgIG5vbWVIZWFkZXI6IGZpbmQoJ25vbWUnKSwKICAgICAgICB9OwogICAgfSwgW2hlYWRlcnNdKTsKCiAgICBjb25zdCBub3JtYWxpemVkSXRlbXM6IFVuaXZlcnNhbFBpY2tpbmdJdGVtW10gPSBSZWFjdC51c2VNZW1vKCgpID0+IHsKICAgICAgICBpZiAoIXNrdUhlYWRlciB8fCAhcXVhbnRpZGFkZUhlYWRlciB8fCAhaWRWZW5kYUhlYWRlcikgcmV0dXJuIFtdOwoKICAgICAgICByZXR1cm4gZGF0YQogICAgICAgICAgICAuZmlsdGVyKHJvdyA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBza3UgPSBTdHJpbmcocm93W3NrdUhlYWRlcl0gPz8gJycpOwogICAgICAgICAgICAgICAgaWYgKGdldENhdGVnb3J5KHNrdSkgIT09ICdDYXBpbmhhJykgcmV0dXJuIGZhbHNlOwoKICAgICAgICAgICAgICAgIC8vIFN0YXR1cyBGaWx0ZXI6IEV4Y2x1ZGUgY29tcGxldGVkIG9yZGVycwogICAgICAgICAgICAgICAgaWYgKHNpdHVhY2FvSGVhZGVyKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc3Qgc3RhdHVzID0gU3RyaW5nKHJvd1tzaXR1YWNhb0hlYWRlcl0gPz8gJycpLnRvTG93ZXJDYXNlKCkudHJpbSgpOwogICAgICAgICAgICAgICAgICAgIGlmIChbJ2VudHJlZ3VlJywgJ2VudmlhZG8nLCAnY2FuY2VsYWRvJ10uaW5jbHVkZXMoc3RhdHVzKSkgcmV0dXJuIGZhbHNlOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgICAgICB9KQogICAgICAgICAgICAubWFwKHJvdyA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBza3UgPSBTdHJpbmcocm93W3NrdUhlYWRlcl0gPz8gJycpOwogICAgICAgICAgICAgICAgY29uc3QgcGFyc2VkID0gcGFyc2VTa3Uoc2t1KTsKICAgICAgICAgICAgICAgIGNvbnN0IGlkVmVuZGEgPSBTdHJpbmcocm93W2lkVmVuZGFIZWFkZXJdID8/ICcnKTsKICAgICAgICAgICAgICAgIGNvbnN0IHN0b3JlID0gZ2V0U2FsZXNDaGFubmVsKGlkVmVuZGEsIHJvdy5jbnBqIHx8IG51bGwpOwogICAgICAgICAgICAgICAgY29uc3QgaXNQZXJzbyA9IGlzUGVyc29uYWxpemFkbyhza3UpOwogICAgICAgICAgICAgICAgY29uc3QgYnJhbmQgPSBwYXJzZWQ/LmNvbG9yTmFtZSB8fCAnTi9BJzsKICAgICAgICAgICAgICAgIGNvbnN0IG1vZGVsID0gcGFyc2VkPy5zaXplTmFtZSB8fCAnTi9BJzsKCiAgICAgICAgICAgICAgICByZXR1cm4gewogICAgICAgICAgICAgICAgICAgIF91bmlxdWVJZDogcm93Ll91bmlxdWVJZCB8fCBgY2FwaW5oYS0ke01hdGgucmFuZG9tKCl9YCwKICAgICAgICAgICAgICAgICAgICBfaWRWZW5kYTogaWRWZW5kYSwKICAgICAgICAgICAgICAgICAgICBfc2t1OiBza3UsCiAgICAgICAgICAgICAgICAgICAgX3N0b3JlOiBzdG9yZSwKICAgICAgICAgICAgICAgICAgICBfbm9tZTogU3RyaW5nKHJvd1tub21lSGVhZGVyIV0gPz8gJycpLAogICAgICAgICAgICAgICAgICAgIF9yYXN0cmVpbzogdHJhY2tpbmdNYXBwaW5nc1tpZFZlbmRhXSwKCiAgICAgICAgICAgICAgICAgICAgLy8gTWFwcGluZ3MgZm9yIFVuaXZlcnNhbCBQaWNraW5nCiAgICAgICAgICAgICAgICAgICAgdGl0bGU6IG1vZGVsLAogICAgICAgICAgICAgICAgICAgIHN1YnRpdGxlOiBicmFuZCwKICAgICAgICAgICAgICAgICAgICBpbWFnZVVybDogaW1hZ2VNYXBwaW5nc1tpZFZlbmRhXSB8fCBpbWFnZU1hcHBpbmdzW3NrdV0sCiAgICAgICAgICAgICAgICAgICAgaXNQZXJzb25hbGl6ZWQ6IGlzUGVyc28sCiAgICAgICAgICAgICAgICAgICAgZ3JvdXBLZXk6IGJyYW5kLCAvLyBHcm91cCBTdW1tYXJ5IGJ5IEJyYW5kCiAgICAgICAgICAgICAgICAgICAgc3ViR3JvdXBLZXk6IG1vZGVsIC8vIENvdW50IHN0YXRzIGJ5IE1vZGVsCiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICB9KTsKICAgIH0sIFtkYXRhLCBza3VIZWFkZXIsIHF1YW50aWRhZGVIZWFkZXIsIGlkVmVuZGFIZWFkZXIsIHNpdHVhY2FvSGVhZGVyLCB0cmFja2luZ01hcHBpbmdzLCBpbWFnZU1hcHBpbmdzXSk7CgogICAgaWYgKCFpZFZlbmRhSGVhZGVyIHx8ICFza3VIZWFkZXIpIHsKICAgICAgICByZXR1cm4gPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHRleHQtcmVkLTUwMCI+PHA+Q29sdW5hcyBTS1UgZSBJRCBWZW5kYSBuZWNlc3PDoXJpYXMuPC9wPjwvZGl2PjsKICAgIH0KCiAgICByZXR1cm4gKAogICAgICAgIDxVbml2ZXJzYWxQaWNraW5nCiAgICAgICAgICAgIGl0ZW1zPXtub3JtYWxpemVkSXRlbXN9CiAgICAgICAgICAgIG9uUm93Q2xpY2s9e29uUm93Q2xpY2t9CiAgICAgICAgICAgIHN1bW1hcnlMYWJlbHM9e3sgZ3JvdXA6ICdNYXJjYScsIHN1Ykdyb3VwOiAnTW9kZWxvJyB9fQogICAgICAgICAgICBmaWx0ZXJPcHRpb25zPXt7IHNob3dUcmFuc3BhcmVudFBlcnNvbmFsaXplZDogdHJ1ZSB9fQogICAgICAgIC8+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgUGlja2luZzsK}
+
+import * as React from 'react';
+import { TableRow } from '../types';
+import { getCategory, parseSku, getEffectiveQuantity, isPersonalizado, isKit } from '../services/skuService';
+import { normalizeString } from '../utils/stringUtils';
+import { getSalesChannel } from '../services/ecommerceService';
+import UniversalPicking, { UniversalPickingItem } from './UniversalPicking';
+
+interface PickingProps {
+    headers: string[];
+    data: TableRow[];
+    onRowClick: (row: TableRow) => void;
+    trackingMappings: Record<string, string>;
+    imageMappings: Record<string, string>;
+}
+
+const Picking: React.FC<PickingProps> = ({ headers, data, onRowClick, trackingMappings, imageMappings }) => {
+    const { idVendaHeader, skuHeader, quantidadeHeader, situacaoHeader, nomeHeader } = React.useMemo(() => {
+        const find = (key: string) => headers.find(h => normalizeString(h).includes(key));
+        return {
+            skuHeader: find('sku'),
+            quantidadeHeader: find('quantidade'),
+            idVendaHeader: find('numero da ordem de compra'),
+            situacaoHeader: find('situacao'),
+            nomeHeader: find('nome'),
+        };
+    }, [headers]);
+
+    const normalizedItems: UniversalPickingItem[] = React.useMemo(() => {
+        if (!skuHeader || !quantidadeHeader || !idVendaHeader) return [];
+
+        return data
+            .filter(row => {
+                const sku = String(row[skuHeader] ?? '');
+                if (getCategory(sku) !== 'Capinha') return false;
+
+                // Status Filter: Exclude completed orders
+                if (situacaoHeader) {
+                    const status = String(row[situacaoHeader] ?? '').toLowerCase().trim();
+                    if (['entregue', 'enviado', 'cancelado'].includes(status)) return false;
+                }
+
+                return true;
+            })
+            .map(row => {
+                const sku = String(row[skuHeader] ?? '');
+                const parsed = parseSku(sku);
+                const idVenda = String(row[idVendaHeader] ?? '');
+                const store = getSalesChannel(idVenda, row.cnpj || null);
+                const isPerso = isPersonalizado(sku);
+                const brand = parsed?.colorName || 'N/A';
+                const model = parsed?.sizeName || 'N/A';
+
+                return {
+                    _uniqueId: row._uniqueId || `capinha-${Math.random()}`,
+                    _idVenda: idVenda,
+                    _sku: sku,
+                    _store: store,
+                    _nome: String(row[nomeHeader!] ?? ''),
+                    _rastreio: trackingMappings[idVenda],
+
+                    // Mappings for Universal Picking
+                    title: model,
+                    subtitle: brand,
+                    imageUrl: imageMappings[idVenda] || imageMappings[sku],
+                    isPersonalized: isPerso,
+                    groupKey: brand, // Group Summary by Brand
+                    subGroupKey: model // Count stats by Model
+                };
+            });
+    }, [data, skuHeader, quantidadeHeader, idVendaHeader, situacaoHeader, trackingMappings, imageMappings]);
+
+    if (!idVendaHeader || !skuHeader) {
+        return <div className="text-center text-red-500"><p>Colunas SKU e ID Venda necessárias.</p></div>;
+    }
+
+    return (
+        <UniversalPicking
+            items={normalizedItems}
+            onRowClick={onRowClick}
+            summaryLabels={{ group: 'Marca', subGroup: 'Modelo' }}
+            filterOptions={{ showTransparentPersonalized: true }}
+        />
+    );
+};
+
+export default Picking;

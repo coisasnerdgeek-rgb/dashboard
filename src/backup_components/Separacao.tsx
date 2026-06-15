@@ -1,1 +1,86 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgUGlja2luZyBmcm9tICcuL1BpY2tpbmcnOwppbXBvcnQgUGlja2luZ1JvdXBhcyBmcm9tICcuL1BpY2tpbmdSb3VwYXMnOwppbXBvcnQgeyBUYWJsZVJvdyB9IGZyb20gJy4uL3R5cGVzJzsKaW1wb3J0IFNlcGFyYWNhb0Rhc2hib2FyZCBmcm9tICcuL1NlcGFyYWNhb0Rhc2hib2FyZCc7CgppbnRlcmZhY2UgUGlja2luZ1Byb3BzIHsKICAgIGhlYWRlcnM6IHN0cmluZ1tdOwogICAgZGF0YTogVGFibGVSb3dbXTsKICAgIG9uUm93Q2xpY2s6IChyb3c6IFRhYmxlUm93KSA9PiB2b2lkOwogICAgdHJhY2tpbmdNYXBwaW5nczogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKICAgIGltYWdlTWFwcGluZ3M6IFJlY29yZDxzdHJpbmcsIHN0cmluZz47Cn0KCmludGVyZmFjZSBQaWNraW5nUm91cGFzUHJvcHMgewogICAgaGVhZGVyczogc3RyaW5nW107CiAgICBkYXRhOiBUYWJsZVJvd1tdOwogICAgb25Sb3dDbGljazogKHJvdzogVGFibGVSb3cpID0+IHZvaWQ7CiAgICB0cmFja2luZ01hcHBpbmdzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+OwogICAgaW1hZ2VNYXBwaW5nczogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKfQoKaW50ZXJmYWNlIFNlcGFyYWNhb1Byb3BzIHsKICAgIHBpY2tpbmdQcm9wczogUGlja2luZ1Byb3BzOwogICAgcGlja2luZ1JvdXBhc1Byb3BzOiBQaWNraW5nUm91cGFzUHJvcHM7CiAgICBwZW5kaW5nUm91cGFzQ291bnQ6IG51bWJlcjsKICAgIHBlbmRpbmdDYXNlc0NvdW50OiBudW1iZXI7CiAgICBhY3RpdmVUYWI/OiAnZGFzaGJvYXJkJyB8ICdyb3VwYXMnIHwgJ2NhcGluaGFzJzsKICAgIGdsb2JhbFNlYXJjaFRlcm0/OiBzdHJpbmc7Cn0KCmNvbnN0IFNlcGFyYWNhbzogUmVhY3QuRkM8U2VwYXJhY2FvUHJvcHM+ID0gKHsgcGlja2luZ1Byb3BzLCBwaWNraW5nUm91cGFzUHJvcHMsIHBlbmRpbmdSb3VwYXNDb3VudCwgcGVuZGluZ0Nhc2VzQ291bnQsIGFjdGl2ZVRhYiB9KSA9PiB7CiAgICBjb25zdCBbYWN0aXZlVmlldywgc2V0QWN0aXZlVmlld10gPSBSZWFjdC51c2VTdGF0ZTwnZGFzaGJvYXJkJyB8ICdyb3VwYXMnIHwgJ2NhcGluaGFzJz4oJ2Rhc2hib2FyZCcpOwoKICAgIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7CiAgICAgICAgY29uc3Qgc2F2ZWRUYWIgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc2VwYXJhY2FvX2FjdGl2ZVRhYicpOwogICAgICAgIGlmIChzYXZlZFRhYiAmJiAoc2F2ZWRUYWIgPT09ICdkYXNoYm9hcmQnIHx8IHNhdmVkVGFiID09PSAncm91cGFzJyB8fCBzYXZlZFRhYiA9PT0gJ2NhcGluaGFzJykpIHsKICAgICAgICAgICAgc2V0QWN0aXZlVmlldyhzYXZlZFRhYik7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdzZXBhcmFjYW9fYWN0aXZlVGFiJyk7CiAgICAgICAgfSBlbHNlIGlmIChhY3RpdmVUYWIpIHsKICAgICAgICAgICAgc2V0QWN0aXZlVmlldyhhY3RpdmVUYWIpOwogICAgICAgIH0KICAgIH0sIFthY3RpdmVUYWJdKTsKCiAgICByZXR1cm4gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhbmltYXRlLWZhZGUtaW4tc2NhbGUiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWNlbnRlciBtYi02Ij4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciByb3VuZGVkLWxnIGJnLWdyYXktMTAwIGRhcms6YmctZ3JheS03MDAvNTAgcC0xIGJvcmRlciBkYXJrOmJvcmRlci1ncmF5LTYwMCI+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRBY3RpdmVWaWV3KCdkYXNoYm9hcmQnKX0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcmVsYXRpdmUgcHgtNiBweS0yIHRleHQtc20gZm9udC1tZWRpdW0gcm91bmRlZC1tZCB0cmFuc2l0aW9uLWNvbG9ycyAke2FjdGl2ZVZpZXcgPT09ICdkYXNoYm9hcmQnID8gJ2JnLXdoaXRlIGRhcms6YmctZ3JheS05MDAgdGV4dC1wcmltYXJ5LTYwMCBkYXJrOnRleHQtcHJpbWFyeS00MDAgc2hhZG93LXNtJyA6ICd0ZXh0LWdyYXktNjAwIGRhcms6dGV4dC1ncmF5LTMwMCBob3ZlcjpiZy1ncmF5LTIwMCBkYXJrOmhvdmVyOmJnLWdyYXktNjAwJ31gfQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgRGFzaGJvYXJkCiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRBY3RpdmVWaWV3KCdyb3VwYXMnKX0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcmVsYXRpdmUgcHgtNiBweS0yIHRleHQtc20gZm9udC1tZWRpdW0gcm91bmRlZC1tZCB0cmFuc2l0aW9uLWNvbG9ycyAke2FjdGl2ZVZpZXcgPT09ICdyb3VwYXMnID8gJ2JnLXdoaXRlIGRhcms6YmctZ3JheS05MDAgdGV4dC1wcmltYXJ5LTYwMCBkYXJrOnRleHQtcHJpbWFyeS00MDAgc2hhZG93LXNtJyA6ICd0ZXh0LWdyYXktNjAwIGRhcms6dGV4dC1ncmF5LTMwMCBob3ZlcjpiZy1ncmF5LTIwMCBkYXJrOmhvdmVyOmJnLWdyYXktNjAwJ31gfQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgUm91cGFzCiAgICAgICAgICAgICAgICAgICAgICAgIHtwZW5kaW5nUm91cGFzQ291bnQgPiAwICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgLXRvcC0yIC1yaWdodC0yIGgtNSB3LTUgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGJnLWluZGlnby01MDAgdGV4dC13aGl0ZSB0ZXh0LXhzIGZvbnQtYm9sZCByaW5nLTIgcmluZy13aGl0ZSBkYXJrOnJpbmctZ3JheS04MDAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwZW5kaW5nUm91cGFzQ291bnR9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRBY3RpdmVWaWV3KCdjYXBpbmhhcycpfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2ByZWxhdGl2ZSBweC02IHB5LTIgdGV4dC1zbSBmb250LW1lZGl1bSByb3VuZGVkLW1kIHRyYW5zaXRpb24tY29sb3JzICR7YWN0aXZlVmlldyA9PT0gJ2NhcGluaGFzJyA/ICdiZy13aGl0ZSBkYXJrOmJnLWdyYXktOTAwIHRleHQtcHJpbWFyeS02MDAgZGFyazp0ZXh0LXByaW1hcnktNDAwIHNoYWRvdy1zbScgOiAndGV4dC1ncmF5LTYwMCBkYXJrOnRleHQtZ3JheS0zMDAgaG92ZXI6YmctZ3JheS0yMDAgZGFyazpob3ZlcjpiZy1ncmF5LTYwMCd9YH0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIENhcGluaGFzCiAgICAgICAgICAgICAgICAgICAgICAgIHtwZW5kaW5nQ2FzZXNDb3VudCA+IDAgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJhYnNvbHV0ZSAtdG9wLTIgLXJpZ2h0LTIgaC01IHctNSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctY3lhbi01MDAgdGV4dC13aGl0ZSB0ZXh0LXhzIGZvbnQtYm9sZCByaW5nLTIgcmluZy13aGl0ZSBkYXJrOnJpbmctZ3JheS04MDAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwZW5kaW5nQ2FzZXNDb3VudH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAge2FjdGl2ZVZpZXcgPT09ICdkYXNoYm9hcmQnICYmIDxTZXBhcmFjYW9EYXNoYm9hcmQgaGVhZGVycz17cGlja2luZ1Byb3BzLmhlYWRlcnN9IGRhdGE9e3BpY2tpbmdQcm9wcy5kYXRhfSAvPn0KICAgICAgICAgICAge2FjdGl2ZVZpZXcgPT09ICdyb3VwYXMnICYmIDxQaWNraW5nUm91cGFzIHsuLi5waWNraW5nUm91cGFzUHJvcHN9IC8+fQogICAgICAgICAgICB7YWN0aXZlVmlldyA9PT0gJ2NhcGluaGFzJyAmJiA8UGlja2luZyB7Li4ucGlja2luZ1Byb3BzfSAvPn0KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBTZXBhcmFjYW87Cg==}
+import * as React from 'react';
+import Picking from './Picking';
+import PickingRoupas from './PickingRoupas';
+import { TableRow } from '../types';
+import SeparacaoDashboard from './SeparacaoDashboard';
+
+interface PickingProps {
+    headers: string[];
+    data: TableRow[];
+    onRowClick: (row: TableRow) => void;
+    trackingMappings: Record<string, string>;
+    imageMappings: Record<string, string>;
+}
+
+interface PickingRoupasProps {
+    headers: string[];
+    data: TableRow[];
+    onRowClick: (row: TableRow) => void;
+    trackingMappings: Record<string, string>;
+    imageMappings: Record<string, string>;
+}
+
+interface SeparacaoProps {
+    pickingProps: PickingProps;
+    pickingRoupasProps: PickingRoupasProps;
+    pendingRoupasCount: number;
+    pendingCasesCount: number;
+    activeTab?: 'dashboard' | 'roupas' | 'capinhas';
+    globalSearchTerm?: string;
+}
+
+const Separacao: React.FC<SeparacaoProps> = ({ pickingProps, pickingRoupasProps, pendingRoupasCount, pendingCasesCount, activeTab }) => {
+    const [activeView, setActiveView] = React.useState<'dashboard' | 'roupas' | 'capinhas'>('dashboard');
+
+    React.useEffect(() => {
+        const savedTab = localStorage.getItem('separacao_activeTab');
+        if (savedTab && (savedTab === 'dashboard' || savedTab === 'roupas' || savedTab === 'capinhas')) {
+            setActiveView(savedTab);
+            localStorage.removeItem('separacao_activeTab');
+        } else if (activeTab) {
+            setActiveView(activeTab);
+        }
+    }, [activeTab]);
+
+    return (
+        <div className="animate-fade-in-scale">
+            <div className="flex justify-center mb-6">
+                <div className="flex items-center rounded-lg bg-gray-100 dark:bg-gray-700/50 p-1 border dark:border-gray-600">
+                    <button
+                        onClick={() => setActiveView('dashboard')}
+                        className={`relative px-6 py-2 text-sm font-medium rounded-md transition-colors ${activeView === 'dashboard' ? 'bg-white dark:bg-gray-900 text-primary-600 dark:text-primary-400 shadow-sm' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'}`}
+                    >
+                        Dashboard
+                    </button>
+                    <button
+                        onClick={() => setActiveView('roupas')}
+                        className={`relative px-6 py-2 text-sm font-medium rounded-md transition-colors ${activeView === 'roupas' ? 'bg-white dark:bg-gray-900 text-primary-600 dark:text-primary-400 shadow-sm' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'}`}
+                    >
+                        Roupas
+                        {pendingRoupasCount > 0 && (
+                            <span className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center rounded-full bg-indigo-500 text-white text-xs font-bold ring-2 ring-white dark:ring-gray-800">
+                                {pendingRoupasCount}
+                            </span>
+                        )}
+                    </button>
+                    <button
+                        onClick={() => setActiveView('capinhas')}
+                        className={`relative px-6 py-2 text-sm font-medium rounded-md transition-colors ${activeView === 'capinhas' ? 'bg-white dark:bg-gray-900 text-primary-600 dark:text-primary-400 shadow-sm' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'}`}
+                    >
+                        Capinhas
+                        {pendingCasesCount > 0 && (
+                            <span className="absolute -top-2 -right-2 h-5 w-5 flex items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold ring-2 ring-white dark:ring-gray-800">
+                                {pendingCasesCount}
+                            </span>
+                        )}
+                    </button>
+                </div>
+            </div>
+            {activeView === 'dashboard' && <SeparacaoDashboard headers={pickingProps.headers} data={pickingProps.data} />}
+            {activeView === 'roupas' && <PickingRoupas {...pickingRoupasProps} />}
+            {activeView === 'capinhas' && <Picking {...pickingProps} />}
+        </div>
+    );
+};
+
+export default Separacao;

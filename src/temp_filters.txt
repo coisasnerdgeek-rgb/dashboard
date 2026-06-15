@@ -1,1 +1,31 @@
-﻿@{data=MTAzOiBjb25zdCBjb21wbGV4Um93cyA9IChsb2NhbFJvd3MgfHwgW10pLmZpbHRlcihyb3cgPT4gew0KMzMxOiBjb25zdCBmaWx0ZXJlZCA9IHByZXYuZmlsdGVyKHAgPT4gcC51bmlxdWVJZCAhPT0gdW5pcXVlSWQpOw0KMzMyOiByZXR1cm4gWy4uLmZpbHRlcmVkLCB7IHVuaXF1ZUlkOiB1bmlxdWVJZCEsIGZpZWxkczogdXBkYXRlZEZpZWxkcyB9XTsNCjM3NTogY29uc3QgZmlsdGVyZWQgPSBwcmV2LmZpbHRlcihwID0+IHAudW5pcXVlSWQgIT09IHVuaXF1ZUlkKTsNCjM3NjogcmV0dXJuIFsuLi5maWx0ZXJlZCwgeyB1bmlxdWVJZDogdW5pcXVlSWQhLCBmaWVsZHM6IHVwZGF0ZWRGaWVsZHMgfV07DQozOTY6IGNvbnN0IGZpbHRlcmVkID0gcHJldi5maWx0ZXIocCA9PiBwLnVuaXF1ZUlkICE9PSB1bmlxdWVJZCk7DQozOTc6IHJldHVybiBbLi4uZmlsdGVyZWQsIHsgdW5pcXVlSWQ6IHVuaXF1ZUlkISwgZmllbGRzOiB1cGRhdGVkRmllbGRzIH1dOw0KNTk5OiBjb25zdCBmaWx0ZXJlZEl0ZW1zID0gaXRlbXMuZmlsdGVyKGl0ZW0gPT4gaXRlbS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKHNlYXJjaFRlcm0udG9Mb3dlckNhc2UoKSkpOw0KODQ2OiByZXR1cm4gYmFja29yZGVyZWRJdGVtcy5maWx0ZXIoaXRlbSA9PiB7DQoxMTExOiBjb25zdCB1bnByb2Nlc3NlZFJvd3MgPSByb3dzLmZpbHRlcihyb3cgPT4gew0KMTEyNjogY29uc3QgaW5jb21wbGV0ZVNrdUNvdW50ID0gdW5wcm9jZXNzZWRSb3dzLmZpbHRlcihyb3cgPT4gew0KMTIwNzogY29uc3QgcHJpY2VBc3NvY2lhdGVkUHJvZHVjdE5hbWVzID0gbmV3IFNldChwcmljZVRhYmxlLm1hcChwID0+IHAuc2t1UHJvZHVjdE5hbWUpLmZpbHRlcihCb29sZWFuKSk7DQoxMzA2OiAuZmlsdGVyKChjKTogYyBpcyBudW1iZXIgPT4gYyAhPT0gbnVsbCAmJiBjID4gMCk7DQoxMzE5OiBjb25zdCBwcm9kdWN0Um93cyA9IChhbGxQcm9kdWN0c0RhdGFbc2VsZWN0ZWRQcm9kdWN0XSB8fCBbXSkuZmlsdGVyKHJvdyA9PiB7DQoxMzgxOiBmaWx0ZXJlZFJvd3MuZmlsdGVyKHIgPT4gew0KMTQzNjogY29uc3Qgb3JkZXJzID0gKGRhdGEgfHwgW10pLmZpbHRlcihyb3cgPT4gew0KMTQ0NzogZmlsdGVyZWRPcmRlcnMgPSBmaWx0ZXJlZE9yZGVycy5maWx0ZXIocm93ID0+IHsNCjE0NTU6IGZpbHRlcmVkT3JkZXJzID0gKGZpbHRlcmVkT3JkZXJzIHx8IFtdKS5maWx0ZXIocm93ID0+IChyb3cgYXMgYW55KS5faXNLaXQgfHwgaXNLaXQoU3RyaW5nKHJvd1tza3VIZWFkZXJdISkpKTsNCjE0NTc6IGZpbHRlcmVkT3JkZXJzID0gKGZpbHRlcmVkT3JkZXJzIHx8IFtdKS5maWx0ZXIocm93ID0+ICEoKHJvdyBhcyBhbnkpLl9pc0tpdCB8fCBpc0tpdChTdHJpbmcocm93W3NrdUhlYWRlcl0hKSkpKTsNCjE0NjI6IHJldHVybiAoZmlsdGVyZWRPcmRlcnMgfHwgW10pLmZpbHRlcihyb3cgPT4gew0KMTUyMjogY29uc3QgcHJvZHVjdFJvd3MgPSAoYWxsUHJvZHVjdHNEYXRhW3NlbGVjdGVkUHJvZHVjdF0gfHwgW10pLmZpbHRlcihyb3cgPT4gew0KMTU3MTogY29uc3QgcHJvZHVjdFJvd3MgPSAoYWxsUHJvZHVjdHNEYXRhW3NlbGVjdGVkUHJvZHVjdF0gfHwgW10pLmZpbHRlcihyb3cgPT4gew0KMTY5NjogLmZpbHRlcigoaWQpOiBpZCBpcyBzdHJpbmcgfCBudW1iZXIgPT4gISFpZCk7DQoxNzM2OiBzZXRDdXN0b21Db2xvcnMocHJldiA9PiBwcmV2LmZpbHRlcihjID0+IGMgIT09IGNvbG9yVG9EZWxldGUpKTsNCjE3NzE6IHNldEN1c3RvbVNpemVzKHByZXYgPT4gcHJldi5maWx0ZXIocyA9PiBzICE9PSBzaXplVG9EZWxldGUpKTsNCjIwNzc6IDxBZGREcm9wZG93biBpdGVtcz17bWFzdGVyQ29sb3JMaXN0LmZpbHRlcihjID0+ICF1bmlxdWVDb2xvcnMuaW5jbHVkZXMoYykpfSBvblNlbGVjdD17aGFuZGxlQWRkQ29sb3J9IHRpdGxlPSJBZGljaW9uYXIgQ29yIiBidXR0b25Db250ZW50PSIrIiAvPg0KMjA4ODogPEFkZERyb3Bkb3duIGl0ZW1zPXttYXN0ZXJEYXRhLnNpemVzLmZpbHRlcihzID0+ICF1bmlxdWVTaXplcy5pbmNsdWRlcyhzKSl9IG9uU2VsZWN0PXtoYW5kbGVBZGRTaXplfSB0aXRsZT0iQWRpY2lvbmFyIFRhbWFuaG8iIGJ1dHRvbkNvbnRlbnQ9IisiIHBvc2l0aW9uPSJyaWdodC0wIiAvPg0KMjM5MzogeyhkYXRhIHx8IFtdKS5maWx0ZXIocm93ID0+IHsNCjI2NTc6IC5maWx0ZXIoKGl0ZW0pOiBpdGVtIGlzIHsgc3RvcmVOYW1lOiBzdHJpbmc7IGNvc3Q6IG51bWJlcjsgc3RvcmVDbGFzczogc3RyaW5nIH0gPT4gaXRlbSAhPT0gbnVsbCkNCjI4MjQ6IGRlbGV0ZWRSb3dzPXsoZGVsZXRlZFJvd3MgfHwgW10pLmZpbHRlcihyID0+IHsNCjI4MzA6IHNldERlbGV0ZWRSb3dzKHByZXYgPT4gcHJldi5maWx0ZXIociA9PiAoci5fdW5pcXVlSWQgfHwgci5fc3VwYWJhc2VJZCkgIT09IHVuaXF1ZUlkKSk7}
+103: const complexRows = (localRows || []).filter(row => {
+331: const filtered = prev.filter(p => p.uniqueId !== uniqueId);
+332: return [...filtered, { uniqueId: uniqueId!, fields: updatedFields }];
+375: const filtered = prev.filter(p => p.uniqueId !== uniqueId);
+376: return [...filtered, { uniqueId: uniqueId!, fields: updatedFields }];
+396: const filtered = prev.filter(p => p.uniqueId !== uniqueId);
+397: return [...filtered, { uniqueId: uniqueId!, fields: updatedFields }];
+599: const filteredItems = items.filter(item => item.toLowerCase().includes(searchTerm.toLowerCase()));
+846: return backorderedItems.filter(item => {
+1111: const unprocessedRows = rows.filter(row => {
+1126: const incompleteSkuCount = unprocessedRows.filter(row => {
+1207: const priceAssociatedProductNames = new Set(priceTable.map(p => p.skuProductName).filter(Boolean));
+1306: .filter((c): c is number => c !== null && c > 0);
+1319: const productRows = (allProductsData[selectedProduct] || []).filter(row => {
+1381: filteredRows.filter(r => {
+1436: const orders = (data || []).filter(row => {
+1447: filteredOrders = filteredOrders.filter(row => {
+1455: filteredOrders = (filteredOrders || []).filter(row => (row as any)._isKit || isKit(String(row[skuHeader]!)));
+1457: filteredOrders = (filteredOrders || []).filter(row => !((row as any)._isKit || isKit(String(row[skuHeader]!))));
+1462: return (filteredOrders || []).filter(row => {
+1522: const productRows = (allProductsData[selectedProduct] || []).filter(row => {
+1571: const productRows = (allProductsData[selectedProduct] || []).filter(row => {
+1696: .filter((id): id is string | number => !!id);
+1736: setCustomColors(prev => prev.filter(c => c !== colorToDelete));
+1771: setCustomSizes(prev => prev.filter(s => s !== sizeToDelete));
+2077: <AddDropdown items={masterColorList.filter(c => !uniqueColors.includes(c))} onSelect={handleAddColor} title="Adicionar Cor" buttonContent="+" />
+2088: <AddDropdown items={masterData.sizes.filter(s => !uniqueSizes.includes(s))} onSelect={handleAddSize} title="Adicionar Tamanho" buttonContent="+" position="right-0" />
+2393: {(data || []).filter(row => {
+2657: .filter((item): item is { storeName: string; cost: number; storeClass: string } => item !== null)
+2824: deletedRows={(deletedRows || []).filter(r => {
+2830: setDeletedRows(prev => prev.filter(r => (r._uniqueId || r._supabaseId) !== uniqueId));

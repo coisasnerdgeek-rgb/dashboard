@@ -1,1 +1,115 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwoKaW50ZXJmYWNlIEZpbGVVcGxvYWRQcm9wcyB7CiAgb25GaWxlVXBsb2FkOiAoZmlsZXM6IEZpbGVMaXN0KSA9PiB2b2lkOwogIGlzRGF0YUxvYWRlZDogYm9vbGVhbjsKICBmaWxlczogeyBuYW1lOiBzdHJpbmcsIGltcG9ydERhdGU6IHN0cmluZyB9W107CiAgb25DbGVhckRhdGE6ICgpID0+IHZvaWQ7CiAgb25SZW1vdmVGaWxlOiAoZmlsZU5hbWU6IHN0cmluZykgPT4gdm9pZDsKfQoKY29uc3QgRmlsZVVwbG9hZDogUmVhY3QuRkM8RmlsZVVwbG9hZFByb3BzPiA9ICh7IG9uRmlsZVVwbG9hZCwgaXNEYXRhTG9hZGVkLCBmaWxlcywgb25DbGVhckRhdGEsIG9uUmVtb3ZlRmlsZSB9KSA9PiB7CiAgY29uc3QgW2lzRHJhZ2dpbmcsIHNldElzRHJhZ2dpbmddID0gUmVhY3QudXNlU3RhdGUoZmFsc2UpOwoKICBjb25zdCBoYW5kbGVEcmFnRW50ZXIgPSBSZWFjdC51c2VDYWxsYmFjaygoZTogUmVhY3QuRHJhZ0V2ZW50PEhUTUxEaXZFbGVtZW50PikgPT4gewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgZS5zdG9wUHJvcGFnYXRpb24oKTsKICAgIHNldElzRHJhZ2dpbmcodHJ1ZSk7CiAgfSwgW10pOwoKICBjb25zdCBoYW5kbGVEcmFnTGVhdmUgPSBSZWFjdC51c2VDYWxsYmFjaygoZTogUmVhY3QuRHJhZ0V2ZW50PEhUTUxEaXZFbGVtZW50PikgPT4gewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgZS5zdG9wUHJvcGFnYXRpb24oKTsKICAgIHNldElzRHJhZ2dpbmcoZmFsc2UpOwogIH0sIFtdKTsKCiAgY29uc3QgaGFuZGxlRHJhZ092ZXIgPSBSZWFjdC51c2VDYWxsYmFjaygoZTogUmVhY3QuRHJhZ0V2ZW50PEhUTUxEaXZFbGVtZW50PikgPT4gewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgZS5zdG9wUHJvcGFnYXRpb24oKTsKICB9LCBbXSk7CgogIGNvbnN0IGhhbmRsZURyb3AgPSBSZWFjdC51c2VDYWxsYmFjaygoZTogUmVhY3QuRHJhZ0V2ZW50PEhUTUxEaXZFbGVtZW50PikgPT4gewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgZS5zdG9wUHJvcGFnYXRpb24oKTsKICAgIHNldElzRHJhZ2dpbmcoZmFsc2UpOwogICAgaWYgKGUuZGF0YVRyYW5zZmVyLmZpbGVzICYmIGUuZGF0YVRyYW5zZmVyLmZpbGVzLmxlbmd0aCA+IDApIHsKICAgICAgb25GaWxlVXBsb2FkKGUuZGF0YVRyYW5zZmVyLmZpbGVzKTsKICAgIH0KICB9LCBbb25GaWxlVXBsb2FkXSk7CgogIGNvbnN0IGhhbmRsZUZpbGVDaGFuZ2UgPSAoZTogUmVhY3QuQ2hhbmdlRXZlbnQ8SFRNTElucHV0RWxlbWVudD4pID0+IHsKICAgIGlmIChlLnRhcmdldC5maWxlcyAmJiBlLnRhcmdldC5maWxlcy5sZW5ndGggPiAwKSB7CiAgICAgIG9uRmlsZVVwbG9hZChlLnRhcmdldC5maWxlcyk7CiAgICAgIC8vIFJlc2V0IGlucHV0IHZhbHVlIHRvIGFsbG93IHJlLXVwbG9hZGluZyB0aGUgc2FtZSBmaWxlCiAgICAgIGUudGFyZ2V0LnZhbHVlID0gJyc7CiAgICB9CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJwLTggbGc6cC0xMiB0ZXh0LWNlbnRlciI+CiAgICAgIHtpc0RhdGFMb2FkZWQgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0xMCBwLTYgYmctZ3JlZW4tNTAgZGFyazpiZy1ncmVlbi05MDAvMjAgYm9yZGVyIGJvcmRlci1ncmVlbi0zMDAgZGFyazpib3JkZXItZ3JlZW4tNjAwIHJvdW5kZWQtbGcgbWF4LXctNHhsIG14LWF1dG8gdGV4dC1sZWZ0Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIHNtOmp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ib2xkIHRleHQtZ3JlZW4tODAwIGRhcms6dGV4dC1ncmVlbi0yMDAiPlBsYW5pbGhhcyBDYXJyZWdhZGFzPC9oMz4KICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgc3BhY2UteS0yIj4KICAgICAgICAgICAgICAgICAgICAgICAge2ZpbGVzLm1hcChmaWxlID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtmaWxlLm5hbWV9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIHAtMiBiZy1ncmVlbi0xMDAgZGFyazpiZy1ncmVlbi04MDAvMzAgcm91bmRlZC1tZCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIG1pbi13LTAiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3NOYW1lPSJoLTUgdy01IHRleHQtZ3JlZW4tNjAwIGRhcms6dGV4dC1ncmVlbi0zMDAgZmxleC1zaHJpbmstMCIgdmlld0JveD0iMCAwIDIwIDIwIiBmaWxsPSJjdXJyZW50Q29sb3IiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZmlsbFJ1bGU9ImV2ZW5vZGQiIGQ9Ik00IDRhMiAyIDAgMDEyLTJoNC41ODZBMiAyIDAgMDExMiAyLjU4NkwxNS40MTQgNkEyIDIgMCAwMTE2IDcuNDE0VjE2YTIgMiAwIDAxLTIgMkg2YTIgMiAwIDAxLTItMlY0em0yIDZhMSAxIDAgMDExLTFoNmExIDEgMCAxMTAgMkg3YTEgMSAwIDAxLTEtMXptMSAzYTEgMSAwIDEwMCAyaDZhMSAxIDAgMTAwLTJIN3oiIGNsaXBSdWxlPSJldmVub2RkIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgbWluLXctMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZ3JheS03MDAgZGFyazp0ZXh0LWdyYXktMzAwIHRydW5jYXRlIGZvbnQtbW9ubyIgdGl0bGU9e2ZpbGUubmFtZX0+e2ZpbGUubmFtZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtZ3JheS01MDAgZGFyazp0ZXh0LWdyYXktNDAwIGZvbnQtc2FucyI+e25ldyBEYXRlKGZpbGUuaW1wb3J0RGF0ZSkudG9Mb2NhbGVTdHJpbmcoJ3B0LUJSJyl9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uUmVtb3ZlRmlsZShmaWxlLm5hbWUpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXgtc2hyaW5rLTAgcC0xLjUgdGV4dC1yZWQtNTAwIHJvdW5kZWQtZnVsbCBob3ZlcjpiZy1yZWQtMTAwIGRhcms6aG92ZXI6YmctcmVkLTkwMC81MCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD17YFJlbW92ZXIgJHtmaWxlLm5hbWV9YH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtNCB3LTQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBmaWxsUnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE4YTggOCAwIDEwMC0xNiA4IDggMCAwMDAgMTZ6TTguNzA3IDcuMjkzYTEgMSAwIDAwLTEuNDE0IDEuNDE0TDguNTg2IDEwbC0xLjI5MyAxLjI5M2ExIDEgMCAxMDEuNDE0IDEuNDE0TDEwIDExLjQxNGwxLjI5MyAxLjI5M2ExIDEgMCAwMDEuNDE0LTEuNDE0TDExLjQxNCAxMGwxLjI5My0xLjI5M2ExIDEgMCAwMC0xLjQxNC0xLjQxNEwxMCA4LjU4NiA4LjcwNyA3LjI5M3oiIGNsaXBSdWxlPSJldmVub2RkIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGJ1dHRvbiAKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtvbkNsZWFyRGF0YX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXgtc2hyaW5rLTAgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB4LTQgcHktMiBiZy1yZWQtNjAwIHRleHQtd2hpdGUgdGV4dC1zbSBmb250LXNlbWlib2xkIHJvdW5kZWQtbWQgaG92ZXI6YmctcmVkLTcwMCBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0yIGZvY3VzOnJpbmctcmVkLTUwMCBmb2N1czpyaW5nLW9mZnNldC0yIGRhcms6Zm9jdXM6cmluZy1vZmZzZXQtZ3JheS05MDAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT0iaC01IHctNSIgdmlld0JveD0iMCAwIDIwIDIwIiBmaWxsPSJjdXJyZW50Q29sb3IiPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBmaWxsUnVsZT0iZXZlbm9kZCIgZD0iTTkgMmExIDEgMCAwMC0uODk0LjU1M0w3LjM4MiA0SDRhMSAxIDAgMDAwIDJ2MTBhMiAyIDAgMDAyIDJoOGEyIDIgMCAwMDItMlY2YTEgMSAwIDEwMC0yaC0zLjM4MmwtLjcyNC0xLjQ0N0ExIDEgMCAwMDExIDJIOXpNNyA4YTEgMSAwIDAxMiAwdjZhMSAxIDAgMTEtMiAwVjh6bTQgMGExIDEgMCAwMTIgMHY2YTEgMSAwIDExLTIgMFY4eiIgY2xpcFJ1bGU9ImV2ZW5vZGQiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICAgICAgTGltcGFyIFRvZG9zIG9zIERhZG9zCiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICAgIDxkaXYKICAgICAgICBvbkRyYWdFbnRlcj17aGFuZGxlRHJhZ0VudGVyfQogICAgICAgIG9uRHJhZ0xlYXZlPXtoYW5kbGVEcmFnTGVhdmV9CiAgICAgICAgb25EcmFnT3Zlcj17aGFuZGxlRHJhZ092ZXJ9CiAgICAgICAgb25Ecm9wPXtoYW5kbGVEcm9wfQogICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIGJsb2NrIHctZnVsbCByb3VuZGVkLWxnIGJvcmRlci0yIGJvcmRlci1kYXNoZWQgYm9yZGVyLWdyYXktMzAwIGRhcms6Ym9yZGVyLWdyYXktNjAwIHAtMTIgdGV4dC1jZW50ZXIgaG92ZXI6Ym9yZGVyLWdyYXktNDAwIGRhcms6aG92ZXI6Ym9yZGVyLWdyYXktNTAwIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1wcmltYXJ5LTUwMCBmb2N1czpyaW5nLW9mZnNldC0yIHRyYW5zaXRpb24tY29sb3JzIGR1cmF0aW9uLTMwMCAke2lzRHJhZ2dpbmcgPyAnYm9yZGVyLXByaW1hcnktNTAwIGJnLXByaW1hcnktNTAgZGFyazpiZy1wcmltYXJ5LTkwMC8yMCcgOiAnJ31gfQogICAgICA+CiAgICAgICAgPHN2ZyBjbGFzc05hbWU9Im14LWF1dG8gaC0xNiB3LTE2IHRleHQtZ3JheS00MDAgZGFyazp0ZXh0LWdyYXktNTAwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDQ4IDQ4IiBhcmlhLWhpZGRlbj0idHJ1ZSI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0yOCA4SDEyYTQgNCAwIDAwLTQgNHYyMG0zMi0xMnY4bTAgMHY4YTQgNCAwIDAxLTQgNEgxMmE0IDQgMCAwMS00LTR2LTRtMzItNGwtMy4xNzItMy4xNzJhNCA0IDAgMDAtNS42NTYgMEwyOCAyOE04IDMybDkuMTcyLTkuMTcyYTQgNCAwIDAxNS42NTYgMEwyOCAyOG0wIDBsNCA0bTQtMjRoOG0tNC00djgiIHN0cm9rZVdpZHRoPSIyIiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiAvPgogICAgICAgIDwvc3ZnPgogICAgICAgIDxoMiBjbGFzc05hbWU9Im10LTQgdGV4dC0yeGwgZm9udC1ib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtZ3JheS04MDAgZGFyazp0ZXh0LWdyYXktMjAwIj57aXNEYXRhTG9hZGVkID8gJ0FkaWNpb25hciBNYWlzIFBsYW5pbGhhcycgOiAnQ29tZWNlIGVudmlhbmRvIHN1YXMgcGxhbmlsaGFzJ308L2gyPgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiBibG9jayB0ZXh0LW1kIHRleHQtZ3JheS01MDAgZGFyazp0ZXh0LWdyYXktNDAwIj4KICAgICAgICAgIEFycmFzdGUgZSBzb2x0ZSA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1wcmltYXJ5LTYwMCBkYXJrOnRleHQtcHJpbWFyeS00MDAiPmFycXVpdm9zIFhMU1g8L3NwYW4+IGFxdWksIG91IGNsaXF1ZSBwYXJhIHNlbGVjaW9uYXIuCiAgICAgICAgPC9wPgogICAgICAgIDxsYWJlbCBodG1sRm9yPSJmaWxlLXVwbG9hZCIgY2xhc3NOYW1lPSJyZWxhdGl2ZSBjdXJzb3ItcG9pbnRlciBtdC02IGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciByb3VuZGVkLW1kIGJnLXByaW1hcnktNjAwIHB4LTUgcHktMyB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSBzaGFkb3ctc20gaG92ZXI6YmctcHJpbWFyeS03MDAgZm9jdXMtd2l0aGluOm91dGxpbmUtbm9uZSBmb2N1cy13aXRoaW46cmluZy0yIGZvY3VzLXdpdGhpbjpyaW5nLXByaW1hcnktNTAwIGZvY3VzLXdpdGhpbjpyaW5nLW9mZnNldC0yIj4KICAgICAgICAgICAgPHNwYW4+U2VsZWNpb25hciBBcnF1aXZvczwvc3Bhbj4KICAgICAgICAgICAgPGlucHV0IGlkPSJmaWxlLXVwbG9hZCIgbmFtZT0iZmlsZS11cGxvYWQiIHR5cGU9ImZpbGUiIGNsYXNzTmFtZT0ic3Itb25seSIgb25DaGFuZ2U9e2hhbmRsZUZpbGVDaGFuZ2V9IGFjY2VwdD0iLmNzdiwgYXBwbGljYXRpb24vdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnNwcmVhZHNoZWV0bWwuc2hlZXQsIGFwcGxpY2F0aW9uL3ZuZC5tcy1leGNlbCIgbXVsdGlwbGUgLz4KICAgICAgICA8L2xhYmVsPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07CgpleHBvcnQgZGVmYXVsdCBGaWxlVXBsb2FkOw==}
+import * as React from 'react';
+
+interface FileUploadProps {
+  onFileUpload: (files: FileList) => void;
+  isDataLoaded: boolean;
+  files: { name: string, importDate: string }[];
+  onClearData: () => void;
+  onRemoveFile: (fileName: string) => void;
+}
+
+const FileUpload: React.FC<FileUploadProps> = ({ onFileUpload, isDataLoaded, files, onClearData, onRemoveFile }) => {
+  const [isDragging, setIsDragging] = React.useState(false);
+
+  const handleDragEnter = React.useCallback((e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(true);
+  }, []);
+
+  const handleDragLeave = React.useCallback((e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(false);
+  }, []);
+
+  const handleDragOver = React.useCallback((e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+  }, []);
+
+  const handleDrop = React.useCallback((e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(false);
+    if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+      onFileUpload(e.dataTransfer.files);
+    }
+  }, [onFileUpload]);
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files.length > 0) {
+      onFileUpload(e.target.files);
+      // Reset input value to allow re-uploading the same file
+      e.target.value = '';
+    }
+  };
+
+  return (
+    <div className="p-8 lg:p-12 text-center">
+      {isDataLoaded && (
+        <div className="mb-10 p-6 bg-green-50 dark:bg-green-900/20 border border-green-300 dark:border-green-600 rounded-lg max-w-4xl mx-auto text-left">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                <div>
+                    <h3 className="text-lg font-bold text-green-800 dark:text-green-200">Planilhas Carregadas</h3>
+                     <div className="mt-2 space-y-2">
+                        {files.map(file => (
+                            <div key={file.name} className="flex items-center justify-between gap-2 p-2 bg-green-100 dark:bg-green-800/30 rounded-md">
+                                <div className="flex items-center gap-2 min-w-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-600 dark:text-green-300 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
+                                    </svg>
+                                    <div className="flex flex-col min-w-0">
+                                      <span className="text-sm text-gray-700 dark:text-gray-300 truncate font-mono" title={file.name}>{file.name}</span>
+                                      <span className="text-xs text-gray-500 dark:text-gray-400 font-sans">{new Date(file.importDate).toLocaleString('pt-BR')}</span>
+                                    </div>
+                                </div>
+                                <button
+                                    onClick={() => onRemoveFile(file.name)}
+                                    className="flex-shrink-0 p-1.5 text-red-500 rounded-full hover:bg-red-100 dark:hover:bg-red-900/50"
+                                    aria-label={`Remover ${file.name}`}
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+                <button 
+                    onClick={onClearData}
+                    className="flex-shrink-0 inline-flex items-center gap-2 px-4 py-2 bg-red-600 text-white text-sm font-semibold rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 transition-colors"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm4 0a1 1 0 012 0v6a1 1 0 11-2 0V8z" clipRule="evenodd" />
+                    </svg>
+                    Limpar Todos os Dados
+                </button>
+            </div>
+        </div>
+      )}
+      <div
+        onDragEnter={handleDragEnter}
+        onDragLeave={handleDragLeave}
+        onDragOver={handleDragOver}
+        onDrop={handleDrop}
+        className={`relative block w-full rounded-lg border-2 border-dashed border-gray-300 dark:border-gray-600 p-12 text-center hover:border-gray-400 dark:hover:border-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-colors duration-300 ${isDragging ? 'border-primary-500 bg-primary-50 dark:bg-primary-900/20' : ''}`}
+      >
+        <svg className="mx-auto h-16 w-16 text-gray-400 dark:text-gray-500" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <h2 className="mt-4 text-2xl font-bold tracking-tight text-gray-800 dark:text-gray-200">{isDataLoaded ? 'Adicionar Mais Planilhas' : 'Comece enviando suas planilhas'}</h2>
+        <p className="mt-2 block text-md text-gray-500 dark:text-gray-400">
+          Arraste e solte <span className="font-semibold text-primary-600 dark:text-primary-400">arquivos XLSX</span> aqui, ou clique para selecionar.
+        </p>
+        <label htmlFor="file-upload" className="relative cursor-pointer mt-6 inline-flex items-center rounded-md bg-primary-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-primary-500 focus-within:ring-offset-2">
+            <span>Selecionar Arquivos</span>
+            <input id="file-upload" name="file-upload" type="file" className="sr-only" onChange={handleFileChange} accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" multiple />
+        </label>
+      </div>
+    </div>
+  );
+};
+
+export default FileUpload;

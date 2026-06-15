@@ -1,1 +1,15 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgT0xEX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL25ieHViZG1zZXBuaGhoc2Jwem9xLnN1cGFiYXNlLmNvJzsNCmNvbnN0IE9MRF9TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW01aWVIVmlaRzF6WlhCdWFHaG9jMkp3ZW05eElpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyTVRJMU16VXdNaXdpWlhod0lqb3lNRGMyT0RJNU5UQXlmUS5MeDJIMmRIYnBocFRPbEgwUEtkLXY0RTdrSkdhclU0aFlNS0xyV0JINnVzJzsNCmNvbnN0IG9sZFN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE9MRF9TVVBBQkFTRV9VUkwsIE9MRF9TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja09sZERCKCkgew0KICAgIGNvbnN0IHRhYmxlcyA9IFsnc2F2ZWRfb3JkZXJzJ107DQogICAgZm9yIChjb25zdCB0YWJsZSBvZiB0YWJsZXMpIHsNCiAgICAgICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgb2xkU3VwYWJhc2UuZnJvbSh0YWJsZSkuc2VsZWN0KCcqJykubGltaXQoMSk7DQogICAgICAgIGNvbnNvbGUubG9nKGAke3RhYmxlfSBzYW1wbGU6YCwgSlNPTi5zdHJpbmdpZnkoZGF0YT8uWzBdPy5kYXRhX2pzb24sIG51bGwsIDIpKTsNCiAgICB9DQp9DQoNCmNoZWNrT2xkREIoKTsNCg==}
+import { createClient } from '@supabase/supabase-js';
+
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+
+async function checkOldDB() {
+    const tables = ['saved_orders'];
+    for (const table of tables) {
+        const { data, error } = await oldSupabase.from(table).select('*').limit(1);
+        console.log(`${table} sample:`, JSON.stringify(data?.[0]?.data_json, null, 2));
+    }
+}
+
+checkOldDB();

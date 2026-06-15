@@ -1,1 +1,16 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgT0xEX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL25ieHViZG1zZXBuaGhoc2Jwem9xLnN1cGFiYXNlLmNvJzsNCmNvbnN0IE9MRF9TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW01aWVIVmlaRzF6WlhCdWFHaG9jMkp3ZW05eElpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyTVRJMU16VXdNaXdpWlhod0lqb3lNRGMyT0RJNU5UQXlmUS5MeDJIMmRIYnBocFRPbEgwUEtkLXY0RTdrSkdhclU0aFlNS0xyV0JINnVzJzsNCmNvbnN0IG9sZFN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE9MRF9TVVBBQkFTRV9VUkwsIE9MRF9TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBsaXN0VGFibGVzKCkgew0KICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IG9sZFN1cGFiYXNlLmZyb20oJ3BnX3RhYmxlcycpLnNlbGVjdCgndGFibGVuYW1lJykuZXEoJ3NjaGVtYW5hbWUnLCAncHVibGljJyk7DQogICAgaWYgKGVycm9yKSB7DQogICAgICAgIC8vIEZhbGxiYWNrOiB0cnkgdG8gcXVlcnkgaW5mb3JtYXRpb25fc2NoZW1hIGlmIHBvc3NpYmxlDQogICAgICAgIGNvbnNvbGUubG9nKCJDb3VsZCBub3QgcXVlcnkgcGdfdGFibGVzIGRpcmVjdGx5LiBUcnlpbmcgYW5vdGhlciB3YXkuLi4iKTsNCiAgICB9DQogICAgY29uc29sZS5sb2coIlRhYmxlczoiLCBkYXRhKTsNCn0NCg0KbGlzdFRhYmxlcygpOw0K}
+import { createClient } from '@supabase/supabase-js';
+
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+
+async function listTables() {
+    const { data, error } = await oldSupabase.from('pg_tables').select('tablename').eq('schemaname', 'public');
+    if (error) {
+        // Fallback: try to query information_schema if possible
+        console.log("Could not query pg_tables directly. Trying another way...");
+    }
+    console.log("Tables:", data);
+}
+
+listTables();

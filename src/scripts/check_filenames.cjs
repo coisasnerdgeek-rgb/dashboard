@@ -1,1 +1,51 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLi8uZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja0ZpbGVuYW1lcygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygn8J+UjSBBTsOBTElTRSBERSBGSUxFTkFNRVNcbicpOw0KICAgIGNvbnNvbGUubG9nKCc9Jy5yZXBlYXQoNjApKTsNCg0KICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCdmaWxlbmFtZSwgaWQnKTsNCg0KICAgIGNvbnN0IGJ5RmlsZW5hbWUgPSB7fTsNCiAgICBkYXRhPy5mb3JFYWNoKGl0ZW0gPT4gew0KICAgICAgICBjb25zdCBmbmFtZSA9IGl0ZW0uZmlsZW5hbWUgfHwgJ1Vua25vd24nOw0KICAgICAgICBieUZpbGVuYW1lW2ZuYW1lXSA9IChieUZpbGVuYW1lW2ZuYW1lXSB8fCAwKSArIDE7DQogICAgfSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5OBIFBFRElET1MgUE9SIEZJTEVOQU1FOicpOw0KICAgIE9iamVjdC5lbnRyaWVzKGJ5RmlsZW5hbWUpDQogICAgICAgIC5zb3J0KChbLCBhXSwgWywgYl0pID0+IGIgLSBhKQ0KICAgICAgICAuZm9yRWFjaCgoW2ZpbGVuYW1lLCBjb3VudF0pID0+IHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICAke2ZpbGVuYW1lfTogJHtjb3VudH0gaXRlbnNgKTsNCiAgICAgICAgfSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG4nICsgJz0nLnJlcGVhdCg2MCkpOw0KICAgIGNvbnNvbGUubG9nKGBcbvCfkqEgVE9UQUwgREUgRklMRU5BTUVTOiAke09iamVjdC5rZXlzKGJ5RmlsZW5hbWUpLmxlbmd0aH1gKTsNCiAgICBjb25zb2xlLmxvZyhgICAgVE9UQUwgREUgSVRFTlM6ICR7ZGF0YT8ubGVuZ3RoIHx8IDB9YCk7DQoNCiAgICBpZiAoT2JqZWN0LmtleXMoYnlGaWxlbmFtZSkubGVuZ3RoID4gMSkgew0KICAgICAgICBjb25zb2xlLmxvZygnXG7imqDvuI8gIEFURU7Dh8ODTzonKTsNCiAgICAgICAgY29uc29sZS5sb2coJyAgIE8gYXBwIGFncnVwYSBwb3IgZmlsZW5hbWUuIFNlIHZvY8OqIHbDqiBhcGVuYXMgMTAlIGRvcyBwZWRpZG9zLCcpOw0KICAgICAgICBjb25zb2xlLmxvZygnICAgcG9kZSBlc3RhciB2aXN1YWxpemFuZG8gYXBlbmFzIDEgZmlsZW5hbWUgZGUgdsOhcmlvcyEnKTsNCiAgICAgICAgY29uc29sZS5sb2coJyAgIFxuICAgTm8gQXBwLCB2ZXJpZmlxdWUgc2Ugdm9jw6ogZXN0w6EgdmVuZG8gVE9ET1Mgb3MgYXJxdWl2b3MsJyk7DQogICAgICAgIGNvbnNvbGUubG9nKCcgICBuw6NvIGFwZW5hcyAiVGlueSBFUlAgQXV0by1JbXBvcnQiJyk7DQogICAgfQ0KfQ0KDQpjaGVja0ZpbGVuYW1lcygpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '../.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function checkFilenames() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('🔍 ANÁLISE DE FILENAMES\n');
+    console.log('='.repeat(60));
+
+    const { data } = await supabase
+        .from('spreadsheet_data')
+        .select('filename, id');
+
+    const byFilename = {};
+    data?.forEach(item => {
+        const fname = item.filename || 'Unknown';
+        byFilename[fname] = (byFilename[fname] || 0) + 1;
+    });
+
+    console.log('\n📁 PEDIDOS POR FILENAME:');
+    Object.entries(byFilename)
+        .sort(([, a], [, b]) => b - a)
+        .forEach(([filename, count]) => {
+            console.log(`   ${filename}: ${count} itens`);
+        });
+
+    console.log('\n' + '='.repeat(60));
+    console.log(`\n💡 TOTAL DE FILENAMES: ${Object.keys(byFilename).length}`);
+    console.log(`   TOTAL DE ITENS: ${data?.length || 0}`);
+
+    if (Object.keys(byFilename).length > 1) {
+        console.log('\n⚠️  ATENÇÃO:');
+        console.log('   O app agrupa por filename. Se você vê apenas 10% dos pedidos,');
+        console.log('   pode estar visualizando apenas 1 filename de vários!');
+        console.log('   \n   No App, verifique se você está vendo TODOS os arquivos,');
+        console.log('   não apenas "Tiny ERP Auto-Import"');
+    }
+}
+
+checkFilenames().catch(console.error);

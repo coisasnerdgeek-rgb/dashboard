@@ -1,1 +1,245 @@
-﻿@{data=aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOw0KaW1wb3J0IFJlYWN0RE9NIGZyb20gJ3JlYWN0LWRvbSc7DQoNCmludGVyZmFjZSBMb3RlSW1hZ2VNb2RhbFByb3BzIHsNCiAgICBsb3RlTnVtZXJvOiBzdHJpbmc7DQogICAgaW1hZ2VtVXJsOiBzdHJpbmc7DQogICAgaW1hZ2Vucz86IHN0cmluZ1tdOyAvLyBBcnJheSBvZiBhbGwgaW1hZ2VzDQogICAgZGF0YUNyaWFjYW86IHN0cmluZzsNCiAgICBvbkNsb3NlOiAoKSA9PiB2b2lkOw0KfQ0KDQpleHBvcnQgY29uc3QgTG90ZUltYWdlTW9kYWw6IFJlYWN0LkZDPExvdGVJbWFnZU1vZGFsUHJvcHM+ID0gKHsNCiAgICBsb3RlTnVtZXJvLA0KICAgIGltYWdlbVVybCwNCiAgICBpbWFnZW5zLA0KICAgIGRhdGFDcmlhY2FvLA0KICAgIG9uQ2xvc2UNCn0pID0+IHsNCiAgICBjb25zdCBbem9vbSwgc2V0Wm9vbV0gPSB1c2VTdGF0ZSgxKTsNCiAgICBjb25zdCBbcG9zaXRpb24sIHNldFBvc2l0aW9uXSA9IHVzZVN0YXRlKHsgeDogMCwgeTogMCB9KTsNCiAgICBjb25zdCBbaXNEcmFnZ2luZywgc2V0SXNEcmFnZ2luZ10gPSB1c2VTdGF0ZShmYWxzZSk7DQogICAgY29uc3QgW2RyYWdTdGFydCwgc2V0RHJhZ1N0YXJ0XSA9IHVzZVN0YXRlKHsgeDogMCwgeTogMCB9KTsNCiAgICBjb25zdCBbY3VycmVudEltYWdlSW5kZXgsIHNldEN1cnJlbnRJbWFnZUluZGV4XSA9IHVzZVN0YXRlKDApOw0KDQogICAgLy8gRGV0ZXJtaW5lIHdoaWNoIGltYWdlcyB0byBzaG93DQogICAgY29uc3QgaW1hZ2VzVG9TaG93ID0gaW1hZ2VucyAmJiBpbWFnZW5zLmxlbmd0aCA+IDAgPyBpbWFnZW5zIDogW2ltYWdlbVVybF07DQogICAgY29uc3QgY3VycmVudEltYWdlID0gaW1hZ2VzVG9TaG93W2N1cnJlbnRJbWFnZUluZGV4XTsNCiAgICBjb25zdCB0b3RhbEltYWdlcyA9IGltYWdlc1RvU2hvdy5sZW5ndGg7DQoNCiAgICAvLyBEZWJ1ZyBsb2dnaW5nDQogICAgY29uc29sZS5sb2coJ1tMb3RlSW1hZ2VNb2RhbF0gUHJvcHM6JywgeyBsb3RlTnVtZXJvLCBpbWFnZW5zLCBpbWFnZW1VcmwsIHRvdGFsSW1hZ2VzIH0pOw0KDQogICAgY29uc3QgbmV4dEltYWdlID0gKCkgPT4gew0KICAgICAgICBzZXRDdXJyZW50SW1hZ2VJbmRleCgocHJldikgPT4gKHByZXYgKyAxKSAlIHRvdGFsSW1hZ2VzKTsNCiAgICAgICAgcmVzZXRab29tKCk7DQogICAgfTsNCg0KICAgIGNvbnN0IHByZXZJbWFnZSA9ICgpID0+IHsNCiAgICAgICAgc2V0Q3VycmVudEltYWdlSW5kZXgoKHByZXYpID0+IChwcmV2IC0gMSArIHRvdGFsSW1hZ2VzKSAlIHRvdGFsSW1hZ2VzKTsNCiAgICAgICAgcmVzZXRab29tKCk7DQogICAgfTsNCg0KICAgIGNvbnN0IGhhbmRsZVdoZWVsID0gKGU6IFJlYWN0LldoZWVsRXZlbnQpID0+IHsNCiAgICAgICAgZS5wcmV2ZW50RGVmYXVsdCgpOw0KICAgICAgICBjb25zdCBkZWx0YSA9IGUuZGVsdGFZID4gMCA/IC0wLjEgOiAwLjE7DQogICAgICAgIHNldFpvb20ocHJldiA9PiBNYXRoLm1heCgwLjUsIE1hdGgubWluKDMsIHByZXYgKyBkZWx0YSkpKTsNCiAgICB9Ow0KDQogICAgY29uc3QgaGFuZGxlTW91c2VEb3duID0gKGU6IFJlYWN0Lk1vdXNlRXZlbnQpID0+IHsNCiAgICAgICAgaWYgKHpvb20gPiAxKSB7DQogICAgICAgICAgICBzZXRJc0RyYWdnaW5nKHRydWUpOw0KICAgICAgICAgICAgc2V0RHJhZ1N0YXJ0KHsgeDogZS5jbGllbnRYIC0gcG9zaXRpb24ueCwgeTogZS5jbGllbnRZIC0gcG9zaXRpb24ueSB9KTsNCiAgICAgICAgfQ0KICAgIH07DQoNCiAgICBjb25zdCBoYW5kbGVNb3VzZU1vdmUgPSAoZTogUmVhY3QuTW91c2VFdmVudCkgPT4gew0KICAgICAgICBpZiAoaXNEcmFnZ2luZyAmJiB6b29tID4gMSkgew0KICAgICAgICAgICAgc2V0UG9zaXRpb24oew0KICAgICAgICAgICAgICAgIHg6IGUuY2xpZW50WCAtIGRyYWdTdGFydC54LA0KICAgICAgICAgICAgICAgIHk6IGUuY2xpZW50WSAtIGRyYWdTdGFydC55DQogICAgICAgICAgICB9KTsNCiAgICAgICAgfQ0KICAgIH07DQoNCiAgICBjb25zdCBoYW5kbGVNb3VzZVVwID0gKCkgPT4gew0KICAgICAgICBzZXRJc0RyYWdnaW5nKGZhbHNlKTsNCiAgICB9Ow0KDQogICAgY29uc3QgcmVzZXRab29tID0gKCkgPT4gew0KICAgICAgICBzZXRab29tKDEpOw0KICAgICAgICBzZXRQb3NpdGlvbih7IHg6IDAsIHk6IDAgfSk7DQogICAgfTsNCg0KICAgIGNvbnN0IGZvcm1hdERhdGUgPSAoaXNvRGF0ZTogc3RyaW5nKSA9PiB7DQogICAgICAgIGNvbnN0IGRhdGUgPSBuZXcgRGF0ZShpc29EYXRlKTsNCiAgICAgICAgcmV0dXJuIGRhdGUudG9Mb2NhbGVEYXRlU3RyaW5nKCdwdC1CUicpICsgJyAnICsgZGF0ZS50b0xvY2FsZVRpbWVTdHJpbmcoJ3B0LUJSJywgeyBob3VyOiAnMi1kaWdpdCcsIG1pbnV0ZTogJzItZGlnaXQnIH0pOw0KICAgIH07DQoNCiAgICByZXR1cm4gUmVhY3RET00uY3JlYXRlUG9ydGFsKA0KICAgICAgICA8ZGl2DQogICAgICAgICAgICBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgei1bMTAwMDAyXSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1ibGFjay85MCBiYWNrZHJvcC1ibHVyLXNtIHAtMiINCiAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9DQogICAgICAgID4NCiAgICAgICAgICAgIDxkaXYNCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIGJnLXdoaXRlIGRhcms6YmctZ3JheS04MDAgcm91bmRlZC14bCBzaGFkb3ctMnhsIG92ZXJmbG93LWhpZGRlbiBmbGV4IGZsZXgtY29sIg0KICAgICAgICAgICAgICAgIHN0eWxlPXt7IG1heFdpZHRoOiAnOTV2dycsIG1heEhlaWdodDogJzk1dmgnLCB3aWR0aDogJ2ZpdC1jb250ZW50JywgaGVpZ2h0OiAnZml0LWNvbnRlbnQnIH19DQogICAgICAgICAgICAgICAgb25DbGljaz17KGUpID0+IGUuc3RvcFByb3BhZ2F0aW9uKCl9DQogICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgey8qIEhlYWRlciAqL30NCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTAgbGVmdC0wIHJpZ2h0LTAgei0xMCBiZy1ncmFkaWVudC10by1iIGZyb20tYmxhY2svNzAgdG8tdHJhbnNwYXJlbnQgcC00IGZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciI+DQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1ib2xkIj5Mb3RlIHtsb3RlTnVtZXJvfTwvaDM+DQogICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gb3BhY2l0eS04MCI+e2Zvcm1hdERhdGUoZGF0YUNyaWFjYW8pfTwvcD4NCiAgICAgICAgICAgICAgICAgICAgICAgIHt0b3RhbEltYWdlcyA+IDEgJiYgKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyBtdC0xIGJnLXdoaXRlLzIwIHB4LTIgcHktMSByb3VuZGVkIGlubGluZS1ibG9jayI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEltYWdlbSB7Y3VycmVudEltYWdlSW5kZXggKyAxfSBkZSB7dG90YWxJbWFnZXN9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgKX0NCiAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDxidXR0b24NCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e29uQ2xvc2V9DQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtd2hpdGUgaG92ZXI6dGV4dC1ncmF5LTMwMCB0cmFuc2l0aW9uLWNvbG9ycyBwLTIgaG92ZXI6Ymctd2hpdGUvMTAgcm91bmRlZC1mdWxsIg0KICAgICAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy02IGgtNiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezJ9IGQ9Ik02IDE4TDE4IDZNNiA2bDEyIDEyIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9zdmc+DQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICAgICAgey8qIENvbnRlbnQgQ29udGFpbmVyICovfQ0KICAgICAgICAgICAgICAgIDxkaXYNCiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBvdmVyZmxvdy1oaWRkZW4gYmctZ3JheS05MDAiDQogICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IG1pbldpZHRoOiAnODAwcHgnLCBtaW5IZWlnaHQ6ICc3MDBweCcsIG1heFdpZHRoOiAnOTV2dycsIG1heEhlaWdodDogJzk1dmgnIH19DQogICAgICAgICAgICAgICAgICAgIG9uV2hlZWw9e2hhbmRsZVdoZWVsfQ0KICAgICAgICAgICAgICAgICAgICBvbk1vdXNlRG93bj17aGFuZGxlTW91c2VEb3dufQ0KICAgICAgICAgICAgICAgICAgICBvbk1vdXNlTW92ZT17aGFuZGxlTW91c2VNb3ZlfQ0KICAgICAgICAgICAgICAgICAgICBvbk1vdXNlVXA9e2hhbmRsZU1vdXNlVXB9DQogICAgICAgICAgICAgICAgICAgIG9uTW91c2VMZWF2ZT17aGFuZGxlTW91c2VVcH0NCiAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICAgIHsoY3VycmVudEltYWdlLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoJy5wZGYnKSB8fCBjdXJyZW50SW1hZ2UuaW5jbHVkZXMoJ2FwcGxpY2F0aW9uL3BkZicpIHx8IGN1cnJlbnRJbWFnZS5pbmNsdWRlcygnZHJpdmUuZ29vZ2xlLmNvbScpKSA/ICgNCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHAtNCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAge2N1cnJlbnRJbWFnZS5pbmNsdWRlcygnZHJpdmUuZ29vZ2xlLmNvbScpID8gKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aWZyYW1lDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcmM9e2N1cnJlbnRJbWFnZS5yZXBsYWNlKCcvdmlldycsICcvcHJldmlldycpLnJlcGxhY2UoJy9lZGl0JywgJy9wcmV2aWV3Jyl9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctWzkwdnddIGgtWzgwdmhdIHJvdW5kZWQtbGcgc2hhZG93LWlubmVyIGJvcmRlci0wIg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGU9e2BQcmV2aWV3IExvdGUgJHtsb3RlTnVtZXJvfWB9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGxvdz0iYXV0b3BsYXkiDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSA6IGN1cnJlbnRJbWFnZS5pbmNsdWRlcygnLnBkZicpID8gKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZW1iZWQNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNyYz17Y3VycmVudEltYWdlfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0iYXBwbGljYXRpb24vcGRmIg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LVs5MHZ3XSBoLVs4MHZoXSByb3VuZGVkLWxnIHNoYWRvdy1pbm5lciINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApIDogKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcmM9e2N1cnJlbnRJbWFnZX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsdD17YExvdGUgJHtsb3RlTnVtZXJvfWB9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im1heC13LWZ1bGwgbWF4LWgtZnVsbCBvYmplY3QtY29udGFpbiB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi0yMDAiDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogYHNjYWxlKCR7em9vbX0pIHRyYW5zbGF0ZSgke3Bvc2l0aW9uLnggLyB6b29tfXB4LCAke3Bvc2l0aW9uLnkgLyB6b29tfXB4KWAsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3Vyc29yOiB6b29tID4gMSA/ICdtb3ZlJyA6ICdkZWZhdWx0Jw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRyYWdnYWJsZT17ZmFsc2V9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICApIDogKA0KICAgICAgICAgICAgICAgICAgICAgICAgPGltZw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNyYz17Y3VycmVudEltYWdlfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsdD17YExvdGUgJHtsb3RlTnVtZXJvfWB9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtYXgtdy1mdWxsIG1heC1oLWZ1bGwgb2JqZWN0LWNvbnRhaW4gdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tMjAwIg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogYHNjYWxlKCR7em9vbX0pIHRyYW5zbGF0ZSgke3Bvc2l0aW9uLnggLyB6b29tfXB4LCAke3Bvc2l0aW9uLnkgLyB6b29tfXB4KWAsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjogem9vbSA+IDEgPyAnbW92ZScgOiAnZGVmYXVsdCcNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRyYWdnYWJsZT17ZmFsc2V9DQogICAgICAgICAgICAgICAgICAgICAgICAvPg0KICAgICAgICAgICAgICAgICAgICApfQ0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICAgICAgey8qIFRodW1ibmFpbCBHYWxsZXJ5ICovfQ0KICAgICAgICAgICAgICAgIHt0b3RhbEltYWdlcyA+IDEgJiYgKA0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgYm90dG9tLTIwIGxlZnQtMS8yIHRyYW5zZm9ybSAtdHJhbnNsYXRlLXgtMS8yIG1heC13LVs5MHZ3XSBweC00Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1ibGFjay83MCBiYWNrZHJvcC1ibHVyLW1kIHJvdW5kZWQtbGcgcC0zIGZsZXggZ2FwLTIgb3ZlcmZsb3cteC1hdXRvIG1heC13LWZ1bGwiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtpbWFnZXNUb1Nob3cubWFwKChpbWcsIGluZGV4KSA9PiAoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17aW5kZXh9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2V0Q3VycmVudEltYWdlSW5kZXgoaW5kZXgpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc2V0Wm9vbSgpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YGZsZXgtc2hyaW5rLTAgdy0xNiBoLTE2IHJvdW5kZWQtbGcgb3ZlcmZsb3ctaGlkZGVuIGJvcmRlci0yIHRyYW5zaXRpb24tYWxsICR7aW5kZXggPT09IGN1cnJlbnRJbWFnZUluZGV4DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPyAnYm9yZGVyLXdoaXRlIHNjYWxlLTExMCBzaGFkb3ctbGcnDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiAnYm9yZGVyLXRyYW5zcGFyZW50IG9wYWNpdHktNjAgaG92ZXI6b3BhY2l0eS0xMDAgaG92ZXI6c2NhbGUtMTA1Jw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1gfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3JjPXtnZXRMb3RlVGh1bWJuYWlsVXJsKGltZyl9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWx0PXtgVGh1bWJuYWlsICR7aW5kZXggKyAxfWB9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb3ZlciINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkxvYWQ9eygpID0+IGNvbnNvbGUubG9nKGBbTG90ZUltYWdlTW9kYWxdIFRodW1iICR7aW5kZXh9IGxvYWRlZDpgLCBnZXRMb3RlVGh1bWJuYWlsVXJsKGltZykpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uRXJyb3I9eyhlKSA9PiB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYFtMb3RlSW1hZ2VNb2RhbF0gVGh1bWIgJHtpbmRleH0gZmFpbGVkOmAsIGdldExvdGVUaHVtYm5haWxVcmwoaW1nKSk7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChlLnRhcmdldCBhcyBIVE1MSW1hZ2VFbGVtZW50KS5zcmMgPSBpbWc7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICl9DQoNCiAgICAgICAgICAgICAgICB7LyogWm9vbSBDb250cm9scyAtIEhpZGUgZm9yIFBERnMvRHJpdmUgYXMgdGhleSBoYXZlIG5hdGl2ZSBjb250cm9scyAqL30NCiAgICAgICAgICAgICAgICB7IShjdXJyZW50SW1hZ2UudG9Mb3dlckNhc2UoKS5pbmNsdWRlcygnLnBkZicpIHx8IGN1cnJlbnRJbWFnZS5pbmNsdWRlcygnYXBwbGljYXRpb24vcGRmJykgfHwgY3VycmVudEltYWdlLmluY2x1ZGVzKCdkcml2ZS5nb29nbGUuY29tJykpICYmICgNCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGJvdHRvbS00IGxlZnQtMS8yIHRyYW5zZm9ybSAtdHJhbnNsYXRlLXgtMS8yIGJnLWJsYWNrLzcwIHRleHQtd2hpdGUgcHgtNCBweS0yIHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+DQogICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0Wm9vbShwcmV2ID0+IE1hdGgubWF4KDAuNSwgcHJldiAtIDAuMikpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaG92ZXI6Ymctd2hpdGUvMTAgcC0yIHJvdW5kZWQgdHJhbnNpdGlvbi1jb2xvcnMiDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGU9Ilpvb20gT3V0Ig0KICAgICAgICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJ3LTUgaC01IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezJ9IGQ9Ik0yMSAyMWwtNi02bTItNWE3IDcgMCAxMS0xNCAwIDcgNyAwIDAxMTQgMHpNMTMgMTBINyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIG1pbi13LVs2MHB4XSB0ZXh0LWNlbnRlciI+e01hdGgucm91bmQoem9vbSAqIDEwMCl9JTwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRab29tKHByZXYgPT4gTWF0aC5taW4oMywgcHJldiArIDAuMikpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaG92ZXI6Ymctd2hpdGUvMTAgcC0yIHJvdW5kZWQgdHJhbnNpdGlvbi1jb2xvcnMiDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGU9Ilpvb20gSW4iDQogICAgICAgICAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9InctNSBoLTUiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17Mn0gZD0iTTIxIDIxbC02LTZtMi01YTcgNyAwIDExLTE0IDAgNyA3IDAgMDExNCAwek0xMCA3djZtMy0zSDciIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zdmc+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtyZXNldFpvb219DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJob3ZlcjpiZy13aGl0ZS8xMCBweC0zIHB5LTIgcm91bmRlZCB0cmFuc2l0aW9uLWNvbG9ycyB0ZXh0LXNtIg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlPSJSZXNldCBab29tIg0KICAgICAgICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJlc2V0DQogICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4NCiAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgKX0NCiAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICA8L2Rpdj4sDQogICAgICAgIGRvY3VtZW50LmJvZHkNCiAgICApOw0KfTsNCg0KLyoqDQogKiBBdXhpbGlhciBwYXJhIG9idGVyIFVSTCBkZSB0aHVtYm5haWwgb3RpbWl6YWRhIGRvIEdvb2dsZSBEcml2ZQ0KICovDQpmdW5jdGlvbiBnZXRMb3RlVGh1bWJuYWlsVXJsKHVybDogc3RyaW5nKSB7DQogICAgaWYgKCF1cmwpIHJldHVybiAnJzsNCiAgICBpZiAodXJsLmluY2x1ZGVzKCdkcml2ZS5nb29nbGUuY29tJykpIHsNCiAgICAgICAgLy8gVGVudGEgZXh0cmFpciBJRCBkbyBmb3JtYXRvIC9kL0lELy4uLiBvdSA/aWQ9SUQNCiAgICAgICAgY29uc3QgbWF0Y2ggPSB1cmwubWF0Y2goL1wvZFwvKFteXC9cPyNdKykvKSB8fCB1cmwubWF0Y2goL1s/Jl1pZD0oW14mPyNdKykvKTsNCiAgICAgICAgaWYgKG1hdGNoICYmIG1hdGNoWzFdKSB7DQogICAgICAgICAgICAvLyBzej13NDAwIGdhcmFudGUgYm9hIHF1YWxpZGFkZSBlIGV2aXRhIHByb2JsZW1hcyBkZSBjYXJyZWdhbWVudG8gZGUgcHJldmlldyBlbSA8aW1nPg0KICAgICAgICAgICAgcmV0dXJuIGBodHRwczovL2RyaXZlLmdvb2dsZS5jb20vdGh1bWJuYWlsP2lkPSR7bWF0Y2hbMV19JnN6PXc0MDBgOw0KICAgICAgICB9DQogICAgfQ0KICAgIHJldHVybiB1cmw7DQp9DQo=}
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
+
+interface LoteImageModalProps {
+    loteNumero: string;
+    imagemUrl: string;
+    imagens?: string[]; // Array of all images
+    dataCriacao: string;
+    onClose: () => void;
+}
+
+export const LoteImageModal: React.FC<LoteImageModalProps> = ({
+    loteNumero,
+    imagemUrl,
+    imagens,
+    dataCriacao,
+    onClose
+}) => {
+    const [zoom, setZoom] = useState(1);
+    const [position, setPosition] = useState({ x: 0, y: 0 });
+    const [isDragging, setIsDragging] = useState(false);
+    const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    // Determine which images to show
+    const imagesToShow = imagens && imagens.length > 0 ? imagens : [imagemUrl];
+    const currentImage = imagesToShow[currentImageIndex];
+    const totalImages = imagesToShow.length;
+
+    // Debug logging
+    console.log('[LoteImageModal] Props:', { loteNumero, imagens, imagemUrl, totalImages });
+
+    const nextImage = () => {
+        setCurrentImageIndex((prev) => (prev + 1) % totalImages);
+        resetZoom();
+    };
+
+    const prevImage = () => {
+        setCurrentImageIndex((prev) => (prev - 1 + totalImages) % totalImages);
+        resetZoom();
+    };
+
+    const handleWheel = (e: React.WheelEvent) => {
+        e.preventDefault();
+        const delta = e.deltaY > 0 ? -0.1 : 0.1;
+        setZoom(prev => Math.max(0.5, Math.min(3, prev + delta)));
+    };
+
+    const handleMouseDown = (e: React.MouseEvent) => {
+        if (zoom > 1) {
+            setIsDragging(true);
+            setDragStart({ x: e.clientX - position.x, y: e.clientY - position.y });
+        }
+    };
+
+    const handleMouseMove = (e: React.MouseEvent) => {
+        if (isDragging && zoom > 1) {
+            setPosition({
+                x: e.clientX - dragStart.x,
+                y: e.clientY - dragStart.y
+            });
+        }
+    };
+
+    const handleMouseUp = () => {
+        setIsDragging(false);
+    };
+
+    const resetZoom = () => {
+        setZoom(1);
+        setPosition({ x: 0, y: 0 });
+    };
+
+    const formatDate = (isoDate: string) => {
+        const date = new Date(isoDate);
+        return date.toLocaleDateString('pt-BR') + ' ' + date.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+    };
+
+    return ReactDOM.createPortal(
+        <div
+            className="fixed inset-0 z-[100002] flex items-center justify-center bg-black/90 backdrop-blur-sm p-2"
+            onClick={onClose}
+        >
+            <div
+                className="relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl overflow-hidden flex flex-col"
+                style={{ maxWidth: '95vw', maxHeight: '95vh', width: 'fit-content', height: 'fit-content' }}
+                onClick={(e) => e.stopPropagation()}
+            >
+                {/* Header */}
+                <div className="absolute top-0 left-0 right-0 z-10 bg-gradient-to-b from-black/70 to-transparent p-4 flex justify-between items-center">
+                    <div className="text-white">
+                        <h3 className="text-xl font-bold">Lote {loteNumero}</h3>
+                        <p className="text-sm opacity-80">{formatDate(dataCriacao)}</p>
+                        {totalImages > 1 && (
+                            <p className="text-xs mt-1 bg-white/20 px-2 py-1 rounded inline-block">
+                                Imagem {currentImageIndex + 1} de {totalImages}
+                            </p>
+                        )}
+                    </div>
+                    <button
+                        onClick={onClose}
+                        className="text-white hover:text-gray-300 transition-colors p-2 hover:bg-white/10 rounded-full"
+                    >
+                        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                {/* Content Container */}
+                <div
+                    className="relative flex items-center justify-center overflow-hidden bg-gray-900"
+                    style={{ minWidth: '800px', minHeight: '700px', maxWidth: '95vw', maxHeight: '95vh' }}
+                    onWheel={handleWheel}
+                    onMouseDown={handleMouseDown}
+                    onMouseMove={handleMouseMove}
+                    onMouseUp={handleMouseUp}
+                    onMouseLeave={handleMouseUp}
+                >
+                    {(currentImage.toLowerCase().includes('.pdf') || currentImage.includes('application/pdf') || currentImage.includes('drive.google.com')) ? (
+                        <div className="w-full h-full flex flex-col items-center justify-center p-4">
+                            {currentImage.includes('drive.google.com') ? (
+                                <iframe
+                                    src={currentImage.replace('/view', '/preview').replace('/edit', '/preview')}
+                                    className="w-[90vw] h-[80vh] rounded-lg shadow-inner border-0"
+                                    title={`Preview Lote ${loteNumero}`}
+                                    allow="autoplay"
+                                />
+                            ) : currentImage.includes('.pdf') ? (
+                                <embed
+                                    src={currentImage}
+                                    type="application/pdf"
+                                    className="w-[90vw] h-[80vh] rounded-lg shadow-inner"
+                                />
+                            ) : (
+                                <img
+                                    src={currentImage}
+                                    alt={`Lote ${loteNumero}`}
+                                    className="max-w-full max-h-full object-contain transition-transform duration-200"
+                                    style={{
+                                        transform: `scale(${zoom}) translate(${position.x / zoom}px, ${position.y / zoom}px)`,
+                                        cursor: zoom > 1 ? 'move' : 'default'
+                                    }}
+                                    draggable={false}
+                                />
+                            )}
+                        </div>
+                    ) : (
+                        <img
+                            src={currentImage}
+                            alt={`Lote ${loteNumero}`}
+                            className="max-w-full max-h-full object-contain transition-transform duration-200"
+                            style={{
+                                transform: `scale(${zoom}) translate(${position.x / zoom}px, ${position.y / zoom}px)`,
+                                cursor: zoom > 1 ? 'move' : 'default'
+                            }}
+                            draggable={false}
+                        />
+                    )}
+                </div>
+
+                {/* Thumbnail Gallery */}
+                {totalImages > 1 && (
+                    <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 max-w-[90vw] px-4">
+                        <div className="bg-black/70 backdrop-blur-md rounded-lg p-3 flex gap-2 overflow-x-auto max-w-full">
+                            {imagesToShow.map((img, index) => (
+                                <button
+                                    key={index}
+                                    onClick={() => {
+                                        setCurrentImageIndex(index);
+                                        resetZoom();
+                                    }}
+                                    className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition-all ${index === currentImageIndex
+                                        ? 'border-white scale-110 shadow-lg'
+                                        : 'border-transparent opacity-60 hover:opacity-100 hover:scale-105'
+                                        }`}
+                                >
+                                    <img
+                                        src={getLoteThumbnailUrl(img)}
+                                        alt={`Thumbnail ${index + 1}`}
+                                        className="w-full h-full object-cover"
+                                        onLoad={() => console.log(`[LoteImageModal] Thumb ${index} loaded:`, getLoteThumbnailUrl(img))}
+                                        onError={(e) => {
+                                            console.error(`[LoteImageModal] Thumb ${index} failed:`, getLoteThumbnailUrl(img));
+                                            (e.target as HTMLImageElement).src = img;
+                                        }}
+                                    />
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                )}
+
+                {/* Zoom Controls - Hide for PDFs/Drive as they have native controls */}
+                {!(currentImage.toLowerCase().includes('.pdf') || currentImage.includes('application/pdf') || currentImage.includes('drive.google.com')) && (
+                    <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/70 text-white px-4 py-2 rounded-full flex items-center gap-3">
+                        <button
+                            onClick={() => setZoom(prev => Math.max(0.5, prev - 0.2))}
+                            className="hover:bg-white/10 p-2 rounded transition-colors"
+                            title="Zoom Out"
+                        >
+                            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM13 10H7" />
+                            </svg>
+                        </button>
+                        <span className="text-sm font-medium min-w-[60px] text-center">{Math.round(zoom * 100)}%</span>
+                        <button
+                            onClick={() => setZoom(prev => Math.min(3, prev + 0.2))}
+                            className="hover:bg-white/10 p-2 rounded transition-colors"
+                            title="Zoom In"
+                        >
+                            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
+                            </svg>
+                        </button>
+                        <button
+                            onClick={resetZoom}
+                            className="hover:bg-white/10 px-3 py-2 rounded transition-colors text-sm"
+                            title="Reset Zoom"
+                        >
+                            Reset
+                        </button>
+                    </div>
+                )}
+            </div>
+        </div>,
+        document.body
+    );
+};
+
+/**
+ * Auxiliar para obter URL de thumbnail otimizada do Google Drive
+ */
+function getLoteThumbnailUrl(url: string) {
+    if (!url) return '';
+    if (url.includes('drive.google.com')) {
+        // Tenta extrair ID do formato /d/ID/... ou ?id=ID
+        const match = url.match(/\/d\/([^\/\?#]+)/) || url.match(/[?&]id=([^&?#]+)/);
+        if (match && match[1]) {
+            // sz=w400 garante boa qualidade e evita problemas de carregamento de preview em <img>
+            return `https://drive.google.com/thumbnail?id=${match[1]}&sz=w400`;
+        }
+    }
+    return url;
+}

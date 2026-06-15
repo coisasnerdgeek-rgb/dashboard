@@ -1,1 +1,120 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8g8J+UpyBTVUJTVElUVUEgQ09NIEFTIENIQVZFUyBETyBTRVUgLmVudi5sb2NhbDoNCmNvbnN0IFNVUEFCQVNFX1VSTCA9ICdodHRwczovL25ieHViZG1zZXBuaGhoc2Jwem9xLnN1cGFiYXNlLmNvJzsgLy8gQ29sZSBhcXVpIG8gVklURV9TVVBBQkFTRV9VUkwNCmNvbnN0IFNVUEFCQVNFX0FOT05fS0VZID0gJ3NiX3B1Ymxpc2hhYmxlX0FQOEVmZUdZVDNaV3ZIa3RSa0lCN0FfUmxrZW1IQVQnOyAvLyBDb2xlIGFxdWkgbyBWSVRFX1NVUEFCQVNFX0FOT05fS0VZDQoNCmlmICghU1VQQUJBU0VfVVJMIHx8ICFTVVBBQkFTRV9BTk9OX0tFWSkgew0KICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFUlJPOiBBdHVhbGl6ZSBhcyBjaGF2ZXMgZG8gU3VwYWJhc2Ugbm8gdG9wbyBkZXN0ZSBhcnF1aXZvIScpOw0KICAgIHByb2Nlc3MuZXhpdCgxKTsNCn0NCg0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoU1VQQUJBU0VfVVJMLCBTVVBBQkFTRV9BTk9OX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrQnVja2V0KCkgew0KICAgIGNvbnNvbGUubG9nKCfwn5SNIFZlcmlmaWNhbmRvIGNvbmZpZ3VyYcOnw6NvIGRvIGJ1Y2tldCBsb3RlLWltYWdlcy4uLlxuJyk7DQoNCiAgICB0cnkgew0KICAgICAgICAvLyAxLiBMaXN0IGFsbCBidWNrZXRzDQogICAgICAgIGNvbnNvbGUubG9nKCcx77iP4oOjIExpc3RhbmRvIHRvZG9zIG9zIGJ1Y2tldHMuLi4nKTsNCiAgICAgICAgY29uc3QgeyBkYXRhOiBidWNrZXRzLCBlcnJvcjogbGlzdEVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5zdG9yYWdlLmxpc3RCdWNrZXRzKCk7DQoNCiAgICAgICAgaWYgKGxpc3RFcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcign4p2MIEVycm8gYW8gbGlzdGFyIGJ1Y2tldHM6JywgbGlzdEVycm9yKTsNCiAgICAgICAgICAgIHJldHVybjsNCiAgICAgICAgfQ0KDQogICAgICAgIGNvbnNvbGUubG9nKGDinIUgRW5jb250cmFkb3MgJHtidWNrZXRzPy5sZW5ndGggfHwgMH0gYnVja2V0KHMpOmApOw0KICAgICAgICBidWNrZXRzPy5mb3JFYWNoKGJ1Y2tldCA9PiB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgLSAke2J1Y2tldC5uYW1lfSAoJHtidWNrZXQucHVibGljID8gJ3DDumJsaWNvJyA6ICdwcml2YWRvJ30pYCk7DQogICAgICAgIH0pOw0KDQogICAgICAgIC8vIDIuIENoZWNrIGlmIGxvdGUtaW1hZ2VzIGV4aXN0cw0KICAgICAgICBjb25zb2xlLmxvZygnXG4y77iP4oOjIFZlcmlmaWNhbmRvIGJ1Y2tldCAibG90ZS1pbWFnZXMiLi4uJyk7DQogICAgICAgIGNvbnN0IGxvdGVJbWFnZXNCdWNrZXQgPSBidWNrZXRzPy5maW5kKGIgPT4gYi5uYW1lID09PSAnbG90ZS1pbWFnZXMnKTsNCg0KICAgICAgICBpZiAoIWxvdGVJbWFnZXNCdWNrZXQpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBQUk9CTEVNQTogQnVja2V0ICJsb3RlLWltYWdlcyIgTsODTyBFWElTVEUhJyk7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnXG7wn5OLIFBSw5NYSU1PUyBQQVNTT1M6Jyk7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnICAgMS4gQWNlc3NlOiBodHRwczovL3N1cGFiYXNlLmNvbS9kYXNoYm9hcmQnKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCcgICAyLiBTZWxlY2lvbmUgbyBwcm9qZXRvOiBuYnh1YmRtc2Vubmhoc2Jwem9nJyk7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnICAgMy4gVsOhIHBhcmEgU3RvcmFnZSDihpIgTmV3IGJ1Y2tldCcpOw0KICAgICAgICAgICAgY29uc29sZS5sb2coJyAgIDQuIE5vbWU6IGxvdGUtaW1hZ2VzJyk7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnICAgNS4gTWFycXVlIGNvbW8gUMOaQkxJQ08nKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCcgICA2LiBDbGlxdWUgZW0gQ3JlYXRlJyk7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnXG4gICBEZXBvaXMgZXhlY3V0ZSBhcyBwb2zDrXRpY2FzIFJMUyAodmVqYSBjb25maWd1cmFjYW9fYnVja2V0Lm1kKScpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coJ+KchSBCdWNrZXQgImxvdGUtaW1hZ2VzIiBlbmNvbnRyYWRvIScpOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgLSBQw7pibGljbzogJHtsb3RlSW1hZ2VzQnVja2V0LnB1YmxpYyA/ICdTSU0g4pyFJyA6ICdOw4NPIOKdjCd9YCk7DQoNCiAgICAgICAgaWYgKCFsb3RlSW1hZ2VzQnVja2V0LnB1YmxpYykgew0KICAgICAgICAgICAgY29uc29sZS53YXJuKCfimqDvuI8gQVZJU086IEJ1Y2tldCBuw6NvIGVzdMOhIG1hcmNhZG8gY29tbyBww7pibGljbyEnKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCcgICBJc3NvIHBvZGUgY2F1c2FyIHByb2JsZW1hcyBhbyBjYXJyZWdhciBpbWFnZW5zLicpOw0KICAgICAgICB9DQoNCiAgICAgICAgLy8gMy4gVHJ5IHRvIGxpc3QgZmlsZXMNCiAgICAgICAgY29uc29sZS5sb2coJ1xuM++4j+KDoyBUZXN0YW5kbyBhY2Vzc28gYW8gYnVja2V0Li4uJyk7DQogICAgICAgIGNvbnN0IHsgZGF0YTogZmlsZXMsIGVycm9yOiBmaWxlc0Vycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLnN0b3JhZ2UNCiAgICAgICAgICAgIC5mcm9tKCdsb3RlLWltYWdlcycpDQogICAgICAgICAgICAubGlzdCgpOw0KDQogICAgICAgIGlmIChmaWxlc0Vycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCfinYwgRXJybyBhbyBhY2Vzc2FyIGJ1Y2tldDonLCBmaWxlc0Vycm9yKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCcgICBJc3NvIHBvZGUgaW5kaWNhciBwcm9ibGVtYXMgY29tIHBvbMOtdGljYXMgUkxTLicpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coYOKchSBBY2Vzc28gT0shIEFycXVpdm9zIG5vIGJ1Y2tldDogJHtmaWxlcz8ubGVuZ3RoIHx8IDB9YCk7DQogICAgICAgIGlmIChmaWxlcyAmJiBmaWxlcy5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICBmaWxlcy5zbGljZSgwLCA1KS5mb3JFYWNoKGZpbGUgPT4gew0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICAtICR7ZmlsZS5uYW1lfWApOw0KICAgICAgICAgICAgfSk7DQogICAgICAgICAgICBpZiAoZmlsZXMubGVuZ3RoID4gNSkgew0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICAuLi4gZSBtYWlzICR7ZmlsZXMubGVuZ3RoIC0gNX0gYXJxdWl2byhzKWApOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgLy8gNC4gVGVzdCB1cGxvYWQgKGNyZWF0ZSBhIHRpbnkgdGVzdCBmaWxlKQ0KICAgICAgICBjb25zb2xlLmxvZygnXG4077iP4oOjIFRlc3RhbmRvIHVwbG9hZC4uLicpOw0KICAgICAgICBjb25zdCB0ZXN0RmlsZU5hbWUgPSBgdGVzdC0ke0RhdGUubm93KCl9LnR4dGA7DQogICAgICAgIGNvbnN0IHRlc3RDb250ZW50ID0gJ3Rlc3QnOw0KDQogICAgICAgIGNvbnN0IHsgZGF0YTogdXBsb2FkRGF0YSwgZXJyb3I6IHVwbG9hZEVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLnN0b3JhZ2UNCiAgICAgICAgICAgIC5mcm9tKCdsb3RlLWltYWdlcycpDQogICAgICAgICAgICAudXBsb2FkKHRlc3RGaWxlTmFtZSwgdGVzdENvbnRlbnQsIHsNCiAgICAgICAgICAgICAgICBjb250ZW50VHlwZTogJ3RleHQvcGxhaW4nDQogICAgICAgICAgICB9KTsNCg0KICAgICAgICBpZiAodXBsb2FkRXJyb3IpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvIG5vIHVwbG9hZDonLCB1cGxvYWRFcnJvcik7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnICAgVmVyaWZpcXVlIGFzIHBvbMOtdGljYXMgUkxTIChjb25maWd1cmFjYW9fYnVja2V0Lm1kKScpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coJ+KchSBVcGxvYWQgZGUgdGVzdGUgYmVtLXN1Y2VkaWRvIScpOw0KDQogICAgICAgIC8vIDUuIFRyeSB0byBkZWxldGUgdGVzdCBmaWxlDQogICAgICAgIGNvbnNvbGUubG9nKCdcbjXvuI/ig6MgVGVzdGFuZG8gZGVsZcOnw6NvLi4uJyk7DQogICAgICAgIGNvbnN0IHsgZXJyb3I6IGRlbGV0ZUVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLnN0b3JhZ2UNCiAgICAgICAgICAgIC5mcm9tKCdsb3RlLWltYWdlcycpDQogICAgICAgICAgICAucmVtb3ZlKFt0ZXN0RmlsZU5hbWVdKTsNCg0KICAgICAgICBpZiAoZGVsZXRlRXJyb3IpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KaoO+4jyBFcnJvIGFvIGRlbGV0YXIgYXJxdWl2byBkZSB0ZXN0ZTonLCBkZWxldGVFcnJvcik7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZygn4pyFIERlbGXDp8OjbyBiZW0tc3VjZWRpZGEhJyk7DQogICAgICAgIH0NCg0KICAgICAgICBjb25zb2xlLmxvZygnXG7inIXinIXinIUgVFVETyBPSyEgTyBidWNrZXQgZXN0w6EgY29uZmlndXJhZG8gY29ycmV0YW1lbnRlISDinIXinIXinIUnKTsNCg0KICAgIH0gY2F0Y2ggKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvIGluZXNwZXJhZG86JywgZXJyb3IpOw0KICAgIH0NCn0NCg0KY2hlY2tCdWNrZXQoKTsNCg==}
+import { createClient } from '@supabase/supabase-js';
+
+// 🔧 SUBSTITUA COM AS CHAVES DO SEU .env.local:
+const SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co'; // Cole aqui o VITE_SUPABASE_URL
+const SUPABASE_ANON_KEY = 'sb_publishable_AP8EfeGYT3ZWvHktRkIB7A_RlkemHAT'; // Cole aqui o VITE_SUPABASE_ANON_KEY
+
+if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+    console.error('❌ ERRO: Atualize as chaves do Supabase no topo deste arquivo!');
+    process.exit(1);
+}
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+async function checkBucket() {
+    console.log('🔍 Verificando configuração do bucket lote-images...\n');
+
+    try {
+        // 1. List all buckets
+        console.log('1️⃣ Listando todos os buckets...');
+        const { data: buckets, error: listError } = await supabase.storage.listBuckets();
+
+        if (listError) {
+            console.error('❌ Erro ao listar buckets:', listError);
+            return;
+        }
+
+        console.log(`✅ Encontrados ${buckets?.length || 0} bucket(s):`);
+        buckets?.forEach(bucket => {
+            console.log(`   - ${bucket.name} (${bucket.public ? 'público' : 'privado'})`);
+        });
+
+        // 2. Check if lote-images exists
+        console.log('\n2️⃣ Verificando bucket "lote-images"...');
+        const loteImagesBucket = buckets?.find(b => b.name === 'lote-images');
+
+        if (!loteImagesBucket) {
+            console.error('❌ PROBLEMA: Bucket "lote-images" NÃO EXISTE!');
+            console.log('\n📋 PRÓXIMOS PASSOS:');
+            console.log('   1. Acesse: https://supabase.com/dashboard');
+            console.log('   2. Selecione o projeto: nbxubdmsennhhsbpzog');
+            console.log('   3. Vá para Storage → New bucket');
+            console.log('   4. Nome: lote-images');
+            console.log('   5. Marque como PÚBLICO');
+            console.log('   6. Clique em Create');
+            console.log('\n   Depois execute as políticas RLS (veja configuracao_bucket.md)');
+            return;
+        }
+
+        console.log('✅ Bucket "lote-images" encontrado!');
+        console.log(`   - Público: ${loteImagesBucket.public ? 'SIM ✅' : 'NÃO ❌'}`);
+
+        if (!loteImagesBucket.public) {
+            console.warn('⚠️ AVISO: Bucket não está marcado como público!');
+            console.log('   Isso pode causar problemas ao carregar imagens.');
+        }
+
+        // 3. Try to list files
+        console.log('\n3️⃣ Testando acesso ao bucket...');
+        const { data: files, error: filesError } = await supabase
+            .storage
+            .from('lote-images')
+            .list();
+
+        if (filesError) {
+            console.error('❌ Erro ao acessar bucket:', filesError);
+            console.log('   Isso pode indicar problemas com políticas RLS.');
+            return;
+        }
+
+        console.log(`✅ Acesso OK! Arquivos no bucket: ${files?.length || 0}`);
+        if (files && files.length > 0) {
+            files.slice(0, 5).forEach(file => {
+                console.log(`   - ${file.name}`);
+            });
+            if (files.length > 5) {
+                console.log(`   ... e mais ${files.length - 5} arquivo(s)`);
+            }
+        }
+
+        // 4. Test upload (create a tiny test file)
+        console.log('\n4️⃣ Testando upload...');
+        const testFileName = `test-${Date.now()}.txt`;
+        const testContent = 'test';
+
+        const { data: uploadData, error: uploadError } = await supabase
+            .storage
+            .from('lote-images')
+            .upload(testFileName, testContent, {
+                contentType: 'text/plain'
+            });
+
+        if (uploadError) {
+            console.error('❌ Erro no upload:', uploadError);
+            console.log('   Verifique as políticas RLS (configuracao_bucket.md)');
+            return;
+        }
+
+        console.log('✅ Upload de teste bem-sucedido!');
+
+        // 5. Try to delete test file
+        console.log('\n5️⃣ Testando deleção...');
+        const { error: deleteError } = await supabase
+            .storage
+            .from('lote-images')
+            .remove([testFileName]);
+
+        if (deleteError) {
+            console.error('⚠️ Erro ao deletar arquivo de teste:', deleteError);
+        } else {
+            console.log('✅ Deleção bem-sucedida!');
+        }
+
+        console.log('\n✅✅✅ TUDO OK! O bucket está configurado corretamente! ✅✅✅');
+
+    } catch (error) {
+        console.error('❌ Erro inesperado:', error);
+    }
+}
+
+checkBucket();

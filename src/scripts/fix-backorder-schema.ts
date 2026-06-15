@@ -1,1 +1,27 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCmNvbnN0IG5ld1N1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE5FV19TVVBBQkFTRV9VUkwsIE5FV19TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBmaXhTY2hlbWEoKSB7DQogICAgY29uc29sZS5sb2coJ/CflKcgVGVudGFuZG8gZm9yw6dhciBhdHVhbGl6YcOnw6NvIGRvIHNjaGVtYS4uLicpOw0KDQogICAgLy8gUGVxdWVubyB0cnVxdWU6IHJlbm9tZWFyIGUgcmVub21lYXIgZGUgdm9sdGEgYSBjb2x1bmEgw6BzIHZlemVzIGZvcsOnYSBvIFBvc3RnUkVTVCBhIGF0dWFsaXphciBvIGNhY2hlDQogICAgLy8gTWFzIG7Do28gcG9kZW1vcyBmYXplciBpc3NvIHZpYSBjbGllbnQuDQoNCiAgICAvLyBWYW1vcyB0ZW50YXIgdW0gSU5TRVJUIGRpcmV0byBkZSB1bSBpdGVtIGR1bW15IHBhcmEgdmVyIHNlIG8gZXJybyBwZXJzaXN0ZQ0KICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlLmZyb20oJ2JhY2tvcmRlcmVkX2l0ZW1zJykudXBzZXJ0KFt7DQogICAgICAgIGlkOiAndGVzdC1zeW5jLScgKyBEYXRlLm5vdygpLA0KICAgICAgICBkYXRhX2pzb246IHsgdGVzdDogdHJ1ZSB9LA0KICAgICAgICBpc19yZXNvbHZlZDogZmFsc2UNCiAgICB9XSk7DQoNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcign4p2MIEVycm8gbm8gdGVzdGUgZGUgaW5zZXJ0OicsIGVycm9yKTsNCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZygn4pyFIEluc2Vyw6fDo28gZGUgdGVzdGUgY29tIHN1Y2Vzc28hIE8gc2NoZW1hIGVzdMOhIG9rLicpOw0KICAgIH0NCn0NCg0KZml4U2NoZW1hKCk7DQo=}
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function fixSchema() {
+    console.log('🔧 Tentando forçar atualização do schema...');
+
+    // Pequeno truque: renomear e renomear de volta a coluna às vezes força o PostgREST a atualizar o cache
+    // Mas não podemos fazer isso via client.
+
+    // Vamos tentar um INSERT direto de um item dummy para ver se o erro persiste
+    const { error } = await newSupabase.from('backordered_items').upsert([{
+        id: 'test-sync-' + Date.now(),
+        data_json: { test: true },
+        is_resolved: false
+    }]);
+
+    if (error) {
+        console.error('❌ Erro no teste de insert:', error);
+    } else {
+        console.log('✅ Inserção de teste com sucesso! O schema está ok.');
+    }
+}
+
+fixSchema();

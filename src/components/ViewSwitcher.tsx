@@ -1,1 +1,211 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgeyBWaWV3IH0gZnJvbSAnLi4vQXBwJzsKCmludGVyZmFjZSBWaWV3U3dpdGNoZXJQcm9wcyB7CiAgICBjdXJyZW50VmlldzogVmlldzsKICAgIHNldEN1cnJlbnRWaWV3OiAodmlldzogVmlldywgc3ViVmlldz86IHN0cmluZykgPT4gdm9pZDsKICAgIHNhdmVkT3JkZXJzQ291bnQ6IG51bWJlcjsKICAgIGF2YWlsYWJsZU9yZGVyc0NvdW50OiBudW1iZXI7CiAgICBpc0RhdGFMb2FkZWQ6IGJvb2xlYW47CiAgICBmYXplckFydGVDb3VudDogbnVtYmVyOwogICAgaW52YWxpZFNrdUNvdW50OiBudW1iZXI7CiAgICBwZW5kaW5nVmVyaWZpY2F0aW9uQ291bnQ6IG51bWJlcjsKICAgIHBlbmRpbmdDYXNlc0NvdW50OiBudW1iZXI7CiAgICBwZW5kaW5nUm91cGFzQ291bnQ6IG51bWJlcjsKICAgIGJhY2tvcmRlckNvdW50OiBudW1iZXI7CiAgICBvblN1YlZpZXdDaGFuZ2U/OiAoc3ViVmlldzogc3RyaW5nKSA9PiB2b2lkOwp9CgppbnRlcmZhY2UgU3ViTWVudUl0ZW0gewogICAgbGFiZWw6IHN0cmluZzsKICAgIHRhYjogc3RyaW5nOwp9CgppbnRlcmZhY2UgTmF2SXRlbSB7CiAgICBpZDogVmlldzsKICAgIGxhYmVsOiBzdHJpbmc7CiAgICBpY29uOiBSZWFjdC5SZWFjdEVsZW1lbnQ7CiAgICBjb3VudD86IG51bWJlcjsKICAgIGJhZGdlQ29sb3I/OiBzdHJpbmc7CiAgICBzdWJNZW51cz86IFN1Yk1lbnVJdGVtW107Cn0KCmV4cG9ydCBjb25zdCBWaWV3U3dpdGNoZXI6IFJlYWN0LkZDPFZpZXdTd2l0Y2hlclByb3BzPiA9ICh7CiAgICBjdXJyZW50VmlldywKICAgIHNldEN1cnJlbnRWaWV3LAogICAgc2F2ZWRPcmRlcnNDb3VudCwKICAgIGF2YWlsYWJsZU9yZGVyc0NvdW50LAogICAgaXNEYXRhTG9hZGVkLAogICAgZmF6ZXJBcnRlQ291bnQsCiAgICBpbnZhbGlkU2t1Q291bnQsCiAgICBwZW5kaW5nVmVyaWZpY2F0aW9uQ291bnQsCiAgICBwZW5kaW5nQ2FzZXNDb3VudCwKICAgIHBlbmRpbmdSb3VwYXNDb3VudCwKICAgIGJhY2tvcmRlckNvdW50LAogICAgb25TdWJWaWV3Q2hhbmdlCn0pID0+IHsKICAgIGNvbnN0IFtob3ZlcmVkSXRlbSwgc2V0SG92ZXJlZEl0ZW1dID0gUmVhY3QudXNlU3RhdGU8VmlldyB8IG51bGw+KG51bGwpOwoKICAgIGNvbnN0IG5hdkl0ZW1zOiBOYXZJdGVtW10gPSBbCiAgICAgICAgeyBpZDogJ2Rhc2hib2FyZCcsIGxhYmVsOiAnRGFzaGJvYXJkJywgaWNvbjogPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezEuNX0gZD0iTTQgNWExIDEgMCAwMTEtMWgxNGExIDEgMCAwMTEgMXYyYTEgMSAwIDAxLTEgMUg1YTEgMSAwIDAxLTEtMVY1ek00IDEzYTEgMSAwIDAxMS0xaDZhMSAxIDAgMDExIDF2NmExIDEgMCAwMS0xIDFINWExIDEgMCAwMS0xLTF2LTZ6TTE2IDEzYTEgMSAwIDAxMS0xaDJhMSAxIDAgMDExIDF2NmExIDEgMCAwMS0xIDFoLTJhMSAxIDAgMDEtMS0xdi02eiIgLz4gfSwKICAgICAgICB7IGlkOiAncGVkaWRvcycsIGxhYmVsOiAnUGVkaWRvcycsIGljb246IDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPXsxLjV9IGQ9Ik05IDVIN2EyIDIgMCAwMC0yIDJ2MTJhMiAyIDAgMDAyIDJoMTBhMiAyIDAgMDAyLTJWN2EyIDIgMCAwMC0yLTJoLTJNOSA1YTIgMiAwIDAwMiAyaDJhMiAyIDAgMDAyLTJNOSA1YTIgMiAwIDAxMi0yaDJhMiAyIDAgMDEyIDJtLTYgOWwyIDIgNC00IiAvPiB9LAogICAgICAgIHsgaWQ6ICdtb250YXItcGVkaWRvJywgbGFiZWw6ICdNb250YXInLCBpY29uOiA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17MS41fSBkPSJNMTIgOXYzbTAgMHYzbTAtM2gzbS0zIDBIOW0xMiAwYTkgOSAwIDExLTE4IDAgOSA5IDAgMDExOCAweiIgLz4sIGNvdW50OiBhdmFpbGFibGVPcmRlcnNDb3VudCwgYmFkZ2VDb2xvcjogJ2JnLXJlZC01MDAnIH0sCiAgICAgICAgeyBpZDogJ2Vudmlhci1wZWRpZG8nLCBsYWJlbDogJ0VudmlhcicsIGljb246IDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPXsxLjV9IGQ9Ik0xMiAxOWw5IDItOS0xOC05IDE4IDktMnptMCAwdi04IiAvPiwgY291bnQ6IHNhdmVkT3JkZXJzQ291bnQsIGJhZGdlQ29sb3I6ICdiZy1yZWQtNTAwJyB9LAogICAgICAgIHsgaWQ6ICd2ZXJpZmljYWNhbycsIGxhYmVsOiAnVmVyaWZpY2FyJywgaWNvbjogPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezEuNX0gZD0iTTkgMTJsMiAyIDQtNG02IDJhOSA5IDAgMTEtMTggMCA5IDkgMCAwMTE4IDB6IiAvPiB9LAogICAgICAgIHsgaWQ6ICdhdHJhc2Fkb3MnLCBsYWJlbDogJ0F0cmFzYWRvcycsIGljb246IDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPXsxLjV9IGQ9Ik0xMiA4djRsMyAzbTYtM2E5IDkgMCAxMS0xOCAwIDkgOSAwIDAxMTggMHoiIC8+LCBjb3VudDogYmFja29yZGVyQ291bnQsIGJhZGdlQ29sb3I6ICdiZy15ZWxsb3ctNTAwJyB9LAogICAgICAgIHsKICAgICAgICAgICAgaWQ6ICdlc3RhbXBhcycsCiAgICAgICAgICAgIGxhYmVsOiAnRXN0YW1wYXMnLAogICAgICAgICAgICBpY29uOiA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17MS41fSBkPSJNNyAyMWE0IDQgMCAwMS00LTRWNWEyIDIgMCAwMTItMmg0YTIgMiAwIDAxMiAydjEyYTQgNCAwIDAxLTQgNHptMCAwaDEyYTIgMiAwIDAwMi0ydi00YTIgMiAwIDAwLTItMmgtMi4zNDNNMTEgNy4zNDNsMS42NTctMS42NTdhMiAyIDAgMDEyLjgyOCAwbDIuODI5IDIuODI5YTIgMiAwIDAxMCAyLjgyOGwtOC40ODYgOC40ODVNNyAxN2guMDEiIC8+LAogICAgICAgICAgICBjb3VudDogZmF6ZXJBcnRlQ291bnQsCiAgICAgICAgICAgIGJhZGdlQ29sb3I6ICdiZy1yZWQtNTAwJywKICAgICAgICAgICAgc3ViTWVudXM6IFsKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdEYXNoYm9hcmQnLCB0YWI6ICdkYXNoYm9hcmQnIH0sCiAgICAgICAgICAgICAgICB7IGxhYmVsOiAnTGlzdGEnLCB0YWI6ICdsaXN0YScgfSwKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdMb3RlJywgdGFiOiAnbG90ZScgfSwKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdFc3RvcXVlJywgdGFiOiAnZXN0b3F1ZScgfQogICAgICAgICAgICBdCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgIGlkOiAnY2FwaW5oYXMnLAogICAgICAgICAgICBsYWJlbDogJ0NhcGluaGFzJywKICAgICAgICAgICAgaWNvbjogPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezEuNX0gZD0iTTEyIDE4aC4wMU04IDIxaDhhMiAyIDAgMDAyLTJWNWEyIDIgMCAwMC0yLTJIOGEyIDIgMCAwMC0yIDJ2MTRhMiAyIDAgMDAyIDJ6IiAvPiwKICAgICAgICAgICAgY291bnQ6IHBlbmRpbmdDYXNlc0NvdW50LAogICAgICAgICAgICBiYWRnZUNvbG9yOiAnYmctcmVkLTUwMCcsCiAgICAgICAgICAgIHN1Yk1lbnVzOiBbCiAgICAgICAgICAgICAgICB7IGxhYmVsOiAnRGFzaGJvYXJkJywgdGFiOiAnZGFzaGJvYXJkJyB9LAogICAgICAgICAgICAgICAgeyBsYWJlbDogJ1BlZGlkb3MnLCB0YWI6ICdhbmFsaXNlJyB9LAogICAgICAgICAgICAgICAgeyBsYWJlbDogJ01vZGVsb3MnLCB0YWI6ICdtb2RlbG9zJyB9CiAgICAgICAgICAgIF0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgaWQ6ICdzZXBhcmFjYW8nLAogICAgICAgICAgICBsYWJlbDogJ1NlcGFyYcOnw6NvJywKICAgICAgICAgICAgaWNvbjogPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezEuNX0gZD0iTTIwIDdsLTgtNC04IDRtMTYgMGwtOCA0bTgtNHYxMGwtOCA0bTAtMTBMNCA3bTggNHYxME00IDd2MTBsOCA0IiAvPiwKICAgICAgICAgICAgY291bnQ6IHBlbmRpbmdSb3VwYXNDb3VudCwKICAgICAgICAgICAgYmFkZ2VDb2xvcjogJ2JnLXJlZC01MDAnLAogICAgICAgICAgICBzdWJNZW51czogWwogICAgICAgICAgICAgICAgeyBsYWJlbDogJ0Rhc2hib2FyZCcsIHRhYjogJ2Rhc2hib2FyZCcgfSwKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdSb3VwYXMnLCB0YWI6ICdyb3VwYXMnIH0sCiAgICAgICAgICAgICAgICB7IGxhYmVsOiAnQ2FwaW5oYXMnLCB0YWI6ICdjYXBpbmhhcycgfQogICAgICAgICAgICBdCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgIGlkOiAncGFnYW1lbnRvJywKICAgICAgICAgICAgbGFiZWw6ICdQYWdhbWVudG9zJywKICAgICAgICAgICAgaWNvbjogPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezEuNX0gZD0iTTMgMTBoMThNNyAxNWgxbTQgMGgxbS03IDRoMTJhMyAzIDAgMDAzLTNWOGEzIDMgMCAwMC0zLTNINmEzIDMgMCAwMC0zIDN2OGEzIDMgMCAwMDMgM3oiIC8+LAogICAgICAgICAgICBzdWJNZW51czogWwogICAgICAgICAgICAgICAgeyBsYWJlbDogJ0Rhc2hib2FyZCcsIHRhYjogJ2Rhc2hib2FyZCcgfSwKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdMaXN0YScsIHRhYjogJ2xpc3RhJyB9CiAgICAgICAgICAgIF0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgaWQ6ICdwcmVjb3MnLCAvLyBNYW50ZW5kbyBJRCBpbnRlcm5vICdwcmVjb3MnIG1hcyBhbHRlcmFuZG8gbGFiZWwgcGFyYSAnR2FuaG9zJyBwYXJhIGNvbXBhdGliaWxpZGFkZSBpbmljaWFsCiAgICAgICAgICAgIGxhYmVsOiAnR2FuaG9zJywKICAgICAgICAgICAgaWNvbjogPHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9ezEuNX0gZD0iTTEyIDhjLTEuNjU3IDAtMyAuODk1LTMgMnMxLjM0MyAyIDMgMiAzIC44OTUgMyAyLTEuMzQzIDItMyAybTAtOGMxLjExIDAgMi4wOC40MDIgMi41OTkgMU0xMiA4VjdtMCAxdjhtMCAwdjFtMC0xYy0xLjExIDAtMi4wOC0uNDAyLTIuNTk5LTFNMjEgMTJhOSA5IDAgMTEtMTggMCA5IDkgMCAwMTE4IDB6IiAvPiwKICAgICAgICAgICAgc3ViTWVudXM6IFsKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdNw6l0cmljYXMnLCB0YWI6ICdtZXRyaWNhcycgfSwKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdQcmXDp29zJywgdGFiOiAndGFiZWxhJyB9LAogICAgICAgICAgICAgICAgeyBsYWJlbDogJ1RheGFzIE1rdCcsIHRhYjogJ3RheGFzJyB9CiAgICAgICAgICAgIF0KICAgICAgICB9LAoKICAgICAgICB7CiAgICAgICAgICAgIGlkOiAnc2t1JywKICAgICAgICAgICAgbGFiZWw6ICdTS1UnLAogICAgICAgICAgICBpY29uOiA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17MS41fSBkPSJNNyA3aC4wMU03IDNoNWMuNTEyIDAgMS4wMjQuMTk1IDEuNDE0LjU4Nmw3IDdhMiAyIDAgMDEwIDIuODI4bC03IDdhMiAyIDAgMDEtMi44MjggMGwtNy03QTEuOTk0IDEuOTk0IDAgMDEzIDEyVjdhNCA0IDAgMDE0LTR6IiAvPiwKICAgICAgICAgICAgY291bnQ6IGludmFsaWRTa3VDb3VudCwKICAgICAgICAgICAgYmFkZ2VDb2xvcjogJ2JnLXJlZC01MDAnLAogICAgICAgICAgICBzdWJNZW51czogWwogICAgICAgICAgICAgICAgeyBsYWJlbDogJ0Rhc2hib2FyZCcsIHRhYjogJ2Rhc2hib2FyZCcgfSwKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdUcmF0YXInLCB0YWI6ICd0cmVhdCcgfSwKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdSZWdyYXMnLCB0YWI6ICdydWxlcycgfQogICAgICAgICAgICBdCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgIGlkOiAnaW1hZ2VtJywKICAgICAgICAgICAgbGFiZWw6ICdJbWFnZW0nLAogICAgICAgICAgICBpY29uOiA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD17MS41fSBkPSJNNCAxNmw0LjU4Ni00LjU4NmEyIDIgMCAwMTIuODI4IDBMMTYgMTZtLTItMmwxLjU4Ni0xLjU4NmEyIDIgMCAwMTIuODI4IDBMMjAgMTRtLTYtNmguMDFNNiAyMGgxMmEyIDIgMCAwMDItMlY2YTIgMiAwIDAwLTItMkg2YTIgMiAwIDAwLTIgMnYxMmEyIDIgMCAwMDIgMnoiIC8+LAogICAgICAgICAgICBzdWJNZW51czogWwogICAgICAgICAgICAgICAgeyBsYWJlbDogJ0Rhc2hib2FyZCcsIHRhYjogJ2Rhc2hib2FyZCcgfSwKICAgICAgICAgICAgICAgIHsgbGFiZWw6ICdHZXJlbmNpYXInLCB0YWI6ICdnZXJlbmNpYXInIH0KICAgICAgICAgICAgXQogICAgICAgIH0sCiAgICBdOwoKICAgIHJldHVybiAoCiAgICAgICAgPG5hdiBjbGFzc05hbWU9InN0aWNreSB0b3AtMTYgei00MCBiZy13aGl0ZS85NSBkYXJrOmJnLVsjMWUyOTNiXS85NSBiYWNrZHJvcC1ibHVyLW1kIHNoYWRvdy1sZyByb3VuZGVkLXhsIHAtMiBtYi02IHctZnVsbCBib3JkZXIgYm9yZGVyLWdyYXktMjAwIGRhcms6Ym9yZGVyLWdyYXktNzAwLzUwIG92ZXJmbG93LXZpc2libGUiPgogICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gdy1mdWxsIG92ZXJmbG93LXgtdmlzaWJsZSBnYXAtMSBweC0yIj4KICAgICAgICAgICAgICAgIHtuYXZJdGVtcy5tYXAoKGl0ZW0pID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zdCBpc0FjdGl2ZSA9IGN1cnJlbnRWaWV3ID09PSBpdGVtLmlkOwogICAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxsaQogICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtpdGVtLmlkfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgbWluLXctWzcwcHhdIHJlbGF0aXZlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25Nb3VzZUVudGVyPXsoKSA9PiBzZXRIb3ZlcmVkSXRlbShpdGVtLmlkKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uTW91c2VMZWF2ZT17KCkgPT4gc2V0SG92ZXJlZEl0ZW0obnVsbCl9CiAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNldEN1cnJlbnRWaWV3KGl0ZW0uaWQpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgZ3JvdXAgcmVsYXRpdmUgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdy1mdWxsIHB5LTIgcHgtMSByb3VuZGVkLWxnIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTIwMCAke2lzQWN0aXZlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gJ2JnLWJsdWUtNTAgZGFyazpiZy1bIzI1NjNlYl0vMjAgdGV4dC1ibHVlLTYwMCBkYXJrOnRleHQtYmx1ZS00MDAnCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogJ3RleHQtZ3JheS01MDAgZGFyazp0ZXh0LWdyYXktNDAwIGhvdmVyOnRleHQtZ3JheS05MDAgZGFyazpob3Zlcjp0ZXh0LWdyYXktMjAwIGhvdmVyOmJnLWdyYXktMTAwIGRhcms6aG92ZXI6Ymctd2hpdGUvNScKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2ByZWxhdGl2ZSBtYi0xICR7aXNBY3RpdmUgPyAndGV4dC1ibHVlLTYwMCBkYXJrOnRleHQtYmx1ZS01MDAnIDogJ3RleHQtZ3JheS01MDAgZGFyazp0ZXh0LWdyYXktNDAwIGdyb3VwLWhvdmVyOnRleHQtZ3JheS03MDAgZGFyazpncm91cC1ob3Zlcjp0ZXh0LWdyYXktMzAwJ31gfT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT0iaC02IHctNiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7aXRlbS5pY29ufQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeydjb3VudCcgaW4gaXRlbSAmJiB0eXBlb2YgaXRlbS5jb3VudCA9PT0gJ251bWJlcicgJiYgaXRlbS5jb3VudCA+IDAgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgYWJzb2x1dGUgLXRvcC0xIGxlZnQtZnVsbCBtbC0xICR7aXRlbS5iYWRnZUNvbG9yIHx8ICdiZy1yZWQtNTAwJ30gdGV4dC13aGl0ZSB0ZXh0LVsxMHB4XSBmb250LWJvbGQgcHgtMS41IHB5LTAuNSByb3VuZGVkLWZ1bGwgc2hhZG93LXNtIG1pbi13LVsxLjI1cmVtXSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBib3JkZXItMiBib3JkZXItd2hpdGUgZGFyazpib3JkZXItWyMxZTI5M2JdYH0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2l0ZW0uY291bnR9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gdHJhY2tpbmctd2lkZSAke2lzQWN0aXZlID8gJ3RleHQtYmx1ZS02MDAgZGFyazp0ZXh0LWJsdWUtNDAwJyA6ICd0ZXh0LWdyYXktNTAwIGRhcms6dGV4dC1ncmF5LTUwMCBncm91cC1ob3Zlcjp0ZXh0LWdyYXktNzAwIGRhcms6Z3JvdXAtaG92ZXI6dGV4dC1ncmF5LTQwMCd9YH0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtTdHJpbmcoaXRlbS5sYWJlbCl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtpc0FjdGl2ZSAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJvcmRlciBib3JkZXItYmx1ZS01MDAvMzAgcm91bmRlZC1sZyBwb2ludGVyLWV2ZW50cy1ub25lIj48L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIERyb3Bkb3duIFN1Ym1lbnUgKi99CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7aXRlbS5zdWJNZW51cyAmJiBob3ZlcmVkSXRlbSA9PT0gaXRlbS5pZCAmJiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHRvcC1mdWxsIGxlZnQtMS8yIC10cmFuc2xhdGUteC0xLzIgbXQtMCBiZy13aGl0ZSBkYXJrOmJnLVsjMWUyOTNiXSBib3JkZXIgYm9yZGVyLWdyYXktMjAwIGRhcms6Ym9yZGVyLWdyYXktNzAwIHJvdW5kZWQtbGcgc2hhZG93LXhsIHotNTAgbWluLXctWzE0MHB4XSBhbmltYXRlLWZhZGUtaW4iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJweS0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtpdGVtLnN1Yk1lbnVzLm1hcCgoc3ViSXRlbSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e3N1Ykl0ZW0udGFifT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KGUpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlLnN0b3BQcm9wYWdhdGlvbigpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIFN0b3JlIGRlc2lyZWQgdGFiIGluIGxvY2FsU3RvcmFnZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKGAke2l0ZW0uaWR9X2FjdGl2ZVRhYmAsIHN1Ykl0ZW0udGFiKTsKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gQ2FsbCB0aGUgb25TdWJWaWV3Q2hhbmdlIHByb3AgaWYgcHJvdmlkZWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAob25TdWJWaWV3Q2hhbmdlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uU3ViVmlld0NoYW5nZShzdWJJdGVtLnRhYik7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBOYXZpZ2F0ZSB0byB2aWV3IHdpdGggc3VidmlldwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNldEN1cnJlbnRWaWV3KGl0ZW0uaWQsIHN1Ykl0ZW0udGFiKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZXRIb3ZlcmVkSXRlbShudWxsKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCB0ZXh0LWxlZnQgcHgtNCBweS0yIHRleHQtc20gdGV4dC1ncmF5LTcwMCBkYXJrOnRleHQtZ3JheS0zMDAgaG92ZXI6YmctZ3JheS0xMDAgZGFyazpob3ZlcjpiZy1ibHVlLTUwMC8yMCBob3Zlcjp0ZXh0LWJsdWUtNjAwIGRhcms6aG92ZXI6dGV4dC1ibHVlLTQwMCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3N1Ykl0ZW0ubGFiZWx9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICA8L3VsPgogICAgICAgIDwvbmF2PgogICAgKTsKfTsK}
+import * as React from 'react';
+import { View } from '../App';
+
+interface ViewSwitcherProps {
+    currentView: View;
+    setCurrentView: (view: View, subView?: string) => void;
+    savedOrdersCount: number;
+    availableOrdersCount: number;
+    isDataLoaded: boolean;
+    fazerArteCount: number;
+    invalidSkuCount: number;
+    pendingVerificationCount: number;
+    pendingCasesCount: number;
+    pendingRoupasCount: number;
+    backorderCount: number;
+    onSubViewChange?: (subView: string) => void;
+}
+
+interface SubMenuItem {
+    label: string;
+    tab: string;
+}
+
+interface NavItem {
+    id: View;
+    label: string;
+    icon: React.ReactElement;
+    count?: number;
+    badgeColor?: string;
+    subMenus?: SubMenuItem[];
+}
+
+export const ViewSwitcher: React.FC<ViewSwitcherProps> = ({
+    currentView,
+    setCurrentView,
+    savedOrdersCount,
+    availableOrdersCount,
+    isDataLoaded,
+    fazerArteCount,
+    invalidSkuCount,
+    pendingVerificationCount,
+    pendingCasesCount,
+    pendingRoupasCount,
+    backorderCount,
+    onSubViewChange
+}) => {
+    const [hoveredItem, setHoveredItem] = React.useState<View | null>(null);
+
+    const navItems: NavItem[] = [
+        { id: 'dashboard', label: 'Dashboard', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" /> },
+        { id: 'pedidos', label: 'Pedidos', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" /> },
+        { id: 'montar-pedido', label: 'Montar', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />, count: availableOrdersCount, badgeColor: 'bg-red-500' },
+        { id: 'enviar-pedido', label: 'Enviar', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />, count: savedOrdersCount, badgeColor: 'bg-red-500' },
+        { id: 'verificacao', label: 'Verificar', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /> },
+        { id: 'atrasados', label: 'Atrasados', icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />, count: backorderCount, badgeColor: 'bg-yellow-500' },
+        {
+            id: 'estampas',
+            label: 'Estampas',
+            icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />,
+            count: fazerArteCount,
+            badgeColor: 'bg-red-500',
+            subMenus: [
+                { label: 'Dashboard', tab: 'dashboard' },
+                { label: 'Lista', tab: 'lista' },
+                { label: 'Lote', tab: 'lote' },
+                { label: 'Estoque', tab: 'estoque' }
+            ]
+        },
+        {
+            id: 'capinhas',
+            label: 'Capinhas',
+            icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />,
+            count: pendingCasesCount,
+            badgeColor: 'bg-red-500',
+            subMenus: [
+                { label: 'Dashboard', tab: 'dashboard' },
+                { label: 'Pedidos', tab: 'analise' },
+                { label: 'Modelos', tab: 'modelos' }
+            ]
+        },
+        {
+            id: 'separacao',
+            label: 'Separação',
+            icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />,
+            count: pendingRoupasCount,
+            badgeColor: 'bg-red-500',
+            subMenus: [
+                { label: 'Dashboard', tab: 'dashboard' },
+                { label: 'Roupas', tab: 'roupas' },
+                { label: 'Capinhas', tab: 'capinhas' }
+            ]
+        },
+        {
+            id: 'pagamento',
+            label: 'Pagamentos',
+            icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />,
+            subMenus: [
+                { label: 'Dashboard', tab: 'dashboard' },
+                { label: 'Lista', tab: 'lista' }
+            ]
+        },
+        {
+            id: 'precos', // Mantendo ID interno 'precos' mas alterando label para 'Ganhos' para compatibilidade inicial
+            label: 'Ganhos',
+            icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />,
+            subMenus: [
+                { label: 'Métricas', tab: 'metricas' },
+                { label: 'Preços', tab: 'tabela' },
+                { label: 'Taxas Mkt', tab: 'taxas' }
+            ]
+        },
+
+        {
+            id: 'sku',
+            label: 'SKU',
+            icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />,
+            count: invalidSkuCount,
+            badgeColor: 'bg-red-500',
+            subMenus: [
+                { label: 'Dashboard', tab: 'dashboard' },
+                { label: 'Tratar', tab: 'treat' },
+                { label: 'Regras', tab: 'rules' }
+            ]
+        },
+        {
+            id: 'imagem',
+            label: 'Imagem',
+            icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />,
+            subMenus: [
+                { label: 'Dashboard', tab: 'dashboard' },
+                { label: 'Gerenciar', tab: 'gerenciar' }
+            ]
+        },
+    ];
+
+    return (
+        <nav className="sticky top-16 z-40 bg-white/95 dark:bg-[#1e293b]/95 backdrop-blur-md shadow-lg rounded-xl p-2 mb-6 w-full border border-gray-200 dark:border-gray-700/50 overflow-visible">
+            <ul className="flex items-center justify-between w-full overflow-x-visible gap-1 px-2">
+                {navItems.map((item) => {
+                    const isActive = currentView === item.id;
+                    return (
+                        <li
+                            key={item.id}
+                            className="flex-1 min-w-[70px] relative"
+                            onMouseEnter={() => setHoveredItem(item.id)}
+                            onMouseLeave={() => setHoveredItem(null)}
+                        >
+                            <button
+                                onClick={() => {
+                                    setCurrentView(item.id);
+                                }}
+                                className={`group relative flex flex-col items-center justify-center w-full py-2 px-1 rounded-lg transition-all duration-200 ${isActive
+                                    ? 'bg-blue-50 dark:bg-[#2563eb]/20 text-blue-600 dark:text-blue-400'
+                                    : 'text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/5'
+                                    }`}
+                            >
+                                <div className={`relative mb-1 ${isActive ? 'text-blue-600 dark:text-blue-500' : 'text-gray-500 dark:text-gray-400 group-hover:text-gray-700 dark:group-hover:text-gray-300'}`}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        {item.icon}
+                                    </svg>
+                                    {'count' in item && typeof item.count === 'number' && item.count > 0 && (
+                                        <span className={`absolute -top-1 left-full ml-1 ${item.badgeColor || 'bg-red-500'} text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full shadow-sm min-w-[1.25rem] flex items-center justify-center border-2 border-white dark:border-[#1e293b]`}>
+                                            {item.count}
+                                        </span>
+                                    )}
+                                </div>
+                                <span className={`text-[11px] font-medium tracking-wide ${isActive ? 'text-blue-600 dark:text-blue-400' : 'text-gray-500 dark:text-gray-500 group-hover:text-gray-700 dark:group-hover:text-gray-400'}`}>
+                                    {String(item.label)}
+                                </span>
+                                {isActive && (
+                                    <div className="absolute inset-0 border border-blue-500/30 rounded-lg pointer-events-none"></div>
+                                )}
+                            </button>
+
+                            {/* Dropdown Submenu */}
+                            {item.subMenus && hoveredItem === item.id && (
+                                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-0 bg-white dark:bg-[#1e293b] border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl z-50 min-w-[140px] animate-fade-in">
+                                    <ul className="py-1">
+                                        {item.subMenus.map((subItem) => (
+                                            <li key={subItem.tab}>
+                                                <button
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        // Store desired tab in localStorage
+                                                        localStorage.setItem(`${item.id}_activeTab`, subItem.tab);
+
+                                                        // Call the onSubViewChange prop if provided
+                                                        if (onSubViewChange) {
+                                                            onSubViewChange(subItem.tab);
+                                                        }
+
+                                                        // Navigate to view with subview
+                                                        setCurrentView(item.id, subItem.tab);
+                                                        setHoveredItem(null);
+                                                    }}
+                                                    className="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-blue-500/20 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                                                >
+                                                    {subItem.label}
+                                                </button>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )}
+                        </li>
+                    );
+                })}
+            </ul>
+        </nav>
+    );
+};

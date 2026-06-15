@@ -1,1 +1,20 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIFNDUklQVCBERSBERVNCTE9RVUVJTzogSU1QT1JUQcOHw4NPIERFIElNQUdFTlMNCi0tIEV4ZWN1dGUgZXN0ZSBzY3JpcHQgbm8gU1FMIEVkaXRvciBkbyBzZXUgTk9WTyBwcm9qZXRvIFN1cGFiYXNlLg0KLS0gSXNzbyBkZXNhdGl2YSBhIHRyYXZhIHF1ZSBleGlnZSBhIGNhdGVnb3JpYSBhbnRlcyBkYSBpbWFnZW0uDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQotLSAxLiBSZW1vdmVyIGEgcmVzdHJpw6fDo28gZGUgY2hhdmUgZXN0cmFuZ2VpcmENCi0tIElzc28gcGVybWl0ZSBpbXBvcnRhciBhcyBpbWFnZW5zIG1lc21vIHF1ZSBhIGNhdGVnb3JpYSBhaW5kYSBuw6NvIHRlbmhhIHNpZG8gaW1wb3J0YWRhLg0KQUxURVIgVEFCTEUgcHVibGljLmltYWdlX21hcHBpbmdzIA0KRFJPUCBDT05TVFJBSU5UIElGIEVYSVNUUyBpbWFnZV9tYXBwaW5nc19jYXRlZ29yeV9pZF9ma2V5Ow0KDQotLSAyLiBHYXJhbnRpciBxdWUgYXMgY29sdW5hcyBhY2VpdGVtIHF1YWxxdWVyIHRleHRvIChyZWZvcsOnbykNCkFMVEVSIFRBQkxFIHB1YmxpYy5pbWFnZV9jYXRlZ29yaWVzIEFMVEVSIENPTFVNTiBpZCBUWVBFIFRFWFQ7DQpBTFRFUiBUQUJMRSBwdWJsaWMuaW1hZ2VfbWFwcGluZ3MgQUxURVIgQ09MVU1OIGNhdGVnb3J5X2lkIFRZUEUgVEVYVDsNCg0KLS0gMy4gTm90aWZpY2FyIG8gc2lzdGVtYQ0KTk9USUZZIHBncnN0LCAncmVsb2FkIHNjaGVtYSc7DQoNCi0tIPCfkqEgRElDQTogQXDDs3Mgcm9kYXIgZXN0ZSBzY3JpcHQsIHZvY8OqIHBvZGUgaW1wb3J0YXIgc2V1cyBhcnF1aXZvcyBDU1YgDQotLSBlbSBxdWFscXVlciBvcmRlbSBwZWxvIGRhc2hib2FyZCBkbyBTdXBhYmFzZSAoQWJhIEltYWdlbSBvdSBUYWJlbGEpLg0K}
+-- ========================================================
+-- SCRIPT DE DESBLOQUEIO: IMPORTAÇÃO DE IMAGENS
+-- Execute este script no SQL Editor do seu NOVO projeto Supabase.
+-- Isso desativa a trava que exige a categoria antes da imagem.
+-- ========================================================
+
+-- 1. Remover a restrição de chave estrangeira
+-- Isso permite importar as imagens mesmo que a categoria ainda não tenha sido importada.
+ALTER TABLE public.image_mappings 
+DROP CONSTRAINT IF EXISTS image_mappings_category_id_fkey;
+
+-- 2. Garantir que as colunas aceitem qualquer texto (reforço)
+ALTER TABLE public.image_categories ALTER COLUMN id TYPE TEXT;
+ALTER TABLE public.image_mappings ALTER COLUMN category_id TYPE TEXT;
+
+-- 3. Notificar o sistema
+NOTIFY pgrst, 'reload schema';
+
+-- 💡 DICA: Após rodar este script, você pode importar seus arquivos CSV 
+-- em qualquer ordem pelo dashboard do Supabase (Aba Imagem ou Tabela).

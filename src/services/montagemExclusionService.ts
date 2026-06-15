@@ -1,1 +1,81 @@
-﻿@{data=aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICcuL3N1cGFiYXNlQ2xpZW50JzsNCg0KLyoqDQogKiBTZXJ2aWNlIGZvciBtYW5hZ2luZyBleGNsdXNpb25zIHNwZWNpZmljYWxseSBmb3IgdGhlIE1vbnRhciBQZWRpZG8gdmlldy4NCiAqIFRoZXNlIGV4Y2x1c2lvbnMgYXJlIHNhdmVkIGluIHRoZSBkYXRhYmFzZSBidXQgZG8gTk9UIGFmZmVjdCBvdGhlciB2aWV3cyBsaWtlIEVzdGFtcGFzLg0KICovDQoNCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRNb250YWdlbUV4Y2x1c2lvbnMoKTogUHJvbWlzZTxTZXQ8c3RyaW5nPj4gew0KICAgIHRyeSB7DQogICAgICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnbW9udGFnZW1fZXhjbHVzaW9ucycpDQogICAgICAgICAgICAuc2VsZWN0KCdvcmRlcl9pZCcpOw0KDQogICAgICAgIGlmIChlcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgZmV0Y2hpbmcgbW9udGFnZW0gZXhjbHVzaW9uczonLCBlcnJvcik7DQogICAgICAgICAgICByZXR1cm4gbmV3IFNldCgpOw0KICAgICAgICB9DQoNCiAgICAgICAgcmV0dXJuIG5ldyBTZXQoZGF0YT8ubWFwKGQgPT4gZC5vcmRlcl9pZCkgfHwgW10pOw0KICAgIH0gY2F0Y2ggKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGluIGdldE1vbnRhZ2VtRXhjbHVzaW9uczonLCBlcnJvcik7DQogICAgICAgIHJldHVybiBuZXcgU2V0KCk7DQogICAgfQ0KfQ0KDQpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYWRkTW9udGFnZW1FeGNsdXNpb24ob3JkZXJJZDogc3RyaW5nKTogUHJvbWlzZTxib29sZWFuPiB7DQogICAgdHJ5IHsNCiAgICAgICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdtb250YWdlbV9leGNsdXNpb25zJykNCiAgICAgICAgICAgIC5pbnNlcnQoeyBvcmRlcl9pZDogb3JkZXJJZCB9KTsNCg0KICAgICAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgICAgIGlmIChlcnJvci5jb2RlID09PSAnMjM1MDUnKSByZXR1cm4gdHJ1ZTsgLy8gQWxyZWFkeSBleGlzdHMNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGFkZGluZyBtb250YWdlbSBleGNsdXNpb246JywgZXJyb3IpOw0KICAgICAgICAgICAgcmV0dXJuIGZhbHNlOw0KICAgICAgICB9DQoNCiAgICAgICAgcmV0dXJuIHRydWU7DQogICAgfSBjYXRjaCAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgaW4gYWRkTW9udGFnZW1FeGNsdXNpb246JywgZXJyb3IpOw0KICAgICAgICByZXR1cm4gZmFsc2U7DQogICAgfQ0KfQ0KDQpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVtb3ZlTW9udGFnZW1FeGNsdXNpb24ob3JkZXJJZDogc3RyaW5nKTogUHJvbWlzZTxib29sZWFuPiB7DQogICAgdHJ5IHsNCiAgICAgICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdtb250YWdlbV9leGNsdXNpb25zJykNCiAgICAgICAgICAgIC5kZWxldGUoKQ0KICAgICAgICAgICAgLmVxKCdvcmRlcl9pZCcsIG9yZGVySWQpOw0KDQogICAgICAgIGlmIChlcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgcmVtb3ZpbmcgbW9udGFnZW0gZXhjbHVzaW9uOicsIGVycm9yKTsNCiAgICAgICAgICAgIHJldHVybiBmYWxzZTsNCiAgICAgICAgfQ0KDQogICAgICAgIHJldHVybiB0cnVlOw0KICAgIH0gY2F0Y2ggKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGluIHJlbW92ZU1vbnRhZ2VtRXhjbHVzaW9uOicsIGVycm9yKTsNCiAgICAgICAgcmV0dXJuIGZhbHNlOw0KICAgIH0NCn0NCg0KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGNsZWFyTW9udGFnZW1FeGNsdXNpb25zKCk6IFByb21pc2U8Ym9vbGVhbj4gew0KICAgIHRyeSB7DQogICAgICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnbW9udGFnZW1fZXhjbHVzaW9ucycpDQogICAgICAgICAgICAuZGVsZXRlKCkNCiAgICAgICAgICAgIC5uZXEoJ29yZGVyX2lkJywgJzAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCcpOyAvLyBEZWxldGUgYWxsDQoNCiAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBjbGVhcmluZyBtb250YWdlbSBleGNsdXNpb25zOicsIGVycm9yKTsNCiAgICAgICAgICAgIHJldHVybiBmYWxzZTsNCiAgICAgICAgfQ0KDQogICAgICAgIHJldHVybiB0cnVlOw0KICAgIH0gY2F0Y2ggKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGluIGNsZWFyTW9udGFnZW1FeGNsdXNpb25zOicsIGVycm9yKTsNCiAgICAgICAgcmV0dXJuIGZhbHNlOw0KICAgIH0NCn0NCg==}
+import { supabase } from './supabaseClient';
+
+/**
+ * Service for managing exclusions specifically for the Montar Pedido view.
+ * These exclusions are saved in the database but do NOT affect other views like Estampas.
+ */
+
+export async function getMontagemExclusions(): Promise<Set<string>> {
+    try {
+        const { data, error } = await supabase
+            .from('montagem_exclusions')
+            .select('order_id');
+
+        if (error) {
+            console.error('Error fetching montagem exclusions:', error);
+            return new Set();
+        }
+
+        return new Set(data?.map(d => d.order_id) || []);
+    } catch (error) {
+        console.error('Error in getMontagemExclusions:', error);
+        return new Set();
+    }
+}
+
+export async function addMontagemExclusion(orderId: string): Promise<boolean> {
+    try {
+        const { error } = await supabase
+            .from('montagem_exclusions')
+            .insert({ order_id: orderId });
+
+        if (error) {
+            if (error.code === '23505') return true; // Already exists
+            console.error('Error adding montagem exclusion:', error);
+            return false;
+        }
+
+        return true;
+    } catch (error) {
+        console.error('Error in addMontagemExclusion:', error);
+        return false;
+    }
+}
+
+export async function removeMontagemExclusion(orderId: string): Promise<boolean> {
+    try {
+        const { error } = await supabase
+            .from('montagem_exclusions')
+            .delete()
+            .eq('order_id', orderId);
+
+        if (error) {
+            console.error('Error removing montagem exclusion:', error);
+            return false;
+        }
+
+        return true;
+    } catch (error) {
+        console.error('Error in removeMontagemExclusion:', error);
+        return false;
+    }
+}
+
+export async function clearMontagemExclusions(): Promise<boolean> {
+    try {
+        const { error } = await supabase
+            .from('montagem_exclusions')
+            .delete()
+            .neq('order_id', '00000000-0000-0000-0000-000000000000'); // Delete all
+
+        if (error) {
+            console.error('Error clearing montagem exclusions:', error);
+            return false;
+        }
+
+        return true;
+    } catch (error) {
+        console.error('Error in clearMontagemExclusions:', error);
+        return false;
+    }
+}

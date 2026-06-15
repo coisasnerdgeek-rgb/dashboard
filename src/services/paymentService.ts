@@ -1,1 +1,51 @@
-﻿@{data=aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICcuL3N1cGFiYXNlQ2xpZW50JzsNCmltcG9ydCB7IFBheW1lbnRJdGVtIH0gZnJvbSAnLi4vRGFzaGJvYXJkL3R5cGVzJzsNCg0KZXhwb3J0IGNvbnN0IGdldFBlbmRpbmdQYXltZW50cyA9IGFzeW5jICgpOiBQcm9taXNlPFBheW1lbnRJdGVtW10+ID0+IHsNCiAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgncGF5bWVudHMnKQ0KICAgICAgICAuc2VsZWN0KCcqJykNCiAgICAgICAgLmVxKCdpc19hcmNoaXZlZCcsIGZhbHNlKTsNCg0KICAgIGlmIChlcnJvcikgdGhyb3cgZXJyb3I7DQoNCiAgICByZXR1cm4gZGF0YT8ubWFwKChpdGVtOiBhbnkpID0+ICh7DQogICAgICAgIC4uLml0ZW0uZGF0YV9qc29uLA0KICAgICAgICBpZDogaXRlbS5pZA0KICAgIH0pKSB8fCBbXTsNCn07DQoNCmV4cG9ydCBjb25zdCBnZXRBcmNoaXZlZFBheW1lbnRzID0gYXN5bmMgKCk6IFByb21pc2U8UGF5bWVudEl0ZW1bXT4gPT4gew0KICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdwYXltZW50cycpDQogICAgICAgIC5zZWxlY3QoJyonKQ0KICAgICAgICAuZXEoJ2lzX2FyY2hpdmVkJywgdHJ1ZSk7DQoNCiAgICBpZiAoZXJyb3IpIHRocm93IGVycm9yOw0KDQogICAgcmV0dXJuIGRhdGE/Lm1hcCgoaXRlbTogYW55KSA9PiAoew0KICAgICAgICAuLi5pdGVtLmRhdGFfanNvbiwNCiAgICAgICAgaWQ6IGl0ZW0uaWQNCiAgICB9KSkgfHwgW107DQp9Ow0KDQpleHBvcnQgY29uc3Qgc2F2ZVBheW1lbnQgPSBhc3luYyAocGF5bWVudDogUGF5bWVudEl0ZW0sIGlzQXJjaGl2ZWQ6IGJvb2xlYW4gPSBmYWxzZSkgPT4gew0KICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdwYXltZW50cycpDQogICAgICAgIC51cHNlcnQoew0KICAgICAgICAgICAgaWQ6IHBheW1lbnQuaWQsDQogICAgICAgICAgICBkYXRhX2pzb246IHBheW1lbnQsDQogICAgICAgICAgICBpc19hcmNoaXZlZDogaXNBcmNoaXZlZA0KICAgICAgICB9KTsNCg0KICAgIGlmIChlcnJvcikgdGhyb3cgZXJyb3I7DQp9Ow0KDQpleHBvcnQgY29uc3QgZGVsZXRlUGF5bWVudCA9IGFzeW5jIChpZDogc3RyaW5nKSA9PiB7DQogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3BheW1lbnRzJykNCiAgICAgICAgLmRlbGV0ZSgpDQogICAgICAgIC5lcSgnaWQnLCBpZCk7DQoNCiAgICBpZiAoZXJyb3IpIHRocm93IGVycm9yOw0KfTsNCg==}
+import { supabase } from './supabaseClient';
+import { PaymentItem } from '../Dashboard/types';
+
+export const getPendingPayments = async (): Promise<PaymentItem[]> => {
+    const { data, error } = await supabase
+        .from('payments')
+        .select('*')
+        .eq('is_archived', false);
+
+    if (error) throw error;
+
+    return data?.map((item: any) => ({
+        ...item.data_json,
+        id: item.id
+    })) || [];
+};
+
+export const getArchivedPayments = async (): Promise<PaymentItem[]> => {
+    const { data, error } = await supabase
+        .from('payments')
+        .select('*')
+        .eq('is_archived', true);
+
+    if (error) throw error;
+
+    return data?.map((item: any) => ({
+        ...item.data_json,
+        id: item.id
+    })) || [];
+};
+
+export const savePayment = async (payment: PaymentItem, isArchived: boolean = false) => {
+    const { error } = await supabase
+        .from('payments')
+        .upsert({
+            id: payment.id,
+            data_json: payment,
+            is_archived: isArchived
+        });
+
+    if (error) throw error;
+};
+
+export const deletePayment = async (id: string) => {
+    const { error } = await supabase
+        .from('payments')
+        .delete()
+        .eq('id', id);
+
+    if (error) throw error;
+};

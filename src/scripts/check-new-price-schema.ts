@@ -1,1 +1,13 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCmNvbnN0IG5ld1N1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE5FV19TVVBBQkFTRV9VUkwsIE5FV19TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja05ld1NjaGVtYSgpIHsNCiAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBuZXdTdXBhYmFzZS5mcm9tKCdwcmljZV90YWJsZXMnKS5zZWxlY3QoJyonKS5saW1pdCgxKTsNCiAgICBjb25zb2xlLmxvZygnTmV3IHRhYmxlIHNjaGVtYSByb3c6JywgSlNPTi5zdHJpbmdpZnkoZGF0YT8uWzBdLCBudWxsLCAyKSk7DQogICAgY29uc29sZS5sb2coJ0Vycm9yOicsIGVycm9yKTsNCn0NCg0KY2hlY2tOZXdTY2hlbWEoKTsNCg==}
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function checkNewSchema() {
+    const { data, error } = await newSupabase.from('price_tables').select('*').limit(1);
+    console.log('New table schema row:', JSON.stringify(data?.[0], null, 2));
+    console.log('Error:', error);
+}
+
+checkNewSchema();

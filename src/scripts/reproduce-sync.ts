@@ -1,1 +1,24 @@
-﻿@{data=DQphc3luYyBmdW5jdGlvbiB0cmlnZ2VyU3luYygpIHsNCiAgICBjb25zb2xlLmxvZygn8J+ToSBDaGFtYW5kbyBBUEkgZGUgc2luY3Jvbml6YcOnw6NvIGxvY2FsIChmb3JjZVJlcHJvY2VzczogdHJ1ZSkuLi4nKTsNCiAgICB0cnkgew0KICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKCdodHRwOi8vbG9jYWxob3N0OjUxNzMvYXBpL3N5bmMtdGlueScsIHsNCiAgICAgICAgICAgIG1ldGhvZDogJ1BPU1QnLA0KICAgICAgICAgICAgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sDQogICAgICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IGRheXNCYWNrOiAzLCBmb3JjZVJlcHJvY2VzczogdHJ1ZSB9KQ0KICAgICAgICB9KTsNCg0KICAgICAgICBpZiAocmVzcG9uc2Uuc3RhdHVzID09PSA0MDQpIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCfimqDvuI8gQVBJIC9hcGkvc3luYy10aW55IG7Do28gZW5jb250cmFkYSBubyBkZXYgc2VydmVyIGxvY2FsLicpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsNCiAgICAgICAgY29uc29sZS5sb2coJ+KchSBSZXNwb3N0YSBkYSBBUEk6JywgSlNPTi5zdHJpbmdpZnkoZGF0YSwgbnVsbCwgMikpOw0KICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsNCiAgICAgICAgLy8gU2UgbyBzZXJ2ZXIgbsOjbyBlc3RpdmVyIHJvZGFuZG8sIHZhaSBkYXIgZXJybyBkZSBjb25leMOjbw0KICAgICAgICBjb25zb2xlLmVycm9yKCfinYwgRXJybzonLCBlcnJvci5tZXNzYWdlKTsNCiAgICB9DQp9DQoNCnRyaWdnZXJTeW5jKCk7DQo=}
+
+async function triggerSync() {
+    console.log('📡 Chamando API de sincronização local (forceReprocess: true)...');
+    try {
+        const response = await fetch('http://localhost:5173/api/sync-tiny', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ daysBack: 3, forceReprocess: true })
+        });
+
+        if (response.status === 404) {
+            console.log('⚠️ API /api/sync-tiny não encontrada no dev server local.');
+            return;
+        }
+
+        const data = await response.json();
+        console.log('✅ Resposta da API:', JSON.stringify(data, null, 2));
+    } catch (error: any) {
+        // Se o server não estiver rodando, vai dar erro de conexão
+        console.error('❌ Erro:', error.message);
+    }
+}
+
+triggerSync();

@@ -1,1 +1,48 @@
-﻿@{data=DQpjb25zdCB7IGNyZWF0ZUNsaWVudCB9ID0gcmVxdWlyZSgnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJyk7DQpjb25zdCBmcyA9IHJlcXVpcmUoJ2ZzJyk7DQpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOw0KDQovLyBMb2FkIGVudg0KdHJ5IHsNCiAgICBjb25zdCBlbnZQYXRoID0gcGF0aC5yZXNvbHZlKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQogICAgaWYgKGZzLmV4aXN0c1N5bmMoZW52UGF0aCkpIHsNCiAgICAgICAgY29uc29sZS5sb2coJ0xvYWRpbmcgLmVudi5sb2NhbC4uLicpOw0KICAgICAgICBjb25zdCBlbnZDb25maWcgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0ZjgnKTsNCiAgICAgICAgZW52Q29uZmlnLnNwbGl0KCdcbicpLmZvckVhY2goKGxpbmUpID0+IHsNCiAgICAgICAgICAgIGNvbnN0IFtrZXksIC4uLnZhbHVlUGFydHNdID0gbGluZS5zcGxpdCgnPScpOw0KICAgICAgICAgICAgaWYgKGtleSAmJiB2YWx1ZVBhcnRzLmxlbmd0aCA+IDApIHsNCiAgICAgICAgICAgICAgICBjb25zdCB2YWx1ZSA9IHZhbHVlUGFydHMuam9pbignPScpLnRyaW0oKS5yZXBsYWNlKC9eWyInXXxbIiddJC9nLCAnJyk7DQogICAgICAgICAgICAgICAgcHJvY2Vzcy5lbnZba2V5LnRyaW0oKV0gPSB2YWx1ZTsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgTG9hZGVkIEtleTogJHtrZXkudHJpbSgpfWApOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9KTsNCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZygnRmlsZSAuZW52LmxvY2FsIG5vdCBmb3VuZCBhdDonLCBlbnZQYXRoKTsNCiAgICB9DQp9IGNhdGNoIChlKSB7IH0NCg0KY29uc3Qgc3VwYWJhc2VVcmwgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkw7DQpjb25zdCBzdXBhYmFzZUtleSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkgfHwgcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWTsNCg0KaWYgKCFzdXBhYmFzZVVybCB8fCAhc3VwYWJhc2VLZXkpIHsNCiAgICBjb25zb2xlLmVycm9yKCdNaXNzaW5nIFN1cGFiYXNlIENyZWRlbnRpYWxzIScpOw0KICAgIHByb2Nlc3MuZXhpdCgxKTsNCn0NCg0KYXN5bmMgZnVuY3Rpb24gY291bnRPcmRlcnMoKSB7DQogICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoc3VwYWJhc2VVcmwsIHN1cGFiYXNlS2V5KTsNCg0KICAgIC8vIENvdW50IHNwcmVhZHNoZWV0X2RhdGENCiAgICBjb25zdCB7IGNvdW50LCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCg0KICAgIGlmIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBjb3VudGluZzonLCBlcnJvcik7DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coYFxuXG7wn5OKIFRPVEFMIFBFRElET1MgTk8gQkFOQ08gREUgREFET1M6ICR7Y291bnR9YCk7DQogICAgfQ0KfQ0KDQpjb3VudE9yZGVycygpOw0K}
+
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+// Load env
+try {
+    const envPath = path.resolve(process.cwd(), '.env.local');
+    if (fs.existsSync(envPath)) {
+        console.log('Loading .env.local...');
+        const envConfig = fs.readFileSync(envPath, 'utf8');
+        envConfig.split('\n').forEach((line) => {
+            const [key, ...valueParts] = line.split('=');
+            if (key && valueParts.length > 0) {
+                const value = valueParts.join('=').trim().replace(/^["']|["']$/g, '');
+                process.env[key.trim()] = value;
+                console.log(`Loaded Key: ${key.trim()}`);
+            }
+        });
+    } else {
+        console.log('File .env.local not found at:', envPath);
+    }
+} catch (e) { }
+
+const supabaseUrl = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_ANON_KEY;
+
+if (!supabaseUrl || !supabaseKey) {
+    console.error('Missing Supabase Credentials!');
+    process.exit(1);
+}
+
+async function countOrders() {
+    const supabase = createClient(supabaseUrl, supabaseKey);
+
+    // Count spreadsheet_data
+    const { count, error } = await supabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true });
+
+    if (error) {
+        console.error('Error counting:', error);
+    } else {
+        console.log(`\n\n📊 TOTAL PEDIDOS NO BANCO DE DADOS: ${count}`);
+    }
+}
+
+countOrders();

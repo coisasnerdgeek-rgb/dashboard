@@ -1,1 +1,58 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQovLyBTaW1wbGlmaWVkIHBhcnNlU2t1IGxvZ2ljIGZyb20gY29tcG9uZW50cy9DcmlhclBlZGlkby50c3gNCmNvbnN0IHBhcnNlU2t1ID0gKHNrdSkgPT4gew0KICAgIGlmICghc2t1KSByZXR1cm4gbnVsbDsNCiAgICBjb25zdCBwYXJ0cyA9IHNrdS5zcGxpdCgnLScpOw0KICAgIGlmIChwYXJ0cy5sZW5ndGggPCAzKSByZXR1cm4gbnVsbDsNCiAgICByZXR1cm4gew0KICAgICAgICBwcm9kdWN0TmFtZTogcGFydHNbMF0sDQogICAgICAgIGNhdGVnb3J5OiBwYXJ0c1swXS5pbmNsdWRlcygnY2FwJykgPyAnQ2FwaW5oYScgOiAnT3V0cm8nDQogICAgfTsNCn07DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrQ2F0ZWdvcmllcygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykuc2VsZWN0KCdyb3dfZGF0YScpOw0KDQogICAgY29uc3Qgc3RhdHMgPSB7DQogICAgICAgIHRvdGFsOiBkYXRhLmxlbmd0aCwNCiAgICAgICAgY2FwaW5oYTogMCwNCiAgICAgICAgb3V0cm86IDAsDQogICAgICAgIHVucGFyc2VkOiAwDQogICAgfTsNCg0KICAgIGRhdGEuZm9yRWFjaChyb3cgPT4gew0KICAgICAgICBjb25zdCBkID0gdHlwZW9mIHJvdy5yb3dfZGF0YSA9PT0gJ3N0cmluZycgPyBKU09OLnBhcnNlKHJvdy5yb3dfZGF0YSkgOiByb3cucm93X2RhdGE7DQogICAgICAgIGNvbnN0IHNrdSA9IGRbJ1NLVSddIHx8ICcnOw0KDQogICAgICAgIC8vIFRoaXMgbG9naWMgc2ltdWxhdGVzIGdldENhdGVnb3J5KHNrdSkgPT09ICdDYXBpbmhhJw0KICAgICAgICBpZiAoc2t1LnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoJ2NhcCcpKSB7DQogICAgICAgICAgICBzdGF0cy5jYXBpbmhhKys7DQogICAgICAgIH0gZWxzZSBpZiAoc2t1KSB7DQogICAgICAgICAgICBzdGF0cy5vdXRybysrOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgc3RhdHMudW5wYXJzZWQrKzsNCiAgICAgICAgfQ0KICAgIH0pOw0KDQogICAgY29uc29sZS5sb2coJ/Cfk4ogQ0FURUdPUklBUyAoRmlsdHJvIEludGVybm8pOicpOw0KICAgIGNvbnNvbGUubG9nKGAgICBUb3RhbDogICAke3N0YXRzLnRvdGFsfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICBDYXBpbmhhOiAke3N0YXRzLmNhcGluaGF9ICgke01hdGgucm91bmQoc3RhdHMuY2FwaW5oYSAvIHN0YXRzLnRvdGFsICogMTAwKX0lKWApOw0KICAgIGNvbnNvbGUubG9nKGAgICBPdXRyb3M6ICAke3N0YXRzLm91dHJvfSAoJHtNYXRoLnJvdW5kKHN0YXRzLm91dHJvIC8gc3RhdHMudG90YWwgKiAxMDApfSUpYCk7DQogICAgY29uc29sZS5sb2coYCAgIFZhemlvOiAgICR7c3RhdHMudW5wYXJzZWR9YCk7DQp9DQoNCmNoZWNrQ2F0ZWdvcmllcygpOw0K}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+// Simplified parseSku logic from components/CriarPedido.tsx
+const parseSku = (sku) => {
+    if (!sku) return null;
+    const parts = sku.split('-');
+    if (parts.length < 3) return null;
+    return {
+        productName: parts[0],
+        category: parts[0].includes('cap') ? 'Capinha' : 'Outro'
+    };
+};
+
+async function checkCategories() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+    const { data } = await supabase.from('spreadsheet_data').select('row_data');
+
+    const stats = {
+        total: data.length,
+        capinha: 0,
+        outro: 0,
+        unparsed: 0
+    };
+
+    data.forEach(row => {
+        const d = typeof row.row_data === 'string' ? JSON.parse(row.row_data) : row.row_data;
+        const sku = d['SKU'] || '';
+
+        // This logic simulates getCategory(sku) === 'Capinha'
+        if (sku.toLowerCase().includes('cap')) {
+            stats.capinha++;
+        } else if (sku) {
+            stats.outro++;
+        } else {
+            stats.unparsed++;
+        }
+    });
+
+    console.log('📊 CATEGORIAS (Filtro Interno):');
+    console.log(`   Total:   ${stats.total}`);
+    console.log(`   Capinha: ${stats.capinha} (${Math.round(stats.capinha / stats.total * 100)}%)`);
+    console.log(`   Outros:  ${stats.outro} (${Math.round(stats.outro / stats.total * 100)}%)`);
+    console.log(`   Vazio:   ${stats.unparsed}`);
+}
+
+checkCategories();

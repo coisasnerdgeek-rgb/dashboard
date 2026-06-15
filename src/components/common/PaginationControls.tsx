@@ -1,1 +1,121 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwoKY29uc3QgcmFuZ2UgPSAoc3RhcnQ6IG51bWJlciwgZW5kOiBudW1iZXIpID0+IHsKICAgIGNvbnN0IGxlbmd0aCA9IGVuZCAtIHN0YXJ0ICsgMTsKICAgIHJldHVybiBBcnJheS5mcm9tKHsgbGVuZ3RoIH0sIChfLCBpZHgpID0+IGlkeCArIHN0YXJ0KTsKfTsKCmNvbnN0IGdldFBhZ2luYXRpb25JdGVtcyA9ICh0b3RhbFBhZ2VzOiBudW1iZXIsIGN1cnJlbnRQYWdlOiBudW1iZXIsIHBhZ2VOZWlnaGJvdXJzOiBudW1iZXIgPSAxKTogKHN0cmluZyB8IG51bWJlcilbXSA9PiB7CiAgICBjb25zdCB0b3RhbE51bWJlcnMgPSBwYWdlTmVpZ2hib3VycyAqIDIgKyAzOwogICAgY29uc3QgdG90YWxCbG9ja3MgPSB0b3RhbE51bWJlcnMgKyAyOwoKICAgIGlmICh0b3RhbFBhZ2VzID4gdG90YWxCbG9ja3MpIHsKICAgICAgICBjb25zdCBzdGFydFBhZ2UgPSBNYXRoLm1heCgyLCBjdXJyZW50UGFnZSAtIHBhZ2VOZWlnaGJvdXJzKTsKICAgICAgICBjb25zdCBlbmRQYWdlID0gTWF0aC5taW4odG90YWxQYWdlcyAtIDEsIGN1cnJlbnRQYWdlICsgcGFnZU5laWdoYm91cnMpOwogICAgICAgIGxldCBwYWdlczogKHN0cmluZyB8IG51bWJlcilbXSA9IHJhbmdlKHN0YXJ0UGFnZSwgZW5kUGFnZSk7CgogICAgICAgIGNvbnN0IGhhc0xlZnRTcGlsbCA9IHN0YXJ0UGFnZSA+IDI7CiAgICAgICAgY29uc3QgaGFzUmlnaHRTcGlsbCA9ICh0b3RhbFBhZ2VzIC0gZW5kUGFnZSkgPiAxOwogICAgICAgIGNvbnN0IHNwaWxsT2Zmc2V0ID0gdG90YWxOdW1iZXJzIC0gKHBhZ2VzLmxlbmd0aCArIDEpOwoKICAgICAgICBzd2l0Y2ggKHRydWUpIHsKICAgICAgICAgICAgY2FzZSAoaGFzTGVmdFNwaWxsICYmICFoYXNSaWdodFNwaWxsKTogewogICAgICAgICAgICAgICAgY29uc3QgZXh0cmFQYWdlcyA9IHJhbmdlKHN0YXJ0UGFnZSAtIHNwaWxsT2Zmc2V0LCBzdGFydFBhZ2UgLSAxKTsKICAgICAgICAgICAgICAgIHBhZ2VzID0gWycuLi4nLCAuLi5leHRyYVBhZ2VzLCAuLi5wYWdlc107CiAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgfQogICAgICAgICAgICBjYXNlICghaGFzTGVmdFNwaWxsICYmIGhhc1JpZ2h0U3BpbGwpOiB7CiAgICAgICAgICAgICAgICBjb25zdCBleHRyYVBhZ2VzID0gcmFuZ2UoZW5kUGFnZSArIDEsIGVuZFBhZ2UgKyBzcGlsbE9mZnNldCk7CiAgICAgICAgICAgICAgICBwYWdlcyA9IFsuLi5wYWdlcywgLi4uZXh0cmFQYWdlcywgJy4uLiddOwogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2FzZSAoaGFzTGVmdFNwaWxsICYmIGhhc1JpZ2h0U3BpbGwpOgogICAgICAgICAgICBkZWZhdWx0OiB7CiAgICAgICAgICAgICAgICBwYWdlcyA9IFsnLi4uJywgLi4ucGFnZXMsICcuLi4nXTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBbMSwgLi4ucGFnZXMsIHRvdGFsUGFnZXNdOwogICAgfQogICAgcmV0dXJuIHJhbmdlKDEsIHRvdGFsUGFnZXMpOwp9OwoKaW50ZXJmYWNlIFBhZ2luYXRpb25Db250cm9sc1Byb3BzIHsKICAgIHRvdGFsUmVzdWx0czogbnVtYmVyOwogICAgcm93c1BlclBhZ2U6IG51bWJlcjsKICAgIHNldFJvd3NQZXJQYWdlOiAodmFsdWU6IG51bWJlcikgPT4gdm9pZDsKICAgIGN1cnJlbnRQYWdlOiBudW1iZXI7CiAgICAvLyBGSVg6IFVwZGF0ZWQgdGhlIHR5cGUgZGVmaW5pdGlvbiBmb3Igc2V0Q3VycmVudFBhZ2UgdG8gYWNjZXB0IGEgZnVuY3Rpb24gZm9yIHN0YXRlIHVwZGF0ZXMuCiAgICBzZXRDdXJyZW50UGFnZTogUmVhY3QuRGlzcGF0Y2g8UmVhY3QuU2V0U3RhdGVBY3Rpb248bnVtYmVyPj47CiAgICB0b3RhbFBhZ2VzOiBudW1iZXI7Cn0KCmNvbnN0IFBhZ2luYXRpb25Db250cm9sczogUmVhY3QuRkM8UGFnaW5hdGlvbkNvbnRyb2xzUHJvcHM+ID0gKHsKICAgIHRvdGFsUmVzdWx0cywKICAgIHJvd3NQZXJQYWdlLAogICAgc2V0Um93c1BlclBhZ2UsCiAgICBjdXJyZW50UGFnZSwKICAgIHNldEN1cnJlbnRQYWdlLAogICAgdG90YWxQYWdlcywKfSkgPT4gewogICAgaWYgKHRvdGFsUGFnZXMgPD0gMSkgcmV0dXJuIG51bGw7CgogICAgY29uc3QgcGFnaW5hdGlvblJhbmdlID0gZ2V0UGFnaW5hdGlvbkl0ZW1zKHRvdGFsUGFnZXMsIGN1cnJlbnRQYWdlLCAxKTsKCiAgICBjb25zdCBidXR0b25DbGFzc2VzID0gImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGgtOSB3LTkgdGV4dC1ncmF5LTYwMCBiZy13aGl0ZSBkYXJrOmJnLWdyYXktNzAwIGJvcmRlciBib3JkZXItZ3JheS0zMDAgZGFyazpib3JkZXItZ3JheS02MDAgcm91bmRlZC1tZCBob3ZlcjpiZy1ncmF5LTEwMCBkYXJrOmhvdmVyOmJnLWdyYXktNjAwIGRpc2FibGVkOm9wYWNpdHktNTAgZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIHRyYW5zaXRpb24tY29sb3JzIHB4LTIiOwogICAgY29uc3QgYWN0aXZlQ2xhc3NlcyA9ICJiZy1wcmltYXJ5LTYwMCBib3JkZXItcHJpbWFyeS02MDAgdGV4dC13aGl0ZSBkYXJrOmJnLXByaW1hcnktNTAwIGRhcms6Ym9yZGVyLXByaW1hcnktNTAwIjsKICAgIAogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCB3LWZ1bGwiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWdyYXktNjAwIGRhcms6dGV4dC1ncmF5LTQwMCI+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1ncmF5LTgwMCBkYXJrOnRleHQtZ3JheS0yMDAiPnt0b3RhbFJlc3VsdHMudG9Mb2NhbGVTdHJpbmcoJ3B0LUJSJyl9PC9zcGFuPiByZXN1bHRhZG9zCiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC00Ij4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj0icm93cy1wZXItcGFnZSIgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNjAwIGRhcms6dGV4dC1ncmF5LTQwMCI+TGluaGFzOjwvbGFiZWw+CiAgICAgICAgICAgICAgICAgICAgPHNlbGVjdAogICAgICAgICAgICAgICAgICAgICAgICBpZD0icm93cy1wZXItcGFnZSIKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3Jvd3NQZXJQYWdlfQogICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFJvd3NQZXJQYWdlKE51bWJlcihlLnRhcmdldC52YWx1ZSkpfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtOSBiZy13aGl0ZSBkYXJrOmJnLWdyYXktNzAwIGJvcmRlciBib3JkZXItZ3JheS0zMDAgZGFyazpib3JkZXItZ3JheS02MDAgcm91bmRlZC1tZCBwbC0yIHByLTcgZm9jdXM6cmluZy0yIGZvY3VzOnJpbmctcHJpbWFyeS01MDAgZm9jdXM6Ym9yZGVyLXByaW1hcnktNTAwIHRleHQtc20iCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7WzEwLCAyNSwgNTAsIDEwMF0ubWFwKHNpemUgPT4gPG9wdGlvbiBrZXk9e3NpemV9IHZhbHVlPXtzaXplfT57c2l6ZX08L29wdGlvbj4pfQogICAgICAgICAgICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIDxuYXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSIgYXJpYS1sYWJlbD0iUGFnaW5hw6fDo28iPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0Q3VycmVudFBhZ2UoMSl9IGRpc2FibGVkPXtjdXJyZW50UGFnZSA9PT0gMX0gY2xhc3NOYW1lPXtidXR0b25DbGFzc2VzfSBhcmlhLWxhYmVsPSJQcmltZWlyYSBww6FnaW5hIj4mbGFxdW87PC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgey8qIEZJWDogQWRkIGV4cGxpY2l0IHR5cGUgYW5ub3RhdGlvbiB0byBgc2V0Q3VycmVudFBhZ2VgIGNhbGxiYWNrIHBhcmFtZXRlciB0byByZXNvbHZlIGBhbnlgIHR5cGUgZXJyb3IuICovfQogICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0Q3VycmVudFBhZ2UoKHA6IG51bWJlcikgPT4gcCAtIDEpfSBkaXNhYmxlZD17Y3VycmVudFBhZ2UgPT09IDF9IGNsYXNzTmFtZT17YnV0dG9uQ2xhc3Nlc30gYXJpYS1sYWJlbD0iUMOhZ2luYSBhbnRlcmlvciI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtNCB3LTQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBmaWxsUnVsZT0iZXZlbm9kZCIgZD0iTTEyLjcwNyA1LjI5M2ExIDEgMCAwMTAgMS40MTRMOS40MTQgMTBsMy4yOTMgMy4yOTNhMSAxIDAgMDEtMS40MTQgMS40MTRsLTQtNGExIDEgMCAwMTAtMS40MTRsNC00YTEgMSAwIDAxMS40MTQgMHoiIGNsaXBSdWxlPSJldmVub2RkIiAvPjwvc3ZnPgogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgICAgICAgICAgICB7cGFnaW5hdGlvblJhbmdlLm1hcCgocGFnZSwgaW5kZXgpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHR5cGVvZiBwYWdlID09PSAnc3RyaW5nJykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIDxzcGFuIGtleT17YCR7cGFnZX0tJHtpbmRleH1gfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGgtOSB3LTkgdGV4dC1ncmF5LTUwMCI+Li4uPC9zcGFuPjsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17cGFnZX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRDdXJyZW50UGFnZShwYWdlKX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2Ake2J1dHRvbkNsYXNzZXN9ICR7Y3VycmVudFBhZ2UgPT09IHBhZ2UgPyBhY3RpdmVDbGFzc2VzIDogJyd9YH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWN1cnJlbnQ9e2N1cnJlbnRQYWdlID09PSBwYWdlID8gJ3BhZ2UnIDogdW5kZWZpbmVkfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwYWdlfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgey8qIEZJWDogQWRkIGV4cGxpY2l0IHR5cGUgYW5ub3RhdGlvbiB0byBgc2V0Q3VycmVudFBhZ2VgIGNhbGxiYWNrIHBhcmFtZXRlciB0byByZXNvbHZlIGBhbnlgIHR5cGUgZXJyb3IuICovfQogICAgICAgICAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0Q3VycmVudFBhZ2UoKHA6IG51bWJlcikgPT4gcCArIDEpfSBkaXNhYmxlZD17Y3VycmVudFBhZ2UgPT09IHRvdGFsUGFnZXN9IGNsYXNzTmFtZT17YnV0dG9uQ2xhc3Nlc30gYXJpYS1sYWJlbD0iUHLDs3hpbWEgcMOhZ2luYSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtNCB3LTQiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBmaWxsUnVsZT0iZXZlbm9kZCIgZD0iTTcuMjkzIDE0LjcwN2ExIDEgMCAwMTAtMS40MTRMMTAuNTg2IDEwIDcuMjkzIDYuNzA3YTEgMSAwIDAxMS40MTQtMS40MTRsNCA0YTEgMSAwIDAxMCAxLjQxNGwtNCA0YTEgMSAwIDAxLTEuNDE0IDB6IiBjbGlwUnVsZT0iZXZlbm9kZCIgLz48L3N2Zz4KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldEN1cnJlbnRQYWdlKHRvdGFsUGFnZXMpfSBkaXNhYmxlZD17Y3VycmVudFBhZ2UgPT09IHRvdGFsUGFnZXN9IGNsYXNzTmFtZT17YnV0dG9uQ2xhc3Nlc30gYXJpYS1sYWJlbD0iw5psdGltYSBww6FnaW5hIj4mcmFxdW87PC9idXR0b24+CiAgICAgICAgICAgICAgICA8L25hdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgUGFnaW5hdGlvbkNvbnRyb2xzOwo=}
+import * as React from 'react';
+
+const range = (start: number, end: number) => {
+    const length = end - start + 1;
+    return Array.from({ length }, (_, idx) => idx + start);
+};
+
+const getPaginationItems = (totalPages: number, currentPage: number, pageNeighbours: number = 1): (string | number)[] => {
+    const totalNumbers = pageNeighbours * 2 + 3;
+    const totalBlocks = totalNumbers + 2;
+
+    if (totalPages > totalBlocks) {
+        const startPage = Math.max(2, currentPage - pageNeighbours);
+        const endPage = Math.min(totalPages - 1, currentPage + pageNeighbours);
+        let pages: (string | number)[] = range(startPage, endPage);
+
+        const hasLeftSpill = startPage > 2;
+        const hasRightSpill = (totalPages - endPage) > 1;
+        const spillOffset = totalNumbers - (pages.length + 1);
+
+        switch (true) {
+            case (hasLeftSpill && !hasRightSpill): {
+                const extraPages = range(startPage - spillOffset, startPage - 1);
+                pages = ['...', ...extraPages, ...pages];
+                break;
+            }
+            case (!hasLeftSpill && hasRightSpill): {
+                const extraPages = range(endPage + 1, endPage + spillOffset);
+                pages = [...pages, ...extraPages, '...'];
+                break;
+            }
+            case (hasLeftSpill && hasRightSpill):
+            default: {
+                pages = ['...', ...pages, '...'];
+                break;
+            }
+        }
+        return [1, ...pages, totalPages];
+    }
+    return range(1, totalPages);
+};
+
+interface PaginationControlsProps {
+    totalResults: number;
+    rowsPerPage: number;
+    setRowsPerPage: (value: number) => void;
+    currentPage: number;
+    // FIX: Updated the type definition for setCurrentPage to accept a function for state updates.
+    setCurrentPage: React.Dispatch<React.SetStateAction<number>>;
+    totalPages: number;
+}
+
+const PaginationControls: React.FC<PaginationControlsProps> = ({
+    totalResults,
+    rowsPerPage,
+    setRowsPerPage,
+    currentPage,
+    setCurrentPage,
+    totalPages,
+}) => {
+    if (totalPages <= 1) return null;
+
+    const paginationRange = getPaginationItems(totalPages, currentPage, 1);
+
+    const buttonClasses = "flex items-center justify-center h-9 w-9 text-gray-600 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md hover:bg-gray-100 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors px-2";
+    const activeClasses = "bg-primary-600 border-primary-600 text-white dark:bg-primary-500 dark:border-primary-500";
+    
+    return (
+        <div className="flex flex-wrap items-center justify-between gap-4 w-full">
+            <div className="text-sm text-gray-600 dark:text-gray-400">
+                <span className="font-semibold text-gray-800 dark:text-gray-200">{totalResults.toLocaleString('pt-BR')}</span> resultados
+            </div>
+
+            <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 text-sm">
+                    <label htmlFor="rows-per-page" className="text-gray-600 dark:text-gray-400">Linhas:</label>
+                    <select
+                        id="rows-per-page"
+                        value={rowsPerPage}
+                        onChange={(e) => setRowsPerPage(Number(e.target.value))}
+                        className="h-9 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md pl-2 pr-7 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 text-sm"
+                    >
+                        {[10, 25, 50, 100].map(size => <option key={size} value={size}>{size}</option>)}
+                    </select>
+                </div>
+                
+                <nav className="flex items-center gap-1" aria-label="Paginação">
+                    <button onClick={() => setCurrentPage(1)} disabled={currentPage === 1} className={buttonClasses} aria-label="Primeira página">&laquo;</button>
+                    {/* FIX: Add explicit type annotation to `setCurrentPage` callback parameter to resolve `any` type error. */}
+                    <button onClick={() => setCurrentPage((p: number) => p - 1)} disabled={currentPage === 1} className={buttonClasses} aria-label="Página anterior">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                    </button>
+
+                    {paginationRange.map((page, index) => {
+                        if (typeof page === 'string') {
+                            return <span key={`${page}-${index}`} className="flex items-center justify-center h-9 w-9 text-gray-500">...</span>;
+                        }
+                        return (
+                            <button
+                                key={page}
+                                onClick={() => setCurrentPage(page)}
+                                className={`${buttonClasses} ${currentPage === page ? activeClasses : ''}`}
+                                aria-current={currentPage === page ? 'page' : undefined}
+                            >
+                                {page}
+                            </button>
+                        );
+                    })}
+                    
+                    {/* FIX: Add explicit type annotation to `setCurrentPage` callback parameter to resolve `any` type error. */}
+                    <button onClick={() => setCurrentPage((p: number) => p + 1)} disabled={currentPage === totalPages} className={buttonClasses} aria-label="Próxima página">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" /></svg>
+                    </button>
+                    <button onClick={() => setCurrentPage(totalPages)} disabled={currentPage === totalPages} className={buttonClasses} aria-label="Última página">&raquo;</button>
+                </nav>
+            </div>
+        </div>
+    );
+};
+
+export default PaginationControls;

@@ -1,1 +1,48 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja0RlbGV0ZWRPcmRlcnMoKSB7DQogICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoU1VQQUJBU0VfVVJMLCBTVVBBQkFTRV9LRVkpOw0KDQogICAgY29uc29sZS5sb2coJ/Cfl5HvuI8gIENIRUNLOiBQZWRpZG9zIERlbGV0YWRvc1xuJyk7DQoNCiAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnZGVsZXRlZF9vcmRlcnMnKQ0KICAgICAgICAuc2VsZWN0KCcqJyk7DQoNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcignRXJybzonLCBlcnJvcik7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZyhgVG90YWwgZGVsZXRhZG9zIG5vIGJhbmNvOiAke2RhdGEubGVuZ3RofWApOw0KICAgIGRhdGEuc2xpY2UoMCwgNSkuZm9yRWFjaChkID0+IHsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIC0gSUQgTm8gQmFuY28gKG9yZGVyX2lkKTogJHtkLm9yZGVyX2lkfSB8IFRpbnk6ICR7ZC50aW55X2lkfSB8IERlbGV0YWRvIGVtOiAke2QuZGVsZXRlZF9hdH1gKTsNCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCflI0gVmVyaWZpY2FuZG8gc2UgZXNzZXMgSURzIGV4aXN0ZW0gbm8gc3ByZWFkc2hlZXRfZGF0YS4uLicpOw0KICAgIGlmIChkYXRhLmxlbmd0aCA+IDApIHsNCiAgICAgICAgY29uc3QgeyBkYXRhOiBzcHJlYWRzaGVldERhdGEgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAuc2VsZWN0KCdpZCwgZmlsZW5hbWUnKQ0KICAgICAgICAgICAgLmluKCdpZCcsIGRhdGEubWFwKGQgPT4gZC5vcmRlcl9pZCkpOw0KDQogICAgICAgIGNvbnNvbGUubG9nKGBEb3MgZGVsZXRhZG9zLCAke3NwcmVhZHNoZWV0RGF0YS5sZW5ndGh9IGFpbmRhIGV4aXN0ZW0gbm8gc3ByZWFkc2hlZXRfZGF0YS5gKTsNCiAgICAgICAgc3ByZWFkc2hlZXREYXRhLnNsaWNlKDAsIDUpLmZvckVhY2gocyA9PiB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgLSBJRDogJHtzLmlkfSAoRmlsZTogJHtzLmZpbGVuYW1lfSlgKTsNCiAgICAgICAgfSk7DQogICAgfQ0KfQ0KDQpjaGVja0RlbGV0ZWRPcmRlcnMoKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function checkDeletedOrders() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('🗑️  CHECK: Pedidos Deletados\n');
+
+    const { data, error } = await supabase
+        .from('deleted_orders')
+        .select('*');
+
+    if (error) {
+        console.error('Erro:', error);
+        return;
+    }
+
+    console.log(`Total deletados no banco: ${data.length}`);
+    data.slice(0, 5).forEach(d => {
+        console.log(`   - ID No Banco (order_id): ${d.order_id} | Tiny: ${d.tiny_id} | Deletado em: ${d.deleted_at}`);
+    });
+
+    console.log('\n🔍 Verificando se esses IDs existem no spreadsheet_data...');
+    if (data.length > 0) {
+        const { data: spreadsheetData } = await supabase
+            .from('spreadsheet_data')
+            .select('id, filename')
+            .in('id', data.map(d => d.order_id));
+
+        console.log(`Dos deletados, ${spreadsheetData.length} ainda existem no spreadsheet_data.`);
+        spreadsheetData.slice(0, 5).forEach(s => {
+            console.log(`   - ID: ${s.id} (File: ${s.filename})`);
+        });
+    }
+}
+
+checkDeletedOrders().catch(console.error);

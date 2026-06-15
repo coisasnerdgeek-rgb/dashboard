@@ -1,1 +1,64 @@
-﻿@{data=LyoqDQogKiBTY3JpcHQgcGFyYSBtaWdyYXIgYXMgdGFiZWxhcyByZXN0YW50ZXMgKENvbmZpZ3VyYcOnw7VlcywgTW9kZWxvcyBkZSBDYXBpbmhhcyBlIENhdGVnb3JpYXMgZGUgSW1hZ2VtKQ0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQoNCi8vIEJhbmNvIEFOVElHTyAobmJ4dWJkbXNlcG5oaGhzYnB6b3EpDQpjb25zdCBPTERfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vbmJ4dWJkbXNlcG5oaGhzYnB6b3Euc3VwYWJhc2UuY28nOw0KY29uc3QgT0xEX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbTVpZUhWaVpHMXpaWEJ1YUdob2MySndlbTl4SWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJNVEkxTXpVd01pd2laWGh3SWpveU1EYzJPREk1TlRBeWZRLkx4MkgyZEhicGhwVE9sSDBQS2QtdjRFN2tKR2FyVTRoWU1LTHJXQkg2dXMnOw0KDQovLyBCYW5jbyBOT1ZPIChnZWFidmNxY3ltYXFzcXh4ZnF5dykNCmNvbnN0IE5FV19TVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly9nZWFidmNxY3ltYXFzcXh4ZnF5dy5zdXBhYmFzZS5jbyc7DQpjb25zdCBORVdfU1VQQUJBU0VfS0VZID0gJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltZGxZV0oyWTNGamVXMWhjWE54ZUhobWNYbDNJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk9URTRNVEE1Tnl3aVpYaHdJam95TURnME56VTNNRGszZlEuV0p4cjllU0R6Zzd3ZlBBZ0JONk5nQUxmaVVIYy1EWWV1RmJFcUc4TjBoVSc7DQoNCmNvbnN0IG9sZFN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE9MRF9TVVBBQkFTRV9VUkwsIE9MRF9TVVBBQkFTRV9LRVkpOw0KY29uc3QgbmV3U3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIG1pZ3JhclJlc3RhbnRlcygpIHsNCiAgICBjb25zb2xlLmxvZygn8J+UhCBJbmljaWFuZG8gbWlncmHDp8OjbyBkYXMgdGFiZWxhcyByZXN0YW50ZXMuLi5cbicpOw0KDQogICAgY29uc3QgdGFiZWxhcyA9IFsNCiAgICAgICAgeyBub21lOiAnaW1hZ2VfY2F0ZWdvcmllcycsIHBrOiAnaWQnIH0sDQogICAgICAgIHsgbm9tZTogJ3Bob25lX2Nhc2VfbW9kZWxzJywgcGs6ICdpZCcgfSwNCiAgICAgICAgeyBub21lOiAnYXBwX3NldHRpbmdzJywgcGs6ICdrZXknIH0sDQogICAgICAgIHsgbm9tZTogJ3RyYWNraW5nX21hcHBpbmdzJywgcGs6ICdza3UnIH0NCiAgICBdOw0KDQogICAgZm9yIChjb25zdCB7IG5vbWUsIHBrIH0gb2YgdGFiZWxhcykgew0KICAgICAgICB0cnkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coYPCfk6EgTWlncmFuZG8gJHtub21lfS4uLmApOw0KICAgICAgICAgICAgY29uc3QgeyBkYXRhLCBlcnJvcjogZmV0Y2hFcnJvciB9ID0gYXdhaXQgb2xkU3VwYWJhc2UuZnJvbShub21lKS5zZWxlY3QoJyonKTsNCg0KICAgICAgICAgICAgaWYgKGZldGNoRXJyb3IpIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKGDinYwgRXJybyBhbyBidXNjYXIgJHtub21lfTpgLCBmZXRjaEVycm9yLm1lc3NhZ2UpOw0KICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBpZiAoIWRhdGEgfHwgZGF0YS5sZW5ndGggPT09IDApIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhg4pqg77iPIE5lbmh1bSByZWdpc3RybyBlbSAke25vbWV9LmApOw0KICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAvLyBSZW1vdmVyIGNhbXBvcyBxdWUgcG9kZW0gY2F1c2FyIGNvbmZsaXRvIGRlIHNjaGVtYSBzZSBuZWNlc3PDoXJpbw0KICAgICAgICAgICAgY29uc3QgZGFkb3NMaW1wb3MgPSBkYXRhLm1hcChpdGVtID0+IHsNCiAgICAgICAgICAgICAgICBjb25zdCB7IHVwZGF0ZWRfYXQsIC4uLnJlc3RvIH0gPSBpdGVtOw0KICAgICAgICAgICAgICAgIHJldHVybiByZXN0bzsNCiAgICAgICAgICAgIH0pOw0KDQogICAgICAgICAgICBjb25zdCB7IGVycm9yOiBpbnNFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UuZnJvbShub21lKS51cHNlcnQoZGFkb3NMaW1wb3MsIHsgb25Db25mbGljdDogcGsgfSk7DQoNCiAgICAgICAgICAgIGlmIChpbnNFcnJvcikgew0KICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYOKdjCBFcnJvIGFvIG1pZ3JhciAke25vbWV9OmAsIGluc0Vycm9yLm1lc3NhZ2UpOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhg4pyFICR7ZGF0YS5sZW5ndGh9IHJlZ2lzdHJvcyBtaWdyYWRvcyBlbSAke25vbWV9IWApOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9IGNhdGNoIChlKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKGDwn5KlIEVycm8gZmF0YWwgZW0gJHtub21lfTpgLCBlKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCdcbuKcqCBNaWdyYcOnw6NvIGNvbmNsdcOtZGEhJyk7DQp9DQoNCm1pZ3JhclJlc3RhbnRlcygpOw0K}
+/**
+ * Script para migrar as tabelas restantes (Configurações, Modelos de Capinhas e Categorias de Imagem)
+ */
+
+import { createClient } from '@supabase/supabase-js';
+
+// Banco ANTIGO (nbxubdmsepnhhhsbpzoq)
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+
+// Banco NOVO (geabvcqcymaqsqxxfqyw)
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function migrarRestantes() {
+    console.log('🔄 Iniciando migração das tabelas restantes...\n');
+
+    const tabelas = [
+        { nome: 'image_categories', pk: 'id' },
+        { nome: 'phone_case_models', pk: 'id' },
+        { nome: 'app_settings', pk: 'key' },
+        { nome: 'tracking_mappings', pk: 'sku' }
+    ];
+
+    for (const { nome, pk } of tabelas) {
+        try {
+            console.log(`📡 Migrando ${nome}...`);
+            const { data, error: fetchError } = await oldSupabase.from(nome).select('*');
+
+            if (fetchError) {
+                console.error(`❌ Erro ao buscar ${nome}:`, fetchError.message);
+                continue;
+            }
+
+            if (!data || data.length === 0) {
+                console.log(`⚠️ Nenhum registro em ${nome}.`);
+                continue;
+            }
+
+            // Remover campos que podem causar conflito de schema se necessário
+            const dadosLimpos = data.map(item => {
+                const { updated_at, ...resto } = item;
+                return resto;
+            });
+
+            const { error: insError } = await newSupabase.from(nome).upsert(dadosLimpos, { onConflict: pk });
+
+            if (insError) {
+                console.error(`❌ Erro ao migrar ${nome}:`, insError.message);
+            } else {
+                console.log(`✅ ${data.length} registros migrados em ${nome}!`);
+            }
+        } catch (e) {
+            console.error(`💥 Erro fatal em ${nome}:`, e);
+        }
+    }
+
+    console.log('\n✨ Migração concluída!');
+}
+
+migrarRestantes();

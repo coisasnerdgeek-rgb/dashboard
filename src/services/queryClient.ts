@@ -1,1 +1,12 @@
-﻿@{data=aW1wb3J0IHsgUXVlcnlDbGllbnQgfSBmcm9tICdAdGFuc3RhY2svcmVhY3QtcXVlcnknOw0KDQpleHBvcnQgY29uc3QgcXVlcnlDbGllbnQgPSBuZXcgUXVlcnlDbGllbnQoew0KICAgIGRlZmF1bHRPcHRpb25zOiB7DQogICAgICAgIHF1ZXJpZXM6IHsNCiAgICAgICAgICAgIHN0YWxlVGltZTogMTAwMCAqIDYwICogNSwgLy8gNSBtaW51dG9zDQogICAgICAgICAgICBnY1RpbWU6IDEwMDAgKiA2MCAqIDMwLCAvLyAzMCBtaW51dG9zDQogICAgICAgICAgICByZWZldGNoT25XaW5kb3dGb2N1czogZmFsc2UsDQogICAgICAgICAgICByZXRyeTogMSwNCiAgICAgICAgfSwNCiAgICB9LA0KfSk7DQo=}
+import { QueryClient } from '@tanstack/react-query';
+
+export const queryClient = new QueryClient({
+    defaultOptions: {
+        queries: {
+            staleTime: 1000 * 60 * 5, // 5 minutos
+            gcTime: 1000 * 60 * 30, // 30 minutos
+            refetchOnWindowFocus: false,
+            retry: 1,
+        },
+    },
+});

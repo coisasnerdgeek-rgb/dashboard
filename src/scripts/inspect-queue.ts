@@ -1,1 +1,20 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGluc3BlY3RRdWV1ZSgpIHsNCiAgICBjb25zb2xlLmxvZygnSW5zcGVjdGluZyBxdWV1ZSB0YWJsZS4uLicpOw0KDQogICAgLy8gQ2hlY2sgdG90YWwgY291bnQNCiAgICBjb25zdCB7IGNvdW50IH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdxdWV1ZScpLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSk7DQogICAgY29uc29sZS5sb2coYFRvdGFsIHF1ZXVlIGl0ZW1zOiAke2NvdW50fWApOw0KDQogICAgLy8gQ2hlY2sgc2FtcGxlIHJvdyB0byBzZWUgZGF0ZSBjb2x1bW4NCiAgICBjb25zdCB7IGRhdGE6IHNhbXBsZSB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgncXVldWUnKS5zZWxlY3QoJyonKS5saW1pdCgxKTsNCiAgICBjb25zb2xlLmxvZygnU2FtcGxlIHJvdzonLCBKU09OLnN0cmluZ2lmeShzYW1wbGU/LlswXSwgbnVsbCwgMikpOw0KfQ0KDQppbnNwZWN0UXVldWUoKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function inspectQueue() {
+    console.log('Inspecting queue table...');
+
+    // Check total count
+    const { count } = await supabase.from('queue').select('*', { count: 'exact', head: true });
+    console.log(`Total queue items: ${count}`);
+
+    // Check sample row to see date column
+    const { data: sample } = await supabase.from('queue').select('*').limit(1);
+    console.log('Sample row:', JSON.stringify(sample?.[0], null, 2));
+}
+
+inspectQueue();

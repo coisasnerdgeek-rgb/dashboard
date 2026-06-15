@@ -1,1 +1,50 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGZpeFNhdmVkT3JkZXJzKCkgew0KICAgIGNvbnNvbGUubG9nKCdDaGVja2luZyBzYXZlZF9vcmRlcnMgZm9yIGNvcnJ1cHRpb24uLi4nKTsNCg0KICAgIC8vIHNhdmVkX29yZGVycyBzdHJ1Y3R1cmU6IGlkLCBjbnBqLCBzaXplcywgc3RvcmUsIGNvbG9ycywgdG90YWxzLCBwcm9kdWN0LCBxdWFudGl0aWVzLCBhcmNoaXZlZERhdGUsIGV0Yy4NCiAgICAvLyBUaGUgImlkIiBpdHNlbGYgbWlnaHQgYmUgY29ycnVwdGVkIG9yIHZhbGlkLWxvb2tpbmcgYnV0IGNvbnRlbnQgYmFkLg0KICAgIC8vIEJ1dCBpZiB0aGUgc291cmNlIElEIHdhcyAidW5kZWZpbmVkIiwgaXQgbWlnaHQgaGF2ZSBwcm9wYWdhdGVkIHRvIGBfc291cmNlUm93SWRzYC4NCg0KICAgIC8vIFdlIGNoZWNrIGBfc291cmNlUm93SWRzYCBpbnNpZGUgdGhlIGBkYXRhYCBjb2x1bW4gaWYgcG9zc2libGU/DQogICAgLy8gQWN0dWFsbHksIGxldCdzIGp1c3QgbG9vayBmb3IgInVuZGVmaW5lZCIgaW4gdGhlIHdob2xlIHJvdyByZXByZXNlbnRhdGlvbiBvciBJRC4NCg0KICAgIGNvbnN0IHsgZGF0YTogcm93cywgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzYXZlZF9vcmRlcnMnKQ0KICAgICAgICAuc2VsZWN0KCcqJykNCiAgICAgICAgLm9yZGVyKCdjcmVhdGVkX2F0JywgeyBhc2NlbmRpbmc6IGZhbHNlIH0pDQogICAgICAgIC5saW1pdCgyMDAwKTsNCg0KICAgIGlmIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvcjonLCBlcnJvcik7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBjb25zdCB0b0RlbGV0ZTogc3RyaW5nW10gPSBbXTsNCiAgICByb3dzLmZvckVhY2gocm93ID0+IHsNCiAgICAgICAgLy8gQ2hlY2sgaWYgSUQgY29udGFpbnMgJ3VuZGVmaW5lZCcNCiAgICAgICAgaWYgKHJvdy5pZCAmJiByb3cuaWQuaW5jbHVkZXMoJ3VuZGVmaW5lZCcpKSB7DQogICAgICAgICAgICB0b0RlbGV0ZS5wdXNoKHJvdy5pZCk7DQogICAgICAgIH0NCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKGBGb3VuZCAke3RvRGVsZXRlLmxlbmd0aH0gY29ycnVwdGVkIHNhdmVkX29yZGVycy5gKTsNCg0KICAgIGlmICh0b0RlbGV0ZS5sZW5ndGggPiAwKSB7DQogICAgICAgIGNvbnN0IHsgZXJyb3I6IGRlbEVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgICAgICAuZGVsZXRlKCkNCiAgICAgICAgICAgIC5pbignaWQnLCB0b0RlbGV0ZSk7DQoNCiAgICAgICAgaWYgKGRlbEVycm9yKSBjb25zb2xlLmVycm9yKCdEZWxldGUgZXJyb3I6JywgZGVsRXJyb3IpOw0KICAgICAgICBlbHNlIGNvbnNvbGUubG9nKCdEZWxldGVkIGNvcnJ1cHRlZCBzYXZlZF9vcmRlcnMuJyk7DQogICAgfQ0KfQ0KDQpmaXhTYXZlZE9yZGVycygpOw0K}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function fixSavedOrders() {
+    console.log('Checking saved_orders for corruption...');
+
+    // saved_orders structure: id, cnpj, sizes, store, colors, totals, product, quantities, archivedDate, etc.
+    // The "id" itself might be corrupted or valid-looking but content bad.
+    // But if the source ID was "undefined", it might have propagated to `_sourceRowIds`.
+
+    // We check `_sourceRowIds` inside the `data` column if possible?
+    // Actually, let's just look for "undefined" in the whole row representation or ID.
+
+    const { data: rows, error } = await supabase
+        .from('saved_orders')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(2000);
+
+    if (error) {
+        console.error('Error:', error);
+        return;
+    }
+
+    const toDelete: string[] = [];
+    rows.forEach(row => {
+        // Check if ID contains 'undefined'
+        if (row.id && row.id.includes('undefined')) {
+            toDelete.push(row.id);
+        }
+    });
+
+    console.log(`Found ${toDelete.length} corrupted saved_orders.`);
+
+    if (toDelete.length > 0) {
+        const { error: delError } = await supabase
+            .from('saved_orders')
+            .delete()
+            .in('id', toDelete);
+
+        if (delError) console.error('Delete error:', delError);
+        else console.log('Deleted corrupted saved_orders.');
+    }
+}
+
+fixSavedOrders();

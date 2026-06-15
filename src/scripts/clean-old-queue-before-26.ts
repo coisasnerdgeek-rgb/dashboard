@@ -1,1 +1,84 @@
-﻿@{data=LyoqDQogKiBMSU1QQVIgRklMQSBERSBSRVRSWSAtIE1hbnRlciBhcGVuYXMgcGVkaWRvcyBkbyBkaWEgMjYvMDEgZW0gZGlhbnRlDQogKi8NCg0KaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCmltcG9ydCAqIGFzIHBhdGggZnJvbSAncGF0aCc7DQoNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KDQphc3luYyBmdW5jdGlvbiBjbGVhbk9sZFF1ZXVlKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCfp7kgTElNUEFORE8gRklMQSBERSBSRVRSWVxuJyk7DQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCg0KICAgIC8vIERhdGEgZGUgY29ydGU6IDI2LzAxLzIwMjYNCiAgICBjb25zdCBjdXRvZmZEYXRlID0gJzIwMjYtMDEtMjYnOw0KICAgIGNvbnN0IGN1dG9mZkRhdGVCciA9ICcyNi8wMS8yMDI2JzsNCg0KICAgIGNvbnNvbGUubG9nKGDwn5OFIE1hbnRlbmRvIGFwZW5hcyBwZWRpZG9zIGRlICR7Y3V0b2ZmRGF0ZUJyfSBlbSBkaWFudGVcbmApOw0KDQogICAgLy8gVmVyaWZpY2FyIHRvdGFsIGF0dWFsDQogICAgY29uc3QgeyBjb3VudDogdG90YWxCZWZvcmUgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSk7DQoNCiAgICBjb25zb2xlLmxvZyhgICAgVG90YWwgYXR1YWwgbmEgZmlsYTogJHt0b3RhbEJlZm9yZSB8fCAwfVxuYCk7DQoNCiAgICAvLyBFU1RSQVTDiUdJQTogRGVsZXRhciBlbSAyIHBhc3Nvcw0KDQogICAgLy8gUEFTU08gMTogRGVsZXRhciBwZWRpZG9zIGNvbSBvcmRlcl9kYXRlIGFudGVzIGRlIDI2LzAxLzIwMjYNCiAgICBjb25zb2xlLmxvZygn8J+Xke+4jyAgUEFTU08gMTogRGVsZXRhbmRvIHBlZGlkb3MgY29tIGRhdGEgYW50aWdhLi4uXG4nKTsNCg0KICAgIGNvbnN0IHsgY291bnQ6IGRlbGV0ZWRCeURhdGUgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLmRlbGV0ZSh7IGNvdW50OiAnZXhhY3QnIH0pDQogICAgICAgIC5sdCgnb3JkZXJfZGF0ZScsIGN1dG9mZkRhdGUpOw0KDQogICAgY29uc29sZS5sb2coYCAgIOKchSBEZWxldGFkb3MgcG9yIG9yZGVyX2RhdGU6ICR7ZGVsZXRlZEJ5RGF0ZSB8fCAwfVxuYCk7DQoNCiAgICAvLyBQQVNTTyAyOiBEZWxldGFyIHBlZGlkb3MgU0VNIG9yZGVyX2RhdGUgZSBjcmlhZG9zIGjDoSBtYWlzIGRlIDcgZGlhcw0KICAgIGNvbnNvbGUubG9nKCfwn5eR77iPICBQQVNTTyAyOiBEZWxldGFuZG8gcGVkaWRvcyBzZW0gZGF0YSAoYW50aWdvcykuLi5cbicpOw0KDQogICAgY29uc3Qgc2V2ZW5EYXlzQWdvID0gbmV3IERhdGUoKTsNCiAgICBzZXZlbkRheXNBZ28uc2V0RGF0ZShzZXZlbkRheXNBZ28uZ2V0RGF0ZSgpIC0gNyk7DQoNCiAgICBjb25zdCB7IGNvdW50OiBkZWxldGVkTm9EYXRlIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5kZWxldGUoeyBjb3VudDogJ2V4YWN0JyB9KQ0KICAgICAgICAuaXMoJ29yZGVyX2RhdGUnLCBudWxsKQ0KICAgICAgICAubHQoJ2NyZWF0ZWRfYXQnLCBzZXZlbkRheXNBZ28udG9JU09TdHJpbmcoKSk7DQoNCiAgICBjb25zb2xlLmxvZyhgICAg4pyFIERlbGV0YWRvcyBzZW0gZGF0YTogJHtkZWxldGVkTm9EYXRlIHx8IDB9XG5gKTsNCg0KICAgIC8vIFBBU1NPIDM6IFZlcmlmaWNhciBxdWFudG9zIHJlc3RhcmFtDQogICAgY29uc3QgeyBjb3VudDogdG90YWxBZnRlciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCg0KICAgIGNvbnNvbGUubG9nKCc9Jy5yZXBlYXQoNjApKTsNCiAgICBjb25zb2xlLmxvZygnXG7wn5OKIFJFU1VNTzpcbicpOw0KICAgIGNvbnNvbGUubG9nKGAgICBBbnRlczogJHt0b3RhbEJlZm9yZSB8fCAwfSBwZWRpZG9zYCk7DQogICAgY29uc29sZS5sb2coYCAgIERlbGV0YWRvczogJHsoZGVsZXRlZEJ5RGF0ZSB8fCAwKSArIChkZWxldGVkTm9EYXRlIHx8IDApfSBwZWRpZG9zYCk7DQogICAgY29uc29sZS5sb2coYCAgIFJlc3RhbnRlczogJHt0b3RhbEFmdGVyIHx8IDB9IHBlZGlkb3NgKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbuKchSBGaWxhIGxpbXBhISBBZ29yYSBjbGlxdWUgZW0gIkF0dWFsaXphciBTdGF0dXMiIG5vIHNpdGUuXG4nKTsNCn0NCg0KY2xlYW5PbGRRdWV1ZSgpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+/**
+ * LIMPAR FILA DE RETRY - Manter apenas pedidos do dia 26/01 em diante
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function cleanOldQueue() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🧹 LIMPANDO FILA DE RETRY\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Data de corte: 26/01/2026
+    const cutoffDate = '2026-01-26';
+    const cutoffDateBr = '26/01/2026';
+
+    console.log(`📅 Mantendo apenas pedidos de ${cutoffDateBr} em diante\n`);
+
+    // Verificar total atual
+    const { count: totalBefore } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true });
+
+    console.log(`   Total atual na fila: ${totalBefore || 0}\n`);
+
+    // ESTRATÉGIA: Deletar em 2 passos
+
+    // PASSO 1: Deletar pedidos com order_date antes de 26/01/2026
+    console.log('🗑️  PASSO 1: Deletando pedidos com data antiga...\n');
+
+    const { count: deletedByDate } = await supabase
+        .from('webhook_retry_queue')
+        .delete({ count: 'exact' })
+        .lt('order_date', cutoffDate);
+
+    console.log(`   ✅ Deletados por order_date: ${deletedByDate || 0}\n`);
+
+    // PASSO 2: Deletar pedidos SEM order_date e criados há mais de 7 dias
+    console.log('🗑️  PASSO 2: Deletando pedidos sem data (antigos)...\n');
+
+    const sevenDaysAgo = new Date();
+    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+
+    const { count: deletedNoDate } = await supabase
+        .from('webhook_retry_queue')
+        .delete({ count: 'exact' })
+        .is('order_date', null)
+        .lt('created_at', sevenDaysAgo.toISOString());
+
+    console.log(`   ✅ Deletados sem data: ${deletedNoDate || 0}\n`);
+
+    // PASSO 3: Verificar quantos restaram
+    const { count: totalAfter } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true });
+
+    console.log('='.repeat(60));
+    console.log('\n📊 RESUMO:\n');
+    console.log(`   Antes: ${totalBefore || 0} pedidos`);
+    console.log(`   Deletados: ${(deletedByDate || 0) + (deletedNoDate || 0)} pedidos`);
+    console.log(`   Restantes: ${totalAfter || 0} pedidos`);
+
+    console.log('\n✅ Fila limpa! Agora clique em "Atualizar Status" no site.\n');
+}
+
+cleanOldQueue().catch(console.error);

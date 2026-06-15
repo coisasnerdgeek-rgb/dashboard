@@ -1,1 +1,38 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGRpYWdub3NlKCkgew0KICAgIGNvbnNvbGUubG9nKCdEaWFnbm9zaW5nIHByaW50X2NvbnRyb2wgb24gTkVXIERCLi4uJyk7DQoNCiAgICAvLyAxLiBUb3RhbCBDb3VudA0KICAgIGNvbnN0IHsgY291bnQsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdwcmludF9jb250cm9sJykuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgY291bnRpbmc6JywgZXJyb3IpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KICAgIGNvbnNvbGUubG9nKGBUb3RhbCByb3dzOiAke2NvdW50fWApOw0KDQogICAgLy8gMi4gU3RhdHVzIERpc3RyaWJ1dGlvbg0KICAgIC8vIFdlIGNhbid0IGRvIGdyb3VwIGJ5IGVhc2lseSB3aXRoIFBvc3RnUkVTVCB3aXRob3V0IHJwYywgc28gd2UgZmV0Y2ggYWxsIHN0YXR1c2VzIChsaW1pdCB0byAxMDAwMCBmb3Igc2FmZXR5KQ0KICAgIGNvbnN0IHsgZGF0YSwgZXJyb3I6IGRhdGFFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgncHJpbnRfY29udHJvbCcpLnNlbGVjdCgnc3RhdHVzJyk7DQogICAgaWYgKGRhdGFFcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZyBkYXRhOicsIGRhdGFFcnJvcik7DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc3QgY291bnRzOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+ID0ge307DQogICAgICAgIGRhdGE/LmZvckVhY2gocm93ID0+IHsNCiAgICAgICAgICAgIGNvbnN0IHMgPSByb3cuc3RhdHVzIHx8ICdOVUxMJzsNCiAgICAgICAgICAgIGNvdW50c1tzXSA9IChjb3VudHNbc10gfHwgMCkgKyAxOw0KICAgICAgICB9KTsNCiAgICAgICAgY29uc29sZS5sb2coJ1N0YXR1cyBDb3VudHM6JywgY291bnRzKTsNCiAgICB9DQoNCiAgICAvLyAzLiBTYW1wbGUNCiAgICBjb25zdCB7IGRhdGE6IHNhbXBsZSB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgncHJpbnRfY29udHJvbCcpLnNlbGVjdCgnKicpLmxpbWl0KDMpOw0KICAgIGNvbnNvbGUubG9nKCdTYW1wbGU6JywgSlNPTi5zdHJpbmdpZnkoc2FtcGxlLCBudWxsLCAyKSk7DQp9DQoNCmRpYWdub3NlKCk7DQo=}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function diagnose() {
+    console.log('Diagnosing print_control on NEW DB...');
+
+    // 1. Total Count
+    const { count, error } = await supabase.from('print_control').select('*', { count: 'exact', head: true });
+    if (error) {
+        console.error('Error counting:', error);
+        return;
+    }
+    console.log(`Total rows: ${count}`);
+
+    // 2. Status Distribution
+    // We can't do group by easily with PostgREST without rpc, so we fetch all statuses (limit to 10000 for safety)
+    const { data, error: dataError } = await supabase.from('print_control').select('status');
+    if (dataError) {
+        console.error('Error fetching data:', dataError);
+    } else {
+        const counts: Record<string, number> = {};
+        data?.forEach(row => {
+            const s = row.status || 'NULL';
+            counts[s] = (counts[s] || 0) + 1;
+        });
+        console.log('Status Counts:', counts);
+    }
+
+    // 3. Sample
+    const { data: sample } = await supabase.from('print_control').select('*').limit(3);
+    console.log('Sample:', JSON.stringify(sample, null, 2));
+}
+
+diagnose();

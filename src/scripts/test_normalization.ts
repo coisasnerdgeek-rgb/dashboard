@@ -1,1 +1,55 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gTkVXIERCIENyZWRlbnRpYWxzDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KDQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gdGVzdE5vcm1hbGl6YXRpb24oKSB7DQogICAgY29uc29sZS5sb2coJy0tLSBUZXN0aW5nIEtleSBOb3JtYWxpemF0aW9uIExvZ2ljIC0tLScpOw0KDQogICAgLy8gRmV0Y2ggb25lIHJvdw0KICAgIGNvbnN0IHsgZGF0YTogc2hlZXREYXRhLCBlcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCcqJykNCiAgICAgICAgLmxpbWl0KDEpOw0KDQogICAgaWYgKGVycm9yIHx8ICFzaGVldERhdGEgfHwgc2hlZXREYXRhLmxlbmd0aCA9PT0gMCkgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZyBzYW1wbGU6JywgZXJyb3I/Lm1lc3NhZ2UpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgY29uc3Qgcm93ID0gc2hlZXREYXRhWzBdLnJvd19kYXRhOw0KICAgIGNvbnNvbGUubG9nKCdPcmlnaW5hbCBLZXlzOicsIE9iamVjdC5rZXlzKHJvdykpOw0KDQogICAgY29uc3Qgbm9ybWFsaXplS2V5cyA9IChyb3c6IGFueSkgPT4gew0KICAgICAgICBjb25zdCBuZXdSb3c6IGFueSA9IHt9Ow0KICAgICAgICBPYmplY3Qua2V5cyhyb3cpLmZvckVhY2goa2V5ID0+IHsNCiAgICAgICAgICAgIGNvbnN0IGxvd2VyS2V5ID0ga2V5LnRvTG93ZXJDYXNlKCk7DQogICAgICAgICAgICBuZXdSb3dbbG93ZXJLZXldID0gcm93W2tleV07DQoNCiAgICAgICAgICAgIC8vIEV4cGxpY2l0IE1hcHBpbmdzIGZvciBtaXNtYXRjaGVzDQogICAgICAgICAgICBpZiAobG93ZXJLZXkgPT09ICdzaXR1YcOnw6NvJykgbmV3Um93WydzaXR1YWNhbyddID0gcm93W2tleV07DQogICAgICAgICAgICBpZiAobG93ZXJLZXkgPT09ICdpZGVudGlmaWNhZG9yIGRvIHBlZGlkbyBlLWNvbW1lcmNlJyB8fCBsb3dlcktleSA9PT0gJ251bWVybyBkYSBvcmRlbSBkZSBjb21wcmEnKSB7DQogICAgICAgICAgICAgICAgbmV3Um93WydpZCddID0gcm93W2tleV07DQogICAgICAgICAgICB9DQogICAgICAgIH0pOw0KICAgICAgICByZXR1cm4gbmV3Um93Ow0KICAgIH07DQoNCiAgICBjb25zdCBub3JtYWxpemVkID0gbm9ybWFsaXplS2V5cyhyb3cpOw0KICAgIGNvbnNvbGUubG9nKCdOb3JtYWxpemVkIEtleXM6JywgT2JqZWN0LmtleXMobm9ybWFsaXplZCkpOw0KDQogICAgLy8gQ0hFQ0sgU1BFQ0lGSUMgQ1JJVElDQUwgS0VZUw0KICAgIGNvbnN0IGNyaXRpY2FsS2V5cyA9IFsnaWQnLCAnaWRlbnRpZmljYWRvciBkbyBwZWRpZG8gZS1jb21tZXJjZScsICdjYW5hbCcsICdzaXR1YWNhbycsICdub21lJywgJ3Byb2R1dG8nXTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbkNyaXRpY2FsIEtleSBDaGVjazonKTsNCiAgICBjcml0aWNhbEtleXMuZm9yRWFjaChrZXkgPT4gew0KICAgICAgICBjb25zdCBleGlzdHMgPSBub3JtYWxpemVkLmhhc093blByb3BlcnR5KGtleSk7DQogICAgICAgIGNvbnNvbGUubG9nKGAtICcke2tleX0nOiAke2V4aXN0cyA/ICdPSycgOiAnTUlTU0lORyd9YCk7DQogICAgICAgIGlmIChleGlzdHMpIGNvbnNvbGUubG9nKGAgICBWYWx1ZTogJHtub3JtYWxpemVkW2tleV19YCk7DQogICAgfSk7DQp9DQoNCnRlc3ROb3JtYWxpemF0aW9uKCk7DQo=}
+import { createClient } from '@supabase/supabase-js';
+
+// NEW DB Credentials
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function testNormalization() {
+    console.log('--- Testing Key Normalization Logic ---');
+
+    // Fetch one row
+    const { data: sheetData, error } = await newSupabase
+        .from('spreadsheet_data')
+        .select('*')
+        .limit(1);
+
+    if (error || !sheetData || sheetData.length === 0) {
+        console.error('Error fetching sample:', error?.message);
+        return;
+    }
+
+    const row = sheetData[0].row_data;
+    console.log('Original Keys:', Object.keys(row));
+
+    const normalizeKeys = (row: any) => {
+        const newRow: any = {};
+        Object.keys(row).forEach(key => {
+            const lowerKey = key.toLowerCase();
+            newRow[lowerKey] = row[key];
+
+            // Explicit Mappings for mismatches
+            if (lowerKey === 'situação') newRow['situacao'] = row[key];
+            if (lowerKey === 'identificador do pedido e-commerce' || lowerKey === 'numero da ordem de compra') {
+                newRow['id'] = row[key];
+            }
+        });
+        return newRow;
+    };
+
+    const normalized = normalizeKeys(row);
+    console.log('Normalized Keys:', Object.keys(normalized));
+
+    // CHECK SPECIFIC CRITICAL KEYS
+    const criticalKeys = ['id', 'identificador do pedido e-commerce', 'canal', 'situacao', 'nome', 'produto'];
+
+    console.log('\nCritical Key Check:');
+    criticalKeys.forEach(key => {
+        const exists = normalized.hasOwnProperty(key);
+        console.log(`- '${key}': ${exists ? 'OK' : 'MISSING'}`);
+        if (exists) console.log(`   Value: ${normalized[key]}`);
+    });
+}
+
+testNormalization();

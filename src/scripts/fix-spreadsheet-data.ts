@@ -1,1 +1,60 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGZpeFNwcmVhZHNoZWV0RGF0YSgpIHsNCiAgICBjb25zb2xlLmxvZygnRml4aW5nIGNvcnJ1cHRlZCBzcHJlYWRzaGVldF9kYXRhLi4uJyk7DQoNCiAgICAvLyBGZXRjaCBjb3JydXB0IGNhbmRpZGF0ZXMgKGNsaWVudC1zaWRlIGZpbHRlciB0byBiZSBzYWZlKQ0KICAgIGNvbnN0IHsgZGF0YTogcm93cywgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQ0KICAgICAgICAubGltaXQoMzAwMCk7IC8vIEluY3JlYXNlZCBsaW1pdCB0byBjYXRjaCBtb3JlDQoNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgZmV0Y2hpbmc6JywgZXJyb3IpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgY29uc3QgdG9EZWxldGU6IHN0cmluZ1tdID0gW107DQoNCiAgICByb3dzLmZvckVhY2gocm93ID0+IHsNCiAgICAgICAgY29uc3QgZCA9IHJvdy5yb3dfZGF0YTsNCiAgICAgICAgaWYgKCFkKSByZXR1cm47DQoNCiAgICAgICAgY29uc3QgaWQgPSBkWydJZGVudGlmaWNhZG9yIGRvIHBlZGlkbyBlLWNvbW1lcmNlJ10gfHwgZFsnSUQgUGVkaWRvJ10gfHwgZFsnaWQnXTsNCiAgICAgICAgY29uc3QgY2xpZW50ID0gZFsnQ2xpZW50ZSddIHx8IGRbJ2NsaWVudGUnXSB8fCBkWydOb21lJ107DQoNCiAgICAgICAgLy8gQ1JJVEVSSUE6IExpdGVyYWwgJ3VuZGVmaW5lZCcgaW4gSUQgb3IgQ2xpZW50LCBvciBlbXB0eSBJRA0KICAgICAgICBjb25zdCBpc1VuZGVmaW5lZCA9IFN0cmluZyhpZCkuaW5jbHVkZXMoJ3VuZGVmaW5lZCcpIHx8IFN0cmluZyhjbGllbnQpLmluY2x1ZGVzKCd1bmRlZmluZWQnKTsNCiAgICAgICAgY29uc3QgaXNFbXB0eUlkID0gIWlkIHx8IGlkID09PSAnLScgfHwgaWQgPT09ICcnOw0KDQogICAgICAgIGlmIChpc1VuZGVmaW5lZCB8fCBpc0VtcHR5SWQpIHsNCiAgICAgICAgICAgIHRvRGVsZXRlLnB1c2gocm93LmlkKTsNCiAgICAgICAgfQ0KICAgIH0pOw0KDQogICAgY29uc29sZS5sb2coYEZvdW5kICR7dG9EZWxldGUubGVuZ3RofSBjb3JydXB0ZWQgcm93cyB0byBkZWxldGUuYCk7DQoNCiAgICBpZiAodG9EZWxldGUubGVuZ3RoID4gMCkgew0KICAgICAgICAvLyBEZWxldGUgaW4gYmF0Y2hlcyBvZiAxMDANCiAgICAgICAgY29uc3QgYmF0Y2hTaXplID0gMTAwOw0KICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IHRvRGVsZXRlLmxlbmd0aDsgaSArPSBiYXRjaFNpemUpIHsNCiAgICAgICAgICAgIGNvbnN0IGJhdGNoID0gdG9EZWxldGUuc2xpY2UoaSwgaSArIGJhdGNoU2l6ZSk7DQogICAgICAgICAgICBjb25zdCB7IGVycm9yOiBkZWxFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAgICAgLmRlbGV0ZSgpDQogICAgICAgICAgICAgICAgLmluKCdpZCcsIGJhdGNoKTsNCg0KICAgICAgICAgICAgaWYgKGRlbEVycm9yKSBjb25zb2xlLmVycm9yKCdFcnJvciBjaGVja2luZyBkZWxldGU6JywgZGVsRXJyb3IpOw0KICAgICAgICAgICAgZWxzZSBjb25zb2xlLmxvZyhgRGVsZXRlZCBiYXRjaCAke2kgLyBiYXRjaFNpemUgKyAxfSAoJHtiYXRjaC5sZW5ndGh9IHJvd3MpYCk7DQogICAgICAgIH0NCiAgICB9DQogICAgY29uc29sZS5sb2coJ0RvbmUuJyk7DQp9DQoNCmZpeFNwcmVhZHNoZWV0RGF0YSgpOw0K}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function fixSpreadsheetData() {
+    console.log('Fixing corrupted spreadsheet_data...');
+
+    // Fetch corrupt candidates (client-side filter to be safe)
+    const { data: rows, error } = await supabase
+        .from('spreadsheet_data')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(3000); // Increased limit to catch more
+
+    if (error) {
+        console.error('Error fetching:', error);
+        return;
+    }
+
+    const toDelete: string[] = [];
+
+    rows.forEach(row => {
+        const d = row.row_data;
+        if (!d) return;
+
+        const id = d['Identificador do pedido e-commerce'] || d['ID Pedido'] || d['id'];
+        const client = d['Cliente'] || d['cliente'] || d['Nome'];
+
+        // CRITERIA: Literal 'undefined' in ID or Client, or empty ID
+        const isUndefined = String(id).includes('undefined') || String(client).includes('undefined');
+        const isEmptyId = !id || id === '-' || id === '';
+
+        if (isUndefined || isEmptyId) {
+            toDelete.push(row.id);
+        }
+    });
+
+    console.log(`Found ${toDelete.length} corrupted rows to delete.`);
+
+    if (toDelete.length > 0) {
+        // Delete in batches of 100
+        const batchSize = 100;
+        for (let i = 0; i < toDelete.length; i += batchSize) {
+            const batch = toDelete.slice(i, i + batchSize);
+            const { error: delError } = await supabase
+                .from('spreadsheet_data')
+                .delete()
+                .in('id', batch);
+
+            if (delError) console.error('Error checking delete:', delError);
+            else console.log(`Deleted batch ${i / batchSize + 1} (${batch.length} rows)`);
+        }
+    }
+    console.log('Done.');
+}
+
+fixSpreadsheetData();

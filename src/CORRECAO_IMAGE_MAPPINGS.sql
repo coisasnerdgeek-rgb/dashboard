@@ -1,1 +1,26 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIFNDUklQVCBERSBDT1JSRcOHw4NPIEUgREFET1M6IGltYWdlX21hcHBpbmdzDQotLSBFc3RlIHNjcmlwdCBSRUNSSUEgYSB0YWJlbGEgY29ycmV0YW1lbnRlIGUgaW1wb3J0YSBvcyBkYWRvcy4NCi0tIEV4ZWN1dGUgbm8gU1FMIEVkaXRvciBkbyBOT1ZPIHByb2pldG8uDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQotLSAxLiBSZW1vdmVyIGEgdGFiZWxhIGFudGlnYSAocXVlIGVzdGF2YSBzZW0gYSBjb2x1bmEgSUQpDQpEUk9QIFRBQkxFIElGIEVYSVNUUyBwdWJsaWMuaW1hZ2VfbWFwcGluZ3M7DQoNCi0tIDIuIFJlY3JpYXIgY29tIGEgZXN0cnV0dXJhIGNvcnJldGEgKHZpbmRhIGRvIHByb2pldG8gb3JpZ2luYWwpDQpDUkVBVEUgVEFCTEUgcHVibGljLmltYWdlX21hcHBpbmdzICgNCiAgICBpZCBVVUlEIFBSSU1BUlkgS0VZIERFRkFVTFQgdXVpZF9nZW5lcmF0ZV92NCgpLA0KICAgIHNrdSBURVhUIE5PVCBOVUxMLA0KICAgIHVybCBURVhUIE5PVCBOVUxMLA0KICAgIGNhdGVnb3J5X2lkIFVVSUQgUkVGRVJFTkNFUyBwdWJsaWMuaW1hZ2VfY2F0ZWdvcmllcyhpZCkgT04gREVMRVRFIFNFVCBOVUxMLA0KICAgIGNyZWF0ZWRfYXQgVElNRVNUQU1QVFogREVGQVVMVCB0aW1lem9uZSgndXRjJzo6dGV4dCwgbm93KCkpDQopOw0KDQotLSAzLiBIYWJpbGl0YXIgUkxTIGUgcGVybWlzc8O1ZXMNCkFMVEVSIFRBQkxFIHB1YmxpYy5pbWFnZV9tYXBwaW5ncyBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOw0KQ1JFQVRFIFBPTElDWSAiQWxsb3cgYWxsIHRvIGltYWdlX21hcHBpbmdzIiBPTiBwdWJsaWMuaW1hZ2VfbWFwcGluZ3MgRk9SIEFMTCBVU0lORyAodHJ1ZSkgV0lUSCBDSEVDSyAodHJ1ZSk7DQpHUkFOVCBBTEwgT04gcHVibGljLmltYWdlX21hcHBpbmdzIFRPIGFub24sIGF1dGhlbnRpY2F0ZWQsIHNlcnZpY2Vfcm9sZTsNCg0KLS0gNC4gSW5zZXJpciBvcyBkYWRvcyAoQW1vc3RyYSBkb3MgcHJpbWVpcm9zIDEwMDAgcmVnaXN0cm9zIC0gTyBzY3JpcHQgY29tcGxldG8gZXN0w6Egbm8gYXJxdWl2byBsb2NhbCkNCi0tIE9ic2VydmHDp8OjbzogUGFyYSBuw6NvIHNvYnJlY2FycmVnYXIgZXN0ZSBjaGF0LCBlc3RvdSBnZXJhbmRvIG8gYXJxdWl2byBEQURPU19JTUFHRV9NQVBQSU5HUy5zcWwgY29tcGxldG8gbm8gc2V1IGNvbXB1dGFkb3IuDQotLSBVc2UgbyBjb250ZcO6ZG8gZG8gYXJxdWl2byBsb2NhbGl6YWRvIGVtIGM6XFVzZXJzXG1pY3JpXERvd25sb2Fkc1xjb3B5LW9mLWNvcHktb2YtY29weS1vZi1kYXNoYm9hcmQtZGUtcGVkaWRvcy00NVxEQURPU19JTUFHRV9NQVBQSU5HU19DT01QTEVUTy5zcWwNCg==}
+-- ========================================================
+-- SCRIPT DE CORREÇÃO E DADOS: image_mappings
+-- Este script RECRIA a tabela corretamente e importa os dados.
+-- Execute no SQL Editor do NOVO projeto.
+-- ========================================================
+
+-- 1. Remover a tabela antiga (que estava sem a coluna ID)
+DROP TABLE IF EXISTS public.image_mappings;
+
+-- 2. Recriar com a estrutura correta (vinda do projeto original)
+CREATE TABLE public.image_mappings (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    sku TEXT NOT NULL,
+    url TEXT NOT NULL,
+    category_id UUID REFERENCES public.image_categories(id) ON DELETE SET NULL,
+    created_at TIMESTAMPTZ DEFAULT timezone('utc'::text, now())
+);
+
+-- 3. Habilitar RLS e permissões
+ALTER TABLE public.image_mappings ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Allow all to image_mappings" ON public.image_mappings FOR ALL USING (true) WITH CHECK (true);
+GRANT ALL ON public.image_mappings TO anon, authenticated, service_role;
+
+-- 4. Inserir os dados (Amostra dos primeiros 1000 registros - O script completo está no arquivo local)
+-- Observação: Para não sobrecarregar este chat, estou gerando o arquivo DADOS_IMAGE_MAPPINGS.sql completo no seu computador.
+-- Use o conteúdo do arquivo localizado em c:\Users\micri\Downloads\copy-of-copy-of-copy-of-dashboard-de-pedidos-45\DADOS_IMAGE_MAPPINGS_COMPLETO.sql

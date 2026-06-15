@@ -1,1 +1,34 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBTVVBBQkFTRV9VUkwgPSAiaHR0cHM6Ly9nZWFidmNxY3ltYXFzcXh4ZnF5dy5zdXBhYmFzZS5jbyI7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSAiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVIjsNCg0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoU1VQQUJBU0VfVVJMLCBTVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja1N0YXR1cygpIHsNCiAgICBjb25zb2xlLmxvZygnLS0tIFN0YXR1cyBBdHVhbCBkYSBGaWxhIGRlIFNpbmNyb25pemHDp8OjbyAtLS0nKTsNCg0KICAgIGNvbnN0IHN0YXR1c2VzID0gWydwZW5kaW5nJywgJ3Byb2Nlc3NpbmcnLCAnY29tcGxldGVkJywgJ2ZhaWxlZCddOw0KDQogICAgZm9yIChjb25zdCBzdGF0dXMgb2Ygc3RhdHVzZXMpIHsNCiAgICAgICAgY29uc3QgeyBjb3VudCwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KQ0KICAgICAgICAgICAgLmVxKCdzdGF0dXMnLCBzdGF0dXMpOw0KDQogICAgICAgIGlmIChlcnJvcikgY29uc29sZS5lcnJvcihgRXJybyBhbyB2ZXJpZmljYXIgJHtzdGF0dXN9OmAsIGVycm9yLm1lc3NhZ2UpOw0KICAgICAgICBlbHNlIGNvbnNvbGUubG9nKGBTdGF0dXMgJyR7c3RhdHVzLnRvVXBwZXJDYXNlKCl9JzogJHtjb3VudH1gKTsNCiAgICB9DQoNCiAgICAvLyBDaGVjayBwcm9ncmVzcyBvZiB0b2RheSdzIGltcG9ydHMNCiAgICBjb25zdCB0b2RheSA9IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKS5zcGxpdCgnVCcpWzBdOw0KICAgIGNvbnN0IHsgY291bnQ6IGltcG9ydGVkVG9kYXkgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgLmd0ZSgnaW1wb3J0X2RhdGUnLCB0b2RheSk7DQoNCiAgICBjb25zb2xlLmxvZyhgXG7wn5OmIFBlZGlkb3MgaW1wb3J0YWRvcyBob2plICgke3RvZGF5fSk6ICR7aW1wb3J0ZWRUb2RheX1gKTsNCn0NCg0KY2hlY2tTdGF0dXMoKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+
+const SUPABASE_URL = "https://geabvcqcymaqsqxxfqyw.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU";
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+async function checkStatus() {
+    console.log('--- Status Atual da Fila de Sincronização ---');
+
+    const statuses = ['pending', 'processing', 'completed', 'failed'];
+
+    for (const status of statuses) {
+        const { count, error } = await supabase
+            .from('webhook_retry_queue')
+            .select('*', { count: 'exact', head: true })
+            .eq('status', status);
+
+        if (error) console.error(`Erro ao verificar ${status}:`, error.message);
+        else console.log(`Status '${status.toUpperCase()}': ${count}`);
+    }
+
+    // Check progress of today's imports
+    const today = new Date().toISOString().split('T')[0];
+    const { count: importedToday } = await supabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true })
+        .gte('import_date', today);
+
+    console.log(`\n📦 Pedidos importados hoje (${today}): ${importedToday}`);
+}
+
+checkStatus().catch(console.error);

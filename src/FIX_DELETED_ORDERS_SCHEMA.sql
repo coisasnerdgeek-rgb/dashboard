@@ -1,1 +1,26 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIFNDUklQVCBERSBDT1JSRcOHw4NPOiBUQUJFTEEgREVMRVRFRF9PUkRFUlMNCi0tIEV4ZWN1dGUgZXN0ZSBzY3JpcHQgbm8gU1FMIEVkaXRvciBkbyBzZXUgTk9WTyBwcm9qZXRvIFN1cGFiYXNlLg0KLS0gSXNzbyBmb3LDp2Fyw6EgbyBiYW5jbyBhIHJlY29uaGVjZXIgdG9kYXMgYXMgY29sdW5hcyBuZWNlc3PDoXJpYXMuDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQotLSAxLiBSZW1vdmVyIGEgdGFiZWxhIGFudGlnYSAoc2UgaG91dmVyIGNvbmZsaXRvIGRlIGNhY2hlKQ0KRFJPUCBUQUJMRSBJRiBFWElTVFMgcHVibGljLmRlbGV0ZWRfb3JkZXJzIENBU0NBREU7DQoNCi0tIDIuIFJlY3JpYXIgY29tIGEgZXN0cnV0dXJhIGNvbXBsZXRhDQpDUkVBVEUgVEFCTEUgcHVibGljLmRlbGV0ZWRfb3JkZXJzICgNCiAgICBvcmRlcl9pZCB0ZXh0IFBSSU1BUlkgS0VZLA0KICAgIHRpbnlfaWQgdGV4dCwgLS0gQWRkZWQgY29sdW1uDQogICAgZGVsZXRlZF9hdCB0aW1lc3RhbXAgd2l0aCB0aW1lIHpvbmUgREVGQVVMVCBub3coKSwNCiAgICBkZWxldGVkX2J5IHRleHQsDQogICAgb3JkZXJfZGF0YSBqc29uYiwNCiAgICByZWFzb24gdGV4dA0KKTsNCg0KLS0gMy4gSGFiaWxpdGFyIHBlcm1pc3PDtWVzDQpBTFRFUiBUQUJMRSBwdWJsaWMuZGVsZXRlZF9vcmRlcnMgRU5BQkxFIFJPVyBMRVZFTCBTRUNVUklUWTsNCkNSRUFURSBQT0xJQ1kgIkFsbG93IGFsbCIgT04gcHVibGljLmRlbGV0ZWRfb3JkZXJzIEZPUiBBTEwgVVNJTkcgKHRydWUpIFdJVEggQ0hFQ0sgKHRydWUpOw0KR1JBTlQgQUxMIE9OIHB1YmxpYy5kZWxldGVkX29yZGVycyBUTyBhbm9uLCBhdXRoZW50aWNhdGVkLCBzZXJ2aWNlX3JvbGU7DQoNCi0tIDQuIE5vdGlmaWNhciBvIHNpc3RlbWEgcGFyYSBhdHVhbGl6YXIgbyBjYWNoZQ0KTk9USUZZIHBncnN0LCAncmVsb2FkIHNjaGVtYSc7DQo=}
+-- ========================================================
+-- SCRIPT DE CORREÇÃO: TABELA DELETED_ORDERS
+-- Execute este script no SQL Editor do seu NOVO projeto Supabase.
+-- Isso forçará o banco a reconhecer todas as colunas necessárias.
+-- ========================================================
+
+-- 1. Remover a tabela antiga (se houver conflito de cache)
+DROP TABLE IF EXISTS public.deleted_orders CASCADE;
+
+-- 2. Recriar com a estrutura completa
+CREATE TABLE public.deleted_orders (
+    order_id text PRIMARY KEY,
+    tiny_id text, -- Added column
+    deleted_at timestamp with time zone DEFAULT now(),
+    deleted_by text,
+    order_data jsonb,
+    reason text
+);
+
+-- 3. Habilitar permissões
+ALTER TABLE public.deleted_orders ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Allow all" ON public.deleted_orders FOR ALL USING (true) WITH CHECK (true);
+GRANT ALL ON public.deleted_orders TO anon, authenticated, service_role;
+
+-- 4. Notificar o sistema para atualizar o cache
+NOTIFY pgrst, 'reload schema';

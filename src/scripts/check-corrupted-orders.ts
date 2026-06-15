@@ -1,1 +1,58 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrQ29ycnVwdGVkKCkgew0KICAgIGNvbnNvbGUubG9nKCdDaGVja2luZyBmb3IgY29ycnVwdGVkIG9yZGVycyBpbiBzYXZlZF9vcmRlcnMuLi4nKTsNCg0KICAgIC8vIDEuIENoZWNrIGZvciAndW5kZWZpbmVkJyBpbiBvcmRlcl9pZA0KICAgIGNvbnN0IHsgZGF0YTogdW5kZWZpbmVkSWRzLCBlcnJvcjogZXJyMSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgIC5zZWxlY3QoJ2lkLCBvcmRlcl9pZCwgY3VzdG9tZXIsIGRhdGUnKQ0KICAgICAgICAuaWxpa2UoJ29yZGVyX2lkJywgJyV1bmRlZmluZWQlJyk7DQoNCiAgICBpZiAoZXJyMSkgY29uc29sZS5lcnJvcignRXJyb3IgY2hlY2tpbmcgdW5kZWZpbmVkIElEczonLCBlcnIxKTsNCiAgICBlbHNlIGNvbnNvbGUubG9nKGBGb3VuZCAke3VuZGVmaW5lZElkcz8ubGVuZ3RofSBvcmRlcnMgd2l0aCAidW5kZWZpbmVkIiBpbiBJRC5gKTsNCiAgICBpZiAodW5kZWZpbmVkSWRzPy5sZW5ndGgpIGNvbnNvbGUubG9nKCdTYW1wbGU6JywgdW5kZWZpbmVkSWRzLnNsaWNlKDAsIDMpKTsNCg0KICAgIC8vIDIuIENoZWNrIGZvciBtaXNzaW5nIHZpdGFsIGZpZWxkcyAobGlrZSBjdXN0b21lciBuYW1lIG1pc3NpbmcgYnV0IG9yZGVyIGV4aXN0cykNCiAgICAvLyBUaGUgc2NyZWVuc2hvdCBzaG93ZWQgJ1ZpdG9yIEJydWVsJyBtdWx0aXBsZSB0aW1lcyBidXQgbWlzc2luZyBJRC4NCiAgICAvLyBNYXliZSBvcmRlcl9pZCBpcyBudWxsPyAoSXQncyB1c3VhbGx5IFBLIG9yIG5vbi1udWxsLCBidXQgbGV0J3MgY2hlY2sgZW1wdHkgc3RyaW5ncykNCiAgICBjb25zdCB7IGRhdGE6IGVtcHR5SWRzLCBlcnJvcjogZXJyMiB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgIC5zZWxlY3QoJ2lkLCBvcmRlcl9pZCwgY3VzdG9tZXIsIGRhdGUnKQ0KICAgICAgICAuZXEoJ29yZGVyX2lkJywgJycpOw0KDQogICAgaWYgKGVycjIpIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGNoZWNraW5nIGVtcHR5IElEczonLCBlcnIyKTsNCiAgICBlbHNlIGNvbnNvbGUubG9nKGBGb3VuZCAke2VtcHR5SWRzPy5sZW5ndGh9IG9yZGVycyB3aXRoIGVtcHR5IHN0cmluZyBJRC5gKTsNCg0KICAgIC8vIDMuIENoZWNrIGZvciBzcGVjaWZpYyBjdXN0b21lciAiVml0b3IgQnJ1ZWwiIHRvIHNlZSB3aGF0IHRob3NlIHJvd3MgbG9vayBsaWtlDQogICAgY29uc3QgeyBkYXRhOiB2aXRvciwgZXJyb3I6IGVycjMgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzYXZlZF9vcmRlcnMnKQ0KICAgICAgICAuc2VsZWN0KCcqJykNCiAgICAgICAgLmlsaWtlKCdjdXN0b21lcicsICclVml0b3IgQnJ1ZWwlJykNCiAgICAgICAgLm9yZGVyKCdjcmVhdGVkX2F0JywgeyBhc2NlbmRpbmc6IGZhbHNlIH0pDQogICAgICAgIC5saW1pdCg1KTsNCg0KICAgIGlmIChlcnIzKSBjb25zb2xlLmVycm9yKCdFcnJvciBjaGVja2luZyBWaXRvciBCcnVlbDonLCBlcnIzKTsNCiAgICBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coYENoZWNraW5nIHJvd3MgZm9yICJWaXRvciBCcnVlbCI6YCk7DQogICAgICAgIHZpdG9yPy5mb3JFYWNoKHJvdyA9PiB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgSUQ6ICR7cm93LmlkfSwgT3JkZXJJRDogJHtyb3cub3JkZXJfaWR9LCBTS1U6ICR7cm93LnNrdV9saXN0fSwgU3RhdHVzOiAke3Jvdy5zdGF0dXN9YCk7DQogICAgICAgIH0pOw0KICAgIH0NCg0KICAgIC8vIDQuIENoZWNrIGZvciByb3dzIGNyZWF0ZWQgVE9EQVkgKHNpbmNlIHVzZXIgbWVudGlvbmVkICJzY3JpcHQgZG8gZGlhIGRlIGhvamUiKQ0KICAgIGNvbnN0IHRvZGF5ID0gbmV3IERhdGUoKS50b0lTT1N0cmluZygpLnNwbGl0KCdUJylbMF07DQogICAgY29uc3QgeyBjb3VudDogY291bnRUb2RheSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pDQogICAgICAgIC5ndGUoJ2NyZWF0ZWRfYXQnLCBgJHt0b2RheX1UMDA6MDA6MDBgKTsNCg0KICAgIGNvbnNvbGUubG9nKGBUb3RhbCBvcmRlcnMgY3JlYXRlZCB0b2RheSAoJHt0b2RheX0pOiAke2NvdW50VG9kYXl9YCk7DQp9DQoNCmNoZWNrQ29ycnVwdGVkKCk7DQo=}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function checkCorrupted() {
+    console.log('Checking for corrupted orders in saved_orders...');
+
+    // 1. Check for 'undefined' in order_id
+    const { data: undefinedIds, error: err1 } = await supabase
+        .from('saved_orders')
+        .select('id, order_id, customer, date')
+        .ilike('order_id', '%undefined%');
+
+    if (err1) console.error('Error checking undefined IDs:', err1);
+    else console.log(`Found ${undefinedIds?.length} orders with "undefined" in ID.`);
+    if (undefinedIds?.length) console.log('Sample:', undefinedIds.slice(0, 3));
+
+    // 2. Check for missing vital fields (like customer name missing but order exists)
+    // The screenshot showed 'Vitor Bruel' multiple times but missing ID.
+    // Maybe order_id is null? (It's usually PK or non-null, but let's check empty strings)
+    const { data: emptyIds, error: err2 } = await supabase
+        .from('saved_orders')
+        .select('id, order_id, customer, date')
+        .eq('order_id', '');
+
+    if (err2) console.error('Error checking empty IDs:', err2);
+    else console.log(`Found ${emptyIds?.length} orders with empty string ID.`);
+
+    // 3. Check for specific customer "Vitor Bruel" to see what those rows look like
+    const { data: vitor, error: err3 } = await supabase
+        .from('saved_orders')
+        .select('*')
+        .ilike('customer', '%Vitor Bruel%')
+        .order('created_at', { ascending: false })
+        .limit(5);
+
+    if (err3) console.error('Error checking Vitor Bruel:', err3);
+    else {
+        console.log(`Checking rows for "Vitor Bruel":`);
+        vitor?.forEach(row => {
+            console.log(`ID: ${row.id}, OrderID: ${row.order_id}, SKU: ${row.sku_list}, Status: ${row.status}`);
+        });
+    }
+
+    // 4. Check for rows created TODAY (since user mentioned "script do dia de hoje")
+    const today = new Date().toISOString().split('T')[0];
+    const { count: countToday } = await supabase
+        .from('saved_orders')
+        .select('*', { count: 'exact', head: true })
+        .gte('created_at', `${today}T00:00:00`);
+
+    console.log(`Total orders created today (${today}): ${countToday}`);
+}
+
+checkCorrupted();

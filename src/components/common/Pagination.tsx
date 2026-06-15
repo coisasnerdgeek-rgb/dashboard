@@ -1,1 +1,99 @@
-﻿@{data=aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsNCg0KaW50ZXJmYWNlIFBhZ2luYXRpb25Qcm9wcyB7DQogICAgY3VycmVudFBhZ2U6IG51bWJlcjsNCiAgICB0b3RhbFBhZ2VzOiBudW1iZXI7DQogICAgcm93c1BlclBhZ2U6IG51bWJlcjsNCiAgICBvblBhZ2VDaGFuZ2U6IChwYWdlOiBudW1iZXIpID0+IHZvaWQ7DQogICAgb25Sb3dzUGVyUGFnZUNoYW5nZTogKHJvd3M6IG51bWJlcikgPT4gdm9pZDsNCn0NCg0KZXhwb3J0IGNvbnN0IFBhZ2luYXRpb246IFJlYWN0LkZDPFBhZ2luYXRpb25Qcm9wcz4gPSAoeyBjdXJyZW50UGFnZSwgdG90YWxQYWdlcywgcm93c1BlclBhZ2UsIG9uUGFnZUNoYW5nZSwgb25Sb3dzUGVyUGFnZUNoYW5nZSB9KSA9PiB7DQogICAgaWYgKHRvdGFsUGFnZXMgPD0gMSkgcmV0dXJuIG51bGw7DQoNCiAgICBjb25zdCBidXR0b25DbGFzc2VzID0gImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGgtOCBtaW4tdy1bMzJweF0gcHgtMSB0ZXh0LXNtIGZvbnQtbWVkaXVtIGJvcmRlciByb3VuZGVkLW1kIHRyYW5zaXRpb24tY29sb3JzIGRpc2FibGVkOm9wYWNpdHktNTAgZGlzYWJsZWQ6Y3Vyc29yLW5vdC1hbGxvd2VkIjsNCiAgICBjb25zdCBhY3RpdmVDbGFzc2VzID0gImJnLXByaW1hcnktNjAwIHRleHQtd2hpdGUgYm9yZGVyLXByaW1hcnktNjAwIGhvdmVyOmJnLXByaW1hcnktNzAwIjsNCiAgICBjb25zdCBpbmFjdGl2ZUNsYXNzZXMgPSAiYmctd2hpdGUgZGFyazpiZy1ncmF5LTgwMCB0ZXh0LWdyYXktNzAwIGRhcms6dGV4dC1ncmF5LTMwMCBib3JkZXItZ3JheS0zMDAgZGFyazpib3JkZXItZ3JheS02MDAgaG92ZXI6YmctZ3JheS01MCBkYXJrOmhvdmVyOmJnLWdyYXktNzAwIjsNCg0KICAgIGNvbnN0IGdldFBhZ2VOdW1iZXJzID0gKCkgPT4gew0KICAgICAgICBjb25zdCBkZWx0YSA9IDE7IC8vIE51bWJlciBvZiBwYWdlcyB0byBzaG93IG9uIGVhY2ggc2lkZSBvZiBjdXJyZW50DQogICAgICAgIGNvbnN0IHJhbmdlID0gW107DQogICAgICAgIGNvbnN0IHJhbmdlV2l0aERvdHMgPSBbXTsNCiAgICAgICAgbGV0IGw7DQoNCiAgICAgICAgZm9yIChsZXQgaSA9IDE7IGkgPD0gdG90YWxQYWdlczsgaSsrKSB7DQogICAgICAgICAgICBpZiAoaSA9PT0gMSB8fCBpID09PSB0b3RhbFBhZ2VzIHx8IChpID49IGN1cnJlbnRQYWdlIC0gZGVsdGEgJiYgaSA8PSBjdXJyZW50UGFnZSArIGRlbHRhKSkgew0KICAgICAgICAgICAgICAgIHJhbmdlLnB1c2goaSk7DQogICAgICAgICAgICB9DQogICAgICAgIH0NCg0KICAgICAgICBmb3IgKGxldCBpIG9mIHJhbmdlKSB7DQogICAgICAgICAgICBpZiAobCkgew0KICAgICAgICAgICAgICAgIGlmIChpIC0gbCA9PT0gMikgew0KICAgICAgICAgICAgICAgICAgICByYW5nZVdpdGhEb3RzLnB1c2gobCArIDEpOw0KICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoaSAtIGwgIT09IDEpIHsNCiAgICAgICAgICAgICAgICAgICAgcmFuZ2VXaXRoRG90cy5wdXNoKCcuLi4nKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgICAgICByYW5nZVdpdGhEb3RzLnB1c2goaSk7DQogICAgICAgICAgICBsID0gaTsNCiAgICAgICAgfQ0KDQogICAgICAgIHJldHVybiByYW5nZVdpdGhEb3RzOw0KICAgIH07DQoNCiAgICByZXR1cm4gKA0KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGJvcmRlci10IGJvcmRlci1ncmF5LTIwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCBiZy13aGl0ZSBkYXJrOmJnLWdyYXktODAwIHB4LTQgcHktMyBzbTpweC02IG10LTQgcm91bmRlZC1sZyBzaGFkb3ctc20iPg0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIj4NCiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ncmF5LTcwMCBkYXJrOnRleHQtZ3JheS0zMDAgbXItNCI+DQogICAgICAgICAgICAgICAgICAgIExpbmhhcyBwb3IgcMOhZ2luYToNCiAgICAgICAgICAgICAgICA8L3A+DQogICAgICAgICAgICAgICAgPHNlbGVjdA0KICAgICAgICAgICAgICAgICAgICB2YWx1ZT17cm93c1BlclBhZ2V9DQogICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gew0KICAgICAgICAgICAgICAgICAgICAgICAgb25Sb3dzUGVyUGFnZUNoYW5nZShOdW1iZXIoZS50YXJnZXQudmFsdWUpKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIG9uUGFnZUNoYW5nZSgxKTsNCiAgICAgICAgICAgICAgICAgICAgfX0NCiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJibG9jayB3LTIwIHBsLTMgcHItOCBweS0xLjUgdGV4dC1iYXNlIGJvcmRlci1ncmF5LTMwMCBkYXJrOmJvcmRlci1ncmF5LTYwMCBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy1wcmltYXJ5LTUwMCBmb2N1czpib3JkZXItcHJpbWFyeS01MDAgc206dGV4dC1zbSByb3VuZGVkLW1kIGJnLXdoaXRlIGRhcms6YmctZ3JheS03MDAgZGFyazp0ZXh0LXdoaXRlIg0KICAgICAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT17MjV9PjI1PC9vcHRpb24+DQogICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9ezUwfT41MDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPXsxMDB9PjEwMDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPXsyMDB9PjIwMDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgIDwvc2VsZWN0Pg0KICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0xIj4NCiAgICAgICAgICAgICAgICA8YnV0dG9uDQogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uUGFnZUNoYW5nZShjdXJyZW50UGFnZSAtIDEpfQ0KICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17Y3VycmVudFBhZ2UgPT09IDF9DQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YCR7YnV0dG9uQ2xhc3Nlc30gJHtpbmFjdGl2ZUNsYXNzZXN9IGB9DQogICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAmbHNhcXVvOw0KICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KDQogICAgICAgICAgICAgICAge2dldFBhZ2VOdW1iZXJzKCkubWFwKChwYWdlLCBpbmRleCkgPT4gKA0KICAgICAgICAgICAgICAgICAgICBwYWdlID09PSAnLi4uJyA/ICgNCiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGtleT17YGRvdHMtJHtpbmRleH1gfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGgtOCBweC0yIHRleHQtZ3JheS01MDAgZGFyazp0ZXh0LWdyYXktNDAwIj4uLi48L3NwYW4+DQogICAgICAgICAgICAgICAgICAgICkgOiAoDQogICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uDQogICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtwYWdlfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uUGFnZUNoYW5nZShwYWdlIGFzIG51bWJlcil9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgJHtidXR0b25DbGFzc2VzfSAke2N1cnJlbnRQYWdlID09PSBwYWdlID8gYWN0aXZlQ2xhc3NlcyA6IGluYWN0aXZlQ2xhc3Nlc30gYH0NCiAgICAgICAgICAgICAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cGFnZX0NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgICAgICApDQogICAgICAgICAgICAgICAgKSl9DQoNCiAgICAgICAgICAgICAgICA8YnV0dG9uDQogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uUGFnZUNoYW5nZShjdXJyZW50UGFnZSArIDEpfQ0KICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17Y3VycmVudFBhZ2UgPT09IHRvdGFsUGFnZXN9DQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YCR7YnV0dG9uQ2xhc3Nlc30gJHtpbmFjdGl2ZUNsYXNzZXN9IGB9DQogICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAmcnNhcXVvOw0KICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvZGl2Pg0KICAgICk7DQp9Ow0K}
+import React from 'react';
+
+interface PaginationProps {
+    currentPage: number;
+    totalPages: number;
+    rowsPerPage: number;
+    onPageChange: (page: number) => void;
+    onRowsPerPageChange: (rows: number) => void;
+}
+
+export const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, rowsPerPage, onPageChange, onRowsPerPageChange }) => {
+    if (totalPages <= 1) return null;
+
+    const buttonClasses = "flex items-center justify-center h-8 min-w-[32px] px-1 text-sm font-medium border rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed";
+    const activeClasses = "bg-primary-600 text-white border-primary-600 hover:bg-primary-700";
+    const inactiveClasses = "bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700";
+
+    const getPageNumbers = () => {
+        const delta = 1; // Number of pages to show on each side of current
+        const range = [];
+        const rangeWithDots = [];
+        let l;
+
+        for (let i = 1; i <= totalPages; i++) {
+            if (i === 1 || i === totalPages || (i >= currentPage - delta && i <= currentPage + delta)) {
+                range.push(i);
+            }
+        }
+
+        for (let i of range) {
+            if (l) {
+                if (i - l === 2) {
+                    rangeWithDots.push(l + 1);
+                } else if (i - l !== 1) {
+                    rangeWithDots.push('...');
+                }
+            }
+            rangeWithDots.push(i);
+            l = i;
+        }
+
+        return rangeWithDots;
+    };
+
+    return (
+        <div className="flex items-center justify-between border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-3 sm:px-6 mt-4 rounded-lg shadow-sm">
+            <div className="flex items-center">
+                <p className="text-sm text-gray-700 dark:text-gray-300 mr-4">
+                    Linhas por página:
+                </p>
+                <select
+                    value={rowsPerPage}
+                    onChange={(e) => {
+                        onRowsPerPageChange(Number(e.target.value));
+                        onPageChange(1);
+                    }}
+                    className="block w-20 pl-3 pr-8 py-1.5 text-base border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm rounded-md bg-white dark:bg-gray-700 dark:text-white"
+                >
+                    <option value={25}>25</option>
+                    <option value={50}>50</option>
+                    <option value={100}>100</option>
+                    <option value={200}>200</option>
+                </select>
+            </div>
+
+            <div className="flex gap-1">
+                <button
+                    onClick={() => onPageChange(currentPage - 1)}
+                    disabled={currentPage === 1}
+                    className={`${buttonClasses} ${inactiveClasses} `}
+                >
+                    &lsaquo;
+                </button>
+
+                {getPageNumbers().map((page, index) => (
+                    page === '...' ? (
+                        <span key={`dots-${index}`} className="flex items-center justify-center h-8 px-2 text-gray-500 dark:text-gray-400">...</span>
+                    ) : (
+                        <button
+                            key={page}
+                            onClick={() => onPageChange(page as number)}
+                            className={`${buttonClasses} ${currentPage === page ? activeClasses : inactiveClasses} `}
+                        >
+                            {page}
+                        </button>
+                    )
+                ))}
+
+                <button
+                    onClick={() => onPageChange(currentPage + 1)}
+                    disabled={currentPage === totalPages}
+                    className={`${buttonClasses} ${inactiveClasses} `}
+                >
+                    &rsaquo;
+                </button>
+            </div>
+        </div>
+    );
+};

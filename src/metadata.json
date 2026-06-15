@@ -1,1 +1,5 @@
-﻿@{data=ewogICJuYW1lIjogIkNvcHkgb2YgQ29weSBvZiBDb3B5IG9mIERhc2hib2FyZCBkZSBQZWRpZG9zIDQ1IiwKICAiZGVzY3JpcHRpb24iOiAiRmHDp2EgdXBsb2FkIGRlIHN1YXMgcGxhbmlsaGFzIChDU1YsIFhMU1gpIGUgdHJhbnNmb3JtZSBkYWRvcyBicnV0b3MgZW0gdW0gcGFpbmVsIGRlIGNvbnRyb2xlIGludGVyYXRpdm8gZSB2aXN1YWxtZW50ZSBhdHJhZW50ZS4gQW5hbGlzZSBzZXVzIGRhZG9zIGNvbSBncsOhZmljb3MgZGluw6JtaWNvcyBlIHVtYSBsaXN0YWdlbSBvcmdhbml6YWRhLiIsCiAgInJlcXVlc3RGcmFtZVBlcm1pc3Npb25zIjogW10KfQ==}
+{
+  "name": "Copy of Copy of Copy of Dashboard de Pedidos 45",
+  "description": "Faça upload de suas planilhas (CSV, XLSX) e transforme dados brutos em um painel de controle interativo e visualmente atraente. Analise seus dados com gráficos dinâmicos e uma listagem organizada.",
+  "requestFramePermissions": []
+}

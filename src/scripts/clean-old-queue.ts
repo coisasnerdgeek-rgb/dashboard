@@ -1,1 +1,191 @@
-﻿@{data=LyoqDQogKiBMaW1wYXIgZmlsYSBhbnRpZ2EgZGUgcmV0cnkNCiAqIFJlbW92ZS9tYXJjYSBjb21vIGNvbXBsZXRlZCBwZWRpZG9zIGFudGlnb3MgcXVlIGrDoSBmb3JhbSBwcm9jZXNzYWRvcw0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIC5lbnYubG9jYWwNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KDQphc3luYyBmdW5jdGlvbiBjbGVhbk9sZFF1ZXVlKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCfp7kgTGltcGFuZG8gRmlsYSBBbnRpZ2EgZGUgUmV0cnlcbicpOw0KICAgIGNvbnNvbGUubG9nKCc9Jy5yZXBlYXQoNjApICsgJ1xuJyk7DQoNCiAgICAvLyBEYXRhIGRlIGNvcnRlOiA3IGRpYXMgYXRyw6FzDQogICAgY29uc3Qgc2V2ZW5EYXlzQWdvID0gbmV3IERhdGUoKTsNCiAgICBzZXZlbkRheXNBZ28uc2V0RGF0ZShzZXZlbkRheXNBZ28uZ2V0RGF0ZSgpIC0gNyk7DQogICAgY29uc3QgY3V0T2ZmRGF0ZSA9IHNldmVuRGF5c0Fnby50b0lTT1N0cmluZygpOw0KDQogICAgY29uc29sZS5sb2coYPCfk4UgRGF0YSBkZSBjb3J0ZTogJHtjdXRPZmZEYXRlfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICAoUGVkaWRvcyBhZGljaW9uYWRvcyDDoCBmaWxhIEFOVEVTIGRlc3NhIGRhdGEgc2Vyw6NvIHZlcmlmaWNhZG9zKVxuYCk7DQoNCiAgICAvLyBCdXNjYXIgcGVkaWRvcyBhbnRpZ29zIHBlbmRlbnRlcw0KICAgIGNvbnNvbGUubG9nKCfwn5SNIEJ1c2NhbmRvIHBlZGlkb3MgYW50aWdvcyBwZW5kZW50ZXMuLi5cbicpOw0KDQogICAgY29uc3QgeyBkYXRhOiBvbGRQZW5kaW5nLCBlcnJvciwgY291bnQgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcgfSkNCiAgICAgICAgLmVxKCdzdGF0dXMnLCAncGVuZGluZycpDQogICAgICAgIC5sdCgnY3JlYXRlZF9hdCcsIGN1dE9mZkRhdGUpDQogICAgICAgIC5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiB0cnVlIH0pOw0KDQogICAgaWYgKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvOicsIGVycm9yKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGlmICghb2xkUGVuZGluZyB8fCBvbGRQZW5kaW5nLmxlbmd0aCA9PT0gMCkgew0KICAgICAgICBjb25zb2xlLmxvZygn4pyFIE5lbmh1bSBwZWRpZG8gYW50aWdvIHBlbmRlbnRlIGVuY29udHJhZG8hXG4nKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKGDwn5OKIEVuY29udHJhZG9zICR7Y291bnR9IHBlZGlkb3MgYW50aWdvcyBwZW5kZW50ZXNcbmApOw0KDQogICAgLy8gQWdydXBhciBwb3IgaWRhZGUNCiAgICBjb25zdCBub3cgPSBuZXcgRGF0ZSgpOw0KICAgIGNvbnN0IGFnZUdyb3VwcyA9IHsNCiAgICAgICAgJzctMTQgZGlhcyc6IDAsDQogICAgICAgICcxNS0zMCBkaWFzJzogMCwNCiAgICAgICAgJzMwLTYwIGRpYXMnOiAwLA0KICAgICAgICAnNjArIGRpYXMnOiAwDQogICAgfTsNCg0KICAgIG9sZFBlbmRpbmcuZm9yRWFjaChpdGVtID0+IHsNCiAgICAgICAgY29uc3QgY3JlYXRlZCA9IG5ldyBEYXRlKGl0ZW0uY3JlYXRlZF9hdCk7DQogICAgICAgIGNvbnN0IGRpZmZEYXlzID0gTWF0aC5mbG9vcigobm93LmdldFRpbWUoKSAtIGNyZWF0ZWQuZ2V0VGltZSgpKSAvICgxMDAwICogNjAgKiA2MCAqIDI0KSk7DQoNCiAgICAgICAgaWYgKGRpZmZEYXlzIDw9IDE0KSBhZ2VHcm91cHNbJzctMTQgZGlhcyddKys7DQogICAgICAgIGVsc2UgaWYgKGRpZmZEYXlzIDw9IDMwKSBhZ2VHcm91cHNbJzE1LTMwIGRpYXMnXSsrOw0KICAgICAgICBlbHNlIGlmIChkaWZmRGF5cyA8PSA2MCkgYWdlR3JvdXBzWyczMC02MCBkaWFzJ10rKzsNCiAgICAgICAgZWxzZSBhZ2VHcm91cHNbJzYwKyBkaWFzJ10rKzsNCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKCfwn5OIIERpc3RyaWJ1acOnw6NvIHBvciBpZGFkZTonKTsNCiAgICBPYmplY3QuZW50cmllcyhhZ2VHcm91cHMpLmZvckVhY2goKFthZ2UsIGNvdW50XSkgPT4gew0KICAgICAgICBpZiAoY291bnQgPiAwKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgJHthZ2V9OiAke2NvdW50fSBwZWRpZG9zYCk7DQogICAgICAgIH0NCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbicgKyAnLScucmVwZWF0KDYwKSArICdcbicpOw0KDQogICAgLy8gUHJvY2Vzc2FyIGVtIGxvdGVzDQogICAgY29uc29sZS5sb2coJ/CflIQgVmVyaWZpY2FuZG8gcXVhaXMgasOhIGZvcmFtIGltcG9ydGFkb3MuLi5cbicpOw0KDQogICAgbGV0IG1hcmtlZEFzQ29tcGxldGVkID0gMDsNCiAgICBsZXQgYWxyZWFkeUNvbXBsZXRlZCA9IDA7DQogICAgbGV0IGdlbnVpbmVseVBlbmRpbmcgPSAwOw0KDQogICAgY29uc3QgYmF0Y2hTaXplID0gMTAwOw0KICAgIGZvciAobGV0IGkgPSAwOyBpIDwgb2xkUGVuZGluZy5sZW5ndGg7IGkgKz0gYmF0Y2hTaXplKSB7DQogICAgICAgIGNvbnN0IGJhdGNoID0gb2xkUGVuZGluZy5zbGljZShpLCBpICsgYmF0Y2hTaXplKTsNCiAgICAgICAgY29uc3Qgb3JkZXJJZHMgPSBiYXRjaC5tYXAoaXRlbSA9PiBpdGVtLm9yZGVyX2lkKTsNCg0KICAgICAgICAvLyBWZXJpZmljYXIgcXVhaXMgasOhIGV4aXN0ZW0gbm8gYmFuY28NCiAgICAgICAgY29uc3QgeyBkYXRhOiBleGlzdGluZyB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgIC5zZWxlY3QoJ3Jvd19kYXRhJykNCiAgICAgICAgICAgIC5pbigncm93X2RhdGEtPj5JRCBUaW55Jywgb3JkZXJJZHMpOw0KDQogICAgICAgIGNvbnN0IGV4aXN0aW5nSWRzID0gbmV3IFNldChleGlzdGluZz8ubWFwKChyOiBhbnkpID0+IFN0cmluZyhyLnJvd19kYXRhWydJRCBUaW55J10pKSB8fCBbXSk7DQoNCiAgICAgICAgLy8gTWFyY2FyIGNvbW8gY29tcGxldGVkIG9zIHF1ZSBqw6EgZm9yYW0gaW1wb3J0YWRvcw0KICAgICAgICBmb3IgKGNvbnN0IGl0ZW0gb2YgYmF0Y2gpIHsNCiAgICAgICAgICAgIGlmIChleGlzdGluZ0lkcy5oYXMoaXRlbS5vcmRlcl9pZCkpIHsNCiAgICAgICAgICAgICAgICBjb25zdCB7IGVycm9yOiB1cGRhdGVFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAgICAgICAgICAgICAudXBkYXRlKHsgc3RhdHVzOiAnY29tcGxldGVkJyB9KQ0KICAgICAgICAgICAgICAgICAgICAuZXEoJ2lkJywgaXRlbS5pZCk7DQoNCiAgICAgICAgICAgICAgICBpZiAoIXVwZGF0ZUVycm9yKSB7DQogICAgICAgICAgICAgICAgICAgIG1hcmtlZEFzQ29tcGxldGVkKys7DQogICAgICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAgICAgYWxyZWFkeUNvbXBsZXRlZCsrOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgZ2VudWluZWx5UGVuZGluZysrOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgLy8gTG9nIGRlIHByb2dyZXNzbw0KICAgICAgICBjb25zdCBwcm9ncmVzcyA9IE1hdGgubWluKGkgKyBiYXRjaFNpemUsIG9sZFBlbmRpbmcubGVuZ3RoKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIFByb2Nlc3NhZG9zOiAke3Byb2dyZXNzfS8ke29sZFBlbmRpbmcubGVuZ3RofSB8IE1hcmNhZG9zOiAke21hcmtlZEFzQ29tcGxldGVkfSB8IFJlYWxtZW50ZSBwZW5kZW50ZXM6ICR7Z2VudWluZWx5UGVuZGluZ31gKTsNCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygnXG4nICsgJy0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCg0KICAgIC8vIExpbXBhciBwZWRpZG9zIGZhaWxlZCBhbnRpZ29zIChvcGNpb25hbG1lbnRlKQ0KICAgIGNvbnNvbGUubG9nKCfwn5eR77iPICBWZXJpZmljYW5kbyBwZWRpZG9zIGZhbGhhZG9zIHBhcmEgbGltcGV6YS4uLlxuJyk7DQoNCiAgICBjb25zdCB7IGRhdGE6IG9sZEZhaWxlZCwgY291bnQ6IGZhaWxlZENvdW50IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnIH0pDQogICAgICAgIC5lcSgnc3RhdHVzJywgJ2ZhaWxlZCcpDQogICAgICAgIC5sdCgnY3JlYXRlZF9hdCcsIGN1dE9mZkRhdGUpOw0KDQogICAgaWYgKG9sZEZhaWxlZCAmJiBvbGRGYWlsZWQubGVuZ3RoID4gMCkgew0KICAgICAgICBjb25zb2xlLmxvZyhgICAgRW5jb250cmFkb3MgJHtmYWlsZWRDb3VudH0gcGVkaWRvcyBmYWxoYWRvcyBhbnRpZ29zYCk7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICAoTWFudGlkb3MgcGFyYSBhbsOhbGlzZSAtIG7Do28gZGVsZXRhZG9zKVxuYCk7DQogICAgfQ0KDQogICAgLy8gUmVzdW1vIGZpbmFsDQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkpOw0KICAgIGNvbnNvbGUubG9nKCdcbvCfjq8gUkVTVU1PIERBIExJTVBFWkE6XG4nKTsNCiAgICBjb25zb2xlLmxvZyhgICAg4pyFIE1hcmNhZG9zIGNvbW8gY29tcGxldGVkOiAke21hcmtlZEFzQ29tcGxldGVkfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICDimqDvuI8gIFJlYWxtZW50ZSBwZW5kZW50ZXMgKG7Do28gaW1wb3J0YWRvcyk6ICR7Z2VudWluZWx5UGVuZGluZ31gKTsNCiAgICBjb25zb2xlLmxvZyhgICAg4oS577iPICBQZWRpZG9zIGZhbGhhZG9zIGFudGlnb3M6ICR7ZmFpbGVkQ291bnQgfHwgMH0gKG1hbnRpZG9zKVxuYCk7DQoNCiAgICAvLyBFc3RhdMOtc3RpY2FzIGZpbmFpcyBkYSBmaWxhDQogICAgY29uc29sZS5sb2coJ/Cfk4ogRXN0YXTDrXN0aWNhcyBBdHVhaXMgZGEgRmlsYTpcbicpOw0KDQogICAgY29uc3QgeyBjb3VudDogdG90YWxQZW5kaW5nIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJ2lkJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KQ0KICAgICAgICAuZXEoJ3N0YXR1cycsICdwZW5kaW5nJyk7DQoNCiAgICBjb25zdCB7IGNvdW50OiB0b3RhbENvbXBsZXRlZCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCdpZCcsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgLmVxKCdzdGF0dXMnLCAnY29tcGxldGVkJyk7DQoNCiAgICBjb25zdCB7IGNvdW50OiB0b3RhbEZhaWxlZCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCdpZCcsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgLmVxKCdzdGF0dXMnLCAnZmFpbGVkJyk7DQoNCiAgICBjb25zb2xlLmxvZyhgICAg4o+zIFBlbmRlbnRlczogJHt0b3RhbFBlbmRpbmcgfHwgMH1gKTsNCiAgICBjb25zb2xlLmxvZyhgICAg4pyFIENvbXBsZXRhZG9zOiAke3RvdGFsQ29tcGxldGVkIHx8IDB9YCk7DQogICAgY29uc29sZS5sb2coYCAgIOKdjCBGYWxoYWRvczogJHt0b3RhbEZhaWxlZCB8fCAwfVxuYCk7DQoNCiAgICBpZiAoZ2VudWluZWx5UGVuZGluZyA+IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coJ/CfkqEgUmVjb21lbmRhw6fDo286XG4nKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIEjDoSAke2dlbnVpbmVseVBlbmRpbmd9IHBlZGlkb3MgYW50aWdvcyBxdWUgbnVuY2EgZm9yYW0gaW1wb3J0YWRvcy5gKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIFZvY8OqIHBvZGU6XG5gKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIDEuIERlaXhhciBjb21vIGVzdMOjbyAobsOjbyBhZmV0YW0gbm92b3MgcGVkaWRvcylgKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIDIuIFByb2Nlc3NhciBtYW51YWxtZW50ZSBjb206IG5weCB0c3ggc2NyaXB0cy9wcm9jZXNzLXF1ZXVlLW1hbnVhbC50c2ApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgMy4gRGVsZXTDoS1sb3Mgc2UgbsOjbyBmb3JlbSBtYWlzIG5lY2Vzc8Ohcmlvc1xuYCk7DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coJ+KchSBMaW1wZXphIGNvbmNsdcOtZGEhXG4nKTsNCn0NCg0KY2xlYW5PbGRRdWV1ZSgpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+/**
+ * Limpar fila antiga de retry
+ * Remove/marca como completed pedidos antigos que já foram processados
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function cleanOldQueue() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🧹 Limpando Fila Antiga de Retry\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Data de corte: 7 dias atrás
+    const sevenDaysAgo = new Date();
+    sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+    const cutOffDate = sevenDaysAgo.toISOString();
+
+    console.log(`📅 Data de corte: ${cutOffDate}`);
+    console.log(`   (Pedidos adicionados à fila ANTES dessa data serão verificados)\n`);
+
+    // Buscar pedidos antigos pendentes
+    console.log('🔍 Buscando pedidos antigos pendentes...\n');
+
+    const { data: oldPending, error, count } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact' })
+        .eq('status', 'pending')
+        .lt('created_at', cutOffDate)
+        .order('created_at', { ascending: true });
+
+    if (error) {
+        console.error('❌ Erro:', error);
+        return;
+    }
+
+    if (!oldPending || oldPending.length === 0) {
+        console.log('✅ Nenhum pedido antigo pendente encontrado!\n');
+        return;
+    }
+
+    console.log(`📊 Encontrados ${count} pedidos antigos pendentes\n`);
+
+    // Agrupar por idade
+    const now = new Date();
+    const ageGroups = {
+        '7-14 dias': 0,
+        '15-30 dias': 0,
+        '30-60 dias': 0,
+        '60+ dias': 0
+    };
+
+    oldPending.forEach(item => {
+        const created = new Date(item.created_at);
+        const diffDays = Math.floor((now.getTime() - created.getTime()) / (1000 * 60 * 60 * 24));
+
+        if (diffDays <= 14) ageGroups['7-14 dias']++;
+        else if (diffDays <= 30) ageGroups['15-30 dias']++;
+        else if (diffDays <= 60) ageGroups['30-60 dias']++;
+        else ageGroups['60+ dias']++;
+    });
+
+    console.log('📈 Distribuição por idade:');
+    Object.entries(ageGroups).forEach(([age, count]) => {
+        if (count > 0) {
+            console.log(`   ${age}: ${count} pedidos`);
+        }
+    });
+
+    console.log('\n' + '-'.repeat(60) + '\n');
+
+    // Processar em lotes
+    console.log('🔄 Verificando quais já foram importados...\n');
+
+    let markedAsCompleted = 0;
+    let alreadyCompleted = 0;
+    let genuinelyPending = 0;
+
+    const batchSize = 100;
+    for (let i = 0; i < oldPending.length; i += batchSize) {
+        const batch = oldPending.slice(i, i + batchSize);
+        const orderIds = batch.map(item => item.order_id);
+
+        // Verificar quais já existem no banco
+        const { data: existing } = await supabase
+            .from('spreadsheet_data')
+            .select('row_data')
+            .in('row_data->>ID Tiny', orderIds);
+
+        const existingIds = new Set(existing?.map((r: any) => String(r.row_data['ID Tiny'])) || []);
+
+        // Marcar como completed os que já foram importados
+        for (const item of batch) {
+            if (existingIds.has(item.order_id)) {
+                const { error: updateError } = await supabase
+                    .from('webhook_retry_queue')
+                    .update({ status: 'completed' })
+                    .eq('id', item.id);
+
+                if (!updateError) {
+                    markedAsCompleted++;
+                } else {
+                    alreadyCompleted++;
+                }
+            } else {
+                genuinelyPending++;
+            }
+        }
+
+        // Log de progresso
+        const progress = Math.min(i + batchSize, oldPending.length);
+        console.log(`   Processados: ${progress}/${oldPending.length} | Marcados: ${markedAsCompleted} | Realmente pendentes: ${genuinelyPending}`);
+    }
+
+    console.log('\n' + '-'.repeat(60) + '\n');
+
+    // Limpar pedidos failed antigos (opcionalmente)
+    console.log('🗑️  Verificando pedidos falhados para limpeza...\n');
+
+    const { data: oldFailed, count: failedCount } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact' })
+        .eq('status', 'failed')
+        .lt('created_at', cutOffDate);
+
+    if (oldFailed && oldFailed.length > 0) {
+        console.log(`   Encontrados ${failedCount} pedidos falhados antigos`);
+        console.log(`   (Mantidos para análise - não deletados)\n`);
+    }
+
+    // Resumo final
+    console.log('='.repeat(60));
+    console.log('\n🎯 RESUMO DA LIMPEZA:\n');
+    console.log(`   ✅ Marcados como completed: ${markedAsCompleted}`);
+    console.log(`   ⚠️  Realmente pendentes (não importados): ${genuinelyPending}`);
+    console.log(`   ℹ️  Pedidos falhados antigos: ${failedCount || 0} (mantidos)\n`);
+
+    // Estatísticas finais da fila
+    console.log('📊 Estatísticas Atuais da Fila:\n');
+
+    const { count: totalPending } = await supabase
+        .from('webhook_retry_queue')
+        .select('id', { count: 'exact', head: true })
+        .eq('status', 'pending');
+
+    const { count: totalCompleted } = await supabase
+        .from('webhook_retry_queue')
+        .select('id', { count: 'exact', head: true })
+        .eq('status', 'completed');
+
+    const { count: totalFailed } = await supabase
+        .from('webhook_retry_queue')
+        .select('id', { count: 'exact', head: true })
+        .eq('status', 'failed');
+
+    console.log(`   ⏳ Pendentes: ${totalPending || 0}`);
+    console.log(`   ✅ Completados: ${totalCompleted || 0}`);
+    console.log(`   ❌ Falhados: ${totalFailed || 0}\n`);
+
+    if (genuinelyPending > 0) {
+        console.log('💡 Recomendação:\n');
+        console.log(`   Há ${genuinelyPending} pedidos antigos que nunca foram importados.`);
+        console.log(`   Você pode:\n`);
+        console.log(`   1. Deixar como estão (não afetam novos pedidos)`);
+        console.log(`   2. Processar manualmente com: npx tsx scripts/process-queue-manual.ts`);
+        console.log(`   3. Deletá-los se não forem mais necessários\n`);
+    }
+
+    console.log('✅ Limpeza concluída!\n');
+}
+
+cleanOldQueue().catch(console.error);

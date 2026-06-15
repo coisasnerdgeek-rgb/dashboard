@@ -1,1 +1,17 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgT0xEX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL25ieHViZG1zZXBuaGhoc2Jwem9xLnN1cGFiYXNlLmNvJzsNCmNvbnN0IE9MRF9TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW01aWVIVmlaRzF6WlhCdWFHaG9jMkp3ZW05eElpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyTVRJMU16VXdNaXdpWlhod0lqb3lNRGMyT0RJNU5UQXlmUS5MeDJIMmRIYnBocFRPbEgwUEtkLXY0RTdrSkdhclU0aFlNS0xyV0JINnVzJzsNCmNvbnN0IG9sZFN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE9MRF9TVVBBQkFTRV9VUkwsIE9MRF9TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja09sZERhdGEoKSB7DQogICAgY29uc3QgdGFibGVzID0gWydwYXltZW50cycsICd2ZXJpZmljYXRpb25fc3RhdHVzJywgJ3Bob25lX2Nhc2VfbW9kZWxzJywgJ3RyYWNraW5nX21hcHBpbmdzJywgJ2FwcF9zZXR0aW5ncyddOw0KICAgIGNvbnNvbGUubG9nKCctLS0gREFET1MgUEVOREVOVEVTIE5PIEJBTkNPIEFOVElHTyAtLS0nKTsNCg0KICAgIGZvciAoY29uc3QgdGFibGUgb2YgdGFibGVzKSB7DQogICAgICAgIGNvbnN0IHsgY291bnQsIGVycm9yIH0gPSBhd2FpdCBvbGRTdXBhYmFzZS5mcm9tKHRhYmxlKS5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KICAgICAgICBjb25zb2xlLmxvZyhgJHt0YWJsZX06ICR7Y291bnQgfHwgMH0gcmVnaXN0cm9zICR7ZXJyb3IgPyAnKEVycm86ICcgKyBlcnJvci5tZXNzYWdlICsgJyknIDogJyd9YCk7DQogICAgfQ0KfQ0KDQpjaGVja09sZERhdGEoKTsNCg==}
+import { createClient } from '@supabase/supabase-js';
+
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+
+async function checkOldData() {
+    const tables = ['payments', 'verification_status', 'phone_case_models', 'tracking_mappings', 'app_settings'];
+    console.log('--- DADOS PENDENTES NO BANCO ANTIGO ---');
+
+    for (const table of tables) {
+        const { count, error } = await oldSupabase.from(table).select('*', { count: 'exact', head: true });
+        console.log(`${table}: ${count || 0} registros ${error ? '(Erro: ' + error.message + ')' : ''}`);
+    }
+}
+
+checkOldData();

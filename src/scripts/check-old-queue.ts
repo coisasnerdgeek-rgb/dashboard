@@ -1,1 +1,19 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBPTERfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vbmJ4dWJkbXNlcG5oaGhzYnB6b3Euc3VwYWJhc2UuY28nOw0KY29uc3QgT0xEX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbTVpZUhWaVpHMXpaWEJ1YUdob2MySndlbTl4SWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJNVEkxTXpVd01pd2laWGh3SWpveU1EYzJPREk1TlRBeWZRLkx4MkgyZEhicGhwVE9sSDBQS2QtdjRFN2tKR2FyVTRoWU1LTHJXQkg2dXMnOw0KY29uc3Qgb2xkU3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoT0xEX1NVUEFCQVNFX1VSTCwgT0xEX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrT2xkUXVldWUoKSB7DQogICAgY29uc29sZS5sb2coJ0NoZWNraW5nIE9MRCBEQiBwZW5kaW5nIHF1ZXVlLi4uJyk7DQogICAgY29uc3QgeyBjb3VudCwgZXJyb3IgfSA9IGF3YWl0IG9sZFN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgLmVxKCdzdGF0dXMnLCAncGVuZGluZycpOw0KDQogICAgaWYgKGVycm9yKSBjb25zb2xlLmVycm9yKGVycm9yKTsNCiAgICBjb25zb2xlLmxvZyhgT0xEIERCIFBlbmRpbmcgUXVldWUgQ291bnQ6ICR7Y291bnR9YCk7DQp9DQoNCmNoZWNrT2xkUXVldWUoKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+
+async function checkOldQueue() {
+    console.log('Checking OLD DB pending queue...');
+    const { count, error } = await oldSupabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true })
+        .eq('status', 'pending');
+
+    if (error) console.error(error);
+    console.log(`OLD DB Pending Queue Count: ${count}`);
+}
+
+checkOldQueue();

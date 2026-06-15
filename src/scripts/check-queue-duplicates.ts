@@ -1,1 +1,75 @@
-﻿@{data=LyoqDQogKiBWZXJpZmljYXIgZHVwbGljYXRhcyBuYSBmaWxhIGRlIHJldHJ5DQogKi8NCg0KaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCmltcG9ydCAqIGFzIHBhdGggZnJvbSAncGF0aCc7DQoNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja0R1cGxpY2F0ZXMoKSB7DQogICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoU1VQQUJBU0VfVVJMLCBTVVBBQkFTRV9LRVkpOw0KDQogICAgY29uc29sZS5sb2coJ1xu8J+UjSBWZXJpZmljYW5kbyBkdXBsaWNhdGFzIG5hIGZpbGEuLi5cbicpOw0KDQogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJ29yZGVyX2lkLCBpZCwgc3RhdHVzJykNCiAgICAgICAgLmVxKCdzdGF0dXMnLCAncGVuZGluZycpOw0KDQogICAgaWYgKCFkYXRhKSByZXR1cm47DQoNCiAgICBjb25zdCBjb3VudHM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsNCiAgICBkYXRhLmZvckVhY2goaXRlbSA9PiB7DQogICAgICAgIGNvdW50c1tpdGVtLm9yZGVyX2lkXSA9IChjb3VudHNbaXRlbS5vcmRlcl9pZF0gfHwgMCkgKyAxOw0KICAgIH0pOw0KDQogICAgY29uc3QgZHVwbGljYXRlcyA9IE9iamVjdC5lbnRyaWVzKGNvdW50cykuZmlsdGVyKChbXywgY291bnRdKSA9PiBjb3VudCA+IDEpOw0KDQogICAgY29uc29sZS5sb2coYFRvdGFsIHBlbmRlbnRlczogJHtkYXRhLmxlbmd0aH1gKTsNCiAgICBjb25zb2xlLmxvZyhgSURzIMO6bmljb3MgY29tIGR1cGxpY2F0YXM6ICR7ZHVwbGljYXRlcy5sZW5ndGh9YCk7DQoNCiAgICBpZiAoZHVwbGljYXRlcy5sZW5ndGggPiAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCdFeGVtcGxvczonLCBkdXBsaWNhdGVzLnNsaWNlKDAsIDUpKTsNCg0KICAgICAgICAvLyBPcGNpb25hbDogcmVtb3ZlciBkdXBsaWNhdGFzDQogICAgICAgIGNvbnNvbGUubG9nKCdcbvCfl5HvuI8gIFJlbW92ZW5kbyBkdXBsaWNhdGFzIChtYW50ZW5kbyBhcGVuYXMgbyBtYWlzIHJlY2VudGUpLi4uJyk7DQoNCiAgICAgICAgZm9yIChjb25zdCBbb3JkZXJJZCwgY291bnRdIG9mIGR1cGxpY2F0ZXMpIHsNCiAgICAgICAgICAgIC8vIEJ1c2NhciB0b2RhcyBhcyBlbnRyYWRhcyBwYXJhIGVzc2Ugb3JkZXJJZA0KICAgICAgICAgICAgY29uc3QgZW50cmllcyA9IGRhdGEuZmlsdGVyKGQgPT4gZC5vcmRlcl9pZCA9PT0gb3JkZXJJZCk7DQogICAgICAgICAgICAvLyBNYW50ZXIgYXBlbmFzIG8gw7psdGltbyAobWFpb3IgSUQgb3UgY3JlYXRlZF9hdCkNCiAgICAgICAgICAgIC8vIEFzc3VtaW5kbyBJRCBpbmNyZW1lbnRhbCBvdSBhbGVhdMOzcmlvLCBjcmVhdGVkX2F0IHNlcmlhIG1lbGhvciwgbWFzIGFxdWkgdGVuaG8gc8OzIElEDQogICAgICAgICAgICAvLyBWb3UgbWFudGVyIG8gcHJpbWVpcm8gZSBkZWxldGFyIG8gcmVzdG8NCiAgICAgICAgICAgIGNvbnN0IHRvS2VlcCA9IGVudHJpZXNbMF07DQogICAgICAgICAgICBjb25zdCB0b0RlbGV0ZSA9IGVudHJpZXMuc2xpY2UoMSk7DQoNCiAgICAgICAgICAgIGNvbnN0IGlkc1RvRGVsZXRlID0gdG9EZWxldGUubWFwKGQgPT4gZC5pZCk7DQoNCiAgICAgICAgICAgIGlmIChpZHNUb0RlbGV0ZS5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICAgICAgYXdhaXQgc3VwYWJhc2UuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpLmRlbGV0ZSgpLmluKCdpZCcsIGlkc1RvRGVsZXRlKTsNCiAgICAgICAgICAgICAgICBwcm9jZXNzLnN0ZG91dC53cml0ZSgnLicpOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgIGNvbnNvbGUubG9nKCdcbuKchSBEdXBsaWNhdGFzIHJlbW92aWRhcy4nKTsNCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZygn4pyFIFNlbSBkdXBsaWNhdGFzLicpOw0KICAgIH0NCn0NCg0KY2hlY2tEdXBsaWNhdGVzKCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+/**
+ * Verificar duplicatas na fila de retry
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function checkDuplicates() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🔍 Verificando duplicatas na fila...\n');
+
+    const { data } = await supabase
+        .from('webhook_retry_queue')
+        .select('order_id, id, status')
+        .eq('status', 'pending');
+
+    if (!data) return;
+
+    const counts: Record<string, number> = {};
+    data.forEach(item => {
+        counts[item.order_id] = (counts[item.order_id] || 0) + 1;
+    });
+
+    const duplicates = Object.entries(counts).filter(([_, count]) => count > 1);
+
+    console.log(`Total pendentes: ${data.length}`);
+    console.log(`IDs únicos com duplicatas: ${duplicates.length}`);
+
+    if (duplicates.length > 0) {
+        console.log('Exemplos:', duplicates.slice(0, 5));
+
+        // Opcional: remover duplicatas
+        console.log('\n🗑️  Removendo duplicatas (mantendo apenas o mais recente)...');
+
+        for (const [orderId, count] of duplicates) {
+            // Buscar todas as entradas para esse orderId
+            const entries = data.filter(d => d.order_id === orderId);
+            // Manter apenas o último (maior ID ou created_at)
+            // Assumindo ID incremental ou aleatório, created_at seria melhor, mas aqui tenho só ID
+            // Vou manter o primeiro e deletar o resto
+            const toKeep = entries[0];
+            const toDelete = entries.slice(1);
+
+            const idsToDelete = toDelete.map(d => d.id);
+
+            if (idsToDelete.length > 0) {
+                await supabase.from('webhook_retry_queue').delete().in('id', idsToDelete);
+                process.stdout.write('.');
+            }
+        }
+        console.log('\n✅ Duplicatas removidas.');
+    } else {
+        console.log('✅ Sem duplicatas.');
+    }
+}
+
+checkDuplicates().catch(console.error);

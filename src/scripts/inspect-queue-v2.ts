@@ -1,1 +1,76 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gImh0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28iOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltZGxZV0oyWTNGamVXMWhjWE54ZUhobWNYbDNJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk9URTRNVEE1Tnl3aVpYaHdJam95TURnME56VTNNRGszZlEuV0p4cjllU0R6Zzd3ZlBBZ0JONk5nQUxmaVVIYy1EWWV1RmJFcUc4TjBoVSI7DQoNCmNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gaW5zcGVjdCgpIHsNCiAgICBjb25zb2xlLmxvZygnLS0tIEluc3BlY3RpbmcgV2ViaG9vayBSZXRyeSBRdWV1ZSAtLS0nKTsNCg0KICAgIC8vIENvdW50IGJ5IHN0YXR1cw0KICAgIGNvbnN0IHsgZGF0YTogc3RhdHVzQ291bnRzLCBlcnJvcjogc3RhdHVzRXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLnJwYygnY291bnRfcXVldWVfc3RhdHVzJyk7DQogICAgLy8gSWYgUlBDIGRvZXNuJ3QgZXhpc3QsIHdlIGRvIG1hbnVhbCBncm91cCBieSBzaW11bGF0aW9uIG9yIGp1c3QgbXVsdGlwbGUgcXVlcmllcw0KDQogICAgLy8gR3JvdXAgYnkgcXVlcnkgaXMgbm90IGRpcmVjdGx5IHN1cHBvcnRlZCBpbiBzaW1wbGUgc2VsZWN0IHdpdGhvdXQgUlBDIHVzdWFsbHksIGJ1dCBsZXQncyB0cnkgbXVsdGlwbGUgY291bnRzDQogICAgY29uc3Qgc3RhdHVzZXMgPSBbJ3BlbmRpbmcnLCAncHJvY2Vzc2luZycsICdjb21wbGV0ZWQnLCAnZmFpbGVkJywgJ2Vycm9yJ107DQogICAgZm9yIChjb25zdCBzdGF0dXMgb2Ygc3RhdHVzZXMpIHsNCiAgICAgICAgY29uc3QgeyBjb3VudCwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KQ0KICAgICAgICAgICAgLmVxKCdzdGF0dXMnLCBzdGF0dXMpOw0KDQogICAgICAgIGlmIChlcnJvcikgY29uc29sZS5lcnJvcihgRXJyb3IgY291bnRpbmcgJHtzdGF0dXN9OmAsIGVycm9yLm1lc3NhZ2UpOw0KICAgICAgICBlbHNlIGNvbnNvbGUubG9nKGBTdGF0dXMgJyR7c3RhdHVzfSc6ICR7Y291bnR9YCk7DQogICAgfQ0KDQogICAgLy8gQ2hlY2sgb2xkZXN0IGFuZCBuZXdlc3QgcGVuZGluZw0KICAgIGNvbnN0IHsgZGF0YTogb2xkZXN0UGVuZGluZyB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCdvcmRlcl9pZCwgb3JkZXJfZGF0ZSwgY3JlYXRlZF9hdCcpDQogICAgICAgIC5lcSgnc3RhdHVzJywgJ3BlbmRpbmcnKQ0KICAgICAgICAub3JkZXIoJ2NyZWF0ZWRfYXQnLCB7IGFzY2VuZGluZzogdHJ1ZSB9KQ0KICAgICAgICAubGltaXQoMSk7DQoNCiAgICAvLyBDaGVjayByZWNlbnQgZmFpbGVkIGl0ZW1zDQogICAgY29uc3QgeyBkYXRhOiBmYWlsZWRJdGVtcyB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCdvcmRlcl9pZCwgbGFzdF9lcnJvciwgY3JlYXRlZF9hdCwgcmV0cnlfY291bnQnKQ0KICAgICAgICAuZXEoJ3N0YXR1cycsICdmYWlsZWQnKQ0KICAgICAgICAub3JkZXIoJ2NyZWF0ZWRfYXQnLCB7IGFzY2VuZGluZzogZmFsc2UgfSkNCiAgICAgICAgLmxpbWl0KDUpOw0KDQogICAgaWYgKGZhaWxlZEl0ZW1zPy5sZW5ndGgpIHsNCiAgICAgICAgY29uc29sZS5sb2coJ1xuLS0tIFJlY2VudCBGYWlsZWQgSXRlbXMgLS0tJyk7DQogICAgICAgIGZhaWxlZEl0ZW1zLmZvckVhY2goZiA9PiBjb25zb2xlLmxvZyhgSUQ6ICR7Zi5vcmRlcl9pZH0sIEVycm9yOiAke2YubGFzdF9lcnJvcn0sIENyZWF0ZWQ6ICR7Zi5jcmVhdGVkX2F0fWApKTsNCiAgICB9DQoNCiAgICAvLyBDaGVjayBpdGVtcyBvbGRlciB0aGFuIDYwIGRheXMNCiAgICBjb25zdCBzaXh0eURheXNBZ28gPSBuZXcgRGF0ZSgpOw0KICAgIHNpeHR5RGF5c0Fnby5zZXREYXRlKHNpeHR5RGF5c0Fnby5nZXREYXRlKCkgLSA2MCk7DQoNCiAgICBjb25zdCB7IGNvdW50OiBvbGRJdGVtc0NvdW50LCBlcnJvcjogb2xkRXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgLmx0KCdjcmVhdGVkX2F0Jywgc2l4dHlEYXlzQWdvLnRvSVNPU3RyaW5nKCkpOw0KDQogICAgY29uc29sZS5sb2coYEl0ZW1zIG9sZGVyIHRoYW4gNjAgZGF5czogJHtvbGRJdGVtc0NvdW50fSAoRXJyb3I6ICR7b2xkRXJyb3I/Lm1lc3NhZ2UgfHwgJ05vbmUnfSlgKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbi0tLSBJbnNwZWN0aW5nIFNwcmVhZHNoZWV0IERhdGEgLS0tJyk7DQogICAgY29uc3QgeyBkYXRhOiBsYXN0SW1wb3J0IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJ2lkLCBpbXBvcnRfZGF0ZSwgcm93X2RhdGEnKQ0KICAgICAgICAub3JkZXIoJ2ltcG9ydF9kYXRlJywgeyBhc2NlbmRpbmc6IGZhbHNlIH0pDQogICAgICAgIC5saW1pdCgxKTsNCg0KICAgIGlmIChsYXN0SW1wb3J0Py5sZW5ndGgpIHsNCiAgICAgICAgY29uc29sZS5sb2coJ0xhc3QgSW1wb3J0OicsIGxhc3RJbXBvcnRbMF0uaW1wb3J0X2RhdGUpOw0KICAgICAgICBjb25zb2xlLmxvZygnTGFzdCBPcmRlciBEZXRhaWxzOicsIHsNCiAgICAgICAgICAgIGlkOiBsYXN0SW1wb3J0WzBdLmlkLA0KICAgICAgICAgICAgdGlueV9pZDogbGFzdEltcG9ydFswXS5yb3dfZGF0YVsnSUQgVGlueSddLA0KICAgICAgICAgICAgZGF0ZTogbGFzdEltcG9ydFswXS5yb3dfZGF0YVsnRGF0YSddDQogICAgICAgIH0pOw0KICAgIH0NCn0NCg0KaW5zcGVjdCgpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+import { createClient } from '@supabase/supabase-js';
+
+const SUPABASE_URL = "https://geabvcqcymaqsqxxfqyw.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU";
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+async function inspect() {
+    console.log('--- Inspecting Webhook Retry Queue ---');
+
+    // Count by status
+    const { data: statusCounts, error: statusError } = await supabase.rpc('count_queue_status');
+    // If RPC doesn't exist, we do manual group by simulation or just multiple queries
+
+    // Group by query is not directly supported in simple select without RPC usually, but let's try multiple counts
+    const statuses = ['pending', 'processing', 'completed', 'failed', 'error'];
+    for (const status of statuses) {
+        const { count, error } = await supabase
+            .from('webhook_retry_queue')
+            .select('*', { count: 'exact', head: true })
+            .eq('status', status);
+
+        if (error) console.error(`Error counting ${status}:`, error.message);
+        else console.log(`Status '${status}': ${count}`);
+    }
+
+    // Check oldest and newest pending
+    const { data: oldestPending } = await supabase
+        .from('webhook_retry_queue')
+        .select('order_id, order_date, created_at')
+        .eq('status', 'pending')
+        .order('created_at', { ascending: true })
+        .limit(1);
+
+    // Check recent failed items
+    const { data: failedItems } = await supabase
+        .from('webhook_retry_queue')
+        .select('order_id, last_error, created_at, retry_count')
+        .eq('status', 'failed')
+        .order('created_at', { ascending: false })
+        .limit(5);
+
+    if (failedItems?.length) {
+        console.log('\n--- Recent Failed Items ---');
+        failedItems.forEach(f => console.log(`ID: ${f.order_id}, Error: ${f.last_error}, Created: ${f.created_at}`));
+    }
+
+    // Check items older than 60 days
+    const sixtyDaysAgo = new Date();
+    sixtyDaysAgo.setDate(sixtyDaysAgo.getDate() - 60);
+
+    const { count: oldItemsCount, error: oldError } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true })
+        .lt('created_at', sixtyDaysAgo.toISOString());
+
+    console.log(`Items older than 60 days: ${oldItemsCount} (Error: ${oldError?.message || 'None'})`);
+
+    console.log('\n--- Inspecting Spreadsheet Data ---');
+    const { data: lastImport } = await supabase
+        .from('spreadsheet_data')
+        .select('id, import_date, row_data')
+        .order('import_date', { ascending: false })
+        .limit(1);
+
+    if (lastImport?.length) {
+        console.log('Last Import:', lastImport[0].import_date);
+        console.log('Last Order Details:', {
+            id: lastImport[0].id,
+            tiny_id: lastImport[0].row_data['ID Tiny'],
+            date: lastImport[0].row_data['Data']
+        });
+    }
+}
+
+inspect().catch(console.error);

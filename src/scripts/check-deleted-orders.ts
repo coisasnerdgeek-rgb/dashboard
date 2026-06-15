@@ -1,1 +1,29 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBTVVBBQkFTRV9VUkwgPSAiaHR0cHM6Ly9nZWFidmNxY3ltYXFzcXh4ZnF5dy5zdXBhYmFzZS5jbyI7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSAiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkltRnViMjRpTENKcFlYUWlPakUzTmpreE9ERXdPVGNzSW1WNGNDSTZNakE0TkRjMU56QTVOMzAuVTZKV0FVUWdNTWpfdTZTN1pIaXNmOXZHLUxMMEl3TTVReW9ENU9UOTdSbyI7DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrRGVsZXRlZE9yZGVycygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygnLS0tIERFTEVURUQgT1JERVJTIC0tLScpOw0KICAgIGNvbnN0IHsgZGF0YTogZGVsZXRlZCwgZXJyb3I6IGRFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ2RlbGV0ZWRfb3JkZXJzJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5saW1pdCgxMCk7DQoNCiAgICBpZiAoZEVycm9yKSBjb25zb2xlLmVycm9yKGRFcnJvcik7DQogICAgZWxzZSBjb25zb2xlLmxvZyhKU09OLnN0cmluZ2lmeShkZWxldGVkLCBudWxsLCAyKSk7DQoNCiAgICBjb25zb2xlLmxvZygnLS0tIFNQUkVBRFNIRUVUIERBVEEgLS0tJyk7DQogICAgY29uc3QgeyBkYXRhOiBzcHJlYWRzaGVldERhdGEsIGVycm9yOiBzRXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnaWQsIGZpbGVuYW1lLCByb3dfZGF0YS0+SUQgVGlueScpDQogICAgICAgIC5saW1pdCgxMCk7DQoNCiAgICBpZiAoc0Vycm9yKSBjb25zb2xlLmVycm9yKHNFcnJvcik7DQogICAgZWxzZSBjb25zb2xlLmxvZyhKU09OLnN0cmluZ2lmeShzcHJlYWRzaGVldERhdGEsIG51bGwsIDIpKTsNCn0NCg0KY2hlY2tEZWxldGVkT3JkZXJzKCk7DQo=}
+
+import { createClient } from '@supabase/supabase-js';
+
+const SUPABASE_URL = "https://geabvcqcymaqsqxxfqyw.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkxODEwOTcsImV4cCI6MjA4NDc1NzA5N30.U6JWAUQgMMj_u6S7ZHisf9vG-LL0IwM5QyoD5OT97Ro";
+
+async function checkDeletedOrders() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('--- DELETED ORDERS ---');
+    const { data: deleted, error: dError } = await supabase
+        .from('deleted_orders')
+        .select('*')
+        .limit(10);
+
+    if (dError) console.error(dError);
+    else console.log(JSON.stringify(deleted, null, 2));
+
+    console.log('--- SPREADSHEET DATA ---');
+    const { data: spreadsheetData, error: sError } = await supabase
+        .from('spreadsheet_data')
+        .select('id, filename, row_data->ID Tiny')
+        .limit(10);
+
+    if (sError) console.error(sError);
+    else console.log(JSON.stringify(spreadsheetData, null, 2));
+}
+
+checkDeletedOrders();

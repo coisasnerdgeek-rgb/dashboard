@@ -1,1 +1,27 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGluc3BlY3RSZXRyeVF1ZXVlKCkgew0KICAgIGNvbnNvbGUubG9nKCdJbnNwZWN0aW5nIHdlYmhvb2tfcmV0cnlfcXVldWUuLi4nKTsNCg0KICAgIC8vIENoZWNrIHRvdGFsIGNvdW50DQogICAgY29uc3QgeyBjb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSk7DQogICAgY29uc29sZS5sb2coYFRvdGFsIHF1ZXVlIGl0ZW1zOiAke2NvdW50fWApOw0KDQogICAgLy8gQ2hlY2sgc2FtcGxlIHJvdw0KICAgIGNvbnN0IHsgZGF0YTogc2FtcGxlIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykuc2VsZWN0KCcqJykubGltaXQoMSk7DQogICAgY29uc29sZS5sb2coJ1NhbXBsZSByb3c6JywgSlNPTi5zdHJpbmdpZnkoc2FtcGxlPy5bMF0sIG51bGwsIDIpKTsNCg0KICAgIC8vIENoZWNrIGRhdGVzIGRpc3RyaWJ1dGlvbiAobWluIGFuZCBtYXgpDQogICAgY29uc3QgeyBkYXRhOiBtaW5EYXRlIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykuc2VsZWN0KCdjcmVhdGVkX2F0Jykub3JkZXIoJ2NyZWF0ZWRfYXQnLCB7IGFzY2VuZGluZzogdHJ1ZSB9KS5saW1pdCgxKTsNCiAgICBjb25zdCB7IGRhdGE6IG1heERhdGUgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKS5zZWxlY3QoJ2NyZWF0ZWRfYXQnKS5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KS5saW1pdCgxKTsNCg0KICAgIGNvbnNvbGUubG9nKCdPbGRlc3QgaXRlbTonLCBtaW5EYXRlPy5bMF0/LmNyZWF0ZWRfYXQpOw0KICAgIGNvbnNvbGUubG9nKCdOZXdlc3QgaXRlbTonLCBtYXhEYXRlPy5bMF0/LmNyZWF0ZWRfYXQpOw0KfQ0KDQppbnNwZWN0UmV0cnlRdWV1ZSgpOw0K}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function inspectRetryQueue() {
+    console.log('Inspecting webhook_retry_queue...');
+
+    // Check total count
+    const { count } = await supabase.from('webhook_retry_queue').select('*', { count: 'exact', head: true });
+    console.log(`Total queue items: ${count}`);
+
+    // Check sample row
+    const { data: sample } = await supabase.from('webhook_retry_queue').select('*').limit(1);
+    console.log('Sample row:', JSON.stringify(sample?.[0], null, 2));
+
+    // Check dates distribution (min and max)
+    const { data: minDate } = await supabase.from('webhook_retry_queue').select('created_at').order('created_at', { ascending: true }).limit(1);
+    const { data: maxDate } = await supabase.from('webhook_retry_queue').select('created_at').order('created_at', { ascending: false }).limit(1);
+
+    console.log('Oldest item:', minDate?.[0]?.created_at);
+    console.log('Newest item:', maxDate?.[0]?.created_at);
+}
+
+inspectRetryQueue();

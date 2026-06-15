@@ -1,1 +1,96 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0IGZzIGZyb20gJ2ZzJzsNCmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIGVudg0KY29uc3QgZW52UGF0aCA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpOw0KY29uc3QgZW52Q29udGVudCA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmLTgnKTsNCmNvbnN0IGVudjogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHt9Ow0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IFtrZXksIHZhbF0gPSBsaW5lLnNwbGl0KCc9Jyk7DQogICAgaWYgKGtleSAmJiB2YWwpIGVudltrZXkudHJpbSgpXSA9IHZhbC50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMIHx8IGVudi5TVVBBQkFTRV9VUkw7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZIHx8IGVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoU1VQQUJBU0VfVVJMLCBTVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja1NrdUZpbHRlcigpIHsNCiAgICBjb25zb2xlLmxvZygnQ2hlY2tpbmcgQXBwLnRzeCBFU1RBTVBBUyBmaWx0ZXIgbG9naWMgb24gcmVjZW50IG9yZGVycyAoMzEvMDEgLSAwMS8wMikuLi4nKTsNCg0KICAgIC8vIEZldGNoIHJlY2VudCA1MDAgcm93cyB0byBjb3ZlciB0aGUgZGF0ZSByYW5nZQ0KICAgIGNvbnN0IHsgZGF0YTogcmVjZW50RGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQ0KICAgICAgICAubGltaXQoNTAwKTsNCg0KICAgIGlmIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZyBkYXRhOicsIGVycm9yKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGNvbnN0IGtleXdvcmRzID0gWydwZWl0bycsICdjb3N0YScsICdjb3N0YXMnLCAnZnJlbnRlJywgJ21hbmdhJywgJ3BlcnNvJywgJ3BlcnNvbmFsaXphZG8nLCAncGknXTsNCiAgICBjb25zdCBibGFja2xpc3RTdGF0dXMgPSBbJ2VudmlhZG8nLCAnZW50cmVndWUnLCAnY2FuY2VsYWRvJywgJ2EgY2FtaW5obyddOw0KDQogICAgbGV0IHBhc3NlZENvdW50ID0gMDsNCiAgICBsZXQgZmFpbGVkQ291bnQgPSAwOw0KDQogICAgLy8gQ291bnRlcnMgZm9yIGZhaWx1cmUgcmVhc29uDQogICAgbGV0IGZhaWxSZWFzb25zID0gew0KICAgICAgICBub19za3U6IDAsDQogICAgICAgIHN0YXR1c19leGNsdWRlZDogMCwNCiAgICAgICAgbm9fa2V5d29yZDogMCwNCiAgICAgICAgbm90X3JlbGV2YW50X2RhdGU6IDANCiAgICB9Ow0KDQogICAgY29uc3QgcGFzc2VkRXhhbXBsZXM6IGFueVtdID0gW107DQogICAgY29uc3QgcHJvY2Vzc2VkRGF0ZXMgPSBuZXcgU2V0KCk7DQoNCiAgICByZWNlbnREYXRhLmZvckVhY2gocm93ID0+IHsNCiAgICAgICAgY29uc3QgZCA9IHJvdy5yb3dfZGF0YTsNCiAgICAgICAgY29uc3Qgc2t1ID0gU3RyaW5nKGRbJ0PDs2RpZ28gKFNLVSknXSB8fCBkWydza3UnXSB8fCBkWydDb2RpZ28gKFNLVSknXSB8fCBkWydTS1UnXSB8fCAnJykudG9Mb3dlckNhc2UoKTsNCiAgICAgICAgY29uc3Qgc3RhdHVzID0gU3RyaW5nKGRbJ1NpdHVhw6fDo28nXSB8fCBkWydzdGF0dXMnXSB8fCAnJykudG9Mb3dlckNhc2UoKTsNCiAgICAgICAgY29uc3QgZGF0ZSA9IFN0cmluZyhkWydEYXRhJ10gfHwgZFsnZGF0YSddIHx8ICcnKTsNCg0KICAgICAgICBpZiAoZGF0ZSkgcHJvY2Vzc2VkRGF0ZXMuYWRkKGRhdGUpOw0KDQogICAgICAgIC8vIEZvY3VzaW5nIG9uIHRoZSBwcm9ibGVtYXRpYyBkYXRlcw0KICAgICAgICBpZiAoIWRhdGUuaW5jbHVkZXMoJzMxLzAxJykgJiYgIWRhdGUuaW5jbHVkZXMoJzAxLzAyJykpIHsNCiAgICAgICAgICAgIGZhaWxSZWFzb25zLm5vdF9yZWxldmFudF9kYXRlKys7DQogICAgICAgICAgICByZXR1cm47DQogICAgICAgIH0NCg0KICAgICAgICBpZiAoIXNrdSkgew0KICAgICAgICAgICAgZmFpbFJlYXNvbnMubm9fc2t1Kys7DQogICAgICAgICAgICByZXR1cm47DQogICAgICAgIH0NCg0KICAgICAgICAvLyAxLiBTdGF0dXMgRmlsdGVyDQogICAgICAgIGlmIChibGFja2xpc3RTdGF0dXMuc29tZShzID0+IHN0YXR1cy5pbmNsdWRlcyhzKSkpIHsNCiAgICAgICAgICAgIGZhaWxSZWFzb25zLnN0YXR1c19leGNsdWRlZCsrOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgLy8gMi4gS2V5d29yZCBGaWx0ZXIgKEFwcC50c3ggcnVsZSkNCiAgICAgICAgY29uc3QgaGFzS2V5d29yZCA9IGtleXdvcmRzLnNvbWUoayA9PiBza3UuaW5jbHVkZXMoaykpOw0KDQogICAgICAgIGlmIChoYXNLZXl3b3JkKSB7DQogICAgICAgICAgICBwYXNzZWRDb3VudCsrOw0KICAgICAgICAgICAgaWYgKHBhc3NlZEV4YW1wbGVzLmxlbmd0aCA8IDUwKSBwYXNzZWRFeGFtcGxlcy5wdXNoKHsgc2t1LCBkYXRlLCBzdGF0dXMgfSk7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBmYWlsUmVhc29ucy5ub19rZXl3b3JkKys7DQogICAgICAgICAgICBmYWlsZWRDb3VudCsrOw0KICAgICAgICB9DQogICAgfSk7DQoNCiAgICBjb25zb2xlLmxvZyhgXG5SZXN1bHRzIGZvciAzMS8wMSBhbmQgMDEvMDI6YCk7DQogICAgY29uc29sZS5sb2coYERhdGVzIGZvdW5kIGluIGRhdGEgZHVtcDpgLCBBcnJheS5mcm9tKHByb2Nlc3NlZERhdGVzKS5zbGljZSgwLCAxMCkpOw0KICAgIGNvbnNvbGUubG9nKGDinIUgU2hvdWxkIEFwcGVhciAoUGFzc2VkIEZpbHRlcnMpOiAke3Bhc3NlZENvdW50fWApOw0KICAgIGNvbnNvbGUubG9nKGDinYwgSGlkZGVuOiAke2ZhaWxlZENvdW50fWApOw0KICAgIGNvbnNvbGUubG9nKCdGYWlsdXJlIEJyZWFrZG93bjonLCBmYWlsUmVhc29ucyk7DQogICAgY29uc29sZS5sb2coYFxuRXhhbXBsZXMgb2YgU0hPVUxEIEFQUEVBUiAoUGFzc2VkIGl0ZW1zKTpcbmAsIHBhc3NlZEV4YW1wbGVzKTsNCn0NCg0KY2hlY2tTa3VGaWx0ZXIoKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+import fs from 'fs';
+import path from 'path';
+
+// Load env
+const envPath = path.resolve(process.cwd(), '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+const env: Record<string, string> = {};
+envContent.split('\n').forEach(line => {
+    const [key, val] = line.split('=');
+    if (key && val) env[key.trim()] = val.trim();
+});
+
+const SUPABASE_URL = process.env.SUPABASE_URL || env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || env.SUPABASE_SERVICE_ROLE_KEY;
+const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+async function checkSkuFilter() {
+    console.log('Checking App.tsx ESTAMPAS filter logic on recent orders (31/01 - 01/02)...');
+
+    // Fetch recent 500 rows to cover the date range
+    const { data: recentData, error } = await supabase
+        .from('spreadsheet_data')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(500);
+
+    if (error) {
+        console.error('Error fetching data:', error);
+        return;
+    }
+
+    const keywords = ['peito', 'costa', 'costas', 'frente', 'manga', 'perso', 'personalizado', 'pi'];
+    const blacklistStatus = ['enviado', 'entregue', 'cancelado', 'a caminho'];
+
+    let passedCount = 0;
+    let failedCount = 0;
+
+    // Counters for failure reason
+    let failReasons = {
+        no_sku: 0,
+        status_excluded: 0,
+        no_keyword: 0,
+        not_relevant_date: 0
+    };
+
+    const passedExamples: any[] = [];
+    const processedDates = new Set();
+
+    recentData.forEach(row => {
+        const d = row.row_data;
+        const sku = String(d['Código (SKU)'] || d['sku'] || d['Codigo (SKU)'] || d['SKU'] || '').toLowerCase();
+        const status = String(d['Situação'] || d['status'] || '').toLowerCase();
+        const date = String(d['Data'] || d['data'] || '');
+
+        if (date) processedDates.add(date);
+
+        // Focusing on the problematic dates
+        if (!date.includes('31/01') && !date.includes('01/02')) {
+            failReasons.not_relevant_date++;
+            return;
+        }
+
+        if (!sku) {
+            failReasons.no_sku++;
+            return;
+        }
+
+        // 1. Status Filter
+        if (blacklistStatus.some(s => status.includes(s))) {
+            failReasons.status_excluded++;
+            return;
+        }
+
+        // 2. Keyword Filter (App.tsx rule)
+        const hasKeyword = keywords.some(k => sku.includes(k));
+
+        if (hasKeyword) {
+            passedCount++;
+            if (passedExamples.length < 50) passedExamples.push({ sku, date, status });
+        } else {
+            failReasons.no_keyword++;
+            failedCount++;
+        }
+    });
+
+    console.log(`\nResults for 31/01 and 01/02:`);
+    console.log(`Dates found in data dump:`, Array.from(processedDates).slice(0, 10));
+    console.log(`✅ Should Appear (Passed Filters): ${passedCount}`);
+    console.log(`❌ Hidden: ${failedCount}`);
+    console.log('Failure Breakdown:', failReasons);
+    console.log(`\nExamples of SHOULD APPEAR (Passed items):\n`, passedExamples);
+}
+
+checkSkuFilter();

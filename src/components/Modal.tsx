@@ -1,1 +1,99 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgeyBjcmVhdGVQb3J0YWwgfSBmcm9tICdyZWFjdC1kb20nOwoKaW50ZXJmYWNlIE1vZGFsUHJvcHMgewogIGlzT3BlbjogYm9vbGVhbjsKICBvbkNsb3NlOiAoKSA9PiB2b2lkOwogIHRpdGxlOiBzdHJpbmc7CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKICB0eXBlOiAnYWxlcnQnIHwgJ2NvbmZpcm0nOwogIG9uQ29uZmlybT86ICgpID0+IHZvaWQ7CiAgb25DYW5jZWw/OiAoKSA9PiB2b2lkOwogIGNvbmZpcm1UZXh0Pzogc3RyaW5nOwogIGNhbmNlbFRleHQ/OiBzdHJpbmc7CiAgY29uZmlybUNsYXNzPzogc3RyaW5nOwogIG1heFdpZHRoPzogc3RyaW5nOwp9Cgpjb25zdCBNb2RhbDogUmVhY3QuRkM8TW9kYWxQcm9wcz4gPSAoewogIGlzT3BlbiwKICBvbkNsb3NlLAogIHRpdGxlLAogIGNoaWxkcmVuLAogIHR5cGUsCiAgb25Db25maXJtLAogIG9uQ2FuY2VsLAogIGNvbmZpcm1UZXh0LAogIGNhbmNlbFRleHQsCiAgY29uZmlybUNsYXNzID0gJ2JnLXByaW1hcnktNjAwIGhvdmVyOmJnLXByaW1hcnktNzAwJywKICBtYXhXaWR0aCA9ICdtYXgtdy1tZCcsCn0pID0+IHsKICBjb25zdCBtb2RhbFJlZiA9IFJlYWN0LnVzZVJlZjxIVE1MRGl2RWxlbWVudD4obnVsbCk7CgogIGlmICghaXNPcGVuKSByZXR1cm4gbnVsbDsKCiAgY29uc3QgaGFuZGxlQ29uZmlybSA9ICgpID0+IHsKICAgIGlmIChvbkNvbmZpcm0pIG9uQ29uZmlybSgpOwogICAgb25DbG9zZSgpOwogIH07CgogIGNvbnN0IGhhbmRsZUNhbmNlbCA9ICgpID0+IHsKICAgIGlmIChvbkNhbmNlbCkgb25DYW5jZWwoKTsKICAgIG9uQ2xvc2UoKTsKICB9OwoKICBjb25zdCBpc0NvbmZpcm1EYW5nZXIgPSBjb25maXJtVGV4dCA9PT0gJ0V4Y2x1aXInIHx8IGNvbmZpcm1UZXh0ID09PSAnUmVtb3ZlcicgfHwgY29uZmlybVRleHQgPT09ICdMaW1wYXIgVG9kb3MnIHx8IGNvbmZpcm1UZXh0ID09PSAnQXBhZ2FyJyB8fCBjb25maXJtVGV4dCA9PT0gJ0FycXVpdmFyJzsKICBjb25zdCBmaW5hbENvbmZpcm1DbGFzcyA9IGNvbmZpcm1DbGFzcyA9PT0gJ2JnLXByaW1hcnktNjAwIGhvdmVyOmJnLXByaW1hcnktNzAwJyAmJiBpc0NvbmZpcm1EYW5nZXIKICAgID8gJ2JnLXJlZC02MDAgaG92ZXI6YmctcmVkLTcwMCcKICAgIDogY29uZmlybUNsYXNzOwoKICBjb25zdCBtb2RhbENvbnRlbnQgPSAoCiAgICA8ZGl2CiAgICAgIGNsYXNzTmFtZT0iZml4ZWQgaW5zZXQtMCBiZy1ibGFjay82MCB6LVsxMTAwMF0gYmFja2Ryb3AtYmx1ci1zbSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTQgdHJhbnNpdGlvbi1vcGFjaXR5IGR1cmF0aW9uLTMwMCIKICAgICAgYXJpYS1tb2RhbD0idHJ1ZSIKICAgICAgcm9sZT0iZGlhbG9nIgogICAgICBvbkNsaWNrPXtvbkNsb3NlfQogICAgPgogICAgICA8ZGl2CiAgICAgICAgcmVmPXttb2RhbFJlZn0KICAgICAgICBjbGFzc05hbWU9e2BiZy13aGl0ZSBkYXJrOmJnLWdyYXktODAwIHJvdW5kZWQtMnhsIHNoYWRvdy0yeGwgJHttYXhXaWR0aH0gdy1mdWxsIG1heC1oLVs5MHZoXSBmbGV4IGZsZXgtY29sIHRyYW5zZm9ybSB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0zMDAgc2NhbGUtMTAwIG9wYWNpdHktMTAwIG92ZXJmbG93LWhpZGRlbmB9CiAgICAgICAgb25DbGljaz17ZSA9PiBlLnN0b3BQcm9wYWdhdGlvbigpfQogICAgICA+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlciBwLTUgYm9yZGVyLWIgZGFyazpib3JkZXItZ3JheS03MDAvNTAiPgogICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC14bCBmb250LWJvbGQgdGV4dC1ncmF5LTkwMCBkYXJrOnRleHQtd2hpdGUiPnt0aXRsZX08L2gzPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBvbkNsaWNrPXtvbkNsb3NlfQogICAgICAgICAgICBjbGFzc05hbWU9InRleHQtZ3JheS00MDAgaG92ZXI6dGV4dC1ncmF5LTYwMCBkYXJrOmhvdmVyOnRleHQtZ3JheS0yMDAgcm91bmRlZC1mdWxsIHAtMSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0yIGZvY3VzOnJpbmctcHJpbWFyeS01MDAiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJoLTYgdy02IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIj4KICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD0iMiIgZD0iTTYgMThMMTggNk02IDZsMTIgMTIiIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtNiB0ZXh0LXNtIHRleHQtZ3JheS02MDAgZGFyazp0ZXh0LWdyYXktMzAwIHdoaXRlc3BhY2UtcHJlLXdyYXAgb3ZlcmZsb3cteS1hdXRvIGZsZXgtZ3JvdyI+CiAgICAgICAgICB7Y2hpbGRyZW59CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtNCBiZy1ncmF5LTUwIGRhcms6YmctZ3JheS05MDAvNTAgYm9yZGVyLXQgZGFyazpib3JkZXItZ3JheS03MDAgZmxleCBqdXN0aWZ5LWVuZCBnYXAtMyI+CiAgICAgICAgICB7dHlwZSA9PT0gJ2NvbmZpcm0nICYmICgKICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUNhbmNlbH0KICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTQgcHktMiBiZy1ncmF5LTIwMCBkYXJrOmJnLWdyYXktNjAwIHRleHQtZ3JheS04MDAgZGFyazp0ZXh0LWdyYXktMjAwIHRleHQtc20gZm9udC1zZW1pYm9sZCByb3VuZGVkLW1kIGhvdmVyOmJnLWdyYXktMzAwIGRhcms6aG92ZXI6YmctZ3JheS01MDAiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7Y2FuY2VsVGV4dCB8fCAnQ2FuY2VsYXInfQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICl9CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIG9uQ2xpY2s9e3R5cGUgPT09ICdjb25maXJtJyA/IGhhbmRsZUNvbmZpcm0gOiBvbkNsb3NlfQogICAgICAgICAgICBjbGFzc05hbWU9e2BweC00IHB5LTIgdGV4dC13aGl0ZSB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgcm91bmRlZC1tZCAke2ZpbmFsQ29uZmlybUNsYXNzfWB9CiAgICAgICAgICA+CiAgICAgICAgICAgIHt0eXBlID09PSAnY29uZmlybScgPyAoY29uZmlybVRleHQgfHwgJ0NvbmZpcm1hcicpIDogJ09LJ30KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7CgogIHJldHVybiBjcmVhdGVQb3J0YWwobW9kYWxDb250ZW50LCBkb2N1bWVudC5ib2R5KTsKfTsKCmV4cG9ydCBkZWZhdWx0IE1vZGFsOw==}
+import * as React from 'react';
+import { createPortal } from 'react-dom';
+
+interface ModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  title: string;
+  children: React.ReactNode;
+  type: 'alert' | 'confirm';
+  onConfirm?: () => void;
+  onCancel?: () => void;
+  confirmText?: string;
+  cancelText?: string;
+  confirmClass?: string;
+  maxWidth?: string;
+}
+
+const Modal: React.FC<ModalProps> = ({
+  isOpen,
+  onClose,
+  title,
+  children,
+  type,
+  onConfirm,
+  onCancel,
+  confirmText,
+  cancelText,
+  confirmClass = 'bg-primary-600 hover:bg-primary-700',
+  maxWidth = 'max-w-md',
+}) => {
+  const modalRef = React.useRef<HTMLDivElement>(null);
+
+  if (!isOpen) return null;
+
+  const handleConfirm = () => {
+    if (onConfirm) onConfirm();
+    onClose();
+  };
+
+  const handleCancel = () => {
+    if (onCancel) onCancel();
+    onClose();
+  };
+
+  const isConfirmDanger = confirmText === 'Excluir' || confirmText === 'Remover' || confirmText === 'Limpar Todos' || confirmText === 'Apagar' || confirmText === 'Arquivar';
+  const finalConfirmClass = confirmClass === 'bg-primary-600 hover:bg-primary-700' && isConfirmDanger
+    ? 'bg-red-600 hover:bg-red-700'
+    : confirmClass;
+
+  const modalContent = (
+    <div
+      className="fixed inset-0 bg-black/60 z-[11000] backdrop-blur-sm flex items-center justify-center p-4 transition-opacity duration-300"
+      aria-modal="true"
+      role="dialog"
+      onClick={onClose}
+    >
+      <div
+        ref={modalRef}
+        className={`bg-white dark:bg-gray-800 rounded-2xl shadow-2xl ${maxWidth} w-full max-h-[90vh] flex flex-col transform transition-all duration-300 scale-100 opacity-100 overflow-hidden`}
+        onClick={e => e.stopPropagation()}
+      >
+        <div className="flex justify-between items-center p-5 border-b dark:border-gray-700/50">
+          <h3 className="text-xl font-bold text-gray-900 dark:text-white">{title}</h3>
+          <button
+            onClick={onClose}
+            className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 rounded-full p-1 focus:outline-none focus:ring-2 focus:ring-primary-500"
+          >
+            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div className="p-6 text-sm text-gray-600 dark:text-gray-300 whitespace-pre-wrap overflow-y-auto flex-grow">
+          {children}
+        </div>
+        <div className="p-4 bg-gray-50 dark:bg-gray-900/50 border-t dark:border-gray-700 flex justify-end gap-3">
+          {type === 'confirm' && (
+            <button
+              onClick={handleCancel}
+              className="px-4 py-2 bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-200 text-sm font-semibold rounded-md hover:bg-gray-300 dark:hover:bg-gray-500"
+            >
+              {cancelText || 'Cancelar'}
+            </button>
+          )}
+          <button
+            onClick={type === 'confirm' ? handleConfirm : onClose}
+            className={`px-4 py-2 text-white text-sm font-semibold rounded-md ${finalConfirmClass}`}
+          >
+            {type === 'confirm' ? (confirmText || 'Confirmar') : 'OK'}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+
+  return createPortal(modalContent, document.body);
+};
+
+export default Modal;

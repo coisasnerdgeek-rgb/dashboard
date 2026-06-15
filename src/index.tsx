@@ -1,1 +1,36 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tL2NsaWVudCc7CmltcG9ydCBBcHAgZnJvbSAnLi9BcHAnOwppbXBvcnQgeyBBcHBQcm92aWRlciB9IGZyb20gJy4vY29udGV4dHMvQXBwQ29udGV4dCc7CmltcG9ydCB7IFF1ZXJ5Q2xpZW50UHJvdmlkZXIgfSBmcm9tICdAdGFuc3RhY2svcmVhY3QtcXVlcnknOwppbXBvcnQgeyBSZWFjdFF1ZXJ5RGV2dG9vbHMgfSBmcm9tICdAdGFuc3RhY2svcmVhY3QtcXVlcnktZGV2dG9vbHMnOwppbXBvcnQgeyBxdWVyeUNsaWVudCB9IGZyb20gJy4vc2VydmljZXMvcXVlcnlDbGllbnQnOwoKLy8gTGltcGV6YSBkZSBsb2NhbFN0b3JhZ2UgcGFyYSBldml0YXIgZXJybyBkZSBjb3RhIChRdW90YUV4Y2VlZGVkRXJyb3IpCi8vIE8gc3ByZWFkc2hlZXREYXRhIGFnb3JhIMOpIGxpZG8gZGlyZXRhbWVudGUgZG8gU3VwYWJhc2UuCnRyeSB7CiAgY29uc3QgZGF0YSA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdzcHJlYWRzaGVldERhdGEnKTsKICBpZiAoZGF0YSAmJiBkYXRhLmxlbmd0aCA+IDEwMDApIHsKICAgIGNvbnNvbGUubG9nKCfwn6e5IExpbXBhbmRvIGRhZG9zIHJlZHVuZGFudGVzIGRvIGxvY2FsU3RvcmFnZSBwYXJhIGxpYmVyYXIgZXNwYcOnby4uLicpOwogICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3NwcmVhZHNoZWV0RGF0YScpOwogIH0KfSBjYXRjaCAoZSkgewogIGNvbnNvbGUuZXJyb3IoJ0ZhbGhhIGFvIGxpbXBhciBsb2NhbFN0b3JhZ2U6JywgZSk7Cn0KCmNvbnN0IHJvb3RFbGVtZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Jvb3QnKTsKaWYgKCFyb290RWxlbWVudCkgewogIHRocm93IG5ldyBFcnJvcigiQ291bGQgbm90IGZpbmQgcm9vdCBlbGVtZW50IHRvIG1vdW50IHRvIik7Cn0KCmNvbnN0IHJvb3QgPSBSZWFjdERPTS5jcmVhdGVSb290KHJvb3RFbGVtZW50KTsKcm9vdC5yZW5kZXIoCiAgPFJlYWN0LlN0cmljdE1vZGU+CiAgICA8UXVlcnlDbGllbnRQcm92aWRlciBjbGllbnQ9e3F1ZXJ5Q2xpZW50fT4KICAgICAgPEFwcFByb3ZpZGVyPgogICAgICAgIDxBcHAgLz4KICAgICAgPC9BcHBQcm92aWRlcj4KICAgICAgPFJlYWN0UXVlcnlEZXZ0b29scyBpbml0aWFsSXNPcGVuPXtmYWxzZX0gLz4KICAgIDwvUXVlcnlDbGllbnRQcm92aWRlcj4KICA8L1JlYWN0LlN0cmljdE1vZGU+Cik7}
+import * as React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import { AppProvider } from './contexts/AppContext';
+import { QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { queryClient } from './services/queryClient';
+
+// Limpeza de localStorage para evitar erro de cota (QuotaExceededError)
+// O spreadsheetData agora é lido diretamente do Supabase.
+try {
+  const data = localStorage.getItem('spreadsheetData');
+  if (data && data.length > 1000) {
+    console.log('🧹 Limpando dados redundantes do localStorage para liberar espaço...');
+    localStorage.removeItem('spreadsheetData');
+  }
+} catch (e) {
+  console.error('Falha ao limpar localStorage:', e);
+}
+
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  throw new Error("Could not find root element to mount to");
+}
+
+const root = ReactDOM.createRoot(rootElement);
+root.render(
+  <React.StrictMode>
+    <QueryClientProvider client={queryClient}>
+      <AppProvider>
+        <App />
+      </AppProvider>
+      <ReactQueryDevtools initialIsOpen={false} />
+    </QueryClientProvider>
+  </React.StrictMode>
+);

@@ -1,1 +1,245 @@
-﻿@{data=LyoqDQogKiBQUk9DRVNTQURPUiBERSBGSUxBIExPQ0FMIChDT00gTE9PUCBBVVRPTcOBVElDTykNCiAqIA0KICogRXhlY3V0YSBhIG1lc21hIGzDs2dpY2EgZG8gYmFja2VuZCBtYXMgbG9jYWxtZW50ZSwgc2VtIHRpbWVvdXQgZGEgVmVyY2VsLg0KICogUHJvY2Vzc2EgZG8gbWFpcyByZWNlbnRlIHBhcmEgbyBtYWlzIGFudGlnby4NCiAqLw0KDQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KLy8gTG9hZCAuZW52LmxvY2FsDQpjb25zdCBlbnZQYXRoID0gcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQppZiAoZnMuZXhpc3RzU3luYyhlbnZQYXRoKSkgew0KICAgIGNvbnN0IGVudkZpbGUgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0ZjgnKTsNCiAgICBlbnZGaWxlLnNwbGl0KCdcbicpLmZvckVhY2gobGluZSA9PiB7DQogICAgICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj06I10rKT0oLiopJC8pOw0KICAgICAgICBpZiAobWF0Y2gpIHsNCiAgICAgICAgICAgIGNvbnN0IGtleSA9IG1hdGNoWzFdLnRyaW0oKTsNCiAgICAgICAgICAgIGNvbnN0IHZhbHVlID0gbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL15bIiddfFsiJ10kL2csICcnKTsNCiAgICAgICAgICAgIGlmICghcHJvY2Vzcy5lbnZba2V5XSkgcHJvY2Vzcy5lbnZba2V5XSA9IHZhbHVlOw0KICAgICAgICB9DQogICAgfSk7DQp9DQoNCmNvbnN0IFNVUEFCQVNFX1VSTCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZITsNCmNvbnN0IFRJTllfVE9LRU5fTU0gPSBwcm9jZXNzLmVudi5USU5ZX0FQSV9UT0tFTl9NTSB8fCBwcm9jZXNzLmVudi5USU5ZX0FQSV9UT0tFTjsNCmNvbnN0IFRJTllfVE9LRU5fTVZGID0gcHJvY2Vzcy5lbnYuVElOWV9BUElfVE9LRU5fTVZGOw0KDQovLyBIZWxwZXIgdG8gY29udmVydCBERC9NTS9ZWVlZIHRvIERhdGUNCmZ1bmN0aW9uIGNvbnZlcnRUb0RhdGVGcm9tU3RyaW5nKGRhdGVTdHI6IHN0cmluZyk6IERhdGUgew0KICAgIGlmICghZGF0ZVN0cikgcmV0dXJuIG5ldyBEYXRlKDApOw0KICAgIGNvbnN0IHBhcnRzID0gZGF0ZVN0ci5zcGxpdCgnLycpOw0KICAgIGlmIChwYXJ0cy5sZW5ndGggIT09IDMpIHJldHVybiBuZXcgRGF0ZSgwKTsNCiAgICBjb25zdCBbZGF5LCBtb250aCwgeWVhcl0gPSBwYXJ0cy5tYXAoTnVtYmVyKTsNCiAgICByZXR1cm4gbmV3IERhdGUoeWVhciwgbW9udGggLSAxLCBkYXkpOw0KfQ0KDQovLyAtLS0gTMOzZ2ljYSBkZSBOZWfDs2NpbyAoQ29waWFkYSBkbyBiYWNrZW5kKSAtLS0NCg0KZnVuY3Rpb24gZ2V0RWNvbW1lcmNlU3RvcmUob3JkZXJJZDogc3RyaW5nIHwgbnVtYmVyLCBmaWxlQ25wajogJ01NJyB8ICdNVkYnIHwgc3RyaW5nIHwgbnVsbCk6IHN0cmluZyB7DQogICAgY29uc3QgaWQgPSBTdHJpbmcob3JkZXJJZCA/PyAnJykudHJpbSgpOw0KICAgIGlmICghaWQpIHJldHVybiAnQlVTSU5FU1MnOw0KDQogICAgY29uc3QgaXNTaG9wZWUgPSBbJzI2JywgJzI1MTAnLCAnSUQyJywgJzI1MDkxJywgJzI1MDEwJywgJzI1MDExJywgJzI1MDknLCAnMjUwMScsICcyNTAyJywgJzI1MCcsICcyNTEnLCAnMjUyJywgJzI1MycsICcyNTQnLCAnMjU1JywgJzI1NicsICcyNTcnLCAnMjU4JywgJzI1OScsICcyNjAnXS5zb21lKHByZWZpeCA9PiBpZC5zdGFydHNXaXRoKHByZWZpeCkpOw0KICAgIGlmIChpc1Nob3BlZSkgew0KICAgICAgICBpZiAoZmlsZUNucGogPT09ICdNTScgfHwgZmlsZUNucGo/LmluY2x1ZGVzKCczOTQ0NzI5MScpKSByZXR1cm4gJ1NIIE1NJzsNCiAgICAgICAgcmV0dXJuICdTSCBWRVNUJzsNCiAgICB9DQoNCiAgICBsZXQgbG9qYUJhc2U6IHN0cmluZzsNCiAgICBpZiAoaWQuc3RhcnRzV2l0aCgnMjAwMCcpIHx8IGlkLnN0YXJ0c1dpdGgoJzIsMDAwJykgfHwgaWQuc3RhcnRzV2l0aCgnMDIwMCcpIHx8IGlkLnN0YXJ0c1dpdGgoJ01MQicpKSB7DQogICAgICAgIGxvamFCYXNlID0gJ01MIFZFU1QnOw0KICAgIH0gZWxzZSBpZiAoaWQuc3RhcnRzV2l0aCgnTFUtJykpIHsNCiAgICAgICAgbG9qYUJhc2UgPSAnTUcgVkVTVCc7DQogICAgfSBlbHNlIGlmIChpZC5zdGFydHNXaXRoKCcxNCcpKSB7DQogICAgICAgIGxvamFCYXNlID0gJ05UIFZFU1QnOw0KICAgIH0gZWxzZSBpZiAoaWQuc3RhcnRzV2l0aCgnR1NIJykpIHsNCiAgICAgICAgbG9qYUJhc2UgPSAnU04gVkVTVCc7DQogICAgfSBlbHNlIGlmIChpZC5tYXRjaCgvXlxkezN9LVxkezd9LVxkezd9JC8pIHx8IGlkLnN0YXJ0c1dpdGgoJzcwMScpIHx8IGlkLnN0YXJ0c1dpdGgoJzcwMicpKSB7DQogICAgICAgIGxvamFCYXNlID0gJ0FNIFZFU1QnOw0KICAgIH0gZWxzZSBpZiAoaWQuc3RhcnRzV2l0aCgnMTInKSkgew0KICAgICAgICBsb2phQmFzZSA9ICdLVyBWRVNUJzsNCiAgICB9IGVsc2Ugew0KICAgICAgICBsb2phQmFzZSA9ICdCVVNJTkVTUyc7DQogICAgfQ0KDQogICAgaWYgKChmaWxlQ25waiA9PT0gJ01NJyB8fCBmaWxlQ25waj8uaW5jbHVkZXMoJzM5NDQ3MjkxJykpICYmIGxvamFCYXNlICE9PSAnQlVTSU5FU1MnKSB7DQogICAgICAgIHJldHVybiBsb2phQmFzZS5yZXBsYWNlKCdWRVNUJywgJ01NJyk7DQogICAgfQ0KDQogICAgcmV0dXJuIGxvamFCYXNlOw0KfQ0KDQpmdW5jdGlvbiBnZXRTdXBwbGllcihzYWxlc0NoYW5uZWw6IHN0cmluZywgZmlsZUNucGo/OiBzdHJpbmcgfCBudWxsKTogc3RyaW5nIHsNCiAgICBjb25zdCB1cHBlciA9IHNhbGVzQ2hhbm5lbC50cmltKCkudG9VcHBlckNhc2UoKTsNCiAgICBpZiAodXBwZXIuZW5kc1dpdGgoJyBNTScpIHx8IHVwcGVyLmluY2x1ZGVzKCcgTU0nKSkgcmV0dXJuICdNTSc7DQogICAgaWYgKHVwcGVyLmVuZHNXaXRoKCcgVkVTVCcpIHx8IHVwcGVyLmluY2x1ZGVzKCcgVkVTVCcpKSByZXR1cm4gJ01WRic7DQogICAgaWYgKGZpbGVDbnBqID09PSAnTU0nKSByZXR1cm4gJ01NJzsNCiAgICBpZiAoZmlsZUNucGogPT09ICdNVkYnKSByZXR1cm4gJ01WRic7DQogICAgcmV0dXJuICdNVkYnOyAvLyBEZWZhdWx0DQp9DQoNCi8vIC0tLSBNYWluIFByb2Nlc3NvciAtLS0NCg0KYXN5bmMgZnVuY3Rpb24gZmV0Y2hUaW55T3JkZXIob3JkZXJJZDogc3RyaW5nLCB0b2tlbjogc3RyaW5nKSB7DQogICAgdHJ5IHsNCiAgICAgICAgY29uc3QgdXJsID0gYGh0dHBzOi8vYXBpLnRpbnkuY29tLmJyL2FwaTIvcGVkaWRvLm9idGVyLnBocD90b2tlbj0ke3Rva2VufSZpZD0ke29yZGVySWR9JmZvcm1hdG89anNvbmA7DQogICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2godXJsKTsNCiAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsNCg0KICAgICAgICBpZiAoZGF0YS5yZXRvcm5vPy5zdGF0dXMgPT09ICdFcnJvJykgew0KICAgICAgICAgICAgY29uc3QgZXJybyA9IGRhdGEucmV0b3Juby5jb2RpZ29fZXJybzsNCiAgICAgICAgICAgIC8vIDYgPSBUb28gbWFueSByZXF1ZXN0cywgMzEgPSBQZWRpZG8gbsOjbyBsb2NhbGl6YWRvIChlcnJvIGNvbXVtIHNlIHVzYXIgdG9rZW4gZXJyYWRvKQ0KICAgICAgICAgICAgaWYgKGVycm8gPT0gNikgcmV0dXJuIHsgZXJyb3I6ICdyYXRlX2xpbWl0JyB9Ow0KICAgICAgICAgICAgaWYgKGVycm8gPT0gMzEpIHJldHVybiB7IGVycm9yOiAnbm90X2ZvdW5kJyB9Ow0KICAgICAgICAgICAgcmV0dXJuIHsgZXJyb3I6IGRhdGEucmV0b3Juby5lcnJvc1swXT8uZXJybyB8fCAnVW5rbm93biBlcnJvcicgfTsNCiAgICAgICAgfQ0KDQogICAgICAgIHJldHVybiB7IGRhdGE6IGRhdGEucmV0b3Jubz8ucGVkaWRvIH07DQogICAgfSBjYXRjaCAoZTogYW55KSB7DQogICAgICAgIHJldHVybiB7IGVycm9yOiBlLm1lc3NhZ2UgfTsNCiAgICB9DQp9DQoNCmFzeW5jIGZ1bmN0aW9uIHJ1blByb2Nlc3NvcigpIHsNCiAgICBjb25zb2xlLmxvZygnXG7wn5qAIElOSUNJQU5ETyBQUk9DRVNTQURPUiBERSBGSUxBIExPQ0FMXG4nKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSArICdcbicpOw0KDQogICAgaWYgKCFTVVBBQkFTRV9LRVkpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcign4p2MIEVSUk86IFNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkgbsOjbyBlbmNvbnRyYWRhIScpOw0KICAgICAgICBwcm9jZXNzLmV4aXQoMSk7DQogICAgfQ0KICAgIGNvbnNvbGUubG9nKCfinIUgQ2hhdmUgU2VydmljZSBSb2xlIGNhcnJlZ2FkYSBjb20gc3VjZXNzby4nKTsNCg0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCiAgICBsZXQgdG90YWxQcm9jZXNzZWQgPSAwOw0KDQogICAgd2hpbGUgKHRydWUpIHsNCiAgICAgICAgLy8gMS4gQnVzY2FyIHBlbmRlbnRlcyAobWVzbWEgb3JkZW5hw6fDo28gZG8gYmFja2VuZDogbWFpcyByZWNlbnRlcyBwcmltZWlybykNCiAgICAgICAgY29uc3QgeyBkYXRhOiBwZW5kaW5nLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgIC5zZWxlY3QoJyonKQ0KICAgICAgICAgICAgLmVxKCdzdGF0dXMnLCAncGVuZGluZycpDQogICAgICAgICAgICAub3JkZXIoJ2NyZWF0ZWRfYXQnLCB7IGFzY2VuZGluZzogZmFsc2UgfSkgLy8gQnVzY2FyIG1haXMgbm92b3MgcHJpbWVpcm8NCiAgICAgICAgICAgIC5saW1pdCgyMCk7DQoNCiAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCfinYwgRXJybyBhbyBidXNjYXIgZmlsYTonLCBlcnJvci5tZXNzYWdlKTsNCiAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICB9DQoNCiAgICAgICAgaWYgKCFwZW5kaW5nIHx8IHBlbmRpbmcubGVuZ3RoID09PSAwKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnXG7inIUgRmlsYSB2YXppYSEgVG9kb3Mgb3MgcGVkaWRvcyBmb3JhbSBwcm9jZXNzYWRvcy5cbicpOw0KICAgICAgICAgICAgYnJlYWs7DQogICAgICAgIH0NCg0KICAgICAgICAvLyBPcmRlbmFyIGVtIG1lbcOzcmlhIHBvciBvcmRlcl9kYXRlIChtYWlzIGNvbmZpw6F2ZWwpDQogICAgICAgIGNvbnN0IGJhdGNoID0gcGVuZGluZy5zb3J0KChhLCBiKSA9PiB7DQogICAgICAgICAgICBjb25zdCBkYXRlQSA9IGEub3JkZXJfZGF0ZSA/IGNvbnZlcnRUb0RhdGVGcm9tU3RyaW5nKGEub3JkZXJfZGF0ZSkgOiBuZXcgRGF0ZSgwKTsNCiAgICAgICAgICAgIGNvbnN0IGRhdGVCID0gYi5vcmRlcl9kYXRlID8gY29udmVydFRvRGF0ZUZyb21TdHJpbmcoYi5vcmRlcl9kYXRlKSA6IG5ldyBEYXRlKDApOw0KICAgICAgICAgICAgcmV0dXJuIGRhdGVCLmdldFRpbWUoKSAtIGRhdGVBLmdldFRpbWUoKTsNCiAgICAgICAgfSk7DQoNCiAgICAgICAgY29uc29sZS5sb2coYPCfk6YgUHJvY2Vzc2FuZG8gbG90ZSBkZSAke2JhdGNoLmxlbmd0aH0gcGVkaWRvcy4uLmApOw0KDQogICAgICAgIGZvciAoY29uc3QgaXRlbSBvZiBiYXRjaCkgew0KICAgICAgICAgICAgcHJvY2Vzcy5zdGRvdXQud3JpdGUoYCAgIOKWtu+4jyAgUGVkaWRvICR7aXRlbS5vcmRlcl9pZH0uLi4gYCk7DQoNCiAgICAgICAgICAgIC8vIFRlbnRhciBNVkYgcHJpbWVpcm8gKHBhZHLDo28pDQogICAgICAgICAgICBsZXQgcmVzdWx0ID0gYXdhaXQgZmV0Y2hUaW55T3JkZXIoaXRlbS5vcmRlcl9pZCwgVElOWV9UT0tFTl9NVkYhKTsNCiAgICAgICAgICAgIGxldCB1c2VkQ29tcGFueSA9ICdNVkYnOw0KDQogICAgICAgICAgICAvLyBTZSBuw6NvIGFjaGFyLCB0ZW50YXIgTU0NCiAgICAgICAgICAgIGlmIChyZXN1bHQuZXJyb3IgPT09ICdub3RfZm91bmQnICYmIFRJTllfVE9LRU5fTU0pIHsNCiAgICAgICAgICAgICAgICByZXN1bHQgPSBhd2FpdCBmZXRjaFRpbnlPcmRlcihpdGVtLm9yZGVyX2lkLCBUSU5ZX1RPS0VOX01NKTsNCiAgICAgICAgICAgICAgICB1c2VkQ29tcGFueSA9ICdNTSc7DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIGlmIChyZXN1bHQuZXJyb3IpIHsNCiAgICAgICAgICAgICAgICBpZiAocmVzdWx0LmVycm9yID09PSAncmF0ZV9saW1pdCcpIHsNCiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ+KPsyBSYXRlIExpbWl0LiBBZ3VhcmRhbmRvIDVzLi4uJyk7DQogICAgICAgICAgICAgICAgICAgIGF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCA1MDAwKSk7DQogICAgICAgICAgICAgICAgICAgIC8vIFJlLWVuZmlsZWlyYXIgbWVzbW8gaXRlbSBwYXJhIHRlbnRhciBkZSBub3ZvDQogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGDinYwgRXJybzogJHtyZXN1bHQuZXJyb3J9YCk7DQoNCiAgICAgICAgICAgICAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgICAgICAgICAgLnVwZGF0ZSh7DQogICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXM6ICdmYWlsZWQnLA0KICAgICAgICAgICAgICAgICAgICAgICAgbGFzdF9lcnJvcjogcmVzdWx0LmVycm9yDQogICAgICAgICAgICAgICAgICAgIH0pDQogICAgICAgICAgICAgICAgICAgIC5lcSgnaWQnLCBpdGVtLmlkKTsNCg0KICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBjb25zdCBwZWRpZG8gPSByZXN1bHQuZGF0YTsNCg0KICAgICAgICAgICAgLy8gRXh0cmFpciBkYWRvcyBjb3JyZXRvcw0KICAgICAgICAgICAgY29uc3QgZWNvbW1lcmNlSWQgPSBwZWRpZG8ubnVtZXJvX2Vjb21tZXJjZSB8fCAnJzsNCiAgICAgICAgICAgIGNvbnN0IGNsaWVudGVOb21lID0gcGVkaWRvLmNsaWVudGU/Lm5vbWUgfHwgJ0NsaWVudGUgRGVzY29uaGVjaWRvJzsNCiAgICAgICAgICAgIGNvbnN0IGNucGpEZXN0aW5vID0gdXNlZENvbXBhbnk7IC8vICdNTScgb3UgJ01WRicNCg0KICAgICAgICAgICAgLy8gQ2FsY3VsYXIgbG9qYSBjb3JyZXRhDQogICAgICAgICAgICBjb25zdCBsb2phID0gZ2V0RWNvbW1lcmNlU3RvcmUoZWNvbW1lcmNlSWQsIGNucGpEZXN0aW5vKTsNCiAgICAgICAgICAgIGNvbnN0IGZvcm5lY2Vkb3IgPSBnZXRTdXBwbGllcihsb2phLCBjbnBqRGVzdGlubyk7DQoNCiAgICAgICAgICAgIC8vIEF0dWFsaXphciBzcHJlYWRzaGVldF9kYXRhDQogICAgICAgICAgICBjb25zdCByb3dEYXRhID0gew0KICAgICAgICAgICAgICAgICJEYXRhIjogcGVkaWRvLmRhdGFfcGVkaWRvLA0KICAgICAgICAgICAgICAgICJOdW1lcm8iOiBwZWRpZG8ubnVtZXJvX3BlZGlkbywNCiAgICAgICAgICAgICAgICAiQ2xpZW50ZSI6IGNsaWVudGVOb21lLA0KICAgICAgICAgICAgICAgICJWYWxvciI6IHBlZGlkby52YWxvcl9wZWRpZG8sDQogICAgICAgICAgICAgICAgIlNpdHVhY2FvIjogcGVkaWRvLnNpdHVhY2FvLA0KICAgICAgICAgICAgICAgICJMb2phIjogbG9qYSwNCiAgICAgICAgICAgICAgICAiSUQgVGlueSI6IHBlZGlkby5pZCwNCiAgICAgICAgICAgICAgICAiRWNvbW1lcmNlIElEIjogZWNvbW1lcmNlSWQsDQogICAgICAgICAgICAgICAgIkNhbmFsIjogbG9qYSwgLy8gSW1wb3J0YW50ZSBwYXJhIGNvbXBhdGliaWxpZGFkZQ0KICAgICAgICAgICAgICAgIC8vIE91dHJvcyBjYW1wb3MgcGFkcsOjbyBxdWUgcHVkZXIgcHJlZW5jaGVyDQogICAgICAgICAgICAgICAgIk1hcGVhbWVudG8iOiAiQXV0b23DoXRpY28gdmlhIFNjcmlwdCINCiAgICAgICAgICAgIH07DQoNCiAgICAgICAgICAgIGNvbnN0IGluc2VydFJlc3VsdCA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKS5pbnNlcnQoew0KICAgICAgICAgICAgICAgIGZpbGVuYW1lOiAnVGlueSBFUlAgQXV0by1JbXBvcnQnLA0KICAgICAgICAgICAgICAgIHJvd19kYXRhOiByb3dEYXRhLA0KICAgICAgICAgICAgICAgIHN0YXR1czogJ3BlbmRpbmcnLA0KICAgICAgICAgICAgICAgIGltcG9ydF9kYXRlOiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkNCiAgICAgICAgICAgIH0pOw0KDQogICAgICAgICAgICBpZiAoaW5zZXJ0UmVzdWx0LmVycm9yKSB7DQogICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcihg4p2MIEVycm8gaW5zZXJ0IHNwcmVhZHNoZWV0OiAke2luc2VydFJlc3VsdC5lcnJvci5tZXNzYWdlfWApOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAvLyBNYXJjYXIgZmlsYSBjb21vIGNvbXBsZXRhZGEgY29tIFNFTEVDVCBwYXJhIGNvbmZpcm1hcg0KICAgICAgICAgICAgY29uc3QgdXBkYXRlUmVzdWx0ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAgICAgLnVwZGF0ZSh7DQogICAgICAgICAgICAgICAgICAgIHN0YXR1czogJ2NvbXBsZXRlZCcsDQogICAgICAgICAgICAgICAgICAgIGxhc3RfZXJyb3I6IG51bGwNCiAgICAgICAgICAgICAgICB9KQ0KICAgICAgICAgICAgICAgIC5lcSgnaWQnLCBpdGVtLmlkKQ0KICAgICAgICAgICAgICAgIC5zZWxlY3QoKTsNCg0KICAgICAgICAgICAgaWYgKHVwZGF0ZVJlc3VsdC5lcnJvcikgew0KICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYOKdjCBFcnJvIHVwZGF0ZSBxdWV1ZTogJHt1cGRhdGVSZXN1bHQuZXJyb3IubWVzc2FnZX1gKTsNCiAgICAgICAgICAgIH0gZWxzZSBpZiAodXBkYXRlUmVzdWx0LmRhdGEubGVuZ3RoID09PSAwKSB7DQogICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcihg4p2MIFVwZGF0ZSBxdWV1ZSByZXRvcm5vdSAwIGxpbmhhcyBhbHRlcmFkYXMhIChJRDogJHtpdGVtLmlkfSkgLSBWZXJpZmlxdWUgUkxTIG91IElEYCk7DQogICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGDinIUgT0sgKCR7bG9qYX0pYCk7DQogICAgICAgICAgICAgICAgdG90YWxQcm9jZXNzZWQrKzsNCiAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgLy8gRXZpdGFyIHJhdGUgbGltaXQgKDEgcmVxIHBvciBzZWd1bmRvIMOpIHNlZ3VybykNCiAgICAgICAgICAgIGF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCAxMDAwKSk7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygnXG5SZXN1bHRhZG9zIEZpbmFpczonKTsNCiAgICBjb25zb2xlLmxvZyhg4pyFIFRvdGFsIHByb2Nlc3NhZG9zOiAke3RvdGFsUHJvY2Vzc2VkfWApOw0KfQ0KDQpydW5Qcm9jZXNzb3IoKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+/**
+ * PROCESSADOR DE FILA LOCAL (COM LOOP AUTOMÁTICO)
+ * 
+ * Executa a mesma lógica do backend mas localmente, sem timeout da Vercel.
+ * Processa do mais recente para o mais antigo.
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const TINY_TOKEN_MM = process.env.TINY_API_TOKEN_MM || process.env.TINY_API_TOKEN;
+const TINY_TOKEN_MVF = process.env.TINY_API_TOKEN_MVF;
+
+// Helper to convert DD/MM/YYYY to Date
+function convertToDateFromString(dateStr: string): Date {
+    if (!dateStr) return new Date(0);
+    const parts = dateStr.split('/');
+    if (parts.length !== 3) return new Date(0);
+    const [day, month, year] = parts.map(Number);
+    return new Date(year, month - 1, day);
+}
+
+// --- Lógica de Negócio (Copiada do backend) ---
+
+function getEcommerceStore(orderId: string | number, fileCnpj: 'MM' | 'MVF' | string | null): string {
+    const id = String(orderId ?? '').trim();
+    if (!id) return 'BUSINESS';
+
+    const isShopee = ['26', '2510', 'ID2', '25091', '25010', '25011', '2509', '2501', '2502', '250', '251', '252', '253', '254', '255', '256', '257', '258', '259', '260'].some(prefix => id.startsWith(prefix));
+    if (isShopee) {
+        if (fileCnpj === 'MM' || fileCnpj?.includes('39447291')) return 'SH MM';
+        return 'SH VEST';
+    }
+
+    let lojaBase: string;
+    if (id.startsWith('2000') || id.startsWith('2,000') || id.startsWith('0200') || id.startsWith('MLB')) {
+        lojaBase = 'ML VEST';
+    } else if (id.startsWith('LU-')) {
+        lojaBase = 'MG VEST';
+    } else if (id.startsWith('14')) {
+        lojaBase = 'NT VEST';
+    } else if (id.startsWith('GSH')) {
+        lojaBase = 'SN VEST';
+    } else if (id.match(/^\d{3}-\d{7}-\d{7}$/) || id.startsWith('701') || id.startsWith('702')) {
+        lojaBase = 'AM VEST';
+    } else if (id.startsWith('12')) {
+        lojaBase = 'KW VEST';
+    } else {
+        lojaBase = 'BUSINESS';
+    }
+
+    if ((fileCnpj === 'MM' || fileCnpj?.includes('39447291')) && lojaBase !== 'BUSINESS') {
+        return lojaBase.replace('VEST', 'MM');
+    }
+
+    return lojaBase;
+}
+
+function getSupplier(salesChannel: string, fileCnpj?: string | null): string {
+    const upper = salesChannel.trim().toUpperCase();
+    if (upper.endsWith(' MM') || upper.includes(' MM')) return 'MM';
+    if (upper.endsWith(' VEST') || upper.includes(' VEST')) return 'MVF';
+    if (fileCnpj === 'MM') return 'MM';
+    if (fileCnpj === 'MVF') return 'MVF';
+    return 'MVF'; // Default
+}
+
+// --- Main Processor ---
+
+async function fetchTinyOrder(orderId: string, token: string) {
+    try {
+        const url = `https://api.tiny.com.br/api2/pedido.obter.php?token=${token}&id=${orderId}&formato=json`;
+        const response = await fetch(url);
+        const data = await response.json();
+
+        if (data.retorno?.status === 'Erro') {
+            const erro = data.retorno.codigo_erro;
+            // 6 = Too many requests, 31 = Pedido não localizado (erro comum se usar token errado)
+            if (erro == 6) return { error: 'rate_limit' };
+            if (erro == 31) return { error: 'not_found' };
+            return { error: data.retorno.erros[0]?.erro || 'Unknown error' };
+        }
+
+        return { data: data.retorno?.pedido };
+    } catch (e: any) {
+        return { error: e.message };
+    }
+}
+
+async function runProcessor() {
+    console.log('\n🚀 INICIANDO PROCESSADOR DE FILA LOCAL\n');
+    console.log('='.repeat(60) + '\n');
+
+    if (!SUPABASE_KEY) {
+        console.error('❌ ERRO: SUPABASE_SERVICE_ROLE_KEY não encontrada!');
+        process.exit(1);
+    }
+    console.log('✅ Chave Service Role carregada com sucesso.');
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+    let totalProcessed = 0;
+
+    while (true) {
+        // 1. Buscar pendentes (mesma ordenação do backend: mais recentes primeiro)
+        const { data: pending, error } = await supabase
+            .from('webhook_retry_queue')
+            .select('*')
+            .eq('status', 'pending')
+            .order('created_at', { ascending: false }) // Buscar mais novos primeiro
+            .limit(20);
+
+        if (error) {
+            console.error('❌ Erro ao buscar fila:', error.message);
+            break;
+        }
+
+        if (!pending || pending.length === 0) {
+            console.log('\n✅ Fila vazia! Todos os pedidos foram processados.\n');
+            break;
+        }
+
+        // Ordenar em memória por order_date (mais confiável)
+        const batch = pending.sort((a, b) => {
+            const dateA = a.order_date ? convertToDateFromString(a.order_date) : new Date(0);
+            const dateB = b.order_date ? convertToDateFromString(b.order_date) : new Date(0);
+            return dateB.getTime() - dateA.getTime();
+        });
+
+        console.log(`📦 Processando lote de ${batch.length} pedidos...`);
+
+        for (const item of batch) {
+            process.stdout.write(`   ▶️  Pedido ${item.order_id}... `);
+
+            // Tentar MVF primeiro (padrão)
+            let result = await fetchTinyOrder(item.order_id, TINY_TOKEN_MVF!);
+            let usedCompany = 'MVF';
+
+            // Se não achar, tentar MM
+            if (result.error === 'not_found' && TINY_TOKEN_MM) {
+                result = await fetchTinyOrder(item.order_id, TINY_TOKEN_MM);
+                usedCompany = 'MM';
+            }
+
+            if (result.error) {
+                if (result.error === 'rate_limit') {
+                    console.log('⏳ Rate Limit. Aguardando 5s...');
+                    await new Promise(r => setTimeout(r, 5000));
+                    // Re-enfileirar mesmo item para tentar de novo
+                    continue;
+                }
+
+                console.log(`❌ Erro: ${result.error}`);
+
+                await supabase.from('webhook_retry_queue')
+                    .update({
+                        status: 'failed',
+                        last_error: result.error
+                    })
+                    .eq('id', item.id);
+
+                continue;
+            }
+
+            const pedido = result.data;
+
+            // Extrair dados corretos
+            const ecommerceId = pedido.numero_ecommerce || '';
+            const clienteNome = pedido.cliente?.nome || 'Cliente Desconhecido';
+            const cnpjDestino = usedCompany; // 'MM' ou 'MVF'
+
+            // Calcular loja correta
+            const loja = getEcommerceStore(ecommerceId, cnpjDestino);
+            const fornecedor = getSupplier(loja, cnpjDestino);
+
+            // Atualizar spreadsheet_data
+            const rowData = {
+                "Data": pedido.data_pedido,
+                "Numero": pedido.numero_pedido,
+                "Cliente": clienteNome,
+                "Valor": pedido.valor_pedido,
+                "Situacao": pedido.situacao,
+                "Loja": loja,
+                "ID Tiny": pedido.id,
+                "Ecommerce ID": ecommerceId,
+                "Canal": loja, // Importante para compatibilidade
+                // Outros campos padrão que puder preencher
+                "Mapeamento": "Automático via Script"
+            };
+
+            const insertResult = await supabase.from('spreadsheet_data').insert({
+                filename: 'Tiny ERP Auto-Import',
+                row_data: rowData,
+                status: 'pending',
+                import_date: new Date().toISOString()
+            });
+
+            if (insertResult.error) {
+                console.error(`❌ Erro insert spreadsheet: ${insertResult.error.message}`);
+            }
+
+            // Marcar fila como completada com SELECT para confirmar
+            const updateResult = await supabase.from('webhook_retry_queue')
+                .update({
+                    status: 'completed',
+                    last_error: null
+                })
+                .eq('id', item.id)
+                .select();
+
+            if (updateResult.error) {
+                console.error(`❌ Erro update queue: ${updateResult.error.message}`);
+            } else if (updateResult.data.length === 0) {
+                console.error(`❌ Update queue retornou 0 linhas alteradas! (ID: ${item.id}) - Verifique RLS ou ID`);
+            } else {
+                console.log(`✅ OK (${loja})`);
+                totalProcessed++;
+            }
+
+            // Evitar rate limit (1 req por segundo é seguro)
+            await new Promise(r => setTimeout(r, 1000));
+        }
+    }
+
+    console.log('\nResultados Finais:');
+    console.log(`✅ Total processados: ${totalProcessed}`);
+}
+
+runProcessor().catch(console.error);

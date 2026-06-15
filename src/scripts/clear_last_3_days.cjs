@@ -1,1 +1,121 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KLy8gTG9hZCBlbnZpcm9ubWVudCB2YXJpYWJsZXMNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAnLi4nLCAnLmVudi5sb2NhbCcpOw0KY29uc3QgZW52Q29udGVudCA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmLTgnKTsNCmVudkNvbnRlbnQuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICBjb25zdCBtYXRjaCA9IGxpbmUubWF0Y2goL14oW149XSspPSguKikkLyk7DQogICAgaWYgKG1hdGNoKSB7DQogICAgICAgIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQogICAgfQ0KfSk7DQoNCmNvbnN0IFNVUEFCQVNFX1VSTCA9IHByb2Nlc3MuZW52LlZJVEVfU1VQQUJBU0VfVVJMIHx8IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTDsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlZJVEVfU1VQQUJBU0VfQU5PTl9LRVkgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWTsNCg0KYXN5bmMgZnVuY3Rpb24gY2xlYXJMYXN0M0RheXMoKSB7DQogICAgY29uc29sZS5sb2coJ/CflIQgTGltcGFuZG8gZmlsYSBkb3Mgw7psdGltb3MgMyBkaWFzLi4uXG4nKTsNCg0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIC8vIENhbGN1bGF0ZSAzIGRheXMgYWdvIGRhdGUNCiAgICBjb25zdCB0b2RheSA9IG5ldyBEYXRlKCk7DQogICAgY29uc3QgdGhyZWVEYXlzQWdvID0gbmV3IERhdGUodG9kYXkpOw0KICAgIHRocmVlRGF5c0Fnby5zZXREYXRlKHRvZGF5LmdldERhdGUoKSAtIDMpOw0KDQogICAgY29uc3QgZm9ybWF0RGF0ZSA9IChkYXRlKSA9PiB7DQogICAgICAgIGNvbnN0IGRheSA9IFN0cmluZyhkYXRlLmdldERhdGUoKSkucGFkU3RhcnQoMiwgJzAnKTsNCiAgICAgICAgY29uc3QgbW9udGggPSBTdHJpbmcoZGF0ZS5nZXRNb250aCgpICsgMSkucGFkU3RhcnQoMiwgJzAnKTsNCiAgICAgICAgY29uc3QgeWVhciA9IGRhdGUuZ2V0RnVsbFllYXIoKTsNCiAgICAgICAgcmV0dXJuIGAke2RheX0vJHttb250aH0vJHt5ZWFyfWA7DQogICAgfTsNCg0KICAgIGNvbnN0IGN1dG9mZkRhdGUgPSBmb3JtYXREYXRlKHRocmVlRGF5c0Fnbyk7DQogICAgY29uc29sZS5sb2coYPCfk4UgUmVtb3ZlbmRvIHBlZGlkb3MgY29tIGRhdGEgPj0gJHtjdXRvZmZEYXRlfVxuYCk7DQoNCiAgICAvLyBHZXQgYWxsIG9yZGVycyBmcm9tIHF1ZXVlIHdpdGggb3JkZXJfZGF0ZQ0KICAgIGNvbnN0IHsgZGF0YTogcXVldWVPcmRlcnMsIGVycm9yOiBlMSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCdpZCwgb3JkZXJfaWQsIG9yZGVyX2RhdGUsIGNyZWF0ZWRfYXQnKTsNCg0KICAgIGlmIChlMSkgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvIGFvIGJ1c2NhciBmaWxhOicsIGUxLm1lc3NhZ2UpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgLy8gRmlsdGVyIG9yZGVycyBmcm9tIGxhc3QgMyBkYXlzDQogICAgY29uc3QgaWRzVG9EZWxldGUgPSBbXTsNCiAgICBjb25zdCBvcmRlcklkc1RvRGVsZXRlID0gW107DQoNCiAgICBxdWV1ZU9yZGVycy5mb3JFYWNoKG9yZGVyID0+IHsNCiAgICAgICAgY29uc3Qgb3JkZXJEYXRlID0gb3JkZXIub3JkZXJfZGF0ZTsNCiAgICAgICAgaWYgKG9yZGVyRGF0ZSkgew0KICAgICAgICAgICAgY29uc3QgcGFydHMgPSBvcmRlckRhdGUuc3BsaXQoJy8nKTsNCiAgICAgICAgICAgIGlmIChwYXJ0cy5sZW5ndGggPT09IDMpIHsNCiAgICAgICAgICAgICAgICBjb25zdCBbZGF5LCBtb250aCwgeWVhcl0gPSBwYXJ0cy5tYXAoTnVtYmVyKTsNCiAgICAgICAgICAgICAgICBjb25zdCBkYXRlID0gbmV3IERhdGUoeWVhciwgbW9udGggLSAxLCBkYXkpOw0KICAgICAgICAgICAgICAgIGlmIChkYXRlID49IHRocmVlRGF5c0Fnbykgew0KICAgICAgICAgICAgICAgICAgICBpZHNUb0RlbGV0ZS5wdXNoKG9yZGVyLmlkKTsNCiAgICAgICAgICAgICAgICAgICAgb3JkZXJJZHNUb0RlbGV0ZS5wdXNoKG9yZGVyLm9yZGVyX2lkKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKGDwn5eR77iPICBQZWRpZG9zIGEgcmVtb3ZlciBkYSBmaWxhOiAke2lkc1RvRGVsZXRlLmxlbmd0aH1gKTsNCg0KICAgIGlmIChpZHNUb0RlbGV0ZS5sZW5ndGggPiAwKSB7DQogICAgICAgIC8vIERlbGV0ZSBmcm9tIHF1ZXVlDQogICAgICAgIGNvbnN0IHsgZXJyb3I6IGUyIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAgICAgLmRlbGV0ZSgpDQogICAgICAgICAgICAuaW4oJ2lkJywgaWRzVG9EZWxldGUpOw0KDQogICAgICAgIGlmIChlMikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcignRXJybyBhbyBkZWxldGFyIGRhIGZpbGE6JywgZTIubWVzc2FnZSk7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhg4pyFIFJlbW92aWRvcyAke2lkc1RvRGVsZXRlLmxlbmd0aH0gcGVkaWRvcyBkYSBmaWxhYCk7DQogICAgICAgIH0NCg0KICAgICAgICAvLyBPcHRpb25hbGx5IGRlbGV0ZSBmcm9tIHNwcmVhZHNoZWV0X2RhdGEgYXMgd2VsbA0KICAgICAgICBjb25zb2xlLmxvZyhgXG7wn5eR77iPICBEZXNlamEgdGFtYsOpbSByZW1vdmVyICR7b3JkZXJJZHNUb0RlbGV0ZS5sZW5ndGh9IHBlZGlkb3MgZG8gc3ByZWFkc2hlZXRfZGF0YT9gKTsNCiAgICAgICAgY29uc29sZS5sb2coJyAgIChJc3NvIGZvcsOnYXLDoSByZS1pbXBvcnRhw6fDo28gY29tcGxldGEpJyk7DQogICAgICAgIGNvbnNvbGUubG9nKCcgICBFeGVjdXRlIGNvbSBhcmd1bWVudG8gLS1kZWxldGUtZGF0YSBwYXJhIGNvbmZpcm1hclxuJyk7DQoNCiAgICAgICAgaWYgKHByb2Nlc3MuYXJndi5pbmNsdWRlcygnLS1kZWxldGUtZGF0YScpKSB7DQogICAgICAgICAgICBjb25zdCB7IGRhdGE6IHNwcmVhZHNoZWV0RGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAgICAgLnNlbGVjdCgnaWQsIHJvd19kYXRhJyk7DQoNCiAgICAgICAgICAgIGNvbnN0IHNwcmVhZHNoZWV0SWRzVG9EZWxldGUgPSBbXTsNCiAgICAgICAgICAgIHNwcmVhZHNoZWV0RGF0YT8uZm9yRWFjaChyb3cgPT4gew0KICAgICAgICAgICAgICAgIGNvbnN0IHRpbnlJZCA9IHJvdy5yb3dfZGF0YT8uWydJRCBUaW55J107DQogICAgICAgICAgICAgICAgaWYgKHRpbnlJZCAmJiBvcmRlcklkc1RvRGVsZXRlLmluY2x1ZGVzKHRpbnlJZCkpIHsNCiAgICAgICAgICAgICAgICAgICAgc3ByZWFkc2hlZXRJZHNUb0RlbGV0ZS5wdXNoKHJvdy5pZCk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfSk7DQoNCiAgICAgICAgICAgIGlmIChzcHJlYWRzaGVldElkc1RvRGVsZXRlLmxlbmd0aCA+IDApIHsNCiAgICAgICAgICAgICAgICBjb25zdCB7IGVycm9yOiBlMyB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgICAgICAgICAuZGVsZXRlKCkNCiAgICAgICAgICAgICAgICAgICAgLmluKCdpZCcsIHNwcmVhZHNoZWV0SWRzVG9EZWxldGUpOw0KDQogICAgICAgICAgICAgICAgaWYgKGUzKSB7DQogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm8gYW8gZGVsZXRhciBkbyBzcHJlYWRzaGVldDonLCBlMy5tZXNzYWdlKTsNCiAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhg4pyFIFJlbW92aWRvcyAke3NwcmVhZHNoZWV0SWRzVG9EZWxldGUubGVuZ3RofSBwZWRpZG9zIGRvIHNwcmVhZHNoZWV0X2RhdGFgKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZygn4oS577iPICBOZW5odW0gcGVkaWRvIGRvcyDDumx0aW1vcyAzIGRpYXMgZW5jb250cmFkbyBuYSBmaWxhJyk7DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coJ1xu4pyFIExpbXBlemEgY29uY2x1w61kYSEnKTsNCiAgICBjb25zb2xlLmxvZygn8J+TjCBBZ29yYSBjbGlxdWUgZW0gIlNpbmNyb25pemFyIFRpbnkiIG5vIGRhc2hib2FyZCBwYXJhIHJlLWltcG9ydGFyJyk7DQp9DQoNCmNsZWFyTGFzdDNEYXlzKCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+// Load environment variables
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) {
+        process.env[match[1].trim()] = match[2].trim();
+    }
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function clearLast3Days() {
+    console.log('🔄 Limpando fila dos últimos 3 dias...\n');
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    // Calculate 3 days ago date
+    const today = new Date();
+    const threeDaysAgo = new Date(today);
+    threeDaysAgo.setDate(today.getDate() - 3);
+
+    const formatDate = (date) => {
+        const day = String(date.getDate()).padStart(2, '0');
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const year = date.getFullYear();
+        return `${day}/${month}/${year}`;
+    };
+
+    const cutoffDate = formatDate(threeDaysAgo);
+    console.log(`📅 Removendo pedidos com data >= ${cutoffDate}\n`);
+
+    // Get all orders from queue with order_date
+    const { data: queueOrders, error: e1 } = await supabase
+        .from('webhook_retry_queue')
+        .select('id, order_id, order_date, created_at');
+
+    if (e1) {
+        console.error('Erro ao buscar fila:', e1.message);
+        return;
+    }
+
+    // Filter orders from last 3 days
+    const idsToDelete = [];
+    const orderIdsToDelete = [];
+
+    queueOrders.forEach(order => {
+        const orderDate = order.order_date;
+        if (orderDate) {
+            const parts = orderDate.split('/');
+            if (parts.length === 3) {
+                const [day, month, year] = parts.map(Number);
+                const date = new Date(year, month - 1, day);
+                if (date >= threeDaysAgo) {
+                    idsToDelete.push(order.id);
+                    orderIdsToDelete.push(order.order_id);
+                }
+            }
+        }
+    });
+
+    console.log(`🗑️  Pedidos a remover da fila: ${idsToDelete.length}`);
+
+    if (idsToDelete.length > 0) {
+        // Delete from queue
+        const { error: e2 } = await supabase
+            .from('webhook_retry_queue')
+            .delete()
+            .in('id', idsToDelete);
+
+        if (e2) {
+            console.error('Erro ao deletar da fila:', e2.message);
+        } else {
+            console.log(`✅ Removidos ${idsToDelete.length} pedidos da fila`);
+        }
+
+        // Optionally delete from spreadsheet_data as well
+        console.log(`\n🗑️  Deseja também remover ${orderIdsToDelete.length} pedidos do spreadsheet_data?`);
+        console.log('   (Isso forçará re-importação completa)');
+        console.log('   Execute com argumento --delete-data para confirmar\n');
+
+        if (process.argv.includes('--delete-data')) {
+            const { data: spreadsheetData } = await supabase
+                .from('spreadsheet_data')
+                .select('id, row_data');
+
+            const spreadsheetIdsToDelete = [];
+            spreadsheetData?.forEach(row => {
+                const tinyId = row.row_data?.['ID Tiny'];
+                if (tinyId && orderIdsToDelete.includes(tinyId)) {
+                    spreadsheetIdsToDelete.push(row.id);
+                }
+            });
+
+            if (spreadsheetIdsToDelete.length > 0) {
+                const { error: e3 } = await supabase
+                    .from('spreadsheet_data')
+                    .delete()
+                    .in('id', spreadsheetIdsToDelete);
+
+                if (e3) {
+                    console.error('Erro ao deletar do spreadsheet:', e3.message);
+                } else {
+                    console.log(`✅ Removidos ${spreadsheetIdsToDelete.length} pedidos do spreadsheet_data`);
+                }
+            }
+        }
+    } else {
+        console.log('ℹ️  Nenhum pedido dos últimos 3 dias encontrado na fila');
+    }
+
+    console.log('\n✅ Limpeza concluída!');
+    console.log('📌 Agora clique em "Sincronizar Tiny" no dashboard para re-importar');
+}
+
+clearLast3Days().catch(console.error);

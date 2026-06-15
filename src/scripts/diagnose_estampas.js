@@ -1,1 +1,58 @@
-﻿@{data=Ly8gU2NyaXB0IGRlIGRpYWduw7NzdGljbyBwYXJhIHZlcmlmaWNhciBkYWRvcyBkZSBFc3RhbXBhcw0KLy8gRXhlY3V0ZSBlc3RlIHNjcmlwdCBubyBjb25zb2xlIGRvIG5hdmVnYWRvciAoRjEyKQ0KDQpjb25zb2xlLmxvZygnPT09IERJQUdOw5NTVElDTyBERSBFU1RBTVBBUyA9PT0nKTsNCg0KLy8gMS4gVmVyaWZpY2FyIHNlIGjDoSBkYWRvcyBjYXJyZWdhZG9zDQpjb25zdCBzcHJlYWRzaGVldERhdGEgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc3ByZWFkc2hlZXREYXRhJyk7DQppZiAoc3ByZWFkc2hlZXREYXRhKSB7DQogICAgdHJ5IHsNCiAgICAgICAgY29uc3QgZGF0YSA9IEpTT04ucGFyc2Uoc3ByZWFkc2hlZXREYXRhKTsNCiAgICAgICAgY29uc3QgYWxsUm93cyA9IE9iamVjdC52YWx1ZXMoZGF0YSkuZmxhdE1hcChkID0+IGQucm93cyk7DQogICAgICAgIGNvbnNvbGUubG9nKCfinIUgVG90YWwgZGUgbGluaGFzIGNhcnJlZ2FkYXM6JywgYWxsUm93cy5sZW5ndGgpOw0KDQogICAgICAgIC8vIFZlcmlmaWNhciBzZSBow6Egcm91cGFzIHBlcnNvbmFsaXphZGFzDQogICAgICAgIGNvbnN0IHJvdXBhc1BlcnNvbmFsaXphZGFzID0gYWxsUm93cy5maWx0ZXIocm93ID0+IHsNCiAgICAgICAgICAgIGNvbnN0IHNrdSA9IFN0cmluZyhyb3dbJ0NvZGlnbyAoU0tVKSddIHx8IHJvd1snU0tVJ10gfHwgJycpLnRvTG93ZXJDYXNlKCk7DQogICAgICAgICAgICByZXR1cm4gc2t1LmluY2x1ZGVzKCdwZXJzJykgfHwgc2t1LmluY2x1ZGVzKCdjYWJlbGVpcmVpcmEnKTsNCiAgICAgICAgfSk7DQogICAgICAgIGNvbnNvbGUubG9nKCfinIUgUm91cGFzIHBlcnNvbmFsaXphZGFzIGVuY29udHJhZGFzOicsIHJvdXBhc1BlcnNvbmFsaXphZGFzLmxlbmd0aCk7DQoNCiAgICAgICAgaWYgKHJvdXBhc1BlcnNvbmFsaXphZGFzLmxlbmd0aCA+IDApIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCfwn5OLIEV4ZW1wbG8gZGUgcm91cGEgcGVyc29uYWxpemFkYTonLCB7DQogICAgICAgICAgICAgICAgc2t1OiByb3VwYXNQZXJzb25hbGl6YWRhc1swXVsnQ29kaWdvIChTS1UpJ10gfHwgcm91cGFzUGVyc29uYWxpemFkYXNbMF1bJ1NLVSddLA0KICAgICAgICAgICAgICAgIHN0YXR1czogcm91cGFzUGVyc29uYWxpemFkYXNbMF1bJ1NpdHVhw6fDo28nXSB8fCByb3VwYXNQZXJzb25hbGl6YWRhc1swXVsnU3RhdHVzJ10sDQogICAgICAgICAgICAgICAgcGVkaWRvOiByb3VwYXNQZXJzb25hbGl6YWRhc1swXVsnTnVtZXJvIGRhIG9yZGVtIGRlIGNvbXByYSddDQogICAgICAgICAgICB9KTsNCiAgICAgICAgfQ0KDQogICAgICAgIC8vIFZlcmlmaWNhciBzdGF0dXMgZG9zIHBlZGlkb3MNCiAgICAgICAgY29uc3Qgc3RhdHVzQ291bnQgPSB7fTsNCiAgICAgICAgYWxsUm93cy5mb3JFYWNoKHJvdyA9PiB7DQogICAgICAgICAgICBjb25zdCBzdGF0dXMgPSBTdHJpbmcocm93WydTaXR1YcOnw6NvJ10gfHwgcm93WydTdGF0dXMnXSB8fCAnU2VtIHN0YXR1cycpOw0KICAgICAgICAgICAgc3RhdHVzQ291bnRbc3RhdHVzXSA9IChzdGF0dXNDb3VudFtzdGF0dXNdIHx8IDApICsgMTsNCiAgICAgICAgfSk7DQogICAgICAgIGNvbnNvbGUubG9nKCfwn5OKIERpc3RyaWJ1acOnw6NvIGRlIHN0YXR1czonLCBzdGF0dXNDb3VudCk7DQoNCiAgICB9IGNhdGNoIChlKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvIGFvIHBhcnNlYXIgZGFkb3M6JywgZSk7DQogICAgfQ0KfSBlbHNlIHsNCiAgICBjb25zb2xlLmxvZygn4p2MIE5lbmh1bSBkYWRvIGVuY29udHJhZG8gbm8gbG9jYWxTdG9yYWdlJyk7DQogICAgY29uc29sZS5sb2coJ/CfkqEgVm9jw6ogcHJlY2lzYSBpbXBvcnRhciB1bWEgcGxhbmlsaGEgcHJpbWVpcm8hJyk7DQp9DQoNCi8vIDIuIFZlcmlmaWNhciBlc3RhbXBhc1N0YXR1cw0KY29uc3QgZXN0YW1wYXNTdGF0dXNTdHIgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnZXN0YW1wYXNTdGF0dXMnKTsNCmlmIChlc3RhbXBhc1N0YXR1c1N0cikgew0KICAgIHRyeSB7DQogICAgICAgIGNvbnN0IGVzdGFtcGFzU3RhdHVzID0gSlNPTi5wYXJzZShlc3RhbXBhc1N0YXR1c1N0cik7DQogICAgICAgIGNvbnNvbGUubG9nKCfinIUgUmVnaXN0cm9zIGVtIGVzdGFtcGFzU3RhdHVzOicsIE9iamVjdC5rZXlzKGVzdGFtcGFzU3RhdHVzKS5sZW5ndGgpOw0KICAgIH0gY2F0Y2ggKGUpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcign4p2MIEVycm8gYW8gcGFyc2VhciBlc3RhbXBhc1N0YXR1czonLCBlKTsNCiAgICB9DQp9IGVsc2Ugew0KICAgIGNvbnNvbGUubG9nKCfimqDvuI8gTmVuaHVtIGVzdGFtcGFzU3RhdHVzIGVuY29udHJhZG8gbm8gbG9jYWxTdG9yYWdlJyk7DQp9DQoNCmNvbnNvbGUubG9nKCc9PT0gRklNIERPIERJQUdOw5NTVElDTyA9PT0nKTsNCg==}
+// Script de diagnóstico para verificar dados de Estampas
+// Execute este script no console do navegador (F12)
+
+console.log('=== DIAGNÓSTICO DE ESTAMPAS ===');
+
+// 1. Verificar se há dados carregados
+const spreadsheetData = localStorage.getItem('spreadsheetData');
+if (spreadsheetData) {
+    try {
+        const data = JSON.parse(spreadsheetData);
+        const allRows = Object.values(data).flatMap(d => d.rows);
+        console.log('✅ Total de linhas carregadas:', allRows.length);
+
+        // Verificar se há roupas personalizadas
+        const roupasPersonalizadas = allRows.filter(row => {
+            const sku = String(row['Codigo (SKU)'] || row['SKU'] || '').toLowerCase();
+            return sku.includes('pers') || sku.includes('cabeleireira');
+        });
+        console.log('✅ Roupas personalizadas encontradas:', roupasPersonalizadas.length);
+
+        if (roupasPersonalizadas.length > 0) {
+            console.log('📋 Exemplo de roupa personalizada:', {
+                sku: roupasPersonalizadas[0]['Codigo (SKU)'] || roupasPersonalizadas[0]['SKU'],
+                status: roupasPersonalizadas[0]['Situação'] || roupasPersonalizadas[0]['Status'],
+                pedido: roupasPersonalizadas[0]['Numero da ordem de compra']
+            });
+        }
+
+        // Verificar status dos pedidos
+        const statusCount = {};
+        allRows.forEach(row => {
+            const status = String(row['Situação'] || row['Status'] || 'Sem status');
+            statusCount[status] = (statusCount[status] || 0) + 1;
+        });
+        console.log('📊 Distribuição de status:', statusCount);
+
+    } catch (e) {
+        console.error('❌ Erro ao parsear dados:', e);
+    }
+} else {
+    console.log('❌ Nenhum dado encontrado no localStorage');
+    console.log('💡 Você precisa importar uma planilha primeiro!');
+}
+
+// 2. Verificar estampasStatus
+const estampasStatusStr = localStorage.getItem('estampasStatus');
+if (estampasStatusStr) {
+    try {
+        const estampasStatus = JSON.parse(estampasStatusStr);
+        console.log('✅ Registros em estampasStatus:', Object.keys(estampasStatus).length);
+    } catch (e) {
+        console.error('❌ Erro ao parsear estampasStatus:', e);
+    }
+} else {
+    console.log('⚠️ Nenhum estampasStatus encontrado no localStorage');
+}
+
+console.log('=== FIM DO DIAGNÓSTICO ===');

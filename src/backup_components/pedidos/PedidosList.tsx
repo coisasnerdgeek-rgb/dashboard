@@ -1,1 +1,174 @@
-﻿@{data=aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsNCmltcG9ydCB7IFByb2Nlc3NlZFRhYmxlUm93LCBUYWJsZVJvdyB9IGZyb20gJy4uLy4uL3R5cGVzJzsNCmltcG9ydCB7IFBhZ2luYXRpb24gfSBmcm9tICcuLi9jb21tb24vUGFnaW5hdGlvbic7DQppbXBvcnQgeyBnZXRTdGF0dXNCYWRnZUNsYXNzZXMsIGdldE5ld1N0YXR1c0NvbG9yLCBmb3JtYXRDdXJyZW5jeSB9IGZyb20gJy4vdXRpbHMnOw0KaW1wb3J0IHsgSEVBREVSX1RJVExFX01BUCB9IGZyb20gJy4vdXRpbHMnOw0KDQovLyBJY29ucw0KY29uc3QgQ2hldnJvbkRvd25JY29uID0gKCkgPT4gPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT0iaC00IHctNCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9IjIiIGQ9Ik0xOSA5bC03IDctNy03IiAvPjwvc3ZnPjsNCmNvbnN0IENoZXZyb25VcEljb24gPSAoKSA9PiA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3NOYW1lPSJoLTQgdy00IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIj48cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD0iMiIgZD0iTTUgMTVsNy03IDcgNyIgLz48L3N2Zz47DQoNCmludGVyZmFjZSBQZWRpZG9zTGlzdFByb3BzIHsNCiAgICBkYXRhOiBQcm9jZXNzZWRUYWJsZVJvd1tdOw0KICAgIGhlYWRlcnM6IHN0cmluZ1tdOw0KICAgIG9uUm93Q2xpY2s/OiAocm93OiBUYWJsZVJvdykgPT4gdm9pZDsNCiAgICBvblRvZ2dsZVJvdzogKHJvd0lkOiBzdHJpbmcgfCBudW1iZXIpID0+IHZvaWQ7DQogICAgZXhwYW5kZWRSb3dzOiBTZXQ8c3RyaW5nIHwgbnVtYmVyPjsNCiAgICAvLyBTb3J0aW5nDQogICAgc29ydENvbmZpZzogeyBrZXk6IHN0cmluZzsgZGlyZWN0aW9uOiAnYXNjJyB8ICdkZXNjJyB9IHwgbnVsbDsNCiAgICByZXF1ZXN0U29ydDogKGtleTogc3RyaW5nKSA9PiB2b2lkOw0KICAgIC8vIFBhZ2luYXRpb24NCiAgICBjdXJyZW50UGFnZTogbnVtYmVyOw0KICAgIHRvdGFsUGFnZXM6IG51bWJlcjsNCiAgICByb3dzUGVyUGFnZTogbnVtYmVyOw0KICAgIG9uUGFnZUNoYW5nZTogKHBhZ2U6IG51bWJlcikgPT4gdm9pZDsNCiAgICBvblJvd3NQZXJQYWdlQ2hhbmdlOiAobGltaXQ6IG51bWJlcikgPT4gdm9pZDsNCiAgICAvLyBIZWxwZXJzDQogICAgZ2V0SGVhZGVyVGl0bGU6ICh0aXRsZTogc3RyaW5nKSA9PiBzdHJpbmc7DQp9DQoNCmV4cG9ydCBjb25zdCBQZWRpZG9zTGlzdDogUmVhY3QuRkM8UGVkaWRvc0xpc3RQcm9wcz4gPSAoew0KICAgIGRhdGEsDQogICAgaGVhZGVycywNCiAgICBvblJvd0NsaWNrLA0KICAgIG9uVG9nZ2xlUm93LA0KICAgIGV4cGFuZGVkUm93cywNCiAgICBzb3J0Q29uZmlnLA0KICAgIHJlcXVlc3RTb3J0LA0KICAgIGN1cnJlbnRQYWdlLA0KICAgIHRvdGFsUGFnZXMsDQogICAgcm93c1BlclBhZ2UsDQogICAgb25QYWdlQ2hhbmdlLA0KICAgIG9uUm93c1BlclBhZ2VDaGFuZ2UsDQogICAgZ2V0SGVhZGVyVGl0bGUNCn0pID0+IHsNCg0KICAgIGNvbnN0IHJlbmRlckNlbGxDb250ZW50ID0gKHJvdzogUHJvY2Vzc2VkVGFibGVSb3csIGhlYWRlcjogc3RyaW5nKSA9PiB7DQogICAgICAgIGNvbnN0IHZhbCA9IHJvd1toZWFkZXJdOw0KDQogICAgICAgIGlmIChoZWFkZXIgPT09ICdzaXR1YWNhbycpIHsNCiAgICAgICAgICAgIGNvbnN0IHN0YXR1c0NsYXNzID0gZ2V0U3RhdHVzQmFkZ2VDbGFzc2VzKFN0cmluZyh2YWwpKTsNCiAgICAgICAgICAgIHJldHVybiAoDQogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHB4LTIgcHktMC41IHJvdW5kZWQgdGV4dC14cyBmb250LW1lZGl1bSAke3N0YXR1c0NsYXNzfWB9Pg0KICAgICAgICAgICAgICAgICAgICB7U3RyaW5nKHZhbCl9DQogICAgICAgICAgICAgICAgPC9zcGFuPg0KICAgICAgICAgICAgKQ0KICAgICAgICB9DQoNCiAgICAgICAgaWYgKGhlYWRlciA9PT0gJ3ZhbG9yIHVuaXRhcmlvJyB8fCBoZWFkZXIgPT09ICd2YWxvciB0b3RhbCcpIHsNCiAgICAgICAgICAgIHJldHVybiBmb3JtYXRDdXJyZW5jeShOdW1iZXIodmFsKSk7DQogICAgICAgIH0NCg0KICAgICAgICBpZiAoaGVhZGVyID09PSAnZGF0YScgfHwgaGVhZGVyID09PSAnZGF0YSBtYXhpbWEgZGUgZGVzcGFjaG8nKSB7DQogICAgICAgICAgICAvLyBBbHJlYWR5IGZvcm1hdHRlZCBpbiBQcm9jZXNzZWRUYWJsZVJvdyB1c3VhbGx5LCBvciB1c2UgZm9ybWF0RGF0ZSBmcm9tIHV0aWxzIGlmIG5lZWRlZC4NCiAgICAgICAgICAgIC8vIEFzc3VtaW5nIGRhdGEgaXMgUHJvY2Vzc2VkVGFibGVSb3cgd2hlcmUgc2ltcGxlIHJlbmRlcmluZyBpcyBmaW5lLg0KICAgICAgICAgICAgcmV0dXJuIFN0cmluZyh2YWwgfHwgJy0nKTsNCiAgICAgICAgfQ0KDQogICAgICAgIC8vIERlZmF1bHQNCiAgICAgICAgcmV0dXJuIFN0cmluZyh2YWwgfHwgJy0nKTsNCiAgICB9Ow0KDQogICAgcmV0dXJuICgNCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIGRhcms6YmctZ3JheS04MDAgcm91bmRlZC1sZyBzaGFkb3ctc20gYm9yZGVyIGJvcmRlci1ncmF5LTIwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCBvdmVyZmxvdy1oaWRkZW4iPg0KICAgICAgICAgICAgey8qIE1vYmlsZSAvIENhcmQgVmlldyBjYW4gYmUgaW1wbGVtZW50ZWQgaGVyZSBpZiBuZWVkZWQuIEZvY3VzaW5nIG9uIFRhYmxlIGZpcnN0LiAqL30NCg0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im92ZXJmbG93LXgtYXV0byI+DQogICAgICAgICAgICAgICAgPHRhYmxlIGNsYXNzTmFtZT0ibWluLXctZnVsbCBkaXZpZGUteSBkaXZpZGUtZ3JheS0yMDAgZGFyazpkaXZpZGUtZ3JheS03MDAiPg0KICAgICAgICAgICAgICAgICAgICA8dGhlYWQgY2xhc3NOYW1lPSJiZy1ncmF5LTUwIGRhcms6YmctZ3JheS03MDAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0aCBzY29wZT0iY29sIiBjbGFzc05hbWU9InB4LTMgcHktMyB0ZXh0LWxlZnQgdGV4dC14cyBmb250LW1lZGl1bSB0ZXh0LWdyYXktNTAwIGRhcms6dGV4dC1ncmF5LTMwMCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdy0xMCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90aD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7aGVhZGVycy5tYXAoKGhlYWRlcikgPT4gKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleT17aGVhZGVyfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGU9ImNvbCINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMyBweS0zIHRleHQtbGVmdCB0ZXh0LXhzIGZvbnQtbWVkaXVtIHRleHQtZ3JheS01MDAgZGFyazp0ZXh0LWdyYXktMzAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciBjdXJzb3ItcG9pbnRlciBob3ZlcjpiZy1ncmF5LTEwMCBkYXJrOmhvdmVyOmJnLWdyYXktNjAwIHRyYW5zaXRpb24tY29sb3JzIHNlbGVjdC1ub25lIg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gcmVxdWVzdFNvcnQoaGVhZGVyKX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtMSI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+e2dldEhlYWRlclRpdGxlKGhlYWRlcil9PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtzb3J0Q29uZmlnICYmIHNvcnRDb25maWcua2V5ID09PSBoZWFkZXIgJiYgKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtZ3JheS00MDAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3NvcnRDb25maWcuZGlyZWN0aW9uID09PSAnYXNjJyA/ICfihpEnIDogJ+KGkyd9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGg+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSl9DQogICAgICAgICAgICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgICAgICAgICA8L3RoZWFkPg0KICAgICAgICAgICAgICAgICAgICA8dGJvZHkgY2xhc3NOYW1lPSJiZy13aGl0ZSBkYXJrOmJnLWdyYXktODAwIGRpdmlkZS15IGRpdmlkZS1ncmF5LTIwMCBkYXJrOmRpdmlkZS1ncmF5LTcwMCI+DQogICAgICAgICAgICAgICAgICAgICAgICB7ZGF0YS5tYXAoKHJvdywgaW5kZXgpID0+IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBpc0V4cGFuZGVkID0gZXhwYW5kZWRSb3dzLmhhcyhyb3cuaWQgYXMgKHN0cmluZyB8IG51bWJlcikpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIEFzc3VtaW5nICdpZCcgZXhpc3RzIG9uIFByb2Nlc3NlZFRhYmxlUm93IHZpYSB0eXBlIGV4dGVuc2lvbiBvciBjYXN0aW5nDQoNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UmVhY3QuRnJhZ21lbnQga2V5PXtyb3cub3JpZ2luYWxJbmRleCB8fCBpbmRleH0+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2Ake2lzRXhwYW5kZWQgPyAnYmctZ3JheS01MCBkYXJrOmJnLWdyYXktNzAwJyA6ICdob3ZlcjpiZy1ncmF5LTUwIGRhcms6aG92ZXI6YmctZ3JheS03MDAvNTAnfSB0cmFuc2l0aW9uLWNvbG9ycyBjdXJzb3ItcG9pbnRlcmB9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gb25Sb3dDbGljayAmJiBvblJvd0NsaWNrKHJvdyBhcyBhbnkpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTMgcHktNCB3aGl0ZXNwYWNlLW5vd3JhcCB0ZXh0LXNtIHRleHQtZ3JheS01MDAgZGFyazp0ZXh0LWdyYXktNDAwIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KGUpID0+IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlLnN0b3BQcm9wYWdhdGlvbigpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uVG9nZ2xlUm93KHJvdy5pZCBhcyBzdHJpbmcgfCBudW1iZXIpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1ncmF5LTQwMCBob3Zlcjp0ZXh0LWdyYXktNjAwIGZvY3VzOm91dGxpbmUtbm9uZSINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2lzRXhwYW5kZWQgPyA8Q2hldnJvblVwSWNvbiAvPiA6IDxDaGV2cm9uRG93bkljb24gLz59DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2hlYWRlcnMubWFwKGhlYWRlciA9PiAoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBrZXk9e2Ake3Jvdy5pZH0tJHtoZWFkZXJ9YH0gY2xhc3NOYW1lPSJweC0zIHB5LTQgd2hpdGVzcGFjZS1ub3dyYXAgdGV4dC1zbSB0ZXh0LWdyYXktOTAwIGRhcms6dGV4dC1ncmF5LTEwMCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cmVuZGVyQ2VsbENvbnRlbnQocm93LCBoZWFkZXIpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtpc0V4cGFuZGVkICYmICgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHIgY2xhc3NOYW1lPSJiZy1ncmF5LTUwIGRhcms6YmctZ3JheS03MDAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY29sU3Bhbj17aGVhZGVycy5sZW5ndGggKyAxfSBjbGFzc05hbWU9InB4LTYgcHktNCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWdyYXktNzAwIGRhcms6dGV4dC1ncmF5LTIwMCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIERldGFpbCBWaWV3IC0gcGxhY2Vob2xkZXIgZm9yIG5vdywgbWltaWMgb3JpZ2luYWwgaWYgbmVlZGVkICovfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0yIGdhcC00Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9ImZvbnQtYm9sZCBtYi0yIj5EZXRhbGhlcyBkbyBQZWRpZG88L2g0Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+PHN0cm9uZz5DbGllbnRlOjwvc3Ryb25nPiB7cm93Wydub21lJ119PC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+PHN0cm9uZz5FbmRlcmXDp286PC9zdHJvbmc+IHtyb3dbJ2VuZGVyZWNvJ10gfHwgJ04vQSd9PC9wPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIEFkZCBtb3JlIGRldGFpbHMgdGhhdCBhcmUgTk9UIGluIHRoZSBjb2x1bW5zICovfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9ImZvbnQtYm9sZCBtYi0yIj5Qcm9kdXRvczwvaDQ+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7LyogSWYgd2UgaGFkIGEgbmVzdGVkIGxpc3Qgb2YgcHJvZHVjdHMsIHNob3dpbmcgaGVyZSB3b3VsZCBiZSBncmVhdC4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBDdXJyZW50bHkgZmxhdCBzdHJ1Y3R1cmUgYXNzdW1lcyAxIHJvdyA9IDEgcHJvZHVjdCB1c3VhbGx5Pw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9yIDEgcm93ID0gMSBvcmRlcj8NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJZiBQcm9jZXNzZWRUYWJsZVJvdyBpcyBPcmRlciwgaXQgbWlnaHQgaGF2ZSAnaXRlbXMnLg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIElmIG5vdCwgdGhpcyBkZXRhaWwgdmlldyBpcyBqdXN0IGV4dHJhIGZpZWxkcy4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAqL30NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlByb2R1dG86IHtyb3dbJ3Byb2R1dG8nXX08L3A+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cD5TS1U6IHtyb3dbJ3NrdSddfTwvcD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9SZWFjdC5GcmFnbWVudD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApOw0KICAgICAgICAgICAgICAgICAgICAgICAgfSl9DQogICAgICAgICAgICAgICAgICAgIDwvdGJvZHk+DQogICAgICAgICAgICAgICAgPC90YWJsZT4NCiAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICB7LyogUGFnaW5hdGlvbiBVdGlsaXphZGEgZGEgQ29tbW9uIG91IExvY2FsIHNlIG7Do28gY29tcGF0aXZlbCAqL30NCiAgICAgICAgICAgIDxQYWdpbmF0aW9uDQogICAgICAgICAgICAgICAgY3VycmVudFBhZ2U9e2N1cnJlbnRQYWdlfQ0KICAgICAgICAgICAgICAgIHRvdGFsUGFnZXM9e3RvdGFsUGFnZXN9DQogICAgICAgICAgICAgICAgcm93c1BlclBhZ2U9e3Jvd3NQZXJQYWdlfQ0KICAgICAgICAgICAgICAgIG9uUGFnZUNoYW5nZT17b25QYWdlQ2hhbmdlfQ0KICAgICAgICAgICAgICAgIG9uUm93c1BlclBhZ2VDaGFuZ2U9e29uUm93c1BlclBhZ2VDaGFuZ2V9DQogICAgICAgICAgICAvPg0KICAgICAgICA8L2Rpdj4NCiAgICApOw0KfTsNCg==}
+import React from 'react';
+import { ProcessedTableRow, TableRow } from '../../types';
+import { Pagination } from '../common/Pagination';
+import { getStatusBadgeClasses, getNewStatusColor, formatCurrency } from './utils';
+import { HEADER_TITLE_MAP } from './utils';
+
+// Icons
+const ChevronDownIcon = () => <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" /></svg>;
+const ChevronUpIcon = () => <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 15l7-7 7 7" /></svg>;
+
+interface PedidosListProps {
+    data: ProcessedTableRow[];
+    headers: string[];
+    onRowClick?: (row: TableRow) => void;
+    onToggleRow: (rowId: string | number) => void;
+    expandedRows: Set<string | number>;
+    // Sorting
+    sortConfig: { key: string; direction: 'asc' | 'desc' } | null;
+    requestSort: (key: string) => void;
+    // Pagination
+    currentPage: number;
+    totalPages: number;
+    rowsPerPage: number;
+    onPageChange: (page: number) => void;
+    onRowsPerPageChange: (limit: number) => void;
+    // Helpers
+    getHeaderTitle: (title: string) => string;
+}
+
+export const PedidosList: React.FC<PedidosListProps> = ({
+    data,
+    headers,
+    onRowClick,
+    onToggleRow,
+    expandedRows,
+    sortConfig,
+    requestSort,
+    currentPage,
+    totalPages,
+    rowsPerPage,
+    onPageChange,
+    onRowsPerPageChange,
+    getHeaderTitle
+}) => {
+
+    const renderCellContent = (row: ProcessedTableRow, header: string) => {
+        const val = row[header];
+
+        if (header === 'situacao') {
+            const statusClass = getStatusBadgeClasses(String(val));
+            return (
+                <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${statusClass}`}>
+                    {String(val)}
+                </span>
+            )
+        }
+
+        if (header === 'valor unitario' || header === 'valor total') {
+            return formatCurrency(Number(val));
+        }
+
+        if (header === 'data' || header === 'data maxima de despacho') {
+            // Already formatted in ProcessedTableRow usually, or use formatDate from utils if needed.
+            // Assuming data is ProcessedTableRow where simple rendering is fine.
+            return String(val || '-');
+        }
+
+        // Default
+        return String(val || '-');
+    };
+
+    return (
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
+            {/* Mobile / Card View can be implemented here if needed. Focusing on Table first. */}
+
+            <div className="overflow-x-auto">
+                <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead className="bg-gray-50 dark:bg-gray-700">
+                        <tr>
+                            <th scope="col" className="px-3 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider w-10">
+                            </th>
+                            {headers.map((header) => (
+                                <th
+                                    key={header}
+                                    scope="col"
+                                    className="px-3 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors select-none"
+                                    onClick={() => requestSort(header)}
+                                >
+                                    <div className="flex items-center space-x-1">
+                                        <span>{getHeaderTitle(header)}</span>
+                                        {sortConfig && sortConfig.key === header && (
+                                            <span className="text-gray-400">
+                                                {sortConfig.direction === 'asc' ? '↑' : '↓'}
+                                            </span>
+                                        )}
+                                    </div>
+                                </th>
+                            ))}
+                        </tr>
+                    </thead>
+                    <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
+                        {data.map((row, index) => {
+                            const isExpanded = expandedRows.has(row.id as (string | number));
+                            // Assuming 'id' exists on ProcessedTableRow via type extension or casting
+
+                            return (
+                                <React.Fragment key={row.originalIndex || index}>
+                                    <tr
+                                        className={`${isExpanded ? 'bg-gray-50 dark:bg-gray-700' : 'hover:bg-gray-50 dark:hover:bg-gray-700/50'} transition-colors cursor-pointer`}
+                                        onClick={() => onRowClick && onRowClick(row as any)}
+                                    >
+                                        <td className="px-3 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">
+                                            <button
+                                                onClick={(e) => {
+                                                    e.stopPropagation();
+                                                    onToggleRow(row.id as string | number);
+                                                }}
+                                                className="text-gray-400 hover:text-gray-600 focus:outline-none"
+                                            >
+                                                {isExpanded ? <ChevronUpIcon /> : <ChevronDownIcon />}
+                                            </button>
+                                        </td>
+                                        {headers.map(header => (
+                                            <td key={`${row.id}-${header}`} className="px-3 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                                                {renderCellContent(row, header)}
+                                            </td>
+                                        ))}
+                                    </tr>
+                                    {isExpanded && (
+                                        <tr className="bg-gray-50 dark:bg-gray-700">
+                                            <td colSpan={headers.length + 1} className="px-6 py-4">
+                                                <div className="text-sm text-gray-700 dark:text-gray-200">
+                                                    {/* Detail View - placeholder for now, mimic original if needed */}
+                                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                                        <div>
+                                                            <h4 className="font-bold mb-2">Detalhes do Pedido</h4>
+                                                            <p><strong>Cliente:</strong> {row['nome']}</p>
+                                                            <p><strong>Endereço:</strong> {row['endereco'] || 'N/A'}</p>
+                                                            {/* Add more details that are NOT in the columns */}
+                                                        </div>
+                                                        <div>
+                                                            <h4 className="font-bold mb-2">Produtos</h4>
+                                                            {/* If we had a nested list of products, showing here would be great.
+                                                                Currently flat structure assumes 1 row = 1 product usually?
+                                                                Or 1 row = 1 order?
+                                                                If ProcessedTableRow is Order, it might have 'items'.
+                                                                If not, this detail view is just extra fields.
+                                                             */}
+                                                            <p>Produto: {row['produto']}</p>
+                                                            <p>SKU: {row['sku']}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    )}
+                                </React.Fragment>
+                            );
+                        })}
+                    </tbody>
+                </table>
+            </div>
+
+            {/* Pagination Utilizada da Common ou Local se não compativel */}
+            <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                rowsPerPage={rowsPerPage}
+                onPageChange={onPageChange}
+                onRowsPerPageChange={onRowsPerPageChange}
+            />
+        </div>
+    );
+};

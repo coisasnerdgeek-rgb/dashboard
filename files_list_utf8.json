@@ -1,0 +1,807 @@
+[
+    {
+        "name":  "src",
+        "type":  "directory",
+        "mode":  16749,
+        "children":  [
+                         {
+                             "name":  "AJUSTAR_SCHEMA_NOVO_BANCO.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "542a479c0f92faa04f6d3e36b43a87dd5f880060"
+                         },
+                         {
+                             "name":  "ALTERAR_IMAGENS_PARA_TEXTO.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "a308ad63cc82ca8de8e69399a15c318a9fef05f6"
+                         },
+                         {
+                             "name":  "ATIVAR_PEDIDOS.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "dee6928fc6f8f0ac8d09683cf2fcc69c5645c0b0"
+                         },
+                         {
+                             "name":  "App.tsx",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "fa63b5f599814a516972f215755e5c6b6b0779d5"
+                         },
+                         {
+                             "name":  "BIBLIOTECA_IMAGENS_EXTRAIDA.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "8bb3ff57113f093f7ab4a46ded8a2fa834a5271b"
+                         },
+                         {
+                             "name":  "COMO_FAZER_DEPLOY.md",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "d5c86ee4e2165730968376609df23d53a139b773"
+                         },
+                         {
+                             "name":  "CONFIGURACAO_VERCEL.md",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "d1162e80fbf9d4947b038e78c1e9aa21db719e99"
+                         },
+                         {
+                             "name":  "CONTROLE_ESTAMPARIA.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "a3ab5076ca23506dd9db42320678adbcf96dbb5d"
+                         },
+                         {
+                             "name":  "CORRECAO_IMAGE_MAPPINGS.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "d88288520ffcd4c4575035f614be119c5c695cc4"
+                         },
+                         {
+                             "name":  "CORRECAO_TABELAS_MAPPING.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "834d89ad105312c3275026e1cd8054ff9c0e3d03"
+                         },
+                         {
+                             "name":  "CREATE_MONTAGEM_EXCLUSIONS.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "a9c987f8c9db314e67c1c9e237c5c1cbea1f6cec"
+                         },
+                         {
+                             "name":  "Capinhas",
+                             "type":  "directory",
+                             "mode":  16822
+                         },
+                         {
+                             "name":  "DADOS_BASE_RESTAURACAO.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "2d3f89d9ee2c491fb8c6aa7b34ed0bdd5a8442d8"
+                         },
+                         {
+                             "name":  "DADOS_PHONE_CASE_MODELS.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "315c2e5ffa2b20ac0fd1b1e202976da47359bc50"
+                         },
+                         {
+                             "name":  "DADOS_PRICE_TABLES.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "b5a6fb4dd1ab71ce1947dbfec88d0985760ae1bb"
+                         },
+                         {
+                             "name":  "DADOS_RESTANTE.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "172ace7b432d5cb66c22a482edd6487467981786"
+                         },
+                         {
+                             "name":  "DEPLOY_VERCEL.md",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "61f9150c287de51dbe2d7abdebf6b4b10e40e62a"
+                         },
+                         {
+                             "name":  "DESATIVAR_TRAVA_IMAGENS.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "166f5d577a05725363508255a4894f2087ad68e8"
+                         },
+                         {
+                             "name":  "DESMARCAR_ARCHIVED.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "ef6b97d5a639f9a67c91f3675ab04b00a68edc34"
+                         },
+                         {
+                             "name":  "EXPORTAR_PEDIDOS_ATIVOS.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "1b75edbdbfc677894b91a299a86f3779b8bf6f03"
+                         },
+                         {
+                             "name":  "EXPORTAR_SPREADSHEET_DATA.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "b47ad8c1769906a32a91765c594951c4d2372303"
+                         },
+                         {
+                             "name":  "EXPORTAR_WEBHOOK_RETRY.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "5e661078bab5e8c78e64dee2317ff190345cf608"
+                         },
+                         {
+                             "name":  "FIX_BACKORDER_SCHEMA.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "6998b5602f4f87d2ce17221d437948c7031c8f4f"
+                         },
+                         {
+                             "name":  "FIX_DELETED_ORDERS_SCHEMA.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "e8a8e4787efab7db5b36188fce03b6dd9822ca5d"
+                         },
+                         {
+                             "name":  "FIX_SUPABASE_SCHEMA.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "4a4942b68fdb82bfc9f731544502594908d698b9"
+                         },
+                         {
+                             "name":  "GUIA_ESPECIALISTA_TINY.md",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "4327d27bc00b7b2c7393d5552e192258cf078e72"
+                         },
+                         {
+                             "name":  "HISTORICO_ESTAMPAS_COMPLETO.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "b858cb282617fb0956d960215c8e84d1ccf909c6"
+                         },
+                         {
+                             "name":  "INSTRUCOES_SERVICE_KEYS.md",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "c566dc54313b2c6245c2ead549ebe7f59b6d2020"
+                         },
+                         {
+                             "name":  "MIGRACAO_DADOS_SKU.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "0e9bae2043ffaf68ce886bd6ab96e8c679de8c52"
+                         },
+                         {
+                             "name":  "MIGRACAO_SCHEMA_COMPLETA.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "c795b4e6983d0d9d1df93123b9c4f80ef9e92173"
+                         },
+                         {
+                             "name":  "SCHEMA_NOVO_BANCO_V2.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "c795b4e6983d0d9d1df93123b9c4f80ef9e92173"
+                         },
+                         {
+                             "name":  "MIGRACAO_TOTAL.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "8fedc4c4ff95313ea6123ce303d6221c24cc2753"
+                         },
+                         {
+                             "name":  "PEDIDOS_COMPLETOS_HISTORICO.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "95d6a6718c068f2df5c11f2cd42d133b3b2ce9ad"
+                         },
+                         {
+                             "name":  "PEDIDOS_RECENTES.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "59956913ab8cacedf9b6b5c32caeb4028ace0ec6"
+                         },
+                         {
+                             "name":  "README.md",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "e9b66767db43fd59b4d0f781bdfcedd79bba16fb"
+                         },
+                         {
+                             "name":  "VERIFICACAO_DADOS.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "8fea03bfae939e42b01590b70c4338697867ac62"
+                         },
+                         {
+                             "name":  "api",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=delete-tiny-orders.ts; type=file; mode=33206; uid=0d6770fb58d302f001ef34c8f2f0214e7d97a034}",
+                                              "@{name=diagnose-data.ts; type=file; mode=33206; uid=1d3858179cb8d0124a40c7c47376fe2a6ed2bec5}",
+                                              "@{name=fix-ecommerce-ids.ts; type=file; mode=33206; uid=a2116db478942118ce914c519c070d0ebc77d860}",
+                                              "@{name=import-tiny-orders.ts; type=file; mode=33206; uid=432cfdc2ad6598de1efd38f38a4a20ccea29b7e9}",
+                                              "@{name=manual-process-retries.ts; type=file; mode=33206; uid=5ce357ba40a41a5a789bf4f72b30151fa08019f0}",
+                                              "@{name=process-retry-queue.ts; type=file; mode=33206; uid=f5a4728f4ae01b4a477c98876c8306c699c79018}",
+                                              "@{name=refresh-order-status.ts; type=file; mode=33206; uid=0f89c0bd02898314e7450eab78be94d427198fc7}",
+                                              "@{name=sync-local-data.ts; type=file; mode=33206; uid=f088b0b3d3d60c5c5d00395f8dd856061476e4b6}",
+                                              "@{name=sync-tiny.ts; type=file; mode=33206; uid=117bc2233e4e4b820ee7f41aa0c5bfba4e06d933}",
+                                              "@{name=webhook-tiny.ts; type=file; mode=33206; uid=ce3f0b2d5d3cb4cd24b0aedd5489848eaf3c8c70}"
+                                          ]
+                         },
+                         {
+                             "name":  "backup_components",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=Atrasados.tsx; type=file; mode=33206; uid=dc997b727a69b2df790035dd1a24479612fd1e35}",
+                                              "@{name=Capinhas.tsx; type=file; mode=33206; uid=047a84545f2d8c41ef82293fcbfb7b4bf312c579}",
+                                              "@{name=CapinhasDashboard.tsx; type=file; mode=33206; uid=8c2fe70b94797f25cfc5c22bd09323db3bf2dcd2}",
+                                              "@{name=Contatos.tsx; type=file; mode=33206; uid=60bec8dc0de9baa3baf5e70d52825f974573a1d9}",
+                                              "@{name=CriarPedido.tsx; type=file; mode=33206; uid=045cc8ed392ca8b5c766993229c599673b8704bc}",
+                                              "@{name=Dashboard.tsx; type=file; mode=33206; uid=bf2e253e52aafd53f45e89fa709cbfab9e7b55b7}",
+                                              "@{name=DataTable.tsx; type=file; mode=33206; uid=9d26727767e81dbba61efb76324fb92b0b30d55e}",
+                                              "@{name=EnviarPedido.tsx; type=file; mode=33206; uid=29a68bbe3b5a77856684354c10d43eb1351d0d53}",
+                                              "@{name=Estampas.tsx; type=file; mode=33206; uid=47b0dd207191ceb5bc19141146c9236535707c3f}",
+                                              "@{name=EstampasDashboard.tsx; type=file; mode=33206; uid=00a44fe7703f56941d5cedb8b6ae4d3d564f92b2}",
+                                              "@{name=EstoqueEstampas.tsx; type=file; mode=33206; uid=d335d2e98f66db025832928ab636e238fcdad5bb}",
+                                              "@{name=FileUpload.tsx; type=file; mode=33206; uid=4079d937db39cacea4c2a33043ea2c5f4662b18f}",
+                                              "@{name=GoogleDrive.tsx; type=file; mode=33206; uid=2105a351bc86fcc7f8673171998e9dc335c02ca4}",
+                                              "@{name=Header.tsx; type=file; mode=33206; uid=51119325a394cadb8198fb47bc60bb2973acf70b}",
+                                              "@{name=Imagem.tsx; type=file; mode=33206; uid=dcc1fcc6bf38e74a12e37e036dea940b287e2ede}",
+                                              "@{name=ImagemDashboard.tsx; type=file; mode=33206; uid=d8cdff737c4f86592484953856632025cd98ea98}",
+                                              "@{name=Modal.tsx; type=file; mode=33206; uid=becc27a051cda7850145b819d8d7565666da7f4d}",
+                                              "@{name=ModelosCapinhas.tsx; type=file; mode=33206; uid=a5289ea5f4f0a3c0effdac915388562e8920675c}",
+                                              "@{name=Pagamento.tsx; type=file; mode=33206; uid=901a47259a8aa5cfa88361166f66fbd14a8abaf8}",
+                                              "@{name=PagamentoDashboard.tsx; type=file; mode=33206; uid=e4d096d40238e91fd60f06c1c0e719b95029899b}",
+                                              "@{name=Pedidos.tsx; type=file; mode=33206; uid=63cb8a2aa308e8f21175e68bdef5b265dfd3b917}",
+                                              "@{name=Picking.tsx; type=file; mode=33206; uid=71e83e2caac1ba6c0a2417bdfe8222874f10f3f1}",
+                                              "@{name=PickingRoupas.tsx; type=file; mode=33206; uid=da321871d4a681ccceb402cd0619356363990415}",
+                                              "@{name=PrecosDashboard.tsx; type=file; mode=33206; uid=9f67b321f08dc30b7b2529ef35674ce971a0297f}",
+                                              "@{name=Relatorio.tsx; type=file; mode=33206; uid=7b29424cbc4a746ddc3d322496b26c3fe71229bb}",
+                                              "@{name=Separacao.tsx; type=file; mode=33206; uid=dd84a94314c6e475d202e60dc21c657361dff195}",
+                                              "@{name=SeparacaoDashboard.tsx; type=file; mode=33206; uid=3c5f02f9897dd759d7b11f105aa4c27f6b805e8d}",
+                                              "@{name=SkuAdjustmentModal.tsx; type=file; mode=33206; uid=61df33a4512d1dfac78380f5b552e7fefa2cbc93}",
+                                              "@{name=SkuDashboard.tsx; type=file; mode=33206; uid=1b3313f1a67229b1adf926527b111f0ab3ed0a88}",
+                                              "@{name=SkuManager.tsx; type=file; mode=33206; uid=ecd49dbea49b5bea9176b9d880f389adc1ff380a}",
+                                              "@{name=SplashScreen.tsx; type=file; mode=33206; uid=dbc0c3c9b814fc9c2a00829dc21791d1692877f1}",
+                                              "@{name=TabelaPrecos.tsx; type=file; mode=33206; uid=a630d79032ead3f79898c1333526829e0da5a5c2}",
+                                              "@{name=UniversalPicking.tsx; type=file; mode=33206; uid=420443bd28c36111dd78f2a3607d475f38287f79}",
+                                              "@{name=Verificacao.tsx; type=file; mode=33206; uid=34276be6d58f09f144b790099bcbb46875abf859}",
+                                              "@{name=ViewSwitcher.tsx; type=file; mode=33206; uid=10ae667ba540d3651b2c9202773a024d48488c6d}",
+                                              "@{name=common; type=directory; mode=16749; children=System.Object[]}",
+                                              "@{name=estampas; type=directory; mode=16749; children=System.Object[]}",
+                                              "@{name=pedidos; type=directory; mode=16749; children=System.Object[]}"
+                                          ]
+                         },
+                         {
+                             "name":  "components",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=Capinhas.tsx; type=file; mode=33206; uid=047a84545f2d8c41ef82293fcbfb7b4bf312c579}",
+                                              "@{name=CapinhasDashboard.tsx; type=file; mode=33206; uid=8c2fe70b94797f25cfc5c22bd09323db3bf2dcd2}",
+                                              "@{name=Contatos.tsx; type=file; mode=33206; uid=60bec8dc0de9baa3baf5e70d52825f974573a1d9}",
+                                              "@{name=DataTable.tsx; type=file; mode=33206; uid=9d26727767e81dbba61efb76324fb92b0b30d55e}",
+                                              "@{name=EstoqueEstampas.tsx; type=file; mode=33206; uid=d335d2e98f66db025832928ab636e238fcdad5bb}",
+                                              "@{name=FileUpload.tsx; type=file; mode=33206; uid=4079d937db39cacea4c2a33043ea2c5f4662b18f}",
+                                              "@{name=Imagem.tsx; type=file; mode=33206; uid=dcc1fcc6bf38e74a12e37e036dea940b287e2ede}",
+                                              "@{name=ImagemDashboard.tsx; type=file; mode=33206; uid=d8cdff737c4f86592484953856632025cd98ea98}",
+                                              "@{name=Modal.tsx; type=file; mode=33206; uid=becc27a051cda7850145b819d8d7565666da7f4d}",
+                                              "@{name=ModelosCapinhas.tsx; type=file; mode=33206; uid=a5289ea5f4f0a3c0effdac915388562e8920675c}",
+                                              "@{name=Pagamento.tsx; type=file; mode=33206; uid=901a47259a8aa5cfa88361166f66fbd14a8abaf8}",
+                                              "@{name=PagamentoDashboard.tsx; type=file; mode=33206; uid=e4d096d40238e91fd60f06c1c0e719b95029899b}",
+                                              "@{name=PrecosDashboard.tsx; type=file; mode=33206; uid=9f67b321f08dc30b7b2529ef35674ce971a0297f}",
+                                              "@{name=Relatorio.tsx; type=file; mode=33206; uid=7b29424cbc4a746ddc3d322496b26c3fe71229bb}",
+                                              "@{name=Separacao.tsx; type=file; mode=33206; uid=dd84a94314c6e475d202e60dc21c657361dff195}",
+                                              "@{name=SeparacaoDashboard.tsx; type=file; mode=33206; uid=3c5f02f9897dd759d7b11f105aa4c27f6b805e8d}",
+                                              "@{name=SkuDashboard.tsx; type=file; mode=33206; uid=1b3313f1a67229b1adf926527b111f0ab3ed0a88}",
+                                              "@{name=Verificacao.tsx; type=file; mode=33206; uid=34276be6d58f09f144b790099bcbb46875abf859}",
+                                              "@{name=common; type=directory; mode=16749; children=System.Object[]}",
+                                              "@{name=Atrasados.tsx; type=file; mode=33206; uid=094acb9fe295ea007eb098cdbe9e2299cc16cd6e}",
+                                              "@{name=CriarPedido.tsx; type=file; mode=33206; uid=c0d39f80981a6c26e29b9df0b60882b7434f9ee8}",
+                                              "@{name=Dashboard.tsx; type=file; mode=33206; uid=f17c37167f3a3b413ecba54a98a316bb349a90c9}",
+                                              "@{name=EnviarPedido.tsx; type=file; mode=33206; uid=33a9b6a181cb5af7e29b23e11dcd1f7f026b0f5d}",
+                                              "@{name=Estampas.tsx; type=file; mode=33206; uid=2487c87cdf2d5c6402e58bbee655c61c2b282120}",
+                                              "@{name=EstampasDashboard.tsx; type=file; mode=33206; uid=1fac78295ba8c03564dec19f07e9ebdfd0a57ea9}",
+                                              "@{name=GoogleDrive.tsx; type=file; mode=33206; uid=07dd89a3bf6c8365d2d4d5e1415913f1acecbf8c}",
+                                              "@{name=Header.tsx; type=file; mode=33206; uid=03bbae8ad54d00eb9a54d9d4730d0f80dbd7f162}",
+                                              "@{name=Metricas.tsx; type=file; mode=33206; uid=93a9f3531e20969c0a4cd3db7b244696f67b7d1a}",
+                                              "@{name=Pedidos.tsx; type=file; mode=33206; uid=7b5ea602488245579ab0dffbd2c3b10f502b8cf7}",
+                                              "@{name=Picking.tsx; type=file; mode=33206; uid=999f1f58e7a357369dff8f90a01b0d1366e1bb65}",
+                                              "@{name=PickingRoupas.tsx; type=file; mode=33206; uid=f2673dac141320b3e6bbc5cfdfb7775a38933338}",
+                                              "@{name=SkuAdjustmentModal.tsx; type=file; mode=33206; uid=cdf1d9e74bf3683ac07b971ed86a056b5e5dacdd}",
+                                              "@{name=SkuManager.tsx; type=file; mode=33206; uid=7e85b6d4f55e33e9900d42ac3c2e7a8d1e09bfe9}",
+                                              "@{name=SplashScreen.tsx; type=file; mode=33206; uid=971434420c998feba29ca46455cf96d17a4f0663}",
+                                              "@{name=TabelaPrecos.tsx; type=file; mode=33206; uid=ae2592f9b5c70ca5539cac50156502a5868049f2}",
+                                              "@{name=TaxasMarketplace.tsx; type=file; mode=33206; uid=7c206884b110cf6aa595c42d3176c822b3ca9bd3}",
+                                              "@{name=UniversalPicking.tsx; type=file; mode=33206; uid=626e4b5043bf4b465969398db2ed5d74cc18234c}",
+                                              "@{name=ViewSwitcher.tsx; type=file; mode=33206; uid=f6a7fe1c30d6804cc503e353eecea46a8d5a1991}",
+                                              "@{name=estampas; type=directory; mode=16749; children=System.Object[]}",
+                                              "@{name=pedidos; type=directory; mode=16749; children=System.Object[]}"
+                                          ]
+                         },
+                         {
+                             "name":  "build_stderr.txt",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "cca2d175c632eac0fbcacfe65605c11b8b136995"
+                         },
+                         {
+                             "name":  "build_v2.log",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "8d0a2c65d1980f92a3334d310d4ab945115514d5"
+                         },
+                         {
+                             "name":  "build_v3.log",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "a839de6dccca15dd1dff97a392bb9340d03a0c37"
+                         },
+                         {
+                             "name":  "build_v4.log",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "308a237e39f95578d5ade470ddc0b4fcb1d6247a"
+                         },
+                         {
+                             "name":  "contexts",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=AppContext.tsx; type=file; mode=33206; uid=da96c29a08b2844ce78b3eff71b35240fbf80b63}"
+                                          ]
+                         },
+                         {
+                             "name":  "create_table.ts",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "574be6fdacb4a8e9c32f5e050803fab481efea2a"
+                         },
+                         {
+                             "name":  "debug_ids.ts",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "a8058a5a4d583a790f9f0e6f14de60299b3e5940"
+                         },
+                         {
+                             "name":  "dist",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=assets; type=directory; mode=16749; children=System.Object[]}",
+                                              "@{name=favicon.svg; type=file; mode=33206; uid=e398f0fbba97ddb3612763d408b3afe8f9805b42}",
+                                              "@{name=index.html; type=file; mode=33206; uid=0aab44bc372c0603e504c840871e789f7abf0404}"
+                                          ]
+                         },
+                         {
+                             "name":  "public",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=favicon.svg; type=file; mode=33206; uid=e398f0fbba97ddb3612763d408b3afe8f9805b42}"
+                                          ]
+                         },
+                         {
+                             "name":  "filters.txt",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "43bd1b8e6c24832c2cd2df4fdea72290536cedc8"
+                         },
+                         {
+                             "name":  "fix_app_tsx.py",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "4263d4e24c5ac6cc524d5efe699acf825cf18aa7"
+                         },
+                         {
+                             "name":  "fix_component.ts",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "765d1a5e245396bd1820c43d80f3cea1a611a09f"
+                         },
+                         {
+                             "name":  "fix_schema.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "a2503c7a634d23b8ad88fe223f629cc8fa89c538"
+                         },
+                         {
+                             "name":  "hooks",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=useDebounce.ts; type=file; mode=33206; uid=c1e2d334abb63a7bb32fd84f3fdd338f59be8d05}",
+                                              "@{name=useEstampas.ts; type=file; mode=33206; uid=9ea54c10fae19de128e8b827c54a0768b84245b8}",
+                                              "@{name=useModalPosition.ts; type=file; mode=33206; uid=1652a76c2d9859eb0ab404bdca800994d0b9b562}",
+                                              "@{name=useOrders.ts; type=file; mode=33206; uid=3be8a76cc473b13b88172cfe167835f0d1f82c23}",
+                                              "@{name=useQueueCount.ts; type=file; mode=33206; uid=52b1ca46116d93127d7381be8a3a9c4b4ff42388}"
+                                          ]
+                         },
+                         {
+                             "name":  "import-tiny.ps1",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "c579c7e0a58fc96c8750513d9e767b95ca53af51"
+                         },
+                         {
+                             "name":  "index.css",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "a13904bfeef2281342c91eeb522ff86fd42a4303"
+                         },
+                         {
+                             "name":  "index.html",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "2305cb53c13011c51c276a347ad2c65a22eb76e0"
+                         },
+                         {
+                             "name":  "index.tsx",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "0eadee396c5700d986deb259e1fc6881b74cea25"
+                         },
+                         {
+                             "name":  "metadata.json",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "7a0d087a7141ee7e74ac1f1582d6c23193363848"
+                         },
+                         {
+                             "name":  "migrations",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=add_estampas_fields.sql; type=file; mode=33206; uid=b92e519c7c99973c0348fb7ce95abaedfbfb93eb}",
+                                              "@{name=add_link_pedido_field.sql; type=file; mode=33206; uid=6620e3d41c10113bf5ff8b6dd8f1dc08c793d70c}",
+                                              "@{name=add_lote_imagens_array.sql; type=file; mode=33206; uid=802c29760c0c5e75bc7051d6ee19d2b6e302ee32}",
+                                              "@{name=backfill_december_impresso.sql; type=file; mode=33206; uid=c1ea8df0851e1285119450e3d96d2dfc647debb2}",
+                                              "@{name=create_deleted_orders_table.sql; type=file; mode=33206; uid=0f23f178bb1af73d0c1bcfca49b679ac05c210a3}",
+                                              "@{name=create_lotes_table.sql; type=file; mode=33206; uid=4f56d67b8fb8bfe19fbf180f236025907d90b88c}",
+                                              "@{name=ensure_all_estampas_fields.sql; type=file; mode=33206; uid=53f04243471f6be61e3db109e78037b16131bf7a}",
+                                              "@{name=lote_linking_enhancements.sql; type=file; mode=33206; uid=f7a5bb330e2341ee0c633a1ead4e674d924971f0}",
+                                              "@{name=marketplace_fees_table.sql; type=file; mode=33206; uid=13ee72732b85235131627969dd058693c9372a02}",
+                                              "@{name=update_shipped_to_impresso.sql; type=file; mode=33206; uid=2c4e4d1014e7cb8f8110ed11131406a036012176}"
+                                          ]
+                         },
+                         {
+                             "name":  "package-lock.json",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "797fe17f6ab9b8eeda470073afc7fea60a8f1a0f"
+                         },
+                         {
+                             "name":  "package.json",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "e8261a76a31c5d27c8d3afb76b750b3b79b3ad5f"
+                         },
+                         {
+                             "name":  "postcss.config.js",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "d0a0dce48359bba3ae7b1909dc60965a9995f675"
+                         },
+                         {
+                             "name":  "recover_models.js",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "b6a21f2143f8ac4dd2417692081d6d6d9348498e"
+                         },
+                         {
+                             "name":  "restore_estampas.ts",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "0c603adc73eb0818fc62662d7dfd2642225a080b"
+                         },
+                         {
+                             "name":  "scripts",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=analyze-queue.ts; type=file; mode=33206; uid=5e29cb71e5b5e7e325c8463a4aed668d5e28ed88}",
+                                              "@{name=analyze_clothes.cjs; type=file; mode=33206; uid=71c9990812ade4242267569b65befccdb074cad5}",
+                                              "@{name=analyze_missing_detailed.cjs; type=file; mode=33206; uid=ffcad8fde9efbfe70681cd2f87ea7eebc16e4659}",
+                                              "@{name=analyze_sources.ts; type=file; mode=33206; uid=a725e2228fbd73e4cfb204b2a2592b149a80fbc0}",
+                                              "@{name=analyze_spreadsheet.cjs; type=file; mode=33206; uid=be43d228c7111b690ffa68be283cab203abc685c}",
+                                              "@{name=analyze_statuses.cjs; type=file; mode=33206; uid=7228bf1e570e0d99e563c22372ba2ee7f714dff4}",
+                                              "@{name=audit-sku-filter.ts; type=file; mode=33206; uid=e82f09d5e307b304b110bdeeca81b269304146d9}",
+                                              "@{name=backfill-multi-items.js; type=file; mode=33206; uid=8dfd6ce530dbcbad13c8a0511223f65aa63ba0a5}",
+                                              "@{name=bulk_update_status.cjs; type=file; mode=33206; uid=a493f5d7e2a137278cf12f2cb950c6e9887cbc1b}",
+                                              "@{name=check-backorder.ts; type=file; mode=33206; uid=8f4ea1cdfc60ca062b5b8f1ae49a626f901ffa8a}",
+                                              "@{name=check-bucket.ts; type=file; mode=33206; uid=bb40fb9a26b8569f4f17b27649bca384e74e3814}",
+                                              "@{name=check-corrupted-orders.ts; type=file; mode=33206; uid=5f4674e4c0c789b29bc0e87f233aac61e363d33f}",
+                                              "@{name=check-deleted-orders.ts; type=file; mode=33206; uid=996d85f1a4f108f5e456b80da5c558b7ecb962fa}",
+                                              "@{name=check-ecommerce-ids.ts; type=file; mode=33206; uid=6d86a004b2dde8467cbb8fd468093cc9664c1100}",
+                                              "@{name=check-estampas.ts; type=file; mode=33206; uid=152e2348219894615daf3195e6de57bec8766923}",
+                                              "@{name=check-image-schema.ts; type=file; mode=33206; uid=bf8a5883a609a31332022bf858f41cddd420736d}",
+                                              "@{name=check-import-dates.ts; type=file; mode=33206; uid=324dfa1a0a8e3d4ac1250666877180870a08bc68}",
+                                              "@{name=check-imported-28-29.ts; type=file; mode=33206; uid=73dff4c690111965d7d4fad5d5d75244b05d75f2}",
+                                              "@{name=check-incorrect-data.ts; type=file; mode=33206; uid=775937c59cc942998766e3af4d3fe9866b07f16c}",
+                                              "@{name=check-lotes.ts; type=file; mode=33206; uid=5c2502994b2d67cbb0b16cee7d766ac11500bd17}",
+                                              "@{name=check-new-deleted-orders.ts; type=file; mode=33206; uid=382a0253a11d487a9d64660854b17de3e4e6e608}",
+                                              "@{name=check-new-price-schema.ts; type=file; mode=33206; uid=8cb424df8036184403f40a3d4bd9757adbdbfa2d}",
+                                              "@{name=check-old-categories.ts; type=file; mode=33206; uid=927c014dfd93ce8cbbcedd7ced8ac3d015751187}",
+                                              "@{name=check-old-db.ts; type=file; mode=33206; uid=2f7f007c07bd391ec15dc6b055defb7f349c754d}",
+                                              "@{name=check-old-queue.ts; type=file; mode=33206; uid=fa94042ced5233f6e65fd1b2caf143b30a7f061f}",
+                                              "@{name=check-old-remaining.ts; type=file; mode=33206; uid=319c12908d849a8b4fcb5072594f16991c9b3cf0}",
+                                              "@{name=check-old-spreadsheet.ts; type=file; mode=33206; uid=05e94c5974c1676ee5b709c91c00b0608e4fc648}",
+                                              "@{name=check-price-tables.ts; type=file; mode=33206; uid=27ee52487fc9ea99f82bcda12f4b19a57d90587d}",
+                                              "@{name=check-print-control.ts; type=file; mode=33206; uid=61758683ae12b1853845c74712b9abf5ef2b5646}",
+                                              "@{name=check-queue-duplicates.ts; type=file; mode=33206; uid=4e6024784e9a5be8441162cbab264caafb392b4a}",
+                                              "@{name=check-queue-structure.ts; type=file; mode=33206; uid=49865fdd8944c8740bec8446683181acf72aeff1}",
+                                              "@{name=check-real-queue-status.ts; type=file; mode=33206; uid=30c83c3321f31840b3d9be3ec10271766df6d84e}",
+                                              "@{name=check-retry-queue.ts; type=file; mode=33206; uid=b49bed1776855b315384c907ae84b909ed5b225c}",
+                                              "@{name=check-rls.ts; type=file; mode=33206; uid=c6a055477fa001d139b41937f052575345ae171d}",
+                                              "@{name=check-spreadsheet-corruption.ts; type=file; mode=33206; uid=363663da9c8cca8799b24a4eddfc91ec3bc24206}",
+                                              "@{name=check-spreadsheet-json.ts; type=file; mode=33206; uid=83f15185b1b1b91ce2f8fee823377ae8deb6db06}",
+                                              "@{name=check-status.ts; type=file; mode=33206; uid=d7073079160560c528eab5374d0bc85a61931d76}",
+                                              "@{name=check-store-info.ts; type=file; mode=33206; uid=10b5525e1f070a0c107f2ee4ab096cbdbd2576cd}",
+                                              "@{name=check-table-structure.ts; type=file; mode=33206; uid=bf70239fa922426f18e65a257e4d85b0a95e2e11}",
+                                              "@{name=check_categories.cjs; type=file; mode=33206; uid=df702766de987a933a77aa31049ff208500bd398}",
+                                              "@{name=check_dates.cjs; type=file; mode=33206; uid=0c9c525dc22b2a1ad22470a3a3651e78d6606c64}",
+                                              "@{name=check_deleted.cjs; type=file; mode=33206; uid=4bbaa7c95db8bbe05c4187c99f8698dd6b8c3aa3}",
+                                              "@{name=check_filenames.cjs; type=file; mode=33206; uid=892de64e9fbf6aa9711b07752c1c7c696d384f9a}",
+                                              "@{name=check_keys.cjs; type=file; mode=33206; uid=1560b130f5e7d285aea922e66d75262827bf9d37}",
+                                              "@{name=check_status_v2.ts; type=file; mode=33206; uid=ce1078eb54774556ee4b3374420e3c3cff947e3e}",
+                                              "@{name=clean-old-queue-before-26.ts; type=file; mode=33206; uid=a5fae3c54b9ee876e31c3c60bb47caca186b91f5}",
+                                              "@{name=clean-old-queue.ts; type=file; mode=33206; uid=caaf7c492fddc1f793661e1e9e203a6d9689d683}",
+                                              "@{name=clean-queue-admin.ts; type=file; mode=33206; uid=88a93568199caa33e7b84c06e06bf863f3160326}",
+                                              "@{name=clean-queue.ts; type=file; mode=33206; uid=6e903354aeea23c7b813af20e0f3700d2c375766}",
+                                              "@{name=clean-spreadsheet-old.ts; type=file; mode=33206; uid=056fcfd72ed02d97c304c62ecc10d3c3f6e2ac43}",
+                                              "@{name=clear-queue.ts; type=file; mode=33206; uid=e42d60ec02a7694590aa4c514fe7b6059bf603e9}",
+                                              "@{name=clear_last_3_days.cjs; type=file; mode=33206; uid=77d473b9fe7e5d751a453820bbcb793f36459365}",
+                                              "@{name=comprehensive_diagnostic.cjs; type=file; mode=33206; uid=650e3754864a8da76d5efeccc10f300575f5f390}",
+                                              "@{name=debug-data-local-json.ts; type=file; mode=33206; uid=089b6fee067a9f9950bdae832fb7a662d9b5d058}",
+                                              "@{name=debug-data-local.ts; type=file; mode=33206; uid=2250b09d5dfa2ffe6a3eb12beadf4cdc43f68526}",
+                                              "@{name=debug-missing-orders.ts; type=file; mode=33206; uid=99ce7c755eb6a48d7edda5d4470fc72aeeb768fd}",
+                                              "@{name=debug-order.ts; type=file; mode=33206; uid=e1309bbeeb583b01e9512c267341e0a7429a9be3}",
+                                              "@{name=debug-status-update.ts; type=file; mode=33206; uid=ad42054bcba49b883aa1b21dfbf11d53d1851533}",
+                                              "@{name=debug-sync-check.ts; type=file; mode=33206; uid=91e4f1e1c2bc24a3af3316df58b1769f2ff42d5d}",
+                                              "@{name=deduplicate_spreadsheet.ts; type=file; mode=33206; uid=78bf1ba6f9efa335443aa2d5739d8a924b5c680e}",
+                                              "@{name=deep_analyze.cjs; type=file; mode=33206; uid=ceb4d72ca6167268356a6cef8dbc55ca5ed9c54e}",
+                                              "@{name=delete-old-completed.ts; type=file; mode=33206; uid=c03acb1ce7a96c5a4bd88feae01a573b17c2dd64}",
+                                              "@{name=delete_bad_sources.ts; type=file; mode=33206; uid=e4b714157973a7f11f9152281f1831574bf088df}",
+                                              "@{name=diagnose-print-control-new.ts; type=file; mode=33206; uid=25e0341cd33773cb8a0d3552f3d607c7cb3c8c12}",
+                                              "@{name=diagnose_duplicates.ts; type=file; mode=33206; uid=0d70aba5e94aca7cfd4d728b33f974d6c2225a4e}",
+                                              "@{name=diagnose_estampas.js; type=file; mode=33206; uid=3b85f50df5f3e8d4462eeb5d271b133440146f81}",
+                                              "@{name=diagnose_failures.cjs; type=file; mode=33206; uid=32354cd22f0e8f140f725973eed8722f3237a000}",
+                                              "@{name=diagnose_missing_orders.cjs; type=file; mode=33206; uid=5d6bae7982a6355ae3c3b5a0ca02fcc9ee0044f2}",
+                                              "@{name=diagnose_queue_status.cjs; type=file; mode=33206; uid=4fc1ffaa2b9674de31290ccc35d505c2849c29e1}",
+                                              "@{name=emergency-sync-28-29.ts; type=file; mode=33206; uid=d4ebb70993900dc05158c7935450e2757670314e}",
+                                              "@{name=final-check.ts; type=file; mode=33206; uid=db13a6cc3adf68a39b53bfd46d31a0977d7d7096}",
+                                              "@{name=find-images.ts; type=file; mode=33206; uid=d202f61fe73a8dd3e1857fad58a341b648f70948}",
+                                              "@{name=find-tiny-id.ts; type=file; mode=33206; uid=51df2b47c05b842518c8cd307a417413e09aa5b8}",
+                                              "@{name=fix-all-incorrect-data.ts; type=file; mode=33206; uid=8760b333e2caea816fbdc1d13511748942adcc76}",
+                                              "@{name=fix-backorder-schema.ts; type=file; mode=33206; uid=14cb594578cde2375ca82b6e2c4b4bbab719a858}",
+                                              "@{name=fix-ecommerce-ids-27-29.ts; type=file; mode=33206; uid=4c2c75464eab14513557ae433b67e731eec2a0bd}",
+                                              "@{name=fix-ecommerce-ids-optimized.ts; type=file; mode=33206; uid=acf0b5086359f10bdbc7e2a15494aaf044b5dce8}",
+                                              "@{name=fix-estamparia-reset.ts; type=file; mode=33206; uid=5600156b8ba9197ea08ffe2557a04d06acc474fb}",
+                                              "@{name=fix-last-2-orders.ts; type=file; mode=33206; uid=f79920d579f8cbaca9aab8ed762cb244a20500f1}",
+                                              "@{name=fix-priority-28-29.ts; type=file; mode=33206; uid=198782b17426ffa86a533aec356609c80edb9868}",
+                                              "@{name=fix-saved-orders.ts; type=file; mode=33206; uid=d236dde5879841e68f1cb459b561e0e34f7169d4}",
+                                              "@{name=fix-spreadsheet-aggressive.ts; type=file; mode=33206; uid=f7d8417f7e956ec4458d29be770df5592e658c3a}",
+                                              "@{name=fix-spreadsheet-data.ts; type=file; mode=33206; uid=162e66e249fbdf48abf173f26af9715880333cfd}",
+                                              "@{name=fix-spreadsheet-safe.ts; type=file; mode=33206; uid=62c0940e975e19c74f42a38cf9d0b7645d49670e}",
+                                              "@{name=fix-store-names-27-29.ts; type=file; mode=33206; uid=3b864c65a816d4ecb958433824cfda2d65b14193}",
+                                              "@{name=force-fix-order.ts; type=file; mode=33206; uid=f9c3afe07c330acbd4b4f4a2e639ee90ae3f0a41}",
+                                              "@{name=force-recent-sync.ts; type=file; mode=33206; uid=1a2ce4ec3ddef446632804d3900d6588a475b580}",
+                                              "@{name=force-reprocess.ts; type=file; mode=33206; uid=8a649bf9ae2e2250b07e837db7e2de1998817301}",
+                                              "@{name=force_sync.cjs; type=file; mode=33206; uid=7274b32d9fe22181c60eeca6323b161f1737c875}",
+                                              "@{name=full_reimport_2_days.cjs; type=file; mode=33206; uid=5fcc765982f372a30e8521ffedfdf27c53914261}",
+                                              "@{name=guess-tables.ts; type=file; mode=33206; uid=29ba449809af8dd5a561f91e503656f27718f3e5}",
+                                              "@{name=hunt-values.ts; type=file; mode=33206; uid=023a0b80d5772c2215fda2a97fbb849977b2bdd8}",
+                                              "@{name=import-direct-28-29.ts; type=file; mode=33206; uid=ac33c4cc10123d2473b42dd437f72cdb0af3e1f0}",
+                                              "@{name=inspect-deleted-schema.ts; type=file; mode=33206; uid=23cd2e00788a6b204c9779fe2d0d5396bea689e4}",
+                                              "@{name=inspect-queue-v2.ts; type=file; mode=33206; uid=36d74a4efc1a16b58d06370af17286e771c5a75a}",
+                                              "@{name=inspect-queue.ts; type=file; mode=33206; uid=de35248864c2ff477c25f5db9818baeba72ea461}",
+                                              "@{name=inspect-retry-queue-admin.ts; type=file; mode=33206; uid=80f11b7cd6db2acdb88f33c8ccade14816ff1489}",
+                                              "@{name=inspect-retry-queue.ts; type=file; mode=33206; uid=f21801bd2ead6b7e73d861f35866b44aaada1cdf}",
+                                              "@{name=inspect-row.ts; type=file; mode=33206; uid=9479812e563d21217e8a4862f91d0ba835693e80}",
+                                              "@{name=inspect-saved-orders-new.ts; type=file; mode=33206; uid=63e2ce86c463ffda488001124a869c856aa40b36}",
+                                              "@{name=inspect-saved-orders.ts; type=file; mode=33206; uid=0c87c0f8bc726f688191e695c9468ec13fa85b0c}",
+                                              "@{name=inspect-sku-mappings.ts; type=file; mode=33206; uid=145671750bc665d9bf11c911b3b9d8dc0b0036d7}",
+                                              "@{name=inspect_new_db_format.ts; type=file; mode=33206; uid=1ff1b996b1a24c020008c991e2a45492195e2f9e}",
+                                              "@{name=list-business-28-29.ts; type=file; mode=33206; uid=0c41f2b2088625ca8571e1572cd9f611edb2793d}",
+                                              "@{name=list-tables.ts; type=file; mode=33206; uid=def58a577319c5771e357a16fc1dd7385ee00867}",
+                                              "@{name=manual-sync.ts; type=file; mode=33206; uid=fed10931d7016bbde512c8d714caadeca84e1f17}",
+                                              "@{name=manual_process.ts; type=file; mode=33206; uid=c1636e7e746ac6e3b0b733c0a14ff211a3bbfd90}",
+                                              "@{name=manual_sync.ts; type=file; mode=33206; uid=f89ddfc0b98c3f396b99ac122366ef2c5041fd92}",
+                                              "@{name=migrar-backorder-v2.ts; type=file; mode=33206; uid=0fb38ea08f0310a7df08ef79a0bae88e85b431d3}",
+                                              "@{name=migrar-backorder.ts; type=file; mode=33206; uid=37d8e4090bd3d7b7aa619cd8778c7d52f93170a5}",
+                                              "@{name=migrar-deleted-orders.ts; type=file; mode=33206; uid=e716220ad281cf9d968a03894abc3e63aa8bc6be}",
+                                              "@{name=migrar-estamparia.ts; type=file; mode=33206; uid=8599d00e5f26a23c1774178bcbdebca5b48aa34e}",
+                                              "@{name=migrar-imagens.ts; type=file; mode=33206; uid=e6f849661006f9bffc4db5d1e76e0dc620ccf5b1}",
+                                              "@{name=migrar-modelos.ts; type=file; mode=33206; uid=f59a3043a1109bf7bc9044e0ff5174d124bb717f}",
+                                              "@{name=migrar-precos.ts; type=file; mode=33206; uid=77b35e5c67f38aabc496acee4cbb072a9c28ff08}",
+                                              "@{name=migrar-restantes.ts; type=file; mode=33206; uid=5b1edc4ff9bdd50bd805febc44fcb5fd3cb4553d}",
+                                              "@{name=migrar-spreadsheet-data.ts; type=file; mode=33206; uid=2859cd86b3039108ff90836acc065effdc9a9fa7}",
+                                              "@{name=migrar-todos-pedidos.ts; type=file; mode=33206; uid=3a871d9b659709306ec52466d8fd9ba99cf984ae}",
+                                              "@{name=migrate_last_60_days.ts; type=file; mode=33206; uid=0e4d86331ae3f6583148c50b18b18fa6e4f16a25}",
+                                              "@{name=monitor_import.cjs; type=file; mode=33206; uid=b8bad7e964d590a30dd10c57525e0d91b4ff142a}",
+                                              "@{name=nuclear_reimport.cjs; type=file; mode=33206; uid=78059eebe764ec81d878084f556068c0af1519c1}",
+                                              "@{name=priority-sync-period.ts; type=file; mode=33206; uid=fa6d83f1f71381ddfac04ba5d0b39a2a1fb63930}",
+                                              "@{name=process-only-28-29.ts; type=file; mode=33206; uid=4ab0ae3f5455ab631121693b203105074f1e45b6}",
+                                              "@{name=process-queue-manual.ts; type=file; mode=33206; uid=b08e0886b2e695ee8829588375cf00999b5933a6}",
+                                              "@{name=process-queue-turbo.ts; type=file; mode=33206; uid=2d74e201a420ace76e2b4e3ba0640b3f05fef6bf}",
+                                              "@{name=reproduce-sync.ts; type=file; mode=33206; uid=48d5439543e205a78933aee5d511ae909e43f121}",
+                                              "@{name=reset-and-requeue-27-29.ts; type=file; mode=33206; uid=93464072e97d439097e436efb9f99298c76223a3}",
+                                              "@{name=reset-failed-queue.ts; type=file; mode=33206; uid=7e43dbabf47114370297ce3496a66b8ef1f285c0}",
+                                              "@{name=restore-spreadsheet-data.ts; type=file; mode=33206; uid=5d26a95b5b3966806f32078b2235bf8f4d26d209}",
+                                              "@{name=restore_app.py; type=file; mode=33206; uid=affc7cd4c86d4ef85fa6517408095a0e16a4432c}",
+                                              "@{name=resync_last_3_days.cjs; type=file; mode=33206; uid=7023e5798fcdb5fcd7d34066aa765a3f81c23cc4}",
+                                              "@{name=run-processor-local.ts; type=file; mode=33206; uid=cc6a85d77fe0742675581eb92feaf5c84fae6163}",
+                                              "@{name=test-status-fix.ts; type=file; mode=33206; uid=f039766999e1808bc1f0cfe3de6037cb4477e574}",
+                                              "@{name=test_normalization.ts; type=file; mode=33206; uid=6d2ba3f446bbaf1f9f5610ebd0b1dea42094a968}",
+                                              "@{name=truncate_queue.cjs; type=file; mode=33206; uid=9fa24b1d74c0d8cebc0284491ba460c84f9e821c}",
+                                              "@{name=verificar-contagem-final.ts; type=file; mode=33206; uid=6d10c131f91c4aa88184829f74033421844cea43}",
+                                              "@{name=verify-sync-fix.ts; type=file; mode=33206; uid=8b89aba20ea8b983054b5753da2faa0ada59d710}",
+                                              "@{name=verify_count.cjs; type=file; mode=33206; uid=2babfcc4c94e7c4fae1e528da4263b67bd9e9bfd}",
+                                              "@{name=verify_count.ts; type=file; mode=33206; uid=5a3f5c0d17e8e49f84ea47cf26880faa0dd3e11d}",
+                                              "@{name=verify_final_counts.ts; type=file; mode=33206; uid=378ae7c359837380006e23ca52eee45b030e4fca}",
+                                              "@{name=wipe_resync_2days.cjs; type=file; mode=33206; uid=1d934a9900b913079a3d223a4781457888c1c36f}"
+                                          ]
+                         },
+                         {
+                             "name":  "services",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=appSettingsService.ts; type=file; mode=33206; uid=1daf6f6accf98cf545e0a01595bd73060710fbc3}",
+                                              "@{name=contactsService.ts; type=file; mode=33206; uid=cb36700104b0a9e3a455f691e5767651af57fd42}",
+                                              "@{name=deletedOrdersService.ts; type=file; mode=33206; uid=46d890be7472ffc013c3ae028cfd0b2fc0c9aeef}",
+                                              "@{name=ecommerceService.ts; type=file; mode=33206; uid=b47fcddfa117b7fe03ad4b4dfcbeb3d043579464}",
+                                              "@{name=googleDriveService.ts; type=file; mode=33206; uid=fde467206b85aa29ca49b50466694d776dcd0018}",
+                                              "@{name=marketplaceService.ts; type=file; mode=33206; uid=e3ce87cb30dbecc7c49b3a1b91d8b659e43e9902}",
+                                              "@{name=montagemExclusionService.ts; type=file; mode=33206; uid=a46b0ecb85140ffe675957f924b4bb6d4785e4e9}",
+                                              "@{name=paymentService.ts; type=file; mode=33206; uid=64fb792708d46be92dfcbbddb439bacb3e22f345}",
+                                              "@{name=phoneCaseService.ts; type=file; mode=33206; uid=6bde2a8f9715e6c892cf63171c9b69de48ecad49}",
+                                              "@{name=priceTableService.ts; type=file; mode=33206; uid=432327fa1ab537f2ead70799d7bb57c75177214b}",
+                                              "@{name=queryClient.ts; type=file; mode=33206; uid=afd4f6096fc6e4c43dd83a8068a738b0786c08ae}",
+                                              "@{name=skuService.ts; type=file; mode=33206; uid=4a2ce54ac2a856c1bb0893656c5b1181c1352004}",
+                                              "@{name=spreadsheetService.ts; type=file; mode=33206; uid=d82da49399bb17bbbe5df8e6e0a7c6064b1b96d3}",
+                                              "@{name=supabaseClient.ts; type=file; mode=33206; uid=b0c519bbcc8735ab1534108a983c05dd565783c9}",
+                                              "@{name=supabaseService.ts; type=file; mode=33206; uid=747ffd303005a83916447cc40a581584c651c5e5}",
+                                              "@{name=tinyService.ts; type=file; mode=33206; uid=67c89433f3a810afe80baa6fbd65aa8a4ec5acf7}"
+                                          ]
+                         },
+                         {
+                             "name":  "supabase-migration-retry-queue.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "4b115a21af7b8dddeb541d239198b8bdb8e6b828"
+                         },
+                         {
+                             "name":  "supabase",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=.temp; type=directory; mode=16749; children=System.Object[]}",
+                                              "@{name=migrations; type=directory; mode=16749; children=System.Object[]}"
+                                          ]
+                         },
+                         {
+                             "name":  "supabase_indexes.sql",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "cab8eb16018364d0c61a819539451c53107c71ae"
+                         },
+                         {
+                             "name":  "switch_block.txt",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "218e22af9887aeb4e3adde28e89957f1cc1d1467"
+                         },
+                         {
+                             "name":  "tailwind.config.js",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "6c76cbd90fab47c0a82a1399b73b30aeb4ba35d5"
+                         },
+                         {
+                             "name":  "temp_filters.txt",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "3df9705e779dd2757d043c82a61c159439b37a05"
+                         },
+                         {
+                             "name":  "tmp",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=verify_sku.ts; type=file; mode=33206; uid=2deacf05170dfb74c21aa0e245c1d7e6ff1ddcbd}"
+                                          ]
+                         },
+                         {
+                             "name":  "verify_sku.ts",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "2deacf05170dfb74c21aa0e245c1d7e6ff1ddcbd"
+                         },
+                         {
+                             "name":  "tsconfig.json",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "75aa217a69d845c6f44d279bb068dfebbf1bdfe4"
+                         },
+                         {
+                             "name":  "types.ts",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "9f6de99f4bc4017377d33d97837521a5da730f54"
+                         },
+                         {
+                             "name":  "update_criar_pedido.ps1",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "feeb0e19a17c53b66d5cb081429d4e26989559c2"
+                         },
+                         {
+                             "name":  "update_estampas.ps1",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "6c2f2648806675d26cd9ecec821443da976a434d"
+                         },
+                         {
+                             "name":  "utils",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=colorUtils.ts; type=file; mode=33206; uid=f20e935f76754ddf1edff9d823d77d168c923c2f}",
+                                              "@{name=dateUtils.ts; type=file; mode=33206; uid=55b015c7d3aa87af28d7008d9b0da2cfe29cf69c}",
+                                              "@{name=ecommerceUtils.ts; type=file; mode=33206; uid=56e88ccc0e3c6f3bdae04efec6b857802930bdb2}",
+                                              "@{name=exportToExcel.ts; type=file; mode=33206; uid=7002f69453352b63b0ea52df509e39c64ded114b}",
+                                              "@{name=numberUtils.ts; type=file; mode=33206; uid=ea43177383d64f9f1f080217b7b8d989dfb4afee}",
+                                              "@{name=sortUtils.ts; type=file; mode=33206; uid=b8c3397751c27133f3177ed2413bb534f7d4b9f0}",
+                                              "@{name=stringMatch.ts; type=file; mode=33206; uid=4ccb9ba5004e9fe74aa79d56e58878da760632e7}",
+                                              "@{name=stringUtils.ts; type=file; mode=33206; uid=1b97a887be8187349513ab9e883b3e24c6f5e8d8}"
+                                          ]
+                         },
+                         {
+                             "name":  "vercel.json",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "38c4bcdb20472922f7932bac7c3018391e286fde"
+                         },
+                         {
+                             "name":  "vite.config.ts",
+                             "type":  "file",
+                             "mode":  33206,
+                             "uid":  "302f09d42f727d1e9e89a843abd878d752ffe3c1"
+                         }
+                     ]
+    },
+    {
+        "name":  "out",
+        "type":  "directory",
+        "mode":  16749,
+        "children":  [
+                         {
+                             "name":  "api",
+                             "type":  "directory",
+                             "mode":  16749,
+                             "children":  [
+                                              "@{name=delete-tiny-orders; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-183dc9c999d3bb76348f559694f5f09a6a}",
+                                              "@{name=diagnose-data; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-45d00ca6d245ab0f0908dca2ed09000a96}",
+                                              "@{name=fix-ecommerce-ids; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-5cc500ee0d6fbf9dbef95103857561c94f}",
+                                              "@{name=import-tiny-orders; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-d95f4e7d108e53aae26cbfc9fbdf1e6ceb}",
+                                              "@{name=manual-process-retries; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-129af2ed865fade7f311c1c00761089c94}",
+                                              "@{name=process-retry-queue; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-5d9a007def2c5a5e6d0e69c5a7226b1021}",
+                                              "@{name=refresh-order-status; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-bfd82aed364d9171f1a4d58b00b34d2f2e}",
+                                              "@{name=sync-local-data; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-d01339a4031afdd4b3c266f0fb9563babe}",
+                                              "@{name=sync-tiny; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-985a76410f898cac1ed16c45b7270f9b20}",
+                                              "@{name=webhook-tiny; type=lambda; mode=49590; uid=team_Y4rOI45ZzN7fUFCXZK3HanF4-d40060b9a2fbb054791803fe268084b76a}"
+                                          ]
+                         }
+                     ]
+    }
+]

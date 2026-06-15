@@ -1,1 +1,83 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQphc3luYyBmdW5jdGlvbiBhbmFseXplTWlzc2luZygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygn8J+UrCBBTsOBTElTRSBERVRBTEhBREE6IFBlZGlkb3MgTWFyY2Fkb3MgIkNvbXBsZXRlZCIgbWFzIEF1c2VudGVzXG4nKTsNCg0KICAgIC8vIEdldCBjb21wbGV0ZWQgb3JkZXJzIGZyb20gcXVldWUNCiAgICBjb25zdCB7IGRhdGE6IHF1ZXVlRGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCdvcmRlcl9pZCwgbGFzdF9lcnJvciwgcmV0cnlfY291bnQsIGNyZWF0ZWRfYXQnKQ0KICAgICAgICAuZXEoJ3N0YXR1cycsICdjb21wbGV0ZWQnKTsNCg0KICAgIGNvbnN0IGNvbXBsZXRlZE9yZGVySWRzID0gbmV3IFNldChxdWV1ZURhdGE/Lm1hcChxID0+IFN0cmluZyhxLm9yZGVyX2lkKSkgfHwgW10pOw0KDQogICAgLy8gR2V0IG9yZGVycyBmcm9tIHNwcmVhZHNoZWV0DQogICAgY29uc3QgeyBkYXRhOiBzcHJlYWRzaGVldERhdGEgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgncm93X2RhdGEnKTsNCg0KICAgIGNvbnN0IHNwcmVhZHNoZWV0T3JkZXJJZHMgPSBuZXcgU2V0KCk7DQogICAgc3ByZWFkc2hlZXREYXRhPy5mb3JFYWNoKHJvdyA9PiB7DQogICAgICAgIHRyeSB7DQogICAgICAgICAgICBjb25zdCBkYXRhID0gdHlwZW9mIHJvdy5yb3dfZGF0YSA9PT0gJ3N0cmluZycgPyBKU09OLnBhcnNlKHJvdy5yb3dfZGF0YSkgOiByb3cucm93X2RhdGE7DQogICAgICAgICAgICBjb25zdCBvcmRlcklkID0gZGF0YVsnTsO6bWVybyBkYSBvcmRlbSBkZSBjb21wcmEnXSB8fCBkYXRhWydJZGVudGlmaWNhZG9yIGRvIHBlZGlkbyBlLWNvbW1lcmNlJ107DQogICAgICAgICAgICBpZiAob3JkZXJJZCkgc3ByZWFkc2hlZXRPcmRlcklkcy5hZGQoU3RyaW5nKG9yZGVySWQpKTsNCiAgICAgICAgfSBjYXRjaCAoZSkgeyB9DQogICAgfSk7DQoNCiAgICAvLyBGaW5kIG1pc3NpbmcNCiAgICBjb25zdCBtaXNzaW5nID0gW107DQogICAgY29tcGxldGVkT3JkZXJJZHMuZm9yRWFjaChpZCA9PiB7DQogICAgICAgIGlmICghc3ByZWFkc2hlZXRPcmRlcklkcy5oYXMoaWQpKSB7DQogICAgICAgICAgICBjb25zdCBxdWV1ZUluZm8gPSBxdWV1ZURhdGEuZmluZChxID0+IFN0cmluZyhxLm9yZGVyX2lkKSA9PT0gaWQpOw0KICAgICAgICAgICAgbWlzc2luZy5wdXNoKHsNCiAgICAgICAgICAgICAgICBvcmRlcl9pZDogaWQsDQogICAgICAgICAgICAgICAgbGFzdF9lcnJvcjogcXVldWVJbmZvPy5sYXN0X2Vycm9yLA0KICAgICAgICAgICAgICAgIHJldHJ5X2NvdW50OiBxdWV1ZUluZm8/LnJldHJ5X2NvdW50LA0KICAgICAgICAgICAgICAgIGNyZWF0ZWRfYXQ6IHF1ZXVlSW5mbz8uY3JlYXRlZF9hdA0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0NCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKGBUb3RhbCBDT01QTEVURUQgbmEgZmlsYTogJHtjb21wbGV0ZWRPcmRlcklkcy5zaXplfWApOw0KICAgIGNvbnNvbGUubG9nKGBUb3RhbCBubyBzcHJlYWRzaGVldDogICAgJHtzcHJlYWRzaGVldE9yZGVySWRzLnNpemV9YCk7DQogICAgY29uc29sZS5sb2coYEZBTFRBTkRPOiAgICAgICAgICAgICAgICAke21pc3NpbmcubGVuZ3RofVxuYCk7DQoNCiAgICBpZiAobWlzc2luZy5sZW5ndGggPiAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCfwn5OLIERldGFsaGVzIGRvcyBwcmltZWlyb3MgMjAgcGVkaWRvcyBmYWx0YW5kbzpcbicpOw0KICAgICAgICBtaXNzaW5nLnNsaWNlKDAsIDIwKS5mb3JFYWNoKChtLCBpKSA9PiB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgJHtpICsgMX0uIE9yZGVyIElEOiAke20ub3JkZXJfaWR9YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgTGFzdCBFcnJvcjogJHttLmxhc3RfZXJyb3IgfHwgJ05vbmUnfWApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIFJldHJpZXM6ICR7bS5yZXRyeV9jb3VudH1gKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICBDcmVhdGVkOiAke20uY3JlYXRlZF9hdH1gKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCcnKTsNCiAgICAgICAgfSk7DQoNCiAgICAgICAgLy8gQ2hlY2sgaWYgdGhlc2UgYXJlIGR1cGxpY2F0ZXMgKG11bHRpcGxlIGl0ZW1zIGZvciBzYW1lIG9yZGVyKQ0KICAgICAgICBjb25zdCBvcmRlcklkc0luU3ByZWFkc2hlZXQgPSBBcnJheS5mcm9tKHNwcmVhZHNoZWV0T3JkZXJJZHMpOw0KICAgICAgICBjb25zdCBkdXBsaWNhdGVzSW5NaXNzaW5nID0gbWlzc2luZy5maWx0ZXIobSA9Pg0KICAgICAgICAgICAgb3JkZXJJZHNJblNwcmVhZHNoZWV0LnNvbWUoc2lkID0+IFN0cmluZyhzaWQpID09PSBTdHJpbmcobS5vcmRlcl9pZCkpDQogICAgICAgICk7DQoNCiAgICAgICAgaWYgKGR1cGxpY2F0ZXNJbk1pc3NpbmcubGVuZ3RoID4gMCkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coYFxu4pqg77iPICAke2R1cGxpY2F0ZXNJbk1pc3NpbmcubGVuZ3RofSBwZWRpZG9zICJmYWx0YW5kbyIgbmEgdmVyZGFkZSBURU0gaXRlbnMgbm8gc3ByZWFkc2hlZXQhYCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnICAgKFByb3ZhdmVsbWVudGUgcGVkaWRvcyBjb20gbcO6bHRpcGxvcyBpdGVucyBvbmRlIGFsZ3VucyBmb3JhbSBpbnNlcmlkb3MpJyk7DQogICAgICAgIH0NCiAgICB9DQp9DQoNCmFuYWx5emVNaXNzaW5nKCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function analyzeMissing() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('🔬 ANÁLISE DETALHADA: Pedidos Marcados "Completed" mas Ausentes\n');
+
+    // Get completed orders from queue
+    const { data: queueData } = await supabase
+        .from('webhook_retry_queue')
+        .select('order_id, last_error, retry_count, created_at')
+        .eq('status', 'completed');
+
+    const completedOrderIds = new Set(queueData?.map(q => String(q.order_id)) || []);
+
+    // Get orders from spreadsheet
+    const { data: spreadsheetData } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data');
+
+    const spreadsheetOrderIds = new Set();
+    spreadsheetData?.forEach(row => {
+        try {
+            const data = typeof row.row_data === 'string' ? JSON.parse(row.row_data) : row.row_data;
+            const orderId = data['Número da ordem de compra'] || data['Identificador do pedido e-commerce'];
+            if (orderId) spreadsheetOrderIds.add(String(orderId));
+        } catch (e) { }
+    });
+
+    // Find missing
+    const missing = [];
+    completedOrderIds.forEach(id => {
+        if (!spreadsheetOrderIds.has(id)) {
+            const queueInfo = queueData.find(q => String(q.order_id) === id);
+            missing.push({
+                order_id: id,
+                last_error: queueInfo?.last_error,
+                retry_count: queueInfo?.retry_count,
+                created_at: queueInfo?.created_at
+            });
+        }
+    });
+
+    console.log(`Total COMPLETED na fila: ${completedOrderIds.size}`);
+    console.log(`Total no spreadsheet:    ${spreadsheetOrderIds.size}`);
+    console.log(`FALTANDO:                ${missing.length}\n`);
+
+    if (missing.length > 0) {
+        console.log('📋 Detalhes dos primeiros 20 pedidos faltando:\n');
+        missing.slice(0, 20).forEach((m, i) => {
+            console.log(`${i + 1}. Order ID: ${m.order_id}`);
+            console.log(`   Last Error: ${m.last_error || 'None'}`);
+            console.log(`   Retries: ${m.retry_count}`);
+            console.log(`   Created: ${m.created_at}`);
+            console.log('');
+        });
+
+        // Check if these are duplicates (multiple items for same order)
+        const orderIdsInSpreadsheet = Array.from(spreadsheetOrderIds);
+        const duplicatesInMissing = missing.filter(m =>
+            orderIdsInSpreadsheet.some(sid => String(sid) === String(m.order_id))
+        );
+
+        if (duplicatesInMissing.length > 0) {
+            console.log(`\n⚠️  ${duplicatesInMissing.length} pedidos "faltando" na verdade TEM itens no spreadsheet!`);
+            console.log('   (Provavelmente pedidos com múltiplos itens onde alguns foram inseridos)');
+        }
+    }
+}
+
+analyzeMissing().catch(console.error);

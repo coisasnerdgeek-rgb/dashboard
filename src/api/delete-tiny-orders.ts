@@ -1,1 +1,55 @@
-﻿@{data=aW1wb3J0IHR5cGUgeyBWZXJjZWxSZXF1ZXN0LCBWZXJjZWxSZXNwb25zZSB9IGZyb20gJ0B2ZXJjZWwvbm9kZSc7DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBzdXBhYmFzZVVybCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBzdXBhYmFzZUtleSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KDQpleHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBoYW5kbGVyKHJlcTogVmVyY2VsUmVxdWVzdCwgcmVzOiBWZXJjZWxSZXNwb25zZSkgew0KICAgIHRyeSB7DQogICAgICAgIHJlcy5zZXRIZWFkZXIoJ0FjY2Vzcy1Db250cm9sLUFsbG93LU9yaWdpbicsICcqJyk7DQogICAgICAgIHJlcy5zZXRIZWFkZXIoJ0FjY2Vzcy1Db250cm9sLUFsbG93LU1ldGhvZHMnLCAnUE9TVCwgT1BUSU9OUycpOw0KICAgICAgICByZXMuc2V0SGVhZGVyKCdBY2Nlc3MtQ29udHJvbC1BbGxvdy1IZWFkZXJzJywgJ0NvbnRlbnQtVHlwZScpOw0KDQogICAgICAgIGlmIChyZXEubWV0aG9kID09PSAnT1BUSU9OUycpIHsNCiAgICAgICAgICAgIHJldHVybiByZXMuc3RhdHVzKDIwMCkuZW5kKCk7DQogICAgICAgIH0NCg0KICAgICAgICBpZiAocmVxLm1ldGhvZCAhPT0gJ1BPU1QnKSB7DQogICAgICAgICAgICByZXR1cm4gcmVzLnN0YXR1cyg0MDUpLmpzb24oeyBlcnJvcjogJ01ldGhvZCBub3QgYWxsb3dlZCAtIHVzZSBQT1NUJyB9KTsNCiAgICAgICAgfQ0KDQogICAgICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KHN1cGFiYXNlVXJsLCBzdXBhYmFzZUtleSk7DQoNCiAgICAgICAgY29uc29sZS5sb2coJ/Cfl5HvuI8gU3RhcnRpbmcgZGVsZXRpb24gb2YgVGlueSBFUlAgQXV0by1JbXBvcnQgb3JkZXJzLi4uJyk7DQoNCiAgICAgICAgLy8gRGVsZXRlIGFsbCBvcmRlcnMgd2l0aCBmaWxlbmFtZSAiVGlueSBFUlAgQXV0by1JbXBvcnQiDQogICAgICAgIGNvbnN0IHsgZXJyb3IsIGNvdW50IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgLmRlbGV0ZSgpDQogICAgICAgICAgICAuZXEoJ2ZpbGVuYW1lJywgJ1RpbnkgRVJQIEF1dG8tSW1wb3J0Jyk7DQoNCiAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBkZWxldGluZyBUaW55IG9yZGVyczonLCBlcnJvcik7DQogICAgICAgICAgICByZXR1cm4gcmVzLnN0YXR1cyg1MDApLmpzb24oew0KICAgICAgICAgICAgICAgIGVycm9yOiAnRmFpbGVkIHRvIGRlbGV0ZSBUaW55IG9yZGVycycsDQogICAgICAgICAgICAgICAgZGV0YWlsczogZXJyb3IubWVzc2FnZQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0NCg0KICAgICAgICBjb25zb2xlLmxvZyhg4pyFIFN1Y2Nlc3NmdWxseSBkZWxldGVkIFRpbnkgb3JkZXJzYCk7DQoNCiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoMjAwKS5qc29uKHsNCiAgICAgICAgICAgIHN1Y2Nlc3M6IHRydWUsDQogICAgICAgICAgICBtZXNzYWdlOiAnQWxsIFRpbnkgRVJQIEF1dG8tSW1wb3J0IG9yZGVycyBkZWxldGVkJywNCiAgICAgICAgICAgIGRlbGV0ZWRfY291bnQ6IGNvdW50IHx8ICd1bmtub3duJywNCiAgICAgICAgICAgIG5leHRfc3RlcDogJ1J1biBTeW5jIFRpbnkgYnV0dG9uIHRvIHJlaW1wb3J0IHdpdGggY29ycmVjdCBTS1UgZm9ybWF0Jw0KICAgICAgICB9KTsNCg0KICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcignRGVsZXRlIFRpbnkgb3JkZXJzIGVycm9yOicsIGVycm9yKTsNCiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsNCiAgICAgICAgICAgIGVycm9yOiAnSW50ZXJuYWwgc2VydmVyIGVycm9yJywNCiAgICAgICAgICAgIG1lc3NhZ2U6IGVycm9yLm1lc3NhZ2UNCiAgICAgICAgfSk7DQogICAgfQ0KfQ0K}
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = process.env.SUPABASE_URL!;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+    try {
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+        res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+        if (req.method === 'OPTIONS') {
+            return res.status(200).end();
+        }
+
+        if (req.method !== 'POST') {
+            return res.status(405).json({ error: 'Method not allowed - use POST' });
+        }
+
+        const supabase = createClient(supabaseUrl, supabaseKey);
+
+        console.log('🗑️ Starting deletion of Tiny ERP Auto-Import orders...');
+
+        // Delete all orders with filename "Tiny ERP Auto-Import"
+        const { error, count } = await supabase
+            .from('spreadsheet_data')
+            .delete()
+            .eq('filename', 'Tiny ERP Auto-Import');
+
+        if (error) {
+            console.error('Error deleting Tiny orders:', error);
+            return res.status(500).json({
+                error: 'Failed to delete Tiny orders',
+                details: error.message
+            });
+        }
+
+        console.log(`✅ Successfully deleted Tiny orders`);
+
+        return res.status(200).json({
+            success: true,
+            message: 'All Tiny ERP Auto-Import orders deleted',
+            deleted_count: count || 'unknown',
+            next_step: 'Run Sync Tiny button to reimport with correct SKU format'
+        });
+
+    } catch (error: any) {
+        console.error('Delete Tiny orders error:', error);
+        return res.status(500).json({
+            error: 'Internal server error',
+            message: error.message
+        });
+    }
+}

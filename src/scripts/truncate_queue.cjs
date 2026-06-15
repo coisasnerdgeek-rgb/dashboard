@@ -1,1 +1,58 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZIHx8IHByb2Nlc3MuZW52LlZJVEVfU1VQQUJBU0VfQU5PTl9LRVk7DQoNCmFzeW5jIGZ1bmN0aW9uIHRydW5jYXRlUXVldWUoKSB7DQogICAgY29uc29sZS5sb2coJ/CfkqMgVFJVTkNBVElORyB3ZWJob29rX3JldHJ5X3F1ZXVlLi4uXG4nKTsNCg0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIC8vIFRyeSB1c2luZyBSUEMgb3IgcmF3IFNRTA0KICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLnJwYygnZXhlY19zcWwnLCB7DQogICAgICAgIHF1ZXJ5OiAnVFJVTkNBVEUgVEFCTEUgd2ViaG9va19yZXRyeV9xdWV1ZTsnDQogICAgfSk7DQoNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5sb2coJ+KaoO+4jyAgVFJVTkNBVEUgZmFpbGVkOicsIGVycm9yLm1lc3NhZ2UpOw0KICAgICAgICBjb25zb2xlLmxvZygnICAgVHJ5aW5nIERFTEVURSB3aXRoIGNodW5rcy4uLlxuJyk7DQoNCiAgICAgICAgLy8gRmFsbGJhY2s6IGRlbGV0ZSBpbiBjaHVua3MNCiAgICAgICAgbGV0IGRlbGV0ZWQgPSAwOw0KICAgICAgICB3aGlsZSAodHJ1ZSkgew0KICAgICAgICAgICAgY29uc3QgeyBkYXRhLCBlcnJvcjogZTIgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAgICAgICAgIC5zZWxlY3QoJ2lkJykNCiAgICAgICAgICAgICAgICAubGltaXQoMTAwKTsNCg0KICAgICAgICAgICAgaWYgKCFkYXRhIHx8IGRhdGEubGVuZ3RoID09PSAwKSBicmVhazsNCg0KICAgICAgICAgICAgY29uc3QgaWRzID0gZGF0YS5tYXAociA9PiByLmlkKTsNCiAgICAgICAgICAgIGF3YWl0IHN1cGFiYXNlLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKS5kZWxldGUoKS5pbignaWQnLCBpZHMpOw0KICAgICAgICAgICAgZGVsZXRlZCArPSBpZHMubGVuZ3RoOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIERlbGV0ZWQgJHtkZWxldGVkfSBzbyBmYXIuLi5gKTsNCiAgICAgICAgfQ0KDQogICAgICAgIGNvbnNvbGUubG9nKGBcbuKchSBEZWxldGVkICR7ZGVsZXRlZH0gdG90YWwgcmVjb3Jkc1xuYCk7DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coJ+KchSBUUlVOQ0FURSBzdWNjZXNzZnVsIVxuJyk7DQogICAgfQ0KDQogICAgLy8gVmVyaWZ5DQogICAgY29uc3QgeyBjb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCg0KICAgIGNvbnNvbGUubG9nKGDwn5OKIFF1ZXVlIGNvdW50OiAke2NvdW50fVxuYCk7DQp9DQoNCnRydW5jYXRlUXVldWUoKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_ANON_KEY;
+
+async function truncateQueue() {
+    console.log('💣 TRUNCATING webhook_retry_queue...\n');
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    // Try using RPC or raw SQL
+    const { error } = await supabase.rpc('exec_sql', {
+        query: 'TRUNCATE TABLE webhook_retry_queue;'
+    });
+
+    if (error) {
+        console.log('⚠️  TRUNCATE failed:', error.message);
+        console.log('   Trying DELETE with chunks...\n');
+
+        // Fallback: delete in chunks
+        let deleted = 0;
+        while (true) {
+            const { data, error: e2 } = await supabase
+                .from('webhook_retry_queue')
+                .select('id')
+                .limit(100);
+
+            if (!data || data.length === 0) break;
+
+            const ids = data.map(r => r.id);
+            await supabase.from('webhook_retry_queue').delete().in('id', ids);
+            deleted += ids.length;
+            console.log(`   Deleted ${deleted} so far...`);
+        }
+
+        console.log(`\n✅ Deleted ${deleted} total records\n`);
+    } else {
+        console.log('✅ TRUNCATE successful!\n');
+    }
+
+    // Verify
+    const { count } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true });
+
+    console.log(`📊 Queue count: ${count}\n`);
+}
+
+truncateQueue().catch(console.error);

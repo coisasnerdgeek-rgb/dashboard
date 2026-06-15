@@ -1,1 +1,145 @@
-﻿@{data=aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsNCg0KaW50ZXJmYWNlIFBlZGlkb3NGaWx0ZXJCYXJQcm9wcyB7DQogICAgZ2xvYmFsRmlsdGVyczogUmVjb3JkPHN0cmluZywgc3RyaW5nIHwgc3RyaW5nW10+Ow0KICAgIG9uRmlsdGVyQ2hhbmdlOiAoaGVhZGVyOiBzdHJpbmcsIHZhbHVlOiBzdHJpbmcgfCBzdHJpbmdbXSkgPT4gdm9pZDsgLy8gQWxsb3cgYXJyYXkgZm9yIGNvbnNpc3RlbmN5DQogICAgb25TeW5jOiAoKSA9PiB2b2lkOw0KICAgIG9uRXhwb3J0OiAoKSA9PiB2b2lkOw0KICAgIGlzU3luY2luZzogYm9vbGVhbjsNCiAgICB0b3RhbFJlY29yZHM6IG51bWJlcjsNCiAgICBsYXN0VXBkYXRlZD86IHN0cmluZzsNCiAgICBnZXRIZWFkZXJLZXk6ICh0aXRsZTogc3RyaW5nKSA9PiBzdHJpbmcgfCB1bmRlZmluZWQ7DQp9DQoNCmV4cG9ydCBjb25zdCBQZWRpZG9zRmlsdGVyQmFyOiBSZWFjdC5GQzxQZWRpZG9zRmlsdGVyQmFyUHJvcHM+ID0gKHsNCiAgICBnbG9iYWxGaWx0ZXJzLA0KICAgIG9uRmlsdGVyQ2hhbmdlLA0KICAgIG9uU3luYywNCiAgICBvbkV4cG9ydCwNCiAgICBpc1N5bmNpbmcsDQogICAgdG90YWxSZWNvcmRzLA0KICAgIGxhc3RVcGRhdGVkLA0KICAgIGdldEhlYWRlcktleQ0KfSkgPT4gew0KDQogICAgLy8gSGVscGVyIHRvIGdldCB2YWx1ZQ0KICAgIGNvbnN0IGdldFZhbHVlID0gKHRpdGxlOiBzdHJpbmcpOiBzdHJpbmcgPT4gew0KICAgICAgICBjb25zdCBrZXkgPSBnZXRIZWFkZXJLZXkodGl0bGUpOw0KICAgICAgICBpZiAoIWtleSkgcmV0dXJuICcnOw0KICAgICAgICBjb25zdCB2YWwgPSBnbG9iYWxGaWx0ZXJzW2tleV07DQogICAgICAgIHJldHVybiBBcnJheS5pc0FycmF5KHZhbCkgPyB2YWwuam9pbignLCcpIDogdmFsIHx8ICcnOw0KICAgIH07DQoNCiAgICBjb25zdCBoYW5kbGVUZXh0Q2hhbmdlID0gKHRpdGxlOiBzdHJpbmcsIHZhbDogc3RyaW5nKSA9PiB7DQogICAgICAgIGNvbnN0IGtleSA9IGdldEhlYWRlcktleSh0aXRsZSk7DQogICAgICAgIGlmIChrZXkpIG9uRmlsdGVyQ2hhbmdlKGtleSwgdmFsKTsNCiAgICB9Ow0KDQogICAgcmV0dXJuICgNCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXdoaXRlIGRhcms6YmctZ3JheS04MDAgcC00IHJvdW5kZWQtbGcgc2hhZG93LXNtIGJvcmRlciBib3JkZXItZ3JheS0yMDAgZGFyazpib3JkZXItZ3JheS03MDAgbWItNiI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBtZDpmbGV4LXJvdyBqdXN0aWZ5LWJldHdlZW4gaXRlbXMtc3RhcnQgbWQ6aXRlbXMtY2VudGVyIGdhcC00Ij4NCg0KICAgICAgICAgICAgICAgIHsvKiBTZWFyY2ggSW5wdXRzIEdyb3VwICovfQ0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiB3LWZ1bGwgbWQ6dy1hdXRvIGZsZXgtZ3JvdyBpdGVtcy1lbmQiPg0KICAgICAgICAgICAgICAgICAgICB7LyogU2VhcmNoIGJ5IElEL05hbWUvU0tVICovfQ0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctWzE4MHB4XSBmbGV4LWdyb3cgbWQ6ZmxleC1ncm93LTAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtZ3JheS00MDAgdXBwZXJjYXNlIG1iLTEgbWwtMSB0cmFja2luZy13aWRlciI+QnVzY2EgR2VyYWw8L2xhYmVsPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LXktMCBsZWZ0LTAgcGwtMi41IGZsZXggaXRlbXMtY2VudGVyIHBvaW50ZXItZXZlbnRzLW5vbmUgdGV4dC1ncmF5LTQwMCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD0iMi41IiBkPSJNMjEgMjFsLTYtNm0yLTVhNyA3IDAgMTEtMTQgMCA3IDcgMCAwMTE0IDB6IiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9InRleHQiDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJJRCwgTm9tZSwgU0tVLi4uIg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17KGdsb2JhbEZpbHRlcnNbJ2lkJ10gYXMgc3RyaW5nKSB8fCAoZ2xvYmFsRmlsdGVyc1snbm9tZSddIGFzIHN0cmluZykgfHwgJyd9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gb25GaWx0ZXJDaGFuZ2UoJ2lkJywgZS50YXJnZXQudmFsdWUpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InBsLTggcHktMS41IGJsb2NrIHctZnVsbCByb3VuZGVkLWxnIGJvcmRlci1ncmF5LTIwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCBzaGFkb3ctc20gZm9jdXM6Ym9yZGVyLWJsdWUtNTAwIGZvY3VzOnJpbmctYmx1ZS01MDAgdGV4dC14cyBiZy1ncmF5LTUwIGRhcms6YmctZ3JheS03MDAvNTAgZGFyazp0ZXh0LXdoaXRlIHRyYW5zaXRpb24tYWxsIg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgICAgICAgICAgey8qIENhbmFsIEZpbHRlciAqL30NCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1pbi13LVsxMjBweF0gZmxleC1ncm93IG1kOmZsZXgtZ3Jvdy0wIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIHRleHQtWzEwcHhdIGZvbnQtYm9sZCB0ZXh0LWdyYXktNDAwIHVwcGVyY2FzZSBtYi0xIG1sLTEgdHJhY2tpbmctd2lkZXIiPkNhbmFsPC9sYWJlbD4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9InRleHQiDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IlBlaXhlLCBNTC4uLiINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17KGdsb2JhbEZpbHRlcnNbJ2NhbmFsJ10gYXMgc3RyaW5nKSB8fCAnJ30NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IG9uRmlsdGVyQ2hhbmdlKCdjYW5hbCcsIGUudGFyZ2V0LnZhbHVlKX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTMgcHktMS41IGJsb2NrIHctZnVsbCByb3VuZGVkLWxnIGJvcmRlci1ncmF5LTIwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCBzaGFkb3ctc20gZm9jdXM6Ym9yZGVyLWJsdWUtNTAwIGZvY3VzOnJpbmctYmx1ZS01MDAgdGV4dC14cyBiZy1ncmF5LTUwIGRhcms6YmctZ3JheS03MDAvNTAgZGFyazp0ZXh0LXdoaXRlIHRyYW5zaXRpb24tYWxsIg0KICAgICAgICAgICAgICAgICAgICAgICAgLz4NCiAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgICAgICAgICAgey8qIENOUEogRmlsdGVyICovfQ0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctWzEyMHB4XSBmbGV4LWdyb3cgbWQ6ZmxleC1ncm93LTAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtZ3JheS00MDAgdXBwZXJjYXNlIG1iLTEgbWwtMSB0cmFja2luZy13aWRlciI+Q05QSjwvbGFiZWw+DQogICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJ0ZXh0Ig0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJDTlBKLi4uIg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXsoZ2xvYmFsRmlsdGVyc1snY25waiddIGFzIHN0cmluZykgfHwgJyd9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBvbkZpbHRlckNoYW5nZSgnY25waicsIGUudGFyZ2V0LnZhbHVlKX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTMgcHktMS41IGJsb2NrIHctZnVsbCByb3VuZGVkLWxnIGJvcmRlci1ncmF5LTIwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCBzaGFkb3ctc20gZm9jdXM6Ym9yZGVyLWJsdWUtNTAwIGZvY3VzOnJpbmctYmx1ZS01MDAgdGV4dC14cyBiZy1ncmF5LTUwIGRhcms6YmctZ3JheS03MDAvNTAgZGFyazp0ZXh0LXdoaXRlIHRyYW5zaXRpb24tYWxsIg0KICAgICAgICAgICAgICAgICAgICAgICAgLz4NCiAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgICAgICAgICAgey8qIFByb2R1dG8gRmlsdGVyICovfQ0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctWzEyMHB4XSBmbGV4LWdyb3cgbWQ6ZmxleC1ncm93LTAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtZ3JheS00MDAgdXBwZXJjYXNlIG1iLTEgbWwtMSB0cmFja2luZy13aWRlciI+UHJvZHV0bzwvbGFiZWw+DQogICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJ0ZXh0Ig0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJDYW5lY2EsIENhbWlzZXRhLi4uIg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXsoZ2xvYmFsRmlsdGVyc1sncHJvZHV0byddIGFzIHN0cmluZykgfHwgJyd9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBvbkZpbHRlckNoYW5nZSgncHJvZHV0bycsIGUudGFyZ2V0LnZhbHVlKX0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTMgcHktMS41IGJsb2NrIHctZnVsbCByb3VuZGVkLWxnIGJvcmRlci1ncmF5LTIwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCBzaGFkb3ctc20gZm9jdXM6Ym9yZGVyLWJsdWUtNTAwIGZvY3VzOnJpbmctYmx1ZS01MDAgdGV4dC14cyBiZy1ncmF5LTUwIGRhcms6YmctZ3JheS03MDAvNTAgZGFyazp0ZXh0LXdoaXRlIHRyYW5zaXRpb24tYWxsIg0KICAgICAgICAgICAgICAgICAgICAgICAgLz4NCiAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgICAgICB7LyogQWN0aW9ucyBHcm91cCAqL30NCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgZ2FwLTIgdy1mdWxsIG1kOnctYXV0byBqdXN0aWZ5LWVuZCI+DQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBtci00IHRleHQtc20gdGV4dC1ncmF5LTUwMCBkYXJrOnRleHQtZ3JheS00MDAgYm9yZGVyLXIgcHItNCBib3JkZXItZ3JheS0yMDAgZGFyazpib3JkZXItZ3JheS03MDAgaC04Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tZWRpdW0gbXItMSI+e3RvdGFsUmVjb3Jkc308L3NwYW4+IHBlZGlkb3MNCiAgICAgICAgICAgICAgICAgICAgICAgIHtsYXN0VXBkYXRlZCAmJiA8c3BhbiBjbGFzc05hbWU9Im1sLTIgdGV4dC14cyBvcGFjaXR5LTc1Ij5BdHVhbGl6YWRvOiB7bGFzdFVwZGF0ZWR9PC9zcGFuPn0NCiAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17b25FeHBvcnR9DQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBweC0zIHB5LTIgYm9yZGVyIGJvcmRlci1ncmF5LTMwMCBkYXJrOmJvcmRlci1ncmF5LTYwMCBzaGFkb3ctc20gdGV4dC1zbSBsZWFkaW5nLTQgZm9udC1tZWRpdW0gcm91bmRlZC1tZCB0ZXh0LWdyYXktNzAwIGRhcms6dGV4dC1ncmF5LTIwMCBiZy13aGl0ZSBkYXJrOmJnLWdyYXktNzAwIGhvdmVyOmJnLWdyYXktNTAgZGFyazpob3ZlcjpiZy1ncmF5LTYwMCBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0yIGZvY3VzOnJpbmctb2Zmc2V0LTIgZm9jdXM6cmluZy1wcmltYXJ5LTUwMCBkaXNhYmxlZDpvcGFjaXR5LTUwIg0KICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGU9IkV4cG9ydGFyIHBhcmEgRXhjZWwiDQogICAgICAgICAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJtci0yIGgtNCB3LTQgdGV4dC1ncmVlbi02MDAiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPSIyIiBkPSJNMTIgMTB2Nm0wIDBsLTMtM20zIDNsMy0zbTIgOEg3YTIgMiAwIDAxLTItMlY1YTIgMiAwIDAxMi0yaDUuNTg2YTEgMSAwIDAxLjcwNy4yOTNsNS40MTQgNS40MTRhMSAxIDAgMDEuMjkzLjcwN1YxOWEyIDIgMCAwMS0yIDJ6IiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9zdmc+DQogICAgICAgICAgICAgICAgICAgICAgICBFeGNlbA0KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4NCg0KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uDQogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtvblN5bmN9DQogICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17aXNTeW5jaW5nfQ0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHB4LTQgcHktMiBib3JkZXIgYm9yZGVyLXRyYW5zcGFyZW50IHRleHQtc20gZm9udC1tZWRpdW0gcm91bmRlZC1tZCBzaGFkb3ctc20gdGV4dC13aGl0ZSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0yIGZvY3VzOnJpbmctb2Zmc2V0LTIgZm9jdXM6cmluZy1wcmltYXJ5LTUwMCAke2lzU3luY2luZyA/ICdiZy1wcmltYXJ5LTQwMCBjdXJzb3Itbm90LWFsbG93ZWQnIDogJ2JnLXByaW1hcnktNjAwIGhvdmVyOmJnLXByaW1hcnktNzAwJw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1gfQ0KICAgICAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICAgICAgICB7aXNTeW5jaW5nID8gKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJhbmltYXRlLXNwaW4gLW1sLTEgbXItMiBoLTQgdy00IHRleHQtd2hpdGUiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Y2lyY2xlIGNsYXNzTmFtZT0ib3BhY2l0eS0yNSIgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlV2lkdGg9IjQiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggY2xhc3NOYW1lPSJvcGFjaXR5LTc1IiBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik00IDEyYTggOCAwIDAxOC04VjBDNS4zNzMgMCAwIDUuMzczIDAgMTJoNHptMiA1LjI5MUE3Ljk2MiA3Ljk2MiAwIDAxNCAxMkgwYzAgMy4wNDIgMS4xMzUgNS44MjQgMyA3LjkzOGwzLTIuNjQ3eiI+PC9wYXRoPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU2luY3Jvbml6YW5kby4uLg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvPg0KICAgICAgICAgICAgICAgICAgICAgICAgKSA6ICgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPSIyIiBkPSJNNCA0djVoLjU4Mm0xNS4zNTYgMkE4LjAwMSA4LjAwMSAwIDAwNC41ODIgOW0wIDBIOW0xMSAxMXYtNWgtLjU4MW0wIDBhOC4wMDMgOC4wMDMgMCAwMS0xNS4zNTctMm0xNS4zNTcgMkgxNSIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zdmc+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNpbmNyb25pemFyDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC8+DQogICAgICAgICAgICAgICAgICAgICAgICApfQ0KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICA8L2Rpdj4NCiAgICApOw0KfTsNCg==}
+import React from 'react';
+
+interface PedidosFilterBarProps {
+    globalFilters: Record<string, string | string[]>;
+    onFilterChange: (header: string, value: string | string[]) => void; // Allow array for consistency
+    onSync: () => void;
+    onExport: () => void;
+    isSyncing: boolean;
+    totalRecords: number;
+    lastUpdated?: string;
+    getHeaderKey: (title: string) => string | undefined;
+}
+
+export const PedidosFilterBar: React.FC<PedidosFilterBarProps> = ({
+    globalFilters,
+    onFilterChange,
+    onSync,
+    onExport,
+    isSyncing,
+    totalRecords,
+    lastUpdated,
+    getHeaderKey
+}) => {
+
+    // Helper to get value
+    const getValue = (title: string): string => {
+        const key = getHeaderKey(title);
+        if (!key) return '';
+        const val = globalFilters[key];
+        return Array.isArray(val) ? val.join(',') : val || '';
+    };
+
+    const handleTextChange = (title: string, val: string) => {
+        const key = getHeaderKey(title);
+        if (key) onFilterChange(key, val);
+    };
+
+    return (
+        <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 mb-6">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+
+                {/* Search Inputs Group */}
+                <div className="flex flex-wrap gap-2 w-full md:w-auto flex-grow items-end">
+                    {/* Search by ID/Name/SKU */}
+                    <div className="min-w-[180px] flex-grow md:flex-grow-0">
+                        <label className="block text-[10px] font-bold text-gray-400 uppercase mb-1 ml-1 tracking-wider">Busca Geral</label>
+                        <div className="relative">
+                            <span className="absolute inset-y-0 left-0 pl-2.5 flex items-center pointer-events-none text-gray-400">
+                                <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                            </span>
+                            <input
+                                type="text"
+                                placeholder="ID, Nome, SKU..."
+                                value={(globalFilters['id'] as string) || (globalFilters['nome'] as string) || ''}
+                                onChange={(e) => onFilterChange('id', e.target.value)}
+                                className="pl-8 py-1.5 block w-full rounded-lg border-gray-200 dark:border-gray-700 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-xs bg-gray-50 dark:bg-gray-700/50 dark:text-white transition-all"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Canal Filter */}
+                    <div className="min-w-[120px] flex-grow md:flex-grow-0">
+                        <label className="block text-[10px] font-bold text-gray-400 uppercase mb-1 ml-1 tracking-wider">Canal</label>
+                        <input
+                            type="text"
+                            placeholder="Peixe, ML..."
+                            value={(globalFilters['canal'] as string) || ''}
+                            onChange={(e) => onFilterChange('canal', e.target.value)}
+                            className="px-3 py-1.5 block w-full rounded-lg border-gray-200 dark:border-gray-700 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-xs bg-gray-50 dark:bg-gray-700/50 dark:text-white transition-all"
+                        />
+                    </div>
+
+                    {/* CNPJ Filter */}
+                    <div className="min-w-[120px] flex-grow md:flex-grow-0">
+                        <label className="block text-[10px] font-bold text-gray-400 uppercase mb-1 ml-1 tracking-wider">CNPJ</label>
+                        <input
+                            type="text"
+                            placeholder="CNPJ..."
+                            value={(globalFilters['cnpj'] as string) || ''}
+                            onChange={(e) => onFilterChange('cnpj', e.target.value)}
+                            className="px-3 py-1.5 block w-full rounded-lg border-gray-200 dark:border-gray-700 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-xs bg-gray-50 dark:bg-gray-700/50 dark:text-white transition-all"
+                        />
+                    </div>
+
+                    {/* Produto Filter */}
+                    <div className="min-w-[120px] flex-grow md:flex-grow-0">
+                        <label className="block text-[10px] font-bold text-gray-400 uppercase mb-1 ml-1 tracking-wider">Produto</label>
+                        <input
+                            type="text"
+                            placeholder="Caneca, Camiseta..."
+                            value={(globalFilters['produto'] as string) || ''}
+                            onChange={(e) => onFilterChange('produto', e.target.value)}
+                            className="px-3 py-1.5 block w-full rounded-lg border-gray-200 dark:border-gray-700 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-xs bg-gray-50 dark:bg-gray-700/50 dark:text-white transition-all"
+                        />
+                    </div>
+                </div>
+
+                {/* Actions Group */}
+                <div className="flex flex-wrap gap-2 w-full md:w-auto justify-end">
+                    <div className="flex items-center mr-4 text-sm text-gray-500 dark:text-gray-400 border-r pr-4 border-gray-200 dark:border-gray-700 h-8">
+                        <span className="font-medium mr-1">{totalRecords}</span> pedidos
+                        {lastUpdated && <span className="ml-2 text-xs opacity-75">Atualizado: {lastUpdated}</span>}
+                    </div>
+
+                    <button
+                        onClick={onExport}
+                        className="inline-flex items-center px-3 py-2 border border-gray-300 dark:border-gray-600 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 disabled:opacity-50"
+                        title="Exportar para Excel"
+                    >
+                        <svg className="mr-2 h-4 w-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        Excel
+                    </button>
+
+                    <button
+                        onClick={onSync}
+                        disabled={isSyncing}
+                        className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 ${isSyncing ? 'bg-primary-400 cursor-not-allowed' : 'bg-primary-600 hover:bg-primary-700'
+                            }`}
+                    >
+                        {isSyncing ? (
+                            <>
+                                <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" fill="none" viewBox="0 0 24 24">
+                                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                                Sincronizando...
+                            </>
+                        ) : (
+                            <>
+                                <svg className="mr-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                </svg>
+                                Sincronizar
+                            </>
+                        )}
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};

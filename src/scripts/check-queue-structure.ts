@@ -1,1 +1,48 @@
-﻿@{data=LyoqDQogKiBWZXJpZmljYXIgZXN0cnV0dXJhIGRhIHRhYmVsYSB3ZWJob29rX3JldHJ5X3F1ZXVlDQogKi8NCg0KaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCmltcG9ydCAqIGFzIHBhdGggZnJvbSAncGF0aCc7DQoNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja1RhYmxlU3RydWN0dXJlKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCflI0gVmVyaWZpY2FuZG8gZXN0cnV0dXJhIGRhIHRhYmVsYSB3ZWJob29rX3JldHJ5X3F1ZXVlXG4nKTsNCg0KICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5saW1pdCgxKTsNCg0KICAgIGlmIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvOicsIGVycm9yKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGlmIChkYXRhICYmIGRhdGEubGVuZ3RoID4gMCkgew0KICAgICAgICBjb25zb2xlLmxvZygnQ29sdW5hcyBkaXNwb27DrXZlaXM6Jyk7DQogICAgICAgIGNvbnNvbGUubG9nKE9iamVjdC5rZXlzKGRhdGFbMF0pKTsNCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygnXG4nKTsNCn0NCg0KY2hlY2tUYWJsZVN0cnVjdHVyZSgpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+/**
+ * Verificar estrutura da tabela webhook_retry_queue
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function checkTableStructure() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🔍 Verificando estrutura da tabela webhook_retry_queue\n');
+
+    const { data, error } = await supabase
+        .from('webhook_retry_queue')
+        .select('*')
+        .limit(1);
+
+    if (error) {
+        console.error('Erro:', error);
+        return;
+    }
+
+    if (data && data.length > 0) {
+        console.log('Colunas disponíveis:');
+        console.log(Object.keys(data[0]));
+    }
+
+    console.log('\n');
+}
+
+checkTableStructure().catch(console.error);

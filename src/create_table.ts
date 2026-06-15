@@ -1,1 +1,63 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCBmcyBmcm9tICdmcyc7DQppbXBvcnQgcGF0aCBmcm9tICdwYXRoJzsNCmltcG9ydCB7IGZpbGVVUkxUb1BhdGggfSBmcm9tICd1cmwnOw0KDQpjb25zdCBfX2Rpcm5hbWUgPSBwYXRoLmRpcm5hbWUoZmlsZVVSTFRvUGF0aChpbXBvcnQubWV0YS51cmwpKTsNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAnLmVudi5sb2NhbCcpOw0KDQovLyBNYW51YWwgZW52IHBhcnNpbmcNCmNvbnN0IGVudkNvbnRlbnQgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0ZjgnKTsNCmNvbnN0IGVudjogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHt9Ow0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IFtrZXksIC4uLnZhbHVlUGFydHNdID0gbGluZS5zcGxpdCgnPScpOw0KICAgIGlmIChrZXkgJiYgdmFsdWVQYXJ0cy5sZW5ndGggPiAwKSB7DQogICAgICAgIGVudltrZXkudHJpbSgpXSA9IHZhbHVlUGFydHMuam9pbignPScpLnRyaW0oKTsNCiAgICB9DQp9KTsNCg0KY29uc3Qgc3VwYWJhc2VVcmwgPSBlbnYuU1VQQUJBU0VfVVJMIHx8IGVudi5WSVRFX1NVUEFCQVNFX1VSTDsNCmNvbnN0IHN1cGFiYXNlS2V5ID0gZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVk7DQoNCmlmICghc3VwYWJhc2VVcmwgfHwgIXN1cGFiYXNlS2V5KSB7DQogICAgY29uc29sZS5lcnJvcignTWlzc2luZyBTVVBBQkFTRV9VUkwgb3IgU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWScpOw0KICAgIHByb2Nlc3MuZXhpdCgxKTsNCn0NCg0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoc3VwYWJhc2VVcmwsIHN1cGFiYXNlS2V5KTsNCg0KYXN5bmMgZnVuY3Rpb24gY3JlYXRlRXhjbHVzaW9uc1RhYmxlKCkgew0KICAgIGNvbnNvbGUubG9nKCfwn5qAIENyaWFuZG8gdGFiZWxhIG1vbnRhZ2VtX2V4Y2x1c2lvbnMuLi4nKTsNCg0KICAgIHRyeSB7DQogICAgICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLnJwYygnZXhlY3V0ZV9zcWwnLCB7DQogICAgICAgICAgICBzcWxfcXVlcnk6IGANCiAgICAgICAgQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgcHVibGljLm1vbnRhZ2VtX2V4Y2x1c2lvbnMgKA0KICAgICAgICAgICAgb3JkZXJfaWQgVEVYVCBQUklNQVJZIEtFWSwNCiAgICAgICAgICAgIGNyZWF0ZWRfYXQgVElNRVNUQU1QIFdJVEggVElNRSBaT05FIERFRkFVTFQgdGltZXpvbmUoJ3V0Yyc6OnRleHQsIG5vdygpKSBOT1QgTlVMTA0KICAgICAgICApOw0KICAgICAgICBBTFRFUiBUQUJMRSBwdWJsaWMubW9udGFnZW1fZXhjbHVzaW9ucyBFTkFCTEUgUk9XIExFVkVMIFNFQ1VSSVRZOw0KICAgICAgICBEUk9QIFBPTElDWSBJRiBFWElTVFMgIkFsbG93IGFsbCBhY2Nlc3MgdG8gbW9udGFnZW1fZXhjbHVzaW9ucyIgT04gcHVibGljLm1vbnRhZ2VtX2V4Y2x1c2lvbnM7DQogICAgICAgIENSRUFURSBQT0xJQ1kgIkFsbG93IGFsbCBhY2Nlc3MgdG8gbW9udGFnZW1fZXhjbHVzaW9ucyIgT04gcHVibGljLm1vbnRhZ2VtX2V4Y2x1c2lvbnMgRk9SIEFMTCBVU0lORyAodHJ1ZSk7DQogICAgICBgDQogICAgICAgIH0pOw0KDQogICAgICAgIGlmIChlcnJvcikgew0KICAgICAgICAgICAgLy8gSWYgUlBDIGlzbid0IGF2YWlsYWJsZSwgd2UgbWlnaHQgbmVlZCBhbm90aGVyIHdheSBvciBqdXN0IGhvcGUgaXQgZXhpc3RzLg0KICAgICAgICAgICAgLy8gQnV0IHVzdWFsbHkgaW4gdGhlc2Ugc2V0dXBzIHRoZXJlJ3MgYW4gZXhlY3V0ZV9zcWwgb3Igd2UganVzdCB0cnkgYSBzaW1wbGUgcXVlcnkuDQogICAgICAgICAgICBjb25zb2xlLndhcm4oJ+KaoO+4jyBFcnJvIHZpYSBSUEMgZXhlY3V0ZV9zcWwsIHRlbnRhbmRvIGluc2Vyw6fDo28gc2ltcGxlcyBwYXJhIHRlc3RhciBleGlzdMOqbmNpYS4uLicpOw0KICAgICAgICAgICAgY29uc3QgeyBlcnJvcjogdGVzdEVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdtb250YWdlbV9leGNsdXNpb25zJykuc2VsZWN0KCdvcmRlcl9pZCcpLmxpbWl0KDEpOw0KICAgICAgICAgICAgaWYgKHRlc3RFcnJvciAmJiB0ZXN0RXJyb3IuY29kZSA9PT0gJ1BHUlNUMTE2Jykgew0KICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBUYWJlbGEgbsOjbyBleGlzdGUgZSBSUEMgZmFsaG91LicpOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygn4pyFIFRhYmVsYSBqw6EgcGFyZWNlIGV4aXN0aXIgb3UgZm9pIGNyaWFkYS4nKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCfinKggVGFiZWxhIGNyaWFkYS92ZXJpZmljYWRhIGNvbSBzdWNlc3NvLicpOw0KICAgICAgICB9DQogICAgfSBjYXRjaCAoZXJyKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvIGluZXNwZXJhZG86JywgZXJyKTsNCiAgICB9DQp9DQoNCmNyZWF0ZUV4Y2x1c2lvbnNUYWJsZSgpOw0K}
+import { createClient } from '@supabase/supabase-js';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const envPath = path.join(__dirname, '.env.local');
+
+// Manual env parsing
+const envContent = fs.readFileSync(envPath, 'utf8');
+const env: Record<string, string> = {};
+envContent.split('\n').forEach(line => {
+    const [key, ...valueParts] = line.split('=');
+    if (key && valueParts.length > 0) {
+        env[key.trim()] = valueParts.join('=').trim();
+    }
+});
+
+const supabaseUrl = env.SUPABASE_URL || env.VITE_SUPABASE_URL;
+const supabaseKey = env.SUPABASE_SERVICE_ROLE_KEY;
+
+if (!supabaseUrl || !supabaseKey) {
+    console.error('Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY');
+    process.exit(1);
+}
+
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+async function createExclusionsTable() {
+    console.log('🚀 Criando tabela montagem_exclusions...');
+
+    try {
+        const { error } = await supabase.rpc('execute_sql', {
+            sql_query: `
+        CREATE TABLE IF NOT EXISTS public.montagem_exclusions (
+            order_id TEXT PRIMARY KEY,
+            created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+        );
+        ALTER TABLE public.montagem_exclusions ENABLE ROW LEVEL SECURITY;
+        DROP POLICY IF EXISTS "Allow all access to montagem_exclusions" ON public.montagem_exclusions;
+        CREATE POLICY "Allow all access to montagem_exclusions" ON public.montagem_exclusions FOR ALL USING (true);
+      `
+        });
+
+        if (error) {
+            // If RPC isn't available, we might need another way or just hope it exists.
+            // But usually in these setups there's an execute_sql or we just try a simple query.
+            console.warn('⚠️ Erro via RPC execute_sql, tentando inserção simples para testar existência...');
+            const { error: testError } = await supabase.from('montagem_exclusions').select('order_id').limit(1);
+            if (testError && testError.code === 'PGRST116') {
+                console.error('❌ Tabela não existe e RPC falhou.');
+            } else {
+                console.log('✅ Tabela já parece existir ou foi criada.');
+            }
+        } else {
+            console.log('✨ Tabela criada/verificada com sucesso.');
+        }
+    } catch (err) {
+        console.error('❌ Erro inesperado:', err);
+    }
+}
+
+createExclusionsTable();

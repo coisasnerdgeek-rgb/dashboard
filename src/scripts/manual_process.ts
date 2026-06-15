@@ -1,1 +1,94 @@
-﻿@{data=DQppbXBvcnQgZnMgZnJvbSAnZnMnOw0KaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7DQoNCi8vIDEuIExvYWQgRW52aXJvbm1lbnQgVmFyaWFibGVzDQpmdW5jdGlvbiBsb2FkRW52KGZpbGVuYW1lKSB7DQogICAgdHJ5IHsNCiAgICAgICAgY29uc3QgZW52UGF0aCA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCBmaWxlbmFtZSk7DQogICAgICAgIGlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgTG9hZGluZyAke2ZpbGVuYW1lfS4uLmApOw0KICAgICAgICAgICAgY29uc3QgZW52Q29uZmlnID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGY4Jyk7DQogICAgICAgICAgICBlbnZDb25maWcuc3BsaXQoL1xyP1xuLykuZm9yRWFjaCgobGluZSkgPT4gew0KICAgICAgICAgICAgICAgIGxpbmUgPSBsaW5lLnRyaW0oKTsNCiAgICAgICAgICAgICAgICBpZiAoIWxpbmUgfHwgbGluZS5zdGFydHNXaXRoKCcjJykpIHJldHVybjsNCiAgICAgICAgICAgICAgICBjb25zdCBlcXVhbHNJbmRleCA9IGxpbmUuaW5kZXhPZignPScpOw0KICAgICAgICAgICAgICAgIGlmIChlcXVhbHNJbmRleCA9PT0gLTEpIHJldHVybjsNCiAgICAgICAgICAgICAgICBjb25zdCBrZXkgPSBsaW5lLnN1YnN0cmluZygwLCBlcXVhbHNJbmRleCkudHJpbSgpOw0KICAgICAgICAgICAgICAgIGxldCB2YWx1ZSA9IGxpbmUuc3Vic3RyaW5nKGVxdWFsc0luZGV4ICsgMSkudHJpbSgpOw0KICAgICAgICAgICAgICAgIGlmICgodmFsdWUuc3RhcnRzV2l0aCgnIicpICYmIHZhbHVlLmVuZHNXaXRoKCciJykpIHx8ICh2YWx1ZS5zdGFydHNXaXRoKCInIikgJiYgdmFsdWUuZW5kc1dpdGgoIiciKSkpIHsNCiAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSB2YWx1ZS5zbGljZSgxLCAtMSk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChrZXkpIHByb2Nlc3MuZW52W2tleV0gPSB2YWx1ZTsNCiAgICAgICAgICAgIH0pOw0KICAgICAgICB9DQogICAgfSBjYXRjaCAoZSkgew0KICAgICAgICBjb25zb2xlLmVycm9yKGBFcnJvciBsb2FkaW5nICR7ZmlsZW5hbWV9YCwgZSk7DQogICAgfQ0KfQ0KDQpsb2FkRW52KCcuZW52LmxvY2FsJyk7DQoNCi8vIDIuIE1vY2sgUmVxdWVzdC9SZXNwb25zZQ0KY29uc3QgcmVxID0ge307DQpsZXQgbGFzdFJlc3VsdDogYW55ID0gbnVsbDsNCmNvbnN0IHJlcyA9IHsNCiAgICBzZXRIZWFkZXI6ICgpID0+IHsgfSwNCiAgICBzdGF0dXM6IChjb2RlKSA9PiB7IHJldHVybiByZXM7IH0sDQogICAganNvbjogKGRhdGEpID0+IHsNCiAgICAgICAgbGFzdFJlc3VsdCA9IGRhdGE7DQogICAgICAgIHJldHVybiByZXM7DQogICAgfSwNCiAgICBlbmQ6ICgpID0+IHsgfQ0KfTsNCg0KLy8gMy4gSW1wb3J0IGFuZCBSdW4gSGFuZGxlcg0KYXN5bmMgZnVuY3Rpb24gcnVuKCkgew0KICAgIHRyeSB7DQogICAgICAgIGNvbnNvbGUubG9nKCdJbXBvcnRpbmcgcHJvY2Vzcy1yZXRyeS1xdWV1ZSBoYW5kbGVyLi4uJyk7DQogICAgICAgIGNvbnN0IGhhbmRsZXJNb2R1bGUgPSBhd2FpdCBpbXBvcnQoJy4uL2FwaS9wcm9jZXNzLXJldHJ5LXF1ZXVlLnRzJyk7DQogICAgICAgIGNvbnN0IGhhbmRsZXIgPSBoYW5kbGVyTW9kdWxlLmRlZmF1bHQ7DQoNCiAgICAgICAgY29uc29sZS5sb2coJ1J1bm5pbmcgUXVldWUgUHJvY2Vzc29yIExvY2FsbHkgaW4gTG9vcC4uLicpOw0KICAgICAgICBsZXQgaGFzTW9yZSA9IHRydWU7DQogICAgICAgIGxldCB0b3RhbFByb2Nlc3NlZCA9IDA7DQogICAgICAgIGxldCBiYXRjaENvdW50ID0gMDsNCg0KICAgICAgICB3aGlsZSAoaGFzTW9yZSkgew0KICAgICAgICAgICAgYmF0Y2hDb3VudCsrOw0KICAgICAgICAgICAgbGFzdFJlc3VsdCA9IG51bGw7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgXG4tLS0gUHJvY2Vzc2luZyBCYXRjaCAjJHtiYXRjaENvdW50fSAoVG90YWwgc28gZmFyOiAke3RvdGFsUHJvY2Vzc2VkfSkgLS0tYCk7DQoNCiAgICAgICAgICAgIC8vIEB0cy1pZ25vcmUNCiAgICAgICAgICAgIGF3YWl0IGhhbmRsZXIocmVxLCByZXMpOw0KDQogICAgICAgICAgICBjb25zdCByZXN1bHQgPSBsYXN0UmVzdWx0Ow0KICAgICAgICAgICAgaWYgKHJlc3VsdCAmJiByZXN1bHQuc3VjY2Vzcykgew0KICAgICAgICAgICAgICAgIGNvbnN0IGNvbXBsZXRlZCA9IChyZXN1bHQuY29tcGxldGVkIHx8IDApOw0KICAgICAgICAgICAgICAgIGNvbnN0IHJldHJpZWQgPSAocmVzdWx0LnJldHJpZWQgfHwgMCk7DQogICAgICAgICAgICAgICAgY29uc3QgZmFpbGVkID0gKHJlc3VsdC5mYWlsZWQgfHwgMCk7DQogICAgICAgICAgICAgICAgdG90YWxQcm9jZXNzZWQgKz0gY29tcGxldGVkOw0KICAgICAgICAgICAgICAgIGNvbnN0IHBlbmRpbmcgPSByZXN1bHQucGVuZGluZ0NvdW50IHx8IDA7DQoNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgU3VtbWFyeTogQ29tcGxldGVkOiAke2NvbXBsZXRlZH0sIFJldHJpZWQ6ICR7cmV0cmllZH0sIEZhaWxlZDogJHtmYWlsZWR9LiBQZW5kaW5nOiAke3BlbmRpbmd9YCk7DQoNCiAgICAgICAgICAgICAgICBpZiAocGVuZGluZyA9PT0gMCB8fCAoY29tcGxldGVkID09PSAwICYmIHJldHJpZWQgPT09IDApKSB7DQogICAgICAgICAgICAgICAgICAgIGhhc01vcmUgPSBmYWxzZTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdFcnJvciBvciBubyByZXN1bHQ6JywgcmVzdWx0KTsNCiAgICAgICAgICAgICAgICBoYXNNb3JlID0gZmFsc2U7DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIC8vIFNhZmV0eSBicmVhazogUmVtb3ZlZCB0byBwcm9jZXNzIGV2ZXJ5dGhpbmcNCiAgICAgICAgICAgIGlmIChiYXRjaENvdW50ID4gMTAwMCkgYnJlYWs7DQogICAgICAgIH0NCg0KICAgICAgICBjb25zb2xlLmxvZyhgXG7inIUgRmluaXNoZWQhIFRvdGFsIFByb2Nlc3NlZDogJHt0b3RhbFByb2Nlc3NlZH0gaW4gJHtiYXRjaENvdW50fSBiYXRjaGVzLmApOw0KDQogICAgfSBjYXRjaCAoZSkgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFeGVjdXRpb24gRXJyb3I6JywgZSk7DQogICAgfQ0KfQ0KDQpydW4oKTsNCg==}
+
+import fs from 'fs';
+import path from 'path';
+
+// 1. Load Environment Variables
+function loadEnv(filename) {
+    try {
+        const envPath = path.resolve(process.cwd(), filename);
+        if (fs.existsSync(envPath)) {
+            console.log(`Loading ${filename}...`);
+            const envConfig = fs.readFileSync(envPath, 'utf8');
+            envConfig.split(/\r?\n/).forEach((line) => {
+                line = line.trim();
+                if (!line || line.startsWith('#')) return;
+                const equalsIndex = line.indexOf('=');
+                if (equalsIndex === -1) return;
+                const key = line.substring(0, equalsIndex).trim();
+                let value = line.substring(equalsIndex + 1).trim();
+                if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+                    value = value.slice(1, -1);
+                }
+                if (key) process.env[key] = value;
+            });
+        }
+    } catch (e) {
+        console.error(`Error loading ${filename}`, e);
+    }
+}
+
+loadEnv('.env.local');
+
+// 2. Mock Request/Response
+const req = {};
+let lastResult: any = null;
+const res = {
+    setHeader: () => { },
+    status: (code) => { return res; },
+    json: (data) => {
+        lastResult = data;
+        return res;
+    },
+    end: () => { }
+};
+
+// 3. Import and Run Handler
+async function run() {
+    try {
+        console.log('Importing process-retry-queue handler...');
+        const handlerModule = await import('../api/process-retry-queue.ts');
+        const handler = handlerModule.default;
+
+        console.log('Running Queue Processor Locally in Loop...');
+        let hasMore = true;
+        let totalProcessed = 0;
+        let batchCount = 0;
+
+        while (hasMore) {
+            batchCount++;
+            lastResult = null;
+            console.log(`\n--- Processing Batch #${batchCount} (Total so far: ${totalProcessed}) ---`);
+
+            // @ts-ignore
+            await handler(req, res);
+
+            const result = lastResult;
+            if (result && result.success) {
+                const completed = (result.completed || 0);
+                const retried = (result.retried || 0);
+                const failed = (result.failed || 0);
+                totalProcessed += completed;
+                const pending = result.pendingCount || 0;
+
+                console.log(`Summary: Completed: ${completed}, Retried: ${retried}, Failed: ${failed}. Pending: ${pending}`);
+
+                if (pending === 0 || (completed === 0 && retried === 0)) {
+                    hasMore = false;
+                }
+            } else {
+                console.log('Error or no result:', result);
+                hasMore = false;
+            }
+
+            // Safety break: Removed to process everything
+            if (batchCount > 1000) break;
+        }
+
+        console.log(`\n✅ Finished! Total Processed: ${totalProcessed} in ${batchCount} batches.`);
+
+    } catch (e) {
+        console.error('Execution Error:', e);
+    }
+}
+
+run();

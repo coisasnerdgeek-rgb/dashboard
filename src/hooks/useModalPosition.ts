@@ -1,1 +1,37 @@
-﻿@{data=aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VDYWxsYmFjayB9IGZyb20gJ3JlYWN0JzsNCg0KaW50ZXJmYWNlIENsaWNrUG9zaXRpb24gew0KICAgIHg6IG51bWJlcjsNCiAgICB5OiBudW1iZXI7DQp9DQoNCmludGVyZmFjZSBVc2VNb2RhbFBvc2l0aW9uUmV0dXJuIHsNCiAgICBjbGlja1Bvc2l0aW9uOiBDbGlja1Bvc2l0aW9uIHwgdW5kZWZpbmVkOw0KICAgIGNhcHR1cmVQb3NpdGlvbjogKGU6IFJlYWN0Lk1vdXNlRXZlbnQpID0+IHZvaWQ7DQogICAgY2xlYXJQb3NpdGlvbjogKCkgPT4gdm9pZDsNCn0NCg0KLyoqDQogKiBIb29rIHRvIGNhcHR1cmUgY2xpY2sgcG9zaXRpb24gZm9yIG1vZGFsIHBvc2l0aW9uaW5nDQogKiBVc2FnZToNCiAqIGNvbnN0IHsgY2xpY2tQb3NpdGlvbiwgY2FwdHVyZVBvc2l0aW9uIH0gPSB1c2VNb2RhbFBvc2l0aW9uKCk7DQogKiA8YnV0dG9uIG9uQ2xpY2s9eyhlKSA9PiB7IGNhcHR1cmVQb3NpdGlvbihlKTsgb3Blbk1vZGFsKCk7IH19Pk9wZW48L2J1dHRvbj4NCiAqIDxNb2RhbCBjbGlja1Bvc2l0aW9uPXtjbGlja1Bvc2l0aW9ufSAuLi4vPg0KICovDQpleHBvcnQgZnVuY3Rpb24gdXNlTW9kYWxQb3NpdGlvbigpOiBVc2VNb2RhbFBvc2l0aW9uUmV0dXJuIHsNCiAgICBjb25zdCBbY2xpY2tQb3NpdGlvbiwgc2V0Q2xpY2tQb3NpdGlvbl0gPSB1c2VTdGF0ZTxDbGlja1Bvc2l0aW9uIHwgdW5kZWZpbmVkPigpOw0KDQogICAgY29uc3QgY2FwdHVyZVBvc2l0aW9uID0gdXNlQ2FsbGJhY2soKGU6IFJlYWN0Lk1vdXNlRXZlbnQpID0+IHsNCiAgICAgICAgY29uc3QgcmVjdCA9IGUuY3VycmVudFRhcmdldC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKTsNCiAgICAgICAgc2V0Q2xpY2tQb3NpdGlvbih7DQogICAgICAgICAgICB4OiByZWN0LmxlZnQgKyByZWN0LndpZHRoIC8gMiwgLy8gQ2VudGVyIG9mIGJ1dHRvbg0KICAgICAgICAgICAgeTogcmVjdC5ib3R0b20gKyA4LCAvLyA4cHggYmVsb3cgYnV0dG9uDQogICAgICAgIH0pOw0KICAgIH0sIFtdKTsNCg0KICAgIGNvbnN0IGNsZWFyUG9zaXRpb24gPSB1c2VDYWxsYmFjaygoKSA9PiB7DQogICAgICAgIHNldENsaWNrUG9zaXRpb24odW5kZWZpbmVkKTsNCiAgICB9LCBbXSk7DQoNCiAgICByZXR1cm4geyBjbGlja1Bvc2l0aW9uLCBjYXB0dXJlUG9zaXRpb24sIGNsZWFyUG9zaXRpb24gfTsNCn0NCg==}
+import React, { useState, useCallback } from 'react';
+
+interface ClickPosition {
+    x: number;
+    y: number;
+}
+
+interface UseModalPositionReturn {
+    clickPosition: ClickPosition | undefined;
+    capturePosition: (e: React.MouseEvent) => void;
+    clearPosition: () => void;
+}
+
+/**
+ * Hook to capture click position for modal positioning
+ * Usage:
+ * const { clickPosition, capturePosition } = useModalPosition();
+ * <button onClick={(e) => { capturePosition(e); openModal(); }}>Open</button>
+ * <Modal clickPosition={clickPosition} .../>
+ */
+export function useModalPosition(): UseModalPositionReturn {
+    const [clickPosition, setClickPosition] = useState<ClickPosition | undefined>();
+
+    const capturePosition = useCallback((e: React.MouseEvent) => {
+        const rect = e.currentTarget.getBoundingClientRect();
+        setClickPosition({
+            x: rect.left + rect.width / 2, // Center of button
+            y: rect.bottom + 8, // 8px below button
+        });
+    }, []);
+
+    const clearPosition = useCallback(() => {
+        setClickPosition(undefined);
+    }, []);
+
+    return { clickPosition, capturePosition, clearPosition };
+}

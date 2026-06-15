@@ -1,1 +1,108 @@
-﻿@{data=LyoqDQogKiBWZXJpZmljYXIgc2UgcGVkaWRvcyBkb3MgZGlhcyAyOCBlIDI5IGZvcmFtIGltcG9ydGFkb3MNCiAqLw0KDQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KLy8gTG9hZCAuZW52LmxvY2FsDQpjb25zdCBlbnZQYXRoID0gcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQppZiAoZnMuZXhpc3RzU3luYyhlbnZQYXRoKSkgew0KICAgIGNvbnN0IGVudkZpbGUgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0ZjgnKTsNCiAgICBlbnZGaWxlLnNwbGl0KCdcbicpLmZvckVhY2gobGluZSA9PiB7DQogICAgICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj06I10rKT0oLiopJC8pOw0KICAgICAgICBpZiAobWF0Y2gpIHsNCiAgICAgICAgICAgIGNvbnN0IGtleSA9IG1hdGNoWzFdLnRyaW0oKTsNCiAgICAgICAgICAgIGNvbnN0IHZhbHVlID0gbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL15bIiddfFsiJ10kL2csICcnKTsNCiAgICAgICAgICAgIGlmICghcHJvY2Vzcy5lbnZba2V5XSkgcHJvY2Vzcy5lbnZba2V5XSA9IHZhbHVlOw0KICAgICAgICB9DQogICAgfSk7DQp9DQoNCmNvbnN0IFNVUEFCQVNFX1VSTCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZITsNCg0KYXN5bmMgZnVuY3Rpb24gY2hlY2tJbXBvcnRlZE9yZGVycygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5SNIFZlcmlmaWNhbmRvIFBlZGlkb3MgSW1wb3J0YWRvcyBkb3MgRGlhcyAyOCBlIDI5XG4nKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSArICdcbicpOw0KDQogICAgLy8gVmVyaWZpY2FyIHBlZGlkb3MgY29tIGRhdGEgMjgvMDEvMjAyNiBvdSAyOS8wMS8yMDI2DQogICAgY29uc3QgZGF0ZXMgPSBbJzI4LzAxLzIwMjYnLCAnMjkvMDEvMjAyNiddOw0KDQogICAgZm9yIChjb25zdCBkYXRlIG9mIGRhdGVzKSB7DQogICAgICAgIGNvbnNvbGUubG9nKGDwn5OFIFZlcmlmaWNhbmRvIHBlZGlkb3MgZGUgJHtkYXRlfS4uLlxuYCk7DQoNCiAgICAgICAgY29uc3QgeyBkYXRhLCBlcnJvciwgY291bnQgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAuc2VsZWN0KCdyb3dfZGF0YScsIHsgY291bnQ6ICdleGFjdCcgfSkNCiAgICAgICAgICAgIC5lcSgncm93X2RhdGEtPj5EYXRhJywgZGF0ZSkNCiAgICAgICAgICAgIC5vcmRlcignaW1wb3J0X2RhdGUnLCB7IGFzY2VuZGluZzogZmFsc2UgfSkNCiAgICAgICAgICAgIC5saW1pdCgxMCk7DQoNCiAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKGDinYwgRXJybzpgLCBlcnJvcik7DQogICAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgfQ0KDQogICAgICAgIGNvbnNvbGUubG9nKGAgICBUb3RhbCBubyBiYW5jbzogJHtjb3VudCB8fCAwfSBwZWRpZG9zYCk7DQoNCiAgICAgICAgaWYgKGRhdGEgJiYgZGF0YS5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgXG4gICDDmmx0aW1vcyA1IGltcG9ydGFkb3M6YCk7DQogICAgICAgICAgICBkYXRhLnNsaWNlKDAsIDUpLmZvckVhY2goKHJvdzogYW55LCBpZHg6IG51bWJlcikgPT4gew0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICAke2lkeCArIDF9LiBJRDogJHtyb3cucm93X2RhdGFbJ0lEIFRpbnknXX0gfCBTS1U6ICR7cm93LnJvd19kYXRhWydTS1UnXX0gfCBTdGF0dXM6ICR7cm93LnJvd19kYXRhWydTaXR1YcOnw6NvJ119YCk7DQogICAgICAgICAgICB9KTsNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICDimqDvuI8gIE5lbmh1bSBwZWRpZG8gZW5jb250cmFkbyBjb20gZXN0YSBkYXRhIG5vIGJhbmNvIWApOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coJycpOw0KICAgIH0NCg0KICAgIC8vIFZlcmlmaWNhciBmaWxhIGRlIHJldHJ5DQogICAgY29uc29sZS5sb2coJ1xu4o+zIFZlcmlmaWNhbmRvIEZpbGEgZGUgUmV0cnkuLi5cbicpOw0KDQogICAgY29uc3QgeyBkYXRhOiBxdWV1ZURhdGEgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5pbignb3JkZXJfZGF0ZScsIGRhdGVzKTsNCg0KICAgIGlmIChxdWV1ZURhdGEgJiYgcXVldWVEYXRhLmxlbmd0aCA+IDApIHsNCiAgICAgICAgY29uc3QgYnlTdGF0dXMgPSBxdWV1ZURhdGEucmVkdWNlKChhY2M6IGFueSwgaXRlbTogYW55KSA9PiB7DQogICAgICAgICAgICBhY2NbaXRlbS5zdGF0dXNdID0gKGFjY1tpdGVtLnN0YXR1c10gfHwgMCkgKyAxOw0KICAgICAgICAgICAgcmV0dXJuIGFjYzsNCiAgICAgICAgfSwge30pOw0KDQogICAgICAgIGNvbnNvbGUubG9nKGAgICBUb3RhbCBuYSBmaWxhIGRlIHJldHJ5OiAke3F1ZXVlRGF0YS5sZW5ndGh9YCk7DQogICAgICAgIE9iamVjdC5lbnRyaWVzKGJ5U3RhdHVzKS5mb3JFYWNoKChbc3RhdHVzLCBjb3VudF0pID0+IHsNCiAgICAgICAgICAgIGNvbnN0IGVtb2ppID0gc3RhdHVzID09PSAncGVuZGluZycgPyAn4o+zJyA6IHN0YXR1cyA9PT0gJ2NvbXBsZXRlZCcgPyAn4pyFJyA6ICfinYwnOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgICR7ZW1vaml9ICR7c3RhdHVzfTogJHtjb3VudH1gKTsNCiAgICAgICAgfSk7DQoNCiAgICAgICAgLy8gTW9zdHJhciBhbGd1bnMgcGVkaWRvcyBwZW5kZW50ZXMNCiAgICAgICAgY29uc3QgcGVuZGluZyA9IHF1ZXVlRGF0YS5maWx0ZXIoaSA9PiBpLnN0YXR1cyA9PT0gJ3BlbmRpbmcnKTsNCiAgICAgICAgaWYgKHBlbmRpbmcubGVuZ3RoID4gMCkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coYFxuICAgUGVkaWRvcyBhaW5kYSBwZW5kZW50ZXMgKHByaW1laXJvcyA1KTpgKTsNCiAgICAgICAgICAgIHBlbmRpbmcuc2xpY2UoMCwgNSkuZm9yRWFjaCgoaXRlbTogYW55LCBpZHg6IG51bWJlcikgPT4gew0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICAke2lkeCArIDF9LiBPcmRlciBJRDogJHtpdGVtLm9yZGVyX2lkfSB8IEVtcHJlc2E6ICR7aXRlbS5jb21wYW55fSB8IFRlbnRhdGl2YXM6ICR7aXRlbS5yZXRyeV9jb3VudH1gKTsNCiAgICAgICAgICAgIH0pOw0KICAgICAgICB9DQoNCiAgICAgICAgLy8gTW9zdHJhciBmYWxoYXMgc2UgaG91dmVyDQogICAgICAgIGNvbnN0IGZhaWxlZCA9IHF1ZXVlRGF0YS5maWx0ZXIoaSA9PiBpLnN0YXR1cyA9PT0gJ2ZhaWxlZCcpOw0KICAgICAgICBpZiAoZmFpbGVkLmxlbmd0aCA+IDApIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGBcbiAgIOKaoO+4jyAgUGVkaWRvcyBmYWxoYWRvcyAocHJpbWVpcm9zIDMpOmApOw0KICAgICAgICAgICAgZmFpbGVkLnNsaWNlKDAsIDMpLmZvckVhY2goKGl0ZW06IGFueSwgaWR4OiBudW1iZXIpID0+IHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgJHtpZHggKyAxfS4gT3JkZXIgSUQ6ICR7aXRlbS5vcmRlcl9pZH0gfCBFcnJvOiAke2l0ZW0ubGFzdF9lcnJvcj8uc3Vic3RyaW5nKDAsIDUwKX0uLi5gKTsNCiAgICAgICAgICAgIH0pOw0KICAgICAgICB9DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIOKchSBOZW5odW0gcGVkaWRvIGRvcyBkaWFzIDI4LTI5IGVuY29udHJhZG8gbmEgZmlsYWApOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCdcbicgKyAnPScucmVwZWF0KDYwKSArICdcbicpOw0KfQ0KDQpjaGVja0ltcG9ydGVkT3JkZXJzKCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+/**
+ * Verificar se pedidos dos dias 28 e 29 foram importados
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function checkImportedOrders() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🔍 Verificando Pedidos Importados dos Dias 28 e 29\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Verificar pedidos com data 28/01/2026 ou 29/01/2026
+    const dates = ['28/01/2026', '29/01/2026'];
+
+    for (const date of dates) {
+        console.log(`📅 Verificando pedidos de ${date}...\n`);
+
+        const { data, error, count } = await supabase
+            .from('spreadsheet_data')
+            .select('row_data', { count: 'exact' })
+            .eq('row_data->>Data', date)
+            .order('import_date', { ascending: false })
+            .limit(10);
+
+        if (error) {
+            console.error(`❌ Erro:`, error);
+            continue;
+        }
+
+        console.log(`   Total no banco: ${count || 0} pedidos`);
+
+        if (data && data.length > 0) {
+            console.log(`\n   Últimos 5 importados:`);
+            data.slice(0, 5).forEach((row: any, idx: number) => {
+                console.log(`   ${idx + 1}. ID: ${row.row_data['ID Tiny']} | SKU: ${row.row_data['SKU']} | Status: ${row.row_data['Situação']}`);
+            });
+        } else {
+            console.log(`   ⚠️  Nenhum pedido encontrado com esta data no banco!`);
+        }
+
+        console.log('');
+    }
+
+    // Verificar fila de retry
+    console.log('\n⏳ Verificando Fila de Retry...\n');
+
+    const { data: queueData } = await supabase
+        .from('webhook_retry_queue')
+        .select('*')
+        .in('order_date', dates);
+
+    if (queueData && queueData.length > 0) {
+        const byStatus = queueData.reduce((acc: any, item: any) => {
+            acc[item.status] = (acc[item.status] || 0) + 1;
+            return acc;
+        }, {});
+
+        console.log(`   Total na fila de retry: ${queueData.length}`);
+        Object.entries(byStatus).forEach(([status, count]) => {
+            const emoji = status === 'pending' ? '⏳' : status === 'completed' ? '✅' : '❌';
+            console.log(`   ${emoji} ${status}: ${count}`);
+        });
+
+        // Mostrar alguns pedidos pendentes
+        const pending = queueData.filter(i => i.status === 'pending');
+        if (pending.length > 0) {
+            console.log(`\n   Pedidos ainda pendentes (primeiros 5):`);
+            pending.slice(0, 5).forEach((item: any, idx: number) => {
+                console.log(`   ${idx + 1}. Order ID: ${item.order_id} | Empresa: ${item.company} | Tentativas: ${item.retry_count}`);
+            });
+        }
+
+        // Mostrar falhas se houver
+        const failed = queueData.filter(i => i.status === 'failed');
+        if (failed.length > 0) {
+            console.log(`\n   ⚠️  Pedidos falhados (primeiros 3):`);
+            failed.slice(0, 3).forEach((item: any, idx: number) => {
+                console.log(`   ${idx + 1}. Order ID: ${item.order_id} | Erro: ${item.last_error?.substring(0, 50)}...`);
+            });
+        }
+    } else {
+        console.log(`   ✅ Nenhum pedido dos dias 28-29 encontrado na fila`);
+    }
+
+    console.log('\n' + '='.repeat(60) + '\n');
+}
+
+checkImportedOrders().catch(console.error);

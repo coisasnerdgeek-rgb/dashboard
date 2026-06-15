@@ -1,1 +1,234 @@
-﻿@{data=aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICcuL3N1cGFiYXNlQ2xpZW50JzsNCmltcG9ydCB7IE1hcmtldHBsYWNlRmVlIH0gZnJvbSAnLi4vdHlwZXMnOw0KDQpleHBvcnQgY29uc3QgZGVmYXVsdE1hcmtldHBsYWNlRmVlczogTWFya2V0cGxhY2VGZWVbXSA9IFsNCiAgICB7DQogICAgICAgIG1hcmtldHBsYWNlOiAnU0gnLA0KICAgICAgICBuYW1lOiAnU2hvcGVlJywNCiAgICAgICAgY29tbWlzc2lvbl9wZXJjZW50OiAxNCwNCiAgICAgICAgZml4ZWRfZmVlOiA0LjAwLA0KICAgICAgICB0YXhfcmF0ZTogNiwNCiAgICAgICAgaXNfYWN0aXZlOiB0cnVlLA0KICAgICAgICBydWxlc19qc29uOiB7DQogICAgICAgICAgICBmcmVlX3NoaXBwaW5nX3RocmVzaG9sZDogNzksDQogICAgICAgICAgICBtYXhfY29tbWlzc2lvbjogMTAwLjAwIC8vIFNob3BlZSBjb21taXNzaW9uIGNhcA0KICAgICAgICB9DQogICAgfSwNCiAgICB7DQogICAgICAgIG1hcmtldHBsYWNlOiAnTUwnLA0KICAgICAgICBuYW1lOiAnTWVyY2FkbyBMaXZyZScsDQogICAgICAgIGNvbW1pc3Npb25fcGVyY2VudDogMTEsIC8vIEJhc2UgKENsYXNzaWMpDQogICAgICAgIGZpeGVkX2ZlZTogMCwgLy8gVmFyaWVzIGJ5IHRpZXINCiAgICAgICAgdGF4X3JhdGU6IDYsDQogICAgICAgIGlzX2FjdGl2ZTogdHJ1ZSwNCiAgICAgICAgcnVsZXNfanNvbjogew0KICAgICAgICAgICAgZml4ZWRfZmVlX3RpZXJzOiBbDQogICAgICAgICAgICAgICAgeyBtYXg6IDI5LjAwLCB2YWx1ZTogNi4yNSB9LA0KICAgICAgICAgICAgICAgIHsgbWF4OiA1MC4wMCwgdmFsdWU6IDYuNTAgfSwNCiAgICAgICAgICAgICAgICB7IG1heDogNzkuMDAsIHZhbHVlOiA2Ljc1IH0NCiAgICAgICAgICAgIF0sDQogICAgICAgICAgICBmcmVlX3NoaXBwaW5nX3RocmVzaG9sZDogNzkuMDAsDQogICAgICAgIH0NCiAgICB9LA0KICAgIHsNCiAgICAgICAgbWFya2V0cGxhY2U6ICdBTScsDQogICAgICAgIG5hbWU6ICdBbWF6b24nLA0KICAgICAgICBjb21taXNzaW9uX3BlcmNlbnQ6IDE1LA0KICAgICAgICBmaXhlZF9mZWU6IDAsDQogICAgICAgIHRheF9yYXRlOiA2LA0KICAgICAgICBpc19hY3RpdmU6IHRydWUNCiAgICB9LA0KICAgIHsNCiAgICAgICAgbWFya2V0cGxhY2U6ICdNRycsDQogICAgICAgIG5hbWU6ICdNYWdhbHUnLA0KICAgICAgICBjb21taXNzaW9uX3BlcmNlbnQ6IDEyLjgsDQogICAgICAgIGZpeGVkX2ZlZTogNS4wMCwNCiAgICAgICAgdGF4X3JhdGU6IDYsDQogICAgICAgIGlzX2FjdGl2ZTogdHJ1ZQ0KICAgIH0sDQogICAgew0KICAgICAgICBtYXJrZXRwbGFjZTogJ05UJywNCiAgICAgICAgbmFtZTogJ05ldHNob2VzJywNCiAgICAgICAgY29tbWlzc2lvbl9wZXJjZW50OiAyMCwNCiAgICAgICAgZml4ZWRfZmVlOiAwLA0KICAgICAgICB0YXhfcmF0ZTogNiwNCiAgICAgICAgaXNfYWN0aXZlOiB0cnVlDQogICAgfSwNCiAgICB7DQogICAgICAgIG1hcmtldHBsYWNlOiAnU0hFJywgLy8gVXNlciBzYWlkICJTRyIsIGNoZWNraW5nIG5vcm1hbGl6YXRpb24NCiAgICAgICAgbmFtZTogJ1NoZWluJywNCiAgICAgICAgY29tbWlzc2lvbl9wZXJjZW50OiAxNiwNCiAgICAgICAgZml4ZWRfZmVlOiAwLA0KICAgICAgICB0YXhfcmF0ZTogNiwNCiAgICAgICAgaXNfYWN0aXZlOiB0cnVlDQogICAgfSwNCiAgICB7DQogICAgICAgIG1hcmtldHBsYWNlOiAnU0knLA0KICAgICAgICBuYW1lOiAnU2l0ZSBQcsOzcHJpbycsDQogICAgICAgIGNvbW1pc3Npb25fcGVyY2VudDogMCwNCiAgICAgICAgZml4ZWRfZmVlOiAwLA0KICAgICAgICB0YXhfcmF0ZTogNiwNCiAgICAgICAgaXNfYWN0aXZlOiB0cnVlDQogICAgfSwNCiAgICB7DQogICAgICAgIG1hcmtldHBsYWNlOiAnT1QnLA0KICAgICAgICBuYW1lOiAnT3V0cm9zIC8gUGFkcsOjbycsDQogICAgICAgIGNvbW1pc3Npb25fcGVyY2VudDogMTAsICAvLyBHZW5lcmljIGRlZmF1bHQNCiAgICAgICAgZml4ZWRfZmVlOiAwLA0KICAgICAgICB0YXhfcmF0ZTogNiwNCiAgICAgICAgaXNfYWN0aXZlOiB0cnVlDQogICAgfQ0KXTsNCg0KZXhwb3J0IGNvbnN0IGdldE1hcmtldHBsYWNlRmVlcyA9IGFzeW5jICgpOiBQcm9taXNlPE1hcmtldHBsYWNlRmVlW10+ID0+IHsNCiAgICAvLyBUcnkgdG8gZmV0Y2ggZnJvbSBTdXBhYmFzZQ0KICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdtYXJrZXRwbGFjZV9mZWVzJykNCiAgICAgICAgLnNlbGVjdCgnKicpOw0KDQogICAgaWYgKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGZldGNoaW5nIG1hcmtldHBsYWNlIGZlZXM6JywgZXJyb3IpOw0KICAgICAgICByZXR1cm4gZGVmYXVsdE1hcmtldHBsYWNlRmVlczsNCiAgICB9DQoNCiAgICBpZiAoIWRhdGEgfHwgZGF0YS5sZW5ndGggPT09IDApIHsNCiAgICAgICAgcmV0dXJuIGRlZmF1bHRNYXJrZXRwbGFjZUZlZXM7DQogICAgfQ0KDQogICAgcmV0dXJuIGRhdGEgYXMgTWFya2V0cGxhY2VGZWVbXTsNCn07DQoNCmV4cG9ydCBjb25zdCBzYXZlTWFya2V0cGxhY2VGZWUgPSBhc3luYyAoZmVlOiBNYXJrZXRwbGFjZUZlZSk6IFByb21pc2U8TWFya2V0cGxhY2VGZWU+ID0+IHsNCiAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnbWFya2V0cGxhY2VfZmVlcycpDQogICAgICAgIC51cHNlcnQoZmVlKQ0KICAgICAgICAuc2VsZWN0KCkNCiAgICAgICAgLnNpbmdsZSgpOw0KDQogICAgaWYgKGVycm9yKSB7DQogICAgICAgIHRocm93IGVycm9yOw0KICAgIH0NCg0KICAgIHJldHVybiBkYXRhIGFzIE1hcmtldHBsYWNlRmVlOw0KfTsNCg0KZXhwb3J0IGNvbnN0IGluaXRpYWxpemVNYXJrZXRwbGFjZUZlZXMgPSBhc3luYyAoKSA9PiB7DQogICAgLy8gQ2hlY2sgaWYgdGFibGUgaXMgZW1wdHkgYW5kIHNlZWQNCiAgICBjb25zdCB7IGNvdW50LCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ21hcmtldHBsYWNlX2ZlZXMnKQ0KICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCg0KICAgIGlmICghZXJyb3IgJiYgY291bnQgPT09IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coJ1NlZWRpbmcgbWFya2V0cGxhY2UgZmVlcy4uLicpOw0KICAgICAgICBmb3IgKGNvbnN0IGZlZSBvZiBkZWZhdWx0TWFya2V0cGxhY2VGZWVzKSB7DQogICAgICAgICAgICAvLyBSZW1vdmUgJ2lkJyBpZiBwcmVzZW50IGluIGRlZmF1bHQgdG8gYWxsb3cgREIgdG8gZ2VuZXJhdGUgaXQsIG9yIHNwZWNpZmljIGZpeGVkIElEcw0KICAgICAgICAgICAgY29uc3QgeyAuLi5mZWVEYXRhIH0gPSBmZWU7DQogICAgICAgICAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCdtYXJrZXRwbGFjZV9mZWVzJykuaW5zZXJ0KGZlZURhdGEpOw0KICAgICAgICB9DQogICAgfQ0KfTsNCg0KLyoqDQogKiBDYWxjdWxhdGVzIHRoZSB0b3RhbCBtYXJrZXRwbGFjZSBmZWUgZm9yIGEgZ2l2ZW4gcHJpY2UgYW5kIGNoYW5uZWwuDQogKi8NCmV4cG9ydCBjb25zdCBjYWxjdWxhdGVNYXJrZXRwbGFjZUZlZXMgPSAoDQogICAgdG90YWxQcmljZTogbnVtYmVyLA0KICAgIGNoYW5uZWxDb2RlOiBzdHJpbmcsDQogICAgZmVlczogTWFya2V0cGxhY2VGZWVbXSwNCiAgICBxdWFudGl0eTogbnVtYmVyID0gMQ0KKTogeyB0b3RhbEZlZTogbnVtYmVyLCBjb21taXNzaW9uOiBudW1iZXIsIGZpeGVkOiBudW1iZXIsIHRheDogbnVtYmVyLCBkZXRhaWxzOiBzdHJpbmdbXSB9ID0+IHsNCg0KICAgIGxldCBub3JtYWxpemVkQ2hhbm5lbCA9IGNoYW5uZWxDb2RlLnRvVXBwZXJDYXNlKCkudHJpbSgpOw0KDQogICAgLy8gQmV0dGVyIG5vcm1hbGl6YXRpb24gbWFwcGluZw0KICAgIGlmIChub3JtYWxpemVkQ2hhbm5lbC5pbmNsdWRlcygnU0hPUEVFJykgfHwgbm9ybWFsaXplZENoYW5uZWwuaW5jbHVkZXMoJ1NIUCcpIHx8IG5vcm1hbGl6ZWRDaGFubmVsLnN0YXJ0c1dpdGgoJ1NIICcpKSBub3JtYWxpemVkQ2hhbm5lbCA9ICdTSCc7DQogICAgZWxzZSBpZiAobm9ybWFsaXplZENoYW5uZWwuaW5jbHVkZXMoJ01FUkNBRE8nKSB8fCBub3JtYWxpemVkQ2hhbm5lbC5pbmNsdWRlcygnTElWUkUnKSB8fCBub3JtYWxpemVkQ2hhbm5lbC5pbmNsdWRlcygnSkFETE9HJykgfHwgbm9ybWFsaXplZENoYW5uZWwgPT09ICdNTCcgfHwgbm9ybWFsaXplZENoYW5uZWwuc3RhcnRzV2l0aCgnTUwgJykpIG5vcm1hbGl6ZWRDaGFubmVsID0gJ01MJzsgLy8gSmFkbG9nIHVzdWFsbHkgYXNzb2NpYXRlZCB3aXRoIE1MIGRyb3Atb2ZmcyBpbiBzb21lIGV4cG9ydHM/IEp1c3QgIk1lcmNhZG8iIGlzIHNhZmVyLg0KICAgIGVsc2UgaWYgKG5vcm1hbGl6ZWRDaGFubmVsLmluY2x1ZGVzKCdBTUFaT04nKSB8fCBub3JtYWxpemVkQ2hhbm5lbCA9PT0gJ0FNJykgbm9ybWFsaXplZENoYW5uZWwgPSAnQU0nOw0KICAgIGVsc2UgaWYgKG5vcm1hbGl6ZWRDaGFubmVsLmluY2x1ZGVzKCdNQUdBTFUnKSB8fCBub3JtYWxpemVkQ2hhbm5lbC5pbmNsdWRlcygnTUFHQVpJTkUnKSkgbm9ybWFsaXplZENoYW5uZWwgPSAnTUcnOw0KICAgIGVsc2UgaWYgKG5vcm1hbGl6ZWRDaGFubmVsLmluY2x1ZGVzKCdORVRTSE9FUycpIHx8IG5vcm1hbGl6ZWRDaGFubmVsID09PSAnTlQnIHx8IG5vcm1hbGl6ZWRDaGFubmVsLnN0YXJ0c1dpdGgoJ05UICcpKSBub3JtYWxpemVkQ2hhbm5lbCA9ICdOVCc7DQogICAgZWxzZSBpZiAobm9ybWFsaXplZENoYW5uZWwuaW5jbHVkZXMoJ1NIRUlOJykpIG5vcm1hbGl6ZWRDaGFubmVsID0gJ1NIRSc7DQogICAgZWxzZSBpZiAobm9ybWFsaXplZENoYW5uZWwuaW5jbHVkZXMoJ1NJVEUnKSkgbm9ybWFsaXplZENoYW5uZWwgPSAnU0knOw0KICAgIGVsc2UgaWYgKG5vcm1hbGl6ZWRDaGFubmVsID09PSAnU0cnKSBub3JtYWxpemVkQ2hhbm5lbCA9ICdTSEUnOw0KDQogICAgbGV0IHJ1bGUgPSBmZWVzLmZpbmQoZiA9PiBmLm1hcmtldHBsYWNlID09PSBub3JtYWxpemVkQ2hhbm5lbCkgfHwNCiAgICAgICAgZmVlcy5maW5kKGYgPT4gZi5uYW1lLnRvVXBwZXJDYXNlKCkuaW5jbHVkZXMoY2hhbm5lbENvZGUudG9VcHBlckNhc2UoKSkpIHx8DQogICAgICAgIC8vIEZhbGxiYWNrIGRlZmF1bHRzIGlmIERCIGlzIGVtcHR5IG9yIG1pc3NpbmcNCiAgICAgICAgZGVmYXVsdE1hcmtldHBsYWNlRmVlcy5maW5kKGYgPT4gZi5tYXJrZXRwbGFjZSA9PT0gbm9ybWFsaXplZENoYW5uZWwpOw0KDQogICAgY29uc3QgZGV0YWlsczogc3RyaW5nW10gPSBbXTsNCg0KICAgIC8vIEZhbGxiYWNrIHRvICdPdXRyb3MnIGlmIE5PIHJ1bGUgZm91bmQNCiAgICBpZiAoIXJ1bGUpIHsNCiAgICAgICAgcnVsZSA9IGZlZXMuZmluZChmID0+IGYubWFya2V0cGxhY2UgPT09ICdPVCcpIHx8IGRlZmF1bHRNYXJrZXRwbGFjZUZlZXMuZmluZChmID0+IGYubWFya2V0cGxhY2UgPT09ICdPVCcpOw0KICAgICAgICBpZiAocnVsZSkgew0KICAgICAgICAgICAgZGV0YWlscy5wdXNoKGBSZWdyYSBleGF0YSBuw6NvIGVuY29udHJhZGEuIFVzYW5kbyAnJHtydWxlLm5hbWV9Jy5gKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIGlmICghcnVsZSkgew0KICAgICAgICByZXR1cm4geyB0b3RhbEZlZTogMCwgY29tbWlzc2lvbjogMCwgZml4ZWQ6IDAsIHRheDogMCwgZGV0YWlsczogWydSZWdyYSBuw6NvIGVuY29udHJhZGEnXSB9Ow0KICAgIH0NCg0KDQoNCiAgICAvLyAxLiBDb21taXNzaW9uDQogICAgbGV0IGNvbW1pc3Npb24gPSB0b3RhbFByaWNlICogKHJ1bGUuY29tbWlzc2lvbl9wZXJjZW50IC8gMTAwKTsNCg0KICAgIGNvbnN0IHVuaXRQcmljZSA9IHRvdGFsUHJpY2UgLyBxdWFudGl0eTsNCg0KICAgIC8vIENoZWNrIGZvciBNYXggQ29tbWlzc2lvbiBDYXAgKGNvbW1vbiBpbiBTaG9wZWUsIGUuZy4gUiQgMTAwIGxpbWl0KQ0KICAgIGlmIChydWxlLnJ1bGVzX2pzb24gJiYgKHJ1bGUucnVsZXNfanNvbiBhcyBhbnkpLm1heF9jb21taXNzaW9uKSB7DQogICAgICAgIGNvbnN0IG1heENvbW0gPSAocnVsZS5ydWxlc19qc29uIGFzIGFueSkubWF4X2NvbW1pc3Npb247DQogICAgICAgIGlmIChjb21taXNzaW9uID4gbWF4Q29tbSkgew0KICAgICAgICAgICAgY29tbWlzc2lvbiA9IG1heENvbW07DQogICAgICAgICAgICBkZXRhaWxzLnB1c2goYENvbWlzc8OjbyBsaW1pdGFkYSBhbyB0ZXRvIGRlIFIkICR7bWF4Q29tbS50b0ZpeGVkKDIpfWApOw0KICAgICAgICB9DQogICAgfQ0KICAgIGRldGFpbHMucHVzaChgQ29taXNzw6NvICgke3J1bGUuY29tbWlzc2lvbl9wZXJjZW50fSUpOiBSJCAke2NvbW1pc3Npb24udG9GaXhlZCgyKX1gKTsNCg0KICAgIC8vIDIuIEZpeGVkIEZlZQ0KICAgIGxldCBmaXhlZCA9IHJ1bGUuZml4ZWRfZmVlICogcXVhbnRpdHk7IC8vIEJhc2UgZml4ZWQgZmVlIG11bHRpcGxpZWQgYnkgcXVhbnRpdHkNCg0KICAgIC8vIENoZWNrIGZvciBhZHZhbmNlZCBydWxlcyBpbiBKU09ODQogICAgaWYgKHJ1bGUucnVsZXNfanNvbikgew0KICAgICAgICBjb25zdCBydWxlcyA9IHJ1bGUucnVsZXNfanNvbiBhcyBhbnk7DQoNCiAgICAgICAgLy8gVGllcmVkIEZpeGVkIEZlZXMgKGUuZy4gTUwpIC0gQXBwbGllZCBQRVIgVU5JVA0KICAgICAgICBpZiAocnVsZXMuZml4ZWRfZmVlX3RpZXJzICYmIEFycmF5LmlzQXJyYXkocnVsZXMuZml4ZWRfZmVlX3RpZXJzKSkgew0KICAgICAgICAgICAgLy8gU29ydCB0aWVycyBieSBtYXggcHJpY2UgYXNjZW5kaW5nDQogICAgICAgICAgICBjb25zdCB0aWVycyA9IHJ1bGVzLmZpeGVkX2ZlZV90aWVycy5zb3J0KChhOiBhbnksIGI6IGFueSkgPT4gYS5tYXggLSBiLm1heCk7DQogICAgICAgICAgICBjb25zdCBhcHBsaWNhYmxlVGllciA9IHRpZXJzLmZpbmQoKHQ6IGFueSkgPT4gdW5pdFByaWNlIDw9IHQubWF4KTsNCg0KICAgICAgICAgICAgaWYgKGFwcGxpY2FibGVUaWVyKSB7DQogICAgICAgICAgICAgICAgZml4ZWQgPSBhcHBsaWNhYmxlVGllci52YWx1ZSAqIHF1YW50aXR5Ow0KICAgICAgICAgICAgICAgIGRldGFpbHMucHVzaChgVGF4YSBGaXhhIChUaWVyIDw9ICR7YXBwbGljYWJsZVRpZXIubWF4fSB4ICR7cXVhbnRpdHl9KTogUiQgJHtmaXhlZC50b0ZpeGVkKDIpfWApOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAvLyBJZiB1bml0UHJpY2UgPj0gdGhyZXNob2xkIChlLmcuIDc5KSwgdGhlIGZpeGVkIGZlZSAodW5pdCBmZWUpIGlzIHVzdWFsbHkgd2FpdmVkDQogICAgICAgICAgICAgICAgaWYgKHJ1bGVzLmZyZWVfc2hpcHBpbmdfdGhyZXNob2xkICYmIHVuaXRQcmljZSA+PSBydWxlcy5mcmVlX3NoaXBwaW5nX3RocmVzaG9sZCkgew0KICAgICAgICAgICAgICAgICAgICBmaXhlZCA9IDA7DQogICAgICAgICAgICAgICAgICAgIGRldGFpbHMucHVzaChgVW5pdMOhcmlvID49IFIkICR7cnVsZXMuZnJlZV9zaGlwcGluZ190aHJlc2hvbGR9OiBJc2VudG8gZGUgVGF4YSBGaXhhLmApOw0KICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAocnVsZS5maXhlZF9mZWUgPiAwKSB7DQogICAgICAgICAgICAgICAgICAgIC8vIEZhbGxiYWNrIHRvIGJhc2UgZml4ZWQgZmVlIGlmID4gYWxsIHRpZXJzIGJ1dCA8IHRocmVzaG9sZA0KICAgICAgICAgICAgICAgICAgICBmaXhlZCA9IHJ1bGUuZml4ZWRfZmVlICogcXVhbnRpdHk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9IGVsc2UgaWYgKHJ1bGVzLmZyZWVfc2hpcHBpbmdfdGhyZXNob2xkICYmIHVuaXRQcmljZSA+PSBydWxlcy5mcmVlX3NoaXBwaW5nX3RocmVzaG9sZCkgew0KICAgICAgICAgICAgLy8gU2ltcGxlIHRocmVzaG9sZCBjaGVjayBpZiBubyB0aWVycw0KICAgICAgICAgICAgZml4ZWQgPSAwOw0KICAgICAgICAgICAgZGV0YWlscy5wdXNoKGBVbml0w6FyaW8gPj0gUiQgJHtydWxlcy5mcmVlX3NoaXBwaW5nX3RocmVzaG9sZH06IElzZW50byBkZSBUYXhhIEZpeGEuYCk7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICAvLyBPbmx5IGVuc3VyZSBmaXhlZCBmZWUgaXMgbm9uLXplcm8gb3IgZXhwbGljaXRseSBzaG93IDAgaWYgaXQgd2FzIHdhaXZlZA0KICAgIGlmIChmaXhlZCA+IDAgfHwgIWRldGFpbHMuc29tZShkID0+IGQuaW5jbHVkZXMoJ1RheGEgRml4YScpIHx8IGQuaW5jbHVkZXMoJ0lzZW50bycpKSkgew0KICAgICAgICBkZXRhaWxzLnB1c2goYFRheGEgRml4YSBCYXNlOiBSJCAke2ZpeGVkLnRvRml4ZWQoMil9YCk7DQogICAgfQ0KDQogICAgLy8gMy4gVGF4IChJbXBvc3RvKQ0KICAgIGNvbnN0IHRheCA9IHRvdGFsUHJpY2UgKiAocnVsZS50YXhfcmF0ZSAvIDEwMCk7DQogICAgZGV0YWlscy5wdXNoKGBJbXBvc3RvICgke3J1bGUudGF4X3JhdGV9JSk6IFIkICR7dGF4LnRvRml4ZWQoMil9YCk7DQoNCiAgICBjb25zdCB0b3RhbEZlZSA9IGNvbW1pc3Npb24gKyBmaXhlZCArIHRheDsNCg0KICAgIHJldHVybiB7IHRvdGFsRmVlLCBjb21taXNzaW9uLCBmaXhlZCwgdGF4LCBkZXRhaWxzIH07DQp9Ow0K}
+import { supabase } from './supabaseClient';
+import { MarketplaceFee } from '../types';
+
+export const defaultMarketplaceFees: MarketplaceFee[] = [
+    {
+        marketplace: 'SH',
+        name: 'Shopee',
+        commission_percent: 14,
+        fixed_fee: 4.00,
+        tax_rate: 6,
+        is_active: true,
+        rules_json: {
+            free_shipping_threshold: 79,
+            max_commission: 100.00 // Shopee commission cap
+        }
+    },
+    {
+        marketplace: 'ML',
+        name: 'Mercado Livre',
+        commission_percent: 11, // Base (Classic)
+        fixed_fee: 0, // Varies by tier
+        tax_rate: 6,
+        is_active: true,
+        rules_json: {
+            fixed_fee_tiers: [
+                { max: 29.00, value: 6.25 },
+                { max: 50.00, value: 6.50 },
+                { max: 79.00, value: 6.75 }
+            ],
+            free_shipping_threshold: 79.00,
+        }
+    },
+    {
+        marketplace: 'AM',
+        name: 'Amazon',
+        commission_percent: 15,
+        fixed_fee: 0,
+        tax_rate: 6,
+        is_active: true
+    },
+    {
+        marketplace: 'MG',
+        name: 'Magalu',
+        commission_percent: 12.8,
+        fixed_fee: 5.00,
+        tax_rate: 6,
+        is_active: true
+    },
+    {
+        marketplace: 'NT',
+        name: 'Netshoes',
+        commission_percent: 20,
+        fixed_fee: 0,
+        tax_rate: 6,
+        is_active: true
+    },
+    {
+        marketplace: 'SHE', // User said "SG", checking normalization
+        name: 'Shein',
+        commission_percent: 16,
+        fixed_fee: 0,
+        tax_rate: 6,
+        is_active: true
+    },
+    {
+        marketplace: 'SI',
+        name: 'Site Próprio',
+        commission_percent: 0,
+        fixed_fee: 0,
+        tax_rate: 6,
+        is_active: true
+    },
+    {
+        marketplace: 'OT',
+        name: 'Outros / Padrão',
+        commission_percent: 10,  // Generic default
+        fixed_fee: 0,
+        tax_rate: 6,
+        is_active: true
+    }
+];
+
+export const getMarketplaceFees = async (): Promise<MarketplaceFee[]> => {
+    // Try to fetch from Supabase
+    const { data, error } = await supabase
+        .from('marketplace_fees')
+        .select('*');
+
+    if (error) {
+        console.error('Error fetching marketplace fees:', error);
+        return defaultMarketplaceFees;
+    }
+
+    if (!data || data.length === 0) {
+        return defaultMarketplaceFees;
+    }
+
+    return data as MarketplaceFee[];
+};
+
+export const saveMarketplaceFee = async (fee: MarketplaceFee): Promise<MarketplaceFee> => {
+    const { data, error } = await supabase
+        .from('marketplace_fees')
+        .upsert(fee)
+        .select()
+        .single();
+
+    if (error) {
+        throw error;
+    }
+
+    return data as MarketplaceFee;
+};
+
+export const initializeMarketplaceFees = async () => {
+    // Check if table is empty and seed
+    const { count, error } = await supabase
+        .from('marketplace_fees')
+        .select('*', { count: 'exact', head: true });
+
+    if (!error && count === 0) {
+        console.log('Seeding marketplace fees...');
+        for (const fee of defaultMarketplaceFees) {
+            // Remove 'id' if present in default to allow DB to generate it, or specific fixed IDs
+            const { ...feeData } = fee;
+            await supabase.from('marketplace_fees').insert(feeData);
+        }
+    }
+};
+
+/**
+ * Calculates the total marketplace fee for a given price and channel.
+ */
+export const calculateMarketplaceFees = (
+    totalPrice: number,
+    channelCode: string,
+    fees: MarketplaceFee[],
+    quantity: number = 1
+): { totalFee: number, commission: number, fixed: number, tax: number, details: string[] } => {
+
+    let normalizedChannel = channelCode.toUpperCase().trim();
+
+    // Better normalization mapping
+    if (normalizedChannel.includes('SHOPEE') || normalizedChannel.includes('SHP') || normalizedChannel.startsWith('SH ')) normalizedChannel = 'SH';
+    else if (normalizedChannel.includes('MERCADO') || normalizedChannel.includes('LIVRE') || normalizedChannel.includes('JADLOG') || normalizedChannel === 'ML' || normalizedChannel.startsWith('ML ')) normalizedChannel = 'ML'; // Jadlog usually associated with ML drop-offs in some exports? Just "Mercado" is safer.
+    else if (normalizedChannel.includes('AMAZON') || normalizedChannel === 'AM') normalizedChannel = 'AM';
+    else if (normalizedChannel.includes('MAGALU') || normalizedChannel.includes('MAGAZINE')) normalizedChannel = 'MG';
+    else if (normalizedChannel.includes('NETSHOES') || normalizedChannel === 'NT' || normalizedChannel.startsWith('NT ')) normalizedChannel = 'NT';
+    else if (normalizedChannel.includes('SHEIN')) normalizedChannel = 'SHE';
+    else if (normalizedChannel.includes('SITE')) normalizedChannel = 'SI';
+    else if (normalizedChannel === 'SG') normalizedChannel = 'SHE';
+
+    let rule = fees.find(f => f.marketplace === normalizedChannel) ||
+        fees.find(f => f.name.toUpperCase().includes(channelCode.toUpperCase())) ||
+        // Fallback defaults if DB is empty or missing
+        defaultMarketplaceFees.find(f => f.marketplace === normalizedChannel);
+
+    const details: string[] = [];
+
+    // Fallback to 'Outros' if NO rule found
+    if (!rule) {
+        rule = fees.find(f => f.marketplace === 'OT') || defaultMarketplaceFees.find(f => f.marketplace === 'OT');
+        if (rule) {
+            details.push(`Regra exata não encontrada. Usando '${rule.name}'.`);
+        }
+    }
+
+    if (!rule) {
+        return { totalFee: 0, commission: 0, fixed: 0, tax: 0, details: ['Regra não encontrada'] };
+    }
+
+
+
+    // 1. Commission
+    let commission = totalPrice * (rule.commission_percent / 100);
+
+    const unitPrice = totalPrice / quantity;
+
+    // Check for Max Commission Cap (common in Shopee, e.g. R$ 100 limit)
+    if (rule.rules_json && (rule.rules_json as any).max_commission) {
+        const maxComm = (rule.rules_json as any).max_commission;
+        if (commission > maxComm) {
+            commission = maxComm;
+            details.push(`Comissão limitada ao teto de R$ ${maxComm.toFixed(2)}`);
+        }
+    }
+    details.push(`Comissão (${rule.commission_percent}%): R$ ${commission.toFixed(2)}`);
+
+    // 2. Fixed Fee
+    let fixed = rule.fixed_fee * quantity; // Base fixed fee multiplied by quantity
+
+    // Check for advanced rules in JSON
+    if (rule.rules_json) {
+        const rules = rule.rules_json as any;
+
+        // Tiered Fixed Fees (e.g. ML) - Applied PER UNIT
+        if (rules.fixed_fee_tiers && Array.isArray(rules.fixed_fee_tiers)) {
+            // Sort tiers by max price ascending
+            const tiers = rules.fixed_fee_tiers.sort((a: any, b: any) => a.max - b.max);
+            const applicableTier = tiers.find((t: any) => unitPrice <= t.max);
+
+            if (applicableTier) {
+                fixed = applicableTier.value * quantity;
+                details.push(`Taxa Fixa (Tier <= ${applicableTier.max} x ${quantity}): R$ ${fixed.toFixed(2)}`);
+            } else {
+                // If unitPrice >= threshold (e.g. 79), the fixed fee (unit fee) is usually waived
+                if (rules.free_shipping_threshold && unitPrice >= rules.free_shipping_threshold) {
+                    fixed = 0;
+                    details.push(`Unitário >= R$ ${rules.free_shipping_threshold}: Isento de Taxa Fixa.`);
+                } else if (rule.fixed_fee > 0) {
+                    // Fallback to base fixed fee if > all tiers but < threshold
+                    fixed = rule.fixed_fee * quantity;
+                }
+            }
+        } else if (rules.free_shipping_threshold && unitPrice >= rules.free_shipping_threshold) {
+            // Simple threshold check if no tiers
+            fixed = 0;
+            details.push(`Unitário >= R$ ${rules.free_shipping_threshold}: Isento de Taxa Fixa.`);
+        }
+    }
+
+    // Only ensure fixed fee is non-zero or explicitly show 0 if it was waived
+    if (fixed > 0 || !details.some(d => d.includes('Taxa Fixa') || d.includes('Isento'))) {
+        details.push(`Taxa Fixa Base: R$ ${fixed.toFixed(2)}`);
+    }
+
+    // 3. Tax (Imposto)
+    const tax = totalPrice * (rule.tax_rate / 100);
+    details.push(`Imposto (${rule.tax_rate}%): R$ ${tax.toFixed(2)}`);
+
+    const totalFee = commission + fixed + tax;
+
+    return { totalFee, commission, fixed, tax, details };
+};

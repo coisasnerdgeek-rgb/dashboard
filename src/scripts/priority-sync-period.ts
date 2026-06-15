@@ -1,1 +1,48 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpOw0KY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KY29uc3QgZW52OiBhbnkgPSB7fTsNCmVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICBjb25zdCBtYXRjaCA9IGxpbmUubWF0Y2goL14oW149OiNdKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIGVudlttYXRjaFsxXS50cmltKCldID0gbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL15bIiddfFsiJ10kL2csICcnKTsNCn0pOw0KDQpjb25zdCBTVVBBQkFTRV9VUkwgPSBlbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgZW52LlNVUEFCQVNFX1VSTDsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IGVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQphc3luYyBmdW5jdGlvbiBzeW5jUGVyaW9kKCkgew0KICAgIGNvbnNvbGUubG9nKCdcbvCfmoAgSW5pY2lhbmRvIFNpbmNyb25pemHDp8OjbyBQcmlvcml0w6FyaWEgKDI2IGEgMzAgZGUgSmFuZWlybylcbicpOw0KDQogICAgLy8gQ2hhbWFuZG8gYSBBUEkgZGUgc3luYyBsb2NhbG1lbnRlDQogICAgY29uc3QgdXJsID0gJ2h0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcGkvc3luYy10aW55JzsNCg0KICAgIHRyeSB7DQogICAgICAgIGNvbnNvbGUubG9nKCfwn5OhIFNvbGljaXRhbmRvIGRlc2NvYmVydGEgZGUgcGVkaWRvcyAow7psdGltb3MgNyBkaWFzKS4uLicpOw0KICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKHVybCwgew0KICAgICAgICAgICAgbWV0aG9kOiAnUE9TVCcsDQogICAgICAgICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwNCiAgICAgICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgZGF5c0JhY2s6IDcsIGZvcmNlUmVwcm9jZXNzOiB0cnVlIH0pDQogICAgICAgIH0pOw0KDQogICAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsNCiAgICAgICAgY29uc29sZS5sb2coJ+KchSBEZXNjb2JlcnRhIGNvbmNsdcOtZGE6JywgcmVzdWx0LnN0YXRzKTsNCg0KICAgICAgICBpZiAocmVzdWx0LnN0YXRzLmFkZGVkID4gMCkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coYFxu4pqhIFByb2Nlc3NhbmRvICR7cmVzdWx0LnN0YXRzLmFkZGVkfSBub3ZvcyBwZWRpZG9zIGRhIGZpbGEuLi5gKTsNCiAgICAgICAgICAgIC8vIENoYW1hIG8gcHJvY2Vzc2Fkb3IgdHVyYm8NCiAgICAgICAgICAgIGNvbnN0IHsgZXhlY1N5bmMgfSA9IHJlcXVpcmUoJ2NoaWxkX3Byb2Nlc3MnKTsNCiAgICAgICAgICAgIGV4ZWNTeW5jKCducHggdHN4IHNjcmlwdHMvcHJvY2Vzcy1xdWV1ZS10dXJiby50cyBodHRwOi8vbG9jYWxob3N0OjMwMDAnLCB7IHN0ZGlvOiAnaW5oZXJpdCcgfSk7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnXG7inKggTmVuaHVtIHBlZGlkbyBub3ZvIGVuY29udHJhZG8gcGFyYSBlc3RlIHBlcsOtb2RvIChqw6Egc2luY3Jvbml6YWRvcykuJyk7DQogICAgICAgIH0NCg0KICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcign4p2MIEVycm8gbmEgc2luY3Jvbml6YcOnw6NvOicsIGVycm9yLm1lc3NhZ2UpOw0KICAgIH0NCn0NCg0Kc3luY1BlcmlvZCgpOw0K}
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const envPath = path.join(process.cwd(), '.env.local');
+const envFile = fs.readFileSync(envPath, 'utf8');
+const env: any = {};
+envFile.split('\n').forEach(line => {
+    const match = line.match(/^([^=:#]+)=(.*)$/);
+    if (match) env[match[1].trim()] = match[2].trim().replace(/^["']|["']$/g, '');
+});
+
+const SUPABASE_URL = env.VITE_SUPABASE_URL || env.SUPABASE_URL;
+const SUPABASE_KEY = env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function syncPeriod() {
+    console.log('\n🚀 Iniciando Sincronização Prioritária (26 a 30 de Janeiro)\n');
+
+    // Chamando a API de sync localmente
+    const url = 'http://localhost:3000/api/sync-tiny';
+
+    try {
+        console.log('📡 Solicitando descoberta de pedidos (últimos 7 dias)...');
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ daysBack: 7, forceReprocess: true })
+        });
+
+        const result = await response.json();
+        console.log('✅ Descoberta concluída:', result.stats);
+
+        if (result.stats.added > 0) {
+            console.log(`\n⚡ Processando ${result.stats.added} novos pedidos da fila...`);
+            // Chama o processador turbo
+            const { execSync } = require('child_process');
+            execSync('npx tsx scripts/process-queue-turbo.ts http://localhost:3000', { stdio: 'inherit' });
+        } else {
+            console.log('\n✨ Nenhum pedido novo encontrado para este período (já sincronizados).');
+        }
+
+    } catch (error: any) {
+        console.error('❌ Erro na sincronização:', error.message);
+    }
+}
+
+syncPeriod();

@@ -1,1 +1,386 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KDQovLyBTdXBwb3J0IGZvciBkdWFsIHRva2VucyAoTU0gKyBNVkYpIG9yIHNpbmdsZSB0b2tlbiAoYmFja3dhcmQgY29tcGF0KQ0KY29uc3QgVElOWV9UT0tFTl9NTSA9IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOX01NIHx8IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOOw0KY29uc3QgVElOWV9UT0tFTl9NVkYgPSBwcm9jZXNzLmVudi5USU5ZX0FQSV9UT0tFTl9NVkY7DQoNCi8vIENvbXBhbnkgY29uZmlndXJhdGlvbg0KY29uc3QgQ09NUEFOSUVTID0gWw0KICAgIHsNCiAgICAgICAgbmFtZTogJ01NJywNCiAgICAgICAgY25wajogJzM5NDQ3MjkxMDAwMTA0JywNCiAgICAgICAgdG9rZW46IFRJTllfVE9LRU5fTU0sDQogICAgICAgIGVuYWJsZWQ6ICEhVElOWV9UT0tFTl9NTQ0KICAgIH0sDQogICAgew0KICAgICAgICBuYW1lOiAnTVZGJywNCiAgICAgICAgY25wajogJzI1MTE2NTE0MDAwMTM4JywNCiAgICAgICAgdG9rZW46IFRJTllfVE9LRU5fTVZGLA0KICAgICAgICBlbmFibGVkOiAhIVRJTllfVE9LRU5fTVZGDQogICAgfQ0KXTsNCg0KLy8gSGVscGVyIHRvIGNvbnZlcnQgREQvTU0vWVlZWSB0byBEYXRlIG9iamVjdA0KZnVuY3Rpb24gY29udmVydFRvRGF0ZShkYXRlU3RyOiBzdHJpbmcpOiBEYXRlIHsNCiAgICBpZiAoIWRhdGVTdHIpIHJldHVybiBuZXcgRGF0ZSgwKTsgLy8gT2xkIGRhdGUgZm9yIG1pc3NpbmcgZGF0ZXMNCiAgICBjb25zdCBwYXJ0cyA9IGRhdGVTdHIuc3BsaXQoJy8nKTsNCiAgICBpZiAocGFydHMubGVuZ3RoICE9PSAzKSByZXR1cm4gbmV3IERhdGUoMCk7DQogICAgY29uc3QgW2RheSwgbW9udGgsIHllYXJdID0gcGFydHMubWFwKE51bWJlcik7DQogICAgcmV0dXJuIG5ldyBEYXRlKHllYXIsIG1vbnRoIC0gMSwgZGF5KTsNCn0NCg0KLy8gU3luYyByZWNlbnQgb3JkZXJzIGZyb20gVGlueSBBUEkgZm9yIGEgc3BlY2lmaWMgY29tcGFueSAoRGlzY292ZXJ5IE1vZGUpDQphc3luYyBmdW5jdGlvbiBzeW5jQ29tcGFueU9yZGVycyhjb21wYW55OiB0eXBlb2YgQ09NUEFOSUVTWzBdLCBkYXlzQmFjazogbnVtYmVyID0gMTUsIG1heE9yZGVycz86IG51bWJlciwgZm9yY2VSZXByb2Nlc3M6IGJvb2xlYW4gPSBmYWxzZSkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIGNvbnNvbGUubG9nKGBcbvCflI0gTG9va2luZyBmb3Igb3JkZXJzIGZyb20gJHtjb21wYW55Lm5hbWV9IChsYXN0ICR7ZGF5c0JhY2t9IGRheXMpLi4uYCk7DQoNCiAgICAvLyBDYWxjdWxhdGUgZGF0ZSByYW5nZQ0KICAgIGNvbnN0IGVuZERhdGUgPSBuZXcgRGF0ZSgpOw0KICAgIGNvbnN0IHN0YXJ0RGF0ZSA9IG5ldyBEYXRlKCk7DQogICAgc3RhcnREYXRlLnNldERhdGUoc3RhcnREYXRlLmdldERhdGUoKSAtIGRheXNCYWNrKTsNCg0KICAgIGNvbnN0IGZvcm1hdERhdGUgPSAoZGF0ZTogRGF0ZSkgPT4gew0KICAgICAgICBjb25zdCBkYXkgPSBTdHJpbmcoZGF0ZS5nZXREYXRlKCkpLnBhZFN0YXJ0KDIsICcwJyk7DQogICAgICAgIGNvbnN0IG1vbnRoID0gU3RyaW5nKGRhdGUuZ2V0TW9udGgoKSArIDEpLnBhZFN0YXJ0KDIsICcwJyk7DQogICAgICAgIGNvbnN0IHllYXIgPSBkYXRlLmdldEZ1bGxZZWFyKCk7DQogICAgICAgIHJldHVybiBgJHtkYXl9LyR7bW9udGh9LyR7eWVhcn1gOw0KICAgIH07DQoNCiAgICBjb25zdCBkYXRhSW5pY2lhbCA9IGZvcm1hdERhdGUoc3RhcnREYXRlKTsNCiAgICBjb25zdCBkYXRhRmluYWwgPSBmb3JtYXREYXRlKGVuZERhdGUpOw0KDQogICAgbGV0IHBhZ2UgPSAxOw0KICAgIGxldCBoYXNNb3JlID0gdHJ1ZTsNCiAgICBsZXQgdG90YWxGb3VuZCA9IDA7DQogICAgbGV0IGFkZGVkVG9RdWV1ZSA9IDA7DQogICAgbGV0IGFscmVhZHlLbm93biA9IDA7DQoNCiAgICB0cnkgew0KICAgICAgICB3aGlsZSAoaGFzTW9yZSkgew0KICAgICAgICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgNCiAgICAgICAgICAgICAgICBgaHR0cHM6Ly9hcGkudGlueS5jb20uYnIvYXBpMi9wZWRpZG9zLnBlc3F1aXNhLnBocD90b2tlbj0ke2NvbXBhbnkudG9rZW59JmZvcm1hdG89SlNPTiZkYXRhSW5pY2lhbD0ke2RhdGFJbmljaWFsfSZkYXRhRmluYWw9JHtkYXRhRmluYWx9JnBhZ2luYT0ke3BhZ2V9YA0KICAgICAgICAgICAgKTsNCg0KICAgICAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsNCg0KICAgICAgICAgICAgaWYgKCFkYXRhLnJldG9ybm8gfHwgKGRhdGEucmV0b3Juby5zdGF0dXMgIT09ICdPSycgJiYgZGF0YS5yZXRvcm5vLnN0YXR1cyAhPT0gJ0Vycm8nKSkgew0KICAgICAgICAgICAgICAgIGlmIChkYXRhLnJldG9ybm8/LmNvZGlnb19lcnJvID09PSAnMjAnKSB7DQogICAgICAgICAgICAgICAgICAgIGhhc01vcmUgPSBmYWxzZTsNCiAgICAgICAgICAgICAgICAgICAgYnJlYWs7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYCR7Y29tcGFueS5uYW1lfSBUaW55IEFQSSBFcnJvciBvbiBwYWdlICR7cGFnZX06YCwgZGF0YSk7DQogICAgICAgICAgICAgICAgaGFzTW9yZSA9IGZhbHNlOw0KICAgICAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBjb25zdCBvcmRlcnMgPSBkYXRhLnJldG9ybm8ucGVkaWRvcyB8fCBbXTsNCiAgICAgICAgICAgIGlmIChvcmRlcnMubGVuZ3RoID09PSAwKSB7DQogICAgICAgICAgICAgICAgaGFzTW9yZSA9IGZhbHNlOw0KICAgICAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBjb25zb2xlLmxvZyhg8J+TpiBQYWdlICR7cGFnZX06IEZvdW5kICR7b3JkZXJzLmxlbmd0aH0gb3JkZXJzIGZyb20gJHtjb21wYW55Lm5hbWV9YCk7DQogICAgICAgICAgICB0b3RhbEZvdW5kICs9IG9yZGVycy5sZW5ndGg7DQoNCiAgICAgICAgICAgIC8vIE9QVElNSVpFRDogQ29sbGVjdCBhbGwgb3JkZXIgSURzIGZyb20gdGhpcyBwYWdlIGZpcnN0DQogICAgICAgICAgICBjb25zdCBwYWdlT3JkZXJJZHM6IHN0cmluZ1tdID0gW107DQogICAgICAgICAgICBjb25zdCB2YWxpZE9yZGVyczogYW55W10gPSBbXTsNCg0KICAgICAgICAgICAgZm9yIChjb25zdCBvcmRlcldyYXBwZXIgb2Ygb3JkZXJzKSB7DQogICAgICAgICAgICAgICAgY29uc3Qgb3JkZXIgPSBvcmRlcldyYXBwZXIucGVkaWRvOw0KICAgICAgICAgICAgICAgIGNvbnN0IG9yZGVySWQgPSBTdHJpbmcob3JkZXIuaWQgfHwgb3JkZXIubnVtZXJvKTsNCiAgICAgICAgICAgICAgICBjb25zdCBvcmRlckRhdGUgPSBvcmRlci5kYXRhX3BlZGlkbyB8fCAnJzsgLy8gREQvTU0vWVlZWSBmb3JtYXQNCg0KICAgICAgICAgICAgICAgIHBhZ2VPcmRlcklkcy5wdXNoKG9yZGVySWQpOw0KICAgICAgICAgICAgICAgIHZhbGlkT3JkZXJzLnB1c2goeyBvcmRlciwgb3JkZXJJZCwgb3JkZXJEYXRlIH0pOw0KICAgICAgICAgICAgfQ0KDQoNCiAgICAgICAgICAgIGlmIChwYWdlT3JkZXJJZHMubGVuZ3RoID09PSAwKSB7DQogICAgICAgICAgICAgICAgaWYgKG9yZGVycy5sZW5ndGggPCAxMDApIHsNCiAgICAgICAgICAgICAgICAgICAgaGFzTW9yZSA9IGZhbHNlOw0KICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgIHBhZ2UrKzsNCiAgICAgICAgICAgICAgICAgICAgYXdhaXQgbmV3IFByb21pc2UociA9PiBzZXRUaW1lb3V0KHIsIDUwMCkpOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgLy8g8J+UjSBDSEVDSyBERUxFVEVEIE9SREVSUzogRmlsdGVyIG91dCBJRHMgcHJlc2VudCBpbiBkZWxldGVkX29yZGVycyB0YWJsZQ0KICAgICAgICAgICAgLy8gVGhpcyBwcmV2ZW50cyAiR2hvc3QgT3JkZXJzIiBmcm9tIHJlYXBwZWFyaW5nIGFmdGVyIGRlbGV0aW9uDQogICAgICAgICAgICBjb25zdCB7IGRhdGE6IGRlbGV0ZWRPcmRlcnMgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAgICAgLmZyb20oJ2RlbGV0ZWRfb3JkZXJzJykNCiAgICAgICAgICAgICAgICAuc2VsZWN0KCdvcmRlcl9pZCcpDQogICAgICAgICAgICAgICAgLmluKCdvcmRlcl9pZCcsIHBhZ2VPcmRlcklkcyk7DQoNCiAgICAgICAgICAgIGNvbnN0IGRlbGV0ZWRJZHNTZXQgPSBuZXcgU2V0KGRlbGV0ZWRPcmRlcnM/Lm1hcChkID0+IGQub3JkZXJfaWQpIHx8IFtdKTsNCg0KICAgICAgICAgICAgLy8gT1BUSU1JWkFUSU9OOiBGaWx0ZXIgb3V0IGRlbGV0ZWQgb3JkZXJzIEJFRk9SRSBwcm9jZXNzaW5nDQogICAgICAgICAgICBjb25zdCBub25EZWxldGVkUGFnZU9yZGVySWRzID0gcGFnZU9yZGVySWRzLmZpbHRlcihpZCA9PiAhZGVsZXRlZElkc1NldC5oYXMoaWQpKTsNCg0KICAgICAgICAgICAgaWYgKG5vbkRlbGV0ZWRQYWdlT3JkZXJJZHMubGVuZ3RoID09PSAwKSB7DQogICAgICAgICAgICAgICAgLy8gQWxsIG9yZGVycyBpbiB0aGlzIHBhZ2UgYXJlIGRlbGV0ZWQsIHNraXAgcGFnZSBwcm9jZXNzaW5nDQogICAgICAgICAgICAgICAgY29uc29sZS5sb2coYCAg4o+pIFNraXBwaW5nIHBhZ2UgJHtwYWdlfSAtIEFsbCAke3BhZ2VPcmRlcklkcy5sZW5ndGh9IG9yZGVycyBhcmUgaW4gZGVsZXRlZF9vcmRlcnMgYmxhY2tsaXN0LmApOw0KICAgICAgICAgICAgICAgIGlmIChvcmRlcnMubGVuZ3RoIDwgMTAwKSBoYXNNb3JlID0gZmFsc2U7DQogICAgICAgICAgICAgICAgZWxzZSB7IHBhZ2UrKzsgYXdhaXQgbmV3IFByb21pc2UociA9PiBzZXRUaW1lb3V0KHIsIDUwMCkpOyB9DQogICAgICAgICAgICAgICAgY29udGludWU7DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIC8vIEJBVENIIENIRUNLIDE6IENoZWNrIE9OTFkgbm9uLWRlbGV0ZWQgSURzIGluIHNwcmVhZHNoZWV0X2RhdGENCiAgICAgICAgICAgIGNvbnN0IHsgZGF0YTogZXhpc3RpbmdJbkRhdGEsIGVycm9yOiBleGlzdGluZ0Vycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgICAgICAuc2VsZWN0KCdyb3dfZGF0YScpDQogICAgICAgICAgICAgICAgLmluKCdyb3dfZGF0YS0+PklEIFRpbnknLCBub25EZWxldGVkUGFnZU9yZGVySWRzKTsNCg0KICAgICAgICAgICAgaWYgKGV4aXN0aW5nRXJyb3IpIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKGAgIOKdjCBGYWlsZWQgdG8gY2hlY2sgZXhpc3Rpbmcgb3JkZXJzIG9uIHBhZ2UgJHtwYWdlfTpgLCBleGlzdGluZ0Vycm9yKTsNCiAgICAgICAgICAgICAgICAvLyBGYWlsIHNhZmV0eTogSWYgd2UgY2FuJ3QgdmVyaWZ5IGV4aXN0ZW5jZSwgd2Ugc2hvdWxkIHByb2JhYmx5IFNLSVAgdGhpcyBwYWdlIG9yIFJldHJ5LA0KICAgICAgICAgICAgICAgIC8vIHJhdGhlciB0aGFuIGFzc3VtaW5nIHRoZXkgZG9uJ3QgZXhpc3QgYW5kIHJlLXF1ZXVpbmcgZHVwbGljYXRlcy4NCiAgICAgICAgICAgICAgICAvLyBGb3Igbm93LCBsZXQncyB0cmVhdCBpdCBhcyBhIGhhcmQgZXJyb3IgdG8gc3RvcCB0aGUgYmxlZWRpbmcuDQogICAgICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKGBEQiBDaGVjayBGYWlsZWQ6ICR7ZXhpc3RpbmdFcnJvci5tZXNzYWdlfWApOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAvLyBCQVRDSCBDSEVDSyAxLjU6IENoZWNrIE9OTFkgbm9uLWRlbGV0ZWQgSURzIGluIHNhdmVkX29yZGVycyAoVGhlIG1haW4gZGF0YWJhc2UpDQogICAgICAgICAgICAvLyBUaGlzIHByZXZlbnRzIHJlLXF1ZXVlaW5nIG9yZGVycyB0aGF0IGFyZSBhbHJlYWR5IGZ1bGx5IHByb2Nlc3NlZCBhbmQgc2F2ZWQuDQogICAgICAgICAgICBjb25zdCB7IGRhdGE6IHNhdmVkT3JkZXJzRGF0YSwgZXJyb3I6IHNhdmVkT3JkZXJzRXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgICAgICAgICAgLnNlbGVjdCgnaWQsIGRhdGFfanNvbicpDQogICAgICAgICAgICAgICAgLmluKCdpZCcsIG5vbkRlbGV0ZWRQYWdlT3JkZXJJZHMpOw0KDQogICAgICAgICAgICBpZiAoc2F2ZWRPcmRlcnNFcnJvcikgew0KICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYCAg4p2MIEZhaWxlZCB0byBjaGVjayBzYXZlZCBvcmRlcnMgb24gcGFnZSAke3BhZ2V9OmAsIHNhdmVkT3JkZXJzRXJyb3IpOw0KICAgICAgICAgICAgICAgIC8vIENvbnRpbnVlIGNhdXRpb3VzbHkgb3IgdGhyb3c/IExldCdzIGxvZyBhbmQgY29udGludWUsIGFzc3VtaW5nIHRoZXkgbWlnaHQgbmVlZCB1cGRhdGUuDQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIC8vIE1hcDogSUQgLT4gTm9ybWFsaXplZCBTdGF0dXMNCiAgICAgICAgICAgIGNvbnN0IGRiU3RhdHVzTWFwID0gbmV3IE1hcDxzdHJpbmcsIHN0cmluZz4oKTsNCg0KICAgICAgICAgICAgLy8gMS4gRmlsbCBmcm9tIFNwcmVhZHNoZWV0IERhdGEgKExlZ2FjeSkNCiAgICAgICAgICAgIGV4aXN0aW5nSW5EYXRhPy5mb3JFYWNoKChyOiBhbnkpID0+IHsNCiAgICAgICAgICAgICAgICBjb25zdCBpZCA9IFN0cmluZyhyLnJvd19kYXRhWydJRCBUaW55J10gfHwgci5yb3dfZGF0YVsnaWRfdGlueSddIHx8ICcnKTsNCiAgICAgICAgICAgICAgICBjb25zdCBzdGF0dXMgPSBTdHJpbmcoci5yb3dfZGF0YVsnU2l0dWHDp8OjbyddIHx8IHIucm93X2RhdGFbJ3N0YXR1cyddIHx8ICcnKS50b0xvd2VyQ2FzZSgpLnRyaW0oKTsNCiAgICAgICAgICAgICAgICBpZiAoaWQpIGRiU3RhdHVzTWFwLnNldChpZCwgc3RhdHVzKTsNCiAgICAgICAgICAgIH0pOw0KDQogICAgICAgICAgICAvLyAyLiBGaWxsIGZyb20gU2F2ZWQgT3JkZXJzIChNb2Rlcm4vQ3VycmVudCkgLSBPdmVyd3JpdGVzIGxlZ2FjeSBpZiBleGlzdHMgKHdoaWNoIGlzIGdvb2QpDQogICAgICAgICAgICBzYXZlZE9yZGVyc0RhdGE/LmZvckVhY2goKHI6IGFueSkgPT4gew0KICAgICAgICAgICAgICAgIGNvbnN0IGlkID0gU3RyaW5nKHIuaWQgfHwgJycpOw0KICAgICAgICAgICAgICAgIC8vIHNhdmVkX29yZGVycyBzdG9yZXMgc3RhdHVzIGluIGRhdGFfanNvbi5zdGF0dXMNCiAgICAgICAgICAgICAgICBjb25zdCBzdGF0dXMgPSBTdHJpbmcoci5kYXRhX2pzb24/LnN0YXR1cyB8fCAnJykudG9Mb3dlckNhc2UoKS50cmltKCk7DQogICAgICAgICAgICAgICAgaWYgKGlkKSBkYlN0YXR1c01hcC5zZXQoaWQsIHN0YXR1cyk7DQogICAgICAgICAgICB9KTsNCg0KICAgICAgICAgICAgY29uc3Qga25vd25JbkRhdGEgPSBuZXcgU2V0KGRiU3RhdHVzTWFwLmtleXMoKSk7DQoNCiAgICAgICAgICAgIC8vIEJBVENIIENIRUNLIDI6IENoZWNrIE9OTFkgbm9uLWRlbGV0ZWQgSURzIGluIHJldHJ5IHF1ZXVlDQogICAgICAgICAgICBjb25zdCB7IGRhdGE6IGV4aXN0aW5nSW5RdWV1ZSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAgICAgLnNlbGVjdCgnb3JkZXJfaWQsIHN0YXR1cycpDQogICAgICAgICAgICAgICAgLmluKCdvcmRlcl9pZCcsIG5vbkRlbGV0ZWRQYWdlT3JkZXJJZHMpOw0KDQogICAgICAgICAgICBjb25zdCBxdWV1ZVN0YXR1c01hcCA9IG5ldyBNYXA8c3RyaW5nLCBzdHJpbmc+KCk7DQogICAgICAgICAgICBleGlzdGluZ0luUXVldWU/LmZvckVhY2goKHI6IGFueSkgPT4gew0KICAgICAgICAgICAgICAgIHF1ZXVlU3RhdHVzTWFwLnNldChyLm9yZGVyX2lkLCByLnN0YXR1cyk7DQogICAgICAgICAgICB9KTsNCg0KICAgICAgICAgICAgLy8gU29ydCBieSBkYXRlIERFU0MgKE5ld2VzdCBGaXJzdCkNCiAgICAgICAgICAgIHZhbGlkT3JkZXJzLnNvcnQoKGEsIGIpID0+IHsNCiAgICAgICAgICAgICAgICBjb25zdCBkYXRlQSA9IGNvbnZlcnRUb0RhdGUoYS5vcmRlckRhdGUpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGRhdGVCID0gY29udmVydFRvRGF0ZShiLm9yZGVyRGF0ZSk7DQogICAgICAgICAgICAgICAgcmV0dXJuIGRhdGVCLmdldFRpbWUoKSAtIGRhdGVBLmdldFRpbWUoKTsgLy8gREVTQw0KICAgICAgICAgICAgfSk7DQoNCiAgICAgICAgICAgIGNvbnN0IG5ld09yZGVyc1RvSW5zZXJ0ID0gW107DQogICAgICAgICAgICBjb25zdCBpZHNUb1Jlc2V0ID0gW107DQoNCiAgICAgICAgICAgIGZvciAoY29uc3QgeyBvcmRlciwgb3JkZXJJZCwgb3JkZXJEYXRlIH0gb2YgdmFsaWRPcmRlcnMpIHsNCiAgICAgICAgICAgICAgICAvLyBDaGVjayBxdWV1ZSBzdGF0dXMNCiAgICAgICAgICAgICAgICBpZiAocXVldWVTdGF0dXNNYXAuaGFzKG9yZGVySWQpKSB7DQogICAgICAgICAgICAgICAgICAgIGNvbnN0IHN0YXR1cyA9IHF1ZXVlU3RhdHVzTWFwLmdldChvcmRlcklkKTsNCg0KICAgICAgICAgICAgICAgICAgICAvLyBJZiBmb3JjZVJlcHJvY2VzcyBpcyB0cnVlLCB3ZSB3YW50IHRvIHJlLWV4YW1pbmUgdGhlIG9yZGVyIGV2ZW4gaWYgaXQgd2FzIHByZXZpb3VzbHkgY29tcGxldGVkIG9yIGZhaWxlZC4NCiAgICAgICAgICAgICAgICAgICAgLy8gVGhpcyBhbGxvd3Mgc3RhdHVzIHVwZGF0ZXMgZm9yIGV4aXN0aW5nIG9yZGVycy4NCiAgICAgICAgICAgICAgICAgICAgaWYgKGZvcmNlUmVwcm9jZXNzICYmIChzdGF0dXMgPT09ICdjb21wbGV0ZWQnIHx8IHN0YXR1cyA9PT0gJ2ZhaWxlZCcgfHwgc3RhdHVzID09PSAnZXJyb3InKSkgew0KICAgICAgICAgICAgICAgICAgICAgICAgaWRzVG9SZXNldC5wdXNoKG9yZGVySWQpOw0KICAgICAgICAgICAgICAgICAgICAgICAgYWxyZWFkeUtub3duKys7DQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgICAgICBhbHJlYWR5S25vd24rKzsNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICAvLyBTTUFSVCBTWU5DIExPR0lDOg0KICAgICAgICAgICAgICAgIC8vIENoZWNrIGlmIGluIHNwcmVhZHNoZWV0X2RhdGEgQU5EIHN0YXR1cyBtYXRjaGVzDQogICAgICAgICAgICAgICAgaWYgKGRiU3RhdHVzTWFwLmhhcyhvcmRlcklkKSkgew0KICAgICAgICAgICAgICAgICAgICBjb25zdCBkYlN0YXR1cyA9IGRiU3RhdHVzTWFwLmdldChvcmRlcklkKTsNCiAgICAgICAgICAgICAgICAgICAgY29uc3QgYXBpU3RhdHVzID0gU3RyaW5nKG9yZGVyLnNpdHVhY2FvIHx8ICcnKS50b0xvd2VyQ2FzZSgpLnRyaW0oKTsNCg0KICAgICAgICAgICAgICAgICAgICAvLyBJZiBzdGF0dXMgaXMgaWRlbnRpY2FsLCB3ZSBTS0lQIHVwZGF0aW5nIHRvIHNhdmUgcmVzb3VyY2VzDQogICAgICAgICAgICAgICAgICAgIC8vIHJlZ2FyZGxlc3Mgb2YgZm9yY2VSZXByb2Nlc3MgKHVubGVzcyB1c2VyIGV4cGxpY2l0bHkgd2FudHMgdG8gZml4IE9USEVSIGRhdGEgZmllbGRzLCANCiAgICAgICAgICAgICAgICAgICAgLy8gYnV0IGZvciAiQXR1YWxpemFyIDcgZGlhcyIgdXN1YWxseSBzdGF0dXMgaXMgdGhlIGdvYWwpDQogICAgICAgICAgICAgICAgICAgIGlmIChkYlN0YXR1cyA9PT0gYXBpU3RhdHVzKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAvLyBjb25zb2xlLmxvZyhgICDij6kgU2tpcHBpbmcgJHtvcmRlcklkfSAtIFN0YXR1cyBpZGVudGljYWwgKCR7YXBpU3RhdHVzfSlgKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIGFscmVhZHlLbm93bisrOw0KICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWU7DQogICAgICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICDwn5SEIFN0YXR1cyBDaGFuZ2VkIGZvciAke29yZGVySWR9OiAiJHtkYlN0YXR1c30iIC0+ICIke2FwaVN0YXR1c30iLiBRdWV3aW5nIHVwZGF0ZS5gKTsNCiAgICAgICAgICAgICAgICAgICAgLy8gSWYgc3RhdHVzIGRpZmZlcmVudCwgd2UgZmFsbCB0aHJvdWdoIHRvIGFkZCB0byBxdWV1ZSENCiAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICBuZXdPcmRlcnNUb0luc2VydC5wdXNoKHsNCiAgICAgICAgICAgICAgICAgICAgb3JkZXJfaWQ6IG9yZGVySWQsDQogICAgICAgICAgICAgICAgICAgIGNvbXBhbnk6IGNvbXBhbnkubmFtZSwNCiAgICAgICAgICAgICAgICAgICAgc3RhdHVzOiAncGVuZGluZycsDQogICAgICAgICAgICAgICAgICAgIHJldHJ5X2NvdW50OiAwLA0KICAgICAgICAgICAgICAgICAgICBtYXhfcmV0cmllczogNSwNCiAgICAgICAgICAgICAgICAgICAgbmV4dF9yZXRyeV9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLA0KICAgICAgICAgICAgICAgICAgICBvcmRlcl9kYXRlOiBvcmRlckRhdGUsIC8vIFN0b3JlIGZvciBwcmlvcml0eSBwcm9jZXNzaW5nDQogICAgICAgICAgICAgICAgICAgIHBheWxvYWQ6IHsgY25wajogY29tcGFueS5jbnBqLCBvcmlnaW46ICdTeW5jIERpc2NvdmVyeScgfQ0KICAgICAgICAgICAgICAgIH0pOw0KDQogICAgICAgICAgICAgICAgaWYgKG1heE9yZGVycyAmJiAoYWRkZWRUb1F1ZXVlICsgYWxyZWFkeUtub3duICsgbmV3T3JkZXJzVG9JbnNlcnQubGVuZ3RoKSA+PSBtYXhPcmRlcnMpIHsNCiAgICAgICAgICAgICAgICAgICAgaGFzTW9yZSA9IGZhbHNlOw0KICAgICAgICAgICAgICAgICAgICBicmVhazsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIC8vIEJhdGNoIFJlc2V0IEZhaWxlZCBPcmRlcnMNCiAgICAgICAgICAgIGlmIChpZHNUb1Jlc2V0Lmxlbmd0aCA+IDApIHsNCiAgICAgICAgICAgICAgICBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAgICAgICAgIC51cGRhdGUoew0KICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzOiAncGVuZGluZycsDQogICAgICAgICAgICAgICAgICAgICAgICByZXRyeV9jb3VudDogMCwNCiAgICAgICAgICAgICAgICAgICAgICAgIG5leHRfcmV0cnlfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwNCiAgICAgICAgICAgICAgICAgICAgICAgIGxhc3RfZXJyb3I6IG51bGwNCiAgICAgICAgICAgICAgICAgICAgfSkNCiAgICAgICAgICAgICAgICAgICAgLmluKCdvcmRlcl9pZCcsIGlkc1RvUmVzZXQpOw0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICDwn5SEIFJlc2V0ICR7aWRzVG9SZXNldC5sZW5ndGh9IGZhaWxlZCBvcmRlcnMgdG8gcGVuZGluZ2ApOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAvLyBCYXRjaCBpbnNlcnQgYWxsIG5ldyBvcmRlcnMgYXQgb25jZQ0KICAgICAgICAgICAgaWYgKG5ld09yZGVyc1RvSW5zZXJ0Lmxlbmd0aCA+IDApIHsNCiAgICAgICAgICAgICAgICBjb25zdCB7IGVycm9yOiBxdWV1ZUVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAgICAgICAgIC5pbnNlcnQobmV3T3JkZXJzVG9JbnNlcnQpOw0KDQogICAgICAgICAgICAgICAgaWYgKCFxdWV1ZUVycm9yKSB7DQogICAgICAgICAgICAgICAgICAgIGFkZGVkVG9RdWV1ZSArPSBuZXdPcmRlcnNUb0luc2VydC5sZW5ndGg7DQogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICDinIUgQWRkZWQgJHtuZXdPcmRlcnNUb0luc2VydC5sZW5ndGh9IG5ldyBvcmRlcnMgdG8gcXVldWVgKTsNCiAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKGBFcnJvciBiYXRjaCBpbnNlcnRpbmcgdG8gcXVldWU6YCwgcXVldWVFcnJvcik7DQogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcihgRmFpbGVkIHRvIGFkZCBvcmRlcnMgdG8gcXVldWU6ICR7cXVldWVFcnJvci5tZXNzYWdlfWApOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCg0KDQogICAgICAgICAgICBpZiAob3JkZXJzLmxlbmd0aCA8IDEwMCB8fCAobWF4T3JkZXJzICYmICh0b3RhbEZvdW5kID49IG1heE9yZGVycykpKSB7DQogICAgICAgICAgICAgICAgaGFzTW9yZSA9IGZhbHNlOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBwYWdlKys7DQogICAgICAgICAgICAgICAgLy8gMXMgZGVsYXkgcGVyIHBhZ2UgdG8gcmVzcGVjdCA2MCBSUE0NCiAgICAgICAgICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgMTAwMCkpOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgcmV0dXJuIHsNCiAgICAgICAgICAgIHN1Y2Nlc3M6IHRydWUsDQogICAgICAgICAgICBjb21wYW55OiBjb21wYW55Lm5hbWUsDQogICAgICAgICAgICBzdGF0czogew0KICAgICAgICAgICAgICAgIHRvdGFsOiB0b3RhbEZvdW5kLA0KICAgICAgICAgICAgICAgIGFkZGVkOiBhZGRlZFRvUXVldWUsDQogICAgICAgICAgICAgICAga25vd246IGFscmVhZHlLbm93biwNCiAgICAgICAgICAgICAgICBpbXBvcnRlZDogYWRkZWRUb1F1ZXVlIC8vIGNvbXBhdGliaWxpdHkNCiAgICAgICAgICAgIH0NCiAgICAgICAgfTsNCg0KICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcihgJHtjb21wYW55Lm5hbWV9IGRpc2NvdmVyeSBmYWlsZWQ6YCwgZXJyb3IpOw0KICAgICAgICByZXR1cm4geyBzdWNjZXNzOiBmYWxzZSwgY29tcGFueTogY29tcGFueS5uYW1lLCBlcnJvcjogZXJyb3IubWVzc2FnZSB9Ow0KICAgIH0NCn0NCg0KLy8gU3luYyBhbGwgZW5hYmxlZCBjb21wYW5pZXMNCmFzeW5jIGZ1bmN0aW9uIHN5bmNBbGxDb21wYW5pZXMoZGF5c0JhY2s6IG51bWJlciA9IDcsIG1heE9yZGVycz86IG51bWJlciwgZm9yY2VSZXByb2Nlc3M6IGJvb2xlYW4gPSBmYWxzZSkgew0KICAgIGNvbnN0IGVuYWJsZWRDb21wYW5pZXMgPSBDT01QQU5JRVMuZmlsdGVyKGMgPT4gYy5lbmFibGVkKTsNCg0KICAgIGlmIChlbmFibGVkQ29tcGFuaWVzLmxlbmd0aCA9PT0gMCkgew0KICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgc3VjY2VzczogZmFsc2UsDQogICAgICAgICAgICBlcnJvcjogJ05vIFRpbnkgQVBJIHRva2VucyBjb25maWd1cmVkLiBTZXQgVElOWV9BUElfVE9LRU5fTU0gYW5kL29yIFRJTllfQVBJX1RPS0VOX01WRicNCiAgICAgICAgfTsNCiAgICB9DQoNCiAgICAvLyBTeW5jIGFsbCBlbmFibGVkIGNvbXBhbmllcyBpbiBwYXJhbGxlbA0KICAgIGNvbnN0IHJlc3VsdHMgPSBhd2FpdCBQcm9taXNlLmFsbChlbmFibGVkQ29tcGFuaWVzLm1hcChjb21wYW55ID0+IHN5bmNDb21wYW55T3JkZXJzKGNvbXBhbnksIGRheXNCYWNrLCBtYXhPcmRlcnMsIGZvcmNlUmVwcm9jZXNzKSkpOw0KDQogICAgY29uc3QgYWxsU3VjY2VzcyA9IHJlc3VsdHMuZXZlcnkociA9PiByLnN1Y2Nlc3MpOw0KICAgIGNvbnN0IHRvdGFsU3RhdHMgPSByZXN1bHRzLnJlZHVjZSgoYWNjLCByKSA9PiAoew0KICAgICAgICB0b3RhbDogYWNjLnRvdGFsICsgKHIuc3RhdHM/LnRvdGFsIHx8IDApLA0KICAgICAgICBhZGRlZDogYWNjLmFkZGVkICsgKHIuc3RhdHM/LmFkZGVkIHx8IDApLA0KICAgICAgICBrbm93bjogYWNjLmtub3duICsgKHIuc3RhdHM/Lmtub3duIHx8IDApLA0KICAgICAgICBpbXBvcnRlZDogYWNjLmltcG9ydGVkICsgKHIuc3RhdHM/LmltcG9ydGVkIHx8IDApIC8vIGNvbXBhdGliaWxpdHkNCiAgICB9KSwgeyB0b3RhbDogMCwgYWRkZWQ6IDAsIGtub3duOiAwLCBpbXBvcnRlZDogMCB9KTsNCg0KICAgIHJldHVybiB7DQogICAgICAgIHN1Y2Nlc3M6IGFsbFN1Y2Nlc3MsDQogICAgICAgIHJlc3VsdHMsDQogICAgICAgIHRvdGFsU3RhdHMNCiAgICB9Ow0KfQ0KDQovLyBBUEkgSGFuZGxlcg0KZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gaGFuZGxlcihyZXE6IGFueSwgcmVzOiBhbnkpIHsNCiAgICAvLyBDT1JTDQogICAgcmVzLnNldEhlYWRlcignQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJywgJyonKTsNCiAgICByZXMuc2V0SGVhZGVyKCdBY2Nlc3MtQ29udHJvbC1BbGxvdy1NZXRob2RzJywgJ0dFVCwgUE9TVCwgT1BUSU9OUycpOw0KICAgIHJlcy5zZXRIZWFkZXIoJ0FjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMnLCAnQ29udGVudC1UeXBlJyk7DQoNCiAgICBpZiAocmVxLm1ldGhvZCA9PT0gJ09QVElPTlMnKSB7DQogICAgICAgIHJldHVybiByZXMuc3RhdHVzKDIwMCkuZW5kKCk7DQogICAgfQ0KDQogICAgaWYgKHJlcS5tZXRob2QgPT09ICdQT1NUJyB8fCByZXEubWV0aG9kID09PSAnR0VUJykgew0KICAgICAgICB0cnkgew0KICAgICAgICAgICAgLy8gT1BUSU1JWkFUSU9OOiBFbmZvcmNlIG1heCAzMCBkYXlzIHRvIHByZXZlbnQgb3ZlcmxvYWRpbmcNCiAgICAgICAgICAgIGxldCBkYXlzQmFjayA9IHJlcS5tZXRob2QgPT09ICdQT1NUJyA/IChyZXEuYm9keT8uZGF5c0JhY2sgfHwgMzApIDogNzsNCiAgICAgICAgICAgIGRheXNCYWNrID0gTWF0aC5taW4oZGF5c0JhY2ssIDkwKTsgLy8gSGFyZCBsaW1pdCA5MCBkYXlzDQogICAgICAgICAgICBjb25zdCBtYXhPcmRlcnMgPSByZXEubWV0aG9kID09PSAnUE9TVCcgPyByZXEuYm9keT8ubWF4T3JkZXJzIDogdW5kZWZpbmVkOw0KICAgICAgICAgICAgLy8gRm9yY2UgcmVwcm9jZXNzIG9ubHkgaWYgZXhwbGljaXRseSByZXF1ZXN0ZWQNCiAgICAgICAgICAgIGNvbnN0IGZvcmNlUmVwcm9jZXNzID0gcmVxLm1ldGhvZCA9PT0gJ1BPU1QnID8gKHJlcS5ib2R5Py5mb3JjZVJlcHJvY2VzcyA9PT0gdHJ1ZSkgOiBmYWxzZTsNCg0KICAgICAgICAgICAgY29uc29sZS5sb2coYPCfmoAgU3RhcnRpbmcgVGlueSBEaXNjb3ZlcnkgKCR7ZGF5c0JhY2t9IGRheXMsIG1heE9yZGVyczogJHttYXhPcmRlcnMgfHwgJ3VubGltaXRlZCd9LCBmb3JjZTogJHtmb3JjZVJlcHJvY2Vzc30pLi4uYCk7DQoNCiAgICAgICAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHN5bmNBbGxDb21wYW5pZXMoZGF5c0JhY2ssIG1heE9yZGVycywgZm9yY2VSZXByb2Nlc3MpOw0KDQogICAgICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MpIHsNCiAgICAgICAgICAgICAgICByZXR1cm4gcmVzLnN0YXR1cygyMDApLmpzb24oew0KICAgICAgICAgICAgICAgICAgICBzdWNjZXNzOiB0cnVlLA0KICAgICAgICAgICAgICAgICAgICBtZXNzYWdlOiAnRGlzY292ZXJ5IGNvbXBsZXRlZC4gT3JkZXJzIGFkZGVkIHRvIHF1ZXVlLicsDQogICAgICAgICAgICAgICAgICAgIHN0YXRzOiByZXN1bHQudG90YWxTdGF0cywNCiAgICAgICAgICAgICAgICAgICAgZGV0YWlsczogcmVzdWx0LnJlc3VsdHMNCiAgICAgICAgICAgICAgICB9KTsNCiAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsNCiAgICAgICAgICAgICAgICAgICAgc3VjY2VzczogZmFsc2UsDQogICAgICAgICAgICAgICAgICAgIGVycm9yOiByZXN1bHQuZXJyb3IgfHwgJ1NvbWUgZGlzY292ZXJ5IHN5bmNzIGZhaWxlZCcsDQogICAgICAgICAgICAgICAgICAgIGRldGFpbHM6IHJlc3VsdC5yZXN1bHRzDQogICAgICAgICAgICAgICAgfSk7DQogICAgICAgICAgICB9DQoNCiAgICAgICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcignU3luYyBmYWlsZWQ6JywgZXJyb3IpOw0KICAgICAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsNCiAgICAgICAgICAgICAgICBzdWNjZXNzOiBmYWxzZSwNCiAgICAgICAgICAgICAgICBlcnJvcjogZXJyb3IubWVzc2FnZQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICByZXR1cm4gcmVzLnN0YXR1cyg0MDUpLmpzb24oeyBlcnJvcjogJ01ldGhvZCBub3QgYWxsb3dlZCcgfSk7DQp9DQo=}
+import { createClient } from '@supabase/supabase-js';
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+// Support for dual tokens (MM + MVF) or single token (backward compat)
+const TINY_TOKEN_MM = process.env.TINY_API_TOKEN_MM || process.env.TINY_API_TOKEN;
+const TINY_TOKEN_MVF = process.env.TINY_API_TOKEN_MVF;
+
+// Company configuration
+const COMPANIES = [
+    {
+        name: 'MM',
+        cnpj: '39447291000104',
+        token: TINY_TOKEN_MM,
+        enabled: !!TINY_TOKEN_MM
+    },
+    {
+        name: 'MVF',
+        cnpj: '25116514000138',
+        token: TINY_TOKEN_MVF,
+        enabled: !!TINY_TOKEN_MVF
+    }
+];
+
+// Helper to convert DD/MM/YYYY to Date object
+function convertToDate(dateStr: string): Date {
+    if (!dateStr) return new Date(0); // Old date for missing dates
+    const parts = dateStr.split('/');
+    if (parts.length !== 3) return new Date(0);
+    const [day, month, year] = parts.map(Number);
+    return new Date(year, month - 1, day);
+}
+
+// Sync recent orders from Tiny API for a specific company (Discovery Mode)
+async function syncCompanyOrders(company: typeof COMPANIES[0], daysBack: number = 15, maxOrders?: number, forceReprocess: boolean = false) {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log(`\n🔍 Looking for orders from ${company.name} (last ${daysBack} days)...`);
+
+    // Calculate date range
+    const endDate = new Date();
+    const startDate = new Date();
+    startDate.setDate(startDate.getDate() - daysBack);
+
+    const formatDate = (date: Date) => {
+        const day = String(date.getDate()).padStart(2, '0');
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const year = date.getFullYear();
+        return `${day}/${month}/${year}`;
+    };
+
+    const dataInicial = formatDate(startDate);
+    const dataFinal = formatDate(endDate);
+
+    let page = 1;
+    let hasMore = true;
+    let totalFound = 0;
+    let addedToQueue = 0;
+    let alreadyKnown = 0;
+
+    try {
+        while (hasMore) {
+            const response = await fetch(
+                `https://api.tiny.com.br/api2/pedidos.pesquisa.php?token=${company.token}&formato=JSON&dataInicial=${dataInicial}&dataFinal=${dataFinal}&pagina=${page}`
+            );
+
+            const data = await response.json();
+
+            if (!data.retorno || (data.retorno.status !== 'OK' && data.retorno.status !== 'Erro')) {
+                if (data.retorno?.codigo_erro === '20') {
+                    hasMore = false;
+                    break;
+                }
+                console.error(`${company.name} Tiny API Error on page ${page}:`, data);
+                hasMore = false;
+                break;
+            }
+
+            const orders = data.retorno.pedidos || [];
+            if (orders.length === 0) {
+                hasMore = false;
+                break;
+            }
+
+            console.log(`📦 Page ${page}: Found ${orders.length} orders from ${company.name}`);
+            totalFound += orders.length;
+
+            // OPTIMIZED: Collect all order IDs from this page first
+            const pageOrderIds: string[] = [];
+            const validOrders: any[] = [];
+
+            for (const orderWrapper of orders) {
+                const order = orderWrapper.pedido;
+                const orderId = String(order.id || order.numero);
+                const orderDate = order.data_pedido || ''; // DD/MM/YYYY format
+
+                pageOrderIds.push(orderId);
+                validOrders.push({ order, orderId, orderDate });
+            }
+
+
+            if (pageOrderIds.length === 0) {
+                if (orders.length < 100) {
+                    hasMore = false;
+                } else {
+                    page++;
+                    await new Promise(r => setTimeout(r, 500));
+                }
+                continue;
+            }
+
+            // 🔍 CHECK DELETED ORDERS: Filter out IDs present in deleted_orders table
+            // This prevents "Ghost Orders" from reappearing after deletion
+            const { data: deletedOrders } = await supabase
+                .from('deleted_orders')
+                .select('order_id')
+                .in('order_id', pageOrderIds);
+
+            const deletedIdsSet = new Set(deletedOrders?.map(d => d.order_id) || []);
+
+            // OPTIMIZATION: Filter out deleted orders BEFORE processing
+            const nonDeletedPageOrderIds = pageOrderIds.filter(id => !deletedIdsSet.has(id));
+
+            if (nonDeletedPageOrderIds.length === 0) {
+                // All orders in this page are deleted, skip page processing
+                console.log(`  ⏩ Skipping page ${page} - All ${pageOrderIds.length} orders are in deleted_orders blacklist.`);
+                if (orders.length < 100) hasMore = false;
+                else { page++; await new Promise(r => setTimeout(r, 500)); }
+                continue;
+            }
+
+            // BATCH CHECK 1: Check ONLY non-deleted IDs in spreadsheet_data
+            const { data: existingInData, error: existingError } = await supabase
+                .from('spreadsheet_data')
+                .select('row_data')
+                .in('row_data->>ID Tiny', nonDeletedPageOrderIds);
+
+            if (existingError) {
+                console.error(`  ❌ Failed to check existing orders on page ${page}:`, existingError);
+                // Fail safety: If we can't verify existence, we should probably SKIP this page or Retry,
+                // rather than assuming they don't exist and re-queuing duplicates.
+                // For now, let's treat it as a hard error to stop the bleeding.
+                throw new Error(`DB Check Failed: ${existingError.message}`);
+            }
+
+            // BATCH CHECK 1.5: Check ONLY non-deleted IDs in saved_orders (The main database)
+            // This prevents re-queueing orders that are already fully processed and saved.
+            const { data: savedOrdersData, error: savedOrdersError } = await supabase
+                .from('saved_orders')
+                .select('id, data_json')
+                .in('id', nonDeletedPageOrderIds);
+
+            if (savedOrdersError) {
+                console.error(`  ❌ Failed to check saved orders on page ${page}:`, savedOrdersError);
+                // Continue cautiously or throw? Let's log and continue, assuming they might need update.
+            }
+
+            // Map: ID -> Normalized Status
+            const dbStatusMap = new Map<string, string>();
+
+            // 1. Fill from Spreadsheet Data (Legacy)
+            existingInData?.forEach((r: any) => {
+                const id = String(r.row_data['ID Tiny'] || r.row_data['id_tiny'] || '');
+                const status = String(r.row_data['Situação'] || r.row_data['status'] || '').toLowerCase().trim();
+                if (id) dbStatusMap.set(id, status);
+            });
+
+            // 2. Fill from Saved Orders (Modern/Current) - Overwrites legacy if exists (which is good)
+            savedOrdersData?.forEach((r: any) => {
+                const id = String(r.id || '');
+                // saved_orders stores status in data_json.status
+                const status = String(r.data_json?.status || '').toLowerCase().trim();
+                if (id) dbStatusMap.set(id, status);
+            });
+
+            const knownInData = new Set(dbStatusMap.keys());
+
+            // BATCH CHECK 2: Check ONLY non-deleted IDs in retry queue
+            const { data: existingInQueue } = await supabase
+                .from('webhook_retry_queue')
+                .select('order_id, status')
+                .in('order_id', nonDeletedPageOrderIds);
+
+            const queueStatusMap = new Map<string, string>();
+            existingInQueue?.forEach((r: any) => {
+                queueStatusMap.set(r.order_id, r.status);
+            });
+
+            // Sort by date DESC (Newest First)
+            validOrders.sort((a, b) => {
+                const dateA = convertToDate(a.orderDate);
+                const dateB = convertToDate(b.orderDate);
+                return dateB.getTime() - dateA.getTime(); // DESC
+            });
+
+            const newOrdersToInsert = [];
+            const idsToReset = [];
+
+            for (const { order, orderId, orderDate } of validOrders) {
+                // Check queue status
+                if (queueStatusMap.has(orderId)) {
+                    const status = queueStatusMap.get(orderId);
+
+                    // If forceReprocess is true, we want to re-examine the order even if it was previously completed or failed.
+                    // This allows status updates for existing orders.
+                    if (forceReprocess && (status === 'completed' || status === 'failed' || status === 'error')) {
+                        idsToReset.push(orderId);
+                        alreadyKnown++;
+                    } else {
+                        alreadyKnown++;
+                    }
+                    continue;
+                }
+
+                // SMART SYNC LOGIC:
+                // Check if in spreadsheet_data AND status matches
+                if (dbStatusMap.has(orderId)) {
+                    const dbStatus = dbStatusMap.get(orderId);
+                    const apiStatus = String(order.situacao || '').toLowerCase().trim();
+
+                    // If status is identical, we SKIP updating to save resources
+                    // regardless of forceReprocess (unless user explicitly wants to fix OTHER data fields, 
+                    // but for "Atualizar 7 dias" usually status is the goal)
+                    if (dbStatus === apiStatus) {
+                        // console.log(`  ⏩ Skipping ${orderId} - Status identical (${apiStatus})`);
+                        alreadyKnown++;
+                        continue;
+                    }
+
+                    console.log(`  🔄 Status Changed for ${orderId}: "${dbStatus}" -> "${apiStatus}". Quewing update.`);
+                    // If status different, we fall through to add to queue!
+                }
+
+                newOrdersToInsert.push({
+                    order_id: orderId,
+                    company: company.name,
+                    status: 'pending',
+                    retry_count: 0,
+                    max_retries: 5,
+                    next_retry_at: new Date().toISOString(),
+                    order_date: orderDate, // Store for priority processing
+                    payload: { cnpj: company.cnpj, origin: 'Sync Discovery' }
+                });
+
+                if (maxOrders && (addedToQueue + alreadyKnown + newOrdersToInsert.length) >= maxOrders) {
+                    hasMore = false;
+                    break;
+                }
+            }
+
+            // Batch Reset Failed Orders
+            if (idsToReset.length > 0) {
+                await supabase
+                    .from('webhook_retry_queue')
+                    .update({
+                        status: 'pending',
+                        retry_count: 0,
+                        next_retry_at: new Date().toISOString(),
+                        last_error: null
+                    })
+                    .in('order_id', idsToReset);
+                console.log(`   🔄 Reset ${idsToReset.length} failed orders to pending`);
+            }
+
+            // Batch insert all new orders at once
+            if (newOrdersToInsert.length > 0) {
+                const { error: queueError } = await supabase
+                    .from('webhook_retry_queue')
+                    .insert(newOrdersToInsert);
+
+                if (!queueError) {
+                    addedToQueue += newOrdersToInsert.length;
+                    console.log(`   ✅ Added ${newOrdersToInsert.length} new orders to queue`);
+                } else {
+                    console.error(`Error batch inserting to queue:`, queueError);
+                    throw new Error(`Failed to add orders to queue: ${queueError.message}`);
+                }
+            }
+
+
+            if (orders.length < 100 || (maxOrders && (totalFound >= maxOrders))) {
+                hasMore = false;
+            } else {
+                page++;
+                // 1s delay per page to respect 60 RPM
+                await new Promise(r => setTimeout(r, 1000));
+            }
+        }
+
+        return {
+            success: true,
+            company: company.name,
+            stats: {
+                total: totalFound,
+                added: addedToQueue,
+                known: alreadyKnown,
+                imported: addedToQueue // compatibility
+            }
+        };
+
+    } catch (error: any) {
+        console.error(`${company.name} discovery failed:`, error);
+        return { success: false, company: company.name, error: error.message };
+    }
+}
+
+// Sync all enabled companies
+async function syncAllCompanies(daysBack: number = 7, maxOrders?: number, forceReprocess: boolean = false) {
+    const enabledCompanies = COMPANIES.filter(c => c.enabled);
+
+    if (enabledCompanies.length === 0) {
+        return {
+            success: false,
+            error: 'No Tiny API tokens configured. Set TINY_API_TOKEN_MM and/or TINY_API_TOKEN_MVF'
+        };
+    }
+
+    // Sync all enabled companies in parallel
+    const results = await Promise.all(enabledCompanies.map(company => syncCompanyOrders(company, daysBack, maxOrders, forceReprocess)));
+
+    const allSuccess = results.every(r => r.success);
+    const totalStats = results.reduce((acc, r) => ({
+        total: acc.total + (r.stats?.total || 0),
+        added: acc.added + (r.stats?.added || 0),
+        known: acc.known + (r.stats?.known || 0),
+        imported: acc.imported + (r.stats?.imported || 0) // compatibility
+    }), { total: 0, added: 0, known: 0, imported: 0 });
+
+    return {
+        success: allSuccess,
+        results,
+        totalStats
+    };
+}
+
+// API Handler
+export default async function handler(req: any, res: any) {
+    // CORS
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+    if (req.method === 'OPTIONS') {
+        return res.status(200).end();
+    }
+
+    if (req.method === 'POST' || req.method === 'GET') {
+        try {
+            // OPTIMIZATION: Enforce max 30 days to prevent overloading
+            let daysBack = req.method === 'POST' ? (req.body?.daysBack || 30) : 7;
+            daysBack = Math.min(daysBack, 90); // Hard limit 90 days
+            const maxOrders = req.method === 'POST' ? req.body?.maxOrders : undefined;
+            // Force reprocess only if explicitly requested
+            const forceReprocess = req.method === 'POST' ? (req.body?.forceReprocess === true) : false;
+
+            console.log(`🚀 Starting Tiny Discovery (${daysBack} days, maxOrders: ${maxOrders || 'unlimited'}, force: ${forceReprocess})...`);
+
+            const result = await syncAllCompanies(daysBack, maxOrders, forceReprocess);
+
+            if (result.success) {
+                return res.status(200).json({
+                    success: true,
+                    message: 'Discovery completed. Orders added to queue.',
+                    stats: result.totalStats,
+                    details: result.results
+                });
+            } else {
+                return res.status(500).json({
+                    success: false,
+                    error: result.error || 'Some discovery syncs failed',
+                    details: result.results
+                });
+            }
+
+        } catch (error: any) {
+            console.error('Sync failed:', error);
+            return res.status(500).json({
+                success: false,
+                error: error.message
+            });
+        }
+    }
+
+    return res.status(405).json({ error: 'Method not allowed' });
+}

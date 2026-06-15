@@ -1,1 +1,47 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCBmcyBmcm9tICdmcyc7DQppbXBvcnQgcGF0aCBmcm9tICdwYXRoJzsNCmltcG9ydCB7IGZpbGVVUkxUb1BhdGggfSBmcm9tICd1cmwnOw0KDQpjb25zdCBfX2Rpcm5hbWUgPSBwYXRoLmRpcm5hbWUoZmlsZVVSTFRvUGF0aChpbXBvcnQubWV0YS51cmwpKTsNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAnLmVudi5sb2NhbCcpOw0KDQovLyBNYW51YWwgZW52IHBhcnNpbmcNCmNvbnN0IGVudkNvbnRlbnQgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0ZjgnKTsNCmNvbnN0IGVudjogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHt9Ow0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IFtrZXksIC4uLnZhbHVlUGFydHNdID0gbGluZS5zcGxpdCgnPScpOw0KICAgIGlmIChrZXkgJiYgdmFsdWVQYXJ0cy5sZW5ndGggPiAwKSB7DQogICAgICAgIGVudltrZXkudHJpbSgpXSA9IHZhbHVlUGFydHMuam9pbignPScpLnRyaW0oKTsNCiAgICB9DQp9KTsNCg0KY29uc3Qgc3VwYWJhc2VVcmwgPSBlbnYuU1VQQUJBU0VfVVJMIHx8IGVudi5WSVRFX1NVUEFCQVNFX1VSTDsNCmNvbnN0IHN1cGFiYXNlS2V5ID0gZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVk7DQoNCmlmICghc3VwYWJhc2VVcmwgfHwgIXN1cGFiYXNlS2V5KSB7DQogICAgY29uc29sZS5lcnJvcignTWlzc2luZyBTVVBBQkFTRV9VUkwgb3IgU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWScpOw0KICAgIHByb2Nlc3MuZXhpdCgxKTsNCn0NCg0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoc3VwYWJhc2VVcmwsIHN1cGFiYXNlS2V5KTsNCg0KZnVuY3Rpb24gaXNVVUlEKHN0cjogc3RyaW5nKSB7DQogICAgY29uc3QgdXVpZFJlZ2V4ID0gL15bMC05YS1mXXs4fS1bMC05YS1mXXs0fS1bMS01XVswLTlhLWZdezN9LVs4OWFiXVswLTlhLWZdezN9LVswLTlhLWZdezEyfSQvaTsNCiAgICByZXR1cm4gdXVpZFJlZ2V4LnRlc3Qoc3RyKTsNCn0NCg0KYXN5bmMgZnVuY3Rpb24gZGVidWdJZHMoKSB7DQogICAgY29uc3QgeyBkYXRhOiBkZWxldGVkT3JkZXJzIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdkZWxldGVkX29yZGVycycpLnNlbGVjdCgnb3JkZXJfaWQnKTsNCiAgICBpZiAoIWRlbGV0ZWRPcmRlcnMpIHJldHVybjsNCg0KICAgIGNvbnN0IG5vblVVSURzID0gZGVsZXRlZE9yZGVycy5maWx0ZXIoZCA9PiAhaXNVVUlEKFN0cmluZyhkLm9yZGVyX2lkKSkpOw0KDQogICAgY29uc29sZS5sb2coYFRvdGFsIE5vbi1VVUlEczogJHtub25VVUlEcy5sZW5ndGh9YCk7DQogICAgY29uc29sZS5sb2coJ1NhbXBsZSBvZiBOb24tVVVJRHM6Jyk7DQogICAgbm9uVVVJRHMuc2xpY2UoMCwgNTApLmZvckVhY2goZCA9PiB7DQogICAgICAgIGNvbnNvbGUubG9nKGAtICR7ZC5vcmRlcl9pZH1gKTsNCiAgICB9KTsNCn0NCg0KZGVidWdJZHMoKTsNCg==}
+import { createClient } from '@supabase/supabase-js';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const envPath = path.join(__dirname, '.env.local');
+
+// Manual env parsing
+const envContent = fs.readFileSync(envPath, 'utf8');
+const env: Record<string, string> = {};
+envContent.split('\n').forEach(line => {
+    const [key, ...valueParts] = line.split('=');
+    if (key && valueParts.length > 0) {
+        env[key.trim()] = valueParts.join('=').trim();
+    }
+});
+
+const supabaseUrl = env.SUPABASE_URL || env.VITE_SUPABASE_URL;
+const supabaseKey = env.SUPABASE_SERVICE_ROLE_KEY;
+
+if (!supabaseUrl || !supabaseKey) {
+    console.error('Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY');
+    process.exit(1);
+}
+
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+function isUUID(str: string) {
+    const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+    return uuidRegex.test(str);
+}
+
+async function debugIds() {
+    const { data: deletedOrders } = await supabase.from('deleted_orders').select('order_id');
+    if (!deletedOrders) return;
+
+    const nonUUIDs = deletedOrders.filter(d => !isUUID(String(d.order_id)));
+
+    console.log(`Total Non-UUIDs: ${nonUUIDs.length}`);
+    console.log('Sample of Non-UUIDs:');
+    nonUUIDs.slice(0, 50).forEach(d => {
+        console.log(`- ${d.order_id}`);
+    });
+}
+
+debugIds();

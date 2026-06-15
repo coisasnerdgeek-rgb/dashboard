@@ -1,1 +1,32 @@
-﻿@{data=Ly8gdXRpbHMvc29ydFV0aWxzLnRzCgpjb25zdCBsZXR0ZXJTaXplT3JkZXIgPSBbJ1AnLCAnTScsICdHJywgJ0dHJ107CgovKioKICogU29ydHMgYW4gYXJyYXkgb2Ygc2l6ZSBzdHJpbmdzIHdpdGggYSBjdXN0b20gbG9naWM6CiAqIDEuIFByZS1kZWZpbmVkIGxldHRlciBzaXplcyAoUCwgTSwgRywgR0cpIGNvbWUgZmlyc3QsIGluIHRoYXQgc3BlY2lmaWMgb3JkZXIuCiAqIDIuIEFsbCBvdGhlciBzaXplcyAobnVtZXJpYyBsaWtlICc4JywgJzEwJyBvciBtaXhlZCBsaWtlICdHMScpIGFyZSBzb3J0ZWQKICogICAgYWZ0ZXJ3YXJkcyB1c2luZyBsb2NhbGVDb21wYXJlIHdpdGggdGhlIG51bWVyaWMgb3B0aW9uIGZvciBuYXR1cmFsIHNvcnRpbmcuCiAqIEBwYXJhbSBzaXplcyAtIEFycmF5IG9mIHNpemUgc3RyaW5ncy4KICogQHJldHVybnMgQSBuZXcgYXJyYXkgd2l0aCBzb3J0ZWQgc2l6ZXMuCiAqLwpleHBvcnQgY29uc3Qgc29ydFNpemVzID0gKHNpemVzOiBzdHJpbmdbXSk6IHN0cmluZ1tdID0+IHsKICAgIGNvbnN0IGxldHRlclNpemVzOiBzdHJpbmdbXSA9IFtdOwogICAgY29uc3Qgb3RoZXJTaXplczogc3RyaW5nW10gPSBbXTsKCiAgICBzaXplcy5mb3JFYWNoKHNpemUgPT4gewogICAgICAgIGlmIChsZXR0ZXJTaXplT3JkZXIuaW5jbHVkZXMoc2l6ZS50b1VwcGVyQ2FzZSgpKSkgewogICAgICAgICAgICBsZXR0ZXJTaXplcy5wdXNoKHNpemUpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIG90aGVyU2l6ZXMucHVzaChzaXplKTsKICAgICAgICB9CiAgICB9KTsKCiAgICAvLyAxLiBTb3J0IGxldHRlciBzaXplcyBhY2NvcmRpbmcgdG8gdGhlIHByZWRlZmluZWQgb3JkZXIKICAgIGxldHRlclNpemVzLnNvcnQoKGEsIGIpID0+IGxldHRlclNpemVPcmRlci5pbmRleE9mKGEudG9VcHBlckNhc2UoKSkgLSBsZXR0ZXJTaXplT3JkZXIuaW5kZXhPZihiLnRvVXBwZXJDYXNlKCkpKTsKCiAgICAvLyAyLiBTb3J0IGFsbCBvdGhlciBzaXplcyAobnVtZXJpYywgbWl4ZWQpIHVzaW5nIGxvY2FsZUNvbXBhcmUgd2l0aCBudW1lcmljIG9wdGlvbgogICAgb3RoZXJTaXplcy5zb3J0KChhLCBiKSA9PiBhLmxvY2FsZUNvbXBhcmUoYiwgdW5kZWZpbmVkLCB7IG51bWVyaWM6IHRydWUgfSkpOwoKICAgIHJldHVybiBbLi4ubGV0dGVyU2l6ZXMsIC4uLm90aGVyU2l6ZXNdOwp9Owo=}
+// utils/sortUtils.ts
+
+const letterSizeOrder = ['P', 'M', 'G', 'GG'];
+
+/**
+ * Sorts an array of size strings with a custom logic:
+ * 1. Pre-defined letter sizes (P, M, G, GG) come first, in that specific order.
+ * 2. All other sizes (numeric like '8', '10' or mixed like 'G1') are sorted
+ *    afterwards using localeCompare with the numeric option for natural sorting.
+ * @param sizes - Array of size strings.
+ * @returns A new array with sorted sizes.
+ */
+export const sortSizes = (sizes: string[]): string[] => {
+    const letterSizes: string[] = [];
+    const otherSizes: string[] = [];
+
+    sizes.forEach(size => {
+        if (letterSizeOrder.includes(size.toUpperCase())) {
+            letterSizes.push(size);
+        } else {
+            otherSizes.push(size);
+        }
+    });
+
+    // 1. Sort letter sizes according to the predefined order
+    letterSizes.sort((a, b) => letterSizeOrder.indexOf(a.toUpperCase()) - letterSizeOrder.indexOf(b.toUpperCase()));
+
+    // 2. Sort all other sizes (numeric, mixed) using localeCompare with numeric option
+    otherSizes.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+    return [...letterSizes, ...otherSizes];
+};

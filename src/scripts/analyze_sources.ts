@@ -1,1 +1,44 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gTkVXIERCIENyZWRlbnRpYWxzDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KDQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gYW5hbHl6ZVNvdXJjZXMoKSB7DQogICAgY29uc29sZS5sb2coJy0tLSBBbmFseXppbmcgRGF0YSBTb3VyY2VzIGluIFNwcmVhZHNoZWV0IERhdGEgLS0tJyk7DQoNCiAgICBjb25zdCB7IGRhdGE6IGFsbFJvd3MsIGVycm9yIH0gPSBhd2FpdCBuZXdTdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJ2ZpbGVuYW1lLCByb3dfZGF0YScpOw0KDQogICAgaWYgKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGZldGNoaW5nIGRhdGE6JywgZXJyb3IpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgY29uc3Qgc3RhdHM6IFJlY29yZDxzdHJpbmcsIHsgY291bnQ6IG51bWJlciwgc2FtcGxlS2V5czogc3RyaW5nW10gfT4gPSB7fTsNCg0KICAgIGFsbFJvd3MuZm9yRWFjaChyb3cgPT4gew0KICAgICAgICBjb25zdCBmaWxlID0gcm93LmZpbGVuYW1lIHx8ICdVTktOT1dOX1NPVVJDRSc7DQogICAgICAgIGlmICghc3RhdHNbZmlsZV0pIHsNCiAgICAgICAgICAgIHN0YXRzW2ZpbGVdID0geyBjb3VudDogMCwgc2FtcGxlS2V5czogW10gfTsNCiAgICAgICAgfQ0KICAgICAgICBzdGF0c1tmaWxlXS5jb3VudCsrOw0KICAgICAgICAvLyBLZWVwIGZpcnN0IHNhbXBsZSBrZXlzDQogICAgICAgIGlmIChzdGF0c1tmaWxlXS5zYW1wbGVLZXlzLmxlbmd0aCA9PT0gMCAmJiByb3cucm93X2RhdGEpIHsNCiAgICAgICAgICAgIHN0YXRzW2ZpbGVdLnNhbXBsZUtleXMgPSBPYmplY3Qua2V5cyhyb3cucm93X2RhdGEpLnNsaWNlKDAsIDUpOw0KICAgICAgICB9DQogICAgfSk7DQoNCiAgICBjb25zb2xlLmxvZyhKU09OLnN0cmluZ2lmeSgNCiAgICAgICAgT2JqZWN0LmVudHJpZXMoc3RhdHMpLm1hcCgoW2ZpbGVuYW1lLCBzdGF0XSkgPT4gKHsNCiAgICAgICAgICAgIEZpbGVuYW1lOiBmaWxlbmFtZSwNCiAgICAgICAgICAgIENvdW50OiBzdGF0LmNvdW50LA0KICAgICAgICAgICAgJ1NhbXBsZSBLZXlzJzogc3RhdC5zYW1wbGVLZXlzDQogICAgICAgIH0pKSwgbnVsbCwgMg0KICAgICkpOw0KfQ0KDQphbmFseXplU291cmNlcygpOw0K}
+import { createClient } from '@supabase/supabase-js';
+
+// NEW DB Credentials
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function analyzeSources() {
+    console.log('--- Analyzing Data Sources in Spreadsheet Data ---');
+
+    const { data: allRows, error } = await newSupabase
+        .from('spreadsheet_data')
+        .select('filename, row_data');
+
+    if (error) {
+        console.error('Error fetching data:', error);
+        return;
+    }
+
+    const stats: Record<string, { count: number, sampleKeys: string[] }> = {};
+
+    allRows.forEach(row => {
+        const file = row.filename || 'UNKNOWN_SOURCE';
+        if (!stats[file]) {
+            stats[file] = { count: 0, sampleKeys: [] };
+        }
+        stats[file].count++;
+        // Keep first sample keys
+        if (stats[file].sampleKeys.length === 0 && row.row_data) {
+            stats[file].sampleKeys = Object.keys(row.row_data).slice(0, 5);
+        }
+    });
+
+    console.log(JSON.stringify(
+        Object.entries(stats).map(([filename, stat]) => ({
+            Filename: filename,
+            Count: stat.count,
+            'Sample Keys': stat.sampleKeys
+        })), null, 2
+    ));
+}
+
+analyzeSources();

@@ -1,1 +1,23 @@
-﻿@{data=PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4NCiAgPGRlZnM+DQogICAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4NCiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjY7c3RvcC1vcGFjaXR5OjEiIC8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4YjVjZjY7c3RvcC1vcGFjaXR5OjEiIC8+DQogICAgPC9saW5lYXJHcmFkaWVudD4NCiAgPC9kZWZzPg0KICANCiAgPCEtLSBCYWNrZ3JvdW5kIC0tPg0KICA8cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIwIiBmaWxsPSJ1cmwoI2dyYWQpIi8+DQogIA0KICA8IS0tIERhc2hib2FyZCBHcmlkIEljb24gLS0+DQogIDxyZWN0IHg9IjE1IiB5PSIxNSIgd2lkdGg9IjMwIiBoZWlnaHQ9IjI1IiByeD0iNCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSIvPg0KICA8cmVjdCB4PSI1NSIgeT0iMTUiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyNSIgcng9IjQiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiLz4NCiAgPHJlY3QgeD0iMTUiIHk9IjUwIiB3aWR0aD0iMzAiIGhlaWdodD0iMzUiIHJ4PSI0IiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ii8+DQogIDxyZWN0IHg9IjU1IiB5PSI1MCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjM1IiByeD0iNCIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSIvPg0KICANCiAgPCEtLSBTbWFsbCBhY2NlbnQgZG90cyAtLT4NCiAgPGNpcmNsZSBjeD0iMzAiIGN5PSIyNyIgcj0iMyIgZmlsbD0iIzNiODJmNiIvPg0KICA8Y2lyY2xlIGN4PSI3MCIgY3k9IjI3IiByPSIzIiBmaWxsPSIjOGI1Y2Y2Ii8+DQogIDxjaXJjbGUgY3g9IjMwIiBjeT0iNjciIHI9IjMiIGZpbGw9IiM4YjVjZjYiLz4NCiAgPGNpcmNsZSBjeD0iNzAiIGN5PSI2NyIgcj0iMyIgZmlsbD0iIzNiODJmNiIvPg0KPC9zdmc+DQo=}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100" height="100" rx="20" fill="url(#grad)"/>
+  
+  <!-- Dashboard Grid Icon -->
+  <rect x="15" y="15" width="30" height="25" rx="4" fill="white" opacity="0.9"/>
+  <rect x="55" y="15" width="30" height="25" rx="4" fill="white" opacity="0.9"/>
+  <rect x="15" y="50" width="30" height="35" rx="4" fill="white" opacity="0.9"/>
+  <rect x="55" y="50" width="30" height="35" rx="4" fill="white" opacity="0.9"/>
+  
+  <!-- Small accent dots -->
+  <circle cx="30" cy="27" r="3" fill="#3b82f6"/>
+  <circle cx="70" cy="27" r="3" fill="#8b5cf6"/>
+  <circle cx="30" cy="67" r="3" fill="#8b5cf6"/>
+  <circle cx="70" cy="67" r="3" fill="#3b82f6"/>
+</svg>

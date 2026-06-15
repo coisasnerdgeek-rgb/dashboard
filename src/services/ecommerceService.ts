@@ -1,1 +1,87 @@
-﻿@{data=Ly8gc2VydmljZXMvZWNvbW1lcmNlU2VydmljZS50cwoKZXhwb3J0IGNvbnN0IGdldFNhbGVzQ2hhbm5lbCA9IChvcmRlcklkOiBzdHJpbmcgfCBudW1iZXIsIGZpbGVDbnBqOiAnTU0nIHwgJ01WRicgfCBudWxsLCBjaGFubmVsPzogc3RyaW5nKTogc3RyaW5nID0+IHsKICAgIC8vIE1hcCBnZW5lcmljIGNoYW5uZWwgbmFtZXMgdG8gc3BlY2lmaWMgc3RvcmVzIGJhc2VkIG9uIENOUEoKICAgIGlmIChjaGFubmVsKSB7CiAgICAgICAgY29uc3QgdHJpbW1lZENoYW5uZWwgPSBjaGFubmVsLnRyaW0oKTsKICAgICAgICBjb25zdCBub3JtYWxpemVkQ2hhbm5lbCA9IHRyaW1tZWRDaGFubmVsLnRvTG93ZXJDYXNlKCk7CgogICAgICAgIC8vIE1hcHBpbmcgZ2VuZXJpYyBuYW1lcwogICAgICAgIGlmIChub3JtYWxpemVkQ2hhbm5lbCA9PT0gJ3Nob3BlZScpIHsKICAgICAgICAgICAgcmV0dXJuIGZpbGVDbnBqID09PSAnTU0nID8gJ1NIIE1NJyA6ICdTSCBWRVNUJzsKICAgICAgICB9CiAgICAgICAgaWYgKG5vcm1hbGl6ZWRDaGFubmVsID09PSAnbWVyY2FkbyBsaXZyZScgfHwgbm9ybWFsaXplZENoYW5uZWwgPT09ICdtZXJjYWRvbGl2cmUnKSB7CiAgICAgICAgICAgIHJldHVybiBmaWxlQ25waiA9PT0gJ01NJyA/ICdNTCBNTScgOiAnTUwgVkVTVCc7CiAgICAgICAgfQoKICAgICAgICAvLyBQcmVzZXJ2ZSBhbHJlYWR5IHNwZWNpZmljIGNoYW5uZWwgbmFtZXMgb3Igbm9ybWFsaXplIHRoZW0KICAgICAgICBjb25zdCBzcGVjaWZpY1N0b3JlcyA9IFsKICAgICAgICAgICAgJ1NIIE1NJywgJ1NIIFZFU1QnLCAnTUwgTU0nLCAnTUwgVkVTVCcsCiAgICAgICAgICAgICdNRyBWRVNUJywgJ05UIFZFU1QnLCAnU04gVkVTVCcsICdBTSBWRVNUJywgJ0tXIFZFU1QnLAogICAgICAgICAgICAnTUcgTU0nLCAnTlQgTU0nLCAnU04gTU0nLCAnQU0gTU0nLCAnS1cgTU0nCiAgICAgICAgXTsKICAgICAgICBjb25zdCB1cHBlckNoYW5uZWwgPSB0cmltbWVkQ2hhbm5lbC50b1VwcGVyQ2FzZSgpOwogICAgICAgIGlmIChzcGVjaWZpY1N0b3Jlcy5pbmNsdWRlcyh1cHBlckNoYW5uZWwpKSB7CiAgICAgICAgICAgIHJldHVybiB1cHBlckNoYW5uZWw7CiAgICAgICAgfQoKICAgICAgICAvLyBJZiBpdCdzIHNvbWV0aGluZyBsaWtlICJNZXJjYWRvIExpdnJlIC0gTU0iLCB3ZSBjYW4gdHJ5IHRvIGV4dHJhY3QgcGFydHMKICAgICAgICBpZiAodXBwZXJDaGFubmVsLmluY2x1ZGVzKCdNRVJDQURPIExJVlJFJykgfHwgdXBwZXJDaGFubmVsLmluY2x1ZGVzKCdNRVJDQURPTElWUkUnKSkgewogICAgICAgICAgICByZXR1cm4gZmlsZUNucGogPT09ICdNTScgfHwgdXBwZXJDaGFubmVsLmluY2x1ZGVzKCdNTScpID8gJ01MIE1NJyA6ICdNTCBWRVNUJzsKICAgICAgICB9CiAgICAgICAgaWYgKHVwcGVyQ2hhbm5lbC5pbmNsdWRlcygnU0hPUEVFJykpIHsKICAgICAgICAgICAgcmV0dXJuIGZpbGVDbnBqID09PSAnTU0nIHx8IHVwcGVyQ2hhbm5lbC5pbmNsdWRlcygnTU0nKSA/ICdTSCBNTScgOiAnU0ggVkVTVCc7CiAgICAgICAgfQogICAgfQoKICAgIC8vIEVuc3VyZSBvcmRlcklkIGlzIGFsd2F5cyBhIHN0cmluZyBhbmQgdHJpbW1lZCwgZGVmYXVsdCB0byBlbXB0eSBzdHJpbmcgaWYgbnVsbC91bmRlZmluZWQKICAgIGNvbnN0IGlkID0gU3RyaW5nKG9yZGVySWQgPz8gJycpLnRyaW0oKTsKICAgIGlmICghaWQpIHJldHVybiAnQlVTSU5FU1MnOwoKICAgIC8vIEFkZGVkICcyNicgdG8gY2F0Y2ggbmV3ZXIgU2hvcGVlIElEcwogICAgY29uc3QgaXNTaG9wZWUgPSBbJzI2JywgJzI1MTAnLCAnSUQyJywgJzI1MDkxJywgJzI1MDEwJywgJzI1MDExJywgJzI1MDknLCAnMjUwMScsICcyNTAyJywgJzI1MCcsICcyNTEnLCAnMjUyJywgJzI1MycsICcyNTQnLCAnMjU1JywgJzI1NicsICcyNTcnLCAnMjU4JywgJzI1OScsICcyNjAnXS5zb21lKHByZWZpeCA9PiBpZC5zdGFydHNXaXRoKHByZWZpeCkpOwoKICAgIGlmIChpc1Nob3BlZSkgewogICAgICAgIGlmIChmaWxlQ25waiA9PT0gJ01NJykgcmV0dXJuICdTSCBNTSc7CiAgICAgICAgcmV0dXJuICdTSCBWRVNUJzsgLy8gRGVmYXVsdCB0byBTSCBWRVNUIChNVkYpCiAgICB9CgogICAgbGV0IGxvamFCYXNlOiBzdHJpbmc7CgogICAgaWYgKGlkLnN0YXJ0c1dpdGgoJzIwMDAnKSB8fCBpZC5zdGFydHNXaXRoKCcyLDAwMCcpIHx8IGlkLnN0YXJ0c1dpdGgoJzAyMDAnKSB8fCBpZC5zdGFydHNXaXRoKCdNTEInKSkgewogICAgICAgIGxvamFCYXNlID0gJ01MIFZFU1QnOwogICAgfSBlbHNlIGlmIChpZC5zdGFydHNXaXRoKCdMVS0nKSkgewogICAgICAgIGxvamFCYXNlID0gJ01HIFZFU1QnOwogICAgfSBlbHNlIGlmIChpZC5zdGFydHNXaXRoKCcxNCcpKSB7CiAgICAgICAgbG9qYUJhc2UgPSAnTlQgVkVTVCc7CiAgICB9IGVsc2UgaWYgKGlkLnN0YXJ0c1dpdGgoJ0dTSCcpKSB7CiAgICAgICAgbG9qYUJhc2UgPSAnU04gVkVTVCc7CiAgICB9IGVsc2UgaWYgKGlkLm1hdGNoKC9eXGR7M30tXGR7N30tXGR7N30kLykgfHwgaWQuc3RhcnRzV2l0aCgnNzAxJykgfHwgaWQuc3RhcnRzV2l0aCgnNzAyJykpIHsKICAgICAgICBsb2phQmFzZSA9ICdBTSBWRVNUJzsKICAgIH0gZWxzZSBpZiAoaWQuc3RhcnRzV2l0aCgnMTInKSkgewogICAgICAgIGxvamFCYXNlID0gJ0tXIFZFU1QnOwogICAgfSBlbHNlIHsKICAgICAgICBsb2phQmFzZSA9ICdCVVNJTkVTUyc7CiAgICB9CgogICAgaWYgKGZpbGVDbnBqID09PSAnTU0nICYmIGxvamFCYXNlICE9PSAnQlVTSU5FU1MnKSB7CiAgICAgICAgcmV0dXJuIGxvamFCYXNlLnJlcGxhY2UoJ1ZFU1QnLCAnTU0nKTsKICAgIH0KCiAgICByZXR1cm4gbG9qYUJhc2U7Cn07CgpleHBvcnQgY29uc3QgZ2V0U3VwcGxpZXIgPSAoc2FsZXNDaGFubmVsOiBzdHJpbmcsIGZpbGVDbnBqPzogc3RyaW5nIHwgbnVsbCk6IHN0cmluZyA9PiB7CiAgICBjb25zdCB1cHBlciA9IHNhbGVzQ2hhbm5lbC50cmltKCkudG9VcHBlckNhc2UoKTsKCiAgICAvLyAxLiBUcnkgdG8gZGV0ZXJtaW5lIGZyb20gY2hhbm5lbCBzdWZmaXgKICAgIGlmICh1cHBlci5lbmRzV2l0aCgnIE1NJykgfHwgdXBwZXIuaW5jbHVkZXMoJyBNTScpKSByZXR1cm4gJ01NJzsKICAgIGlmICh1cHBlci5lbmRzV2l0aCgnIFZFU1QnKSB8fCB1cHBlci5pbmNsdWRlcygnIFZFU1QnKSkgcmV0dXJuICdNVkYnOwoKICAgIC8vIDIuIFRyeSB0byBkZXRlcm1pbmUgZnJvbSBmaWxlQ25wagogICAgaWYgKGZpbGVDbnBqID09PSAnTU0nKSByZXR1cm4gJ01NJzsKICAgIGlmIChmaWxlQ25waiA9PT0gJ01WRicpIHJldHVybiAnTVZGJzsKCiAgICAvLyAzLiBEZWZhdWx0CiAgICByZXR1cm4gJ01WRic7Cn07}
+// services/ecommerceService.ts
+
+export const getSalesChannel = (orderId: string | number, fileCnpj: 'MM' | 'MVF' | null, channel?: string): string => {
+    // Map generic channel names to specific stores based on CNPJ
+    if (channel) {
+        const trimmedChannel = channel.trim();
+        const normalizedChannel = trimmedChannel.toLowerCase();
+
+        // Mapping generic names
+        if (normalizedChannel === 'shopee') {
+            return fileCnpj === 'MM' ? 'SH MM' : 'SH VEST';
+        }
+        if (normalizedChannel === 'mercado livre' || normalizedChannel === 'mercadolivre') {
+            return fileCnpj === 'MM' ? 'ML MM' : 'ML VEST';
+        }
+
+        // Preserve already specific channel names or normalize them
+        const specificStores = [
+            'SH MM', 'SH VEST', 'ML MM', 'ML VEST',
+            'MG VEST', 'NT VEST', 'SN VEST', 'AM VEST', 'KW VEST',
+            'MG MM', 'NT MM', 'SN MM', 'AM MM', 'KW MM'
+        ];
+        const upperChannel = trimmedChannel.toUpperCase();
+        if (specificStores.includes(upperChannel)) {
+            return upperChannel;
+        }
+
+        // If it's something like "Mercado Livre - MM", we can try to extract parts
+        if (upperChannel.includes('MERCADO LIVRE') || upperChannel.includes('MERCADOLIVRE')) {
+            return fileCnpj === 'MM' || upperChannel.includes('MM') ? 'ML MM' : 'ML VEST';
+        }
+        if (upperChannel.includes('SHOPEE')) {
+            return fileCnpj === 'MM' || upperChannel.includes('MM') ? 'SH MM' : 'SH VEST';
+        }
+    }
+
+    // Ensure orderId is always a string and trimmed, default to empty string if null/undefined
+    const id = String(orderId ?? '').trim();
+    if (!id) return 'BUSINESS';
+
+    // Added '26' to catch newer Shopee IDs
+    const isShopee = ['26', '2510', 'ID2', '25091', '25010', '25011', '2509', '2501', '2502', '250', '251', '252', '253', '254', '255', '256', '257', '258', '259', '260'].some(prefix => id.startsWith(prefix));
+
+    if (isShopee) {
+        if (fileCnpj === 'MM') return 'SH MM';
+        return 'SH VEST'; // Default to SH VEST (MVF)
+    }
+
+    let lojaBase: string;
+
+    if (id.startsWith('2000') || id.startsWith('2,000') || id.startsWith('0200') || id.startsWith('MLB')) {
+        lojaBase = 'ML VEST';
+    } else if (id.startsWith('LU-')) {
+        lojaBase = 'MG VEST';
+    } else if (id.startsWith('14')) {
+        lojaBase = 'NT VEST';
+    } else if (id.startsWith('GSH')) {
+        lojaBase = 'SN VEST';
+    } else if (id.match(/^\d{3}-\d{7}-\d{7}$/) || id.startsWith('701') || id.startsWith('702')) {
+        lojaBase = 'AM VEST';
+    } else if (id.startsWith('12')) {
+        lojaBase = 'KW VEST';
+    } else {
+        lojaBase = 'BUSINESS';
+    }
+
+    if (fileCnpj === 'MM' && lojaBase !== 'BUSINESS') {
+        return lojaBase.replace('VEST', 'MM');
+    }
+
+    return lojaBase;
+};
+
+export const getSupplier = (salesChannel: string, fileCnpj?: string | null): string => {
+    const upper = salesChannel.trim().toUpperCase();
+
+    // 1. Try to determine from channel suffix
+    if (upper.endsWith(' MM') || upper.includes(' MM')) return 'MM';
+    if (upper.endsWith(' VEST') || upper.includes(' VEST')) return 'MVF';
+
+    // 2. Try to determine from fileCnpj
+    if (fileCnpj === 'MM') return 'MM';
+    if (fileCnpj === 'MVF') return 'MVF';
+
+    // 3. Default
+    return 'MVF';
+};

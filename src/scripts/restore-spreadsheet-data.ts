@@ -1,1 +1,67 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQovLyBORVcgREIgKFNlcnZpY2UgS2V5IG5lZWRlZCBmb3IgaGlnaCB2b2x1bWUgd3JpdGVzIG1heWJlPyBPciBBbm9uIGlzIGZpbmUgaWYgUkxTIGFsbG93cy4gVXNpbmcgU2VydmljZSBmb3Igc2FmZXR5KQ0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TRVJWSUNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3QgbmV3U3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NFUlZJQ0VfS0VZLCB7IGF1dGg6IHsgYXV0b1JlZnJlc2hUb2tlbjogZmFsc2UsIHBlcnNpc3RTZXNzaW9uOiBmYWxzZSB9IH0pOw0KDQovLyBPTEQgREINCmNvbnN0IE9MRF9TVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly9uYnh1YmRtc2VwbmhoaHNicHpvcS5zdXBhYmFzZS5jbyc7DQpjb25zdCBPTERfU1VQQUJBU0VfS0VZID0gJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltNWllSFZpWkcxelpYQnVhR2hvYzJKd2VtOXhJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk1USTFNelV3TWl3aVpYaHdJam95TURjMk9ESTVOVEF5ZlEuTHgySDJkSGJwaHBUT2xIMFBLZC12NEU3a0pHYXJVNGhZTUtMcldCSDZ1cyc7DQpjb25zdCBvbGRTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChPTERfU1VQQUJBU0VfVVJMLCBPTERfU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gcmVzdG9yZVNwcmVhZHNoZWV0KCkgew0KICAgIGNvbnNvbGUubG9nKCfwn5qAIFN0YXJ0aW5nIFJlc3RvcmF0aW9uIG9mIHNwcmVhZHNoZWV0X2RhdGEuLi4nKTsNCg0KICAgIC8vIDEuIEdldCBDb3VudA0KICAgIGNvbnN0IHsgY291bnQgfSA9IGF3YWl0IG9sZFN1cGFiYXNlLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKS5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KICAgIGNvbnNvbGUubG9nKGBUb3RhbCByb3dzIHRvIHJlc3RvcmU6ICR7Y291bnR9YCk7DQoNCiAgICBpZiAoIWNvdW50KSByZXR1cm47DQoNCiAgICBjb25zdCBCQVRDSF9TSVpFID0gNTAwOw0KICAgIGxldCBvZmZzZXQgPSAwOw0KICAgIGxldCB0b3RhbE1pZ3JhdGVkID0gMDsNCg0KICAgIC8vIFdlIGNhbiB1c2UgYSBsb29wDQogICAgd2hpbGUgKG9mZnNldCA8IGNvdW50KSB7DQogICAgICAgIC8vIEZldGNoIGZyb20gT0xEDQogICAgICAgIGNvbnN0IHsgZGF0YTogcm93cywgZXJyb3I6IGZldGNoRXJyb3IgfSA9IGF3YWl0IG9sZFN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAuc2VsZWN0KCcqJykNCiAgICAgICAgICAgIC5yYW5nZShvZmZzZXQsIG9mZnNldCArIEJBVENIX1NJWkUgLSAxKTsNCg0KICAgICAgICBpZiAoZmV0Y2hFcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcignRmV0Y2ggZXJyb3I6JywgZmV0Y2hFcnJvcik7DQogICAgICAgICAgICBicmVhazsNCiAgICAgICAgfQ0KDQogICAgICAgIGlmIChyb3dzICYmIHJvd3MubGVuZ3RoID4gMCkgew0KICAgICAgICAgICAgLy8gSW5zZXJ0IGludG8gTkVXDQogICAgICAgICAgICAvLyBVc2luZyB1cHNlcnQgdG8gaGFuZGxlIGNvbmZsaWN0cyBpZiBhbnkgKGNvbmZsaWN0IG9uICdpZCcpDQogICAgICAgICAgICBjb25zdCB7IGVycm9yOiBpbnNFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UNCiAgICAgICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAgICAgLnVwc2VydChyb3dzKTsNCg0KICAgICAgICAgICAgaWYgKGluc0Vycm9yKSB7DQogICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignSW5zZXJ0IGVycm9yOicsIGluc0Vycm9yKTsNCiAgICAgICAgICAgICAgICAvLyBSZXRyeT8gT3Igc2tpcD8NCiAgICAgICAgICAgICAgICAvLyBJZiBwYXlsb2FkIHRvbyBsYXJnZSwgNTAwIG1pZ2h0IGJlIHRvbyBiaWcgZm9yIHJvd3Mgd2l0aCBodWdlIEpTT04uDQogICAgICAgICAgICAgICAgLy8gQnV0IHR5cGljYWxseSBpdCdzIGZpbmUuDQogICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgIHRvdGFsTWlncmF0ZWQgKz0gcm93cy5sZW5ndGg7DQogICAgICAgICAgICB9DQogICAgICAgIH0NCg0KICAgICAgICBjb25zb2xlLmxvZyhgUHJvZ3Jlc3M6ICR7dG90YWxNaWdyYXRlZH0vJHtjb3VudH1gKTsNCiAgICAgICAgb2Zmc2V0ICs9IEJBVENIX1NJWkU7DQoNCiAgICAgICAgLy8gQW50aS1yYXRlIGxpbWl0IGRlbGF5Pw0KICAgICAgICBpZiAodG90YWxNaWdyYXRlZCAlIDUwMDAgPT09IDApIGF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCAxMDAwKSk7DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coYOKchSBSZXN0b3JlIENvbXBsZXRlZC4gVHJhbnNmZXJyZWQgJHt0b3RhbE1pZ3JhdGVkfSByb3dzLmApOw0KfQ0KDQpyZXN0b3JlU3ByZWFkc2hlZXQoKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+
+// NEW DB (Service Key needed for high volume writes maybe? Or Anon is fine if RLS allows. Using Service for safety)
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SERVICE_KEY, { auth: { autoRefreshToken: false, persistSession: false } });
+
+// OLD DB
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+
+async function restoreSpreadsheet() {
+    console.log('🚀 Starting Restoration of spreadsheet_data...');
+
+    // 1. Get Count
+    const { count } = await oldSupabase.from('spreadsheet_data').select('*', { count: 'exact', head: true });
+    console.log(`Total rows to restore: ${count}`);
+
+    if (!count) return;
+
+    const BATCH_SIZE = 500;
+    let offset = 0;
+    let totalMigrated = 0;
+
+    // We can use a loop
+    while (offset < count) {
+        // Fetch from OLD
+        const { data: rows, error: fetchError } = await oldSupabase
+            .from('spreadsheet_data')
+            .select('*')
+            .range(offset, offset + BATCH_SIZE - 1);
+
+        if (fetchError) {
+            console.error('Fetch error:', fetchError);
+            break;
+        }
+
+        if (rows && rows.length > 0) {
+            // Insert into NEW
+            // Using upsert to handle conflicts if any (conflict on 'id')
+            const { error: insError } = await newSupabase
+                .from('spreadsheet_data')
+                .upsert(rows);
+
+            if (insError) {
+                console.error('Insert error:', insError);
+                // Retry? Or skip?
+                // If payload too large, 500 might be too big for rows with huge JSON.
+                // But typically it's fine.
+            } else {
+                totalMigrated += rows.length;
+            }
+        }
+
+        console.log(`Progress: ${totalMigrated}/${count}`);
+        offset += BATCH_SIZE;
+
+        // Anti-rate limit delay?
+        if (totalMigrated % 5000 === 0) await new Promise(r => setTimeout(r, 1000));
+    }
+
+    console.log(`✅ Restore Completed. Transferred ${totalMigrated} rows.`);
+}
+
+restoreSpreadsheet();

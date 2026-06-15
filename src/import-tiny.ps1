@@ -1,1 +1,65 @@
-﻿@{data=IyBTY3JpcHQgcGFyYSBpbXBvcnRhciBwZWRpZG9zIGRvIFRpbnkgZW0gbG90ZXMgZGUgMjUgZGlhcw0KIyBQZXJpb2RvOiAwMS8xMi8yMDI0IGEgMjgvMTIvMjAyNA0KDQokYmFzZVVybCA9ICJodHRwczovL2Rhc2hib2FyZC1wZWRpZG9zLnZlcmNlbC5hcHAiDQoNCiMgRGVmaW5pciBwZXJpb2RvcyBkZSAyNSBkaWFzDQokcGVyaW9kcyA9IEAoDQogICAgQHsgc3RhcnQgPSAiMDEvMTIvMjAyNCI7IGVuZCA9ICIyNS8xMi8yMDI0IiB9LA0KICAgIEB7IHN0YXJ0ID0gIjI2LzEyLzIwMjQiOyBlbmQgPSAiMjgvMTIvMjAyNCIgfQ0KKQ0KDQpXcml0ZS1Ib3N0ICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IiAtRm9yZWdyb3VuZENvbG9yIEN5YW4NCldyaXRlLUhvc3QgIiBJbXBvcnRhY2FvIGRlIFBlZGlkb3MgZG8gVGlueSBFUlAiIC1Gb3JlZ3JvdW5kQ29sb3IgQ3lhbg0KV3JpdGUtSG9zdCAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIgLUZvcmVncm91bmRDb2xvciBDeWFuDQpXcml0ZS1Ib3N0ICIiDQoNCiR0b3RhbEltcG9ydGVkID0gMA0KJHRvdGFsRXJyb3JzID0gMA0KJHRvdGFsU2tpcHBlZCA9IDANCg0KZm9yZWFjaCAoJHBlcmlvZCBpbiAkcGVyaW9kcykgew0KICAgICRzdGFydCA9ICRwZXJpb2Quc3RhcnQNCiAgICAkZW5kID0gJHBlcmlvZC5lbmQNCiAgICANCiAgICBXcml0ZS1Ib3N0ICJJbXBvcnRhbmRvIHBlcmlvZG86ICRzdGFydCBhdGUgJGVuZCIgLUZvcmVncm91bmRDb2xvciBZZWxsb3cNCiAgICBXcml0ZS1Ib3N0ICJBZ3VhcmRlLi4uIiAtRm9yZWdyb3VuZENvbG9yIEdyYXkNCiAgICANCiAgICB0cnkgew0KICAgICAgICAkYm9keSA9IEB7DQogICAgICAgICAgICBkYXRhSW5pY2lhbCA9ICRzdGFydA0KICAgICAgICAgICAgZGF0YUZpbmFsID0gJGVuZA0KICAgICAgICB9IHwgQ29udmVydFRvLUpzb24NCiAgICAgICAgDQogICAgICAgICRyZXNwb25zZSA9IEludm9rZS1SZXN0TWV0aG9kIC1VcmkgIiRiYXNlVXJsL2FwaS9pbXBvcnQtdGlueS1vcmRlcnMiIC1NZXRob2QgUG9zdCAtQm9keSAkYm9keSAtQ29udGVudFR5cGUgImFwcGxpY2F0aW9uL2pzb24iIC1UaW1lb3V0U2VjIDMwMA0KICAgICAgICANCiAgICAgICAgV3JpdGUtSG9zdCAiU3VjZXNzbyEiIC1Gb3JlZ3JvdW5kQ29sb3IgR3JlZW4NCiAgICAgICAgV3JpdGUtSG9zdCAiICBUb3RhbCBlbmNvbnRyYWRvOiAkKCRyZXNwb25zZS50b3RhbCkiIC1Gb3JlZ3JvdW5kQ29sb3IgV2hpdGUNCiAgICAgICAgV3JpdGUtSG9zdCAiICBJbXBvcnRhZG9zOiAkKCRyZXNwb25zZS5pbXBvcnRlZCkiIC1Gb3JlZ3JvdW5kQ29sb3IgR3JlZW4NCiAgICAgICAgV3JpdGUtSG9zdCAiICBKYSBleGlzdGlhbTogJCgkcmVzcG9uc2Uuc2tpcHBlZCkiIC1Gb3JlZ3JvdW5kQ29sb3IgWWVsbG93DQogICAgICAgIFdyaXRlLUhvc3QgIiAgRXJyb3M6ICQoJHJlc3BvbnNlLmVycm9ycykiIC1Gb3JlZ3JvdW5kQ29sb3IgUmVkDQogICAgICAgIFdyaXRlLUhvc3QgIiINCiAgICAgICAgDQogICAgICAgICR0b3RhbEltcG9ydGVkICs9ICRyZXNwb25zZS5pbXBvcnRlZA0KICAgICAgICAkdG90YWxTa2lwcGVkICs9ICRyZXNwb25zZS5za2lwcGVkDQogICAgICAgICR0b3RhbEVycm9ycyArPSAkcmVzcG9uc2UuZXJyb3JzDQogICAgICAgIA0KICAgICAgICAjIERlbGF5IGVudHJlIHBlcmlvZG9zDQogICAgICAgIFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDUNCiAgICAgICAgDQogICAgfSBjYXRjaCB7DQogICAgICAgIFdyaXRlLUhvc3QgIkVycm8gYW8gaW1wb3J0YXIgcGVyaW9kbyAkc3RhcnQgLSAkZW5kIiAtRm9yZWdyb3VuZENvbG9yIFJlZA0KICAgICAgICBXcml0ZS1Ib3N0ICIgIERldGFsaGVzOiAkKCRfLkV4Y2VwdGlvbi5NZXNzYWdlKSIgLUZvcmVncm91bmRDb2xvciBSZWQNCiAgICAgICAgV3JpdGUtSG9zdCAiIg0KICAgICAgICAkdG90YWxFcnJvcnMrKw0KICAgIH0NCn0NCg0KV3JpdGUtSG9zdCAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIgLUZvcmVncm91bmRDb2xvciBDeWFuDQpXcml0ZS1Ib3N0ICIgUkVTVU1PIEZJTkFMIiAtRm9yZWdyb3VuZENvbG9yIEN5YW4NCldyaXRlLUhvc3QgIj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iIC1Gb3JlZ3JvdW5kQ29sb3IgQ3lhbg0KV3JpdGUtSG9zdCAiVG90YWwgSW1wb3J0YWRvczogJHRvdGFsSW1wb3J0ZWQiIC1Gb3JlZ3JvdW5kQ29sb3IgR3JlZW4NCldyaXRlLUhvc3QgIlRvdGFsIElnbm9yYWRvczogJHRvdGFsU2tpcHBlZCIgLUZvcmVncm91bmRDb2xvciBZZWxsb3cNCldyaXRlLUhvc3QgIlRvdGFsIEVycm9zOiAkdG90YWxFcnJvcnMiIC1Gb3JlZ3JvdW5kQ29sb3IgUmVkDQpXcml0ZS1Ib3N0ICIiDQpXcml0ZS1Ib3N0ICJJbXBvcnRhY2FvIGNvbmNsdWlkYSEiIC1Gb3JlZ3JvdW5kQ29sb3IgQ3lhbg0K}
+# Script para importar pedidos do Tiny em lotes de 25 dias
+# Periodo: 01/12/2024 a 28/12/2024
+
+$baseUrl = "https://dashboard-pedidos.vercel.app"
+
+# Definir periodos de 25 dias
+$periods = @(
+    @{ start = "01/12/2024"; end = "25/12/2024" },
+    @{ start = "26/12/2024"; end = "28/12/2024" }
+)
+
+Write-Host "=====================================" -ForegroundColor Cyan
+Write-Host " Importacao de Pedidos do Tiny ERP" -ForegroundColor Cyan
+Write-Host "=====================================" -ForegroundColor Cyan
+Write-Host ""
+
+$totalImported = 0
+$totalErrors = 0
+$totalSkipped = 0
+
+foreach ($period in $periods) {
+    $start = $period.start
+    $end = $period.end
+    
+    Write-Host "Importando periodo: $start ate $end" -ForegroundColor Yellow
+    Write-Host "Aguarde..." -ForegroundColor Gray
+    
+    try {
+        $body = @{
+            dataInicial = $start
+            dataFinal = $end
+        } | ConvertTo-Json
+        
+        $response = Invoke-RestMethod -Uri "$baseUrl/api/import-tiny-orders" -Method Post -Body $body -ContentType "application/json" -TimeoutSec 300
+        
+        Write-Host "Sucesso!" -ForegroundColor Green
+        Write-Host "  Total encontrado: $($response.total)" -ForegroundColor White
+        Write-Host "  Importados: $($response.imported)" -ForegroundColor Green
+        Write-Host "  Ja existiam: $($response.skipped)" -ForegroundColor Yellow
+        Write-Host "  Erros: $($response.errors)" -ForegroundColor Red
+        Write-Host ""
+        
+        $totalImported += $response.imported
+        $totalSkipped += $response.skipped
+        $totalErrors += $response.errors
+        
+        # Delay entre periodos
+        Start-Sleep -Seconds 5
+        
+    } catch {
+        Write-Host "Erro ao importar periodo $start - $end" -ForegroundColor Red
+        Write-Host "  Detalhes: $($_.Exception.Message)" -ForegroundColor Red
+        Write-Host ""
+        $totalErrors++
+    }
+}
+
+Write-Host "=====================================" -ForegroundColor Cyan
+Write-Host " RESUMO FINAL" -ForegroundColor Cyan
+Write-Host "=====================================" -ForegroundColor Cyan
+Write-Host "Total Importados: $totalImported" -ForegroundColor Green
+Write-Host "Total Ignorados: $totalSkipped" -ForegroundColor Yellow
+Write-Host "Total Erros: $totalErrors" -ForegroundColor Red
+Write-Host ""
+Write-Host "Importacao concluida!" -ForegroundColor Cyan

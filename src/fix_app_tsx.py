@@ -1,1 +1,50 @@
-﻿@{data=IyBTY3JpcHQgcGFyYSByZW9yZ2FuaXphciBBcHAudHN4IC0gbW92ZXIgZXN0YW1wYXNSb3dzIGFudGVzIGRlIGhhbmRsZUVzdGFtcGFDaGFuZ2UNCmltcG9ydCByZQ0KDQojIExlciBvIGFycXVpdm8NCndpdGggb3BlbihyJ2M6XFVzZXJzXG1pY3JpXERvd25sb2Fkc1xjb3B5LW9mLWNvcHktb2YtY29weS1vZi1kYXNoYm9hcmQtZGUtcGVkaWRvcy00NVxBcHAudHN4JywgJ3InLCBlbmNvZGluZz0ndXRmLTgnKSBhcyBmOg0KICAgIGNvbnRlbnQgPSBmLnJlYWQoKQ0KDQpsaW5lcyA9IGNvbnRlbnQuc3BsaXQoJ1xuJykNCg0KIyBFbmNvbnRyYXIgb3Mgw61uZGljZXMNCmhhbmRsZV9lc3RhbXBhX2lkeCA9IE5vbmUNCmVzdGFtcGFzX3Jvd3Nfc3RhcnQgPSBOb25lDQplc3RhbXBhc19yb3dzX2VuZCA9IE5vbmUNCg0KZm9yIGksIGxpbmUgaW4gZW51bWVyYXRlKGxpbmVzKToNCiAgICBpZiAnY29uc3QgaGFuZGxlRXN0YW1wYUNoYW5nZSA9IFJlYWN0LnVzZUNhbGxiYWNrKCh1cGRhdGVkUm93OiBFc3RhbXBhUm93KScgaW4gbGluZToNCiAgICAgICAgaGFuZGxlX2VzdGFtcGFfaWR4ID0gaQ0KICAgIGVsaWYgJ2NvbnN0IGVzdGFtcGFzUm93czogRXN0YW1wYVJvd1tdID0gUmVhY3QudXNlTWVtbygoKSA9PicgaW4gbGluZToNCiAgICAgICAgZXN0YW1wYXNfcm93c19zdGFydCA9IGkNCiAgICBlbGlmIGVzdGFtcGFzX3Jvd3Nfc3RhcnQgYW5kIGkgPiBlc3RhbXBhc19yb3dzX3N0YXJ0IGFuZCAndHJhY2tpbmdNYXBwaW5nc10pOycgaW4gbGluZSBhbmQgJ2FsbFByb2Nlc3NlZERhdGEnIGluIGxpbmU6DQogICAgICAgIGVzdGFtcGFzX3Jvd3NfZW5kID0gaQ0KDQpwcmludChmImhhbmRsZUVzdGFtcGFDaGFuZ2UgYXQgbGluZToge2hhbmRsZV9lc3RhbXBhX2lkeH0iKQ0KcHJpbnQoZiJlc3RhbXBhc1Jvd3Mgc3RhcnRzIGF0OiB7ZXN0YW1wYXNfcm93c19zdGFydH0iKQ0KcHJpbnQoZiJlc3RhbXBhc1Jvd3MgZW5kcyBhdDoge2VzdGFtcGFzX3Jvd3NfZW5kfSIpDQoNCmlmIGhhbmRsZV9lc3RhbXBhX2lkeCBpcyBub3QgTm9uZSBhbmQgZXN0YW1wYXNfcm93c19zdGFydCBpcyBub3QgTm9uZSBhbmQgZXN0YW1wYXNfcm93c19lbmQgaXMgbm90IE5vbmU6DQogICAgaWYgZXN0YW1wYXNfcm93c19zdGFydCA+IGhhbmRsZV9lc3RhbXBhX2lkeDoNCiAgICAgICAgcHJpbnQoIkHDh8ODTyBORUNFU1PDgVJJQTogbW92ZXIgZXN0YW1wYXNSb3dzIHBhcmEgYW50ZXMgZGUgaGFuZGxlRXN0YW1wYUNoYW5nZSIpDQogICAgICAgIA0KICAgICAgICAjIEV4dHJhaXIgbyBibG9jbyBkZSBlc3RhbXBhc1Jvd3MNCiAgICAgICAgZXN0YW1wYXNfYmxvY2sgPSBsaW5lc1tlc3RhbXBhc19yb3dzX3N0YXJ0OmVzdGFtcGFzX3Jvd3NfZW5kKzFdDQogICAgICAgIA0KICAgICAgICAjIFJlbW92ZXIgbyBibG9jbyBkYSBwb3Npw6fDo28gYXR1YWwNCiAgICAgICAgbmV3X2xpbmVzID0gbGluZXNbOmVzdGFtcGFzX3Jvd3Nfc3RhcnRdICsgbGluZXNbZXN0YW1wYXNfcm93c19lbmQrMTpdDQogICAgICAgIA0KICAgICAgICAjIEluc2VyaXIgYW50ZXMgZGUgaGFuZGxlRXN0YW1wYUNoYW5nZSAoYWp1c3RhciDDrW5kaWNlIGFww7NzIHJlbW/Dp8OjbykNCiAgICAgICAgaW5zZXJ0aW9uX3BvaW50ID0gaGFuZGxlX2VzdGFtcGFfaWR4DQogICAgICAgIGZpbmFsX2xpbmVzID0gbmV3X2xpbmVzWzppbnNlcnRpb25fcG9pbnRdICsgWycnXSArIGVzdGFtcGFzX2Jsb2NrICsgWycnXSArIG5ld19saW5lc1tpbnNlcnRpb25fcG9pbnQ6XQ0KICAgICAgICANCiAgICAgICAgIyBFc2NyZXZlciBkZSB2b2x0YQ0KICAgICAgICB3aXRoIG9wZW4ocidjOlxVc2Vyc1xtaWNyaVxEb3dubG9hZHNcY29weS1vZi1jb3B5LW9mLWNvcHktb2YtZGFzaGJvYXJkLWRlLXBlZGlkb3MtNDVcQXBwLnRzeCcsICd3JywgZW5jb2Rpbmc9J3V0Zi04JykgYXMgZjoNCiAgICAgICAgICAgIGYud3JpdGUoJ1xuJy5qb2luKGZpbmFsX2xpbmVzKSkNCiAgICAgICAgDQogICAgICAgIHByaW50KCLinIUgQXJxdWl2byByZW9yZ2FuaXphZG8gY29tIHN1Y2Vzc28hIikNCiAgICBlbHNlOg0KICAgICAgICBwcmludCgi4pyFIErDoSBlc3TDoSBuYSBvcmRlbSBjb3JyZXRhIikNCmVsc2U6DQogICAgcHJpbnQoIuKdjCBOw6NvIGVuY29udHJlaSBvcyBibG9jb3MgbmVjZXNzw6FyaW9zIikNCg0K}
+# Script para reorganizar App.tsx - mover estampasRows antes de handleEstampaChange
+import re
+
+# Ler o arquivo
+with open(r'c:\Users\micri\Downloads\copy-of-copy-of-copy-of-dashboard-de-pedidos-45\App.tsx', 'r', encoding='utf-8') as f:
+    content = f.read()
+
+lines = content.split('\n')
+
+# Encontrar os índices
+handle_estampa_idx = None
+estampas_rows_start = None
+estampas_rows_end = None
+
+for i, line in enumerate(lines):
+    if 'const handleEstampaChange = React.useCallback((updatedRow: EstampaRow)' in line:
+        handle_estampa_idx = i
+    elif 'const estampasRows: EstampaRow[] = React.useMemo(() =>' in line:
+        estampas_rows_start = i
+    elif estampas_rows_start and i > estampas_rows_start and 'trackingMappings]);' in line and 'allProcessedData' in line:
+        estampas_rows_end = i
+
+print(f"handleEstampaChange at line: {handle_estampa_idx}")
+print(f"estampasRows starts at: {estampas_rows_start}")
+print(f"estampasRows ends at: {estampas_rows_end}")
+
+if handle_estampa_idx is not None and estampas_rows_start is not None and estampas_rows_end is not None:
+    if estampas_rows_start > handle_estampa_idx:
+        print("AÇÃO NECESSÁRIA: mover estampasRows para antes de handleEstampaChange")
+        
+        # Extrair o bloco de estampasRows
+        estampas_block = lines[estampas_rows_start:estampas_rows_end+1]
+        
+        # Remover o bloco da posição atual
+        new_lines = lines[:estampas_rows_start] + lines[estampas_rows_end+1:]
+        
+        # Inserir antes de handleEstampaChange (ajustar índice após remoção)
+        insertion_point = handle_estampa_idx
+        final_lines = new_lines[:insertion_point] + [''] + estampas_block + [''] + new_lines[insertion_point:]
+        
+        # Escrever de volta
+        with open(r'c:\Users\micri\Downloads\copy-of-copy-of-copy-of-dashboard-de-pedidos-45\App.tsx', 'w', encoding='utf-8') as f:
+            f.write('\n'.join(final_lines))
+        
+        print("✅ Arquivo reorganizado com sucesso!")
+    else:
+        print("✅ Já está na ordem correta")
+else:
+    print("❌ Não encontrei os blocos necessários")
+

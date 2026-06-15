@@ -1,1 +1,126 @@
-﻿@{data=aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICcuLi9zZXJ2aWNlcy9zdXBhYmFzZUNsaWVudCc7DQoNCi8qKg0KICogRGlhZ25vc3RpYyBTY3JpcHQ6IENoZWNrIFJMUyBQb2xpY2llcyBmb3Igc2F2ZWRfb3JkZXJzIHRhYmxlDQogKiANCiAqIFRoaXMgc2NyaXB0IHRlc3RzIHdoZXRoZXIgdGhlIGN1cnJlbnQgdXNlci9zZXJ2aWNlIGhhcyBwcm9wZXINCiAqIERFTEVURSBwZXJtaXNzaW9ucyBvbiB0aGUgc2F2ZWRfb3JkZXJzIHRhYmxlLg0KICogDQogKiBSdW4gdGhpcyB3aXRoOiBucHggdHMtbm9kZSBzY3JpcHRzL2NoZWNrLXJscy50cw0KICovDQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrUkxTUG9saWNpZXMoKSB7DQogICAgY29uc29sZS5sb2coJ/CflI0gQ2hlY2tpbmcgUkxTIFBvbGljaWVzIGZvciBzYXZlZF9vcmRlcnMgdGFibGUuLi5cbicpOw0KDQogICAgLy8gVGVzdCAxOiBDaGVjayBpZiB3ZSBjYW4gcmVhZCBkYXRhDQogICAgY29uc29sZS5sb2coJ1Rlc3QgMTogU0VMRUNUIHBlcm1pc3Npb25zJyk7DQogICAgY29uc3QgeyBkYXRhOiBzZWxlY3REYXRhLCBlcnJvcjogc2VsZWN0RXJyb3IsIGNvdW50OiBzZWxlY3RDb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KDQogICAgaWYgKHNlbGVjdEVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBTRUxFQ1QgZmFpbGVkOicsIHNlbGVjdEVycm9yLm1lc3NhZ2UpOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGNvbnNvbGUubG9nKGDinIUgU0VMRUNUIHN1Y2Nlc3NmdWwgLSAke3NlbGVjdENvdW50fSByb3dzIGFjY2Vzc2libGVgKTsNCiAgICB9DQoNCiAgICAvLyBUZXN0IDI6IENoZWNrIGlmIHdlIGNhbiBpbnNlcnQgZGF0YSAodGVzdCByb3cpDQogICAgY29uc29sZS5sb2coJ1xuVGVzdCAyOiBJTlNFUlQgcGVybWlzc2lvbnMnKTsNCiAgICBjb25zdCB0ZXN0T3JkZXIgPSB7DQogICAgICAgIGlkOiAnVEVTVF9STFNfQ0hFQ0tfJyArIERhdGUubm93KCksDQogICAgICAgIGRhdGFfanNvbjogew0KICAgICAgICAgICAgaWQ6ICdURVNUX1JMU19DSEVDS18nICsgRGF0ZS5ub3coKSwNCiAgICAgICAgICAgIHByb2R1Y3Q6ICdURVNUJywNCiAgICAgICAgICAgIHN0b3JlOiAnVEVTVCcsDQogICAgICAgICAgICBjbnBqOiAnVEVTVCcsDQogICAgICAgICAgICBxdWFudGl0aWVzOiB7fSwNCiAgICAgICAgICAgIHRvdGFsczogeyB0b3RhbFF1YW50aXR5OiAwLCB0b3RhbENvc3Q6IDAgfSwNCiAgICAgICAgICAgIGNvbG9yczogW10sDQogICAgICAgICAgICBzaXplczogW10NCiAgICAgICAgfSwNCiAgICAgICAgYXJjaGl2ZWRfZGF0ZTogbnVsbA0KICAgIH07DQoNCiAgICBjb25zdCB7IGRhdGE6IGluc2VydERhdGEsIGVycm9yOiBpbnNlcnRFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgIC5pbnNlcnQodGVzdE9yZGVyKQ0KICAgICAgICAuc2VsZWN0KCkNCiAgICAgICAgLnNpbmdsZSgpOw0KDQogICAgaWYgKGluc2VydEVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBJTlNFUlQgZmFpbGVkOicsIGluc2VydEVycm9yLm1lc3NhZ2UpOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGNvbnNvbGUubG9nKCfinIUgSU5TRVJUIHN1Y2Nlc3NmdWwgLSB0ZXN0IHJvdyBjcmVhdGVkJyk7DQoNCiAgICAgICAgLy8gVGVzdCAzOiBDaGVjayBpZiB3ZSBjYW4gZGVsZXRlIGRhdGENCiAgICAgICAgY29uc29sZS5sb2coJ1xuVGVzdCAzOiBERUxFVEUgcGVybWlzc2lvbnMnKTsNCiAgICAgICAgY29uc3QgeyBkYXRhOiBkZWxldGVEYXRhLCBlcnJvcjogZGVsZXRlRXJyb3IsIGNvdW50OiBkZWxldGVDb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdzYXZlZF9vcmRlcnMnKQ0KICAgICAgICAgICAgLmRlbGV0ZSh7IGNvdW50OiAnZXhhY3QnIH0pDQogICAgICAgICAgICAuZXEoJ2lkJywgdGVzdE9yZGVyLmlkKQ0KICAgICAgICAgICAgLnNlbGVjdCgpOw0KDQogICAgICAgIGlmIChkZWxldGVFcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcign4p2MIERFTEVURSBmYWlsZWQ6JywgZGVsZXRlRXJyb3IubWVzc2FnZSk7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCcgICBFcnJvciBjb2RlOicsIGRlbGV0ZUVycm9yLmNvZGUpOw0KICAgICAgICAgICAgY29uc29sZS5lcnJvcignICAgRXJyb3IgaGludDonLCBkZWxldGVFcnJvci5oaW50KTsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJyAgIEVycm9yIGRldGFpbHM6JywgZGVsZXRlRXJyb3IuZGV0YWlscyk7DQoNCiAgICAgICAgICAgIC8vIFRyeSB0byBjbGVhbiB1cCBtYW51YWxseQ0KICAgICAgICAgICAgY29uc29sZS5sb2coJ1xu4pqg77iPICBBdHRlbXB0aW5nIGNsZWFudXAgd2l0aCBzZXJ2aWNlIHJvbGUuLi4nKTsNCiAgICAgICAgICAgIC8vIE5vdGU6IFRoaXMgd291bGQgcmVxdWlyZSBhIHNlcGFyYXRlIHNlcnZpY2Ugcm9sZSBjbGllbnQNCg0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgY29uc29sZS5sb2coYOKchSBERUxFVEUgc3VjY2Vzc2Z1bCAtICR7ZGVsZXRlQ291bnR9IHJvd3MgZGVsZXRlZGApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coJyAgIERlbGV0ZWQgZGF0YTonLCBkZWxldGVEYXRhKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8vIFRlc3QgNDogQ2hlY2sgaWYgd2UgY2FuIHVwZGF0ZSBkYXRhDQogICAgY29uc29sZS5sb2coJ1xuVGVzdCA0OiBVUERBVEUgcGVybWlzc2lvbnMnKTsNCiAgICBjb25zdCB7IGRhdGE6IHVwZGF0ZURhdGEsIGVycm9yOiB1cGRhdGVFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgIC51cGRhdGUoeyBhcmNoaXZlZF9kYXRlOiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkgfSkNCiAgICAgICAgLmVxKCdpZCcsIHRlc3RPcmRlci5pZCkNCiAgICAgICAgLnNlbGVjdCgpOw0KDQogICAgaWYgKHVwZGF0ZUVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBVUERBVEUgZmFpbGVkOicsIHVwZGF0ZUVycm9yLm1lc3NhZ2UpOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGNvbnNvbGUubG9nKCfinIUgVVBEQVRFIHN1Y2Nlc3NmdWwnKTsNCiAgICB9DQoNCiAgICAvLyBTdW1tYXJ5DQogICAgY29uc29sZS5sb2coJ1xuJyArICc9Jy5yZXBlYXQoNjApKTsNCiAgICBjb25zb2xlLmxvZygnU1VNTUFSWTonKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSk7DQogICAgY29uc29sZS5sb2coJ1NFTEVDVDonLCBzZWxlY3RFcnJvciA/ICfinYwgRkFJTEVEJyA6ICfinIUgT0snKTsNCiAgICBjb25zb2xlLmxvZygnSU5TRVJUOicsIGluc2VydEVycm9yID8gJ+KdjCBGQUlMRUQnIDogJ+KchSBPSycpOw0KICAgIGNvbnNvbGUubG9nKCdERUxFVEU6JywgZGVsZXRlRXJyb3IgPyAn4p2MIEZBSUxFRCcgOiAn4pyFIE9LJyk7DQogICAgY29uc29sZS5sb2coJ1VQREFURTonLCB1cGRhdGVFcnJvciA/ICfinYwgRkFJTEVEJyA6ICfinIUgT0snKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSk7DQoNCiAgICBpZiAoZGVsZXRlRXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5sb2coJ1xu4pqg77iPICBERUxFVEUgUEVSTUlTU0lPTiBJU1NVRSBERVRFQ1RFRCEnKTsNCiAgICAgICAgY29uc29sZS5sb2coJ1xuUG9zc2libGUgY2F1c2VzOicpOw0KICAgICAgICBjb25zb2xlLmxvZygnMS4gUkxTIHBvbGljeSBkb2VzIG5vdCBhbGxvdyBERUxFVEUgZm9yIGN1cnJlbnQgdXNlcicpOw0KICAgICAgICBjb25zb2xlLmxvZygnMi4gVXNpbmcgYW5vbiBrZXkgaW5zdGVhZCBvZiBzZXJ2aWNlIHJvbGUga2V5Jyk7DQogICAgICAgIGNvbnNvbGUubG9nKCczLiBSTFMgcG9saWNpZXMgYXJlIG1pc2NvbmZpZ3VyZWQnKTsNCiAgICAgICAgY29uc29sZS5sb2coJ1xuUmVjb21tZW5kZWQgYWN0aW9uczonKTsNCiAgICAgICAgY29uc29sZS5sb2coJzEuIENoZWNrIFN1cGFiYXNlIERhc2hib2FyZCDihpIgQXV0aGVudGljYXRpb24g4oaSIFBvbGljaWVzIOKGkiBzYXZlZF9vcmRlcnMnKTsNCiAgICAgICAgY29uc29sZS5sb2coJzIuIEVuc3VyZSBERUxFVEUgcG9saWN5IGV4aXN0cyBhbmQgaXMgZW5hYmxlZCcpOw0KICAgICAgICBjb25zb2xlLmxvZygnMy4gVmVyaWZ5IHlvdVwncmUgdXNpbmcgdGhlIGNvcnJlY3QgQVBJIGtleSBpbiAuZW52Jyk7DQogICAgICAgIGNvbnNvbGUubG9nKCc0LiBDb25zaWRlciB1c2luZyBzZXJ2aWNlIHJvbGUga2V5IGZvciBiYWNrZW5kIG9wZXJhdGlvbnMnKTsNCiAgICB9DQp9DQoNCi8vIFJ1biB0aGUgY2hlY2sNCmNoZWNrUkxTUG9saWNpZXMoKQ0KICAgIC50aGVuKCgpID0+IHsNCiAgICAgICAgY29uc29sZS5sb2coJ1xu4pyFIFJMUyBwb2xpY3kgY2hlY2sgY29tcGxldGUhJyk7DQogICAgICAgIHByb2Nlc3MuZXhpdCgwKTsNCiAgICB9KQ0KICAgIC5jYXRjaCgoZXJyb3IpID0+IHsNCiAgICAgICAgY29uc29sZS5lcnJvcignXG7inYwgRmF0YWwgZXJyb3IgZHVyaW5nIFJMUyBjaGVjazonLCBlcnJvcik7DQogICAgICAgIHByb2Nlc3MuZXhpdCgxKTsNCiAgICB9KTsNCg==}
+import { supabase } from '../services/supabaseClient';
+
+/**
+ * Diagnostic Script: Check RLS Policies for saved_orders table
+ * 
+ * This script tests whether the current user/service has proper
+ * DELETE permissions on the saved_orders table.
+ * 
+ * Run this with: npx ts-node scripts/check-rls.ts
+ */
+
+async function checkRLSPolicies() {
+    console.log('🔍 Checking RLS Policies for saved_orders table...\n');
+
+    // Test 1: Check if we can read data
+    console.log('Test 1: SELECT permissions');
+    const { data: selectData, error: selectError, count: selectCount } = await supabase
+        .from('saved_orders')
+        .select('*', { count: 'exact', head: true });
+
+    if (selectError) {
+        console.error('❌ SELECT failed:', selectError.message);
+    } else {
+        console.log(`✅ SELECT successful - ${selectCount} rows accessible`);
+    }
+
+    // Test 2: Check if we can insert data (test row)
+    console.log('\nTest 2: INSERT permissions');
+    const testOrder = {
+        id: 'TEST_RLS_CHECK_' + Date.now(),
+        data_json: {
+            id: 'TEST_RLS_CHECK_' + Date.now(),
+            product: 'TEST',
+            store: 'TEST',
+            cnpj: 'TEST',
+            quantities: {},
+            totals: { totalQuantity: 0, totalCost: 0 },
+            colors: [],
+            sizes: []
+        },
+        archived_date: null
+    };
+
+    const { data: insertData, error: insertError } = await supabase
+        .from('saved_orders')
+        .insert(testOrder)
+        .select()
+        .single();
+
+    if (insertError) {
+        console.error('❌ INSERT failed:', insertError.message);
+    } else {
+        console.log('✅ INSERT successful - test row created');
+
+        // Test 3: Check if we can delete data
+        console.log('\nTest 3: DELETE permissions');
+        const { data: deleteData, error: deleteError, count: deleteCount } = await supabase
+            .from('saved_orders')
+            .delete({ count: 'exact' })
+            .eq('id', testOrder.id)
+            .select();
+
+        if (deleteError) {
+            console.error('❌ DELETE failed:', deleteError.message);
+            console.error('   Error code:', deleteError.code);
+            console.error('   Error hint:', deleteError.hint);
+            console.error('   Error details:', deleteError.details);
+
+            // Try to clean up manually
+            console.log('\n⚠️  Attempting cleanup with service role...');
+            // Note: This would require a separate service role client
+
+        } else {
+            console.log(`✅ DELETE successful - ${deleteCount} rows deleted`);
+            console.log('   Deleted data:', deleteData);
+        }
+    }
+
+    // Test 4: Check if we can update data
+    console.log('\nTest 4: UPDATE permissions');
+    const { data: updateData, error: updateError } = await supabase
+        .from('saved_orders')
+        .update({ archived_date: new Date().toISOString() })
+        .eq('id', testOrder.id)
+        .select();
+
+    if (updateError) {
+        console.error('❌ UPDATE failed:', updateError.message);
+    } else {
+        console.log('✅ UPDATE successful');
+    }
+
+    // Summary
+    console.log('\n' + '='.repeat(60));
+    console.log('SUMMARY:');
+    console.log('='.repeat(60));
+    console.log('SELECT:', selectError ? '❌ FAILED' : '✅ OK');
+    console.log('INSERT:', insertError ? '❌ FAILED' : '✅ OK');
+    console.log('DELETE:', deleteError ? '❌ FAILED' : '✅ OK');
+    console.log('UPDATE:', updateError ? '❌ FAILED' : '✅ OK');
+    console.log('='.repeat(60));
+
+    if (deleteError) {
+        console.log('\n⚠️  DELETE PERMISSION ISSUE DETECTED!');
+        console.log('\nPossible causes:');
+        console.log('1. RLS policy does not allow DELETE for current user');
+        console.log('2. Using anon key instead of service role key');
+        console.log('3. RLS policies are misconfigured');
+        console.log('\nRecommended actions:');
+        console.log('1. Check Supabase Dashboard → Authentication → Policies → saved_orders');
+        console.log('2. Ensure DELETE policy exists and is enabled');
+        console.log('3. Verify you\'re using the correct API key in .env');
+        console.log('4. Consider using service role key for backend operations');
+    }
+}
+
+// Run the check
+checkRLSPolicies()
+    .then(() => {
+        console.log('\n✅ RLS policy check complete!');
+        process.exit(0);
+    })
+    .catch((error) => {
+        console.error('\n❌ Fatal error during RLS check:', error);
+        process.exit(1);
+    });

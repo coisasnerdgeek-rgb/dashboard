@@ -1,1 +1,112 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gQ3JlZGVudGlhbHMNCmNvbnN0IE9MRF9TVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly9uYnh1YmRtc2VwbmhoaHNicHpvcS5zdXBhYmFzZS5jbyc7DQpjb25zdCBPTERfU1VQQUJBU0VfS0VZID0gJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltNWllSFZpWkcxelpYQnVhR2hvYzJKd2VtOXhJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk1USTFNelV3TWl3aVpYaHdJam95TURjMk9ESTVOVEF5ZlEuTHgySDJkSGJwaHBUT2xIMFBLZC12NEU3a0pHYXJVNGhZTUtMcldCSDZ1cyc7DQoNCmNvbnN0IE5FV19TVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly9nZWFidmNxY3ltYXFzcXh4ZnF5dy5zdXBhYmFzZS5jbyc7DQpjb25zdCBORVdfU1VQQUJBU0VfS0VZID0gJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltZGxZV0oyWTNGamVXMWhjWE54ZUhobWNYbDNJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk9URTRNVEE1Tnl3aVpYaHdJam95TURnME56VTNNRGszZlEuV0p4cjllU0R6Zzd3ZlBBZ0JONk5nQUxmaVVIYy1EWWV1RmJFcUc4TjBoVSc7DQoNCmNvbnN0IG9sZFN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE9MRF9TVVBBQkFTRV9VUkwsIE9MRF9TVVBBQkFTRV9LRVkpOw0KY29uc3QgbmV3U3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIG1pZ3JhdGUoKSB7DQogICAgY29uc29sZS5sb2coJy0tLSBTdGFydGluZyBNaWdyYXRpb24gKExhc3QgNjAgRGF5cykgLS0tJyk7DQoNCiAgICAvLyAxLiBDbGVhbiBORVcgREINCiAgICBjb25zb2xlLmxvZygnMS4gQ2xlYW5pbmcgTkVXIERCIHNhdmVkX29yZGVycy4uLicpOw0KICAgIGNvbnN0IHsgZXJyb3I6IGNsZWFuRXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzYXZlZF9vcmRlcnMnKQ0KICAgICAgICAuZGVsZXRlKCkNCiAgICAgICAgLm5lcSgnaWQnLCAncGxhY2Vob2xkZXJfc2FmZXR5X2J5cGFzcycpOyAvLyBEZWxldGVzIGFsbCByb3dzDQoNCiAgICBpZiAoY2xlYW5FcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBDbGVhbmluZzonLCBjbGVhbkVycm9yLm1lc3NhZ2UpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KICAgIGNvbnNvbGUubG9nKCcgICBTdGF0czogVmFsaWRhdGVkIENsZWFuLicpOw0KDQogICAgLy8gMi4gRmV0Y2ggT0xEIERCIE9yZGVycyAoTGFzdCA2MCBEYXlzKQ0KICAgIGNvbnN0IGRhdGVMaW1pdCA9IG5ldyBEYXRlKCk7DQogICAgZGF0ZUxpbWl0LnNldERhdGUoZGF0ZUxpbWl0LmdldERhdGUoKSAtIDYwKTsNCiAgICBjb25zb2xlLmxvZyhgMi4gRmV0Y2hpbmcgb3JkZXJzIHNpbmNlICR7ZGF0ZUxpbWl0LnRvSVNPU3RyaW5nKCl9IGZyb20gT0xEIERCLi4uYCk7DQoNCiAgICBjb25zdCB7IGRhdGE6IG9sZE9yZGVycywgZXJyb3I6IGZldGNoRXJyb3IgfSA9IGF3YWl0IG9sZFN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzYXZlZF9vcmRlcnMnKQ0KICAgICAgICAuc2VsZWN0KCcqJykNCiAgICAgICAgLmd0ZSgnY3JlYXRlZF9hdCcsIGRhdGVMaW1pdC50b0lTT1N0cmluZygpKTsNCg0KICAgIGlmIChmZXRjaEVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIEZldGNoaW5nOicsIGZldGNoRXJyb3IubWVzc2FnZSk7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBpZiAoIW9sZE9yZGVycyB8fCBvbGRPcmRlcnMubGVuZ3RoID09PSAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCcgICBObyBvcmRlcnMgZm91bmQgaW4gdGhlIGxhc3QgNjAgZGF5cy4nKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKGAgICBGb3VuZCAke29sZE9yZGVycy5sZW5ndGh9IG9yZGVycyB0byBtaWdyYXRlLmApOw0KDQogICAgLy8gMy4gSW5zZXJ0IGludG8gTkVXIERCDQogICAgY29uc29sZS5sb2coJzMuIEluc2VydGluZyBpbnRvIE5FVyBEQi4uLicpOw0KDQogICAgLy8gQmF0Y2ggaW5zZXJ0IHRvIGF2b2lkIGxpbWl0cw0KICAgIGNvbnN0IEJBVENIX1NJWkUgPSA1MDsNCiAgICBmb3IgKGxldCBpID0gMDsgaSA8IG9sZE9yZGVycy5sZW5ndGg7IGkgKz0gQkFUQ0hfU0laRSkgew0KICAgICAgICBjb25zdCBiYXRjaCA9IG9sZE9yZGVycy5zbGljZShpLCBpICsgQkFUQ0hfU0laRSk7DQogICAgICAgIGNvbnN0IHsgZXJyb3I6IGluc2VydEVycm9yIH0gPSBhd2FpdCBuZXdTdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3NhdmVkX29yZGVycycpDQogICAgICAgICAgICAudXBzZXJ0KGJhdGNoKTsgLy8gVXBzZXJ0IGVuc3VyZXMgSUQgcHJlc2VydmF0aW9uDQoNCiAgICAgICAgaWYgKGluc2VydEVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKGAgICBFcnJvciBpbnNlcnRpbmcgYmF0Y2ggJHtpfTpgLCBpbnNlcnRFcnJvci5tZXNzYWdlKTsNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICBNaWdyYXRlZCBpdGVtcyAke2kgKyAxfSB0byAke01hdGgubWluKGkgKyBCQVRDSF9TSVpFLCBvbGRPcmRlcnMubGVuZ3RoKX1gKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8vIC0tLSBTUFJFQURTSEVFVCBEQVRBIE1JR1JBVElPTiAtLS0NCiAgICBjb25zb2xlLmxvZygnXG4tLS0gTWlncmF0aW5nIFNwcmVhZHNoZWV0IERhdGEgLS0tJyk7DQoNCiAgICAvLyA0LiBDbGVhbiBORVcgREIgc3ByZWFkc2hlZXRfZGF0YQ0KICAgIGNvbnNvbGUubG9nKCc0LiBDbGVhbmluZyBORVcgREIgc3ByZWFkc2hlZXRfZGF0YS4uLicpOw0KICAgIGNvbnN0IHsgZXJyb3I6IGNsZWFuU2hlZXRFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuZGVsZXRlKCkNCiAgICAgICAgLm5lcSgnaWQnLCAncGxhY2Vob2xkZXJfc2FmZXR5X2J5cGFzcycpOw0KDQogICAgaWYgKGNsZWFuU2hlZXRFcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBDbGVhbmluZyBzcHJlYWRzaGVldF9kYXRhOicsIGNsZWFuU2hlZXRFcnJvci5tZXNzYWdlKTsNCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZygnICAgU3RhdHM6IHNwcmVhZHNoZWV0X2RhdGEgQ2xlYW5lZC4nKTsNCiAgICB9DQoNCiAgICAvLyA1LiBGZXRjaCBPTEQgREIgU3ByZWFkc2hlZXQgRGF0YSAoTGFzdCA2MCBEYXlzKQ0KICAgIC8vIEFzc3VtaW5nICdpbXBvcnRfZGF0ZScgb3IgJ2NyZWF0ZWRfYXQnIGV4aXN0cy4gQmFzZWQgb24gdHlwZSBpdCBoYXMgJ2ltcG9ydERhdGUnLg0KICAgIC8vIFdlJ2xsIHRyeSB0byBmaWx0ZXIgYnkgaW1wb3J0X2RhdGUgaWYgaXQgZXhpc3RzLCBvdGhlcndpc2UganVzdCBmZXRjaCByZWNlbnQuDQogICAgLy8gTGV0J3MgYXNzdW1lIHN0YW5kYXJkICdjcmVhdGVkX2F0JyBvciAnaW1wb3J0X2RhdGUnIGNvbHVtbi4NCiAgICAvLyBDaGVja2luZyBzY2hlbWEgdmlhIHNlbGVjdDoNCiAgICBjb25zdCB7IGRhdGE6IHNoZWV0RGF0YSwgZXJyb3I6IHNoZWV0RXJyb3IgfSA9IGF3YWl0IG9sZFN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5ndGUoJ2NyZWF0ZWRfYXQnLCBkYXRlTGltaXQudG9JU09TdHJpbmcoKSk7IC8vIEFzc3VtaW5nIGNyZWF0ZWRfYXQgZXhpc3RzDQoNCiAgICBpZiAoc2hlZXRFcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBGZXRjaGluZyBzcHJlYWRzaGVldF9kYXRhOicsIHNoZWV0RXJyb3IubWVzc2FnZSk7DQogICAgfSBlbHNlIGlmIChzaGVldERhdGEgJiYgc2hlZXREYXRhLmxlbmd0aCA+IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIEZvdW5kICR7c2hlZXREYXRhLmxlbmd0aH0gc3ByZWFkc2hlZXQgZmlsZXMgdG8gbWlncmF0ZS5gKTsNCiAgICAgICAgY29uc3QgeyBlcnJvcjogaW5zZXJ0U2hlZXRFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgIC51cHNlcnQoc2hlZXREYXRhKTsNCg0KICAgICAgICBpZiAoaW5zZXJ0U2hlZXRFcnJvcikgY29uc29sZS5lcnJvcignICAgRXJyb3IgaW5zZXJ0aW5nIHNwcmVhZHNoZWV0X2RhdGE6JywgaW5zZXJ0U2hlZXRFcnJvci5tZXNzYWdlKTsNCiAgICAgICAgZWxzZSBjb25zb2xlLmxvZygnICAgU3RhdHM6IHNwcmVhZHNoZWV0X2RhdGEgTWlncmF0ZWQuJyk7DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coJyAgIE5vIHNwcmVhZHNoZWV0X2RhdGEgZm91bmQgaW4gbGFzdCA2MCBkYXlzLicpOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCctLS0gTWlncmF0aW9uIENvbXBsZXRlIC0tLScpOw0KfQ0KDQptaWdyYXRlKCk7DQo=}
+import { createClient } from '@supabase/supabase-js';
+
+// Credentials
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function migrate() {
+    console.log('--- Starting Migration (Last 60 Days) ---');
+
+    // 1. Clean NEW DB
+    console.log('1. Cleaning NEW DB saved_orders...');
+    const { error: cleanError } = await newSupabase
+        .from('saved_orders')
+        .delete()
+        .neq('id', 'placeholder_safety_bypass'); // Deletes all rows
+
+    if (cleanError) {
+        console.error('Error Cleaning:', cleanError.message);
+        return;
+    }
+    console.log('   Stats: Validated Clean.');
+
+    // 2. Fetch OLD DB Orders (Last 60 Days)
+    const dateLimit = new Date();
+    dateLimit.setDate(dateLimit.getDate() - 60);
+    console.log(`2. Fetching orders since ${dateLimit.toISOString()} from OLD DB...`);
+
+    const { data: oldOrders, error: fetchError } = await oldSupabase
+        .from('saved_orders')
+        .select('*')
+        .gte('created_at', dateLimit.toISOString());
+
+    if (fetchError) {
+        console.error('Error Fetching:', fetchError.message);
+        return;
+    }
+
+    if (!oldOrders || oldOrders.length === 0) {
+        console.log('   No orders found in the last 60 days.');
+        return;
+    }
+
+    console.log(`   Found ${oldOrders.length} orders to migrate.`);
+
+    // 3. Insert into NEW DB
+    console.log('3. Inserting into NEW DB...');
+
+    // Batch insert to avoid limits
+    const BATCH_SIZE = 50;
+    for (let i = 0; i < oldOrders.length; i += BATCH_SIZE) {
+        const batch = oldOrders.slice(i, i + BATCH_SIZE);
+        const { error: insertError } = await newSupabase
+            .from('saved_orders')
+            .upsert(batch); // Upsert ensures ID preservation
+
+        if (insertError) {
+            console.error(`   Error inserting batch ${i}:`, insertError.message);
+        } else {
+            console.log(`   Migrated items ${i + 1} to ${Math.min(i + BATCH_SIZE, oldOrders.length)}`);
+        }
+    }
+
+    // --- SPREADSHEET DATA MIGRATION ---
+    console.log('\n--- Migrating Spreadsheet Data ---');
+
+    // 4. Clean NEW DB spreadsheet_data
+    console.log('4. Cleaning NEW DB spreadsheet_data...');
+    const { error: cleanSheetError } = await newSupabase
+        .from('spreadsheet_data')
+        .delete()
+        .neq('id', 'placeholder_safety_bypass');
+
+    if (cleanSheetError) {
+        console.error('Error Cleaning spreadsheet_data:', cleanSheetError.message);
+    } else {
+        console.log('   Stats: spreadsheet_data Cleaned.');
+    }
+
+    // 5. Fetch OLD DB Spreadsheet Data (Last 60 Days)
+    // Assuming 'import_date' or 'created_at' exists. Based on type it has 'importDate'.
+    // We'll try to filter by import_date if it exists, otherwise just fetch recent.
+    // Let's assume standard 'created_at' or 'import_date' column.
+    // Checking schema via select:
+    const { data: sheetData, error: sheetError } = await oldSupabase
+        .from('spreadsheet_data')
+        .select('*')
+        .gte('created_at', dateLimit.toISOString()); // Assuming created_at exists
+
+    if (sheetError) {
+        console.error('Error Fetching spreadsheet_data:', sheetError.message);
+    } else if (sheetData && sheetData.length > 0) {
+        console.log(`   Found ${sheetData.length} spreadsheet files to migrate.`);
+        const { error: insertSheetError } = await newSupabase
+            .from('spreadsheet_data')
+            .upsert(sheetData);
+
+        if (insertSheetError) console.error('   Error inserting spreadsheet_data:', insertSheetError.message);
+        else console.log('   Stats: spreadsheet_data Migrated.');
+    } else {
+        console.log('   No spreadsheet_data found in last 60 days.');
+    }
+
+    console.log('--- Migration Complete ---');
+}
+
+migrate();

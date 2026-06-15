@@ -1,1 +1,83 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gTkVXIERCIENyZWRlbnRpYWxzDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KDQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gZGlhZ25vc2UoKSB7DQogICAgY29uc29sZS5sb2coJy0tLSBEaWFnbm9zaW5nIER1cGxpY2F0ZXMgaW4gc3ByZWFkc2hlZXRfZGF0YSAtLS0nKTsNCg0KICAgIGxldCBhbGxTaGVldHM6IGFueVtdID0gW107DQogICAgbGV0IGZyb20gPSAwOw0KICAgIGNvbnN0IGxpbWl0ID0gMTAwMDsNCiAgICBsZXQgaGFzTW9yZSA9IHRydWU7DQoNCiAgICB3aGlsZSAoaGFzTW9yZSkgew0KICAgICAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBuZXdTdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgLnNlbGVjdCgnaWQsIGltcG9ydF9kYXRlLCByb3dfZGF0YScpDQogICAgICAgICAgICAucmFuZ2UoZnJvbSwgZnJvbSArIGxpbWl0IC0gMSk7DQoNCiAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZyBzaGVldHM6JywgZXJyb3IubWVzc2FnZSk7DQogICAgICAgICAgICByZXR1cm47DQogICAgICAgIH0NCg0KICAgICAgICBpZiAoZGF0YSAmJiBkYXRhLmxlbmd0aCA+IDApIHsNCiAgICAgICAgICAgIGFsbFNoZWV0cyA9IFsuLi5hbGxTaGVldHMsIC4uLmRhdGFdOw0KICAgICAgICAgICAgZnJvbSArPSBsaW1pdDsNCiAgICAgICAgICAgIGlmIChkYXRhLmxlbmd0aCA8IGxpbWl0KSBoYXNNb3JlID0gZmFsc2U7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBoYXNNb3JlID0gZmFsc2U7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICBjb25zdCBzaGVldHMgPSBhbGxTaGVldHM7DQogICAgY29uc29sZS5sb2coYEZldGNoZWQgJHtzaGVldHMubGVuZ3RofSBzcHJlYWRzaGVldCByZWNvcmRzLmApOw0KDQogICAgY29uc3QgYWxsUm93SWRzOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+ID0ge307DQogICAgbGV0IHRvdGFsUm93cyA9IDA7DQoNCiAgICBzaGVldHMuZm9yRWFjaChzaGVldCA9PiB7DQogICAgICAgIGNvbnN0IHJvdyA9IHNoZWV0LnJvd19kYXRhOw0KICAgICAgICBpZiAoIXJvdykgcmV0dXJuOw0KDQogICAgICAgIC8vIEdlbmVyYXRlIENvbnRlbnQgS2V5IHRvIGZpbmQgZHVwbGljYXRlcyBpZ25vcmluZyB0aGUgZ2VuZXJhdGVkIElEDQogICAgICAgIC8vIEtleTogQ3VzdG9tZXIgKyBQcm9kdWN0ICsgU2l6ZSArIENvbG9yICsgRGF0ZQ0KICAgICAgICBjb25zdCBjdXN0b21lciA9IHJvdy5DbGllbnRlIHx8IHJvdy5Ob21lIHx8IHJvdy5jbGllbnRlIHx8IHJvdy5ub21lIHx8ICcnOw0KICAgICAgICBjb25zdCBwcm9kdWN0ID0gcm93LlByb2R1dG8gfHwgcm93LnByb2R1dG8gfHwgJyc7DQogICAgICAgIGNvbnN0IHNpemUgPSByb3cuVGFtYW5obyB8fCByb3cudGFtYW5obyB8fCAnJzsNCiAgICAgICAgY29uc3QgY29sb3IgPSByb3cuQ29yIHx8IHJvdy5jb3IgfHwgJyc7DQoNCiAgICAgICAgLy8gRGF0YSBmb3JtYXQgbm9ybWFsaXphdGlvbiBtaWdodCBiZSBuZWVkZWQgaWYgZm9ybWF0IHZhcmllcw0KICAgICAgICBjb25zdCBkYXRlID0gcm93LkRhdGEgfHwgcm93LmRhdGEgfHwgJyc7DQoNCiAgICAgICAgY29uc3QgY29udGVudEtleSA9IGAke2N1c3RvbWVyfXwke3Byb2R1Y3R9fCR7c2l6ZX18JHtjb2xvcn18JHtkYXRlfWA7DQoNCiAgICAgICAgLy8gT25seSBjb3VudCBpZiBrZXkgaGFzIG1lYW5pbmdmdWwgZGF0YQ0KICAgICAgICBpZiAoY3VzdG9tZXIgJiYgcHJvZHVjdCkgew0KICAgICAgICAgICAgaWYgKCFhbGxSb3dJZHNbY29udGVudEtleV0pIGFsbFJvd0lkc1tjb250ZW50S2V5XSA9IDA7DQogICAgICAgICAgICBhbGxSb3dJZHNbY29udGVudEtleV0rKzsNCiAgICAgICAgfQ0KICAgICAgICB0b3RhbFJvd3MrKzsNCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKGBUb3RhbCBGbGF0dGVuZWQgUm93czogJHt0b3RhbFJvd3N9YCk7DQoNCiAgICAvLyBDb3VudCBkdXBsaWNhdGVzDQogICAgY29uc3QgZHVwbGljYXRlS2V5cyA9IE9iamVjdC5lbnRyaWVzKGFsbFJvd0lkcykuZmlsdGVyKChbXywgY291bnRdKSA9PiBjb3VudCA+IDEpOw0KICAgIGNvbnNvbGUubG9nKGBGb3VuZCAke2R1cGxpY2F0ZUtleXMubGVuZ3RofSB1bmlxdWUgQ09OVEVOVCBzZXRzIHRoYXQgYXBwZWFyIG11bHRpcGxlIHRpbWVzLmApOw0KDQogICAgaWYgKGR1cGxpY2F0ZUtleXMubGVuZ3RoID4gMCkgew0KICAgICAgICBjb25zb2xlLmxvZygnVG9wIDUgQ29udGVudCBEdXBsaWNhdGVzOicpOw0KICAgICAgICBkdXBsaWNhdGVLZXlzLnNvcnQoKGEsIGIpID0+IGJbMV0gLSBhWzFdKS5zbGljZSgwLCA1KS5mb3JFYWNoKChba2V5LCBjb3VudF0pID0+IHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICBLZXk6ICR7a2V5LnN1YnN0cmluZygwLCA1MCl9Li4uIC0gQ291bnQ6ICR7Y291bnR9YCk7DQogICAgICAgIH0pOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGNvbnNvbGUubG9nKCdObyBjb250ZW50IGR1cGxpY2F0ZXMgZm91bmQuJyk7DQogICAgfQ0KfQ0KDQpkaWFnbm9zZSgpOw0K}
+import { createClient } from '@supabase/supabase-js';
+
+// NEW DB Credentials
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function diagnose() {
+    console.log('--- Diagnosing Duplicates in spreadsheet_data ---');
+
+    let allSheets: any[] = [];
+    let from = 0;
+    const limit = 1000;
+    let hasMore = true;
+
+    while (hasMore) {
+        const { data, error } = await newSupabase
+            .from('spreadsheet_data')
+            .select('id, import_date, row_data')
+            .range(from, from + limit - 1);
+
+        if (error) {
+            console.error('Error fetching sheets:', error.message);
+            return;
+        }
+
+        if (data && data.length > 0) {
+            allSheets = [...allSheets, ...data];
+            from += limit;
+            if (data.length < limit) hasMore = false;
+        } else {
+            hasMore = false;
+        }
+    }
+
+    const sheets = allSheets;
+    console.log(`Fetched ${sheets.length} spreadsheet records.`);
+
+    const allRowIds: Record<string, number> = {};
+    let totalRows = 0;
+
+    sheets.forEach(sheet => {
+        const row = sheet.row_data;
+        if (!row) return;
+
+        // Generate Content Key to find duplicates ignoring the generated ID
+        // Key: Customer + Product + Size + Color + Date
+        const customer = row.Cliente || row.Nome || row.cliente || row.nome || '';
+        const product = row.Produto || row.produto || '';
+        const size = row.Tamanho || row.tamanho || '';
+        const color = row.Cor || row.cor || '';
+
+        // Data format normalization might be needed if format varies
+        const date = row.Data || row.data || '';
+
+        const contentKey = `${customer}|${product}|${size}|${color}|${date}`;
+
+        // Only count if key has meaningful data
+        if (customer && product) {
+            if (!allRowIds[contentKey]) allRowIds[contentKey] = 0;
+            allRowIds[contentKey]++;
+        }
+        totalRows++;
+    });
+
+    console.log(`Total Flattened Rows: ${totalRows}`);
+
+    // Count duplicates
+    const duplicateKeys = Object.entries(allRowIds).filter(([_, count]) => count > 1);
+    console.log(`Found ${duplicateKeys.length} unique CONTENT sets that appear multiple times.`);
+
+    if (duplicateKeys.length > 0) {
+        console.log('Top 5 Content Duplicates:');
+        duplicateKeys.sort((a, b) => b[1] - a[1]).slice(0, 5).forEach(([key, count]) => {
+            console.log(`   Key: ${key.substring(0, 50)}... - Count: ${count}`);
+        });
+    } else {
+        console.log('No content duplicates found.');
+    }
+}
+
+diagnose();

@@ -1,1 +1,90 @@
-﻿@{data=LyoqDQogKiBTY3JpcHQgcGFyYSB2ZXJpZmljYXIgbyBlc3RhZG8gZGEgZmlsYSBkZSByZXRyeQ0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIC5lbnYubG9jYWwNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja1JldHJ5UXVldWUoKSB7DQogICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoU1VQQUJBU0VfVVJMLCBTVVBBQkFTRV9LRVkpOw0KDQogICAgY29uc29sZS5sb2coJ1xu8J+TiiBDaGVja2luZyBSZXRyeSBRdWV1ZSBTdGF0dXNcbicpOw0KDQogICAgLy8gQ291bnQgYnkgc3RhdHVzDQogICAgY29uc3QgeyBkYXRhOiBhbGxJdGVtcyB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCcqJykNCiAgICAgICAgLm9yZGVyKCdjcmVhdGVkX2F0JywgeyBhc2NlbmRpbmc6IGZhbHNlIH0pDQogICAgICAgIC5saW1pdCgxMDApOw0KDQogICAgaWYgKCFhbGxJdGVtcykgew0KICAgICAgICBjb25zb2xlLmxvZygn4p2MIEZhaWxlZCB0byBmZXRjaCBxdWV1ZScpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgY29uc3Qgc3RhdHVzQ291bnRzID0gYWxsSXRlbXMucmVkdWNlKChhY2M6IGFueSwgaXRlbTogYW55KSA9PiB7DQogICAgICAgIGFjY1tpdGVtLnN0YXR1c10gPSAoYWNjW2l0ZW0uc3RhdHVzXSB8fCAwKSArIDE7DQogICAgICAgIHJldHVybiBhY2M7DQogICAgfSwge30pOw0KDQogICAgY29uc29sZS5sb2coJ/Cfk4ggUXVldWUgU3VtbWFyeTonKTsNCiAgICBPYmplY3QuZW50cmllcyhzdGF0dXNDb3VudHMpLmZvckVhY2goKFtzdGF0dXMsIGNvdW50XSkgPT4gew0KICAgICAgICBjb25zb2xlLmxvZyhgICAgJHtzdGF0dXN9OiAke2NvdW50fWApOw0KICAgIH0pOw0KDQogICAgLy8gU2hvdyBwZW5kaW5nIGl0ZW1zIHRoYXQgc2hvdWxkIGhhdmUgYmVlbiBwcm9jZXNzZWQNCiAgICBjb25zdCBub3cgPSBuZXcgRGF0ZSgpOw0KICAgIGNvbnN0IHBlbmRpbmdPdmVyZHVlID0gYWxsSXRlbXMuZmlsdGVyKChpdGVtOiBhbnkpID0+DQogICAgICAgIGl0ZW0uc3RhdHVzID09PSAncGVuZGluZycgJiYgbmV3IERhdGUoaXRlbS5uZXh0X3JldHJ5X2F0KSA8IG5vdw0KICAgICk7DQoNCiAgICBpZiAocGVuZGluZ092ZXJkdWUubGVuZ3RoID4gMCkgew0KICAgICAgICBjb25zb2xlLmxvZyhgXG7imqDvuI8gIEZvdW5kICR7cGVuZGluZ092ZXJkdWUubGVuZ3RofSBPVkVSRFVFIHBlbmRpbmcgaXRlbXM6YCk7DQogICAgICAgIHBlbmRpbmdPdmVyZHVlLnNsaWNlKDAsIDEwKS5mb3JFYWNoKChpdGVtOiBhbnkpID0+IHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGBcbiAgIE9yZGVyIElEOiAke2l0ZW0ub3JkZXJfaWR9YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgQ29tcGFueTogJHtpdGVtLmNvbXBhbnl9YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgTmV4dCBSZXRyeTogJHtpdGVtLm5leHRfcmV0cnlfYXR9YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgUmV0cnkgQ291bnQ6ICR7aXRlbS5yZXRyeV9jb3VudH0vJHtpdGVtLm1heF9yZXRyaWVzfWApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIExhc3QgRXJyb3I6ICR7aXRlbS5sYXN0X2Vycm9yIHx8ICdOb25lJ31gKTsNCiAgICAgICAgfSk7DQoNCiAgICAgICAgLy8gUmVzZXQgb3ZlcmR1ZSBpdGVtcw0KICAgICAgICBjb25zb2xlLmwoYFxu8J+UhCBSZXNldHRpbmcgJHtwZW5kaW5nT3ZlcmR1ZS5sZW5ndGh9IG92ZXJkdWUgaXRlbXMuLi5gKTsNCiAgICAgICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgIC51cGRhdGUoew0KICAgICAgICAgICAgICAgIG5leHRfcmV0cnlfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKQ0KICAgICAgICAgICAgfSkNCiAgICAgICAgICAgIC5pbignaWQnLCBwZW5kaW5nT3ZlcmR1ZS5tYXAoaSA9PiBpLmlkKSk7DQoNCiAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCfinYwgRmFpbGVkIHRvIHJlc2V0OicsIGVycm9yKTsNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCfinIUgUmVzZXQgY29tcGxldGUhIEl0ZW1zIHNob3VsZCBiZSBwcm9jZXNzZWQgaW4gdGhlIG5leHQgY3ljbGUuJyk7DQogICAgICAgIH0NCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZygnXG7inIUgTm8gb3ZlcmR1ZSBpdGVtcyBmb3VuZCcpOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCdcbicgKyAnPScucmVwZWF0KDYwKSArICdcbicpOw0KfQ0KDQpjaGVja1JldHJ5UXVldWUoKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+/**
+ * Script para verificar o estado da fila de retry
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function checkRetryQueue() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n📊 Checking Retry Queue Status\n');
+
+    // Count by status
+    const { data: allItems } = await supabase
+        .from('webhook_retry_queue')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(100);
+
+    if (!allItems) {
+        console.log('❌ Failed to fetch queue');
+        return;
+    }
+
+    const statusCounts = allItems.reduce((acc: any, item: any) => {
+        acc[item.status] = (acc[item.status] || 0) + 1;
+        return acc;
+    }, {});
+
+    console.log('📈 Queue Summary:');
+    Object.entries(statusCounts).forEach(([status, count]) => {
+        console.log(`   ${status}: ${count}`);
+    });
+
+    // Show pending items that should have been processed
+    const now = new Date();
+    const pendingOverdue = allItems.filter((item: any) =>
+        item.status === 'pending' && new Date(item.next_retry_at) < now
+    );
+
+    if (pendingOverdue.length > 0) {
+        console.log(`\n⚠️  Found ${pendingOverdue.length} OVERDUE pending items:`);
+        pendingOverdue.slice(0, 10).forEach((item: any) => {
+            console.log(`\n   Order ID: ${item.order_id}`);
+            console.log(`   Company: ${item.company}`);
+            console.log(`   Next Retry: ${item.next_retry_at}`);
+            console.log(`   Retry Count: ${item.retry_count}/${item.max_retries}`);
+            console.log(`   Last Error: ${item.last_error || 'None'}`);
+        });
+
+        // Reset overdue items
+        console.l(`\n🔄 Resetting ${pendingOverdue.length} overdue items...`);
+        const { error } = await supabase
+            .from('webhook_retry_queue')
+            .update({
+                next_retry_at: new Date().toISOString()
+            })
+            .in('id', pendingOverdue.map(i => i.id));
+
+        if (error) {
+            console.error('❌ Failed to reset:', error);
+        } else {
+            console.log('✅ Reset complete! Items should be processed in the next cycle.');
+        }
+    } else {
+        console.log('\n✅ No overdue items found');
+    }
+
+    console.log('\n' + '='.repeat(60) + '\n');
+}
+
+checkRetryQueue().catch(console.error);

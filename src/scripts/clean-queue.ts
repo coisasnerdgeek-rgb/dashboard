@@ -1,1 +1,76 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmZ1bmN0aW9uIHBhcnNlUFREYXRlKGRhdGVTdHI6IHN0cmluZyk6IERhdGUgfCBudWxsIHsNCiAgICBpZiAoIWRhdGVTdHIpIHJldHVybiBudWxsOw0KICAgIGNvbnN0IHBhcnRzID0gZGF0ZVN0ci5zcGxpdCgnLycpOw0KICAgIGlmIChwYXJ0cy5sZW5ndGggIT09IDMpIHJldHVybiBudWxsOw0KICAgIC8vIEREL01NL1lZWVkgLT4gWVlZWS1NTS1ERA0KICAgIHJldHVybiBuZXcgRGF0ZShgJHtwYXJ0c1syXX0tJHtwYXJ0c1sxXX0tJHtwYXJ0c1swXX1UMTI6MDA6MDBaYCk7DQp9DQoNCmFzeW5jIGZ1bmN0aW9uIGNsZWFuUXVldWUoKSB7DQogICAgY29uc29sZS5sb2coJ0NsZWFuaW5nIHdlYmhvb2tfcmV0cnlfcXVldWUgKGl0ZW1zIDw9IDI1LzAxLzIwMjYpLi4uJyk7DQoNCiAgICAvLyBDaGVjayBTdGF0dXMgZGlzdHJpYnV0aW9uDQogICAgY29uc3QgeyBkYXRhOiBzdGF0dXNEYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykuc2VsZWN0KCdzdGF0dXMnKTsNCiAgICBjb25zdCBzdGF0dXNDb3VudHM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7fTsNCiAgICBzdGF0dXNEYXRhPy5mb3JFYWNoKHIgPT4gc3RhdHVzQ291bnRzW3Iuc3RhdHVzXSA9IChzdGF0dXNDb3VudHNbci5zdGF0dXNdIHx8IDApICsgMSk7DQogICAgY29uc29sZS5sb2coJ0N1cnJlbnQgU3RhdHVzIENvdW50czonLCBzdGF0dXNDb3VudHMpOw0KDQogICAgLy8gRmV0Y2ggYWxsIGl0ZW0ncyBJRCBhbmQgb3JkZXJfZGF0ZQ0KICAgIC8vIChJZiAyNGsgaXRlbXMgZXhpc3QsIHdlIG1pZ2h0IG5lZWQgcGFnaW5hdGlvbiwgYnV0IGxldCdzIHRyeSBmZXRjaCBmaXJzdCAxMDAwMCkNCiAgICBjb25zdCB7IGRhdGE6IHJvd3MsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJ2lkLCBvcmRlcl9kYXRlJykNCiAgICAgICAgLmxpbWl0KDEwMDAwKTsNCg0KICAgIGlmIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZzonLCBlcnJvcik7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBpZiAoIXJvd3MgfHwgcm93cy5sZW5ndGggPT09IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coJ05vIHJvd3MgZm91bmQuJyk7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBjb25zdCBjdXRPZmZEYXRlID0gbmV3IERhdGUoJzIwMjYtMDEtMjVUMjM6NTk6NTlaJyk7DQoNCiAgICBjb25zdCB0b0RlbGV0ZTogc3RyaW5nW10gPSBbXTsNCg0KICAgIHJvd3MuZm9yRWFjaChyb3cgPT4gew0KICAgICAgICBjb25zdCBvcmRlckRhdGUgPSBwYXJzZVBURGF0ZShyb3cub3JkZXJfZGF0ZSB8fCAnJyk7DQogICAgICAgIGlmIChvcmRlckRhdGUgJiYgb3JkZXJEYXRlIDw9IGN1dE9mZkRhdGUpIHsNCiAgICAgICAgICAgIHRvRGVsZXRlLnB1c2gocm93LmlkKTsNCiAgICAgICAgfSBlbHNlIGlmICghb3JkZXJEYXRlKSB7DQogICAgICAgICAgICAvLyBBbHNvIGRlbGV0ZSBpZiBkYXRlIGlzIG1pc3NpbmcvaW52YWxpZD8gVXNlciBzYWlkICJkbyBkaWEgMjUgcGFyYSB0cmFzIi4NCiAgICAgICAgICAgIC8vIElmIG1pc3NpbmcsIG1heWJlIHNhZmUgdG8gZGVsZXRlIGlmIGl0J3Mgb2xkICdjcmVhdGVkX2F0Jz8NCiAgICAgICAgICAgIC8vIExldCdzIHN0aWNrIHRvIHZhbGlkIGRhdGVzIDw9IDI1Lg0KICAgICAgICB9DQogICAgfSk7DQoNCiAgICBjb25zb2xlLmxvZyhgRm91bmQgJHt0b0RlbGV0ZS5sZW5ndGh9IGl0ZW1zIG9sZGVyIHRoYW4gb3IgZXF1YWwgdG8gMjUvMDEuYCk7DQoNCiAgICBpZiAodG9EZWxldGUubGVuZ3RoID4gMCkgew0KICAgICAgICAvLyBEZWxldGUgaW4gYmF0Y2hlcw0KICAgICAgICBjb25zdCBCQVRDSCA9IDUwMDsNCiAgICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCB0b0RlbGV0ZS5sZW5ndGg7IGkgKz0gQkFUQ0gpIHsNCiAgICAgICAgICAgIGNvbnN0IGNodW5rID0gdG9EZWxldGUuc2xpY2UoaSwgaSArIEJBVENIKTsNCiAgICAgICAgICAgIGNvbnN0IHsgZXJyb3I6IGRlbEVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgICAgICAuZGVsZXRlKCkNCiAgICAgICAgICAgICAgICAuaW4oJ2lkJywgY2h1bmspOw0KDQogICAgICAgICAgICBpZiAoZGVsRXJyb3IpIGNvbnNvbGUuZXJyb3IoJ0RlbGV0ZSBlcnJvcjonLCBkZWxFcnJvcik7DQogICAgICAgICAgICBlbHNlIGNvbnNvbGUubG9nKGBEZWxldGVkIGJhdGNoICR7aSAvIEJBVENIICsgMX0gKCR7Y2h1bmsubGVuZ3RofSBpdGVtcylgKTsNCiAgICAgICAgfQ0KICAgIH0NCiAgICBjb25zb2xlLmxvZygnRG9uZS4nKTsNCn0NCg0KY2xlYW5RdWV1ZSgpOw0K}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+function parsePTDate(dateStr: string): Date | null {
+    if (!dateStr) return null;
+    const parts = dateStr.split('/');
+    if (parts.length !== 3) return null;
+    // DD/MM/YYYY -> YYYY-MM-DD
+    return new Date(`${parts[2]}-${parts[1]}-${parts[0]}T12:00:00Z`);
+}
+
+async function cleanQueue() {
+    console.log('Cleaning webhook_retry_queue (items <= 25/01/2026)...');
+
+    // Check Status distribution
+    const { data: statusData } = await supabase.from('webhook_retry_queue').select('status');
+    const statusCounts: Record<string, number> = {};
+    statusData?.forEach(r => statusCounts[r.status] = (statusCounts[r.status] || 0) + 1);
+    console.log('Current Status Counts:', statusCounts);
+
+    // Fetch all item's ID and order_date
+    // (If 24k items exist, we might need pagination, but let's try fetch first 10000)
+    const { data: rows, error } = await supabase
+        .from('webhook_retry_queue')
+        .select('id, order_date')
+        .limit(10000);
+
+    if (error) {
+        console.error('Error fetching:', error);
+        return;
+    }
+
+    if (!rows || rows.length === 0) {
+        console.log('No rows found.');
+        return;
+    }
+
+    const cutOffDate = new Date('2026-01-25T23:59:59Z');
+
+    const toDelete: string[] = [];
+
+    rows.forEach(row => {
+        const orderDate = parsePTDate(row.order_date || '');
+        if (orderDate && orderDate <= cutOffDate) {
+            toDelete.push(row.id);
+        } else if (!orderDate) {
+            // Also delete if date is missing/invalid? User said "do dia 25 para tras".
+            // If missing, maybe safe to delete if it's old 'created_at'?
+            // Let's stick to valid dates <= 25.
+        }
+    });
+
+    console.log(`Found ${toDelete.length} items older than or equal to 25/01.`);
+
+    if (toDelete.length > 0) {
+        // Delete in batches
+        const BATCH = 500;
+        for (let i = 0; i < toDelete.length; i += BATCH) {
+            const chunk = toDelete.slice(i, i + BATCH);
+            const { error: delError } = await supabase
+                .from('webhook_retry_queue')
+                .delete()
+                .in('id', chunk);
+
+            if (delError) console.error('Delete error:', delError);
+            else console.log(`Deleted batch ${i / BATCH + 1} (${chunk.length} items)`);
+        }
+    }
+    console.log('Done.');
+}
+
+cleanQueue();

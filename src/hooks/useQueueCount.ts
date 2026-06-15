@@ -1,1 +1,37 @@
-﻿@{data=LyoqDQogKiBIb29rIHBhcmEgb2J0ZXIgY29udGFnZW0gZGEgZmlsYSBkZSByZXRyeQ0KICovDQoNCmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7DQppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gJy4uL3NlcnZpY2VzL3N1cGFiYXNlQ2xpZW50JzsNCg0KZXhwb3J0IGNvbnN0IHVzZVF1ZXVlQ291bnQgPSAoKSA9PiB7DQogICAgY29uc3QgW3BlbmRpbmdDb3VudCwgc2V0UGVuZGluZ0NvdW50XSA9IFJlYWN0LnVzZVN0YXRlKDApOw0KICAgIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IFJlYWN0LnVzZVN0YXRlKHRydWUpOw0KDQogICAgY29uc3QgcmVmcmVzaENvdW50ID0gUmVhY3QudXNlQ2FsbGJhY2soYXN5bmMgKCkgPT4gew0KICAgICAgICB0cnkgew0KICAgICAgICAgICAgY29uc3QgeyBjb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgICAgICAgICAuZXEoJ3N0YXR1cycsICdwZW5kaW5nJyk7DQoNCiAgICAgICAgICAgIHNldFBlbmRpbmdDb3VudChjb3VudCB8fCAwKTsNCiAgICAgICAgfSBjYXRjaCAoZXJyb3IpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGZldGNoaW5nIHF1ZXVlIGNvdW50OicsIGVycm9yKTsNCiAgICAgICAgfSBmaW5hbGx5IHsNCiAgICAgICAgICAgIHNldExvYWRpbmcoZmFsc2UpOw0KICAgICAgICB9DQogICAgfSwgW10pOw0KDQogICAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsNCiAgICAgICAgcmVmcmVzaENvdW50KCk7DQoNCiAgICAgICAgLy8gQXR1YWxpemFyIGEgY2FkYSAzMCBzZWd1bmRvcw0KICAgICAgICBjb25zdCBpbnRlcnZhbCA9IHNldEludGVydmFsKHJlZnJlc2hDb3VudCwgMzAwMDApOw0KDQogICAgICAgIHJldHVybiAoKSA9PiBjbGVhckludGVydmFsKGludGVydmFsKTsNCiAgICB9LCBbcmVmcmVzaENvdW50XSk7DQoNCiAgICByZXR1cm4geyBwZW5kaW5nQ291bnQsIGxvYWRpbmcsIHJlZnJlc2hDb3VudCB9Ow0KfTsNCg==}
+/**
+ * Hook para obter contagem da fila de retry
+ */
+
+import React from 'react';
+import { supabase } from '../services/supabaseClient';
+
+export const useQueueCount = () => {
+    const [pendingCount, setPendingCount] = React.useState(0);
+    const [loading, setLoading] = React.useState(true);
+
+    const refreshCount = React.useCallback(async () => {
+        try {
+            const { count } = await supabase
+                .from('webhook_retry_queue')
+                .select('*', { count: 'exact', head: true })
+                .eq('status', 'pending');
+
+            setPendingCount(count || 0);
+        } catch (error) {
+            console.error('Error fetching queue count:', error);
+        } finally {
+            setLoading(false);
+        }
+    }, []);
+
+    React.useEffect(() => {
+        refreshCount();
+
+        // Atualizar a cada 30 segundos
+        const interval = setInterval(refreshCount, 30000);
+
+        return () => clearInterval(interval);
+    }, [refreshCount]);
+
+    return { pendingCount, loading, refreshCount };
+};

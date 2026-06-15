@@ -1,1 +1,152 @@
-﻿@{data=LyoqDQogKiBSRVNFVCBFIFJFLUVORklMRUlSQVIgUEVESURPUyBET1MgRElBUyAyNy0yOQ0KICogDQogKiAxLiBEZWxldGEgcGVkaWRvcyBpbmNvcnJldG9zIGRvIHNwcmVhZHNoZWV0X2RhdGENCiAqIDIuIEFkaWNpb25hIG5hIGZpbGEgZGUgcmV0cnkgcGFyYSByZXByb2Nlc3NhbWVudG8gY29ycmV0bw0KICogMy4gRGVwb2lzLCBjbGlxdWUgZW0gIkF0dWFsaXphciBTdGF0dXMiIG5vIHNpdGUNCiAqLw0KDQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KLy8gTG9hZCAuZW52LmxvY2FsDQpjb25zdCBlbnZQYXRoID0gcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQppZiAoZnMuZXhpc3RzU3luYyhlbnZQYXRoKSkgew0KICAgIGNvbnN0IGVudkZpbGUgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0ZjgnKTsNCiAgICBlbnZGaWxlLnNwbGl0KCdcbicpLmZvckVhY2gobGluZSA9PiB7DQogICAgICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj06I10rKT0oLiopJC8pOw0KICAgICAgICBpZiAobWF0Y2gpIHsNCiAgICAgICAgICAgIGNvbnN0IGtleSA9IG1hdGNoWzFdLnRyaW0oKTsNCiAgICAgICAgICAgIGNvbnN0IHZhbHVlID0gbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL15bIiddfFsiJ10kL2csICcnKTsNCiAgICAgICAgICAgIGlmICghcHJvY2Vzcy5lbnZba2V5XSkgcHJvY2Vzcy5lbnZba2V5XSA9IHZhbHVlOw0KICAgICAgICB9DQogICAgfSk7DQp9DQoNCmNvbnN0IFNVUEFCQVNFX1VSTCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZITsNCg0KYXN5bmMgZnVuY3Rpb24gcmVzZXRBbmRSZXF1ZXVlKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCflIQgUkVTRVQgRSBSRS1FTkZJTEVJUkFNRU5UTyBET1MgRElBUyAyNy0yOVxuJyk7DQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCg0KICAgIGNvbnN0IGRhdGVzID0gWycyNy8wMS8yMDI2JywgJzI4LzAxLzIwMjYnLCAnMjkvMDEvMjAyNiddOw0KICAgIGNvbnN0IHRpbnlJZHNUb1JlcXVldWUgPSBuZXcgU2V0PHN0cmluZz4oKTsNCg0KICAgIC8vIFBBU1NPIDE6IENvbGV0YXIgSURzIFRpbnkgZG9zIHBlZGlkb3MgYSBkZWxldGFyDQogICAgY29uc29sZS5sb2coJ/Cfk4sgUEFTU08gMTogSWRlbnRpZmljYW5kbyBwZWRpZG9zIGEgcmVzZXRhci4uLlxuJyk7DQoNCiAgICBmb3IgKGNvbnN0IGRhdGUgb2YgZGF0ZXMpIHsNCiAgICAgICAgY29uc3QgeyBkYXRhOiBvcmRlcnMgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAuc2VsZWN0KCdyb3dfZGF0YScpDQogICAgICAgICAgICAuZXEoJ3Jvd19kYXRhLT4+RGF0YScsIGRhdGUpOw0KDQogICAgICAgIGlmIChvcmRlcnMgJiYgb3JkZXJzLmxlbmd0aCA+IDApIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICAke2RhdGV9OiAke29yZGVycy5sZW5ndGh9IHJlZ2lzdHJvcyBlbmNvbnRyYWRvc2ApOw0KDQogICAgICAgICAgICBvcmRlcnMuZm9yRWFjaCgob3JkZXI6IGFueSkgPT4gew0KICAgICAgICAgICAgICAgIGNvbnN0IHRpbnlJZCA9IG9yZGVyLnJvd19kYXRhWydJRCBUaW55J107DQogICAgICAgICAgICAgICAgaWYgKHRpbnlJZCkgew0KICAgICAgICAgICAgICAgICAgICB0aW55SWRzVG9SZXF1ZXVlLmFkZChTdHJpbmcodGlueUlkKSk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgJHtkYXRlfTogTmVuaHVtIHJlZ2lzdHJvIGVuY29udHJhZG9gKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIGNvbnN0IHVuaXF1ZU9yZGVycyA9IEFycmF5LmZyb20odGlueUlkc1RvUmVxdWV1ZSk7DQogICAgY29uc29sZS5sb2coYFxuICAg4pyFIFRvdGFsIGRlIHBlZGlkb3Mgw7puaWNvczogJHt1bmlxdWVPcmRlcnMubGVuZ3RofVxuYCk7DQoNCiAgICBpZiAodW5pcXVlT3JkZXJzLmxlbmd0aCA9PT0gMCkgew0KICAgICAgICBjb25zb2xlLmxvZygn4p2MIE5lbmh1bSBwZWRpZG8gZW5jb250cmFkbyBwYXJhIHByb2Nlc3NhciFcbicpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgLy8gUEFTU08gMjogRGVsZXRhciByZWdpc3Ryb3MgZG8gc3ByZWFkc2hlZXRfZGF0YQ0KICAgIGNvbnNvbGUubG9nKCfwn5eR77iPICBQQVNTTyAyOiBEZWxldGFuZG8gcmVnaXN0cm9zIGFudGlnb3MuLi5cbicpOw0KDQogICAgZm9yIChjb25zdCBkYXRlIG9mIGRhdGVzKSB7DQogICAgICAgIGNvbnN0IHsgZXJyb3IsIGNvdW50IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgLmRlbGV0ZSh7IGNvdW50OiAnZXhhY3QnIH0pDQogICAgICAgICAgICAuZXEoJ3Jvd19kYXRhLT4+RGF0YScsIGRhdGUpOw0KDQogICAgICAgIGlmIChlcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcihgICAg4p2MIEVycm8gYW8gZGVsZXRhciAke2RhdGV9OmAsIGVycm9yLm1lc3NhZ2UpOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIOKchSAke2RhdGV9OiAke2NvdW50IHx8IDB9IHJlZ2lzdHJvcyBkZWxldGFkb3NgKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8vIFBBU1NPIDM6IEFkaWNpb25hciBuYSBmaWxhIGRlIHJldHJ5DQogICAgY29uc29sZS5sb2coJ1xu8J+TpSBQQVNTTyAzOiBBZGljaW9uYW5kbyBuYSBmaWxhIGRlIHJldHJ5Li4uXG4nKTsNCg0KICAgIGxldCBhZGRlZCA9IDA7DQogICAgbGV0IHNraXBwZWQgPSAwOw0KDQogICAgZm9yIChjb25zdCB0aW55SWQgb2YgdW5pcXVlT3JkZXJzKSB7DQogICAgICAgIC8vIFZlcmlmaWNhciBzZSBqw6EgZXhpc3RlIG5hIGZpbGENCiAgICAgICAgY29uc3QgeyBkYXRhOiBleGlzdGluZyB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgIC5zZWxlY3QoJ2lkJykNCiAgICAgICAgICAgIC5lcSgnb3JkZXJfaWQnLCB0aW55SWQpDQogICAgICAgICAgICAubWF5YmVTaW5nbGUoKTsNCg0KICAgICAgICBpZiAoZXhpc3RpbmcpIHsNCiAgICAgICAgICAgIC8vIErDoSBleGlzdGUsIGF0dWFsaXphciBzdGF0dXMgcGFyYSBwZW5kaW5nDQogICAgICAgICAgICBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgICAgICAudXBkYXRlKHsNCiAgICAgICAgICAgICAgICAgICAgc3RhdHVzOiAncGVuZGluZycsDQogICAgICAgICAgICAgICAgICAgIHJldHJ5X2NvdW50OiAwLA0KICAgICAgICAgICAgICAgICAgICBsYXN0X2Vycm9yOiBudWxsLA0KICAgICAgICAgICAgICAgICAgICB1cGRhdGVkX2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkNCiAgICAgICAgICAgICAgICB9KQ0KICAgICAgICAgICAgICAgIC5lcSgnb3JkZXJfaWQnLCB0aW55SWQpOw0KDQogICAgICAgICAgICBza2lwcGVkKys7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAvLyBBZGljaW9uYXIgbm92bw0KICAgICAgICAgICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAgICAgLmluc2VydCh7DQogICAgICAgICAgICAgICAgICAgIG9yZGVyX2lkOiB0aW55SWQsDQogICAgICAgICAgICAgICAgICAgIHN0YXR1czogJ3BlbmRpbmcnLA0KICAgICAgICAgICAgICAgICAgICByZXRyeV9jb3VudDogMCwNCiAgICAgICAgICAgICAgICAgICAgb3JkZXJfZGF0ZTogbnVsbCwgLy8gU2Vyw6EgcHJlZW5jaGlkbyBhbyBwcm9jZXNzYXINCiAgICAgICAgICAgICAgICAgICAgY3JlYXRlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLA0KICAgICAgICAgICAgICAgICAgICB1cGRhdGVkX2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkNCiAgICAgICAgICAgICAgICB9KTsNCg0KICAgICAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcihgICAg4pqg77iPICBFcnJvIGFvIGFkaWNpb25hciAjJHt0aW55SWR9OmAsIGVycm9yLm1lc3NhZ2UpOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBhZGRlZCsrOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgLy8gUHJvZ3Jlc3MNCiAgICAgICAgaWYgKChhZGRlZCArIHNraXBwZWQpICUgNTAgPT09IDApIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICBQcm9ncmVzc286ICR7YWRkZWQgKyBza2lwcGVkfS8ke3VuaXF1ZU9yZGVycy5sZW5ndGh9YCk7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZyhgXG4gICDinIUgTm92b3M6ICR7YWRkZWR9YCk7DQogICAgY29uc29sZS5sb2coYCAgIOKZu++4jyAgQXR1YWxpemFkb3M6ICR7c2tpcHBlZH1gKTsNCiAgICBjb25zb2xlLmxvZyhgICAg8J+TiiBUb3RhbCBuYSBmaWxhOiAke2FkZGVkICsgc2tpcHBlZH1gKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbicgKyAnPScucmVwZWF0KDYwKSk7DQogICAgY29uc29sZS5sb2coJ1xu4pyFIENPTkNMVcONRE8hXG4nKTsNCiAgICBjb25zb2xlLmxvZygn8J+TiyBQUsOTWElNT1MgUEFTU09TOlxuJyk7DQogICAgY29uc29sZS5sb2coJyAgIDEuIEFjZXNzZSBvIHNpdGU6IGh0dHBzOi8vZGFzaGJvYXJkLXBlZGlkb3MudmVyY2VsLmFwcCcpOw0KICAgIGNvbnNvbGUubG9nKCcgICAyLiBDbGlxdWUgbm8gYm90w6NvICJBdHVhbGl6YXIgU3RhdHVzIiAob3UgIlByb2Nlc3NhciBGaWxhIiknKTsNCiAgICBjb25zb2xlLmxvZygnICAgMy4gQWd1YXJkZSBvIHByb2Nlc3NhbWVudG8gKHBvZGUgZGVtb3JhciBhbGd1bnMgbWludXRvcyknKTsNCiAgICBjb25zb2xlLmxvZygnICAgNC4gQXR1YWxpemUgYSBww6FnaW5hIChDdHJsICsgRjUpIHBhcmEgdmVyIG9zIHBlZGlkb3MgY29ycmV0b3NcbicpOw0KfQ0KDQpyZXNldEFuZFJlcXVldWUoKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+/**
+ * RESET E RE-ENFILEIRAR PEDIDOS DOS DIAS 27-29
+ * 
+ * 1. Deleta pedidos incorretos do spreadsheet_data
+ * 2. Adiciona na fila de retry para reprocessamento correto
+ * 3. Depois, clique em "Atualizar Status" no site
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function resetAndRequeue() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🔄 RESET E RE-ENFILEIRAMENTO DOS DIAS 27-29\n');
+    console.log('='.repeat(60) + '\n');
+
+    const dates = ['27/01/2026', '28/01/2026', '29/01/2026'];
+    const tinyIdsToRequeue = new Set<string>();
+
+    // PASSO 1: Coletar IDs Tiny dos pedidos a deletar
+    console.log('📋 PASSO 1: Identificando pedidos a resetar...\n');
+
+    for (const date of dates) {
+        const { data: orders } = await supabase
+            .from('spreadsheet_data')
+            .select('row_data')
+            .eq('row_data->>Data', date);
+
+        if (orders && orders.length > 0) {
+            console.log(`   ${date}: ${orders.length} registros encontrados`);
+
+            orders.forEach((order: any) => {
+                const tinyId = order.row_data['ID Tiny'];
+                if (tinyId) {
+                    tinyIdsToRequeue.add(String(tinyId));
+                }
+            });
+        } else {
+            console.log(`   ${date}: Nenhum registro encontrado`);
+        }
+    }
+
+    const uniqueOrders = Array.from(tinyIdsToRequeue);
+    console.log(`\n   ✅ Total de pedidos únicos: ${uniqueOrders.length}\n`);
+
+    if (uniqueOrders.length === 0) {
+        console.log('❌ Nenhum pedido encontrado para processar!\n');
+        return;
+    }
+
+    // PASSO 2: Deletar registros do spreadsheet_data
+    console.log('🗑️  PASSO 2: Deletando registros antigos...\n');
+
+    for (const date of dates) {
+        const { error, count } = await supabase
+            .from('spreadsheet_data')
+            .delete({ count: 'exact' })
+            .eq('row_data->>Data', date);
+
+        if (error) {
+            console.error(`   ❌ Erro ao deletar ${date}:`, error.message);
+        } else {
+            console.log(`   ✅ ${date}: ${count || 0} registros deletados`);
+        }
+    }
+
+    // PASSO 3: Adicionar na fila de retry
+    console.log('\n📥 PASSO 3: Adicionando na fila de retry...\n');
+
+    let added = 0;
+    let skipped = 0;
+
+    for (const tinyId of uniqueOrders) {
+        // Verificar se já existe na fila
+        const { data: existing } = await supabase
+            .from('webhook_retry_queue')
+            .select('id')
+            .eq('order_id', tinyId)
+            .maybeSingle();
+
+        if (existing) {
+            // Já existe, atualizar status para pending
+            await supabase
+                .from('webhook_retry_queue')
+                .update({
+                    status: 'pending',
+                    retry_count: 0,
+                    last_error: null,
+                    updated_at: new Date().toISOString()
+                })
+                .eq('order_id', tinyId);
+
+            skipped++;
+        } else {
+            // Adicionar novo
+            const { error } = await supabase
+                .from('webhook_retry_queue')
+                .insert({
+                    order_id: tinyId,
+                    status: 'pending',
+                    retry_count: 0,
+                    order_date: null, // Será preenchido ao processar
+                    created_at: new Date().toISOString(),
+                    updated_at: new Date().toISOString()
+                });
+
+            if (error) {
+                console.error(`   ⚠️  Erro ao adicionar #${tinyId}:`, error.message);
+            } else {
+                added++;
+            }
+        }
+
+        // Progress
+        if ((added + skipped) % 50 === 0) {
+            console.log(`   Progresso: ${added + skipped}/${uniqueOrders.length}`);
+        }
+    }
+
+    console.log(`\n   ✅ Novos: ${added}`);
+    console.log(`   ♻️  Atualizados: ${skipped}`);
+    console.log(`   📊 Total na fila: ${added + skipped}`);
+
+    console.log('\n' + '='.repeat(60));
+    console.log('\n✅ CONCLUÍDO!\n');
+    console.log('📋 PRÓXIMOS PASSOS:\n');
+    console.log('   1. Acesse o site: https://dashboard-pedidos.vercel.app');
+    console.log('   2. Clique no botão "Atualizar Status" (ou "Processar Fila")');
+    console.log('   3. Aguarde o processamento (pode demorar alguns minutos)');
+    console.log('   4. Atualize a página (Ctrl + F5) para ver os pedidos corretos\n');
+}
+
+resetAndRequeue().catch(console.error);

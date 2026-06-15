@@ -1,1 +1,56 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gTkVXIERCIENyZWRlbnRpYWxzDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KDQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gZGVsZXRlQmFkU291cmNlcygpIHsNCiAgICBjb25zb2xlLmxvZygnLS0tIERlbGV0aW5nIFNjcmlwdC1JbXBvcnRlZCBEYXRhIChSRVNUT1JFRF9EQVRBX1YyKSAtLS0nKTsNCg0KICAgIGNvbnN0IGZpbGVuYW1lVG9EZWxldGUgPSAnUkVTVE9SRURfREFUQV9WMi54bHN4JzsNCg0KICAgIC8vIDEuIENvdW50IGJlZm9yZQ0KICAgIGNvbnN0IHsgY291bnQ6IGNvdW50QmVmb3JlLCBlcnJvcjogY291bnRFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KQ0KICAgICAgICAuZXEoJ2ZpbGVuYW1lJywgZmlsZW5hbWVUb0RlbGV0ZSk7DQoNCiAgICBpZiAoY291bnRFcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBjb3VudGluZyB0YXJnZXQgcm93czonLCBjb3VudEVycm9yKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKGBJZGVudGlmaWVkICR7Y291bnRCZWZvcmV9IHJvd3Mgd2l0aCBmaWxlbmFtZTogIiR7ZmlsZW5hbWVUb0RlbGV0ZX0iYCk7DQoNCiAgICBpZiAoIWNvdW50QmVmb3JlIHx8IGNvdW50QmVmb3JlID09PSAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCdOb3RoaW5nIHRvIGRlbGV0ZS4nKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIC8vIDIuIERlbGV0ZQ0KICAgIGNvbnN0IHsgZXJyb3I6IGRlbGV0ZUVycm9yIH0gPSBhd2FpdCBuZXdTdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5kZWxldGUoKQ0KICAgICAgICAuZXEoJ2ZpbGVuYW1lJywgZmlsZW5hbWVUb0RlbGV0ZSk7DQoNCiAgICBpZiAoZGVsZXRlRXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgZGVsZXRpbmcgcm93czonLCBkZWxldGVFcnJvcik7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygnU3VjY2Vzc2Z1bGx5IGRlbGV0ZWQgcm93cy4nKTsNCg0KICAgIC8vIDMuIFZlcmlmeSBSZW1haW5pbmcgU291cmNlcw0KICAgIGNvbnN0IHsgZGF0YTogcmVtYWluaW5nLCBlcnJvcjogbGlzdEVycm9yIH0gPSBhd2FpdCBuZXdTdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJ2ZpbGVuYW1lJyk7DQoNCiAgICBpZiAocmVtYWluaW5nKSB7DQogICAgICAgIGNvbnN0IHVuaXF1ZSA9IFsuLi5uZXcgU2V0KHJlbWFpbmluZy5tYXAociA9PiByLmZpbGVuYW1lKSldOw0KICAgICAgICBjb25zb2xlLmxvZygnUmVtYWluaW5nIGZpbGVzIGluIERCOicsIHVuaXF1ZSk7DQogICAgfQ0KfQ0KDQpkZWxldGVCYWRTb3VyY2VzKCk7DQo=}
+import { createClient } from '@supabase/supabase-js';
+
+// NEW DB Credentials
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function deleteBadSources() {
+    console.log('--- Deleting Script-Imported Data (RESTORED_DATA_V2) ---');
+
+    const filenameToDelete = 'RESTORED_DATA_V2.xlsx';
+
+    // 1. Count before
+    const { count: countBefore, error: countError } = await newSupabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true })
+        .eq('filename', filenameToDelete);
+
+    if (countError) {
+        console.error('Error counting target rows:', countError);
+        return;
+    }
+
+    console.log(`Identified ${countBefore} rows with filename: "${filenameToDelete}"`);
+
+    if (!countBefore || countBefore === 0) {
+        console.log('Nothing to delete.');
+        return;
+    }
+
+    // 2. Delete
+    const { error: deleteError } = await newSupabase
+        .from('spreadsheet_data')
+        .delete()
+        .eq('filename', filenameToDelete);
+
+    if (deleteError) {
+        console.error('Error deleting rows:', deleteError);
+        return;
+    }
+
+    console.log('Successfully deleted rows.');
+
+    // 3. Verify Remaining Sources
+    const { data: remaining, error: listError } = await newSupabase
+        .from('spreadsheet_data')
+        .select('filename');
+
+    if (remaining) {
+        const unique = [...new Set(remaining.map(r => r.filename))];
+        console.log('Remaining files in DB:', unique);
+    }
+}
+
+deleteBadSources();

@@ -1,1 +1,100 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgaHR0cHMgPSByZXF1aXJlKCdodHRwcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KLy8gTG9hZCBlbnZpcm9ubWVudA0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHsNCiAgICAgICAgcHJvY2Vzcy5lbnZbbWF0Y2hbMV0udHJpbSgpXSA9IG1hdGNoWzJdLnRyaW0oKTsNCiAgICB9DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQphc3luYyBmdW5jdGlvbiB3aXBlQW5kUmVzeW5jKCkgew0KICAgIGNvbnNvbGUubG9nKCfwn5KjIFdJUElORyBMQVNUIDIgREFZUyAmIFJFU1lOQ0lOR1xuJyk7DQoNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQogICAgY29uc3QgdHdvRGF5c0FnbyA9IG5ldyBEYXRlKCk7DQogICAgdHdvRGF5c0Fnby5zZXREYXRlKHR3b0RheXNBZ28uZ2V0RGF0ZSgpIC0gMik7DQoNCiAgICAvLyBEZWxldGUgZnJvbSBzcHJlYWRzaGVldF9kYXRhIChsw61uZWEgMTEzIGNoZWNhIGVzdG8gcHJpbWVybyEpDQogICAgY29uc29sZS5sb2coJ/Cfl5HvuI8gIFN0ZXAgMTogRGVsZXRpbmcgZnJvbSBzcHJlYWRzaGVldF9kYXRhLi4uJyk7DQogICAgY29uc3QgeyBkYXRhOiBhbGxPcmRlcnMgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnaWQsIHJvd19kYXRhJyk7DQoNCiAgICBjb25zdCBpZHNUb0RlbGV0ZSA9IFtdOw0KICAgIGFsbE9yZGVycz8uZm9yRWFjaChvcmRlciA9PiB7DQogICAgICAgIGNvbnN0IGRhdGVTdHIgPSBvcmRlci5yb3dfZGF0YT8uWydEYXRhJ107DQogICAgICAgIGlmIChkYXRlU3RyKSB7DQogICAgICAgICAgICBjb25zdCBbZGF5LCBtb250aCwgeWVhcl0gPSBTdHJpbmcoZGF0ZVN0cikuc3BsaXQoJy8nKS5tYXAoTnVtYmVyKTsNCiAgICAgICAgICAgIGlmICh5ZWFyICYmIG1vbnRoICYmIGRheSkgew0KICAgICAgICAgICAgICAgIGNvbnN0IGRhdGUgPSBuZXcgRGF0ZSh5ZWFyLCBtb250aCAtIDEsIGRheSk7DQogICAgICAgICAgICAgICAgaWYgKGRhdGUgPj0gdHdvRGF5c0Fnbykgew0KICAgICAgICAgICAgICAgICAgICBpZHNUb0RlbGV0ZS5wdXNoKG9yZGVyLmlkKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKGAgICBGb3VuZCAke2lkc1RvRGVsZXRlLmxlbmd0aH0gb3JkZXJzIHRvIGRlbGV0ZVxuYCk7DQoNCiAgICBpZiAoaWRzVG9EZWxldGUubGVuZ3RoID4gMCkgew0KICAgICAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykuZGVsZXRlKCkuaW4oJ2lkJywgaWRzVG9EZWxldGUpOw0KICAgICAgICBjb25zb2xlLmxvZygnICAg4pyFIERlbGV0ZWQgZnJvbSBzcHJlYWRzaGVldF9kYXRhXG4nKTsNCiAgICB9DQoNCiAgICAvLyBEZWxldGUgZnJvbSBxdWV1ZQ0KICAgIGNvbnNvbGUubG9nKCfwn5eR77iPICBTdGVwIDI6IFdpcGluZyBxdWV1ZS4uLicpOw0KICAgIGNvbnN0IHsgZGF0YTogcXVldWUgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKS5zZWxlY3QoJ2lkJyk7DQogICAgaWYgKHF1ZXVlICYmIHF1ZXVlLmxlbmd0aCA+IDApIHsNCiAgICAgICAgY29uc3QgcXVldWVJZHMgPSBxdWV1ZS5tYXAocSA9PiBxLmlkKTsNCiAgICAgICAgYXdhaXQgc3VwYWJhc2UuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpLmRlbGV0ZSgpLmluKCdpZCcsIHF1ZXVlSWRzKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIOKchSBEZWxldGVkICR7cXVldWUubGVuZ3RofSBmcm9tIHF1ZXVlXG5gKTsNCiAgICB9DQoNCiAgICAvLyBTeW5jDQogICAgY29uc29sZS5sb2coJ/Cfk6EgU3RlcCAzOiBTeW5jaW5nIGZyZXNoIGRhdGEuLi5cbicpOw0KDQogICAgY29uc3QgcG9zdERhdGEgPSBKU09OLnN0cmluZ2lmeSh7IGRheXNCYWNrOiAyIH0pOw0KICAgIGNvbnN0IG9wdGlvbnMgPSB7DQogICAgICAgIGhvc3RuYW1lOiAnZGFzaGJvYXJkLXBlZGlkb3MudmVyY2VsLmFwcCcsDQogICAgICAgIHBvcnQ6IDQ0MywNCiAgICAgICAgcGF0aDogJy9hcGkvc3luYy10aW55JywNCiAgICAgICAgbWV0aG9kOiAnUE9TVCcsDQogICAgICAgIGhlYWRlcnM6IHsNCiAgICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsDQogICAgICAgICAgICAnQ29udGVudC1MZW5ndGgnOiBCdWZmZXIuYnl0ZUxlbmd0aChwb3N0RGF0YSkNCiAgICAgICAgfQ0KICAgIH07DQoNCiAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHsNCiAgICAgICAgY29uc3QgcmVxID0gaHR0cHMucmVxdWVzdChvcHRpb25zLCAocmVzKSA9PiB7DQogICAgICAgICAgICBsZXQgZGF0YSA9ICcnOw0KICAgICAgICAgICAgcmVzLm9uKCdkYXRhJywgY2h1bmsgPT4gZGF0YSArPSBjaHVuayk7DQogICAgICAgICAgICByZXMub24oJ2VuZCcsICgpID0+IHsNCiAgICAgICAgICAgICAgICBjb25zdCByZXN1bHQgPSBKU09OLnBhcnNlKGRhdGEpOw0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5KHJlc3VsdCwgbnVsbCwgMikpOw0KDQogICAgICAgICAgICAgICAgaWYgKHJlc3VsdC5zdGF0cz8uYWRkZWQgPiAwKSB7DQogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGBcbuKchSBTVUNDRVNTISAke3Jlc3VsdC5zdGF0cy5hZGRlZH0gb3JkZXJzIGFkZGVkIHRvIHF1ZXVlIWApOw0KICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygn8J+TjCBOb3cgY2xpY2sgIlByb2Nlc3NhciBGaWxhIiBpbiBkYXNoYm9hcmQhXG4nKTsNCiAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnXG7imqDvuI8gIE5vIG9yZGVycyBhZGRlZC4gQ2hlY2sgYWJvdmUuXG4nKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgcmVzb2x2ZShyZXN1bHQpOw0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0pOw0KICAgICAgICByZXEub24oJ2Vycm9yJywgZXJyID0+IGNvbnNvbGUuZXJyb3IoJ0Vycm9yOicsIGVyci5tZXNzYWdlKSk7DQogICAgICAgIHJlcS53cml0ZShwb3N0RGF0YSk7DQogICAgICAgIHJlcS5lbmQoKTsNCiAgICB9KTsNCn0NCg0Kc2V0VGltZW91dCgoKSA9PiB3aXBlQW5kUmVzeW5jKCkuY2F0Y2goY29uc29sZS5lcnJvciksIDIwMDApOw0K}
+const { createClient } = require('@supabase/supabase-js');
+const https = require('https');
+const fs = require('fs');
+const path = require('path');
+
+// Load environment
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) {
+        process.env[match[1].trim()] = match[2].trim();
+    }
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function wipeAndResync() {
+    console.log('💣 WIPING LAST 2 DAYS & RESYNCING\n');
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+    const twoDaysAgo = new Date();
+    twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+
+    // Delete from spreadsheet_data (línea 113 checa esto primero!)
+    console.log('🗑️  Step 1: Deleting from spreadsheet_data...');
+    const { data: allOrders } = await supabase
+        .from('spreadsheet_data')
+        .select('id, row_data');
+
+    const idsToDelete = [];
+    allOrders?.forEach(order => {
+        const dateStr = order.row_data?.['Data'];
+        if (dateStr) {
+            const [day, month, year] = String(dateStr).split('/').map(Number);
+            if (year && month && day) {
+                const date = new Date(year, month - 1, day);
+                if (date >= twoDaysAgo) {
+                    idsToDelete.push(order.id);
+                }
+            }
+        }
+    });
+
+    console.log(`   Found ${idsToDelete.length} orders to delete\n`);
+
+    if (idsToDelete.length > 0) {
+        await supabase.from('spreadsheet_data').delete().in('id', idsToDelete);
+        console.log('   ✅ Deleted from spreadsheet_data\n');
+    }
+
+    // Delete from queue
+    console.log('🗑️  Step 2: Wiping queue...');
+    const { data: queue } = await supabase.from('webhook_retry_queue').select('id');
+    if (queue && queue.length > 0) {
+        const queueIds = queue.map(q => q.id);
+        await supabase.from('webhook_retry_queue').delete().in('id', queueIds);
+        console.log(`   ✅ Deleted ${queue.length} from queue\n`);
+    }
+
+    // Sync
+    console.log('📡 Step 3: Syncing fresh data...\n');
+
+    const postData = JSON.stringify({ daysBack: 2 });
+    const options = {
+        hostname: 'dashboard-pedidos.vercel.app',
+        port: 443,
+        path: '/api/sync-tiny',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Content-Length': Buffer.byteLength(postData)
+        }
+    };
+
+    return new Promise((resolve) => {
+        const req = https.request(options, (res) => {
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => {
+                const result = JSON.parse(data);
+                console.log(JSON.stringify(result, null, 2));
+
+                if (result.stats?.added > 0) {
+                    console.log(`\n✅ SUCCESS! ${result.stats.added} orders added to queue!`);
+                    console.log('📌 Now click "Processar Fila" in dashboard!\n');
+                } else {
+                    console.log('\n⚠️  No orders added. Check above.\n');
+                }
+                resolve(result);
+            });
+        });
+        req.on('error', err => console.error('Error:', err.message));
+        req.write(postData);
+        req.end();
+    });
+}
+
+setTimeout(() => wipeAndResync().catch(console.error), 2000);

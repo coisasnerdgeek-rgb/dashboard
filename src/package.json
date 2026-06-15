@@ -1,1 +1,39 @@
-﻿@{data=ewogICJuYW1lIjogImNvcHktb2YtY29weS1vZi1jb3B5LW9mLWRhc2hib2FyZC1kZS1wZWRpZG9zLTQ1IiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInZlcnNpb24iOiAiMC4wLjAiLAogICJ0eXBlIjogIm1vZHVsZSIsCiAgInNjcmlwdHMiOiB7CiAgICAiZGV2IjogInZpdGUiLAogICAgImJ1aWxkIjogInZpdGUgYnVpbGQiLAogICAgInByZXZpZXciOiAidml0ZSBwcmV2aWV3IgogIH0sCiAgImRlcGVuZGVuY2llcyI6IHsKICAgICJAZ29vZ2xlL2dlbmFpIjogIl4xLjI4LjAiLAogICAgIkBzdXBhYmFzZS9zdXBhYmFzZS1qcyI6ICJeMi44Ni4wIiwKICAgICJAdGFuc3RhY2svcmVhY3QtcXVlcnkiOiAiXjUuOTAuMTYiLAogICAgIkB0YW5zdGFjay9yZWFjdC1xdWVyeS1kZXZ0b29scyI6ICJeNS45MS4yIiwKICAgICJAdHlwZXMvZ2FwaSI6ICJeMC4wLjQ3IiwKICAgICJAdHlwZXMvZ2FwaS5jbGllbnQuZHJpdmUiOiAiXjMuMC4xNSIsCiAgICAiY2hhcnQuanMiOiAiXjQuNS4xIiwKICAgICJnYXBpLXNjcmlwdCI6ICJeMS4yLjAiLAogICAgInByb3AtdHlwZXMiOiAiMTUuOC4xIiwKICAgICJyZWFjdCI6ICIxOC4yLjAiLAogICAgInJlYWN0LWNoYXJ0anMtMiI6ICJeNS4zLjEiLAogICAgInJlYWN0LWRvbSI6ICIxOC4yLjAiLAogICAgInJlYWN0LWhvdC10b2FzdCI6ICJeMi42LjAiLAogICAgInhsc3giOiAiXjAuMTguNSIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAiQHR5cGVzL25vZGUiOiAiXjIyLjE0LjAiLAogICAgIkB2ZXJjZWwvbm9kZSI6ICJeNS41LjE2IiwKICAgICJAdml0ZWpzL3BsdWdpbi1yZWFjdCI6ICJeNS4wLjAiLAogICAgImF1dG9wcmVmaXhlciI6ICJeMTAuNC4yMCIsCiAgICAicG9zdGNzcyI6ICJeOC40LjQ5IiwKICAgICJ0YWlsd2luZGNzcyI6ICJeMy40LjE3IiwKICAgICJ0c3giOiAiXjQuMjEuMCIsCiAgICAidHlwZXNjcmlwdCI6ICJ+NS44LjIiLAogICAgInZpdGUiOiAiXjYuMi4wIgogIH0KfQo=}
+{
+  "name": "copy-of-copy-of-copy-of-dashboard-de-pedidos-45",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.28.0",
+    "@supabase/supabase-js": "^2.86.0",
+    "@tanstack/react-query": "^5.90.16",
+    "@tanstack/react-query-devtools": "^5.91.2",
+    "@types/gapi": "^0.0.47",
+    "@types/gapi.client.drive": "^3.0.15",
+    "chart.js": "^4.5.1",
+    "gapi-script": "^1.2.0",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.6.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vercel/node": "^5.5.16",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
+

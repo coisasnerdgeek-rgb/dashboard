@@ -1,1 +1,73 @@
-﻿@{data=aW1wb3J0IHsgbm9ybWFsaXplU3RyaW5nIH0gZnJvbSAnLi4vLi4vdXRpbHMvc3RyaW5nVXRpbHMnOw0KDQovLyBDb2x1bmFzIGVzcGVjw61maWNhcyBxdWUgZGV2ZW0gc2VyIGV4aWJpZGFzIGUgZmlsdHJhZGFzIG5hIHDDoWdpbmEgZGUgUGVkaWRvcw0KZXhwb3J0IGNvbnN0IFBFRElET1NfS0VZUyA9IFsnZGF0YScsICdkYXRhIG1heGltYSBkZSBkZXNwYWNobycsICdpZGVudGlmaWNhZG9yIGRvIHBlZGlkbyBlLWNvbW1lcmNlJywgJ25vbWUnLCAncHJvZHV0bycsICd0YW1hbmhvJywgJ2NvcicsICdxdWFudGlkYWRlJywgJ2NhbmFsJywgJ3NpdHVhY2FvJywgJ2NucGonLCAndmFsb3IgdW5pdGFyaW8nXTsNCg0KLy8gSGVhZGVyIFRpdGxlIE1hcA0KZXhwb3J0IGNvbnN0IEhFQURFUl9USVRMRV9NQVA6IHsgW2tleTogc3RyaW5nXTogc3RyaW5nIH0gPSB7DQogICAgJ25vbWUgZGUgY29udGF0byc6ICdOb21lJywNCiAgICAnbm9tZSc6ICdOb21lJywNCiAgICAndmFsb3IgdW5pdGFyaW8nOiAnVmFsb3InLA0KICAgICd2YWxvciB0b3RhbCc6ICdUb3RhbCcsDQogICAgJ2lkZW50aWZpY2Fkb3IgZG8gcGVkaWRvIGUtY29tbWVyY2UnOiAnSUQnLA0KICAgICdudW1lcm8gZGEgb3JkZW0gZGUgY29tcHJhJzogJ0lEJywNCiAgICAnZGF0YSBtYXhpbWEgZGUgZGVzcGFjaG8nOiAnUHJldmlzdGEnLA0KICAgICdjbnBqJzogJ0NOUEonLA0KICAgICdxdWFudGlkYWRlJzogJ1F0LicsDQogICAgJ3RhbWFuaG8nOiAnVGFtL1ZhcicsDQogICAgJ2Nvcic6ICdDb3InLA0KICAgICdwcm9kdXRvJzogJ1Byb2R1dG8nLA0KICAgICdza3UnOiAnU0tVJywNCiAgICAnY29kaWdvIChza3UpJzogJ1NLVScsDQogICAgJ2NhbmFsJzogJ0NhbmFsJywNCiAgICAnc2l0dWFjYW8nOiAnU2l0dWHDp8OjbycNCn07DQoNCi8vIEhlbHBlciB0byBmb3JtYXQgREQvTU0vWVlZWSB0byBERC9NTQ0KZXhwb3J0IGNvbnN0IGZvcm1hdERhdGUgPSAoZGF0ZVN0cmluZzogc3RyaW5nIHwgbnVtYmVyIHwgdW5kZWZpbmVkKTogc3RyaW5nID0+IHsNCiAgICBpZiAoIWRhdGVTdHJpbmcpIHJldHVybiAnJzsNCiAgICBjb25zdCBzdHIgPSBTdHJpbmcoZGF0ZVN0cmluZyk7DQogICAgaWYgKCFzdHIuaW5jbHVkZXMoJy8nKSkgcmV0dXJuIHN0cjsNCiAgICBjb25zdCBwYXJ0cyA9IHN0ci5zcGxpdCgnLycpOw0KICAgIGlmIChwYXJ0cy5sZW5ndGggPT09IDMpIHsNCiAgICAgICAgcmV0dXJuIGAke3BhcnRzWzBdfS8ke3BhcnRzWzFdfWA7DQogICAgfQ0KICAgIHJldHVybiBzdHI7DQp9Ow0KDQovLyBGb3JtYXRhIHVtIG7Dum1lcm8gY29tbyBtb2VkYSBicmFzaWxlaXJhDQpleHBvcnQgY29uc3QgZm9ybWF0Q3VycmVuY3kgPSAodmFsdWU6IG51bWJlcik6IHN0cmluZyA9PiB7DQogICAgcmV0dXJuIG5ldyBJbnRsLk51bWJlckZvcm1hdCgncHQtQlInLCB7DQogICAgICAgIHN0eWxlOiAnY3VycmVuY3knLA0KICAgICAgICBjdXJyZW5jeTogJ0JSTCcsDQogICAgfSkuZm9ybWF0KHZhbHVlKTsNCn07DQoNCi8vIFJldG9ybmEgY2xhc3NlcyBkZSBDU1MgcGFyYSBhIGV0aXF1ZXRhIGRlIHN0YXR1cyBjb20gYmFzZSBubyB0ZXh0bw0KZXhwb3J0IGNvbnN0IGdldFN0YXR1c0JhZGdlQ2xhc3NlcyA9IChzdGF0dXM6IHN0cmluZyk6IHN0cmluZyA9PiB7DQogICAgY29uc3Qgbm9ybWFsaXplZFN0YXR1cyA9IG5vcm1hbGl6ZVN0cmluZyhTdHJpbmcoc3RhdHVzID8/ICcnKSk7DQogICAgaWYgKFsnYXByb3ZhZG8nLCAnZW50cmVndWUnLCAncGFnbycsICdjb25maXJtYWRvJywgJ2NvbmNsdWlkbyddLnNvbWUocyA9PiBub3JtYWxpemVkU3RhdHVzLmluY2x1ZGVzKHMpKSkgew0KICAgICAgICByZXR1cm4gJ2JnLWdyZWVuLTEwMCB0ZXh0LWdyZWVuLTgwMCBkYXJrOmJnLWdyZWVuLTkwMC81MCBkYXJrOnRleHQtZ3JlZW4tMzAwJzsNCiAgICB9DQogICAgaWYgKFsncGVuZGVudGUnLCAnYWd1YXJkYW5kbycsICdwcm9jZXNzYW5kbycsICdlbSB0cmFuc2l0byddLnNvbWUocyA9PiBub3JtYWxpemVkU3RhdHVzLmluY2x1ZGVzKHMpKSkgew0KICAgICAgICByZXR1cm4gJ2JnLXllbGxvdy0xMDAgdGV4dC15ZWxsb3ctODAwIGRhcms6YmcteWVsbG93LTkwMC81MCBkYXJrOnRleHQteWVsbG93LTMwMCc7DQogICAgfQ0KICAgIGlmIChbJ2NhbmNlbGFkbycsICdyZWN1c2FkbycsICdkZXZvbHZpZG8nLCAnZmFsaG91J10uc29tZShzID0+IG5vcm1hbGl6ZWRTdGF0dXMuaW5jbHVkZXMocykpKSB7DQogICAgICAgIHJldHVybiAnYmctcmVkLTEwMCB0ZXh0LXJlZC04MDAgZGFyazpiZy1yZWQtOTAwLzUwIGRhcms6dGV4dC1yZWQtMjAwJzsNCiAgICB9DQogICAgaWYgKG5vcm1hbGl6ZWRTdGF0dXMuaW5jbHVkZXMoJ2VudmlhZG8nKSkgew0KICAgICAgICByZXR1cm4gJ2JnLWdyYXktMjAwIHRleHQtZ3JheS04MDAgZGFyazpiZy1ncmF5LTcwMCBkYXJrOnRleHQtZ3JheS0zMDAnOw0KICAgIH0NCiAgICByZXR1cm4gJ2JnLWdyYXktMTAwIHRleHQtZ3JheS04MDAgZGFyazpiZy1ncmF5LTcwMCBkYXJrOnRleHQtZ3JheS0zMDAnOw0KfTsNCg0KZXhwb3J0IGNvbnN0IGdldE5ld1N0YXR1c0NvbG9yID0gKHN0YXR1czogc3RyaW5nKTogc3RyaW5nID0+IHsNCiAgICBjb25zdCBub3JtYWxpemVkID0gbm9ybWFsaXplU3RyaW5nKHN0YXR1cyk7DQogICAgaWYgKG5vcm1hbGl6ZWQuaW5jbHVkZXMoJ2Fwcm92YWRvJykpIHJldHVybiAnYmctZ3JlZW4tNDAwLzMwIHRleHQtZ3JlZW4tODAwIGRhcms6dGV4dC1ncmVlbi0yMDAnOw0KICAgIGlmIChub3JtYWxpemVkLmluY2x1ZGVzKCdkYWRvcyBpbmNvbXBsZXRvcycpKSByZXR1cm4gJ2JnLXJlZC01MDAvMzAgdGV4dC1yZWQtODAwIGRhcms6dGV4dC1yZWQtMjAwJzsNCiAgICBpZiAobm9ybWFsaXplZC5pbmNsdWRlcygnZXJybyBkZSBza3UnKSkgcmV0dXJuICdiZy1vcmFuZ2UtNTAwLzMwIHRleHQtb3JhbmdlLTgwMCBkYXJrOnRleHQtb3JhbmdlLTIwMCc7DQogICAgaWYgKG5vcm1hbGl6ZWQuaW5jbHVkZXMoJ2VudmlhZG8nKSkgcmV0dXJuICdiZy1lbWVyYWxkLTUwMC8zMCB0ZXh0LWVtZXJhbGQtODAwIGRhcms6dGV4dC1lbWVyYWxkLTIwMCc7DQogICAgaWYgKG5vcm1hbGl6ZWQuaW5jbHVkZXMoJ2VudHJlZ3VlJykpIHJldHVybiAnYmctZ3JlZW4tNzAwLzMwIHRleHQtZ3JlZW4tODAwIGRhcms6dGV4dC1ncmVlbi0yMDAnOw0KICAgIGlmIChub3JtYWxpemVkLmluY2x1ZGVzKCdjYW5jZWxhZG8nKSkgcmV0dXJuICdiZy1ibGFjay8zMCB0ZXh0LWdyYXktODAwIGRhcms6dGV4dC1ncmF5LTIwMCc7DQogICAgcmV0dXJuICdiZy1ncmF5LTQwMC8zMCB0ZXh0LWdyYXktODAwIGRhcms6dGV4dC1ncmF5LTIwMCc7DQp9Ow0K}
+import { normalizeString } from '../../utils/stringUtils';
+
+// Colunas específicas que devem ser exibidas e filtradas na página de Pedidos
+export const PEDIDOS_KEYS = ['data', 'data maxima de despacho', 'identificador do pedido e-commerce', 'nome', 'produto', 'tamanho', 'cor', 'quantidade', 'canal', 'situacao', 'cnpj', 'valor unitario'];
+
+// Header Title Map
+export const HEADER_TITLE_MAP: { [key: string]: string } = {
+    'nome de contato': 'Nome',
+    'nome': 'Nome',
+    'valor unitario': 'Valor',
+    'valor total': 'Total',
+    'identificador do pedido e-commerce': 'ID',
+    'numero da ordem de compra': 'ID',
+    'data maxima de despacho': 'Prevista',
+    'cnpj': 'CNPJ',
+    'quantidade': 'Qt.',
+    'tamanho': 'Tam/Var',
+    'cor': 'Cor',
+    'produto': 'Produto',
+    'sku': 'SKU',
+    'codigo (sku)': 'SKU',
+    'canal': 'Canal',
+    'situacao': 'Situação'
+};
+
+// Helper to format DD/MM/YYYY to DD/MM
+export const formatDate = (dateString: string | number | undefined): string => {
+    if (!dateString) return '';
+    const str = String(dateString);
+    if (!str.includes('/')) return str;
+    const parts = str.split('/');
+    if (parts.length === 3) {
+        return `${parts[0]}/${parts[1]}`;
+    }
+    return str;
+};
+
+// Formata um número como moeda brasileira
+export const formatCurrency = (value: number): string => {
+    return new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+    }).format(value);
+};
+
+// Retorna classes de CSS para a etiqueta de status com base no texto
+export const getStatusBadgeClasses = (status: string): string => {
+    const normalizedStatus = normalizeString(String(status ?? ''));
+    if (['aprovado', 'entregue', 'pago', 'confirmado', 'concluido'].some(s => normalizedStatus.includes(s))) {
+        return 'bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300';
+    }
+    if (['pendente', 'aguardando', 'processando', 'em transito'].some(s => normalizedStatus.includes(s))) {
+        return 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/50 dark:text-yellow-300';
+    }
+    if (['cancelado', 'recusado', 'devolvido', 'falhou'].some(s => normalizedStatus.includes(s))) {
+        return 'bg-red-100 text-red-800 dark:bg-red-900/50 dark:text-red-200';
+    }
+    if (normalizedStatus.includes('enviado')) {
+        return 'bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-300';
+    }
+    return 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300';
+};
+
+export const getNewStatusColor = (status: string): string => {
+    const normalized = normalizeString(status);
+    if (normalized.includes('aprovado')) return 'bg-green-400/30 text-green-800 dark:text-green-200';
+    if (normalized.includes('dados incompletos')) return 'bg-red-500/30 text-red-800 dark:text-red-200';
+    if (normalized.includes('erro de sku')) return 'bg-orange-500/30 text-orange-800 dark:text-orange-200';
+    if (normalized.includes('enviado')) return 'bg-emerald-500/30 text-emerald-800 dark:text-emerald-200';
+    if (normalized.includes('entregue')) return 'bg-green-700/30 text-green-800 dark:text-green-200';
+    if (normalized.includes('cancelado')) return 'bg-black/30 text-gray-800 dark:text-gray-200';
+    return 'bg-gray-400/30 text-gray-800 dark:text-gray-200';
+};

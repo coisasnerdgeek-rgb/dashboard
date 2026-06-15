@@ -1,1 +1,137 @@
-﻿@{data=DQpleHBvcnQgaW50ZXJmYWNlIFRpbnlPcmRlciB7DQogICAgaWQ6IHN0cmluZzsNCiAgICBudW1lcm86IHN0cmluZzsNCiAgICBkYXRhX3BlZGlkbzogc3RyaW5nOw0KICAgIGNsaWVudGU6IHsNCiAgICAgICAgbm9tZTogc3RyaW5nOw0KICAgICAgICBjcGZfY25wajogc3RyaW5nOw0KICAgIH07DQogICAgaXRlbnM6IHsNCiAgICAgICAgaXRlbTogew0KICAgICAgICAgICAgY29kaWdvOiBzdHJpbmc7DQogICAgICAgICAgICBkZXNjcmljYW86IHN0cmluZzsNCiAgICAgICAgICAgIHF1YW50aWRhZGU6IG51bWJlcjsNCiAgICAgICAgICAgIHZhbG9yX3VuaXRhcmlvOiBudW1iZXI7DQogICAgICAgIH0NCiAgICB9W107DQogICAgc2l0dWFjYW86IHN0cmluZzsNCiAgICB2YWxvcl90b3RhbDogbnVtYmVyOw0KfQ0KDQoNCmNvbnN0IFRJTllfQVBJX1VSTCA9ICdodHRwczovL2FwaS50aW55LmNvbS5ici9hcGkyJzsNCg0KZXhwb3J0IGNvbnN0IGZldGNoVGlueU9yZGVyID0gYXN5bmMgKGlkOiBzdHJpbmcsIHRva2VuOiBzdHJpbmcpOiBQcm9taXNlPFRpbnlPcmRlciB8IG51bGw+ID0+IHsNCiAgICB0cnkgew0KICAgICAgICBjb25zdCB1cmwgPSBgJHtUSU5ZX0FQSV9VUkx9L3BlZGlkby5vYnRlci5waHBgOw0KICAgICAgICBjb25zdCBwYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHsNCiAgICAgICAgICAgIHRva2VuLA0KICAgICAgICAgICAgaWQsDQogICAgICAgICAgICBmb3JtYXRvOiAnanNvbicNCiAgICAgICAgfSk7DQoNCiAgICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChgJHt1cmx9PyR7cGFyYW1zLnRvU3RyaW5nKCl9YCk7DQogICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7DQoNCiAgICAgICAgaWYgKGRhdGEucmV0b3JubyAmJiBkYXRhLnJldG9ybm8uc3RhdHVzID09PSAnT0snKSB7DQogICAgICAgICAgICByZXR1cm4gZGF0YS5yZXRvcm5vLnBlZGlkbyBhcyBUaW55T3JkZXI7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCdUaW55IEFQSSBFcnJvcjonLCBkYXRhLnJldG9ybm8/LmVycm9zKTsNCiAgICAgICAgICAgIHJldHVybiBudWxsOw0KICAgICAgICB9DQogICAgfSBjYXRjaCAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcignRmV0Y2ggZXJyb3I6JywgZXJyb3IpOw0KICAgICAgICByZXR1cm4gbnVsbDsNCiAgICB9DQp9Ow0KDQovKioNCiAqIERldGVybWluYSBvIGNhbmFsIGRlIHZlbmRhIGNvbSBiYXNlIG5vIElEIGRvIHBlZGlkbyBlIG8gQ05QSiBkYSBlbXByZXNhDQogKi8NCmV4cG9ydCBjb25zdCBnZXRFY29tbWVyY2VTdG9yZSA9IChvcmRlcklkOiBzdHJpbmcgfCBudW1iZXIsIGZpbGVDbnBqOiAnTU0nIHwgJ01WRicgfCBzdHJpbmcgfCBudWxsKTogc3RyaW5nID0+IHsNCiAgICBjb25zdCBpZCA9IFN0cmluZyhvcmRlcklkID8/ICcnKS50cmltKCk7DQogICAgaWYgKCFpZCkgcmV0dXJuICdCVVNJTkVTUyc7DQoNCiAgICBjb25zdCBpc1Nob3BlZSA9IFsnMjYnLCAnMjUxMCcsICdJRDInLCAnMjUwOTEnLCAnMjUwMTAnLCAnMjUwMTEnLCAnMjUwOScsICcyNTAxJywgJzI1MDInLCAnMjUwJywgJzI1MScsICcyNTInLCAnMjUzJywgJzI1NCcsICcyNTUnLCAnMjU2JywgJzI1NycsICcyNTgnLCAnMjU5JywgJzI2MCddLnNvbWUocHJlZml4ID0+IGlkLnN0YXJ0c1dpdGgocHJlZml4KSk7DQogICAgaWYgKGlzU2hvcGVlKSB7DQogICAgICAgIGlmIChmaWxlQ25waiA9PT0gJ01NJyB8fCBmaWxlQ25waj8uaW5jbHVkZXMoJzM5NDQ3MjkxJykpIHJldHVybiAnU0ggTU0nOw0KICAgICAgICByZXR1cm4gJ1NIIFZFU1QnOw0KICAgIH0NCg0KICAgIGxldCBsb2phQmFzZTogc3RyaW5nOw0KICAgIGlmIChpZC5zdGFydHNXaXRoKCcyMDAwJykgfHwgaWQuc3RhcnRzV2l0aCgnMiwwMDAnKSB8fCBpZC5zdGFydHNXaXRoKCcwMjAwJykgfHwgaWQuc3RhcnRzV2l0aCgnTUxCJykpIHsNCiAgICAgICAgbG9qYUJhc2UgPSAnTUwgVkVTVCc7DQogICAgfSBlbHNlIGlmIChpZC5zdGFydHNXaXRoKCdMVS0nKSkgew0KICAgICAgICBsb2phQmFzZSA9ICdNRyBWRVNUJzsNCiAgICB9IGVsc2UgaWYgKGlkLnN0YXJ0c1dpdGgoJzE0JykpIHsNCiAgICAgICAgbG9qYUJhc2UgPSAnTlQgVkVTVCc7DQogICAgfSBlbHNlIGlmIChpZC5zdGFydHNXaXRoKCdHU0gnKSkgew0KICAgICAgICBsb2phQmFzZSA9ICdTTiBWRVNUJzsNCiAgICB9IGVsc2UgaWYgKGlkLm1hdGNoKC9eXGR7M30tXGR7N30tXGR7N30kLykgfHwgaWQuc3RhcnRzV2l0aCgnNzAxJykgfHwgaWQuc3RhcnRzV2l0aCgnNzAyJykpIHsNCiAgICAgICAgbG9qYUJhc2UgPSAnQU0gVkVTVCc7DQogICAgfSBlbHNlIGlmIChpZC5zdGFydHNXaXRoKCcxMicpKSB7DQogICAgICAgIGxvamFCYXNlID0gJ0tXIFZFU1QnOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGxvamFCYXNlID0gJ0JVU0lORVNTJzsNCiAgICB9DQoNCiAgICBpZiAoKGZpbGVDbnBqID09PSAnTU0nIHx8IGZpbGVDbnBqPy5pbmNsdWRlcygnMzk0NDcyOTEnKSkgJiYgbG9qYUJhc2UgIT09ICdCVVNJTkVTUycpIHsNCiAgICAgICAgcmV0dXJuIGxvamFCYXNlLnJlcGxhY2UoJ1ZFU1QnLCAnTU0nKTsNCiAgICB9DQoNCiAgICByZXR1cm4gbG9qYUJhc2U7DQp9Ow0KDQovKioNCiAqIFJlYWxpemEgbyBwYXJzZSBkbyBTS1UgcGFyYSBleHRyYWlyIFByb2R1dG8sIENvciBlIFRhbWFuaG8NCiAqLw0KZXhwb3J0IGNvbnN0IHBhcnNlU2t1ID0gKHNrdTogc3RyaW5nKSA9PiB7DQogICAgaWYgKCFza3UpIHJldHVybiB7IHByb2R1Y3ROYW1lOiAnTi9BJywgY29sb3JOYW1lOiAnTi9BJywgc2l6ZU5hbWU6ICdOL0EnIH07DQogICAgY29uc3QgbG93ZXJTa3UgPSBza3UudG9Mb3dlckNhc2UoKTsNCg0KICAgIGNvbnN0IGRlZmF1bHRDb2xvck1hcDogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsNCiAgICAgICAgJ3AnOiAnUHJldG8nLCAnYic6ICdCcmFuY28nLCAnbWEnOiAnTWFyaW5obycsICd2bSc6ICdWZXJtZWxobycsICdjbSc6ICdNZXNjbGEnLA0KICAgICAgICAnYXInOiAnUm95YWwnLCAndmknOiAnVmluaG8nLCAndmRlJzogJ011c2dvJywgJ2FtJzogJ0FtYXJlbG8nLCAnbGEnOiAnTGFyYW5qYScsDQogICAgICAgICdjaCc6ICdDaHVtYm8nLCAnYXQnOiAnVHVycXVlc2EnLCAncGknOiAnUGluaycsICd2bCc6ICdWZXJkZSBMaW1hbycsDQogICAgICAgICdwcmV0byc6ICdQcmV0bycsICdicmFuY28nOiAnQnJhbmNvJywgJ21hcmluaG8nOiAnTWFyaW5obycsICd2ZXJtZWxobyc6ICdWZXJtZWxobycsDQogICAgICAgICdtZXNjbGEnOiAnTWVzY2xhJywgJ3JveWFsJzogJ1JveWFsJywgJ3ZpbmhvJzogJ1ZpbmhvJywgJ211c2dvJzogJ011c2dvJywNCiAgICAgICAgJ2FtYXJlbG8nOiAnQW1hcmVsbycsICdsYXJhbmphJzogJ0xhcmFuamEnLCAnY2h1bWJvJzogJ0NodW1ibycsICd0dXJxdWVzYSc6ICdUdXJxdWVzYScsDQogICAgICAgICdwaW5rJzogJ1BpbmsnLCAncm9zYSc6ICdSb3NhIEJlYsOqJywgJ2xpbMOhcyc6ICdMaWzDoXMnDQogICAgfTsNCg0KICAgIGNvbnN0IGRlZmF1bHRTaXplTWFwOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gew0KICAgICAgICAncCc6ICdQJywgJ20nOiAnTScsICdnJzogJ0cnLCAnZ2cnOiAnR0cnLCAneGcnOiAnWEcnLCAnZWcnOiAnRUcnLA0KICAgICAgICAnZzEnOiAnRzEnLCAnZzInOiAnRzInLCAnZzMnOiAnRzMnLCAnZzQnOiAnRzQnLCAnZzUnOiAnRzUnLCAnZzYnOiAnRzYnLA0KICAgICAgICAnMic6ICcyJywgJzQnOiAnNCcsICc2JzogJzYnLCAnOCc6ICc4JywgJzEwJzogJzEwJywgJzEyJzogJzEyJywgJzE0JzogJzE0JywgJzE2JzogJzE2Jw0KICAgIH07DQoNCiAgICBsZXQgcHJvZHVjdE5hbWUgPSAnTi9BJzsNCiAgICBjb25zdCBwcm9kdWN0TWFwOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gew0KICAgICAgICAncG9sby1mZW0nOiAnUG9sbyBGZW1pbmluYScsICdwb2xvLW1hc2MnOiAnUG9sbyBNYXNjdWxpbmEnLA0KICAgICAgICAnbW9sLWNhbmcnOiAnTW9sZXRvbSBDYW5ndXJ1JywgJ21vbC1jYXJlY2EnOiAnTW9sZXRvbSBDYXJlY2EnLA0KICAgICAgICAnY2FtLW1hc2MnOiAnQ2FtaXNldGEgTWFzY3VsaW5hJywgJ2JhYnlsb29rJzogJ0JhYnlsb29rJywNCiAgICAgICAgJ3JlZ2F0YSc6ICdSZWdhdGEnLCAnY2FwYS0nOiAnQ2FwaW5oYScsICdjYXAtJzogJ0NhcGluaGEnLA0KICAgICAgICAna2l0JzogJ0tpdCcNCiAgICB9Ow0KDQogICAgZm9yIChjb25zdCBba2V5LCB2YWx1ZV0gb2YgT2JqZWN0LmVudHJpZXMocHJvZHVjdE1hcCkpIHsNCiAgICAgICAgaWYgKGxvd2VyU2t1LnN0YXJ0c1dpdGgoa2V5KSkgew0KICAgICAgICAgICAgcHJvZHVjdE5hbWUgPSB2YWx1ZTsNCiAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICB9DQogICAgfQ0KDQogICAgaWYgKHByb2R1Y3ROYW1lID09PSAnTi9BJykgcmV0dXJuIHsgcHJvZHVjdE5hbWUsIGNvbG9yTmFtZTogJ04vQScsIHNpemVOYW1lOiAnTi9BJyB9Ow0KDQogICAgY29uc3QgcmVzdCA9IGxvd2VyU2t1LnNwbGl0KCctJykuc2xpY2UoMSk7DQogICAgbGV0IGNvbG9yTmFtZSA9ICdOL0EnOw0KICAgIGxldCBzaXplTmFtZSA9ICdOL0EnOw0KDQogICAgZm9yIChjb25zdCBwYXJ0IG9mIHJlc3QpIHsNCiAgICAgICAgaWYgKGRlZmF1bHRTaXplTWFwW3BhcnRdKSBzaXplTmFtZSA9IGRlZmF1bHRTaXplTWFwW3BhcnRdOw0KICAgICAgICBlbHNlIGlmIChkZWZhdWx0Q29sb3JNYXBbcGFydF0pIGNvbG9yTmFtZSA9IGRlZmF1bHRDb2xvck1hcFtwYXJ0XTsNCiAgICB9DQoNCiAgICByZXR1cm4geyBwcm9kdWN0TmFtZSwgY29sb3JOYW1lLCBzaXplTmFtZSB9Ow0KfTsNCg==}
+
+export interface TinyOrder {
+    id: string;
+    numero: string;
+    data_pedido: string;
+    cliente: {
+        nome: string;
+        cpf_cnpj: string;
+    };
+    itens: {
+        item: {
+            codigo: string;
+            descricao: string;
+            quantidade: number;
+            valor_unitario: number;
+        }
+    }[];
+    situacao: string;
+    valor_total: number;
+}
+
+
+const TINY_API_URL = 'https://api.tiny.com.br/api2';
+
+export const fetchTinyOrder = async (id: string, token: string): Promise<TinyOrder | null> => {
+    try {
+        const url = `${TINY_API_URL}/pedido.obter.php`;
+        const params = new URLSearchParams({
+            token,
+            id,
+            formato: 'json'
+        });
+
+        const response = await fetch(`${url}?${params.toString()}`);
+        const data = await response.json();
+
+        if (data.retorno && data.retorno.status === 'OK') {
+            return data.retorno.pedido as TinyOrder;
+        } else {
+            console.error('Tiny API Error:', data.retorno?.erros);
+            return null;
+        }
+    } catch (error) {
+        console.error('Fetch error:', error);
+        return null;
+    }
+};
+
+/**
+ * Determina o canal de venda com base no ID do pedido e o CNPJ da empresa
+ */
+export const getEcommerceStore = (orderId: string | number, fileCnpj: 'MM' | 'MVF' | string | null): string => {
+    const id = String(orderId ?? '').trim();
+    if (!id) return 'BUSINESS';
+
+    const isShopee = ['26', '2510', 'ID2', '25091', '25010', '25011', '2509', '2501', '2502', '250', '251', '252', '253', '254', '255', '256', '257', '258', '259', '260'].some(prefix => id.startsWith(prefix));
+    if (isShopee) {
+        if (fileCnpj === 'MM' || fileCnpj?.includes('39447291')) return 'SH MM';
+        return 'SH VEST';
+    }
+
+    let lojaBase: string;
+    if (id.startsWith('2000') || id.startsWith('2,000') || id.startsWith('0200') || id.startsWith('MLB')) {
+        lojaBase = 'ML VEST';
+    } else if (id.startsWith('LU-')) {
+        lojaBase = 'MG VEST';
+    } else if (id.startsWith('14')) {
+        lojaBase = 'NT VEST';
+    } else if (id.startsWith('GSH')) {
+        lojaBase = 'SN VEST';
+    } else if (id.match(/^\d{3}-\d{7}-\d{7}$/) || id.startsWith('701') || id.startsWith('702')) {
+        lojaBase = 'AM VEST';
+    } else if (id.startsWith('12')) {
+        lojaBase = 'KW VEST';
+    } else {
+        lojaBase = 'BUSINESS';
+    }
+
+    if ((fileCnpj === 'MM' || fileCnpj?.includes('39447291')) && lojaBase !== 'BUSINESS') {
+        return lojaBase.replace('VEST', 'MM');
+    }
+
+    return lojaBase;
+};
+
+/**
+ * Realiza o parse do SKU para extrair Produto, Cor e Tamanho
+ */
+export const parseSku = (sku: string) => {
+    if (!sku) return { productName: 'N/A', colorName: 'N/A', sizeName: 'N/A' };
+    const lowerSku = sku.toLowerCase();
+
+    const defaultColorMap: Record<string, string> = {
+        'p': 'Preto', 'b': 'Branco', 'ma': 'Marinho', 'vm': 'Vermelho', 'cm': 'Mescla',
+        'ar': 'Royal', 'vi': 'Vinho', 'vde': 'Musgo', 'am': 'Amarelo', 'la': 'Laranja',
+        'ch': 'Chumbo', 'at': 'Turquesa', 'pi': 'Pink', 'vl': 'Verde Limao',
+        'preto': 'Preto', 'branco': 'Branco', 'marinho': 'Marinho', 'vermelho': 'Vermelho',
+        'mescla': 'Mescla', 'royal': 'Royal', 'vinho': 'Vinho', 'musgo': 'Musgo',
+        'amarelo': 'Amarelo', 'laranja': 'Laranja', 'chumbo': 'Chumbo', 'turquesa': 'Turquesa',
+        'pink': 'Pink', 'rosa': 'Rosa Bebê', 'lilás': 'Lilás'
+    };
+
+    const defaultSizeMap: Record<string, string> = {
+        'p': 'P', 'm': 'M', 'g': 'G', 'gg': 'GG', 'xg': 'XG', 'eg': 'EG',
+        'g1': 'G1', 'g2': 'G2', 'g3': 'G3', 'g4': 'G4', 'g5': 'G5', 'g6': 'G6',
+        '2': '2', '4': '4', '6': '6', '8': '8', '10': '10', '12': '12', '14': '14', '16': '16'
+    };
+
+    let productName = 'N/A';
+    const productMap: Record<string, string> = {
+        'polo-fem': 'Polo Feminina', 'polo-masc': 'Polo Masculina',
+        'mol-cang': 'Moletom Canguru', 'mol-careca': 'Moletom Careca',
+        'cam-masc': 'Camiseta Masculina', 'babylook': 'Babylook',
+        'regata': 'Regata', 'capa-': 'Capinha', 'cap-': 'Capinha',
+        'kit': 'Kit'
+    };
+
+    for (const [key, value] of Object.entries(productMap)) {
+        if (lowerSku.startsWith(key)) {
+            productName = value;
+            break;
+        }
+    }
+
+    if (productName === 'N/A') return { productName, colorName: 'N/A', sizeName: 'N/A' };
+
+    const rest = lowerSku.split('-').slice(1);
+    let colorName = 'N/A';
+    let sizeName = 'N/A';
+
+    for (const part of rest) {
+        if (defaultSizeMap[part]) sizeName = defaultSizeMap[part];
+        else if (defaultColorMap[part]) colorName = defaultColorMap[part];
+    }
+
+    return { productName, colorName, sizeName };
+};

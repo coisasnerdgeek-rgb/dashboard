@@ -1,1 +1,69 @@
-﻿@{data=LyoqDQogKiBWZXJpZmljYXIgVE9ET1Mgb3MgcGVkaWRvcyBCVVNJTkVTUyBkb3MgZGlhcyAyOC0yOSBjb20gZGV0YWxoZXMNCiAqLw0KDQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpOw0KaWYgKGZzLmV4aXN0c1N5bmMoZW52UGF0aCkpIHsNCiAgICBjb25zdCBlbnZGaWxlID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGY4Jyk7DQogICAgZW52RmlsZS5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgICAgICBjb25zdCBtYXRjaCA9IGxpbmUubWF0Y2goL14oW149OiNdKyk9KC4qKSQvKTsNCiAgICAgICAgaWYgKG1hdGNoKSB7DQogICAgICAgICAgICBjb25zdCBrZXkgPSBtYXRjaFsxXS50cmltKCk7DQogICAgICAgICAgICBjb25zdCB2YWx1ZSA9IG1hdGNoWzJdLnRyaW0oKS5yZXBsYWNlKC9eWyInXXxbIiddJC9nLCAnJyk7DQogICAgICAgICAgICBpZiAoIXByb2Nlc3MuZW52W2tleV0pIHByb2Nlc3MuZW52W2tleV0gPSB2YWx1ZTsNCiAgICAgICAgfQ0KICAgIH0pOw0KfQ0KDQpjb25zdCBTVVBBQkFTRV9VUkwgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkwhOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSE7DQoNCmFzeW5jIGZ1bmN0aW9uIGxpc3RBbGxCdXNpbmVzcygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5OLIExpc3RhIENvbXBsZXRhIGRlIFBlZGlkb3MgQlVTSU5FU1MgKERpYXMgMjgtMjkpXG4nKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSArICdcbicpOw0KDQogICAgZm9yIChjb25zdCBkYXRlIG9mIFsnMjgvMDEvMjAyNicsICcyOS8wMS8yMDI2J10pIHsNCiAgICAgICAgY29uc3QgeyBkYXRhLCBjb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgIC5zZWxlY3QoJ3Jvd19kYXRhLCBmaWxlbmFtZScsIHsgY291bnQ6ICdleGFjdCcgfSkNCiAgICAgICAgICAgIC5lcSgncm93X2RhdGEtPj5EYXRhJywgZGF0ZSkNCiAgICAgICAgICAgIC5lcSgncm93X2RhdGEtPj5Mb2phJywgJ0JVU0lORVNTJyk7DQoNCiAgICAgICAgY29uc29sZS5sb2coYFxu8J+ThSBEaWEgJHtkYXRlLnN1YnN0cmluZygwLCA1KX06ICR7Y291bnQgfHwgMH0gcGVkaWRvc1xuYCk7DQoNCiAgICAgICAgaWYgKGRhdGEgJiYgZGF0YS5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICBjb25zdCBncm91cGVkOiBSZWNvcmQ8c3RyaW5nLCBhbnk+ID0ge307DQoNCiAgICAgICAgICAgIGRhdGEuZm9yRWFjaCgoaXRlbTogYW55KSA9PiB7DQogICAgICAgICAgICAgICAgY29uc3QgdGlueUlkID0gaXRlbS5yb3dfZGF0YVsnSUQgVGlueSddOw0KICAgICAgICAgICAgICAgIGlmICghZ3JvdXBlZFt0aW55SWRdKSB7DQogICAgICAgICAgICAgICAgICAgIGdyb3VwZWRbdGlueUlkXSA9IHsNCiAgICAgICAgICAgICAgICAgICAgICAgIGNsaWVudGU6IGl0ZW0ucm93X2RhdGFbJ0NsaWVudGUnXSwNCiAgICAgICAgICAgICAgICAgICAgICAgIGVjb21tSWQ6IGl0ZW0ucm93X2RhdGFbJ0Vjb21tZXJjZSBJRCddLA0KICAgICAgICAgICAgICAgICAgICAgICAgZmlsZW5hbWU6IGl0ZW0uZmlsZW5hbWUsDQogICAgICAgICAgICAgICAgICAgICAgICBjb3VudDogMA0KICAgICAgICAgICAgICAgICAgICB9Ow0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBncm91cGVkW3RpbnlJZF0uY291bnQrKzsNCiAgICAgICAgICAgIH0pOw0KDQogICAgICAgICAgICBPYmplY3QuZW50cmllcyhncm91cGVkKS5mb3JFYWNoKChbdGlueUlkLCBpbmZvXTogW3N0cmluZywgYW55XSkgPT4gew0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICBJRCBUaW55OiAke3RpbnlJZH0gKCR7aW5mby5jb3VudH14IGl0ZW5zKWApOw0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICAgICBFY29tbSBJRDogIiR7aW5mby5lY29tbUlkfSJgKTsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgICAgQ2xpZW50ZTogIiR7aW5mby5jbGllbnRlfSJgKTsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgICAgRmlsZW5hbWU6ICIke2luZm8uZmlsZW5hbWV9ImApOw0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCcnKTsNCiAgICAgICAgICAgIH0pOw0KICAgICAgICB9DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCn0NCg0KbGlzdEFsbEJ1c2luZXNzKCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+/**
+ * Verificar TODOS os pedidos BUSINESS dos dias 28-29 com detalhes
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function listAllBusiness() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n📋 Lista Completa de Pedidos BUSINESS (Dias 28-29)\n');
+    console.log('='.repeat(60) + '\n');
+
+    for (const date of ['28/01/2026', '29/01/2026']) {
+        const { data, count } = await supabase
+            .from('spreadsheet_data')
+            .select('row_data, filename', { count: 'exact' })
+            .eq('row_data->>Data', date)
+            .eq('row_data->>Loja', 'BUSINESS');
+
+        console.log(`\n📅 Dia ${date.substring(0, 5)}: ${count || 0} pedidos\n`);
+
+        if (data && data.length > 0) {
+            const grouped: Record<string, any> = {};
+
+            data.forEach((item: any) => {
+                const tinyId = item.row_data['ID Tiny'];
+                if (!grouped[tinyId]) {
+                    grouped[tinyId] = {
+                        cliente: item.row_data['Cliente'],
+                        ecommId: item.row_data['Ecommerce ID'],
+                        filename: item.filename,
+                        count: 0
+                    };
+                }
+                grouped[tinyId].count++;
+            });
+
+            Object.entries(grouped).forEach(([tinyId, info]: [string, any]) => {
+                console.log(`   ID Tiny: ${tinyId} (${info.count}x itens)`);
+                console.log(`      Ecomm ID: "${info.ecommId}"`);
+                console.log(`      Cliente: "${info.cliente}"`);
+                console.log(`      Filename: "${info.filename}"`);
+                console.log('');
+            });
+        }
+    }
+
+    console.log('='.repeat(60) + '\n');
+}
+
+listAllBusiness().catch(console.error);

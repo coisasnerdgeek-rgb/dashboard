@@ -1,1 +1,109 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0IGZzIGZyb20gJ2ZzJzsNCmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIGVudg0KY29uc3QgZW52UGF0aCA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpOw0KY29uc3QgZW52Q29udGVudCA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmLTgnKTsNCmNvbnN0IGVudjogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHt9Ow0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IFtrZXksIHZhbF0gPSBsaW5lLnNwbGl0KCc9Jyk7DQogICAgaWYgKGtleSAmJiB2YWwpIGVudltrZXkudHJpbSgpXSA9IHZhbC50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMIHx8IGVudi5TVVBBQkFTRV9VUkw7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZIHx8IGVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KY29uc3QgVElOWV9UT0tFTl9NTSA9IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOX01NIHx8IGVudi5USU5ZX0FQSV9UT0tFTl9NTSB8fCBlbnYuVElOWV9BUElfVE9LRU47DQpjb25zdCBUSU5ZX1RPS0VOX01WRiA9IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOX01WRiB8fCBlbnYuVElOWV9BUElfVE9LRU5fTVZGOw0KDQpjb25zdCBDT01QQU5JRVMgPSBbDQogICAgeyBuYW1lOiAnTU0nLCB0b2tlbjogVElOWV9UT0tFTl9NTSwgZW5hYmxlZDogISFUSU5ZX1RPS0VOX01NIH0sDQogICAgeyBuYW1lOiAnTVZGJywgdG9rZW46IFRJTllfVE9LRU5fTVZGLCBlbmFibGVkOiAhIVRJTllfVE9LRU5fTVZGIH0NCl07DQoNCmFzeW5jIGZ1bmN0aW9uIGZvcmNlU3luYygpIHsNCiAgICBjb25zb2xlLmxvZygn8J+agCBGb3JjaW5nIHN5bmMgZm9yIGxhc3QgNCBkYXlzLi4uJyk7DQoNCiAgICAvLyBEYXRlIHJhbmdlOiBsYXN0IDQgZGF5cyB0byBiZSBzdXJlDQogICAgY29uc3QgZW5kRGF0ZSA9IG5ldyBEYXRlKCk7DQogICAgY29uc3Qgc3RhcnREYXRlID0gbmV3IERhdGUoKTsNCiAgICBzdGFydERhdGUuc2V0RGF0ZShzdGFydERhdGUuZ2V0RGF0ZSgpIC0gNCk7DQoNCiAgICBjb25zdCBmb3JtYXREYXRlID0gKGRhdGU6IGFueSkgPT4gew0KICAgICAgICBjb25zdCBkYXkgPSBTdHJpbmcoZGF0ZS5nZXREYXRlKCkpLnBhZFN0YXJ0KDIsICcwJyk7DQogICAgICAgIGNvbnN0IG1vbnRoID0gU3RyaW5nKGRhdGUuZ2V0TW9udGgoKSArIDEpLnBhZFN0YXJ0KDIsICcwJyk7DQogICAgICAgIGNvbnN0IHllYXIgPSBkYXRlLmdldEZ1bGxZZWFyKCk7DQogICAgICAgIHJldHVybiBgJHtkYXl9LyR7bW9udGh9LyR7eWVhcn1gOw0KICAgIH07DQoNCiAgICBjb25zdCBkYXRhSW5pY2lhbCA9IGZvcm1hdERhdGUoc3RhcnREYXRlKTsNCiAgICBjb25zdCBkYXRhRmluYWwgPSBmb3JtYXREYXRlKGVuZERhdGUpOw0KDQogICAgY29uc29sZS5sb2coYERhdGVzOiAke2RhdGFJbmljaWFsfSB0byAke2RhdGFGaW5hbH1gKTsNCg0KICAgIGZvciAoY29uc3QgY29tcGFueSBvZiBDT01QQU5JRVMpIHsNCiAgICAgICAgaWYgKCFjb21wYW55LmVuYWJsZWQpIGNvbnRpbnVlOw0KICAgICAgICBjb25zb2xlLmxvZyhgXG5TeW5jaW5nICR7Y29tcGFueS5uYW1lfS4uLmApOw0KDQogICAgICAgIGxldCBwYWdlID0gMTsNCiAgICAgICAgbGV0IGhhc01vcmUgPSB0cnVlOw0KDQogICAgICAgIHdoaWxlIChoYXNNb3JlKSB7DQogICAgICAgICAgICBjb25zdCB1cmwgPSBgaHR0cHM6Ly9hcGkudGlueS5jb20uYnIvYXBpMi9wZWRpZG9zLnBlc3F1aXNhLnBocD90b2tlbj0ke2NvbXBhbnkudG9rZW59JmZvcm1hdG89SlNPTiZkYXRhSW5pY2lhbD0ke2RhdGFJbmljaWFsfSZkYXRhRmluYWw9JHtkYXRhRmluYWx9JnBhZ2luYT0ke3BhZ2V9YDsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGBGZXRjaGluZyBwYWdlICR7cGFnZX0uLi5gKTsNCg0KICAgICAgICAgICAgdHJ5IHsNCiAgICAgICAgICAgICAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCh1cmwpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGpzb24gPSBhd2FpdCByZXMuanNvbigpOw0KDQogICAgICAgICAgICAgICAgaWYgKGpzb24ucmV0b3Juby5zdGF0dXMgIT09ICdPSycpIHsNCiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coYFJlc3BvbnNlIHN0YXR1czogJHtqc29uLnJldG9ybm8uc3RhdHVzfWApOw0KICAgICAgICAgICAgICAgICAgICBoYXNNb3JlID0gZmFsc2U7DQogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgIGNvbnN0IG9yZGVycyA9IGpzb24ucmV0b3Juby5wZWRpZG9zIHx8IFtdOw0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGBGb3VuZCAke29yZGVycy5sZW5ndGh9IG9yZGVycy5gKTsNCg0KICAgICAgICAgICAgICAgIGlmIChvcmRlcnMubGVuZ3RoID09PSAwKSB7DQogICAgICAgICAgICAgICAgICAgIGhhc01vcmUgPSBmYWxzZTsNCiAgICAgICAgICAgICAgICAgICAgY29udGludWU7DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgLy8gSW5zZXJ0IGludG8gUXVldWUgZGlyZWN0bHkNCiAgICAgICAgICAgICAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICAgICAgICAgICAgICBmb3IgKGNvbnN0IG8gb2Ygb3JkZXJzKSB7DQogICAgICAgICAgICAgICAgICAgIGNvbnN0IG9yZGVySWQgPSBTdHJpbmcoby5wZWRpZG8uaWQpOw0KICAgICAgICAgICAgICAgICAgICBjb25zdCBvcmRlckRhdGUgPSBvLnBlZGlkby5kYXRhX3BlZGlkbzsNCiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIC0gUXVldWVpbmcgT3JkZXIgJHtvcmRlcklkfSAoJHtvcmRlckRhdGV9KWApOw0KDQogICAgICAgICAgICAgICAgICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAgICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAgICAgICAgICAgICAuaW5zZXJ0KHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcmRlcl9pZDogb3JkZXJJZCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb21wYW55OiBjb21wYW55Lm5hbWUsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzOiAncGVuZGluZycsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0cnlfY291bnQ6IDAsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV4dF9yZXRyeV9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9yZGVyX2RhdGU6IG9yZGVyRGF0ZSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXlsb2FkOiB7IGNucGo6ICczOTQ0NzI5MTAwMDEwNCcsIG9yaWdpbjogJ01hbnVhbCBGb3JjZSBTeW5jJyB9IC8vIER1bW15IENOUEogZm9yIHBheWxvYWQsIHByb2Nlc3NvciBoYW5kbGVzIGxvb2t1cD8NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBBY3R1YWxseSwgbGV0J3MgdXNlIGNoZWNrLWlmLWV4aXN0cyBsb2dpYz8gTm8sIGp1c3QgZm9yY2UgaW5zZXJ0LiBUaGUgY3JvbiBqb2IgZG9lcyB1cHNlcnRzIG9yIGlnbm9yZXMuDQogICAgICAgICAgICAgICAgICAgICAgICB9KTsNCg0KICAgICAgICAgICAgICAgICAgICBpZiAoZXJyb3IpIGNvbnNvbGUuZXJyb3IoJyAgICAgSW5zZXJ0IGVycm9yOicsIGVycm9yLm1lc3NhZ2UpOw0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgIHBhZ2UrKzsNCiAgICAgICAgICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgMTAwMCkpOw0KDQogICAgICAgICAgICB9IGNhdGNoIChlKSB7DQogICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcihlKTsNCiAgICAgICAgICAgICAgICBoYXNNb3JlID0gZmFsc2U7DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9DQp9DQoNCmZvcmNlU3luYygpOw0K}
+
+import { createClient } from '@supabase/supabase-js';
+import fs from 'fs';
+import path from 'path';
+
+// Load env
+const envPath = path.resolve(process.cwd(), '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+const env: Record<string, string> = {};
+envContent.split('\n').forEach(line => {
+    const [key, val] = line.split('=');
+    if (key && val) env[key.trim()] = val.trim();
+});
+
+const SUPABASE_URL = process.env.SUPABASE_URL || env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || env.SUPABASE_SERVICE_ROLE_KEY;
+const TINY_TOKEN_MM = process.env.TINY_API_TOKEN_MM || env.TINY_API_TOKEN_MM || env.TINY_API_TOKEN;
+const TINY_TOKEN_MVF = process.env.TINY_API_TOKEN_MVF || env.TINY_API_TOKEN_MVF;
+
+const COMPANIES = [
+    { name: 'MM', token: TINY_TOKEN_MM, enabled: !!TINY_TOKEN_MM },
+    { name: 'MVF', token: TINY_TOKEN_MVF, enabled: !!TINY_TOKEN_MVF }
+];
+
+async function forceSync() {
+    console.log('🚀 Forcing sync for last 4 days...');
+
+    // Date range: last 4 days to be sure
+    const endDate = new Date();
+    const startDate = new Date();
+    startDate.setDate(startDate.getDate() - 4);
+
+    const formatDate = (date: any) => {
+        const day = String(date.getDate()).padStart(2, '0');
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const year = date.getFullYear();
+        return `${day}/${month}/${year}`;
+    };
+
+    const dataInicial = formatDate(startDate);
+    const dataFinal = formatDate(endDate);
+
+    console.log(`Dates: ${dataInicial} to ${dataFinal}`);
+
+    for (const company of COMPANIES) {
+        if (!company.enabled) continue;
+        console.log(`\nSyncing ${company.name}...`);
+
+        let page = 1;
+        let hasMore = true;
+
+        while (hasMore) {
+            const url = `https://api.tiny.com.br/api2/pedidos.pesquisa.php?token=${company.token}&formato=JSON&dataInicial=${dataInicial}&dataFinal=${dataFinal}&pagina=${page}`;
+            console.log(`Fetching page ${page}...`);
+
+            try {
+                const res = await fetch(url);
+                const json = await res.json();
+
+                if (json.retorno.status !== 'OK') {
+                    console.log(`Response status: ${json.retorno.status}`);
+                    hasMore = false;
+                    continue;
+                }
+
+                const orders = json.retorno.pedidos || [];
+                console.log(`Found ${orders.length} orders.`);
+
+                if (orders.length === 0) {
+                    hasMore = false;
+                    continue;
+                }
+
+                // Insert into Queue directly
+                const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+                for (const o of orders) {
+                    const orderId = String(o.pedido.id);
+                    const orderDate = o.pedido.data_pedido;
+                    console.log(`   - Queueing Order ${orderId} (${orderDate})`);
+
+                    const { error } = await supabase
+                        .from('webhook_retry_queue')
+                        .insert({
+                            order_id: orderId,
+                            company: company.name,
+                            status: 'pending',
+                            retry_count: 0,
+                            next_retry_at: new Date().toISOString(),
+                            order_date: orderDate,
+                            payload: { cnpj: '39447291000104', origin: 'Manual Force Sync' } // Dummy CNPJ for payload, processor handles lookup?
+                            // Actually, let's use check-if-exists logic? No, just force insert. The cron job does upserts or ignores.
+                        });
+
+                    if (error) console.error('     Insert error:', error.message);
+                }
+
+                page++;
+                await new Promise(r => setTimeout(r, 1000));
+
+            } catch (e) {
+                console.error(e);
+                hasMore = false;
+            }
+        }
+    }
+}
+
+forceSync();

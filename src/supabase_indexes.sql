@@ -1,1 +1,14 @@
-﻿@{data=LS0gRXhlY3V0ZSBlc3RlIFNRTCBubyBwYWluZWwgZG8gU3VwYWJhc2UgKFNRTCBFZGl0b3IpDQotLSBJc3NvIHZhaSBjcmlhciDDrW5kaWNlcyBwYXJhIGFjZWxlcmFyIGFzIHF1ZXJpZXMgZGUgZHVwbGljYXRhcw0KDQotLSDDjW5kaWNlIHBhcmEgSUQgVGlueSAodXNhZG8gbmEgdmVyaWZpY2HDp8OjbyBkZSBkdXBsaWNhdGFzKQ0KQ1JFQVRFIElOREVYIElGIE5PVCBFWElTVFMgaWR4X3NwcmVhZHNoZWV0X2RhdGFfdGlueV9pZCANCk9OIHNwcmVhZHNoZWV0X2RhdGEgVVNJTkcgR0lOICgocm93X2RhdGEtPidJRCBUaW55JykpOw0KDQotLSDDjW5kaWNlIHBhcmEgU0tVICh1c2FkbyBuYSB2ZXJpZmljYcOnw6NvIGRlIGR1cGxpY2F0YXMpDQpDUkVBVEUgSU5ERVggSUYgTk9UIEVYSVNUUyBpZHhfc3ByZWFkc2hlZXRfZGF0YV9za3UgDQpPTiBzcHJlYWRzaGVldF9kYXRhIFVTSU5HIEdJTiAoKHJvd19kYXRhLT4nU0tVJykpOw0KDQotLSDDjW5kaWNlIHBhcmEgTsO6bWVybyBkbyBwZWRpZG8gKHVzYWRvIGVtIGJ1c2NhcyBnZXJhaXMpDQpDUkVBVEUgSU5ERVggSUYgTk9UIEVYSVNUUyBpZHhfc3ByZWFkc2hlZXRfZGF0YV9udW1lcm9fcGVkaWRvIA0KT04gc3ByZWFkc2hlZXRfZGF0YSBVU0lORyBHSU4gKChyb3dfZGF0YS0+J07Dum1lcm8gZG8gcGVkaWRvJykpOw0K}
+-- Execute este SQL no painel do Supabase (SQL Editor)
+-- Isso vai criar índices para acelerar as queries de duplicatas
+
+-- Índice para ID Tiny (usado na verificação de duplicatas)
+CREATE INDEX IF NOT EXISTS idx_spreadsheet_data_tiny_id 
+ON spreadsheet_data USING GIN ((row_data->'ID Tiny'));
+
+-- Índice para SKU (usado na verificação de duplicatas)
+CREATE INDEX IF NOT EXISTS idx_spreadsheet_data_sku 
+ON spreadsheet_data USING GIN ((row_data->'SKU'));
+
+-- Índice para Número do pedido (usado em buscas gerais)
+CREATE INDEX IF NOT EXISTS idx_spreadsheet_data_numero_pedido 
+ON spreadsheet_data USING GIN ((row_data->'Número do pedido'));

@@ -1,1 +1,113 @@
-﻿@{data=aW1wb3J0IHBhdGggZnJvbSAncGF0aCc7CmltcG9ydCB7IGRlZmluZUNvbmZpZywgbG9hZEVudiB9IGZyb20gJ3ZpdGUnOwppbXBvcnQgcmVhY3QgZnJvbSAnQHZpdGVqcy9wbHVnaW4tcmVhY3QnOwoKZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKCh7IG1vZGUgfSkgPT4gewogIGNvbnN0IGVudiA9IGxvYWRFbnYobW9kZSwgJy4nLCAnJyk7CiAgcmV0dXJuIHsKICAgIHNlcnZlcjogewogICAgICBwb3J0OiAzMDAwLAogICAgICBob3N0OiAnMC4wLjAuMCcsCiAgICAgIHByb3h5OiB7CiAgICAgICAgLy8gTm8gZGlyZWN0IHByb3h5LCB3ZSBoYW5kbGUgaXQgdmlhIG1pZGRsZXdhcmUgYmVsb3cKICAgICAgfQogICAgfSwKICAgIHBsdWdpbnM6IFsKICAgICAgcmVhY3QoKSwKICAgICAgewogICAgICAgIG5hbWU6ICd2ZXJjZWwtYXBpLW1pZGRsZXdhcmUnLAogICAgICAgIGNvbmZpZ3VyZVNlcnZlcihzZXJ2ZXIpIHsKICAgICAgICAgIHNlcnZlci5taWRkbGV3YXJlcy51c2UoJy9hcGknLCBhc3luYyAocmVxLCByZXMsIG5leHQpID0+IHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAvLyBFeHRyYWN0IHRoZSBzcGVjaWZpYyBlbmRwb2ludAogICAgICAgICAgICAgIGNvbnN0IHVybCA9IHJlcS51cmw/LnNwbGl0KCc/JylbMF0gfHwgJyc7CiAgICAgICAgICAgICAgbGV0IGhhbmRsZXI7CgogICAgICAgICAgICAgIC8vIE1hcCBVUkxzIHRvIGhhbmRsZXIgZmlsZXMKICAgICAgICAgICAgICBpZiAodXJsID09PSAnL3N5bmMtdGlueScgfHwgdXJsID09PSAnL3N5bmMtdGlueS8nKSB7CiAgICAgICAgICAgICAgICAvLyBAdHMtaWdub3JlCiAgICAgICAgICAgICAgICBoYW5kbGVyID0gKGF3YWl0IGltcG9ydCgnLi9hcGkvc3luYy10aW55LnRzJykpLmRlZmF1bHQ7CiAgICAgICAgICAgICAgfSBlbHNlIGlmICh1cmwgPT09ICcvcHJvY2Vzcy1yZXRyeS1xdWV1ZScgfHwgdXJsID09PSAnL3Byb2Nlc3MtcmV0cnktcXVldWUvJykgewogICAgICAgICAgICAgICAgLy8gQHRzLWlnbm9yZQogICAgICAgICAgICAgICAgaGFuZGxlciA9IChhd2FpdCBpbXBvcnQoJy4vYXBpL3Byb2Nlc3MtcmV0cnktcXVldWUudHMnKSkuZGVmYXVsdDsKICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgbmV4dCgpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgLy8gUG9seWZpbGwgVmVyY2VsL0V4cHJlc3MgbWV0aG9kcwogICAgICAgICAgICAgIGNvbnN0IGpzb24gPSAoZGF0YTogYW55KSA9PiB7CiAgICAgICAgICAgICAgICByZXMuc2V0SGVhZGVyKCdDb250ZW50LVR5cGUnLCAnYXBwbGljYXRpb24vanNvbicpOwogICAgICAgICAgICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeShkYXRhKSk7CiAgICAgICAgICAgICAgfTsKCiAgICAgICAgICAgICAgY29uc3Qgc3RhdHVzID0gKGNvZGU6IG51bWJlcikgPT4gewogICAgICAgICAgICAgICAgcmVzLnN0YXR1c0NvZGUgPSBjb2RlOwogICAgICAgICAgICAgICAgcmV0dXJuIHsganNvbiB9OwogICAgICAgICAgICAgIH07CgogICAgICAgICAgICAgIC8vIEJvZHkgcGFyc2luZyAoVml0ZSBtaWRkbGV3YXJlIGRvZXNuJ3QgcGFyc2UgYm9keSBieSBkZWZhdWx0KQogICAgICAgICAgICAgIGlmIChyZXEubWV0aG9kID09PSAnUE9TVCcpIHsKICAgICAgICAgICAgICAgIGNvbnN0IGJ1ZmZlcnM6IEJ1ZmZlcltdID0gW107CiAgICAgICAgICAgICAgICByZXEub24oJ2RhdGEnLCAoY2h1bmspID0+IGJ1ZmZlcnMucHVzaChjaHVuaykpOwogICAgICAgICAgICAgICAgcmVxLm9uKCdlbmQnLCBhc3luYyAoKSA9PiB7CiAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgYm9keVN0ciA9IEJ1ZmZlci5jb25jYXQoYnVmZmVycykudG9TdHJpbmcoKTsKICAgICAgICAgICAgICAgICAgICAvLyBBdHRhY2ggYm9keSB0byByZXEKICAgICAgICAgICAgICAgICAgICAvLyBAdHMtaWdub3JlCiAgICAgICAgICAgICAgICAgICAgcmVxLmJvZHkgPSBib2R5U3RyID8gSlNPTi5wYXJzZShib2R5U3RyKSA6IHt9OwoKICAgICAgICAgICAgICAgICAgICAvLyBFbmhhbmNlIHJlcyBvYmplY3QKICAgICAgICAgICAgICAgICAgICAvLyBAdHMtaWdub3JlCiAgICAgICAgICAgICAgICAgICAgcmVzLnN0YXR1cyA9IHN0YXR1czsKICAgICAgICAgICAgICAgICAgICAvLyBAdHMtaWdub3JlCiAgICAgICAgICAgICAgICAgICAgcmVzLmpzb24gPSBqc29uOwoKICAgICAgICAgICAgICAgICAgICBhd2FpdCBoYW5kbGVyKHJlcSwgcmVzKTsKICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignQVBJIE1pZGRsZXdhcmUgRXJyb3I6JywgZXJyKTsKICAgICAgICAgICAgICAgICAgICBzdGF0dXMoNTAwKS5qc29uKHsgZXJyb3I6ICdJbnRlcm5hbCBTZXJ2ZXIgRXJyb3InLCBkZXRhaWxzOiBTdHJpbmcoZXJyKSB9KTsKICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIC8vIEdFVCByZXF1ZXN0CiAgICAgICAgICAgICAgICAvLyBAdHMtaWdub3JlCiAgICAgICAgICAgICAgICByZXEuYm9keSA9IHt9OwogICAgICAgICAgICAgICAgLy8gQHRzLWlnbm9yZQogICAgICAgICAgICAgICAgcmVzLnN0YXR1cyA9IHN0YXR1czsKICAgICAgICAgICAgICAgIC8vIEB0cy1pZ25vcmUKICAgICAgICAgICAgICAgIHJlcy5qc29uID0ganNvbjsKCiAgICAgICAgICAgICAgICBhd2FpdCBoYW5kbGVyKHJlcSwgcmVzKTsKICAgICAgICAgICAgICB9CgogICAgICAgICAgICB9IGNhdGNoIChlcnJvcikgewogICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ01pZGRsZXdhcmUgTG9hZGluZyBFcnJvcjonLCBlcnJvcik7CiAgICAgICAgICAgICAgbmV4dCgpOwogICAgICAgICAgICB9CiAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgIH0KICAgIF0sCiAgICBkZWZpbmU6IHsKICAgICAgJ3Byb2Nlc3MuZW52JzogSlNPTi5zdHJpbmdpZnkocHJvY2Vzcy5lbnYpLCAvLyBFeHBvc2UgYWxsIGVudiB2YXJzCiAgICAgICdwcm9jZXNzLmVudi5BUElfS0VZJzogSlNPTi5zdHJpbmdpZnkoZW52LkdFTUlOSV9BUElfS0VZKSwKICAgICAgJ3Byb2Nlc3MuZW52LkdFTUlOSV9BUElfS0VZJzogSlNPTi5zdHJpbmdpZnkoZW52LkdFTUlOSV9BUElfS0VZKSwKICAgICAgJ3Byb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVknOiBKU09OLnN0cmluZ2lmeShlbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSksCiAgICAgICdwcm9jZXNzLmVudi5USU5ZX0FQSV9UT0tFTl9NVkYnOiBKU09OLnN0cmluZ2lmeShlbnYuVElOWV9BUElfVE9LRU5fTVZGKSwKICAgICAgJ3Byb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOX01NJzogSlNPTi5zdHJpbmdpZnkoZW52LlRJTllfQVBJX1RPS0VOX01NKSwKICAgICAgJ3Byb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCc6IEpTT04uc3RyaW5naWZ5KGVudi5TVVBBQkFTRV9VUkwgfHwgZW52LlZJVEVfU1VQQUJBU0VfVVJMKSwKICAgICAgLy8gUGFzcyB2aXRhbCBiYWNrZW5kIHZhcnMgKE9OTFkgU0FGRSBPTkVTIHVzdWFsbHksIGJ1dCB0aGlzIGlzIHNlcnZlciBjb25maWcgcnVubmluZyBpbiBkZXYpCiAgICAgIC8vIEFjdHVhbGx5LCB0aGUgaW1wb3J0IGJlbG93IHdpbGwgcmVhZCBwcm9jZXNzLmVudiBmcm9tIE5vZGUgcHJvY2Vzcywgc28gd2UgbmVlZCB0byBwb3B1bGF0ZSBpdC4KICAgIH0sCiAgICByZXNvbHZlOiB7CiAgICAgIGFsaWFzOiB7CiAgICAgICAgJ0AnOiBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnLicpLAogICAgICB9CiAgICB9CiAgfTsKfSk7CgovLyBQb3B1bGF0ZSBwcm9jZXNzLmVudiB3aXRoIGxvYWRlZCBlbnYgdmFycyBzbyBpbXBvcnRlZCBtb2R1bGVzIGNhbiBzZWUgdGhlbQpjb25zdCBlbnYgPSBsb2FkRW52KCdkZXZlbG9wbWVudCcsICcuJywgJycpOwpPYmplY3QuYXNzaWduKHByb2Nlc3MuZW52LCBlbnYpOwo=}
+import path from 'path';
+import { defineConfig, loadEnv } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, '.', '');
+  return {
+    server: {
+      port: 3000,
+      host: '0.0.0.0',
+      proxy: {
+        // No direct proxy, we handle it via middleware below
+      }
+    },
+    plugins: [
+      react(),
+      {
+        name: 'vercel-api-middleware',
+        configureServer(server) {
+          server.middlewares.use('/api', async (req, res, next) => {
+            try {
+              // Extract the specific endpoint
+              const url = req.url?.split('?')[0] || '';
+              let handler;
+
+              // Map URLs to handler files
+              if (url === '/sync-tiny' || url === '/sync-tiny/') {
+                // @ts-ignore
+                handler = (await import('./api/sync-tiny.ts')).default;
+              } else if (url === '/process-retry-queue' || url === '/process-retry-queue/') {
+                // @ts-ignore
+                handler = (await import('./api/process-retry-queue.ts')).default;
+              } else {
+                next();
+                return;
+              }
+
+              // Polyfill Vercel/Express methods
+              const json = (data: any) => {
+                res.setHeader('Content-Type', 'application/json');
+                res.end(JSON.stringify(data));
+              };
+
+              const status = (code: number) => {
+                res.statusCode = code;
+                return { json };
+              };
+
+              // Body parsing (Vite middleware doesn't parse body by default)
+              if (req.method === 'POST') {
+                const buffers: Buffer[] = [];
+                req.on('data', (chunk) => buffers.push(chunk));
+                req.on('end', async () => {
+                  try {
+                    const bodyStr = Buffer.concat(buffers).toString();
+                    // Attach body to req
+                    // @ts-ignore
+                    req.body = bodyStr ? JSON.parse(bodyStr) : {};
+
+                    // Enhance res object
+                    // @ts-ignore
+                    res.status = status;
+                    // @ts-ignore
+                    res.json = json;
+
+                    await handler(req, res);
+                  } catch (err) {
+                    console.error('API Middleware Error:', err);
+                    status(500).json({ error: 'Internal Server Error', details: String(err) });
+                  }
+                });
+              } else {
+                // GET request
+                // @ts-ignore
+                req.body = {};
+                // @ts-ignore
+                res.status = status;
+                // @ts-ignore
+                res.json = json;
+
+                await handler(req, res);
+              }
+
+            } catch (error) {
+              console.error('Middleware Loading Error:', error);
+              next();
+            }
+          });
+        }
+      }
+    ],
+    define: {
+      'process.env': JSON.stringify(process.env), // Expose all env vars
+      'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
+      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
+      'process.env.SUPABASE_SERVICE_ROLE_KEY': JSON.stringify(env.SUPABASE_SERVICE_ROLE_KEY),
+      'process.env.TINY_API_TOKEN_MVF': JSON.stringify(env.TINY_API_TOKEN_MVF),
+      'process.env.TINY_API_TOKEN_MM': JSON.stringify(env.TINY_API_TOKEN_MM),
+      'process.env.SUPABASE_URL': JSON.stringify(env.SUPABASE_URL || env.VITE_SUPABASE_URL),
+      // Pass vital backend vars (ONLY SAFE ONES usually, but this is server config running in dev)
+      // Actually, the import below will read process.env from Node process, so we need to populate it.
+    },
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '.'),
+      }
+    }
+  };
+});
+
+// Populate process.env with loaded env vars so imported modules can see them
+const env = loadEnv('development', '.', '');
+Object.assign(process.env, env);

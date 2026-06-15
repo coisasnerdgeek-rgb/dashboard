@@ -1,1 +1,68 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwoKaW50ZXJmYWNlIFN0YXRDYXJkUHJvcHMgewogICAgdGl0bGU6IHN0cmluZzsKICAgIHZhbHVlOiBzdHJpbmcgfCBudW1iZXI7CiAgICBzdWJ0aXRsZT86IHN0cmluZzsKICAgIGljb246IFJlYWN0LlJlYWN0Tm9kZTsKICAgIHZhbHVlQ2xhc3NOYW1lPzogc3RyaW5nOwogICAgaXNUb3RhbD86IGJvb2xlYW47CiAgICBjb2xvclZhcmlhbnQ/OiAnZW1lcmFsZCcgfCAnYmx1ZScgfCAnYW1iZXInIHwgJ3Jvc2UnIHwgJ2luZGlnbycgfCAnc2xhdGUnIHwgJ3Zpb2xldCcgfCAnb3JhbmdlJzsKfQoKY29uc3QgU3RhdENhcmQ6IFJlYWN0LkZDPFN0YXRDYXJkUHJvcHM+ID0gKHsKICAgIHRpdGxlLAogICAgdmFsdWUsCiAgICBzdWJ0aXRsZSwKICAgIGljb24sCiAgICB2YWx1ZUNsYXNzTmFtZSwKICAgIGlzVG90YWwsCiAgICBjb2xvclZhcmlhbnQgPSAnc2xhdGUnCn0pID0+IHsKICAgIGNvbnN0IGdldEljb25Db2xvciA9ICgpID0+IHsKICAgICAgICBjb25zdCBjb2xvcnMgPSB7CiAgICAgICAgICAgIGVtZXJhbGQ6ICd0ZXh0LWVtZXJhbGQtNDAwJywKICAgICAgICAgICAgYmx1ZTogJ3RleHQtYmx1ZS00MDAnLAogICAgICAgICAgICBhbWJlcjogJ3RleHQtYW1iZXItNDAwJywKICAgICAgICAgICAgcm9zZTogJ3RleHQtcm9zZS00MDAnLAogICAgICAgICAgICBpbmRpZ286ICd0ZXh0LWluZGlnby00MDAnLAogICAgICAgICAgICBzbGF0ZTogJ3RleHQtc2xhdGUtNDAwJywKICAgICAgICAgICAgdmlvbGV0OiAndGV4dC12aW9sZXQtNDAwJywKICAgICAgICAgICAgb3JhbmdlOiAndGV4dC1vcmFuZ2UtNDAwJwogICAgICAgIH07CiAgICAgICAgcmV0dXJuIGlzVG90YWwgPyAndGV4dC10ZWFsLTQwMCcgOiAoY29sb3JzW2NvbG9yVmFyaWFudF0gfHwgY29sb3JzLnNsYXRlKTsKICAgIH07CgogICAgY29uc3QgaWNvbkNvbG9yID0gZ2V0SWNvbkNvbG9yKCk7CgogICAgcmV0dXJuICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIGJnLVsjMWUyNTMwXSBib3JkZXIgYm9yZGVyLXNsYXRlLTcwMC81MCByb3VuZGVkLTJ4bCBwLTQgc2hhZG93LXhsIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTMwMCBob3ZlcjotdHJhbnNsYXRlLXktMSBob3ZlcjpzaGFkb3ctMnhsIGhvdmVyOmJvcmRlci1zbGF0ZS02MDAgZ3JvdXAgaC1mdWxsIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC00IHJlbGF0aXZlIHotMTAiPgogICAgICAgICAgICAgICAgey8qIEljb24gQ29udGFpbmVyICovfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2BwLTMgYmctc2xhdGUtODAwLzUwIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1zbGF0ZS03MDAvNTAgZ3JvdXAtaG92ZXI6c2NhbGUtMTEwIHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTMwMCAke2ljb25Db2xvcn1gfT4KICAgICAgICAgICAgICAgICAgICB7UmVhY3QuY2xvbmVFbGVtZW50KGljb24gYXMgUmVhY3QuUmVhY3RFbGVtZW50PGFueT4sIHsgY2xhc3NOYW1lOiAiaC02IHctNiIgfSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICB7LyogQ29udGVudCAqL30KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4tdy0wIGZsZXgtMSI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIGZvbnQtYm9sZCB0ZXh0LWdyYXktNTAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgbWItMSB0cnVuY2F0ZSI+CiAgICAgICAgICAgICAgICAgICAgICAgIHt0aXRsZX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17YCR7dmFsdWVDbGFzc05hbWUgfHwgJ3RleHQtMnhsJ30gZm9udC1ib2xkIHRleHQtd2hpdGUgdHJhY2tpbmctdGlnaHQgdHJ1bmNhdGUgbGVhZGluZy1ub25lYH0+CiAgICAgICAgICAgICAgICAgICAgICAgIHt2YWx1ZX0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICB7c3VidGl0bGUgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMS41IHRleHQtWzEwcHhdIGZvbnQtbWVkaXVtIHRleHQtZ3JheS00MDAgdHJ1bmNhdGUiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3N1YnRpdGxlfQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgey8qIFN1YnRsZSBiYWNrZ3JvdW5kIGdsb3cgKi99CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgYWJzb2x1dGUgLXJpZ2h0LTggLWJvdHRvbS04IHctMjQgaC0yNCByb3VuZGVkLWZ1bGwgYmx1ci0zeGwgb3BhY2l0eS01IHRyYW5zaXRpb24tb3BhY2l0eSBkdXJhdGlvbi01MDAgZ3JvdXAtaG92ZXI6b3BhY2l0eS0xMCAke2ljb25Db2xvci5yZXBsYWNlKCd0ZXh0LScsICdiZy0nKX1gfT48L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICk7Cn07CgpleHBvcnQgZGVmYXVsdCBTdGF0Q2FyZDs=}
+import * as React from 'react';
+
+interface StatCardProps {
+    title: string;
+    value: string | number;
+    subtitle?: string;
+    icon: React.ReactNode;
+    valueClassName?: string;
+    isTotal?: boolean;
+    colorVariant?: 'emerald' | 'blue' | 'amber' | 'rose' | 'indigo' | 'slate' | 'violet' | 'orange';
+}
+
+const StatCard: React.FC<StatCardProps> = ({
+    title,
+    value,
+    subtitle,
+    icon,
+    valueClassName,
+    isTotal,
+    colorVariant = 'slate'
+}) => {
+    const getIconColor = () => {
+        const colors = {
+            emerald: 'text-emerald-400',
+            blue: 'text-blue-400',
+            amber: 'text-amber-400',
+            rose: 'text-rose-400',
+            indigo: 'text-indigo-400',
+            slate: 'text-slate-400',
+            violet: 'text-violet-400',
+            orange: 'text-orange-400'
+        };
+        return isTotal ? 'text-teal-400' : (colors[colorVariant] || colors.slate);
+    };
+
+    const iconColor = getIconColor();
+
+    return (
+        <div className="relative overflow-hidden bg-[#1e2530] border border-slate-700/50 rounded-2xl p-4 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:border-slate-600 group h-full">
+            <div className="flex items-center gap-4 relative z-10">
+                {/* Icon Container */}
+                <div className={`p-3 bg-slate-800/50 rounded-xl border border-slate-700/50 group-hover:scale-110 transition-transform duration-300 ${iconColor}`}>
+                    {React.cloneElement(icon as React.ReactElement<any>, { className: "h-6 w-6" })}
+                </div>
+
+                {/* Content */}
+                <div className="min-w-0 flex-1">
+                    <div className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-1 truncate">
+                        {title}
+                    </div>
+                    <div className={`${valueClassName || 'text-2xl'} font-bold text-white tracking-tight truncate leading-none`}>
+                        {value}
+                    </div>
+                    {subtitle && (
+                        <div className="mt-1.5 text-[10px] font-medium text-gray-400 truncate">
+                            {subtitle}
+                        </div>
+                    )}
+                </div>
+            </div>
+
+            {/* Subtle background glow */}
+            <div className={`absolute -right-8 -bottom-8 w-24 h-24 rounded-full blur-3xl opacity-5 transition-opacity duration-500 group-hover:opacity-10 ${iconColor.replace('text-', 'bg-')}`}></div>
+        </div>
+    );
+};
+
+export default StatCard;

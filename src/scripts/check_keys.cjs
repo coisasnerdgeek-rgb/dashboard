@@ -1,1 +1,26 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQphc3luYyBmdW5jdGlvbiBjaGVjaygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQogICAgY29uc3QgeyBkYXRhIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykuc2VsZWN0KCdyb3dfZGF0YScpLmxpbWl0KDEpOw0KDQogICAgaWYgKGRhdGEgJiYgZGF0YVswXSkgew0KICAgICAgICBjb25zdCByb3dEYXRhID0gdHlwZW9mIGRhdGFbMF0ucm93X2RhdGEgPT09ICdzdHJpbmcnID8gSlNPTi5wYXJzZShkYXRhWzBdLnJvd19kYXRhKSA6IGRhdGFbMF0ucm93X2RhdGE7DQogICAgICAgIGNvbnNvbGUubG9nKCdLZXlzIGVtIHJvd19kYXRhOicpOw0KICAgICAgICBjb25zb2xlLmxvZyhPYmplY3Qua2V5cyhyb3dEYXRhKSk7DQogICAgfQ0KfQ0KDQpjaGVjaygpOw0K}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function check() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+    const { data } = await supabase.from('spreadsheet_data').select('row_data').limit(1);
+
+    if (data && data[0]) {
+        const rowData = typeof data[0].row_data === 'string' ? JSON.parse(data[0].row_data) : data[0].row_data;
+        console.log('Keys em row_data:');
+        console.log(Object.keys(rowData));
+    }
+}
+
+check();

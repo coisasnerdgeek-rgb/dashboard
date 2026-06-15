@@ -1,1 +1,38 @@
-﻿@{data=LS0gTWlncmF0aW9uOiBCYWNrZmlsbCBEZWNlbWJlciAyMDI1IG9yZGVycyB0byBJTVBSRVNTTw0KLS0gUHVycG9zZTogVXBkYXRlIHByaW50X2NvbnRyb2wgc3RhdHVzIGZvciBvcmRlcnMgZnJvbSBEZWNlbWJlciB0aGF0IGFyZSBhbHJlYWR5IHNoaXBwZWQvZGVsaXZlcmVkIGluIFRpbnkNCg0KLS0gU1RFUCAxOiBQUkVWSUVXIChTYWZlIHRvIHJ1biBhbnl0aW1lKQ0KLS0gVGhpcyB3aWxsIHNob3cgeW91IHdoaWNoIG9yZGVycyB3aWxsIGJlIHVwZGF0ZWQNClNFTEVDVCANCiAgcGMub3JkZXJfaWQsDQogIHBjLnN0YXR1cyBhcyBkYl9zdGF0dXMsDQogIHNvLmRhdGFfanNvbi0+PidzdGF0dXMnIGFzIHRpbnlfc3RhdHVzLA0KICBzby5jcmVhdGVkX2F0IGFzIGltcG9ydGVkX2F0DQpGUk9NIHByaW50X2NvbnRyb2wgcGMNCklOTkVSIEpPSU4gc2F2ZWRfb3JkZXJzIHNvIE9OIHBjLm9yZGVyX2lkID0gc28uaWQNCldIRVJFIChwYy5zdGF0dXMgPSAnRkFaRVIgQVJURScgT1IgcGMuc3RhdHVzIElTIE5VTEwpDQogIEFORCAoDQogICAgc28uZGF0YV9qc29uLT4+J3N0YXR1cycgSUxJS0UgJyVlbnZpYWRvJScgDQogICAgT1Igc28uZGF0YV9qc29uLT4+J3N0YXR1cycgSUxJS0UgJyVlbnRyZWd1ZSUnIA0KICAgIE9SIHNvLmRhdGFfanNvbi0+PidzdGF0dXMnIElMSUtFICclYSBjYW1pbmhvJScNCiAgKQ0KICAtLSBGaWx0cm8gcGFyYSBEZXplbWJybyBkZSAyMDI1IChjb25zaWRlcmFuZG8gYSBkYXRhIGRlIGltcG9ydGHDp8OjbyBubyBzaXN0ZW1hKQ0KICBBTkQgc28uY3JlYXRlZF9hdCA+PSAnMjAyNS0xMi0wMScgDQogIEFORCBzby5jcmVhdGVkX2F0IDwgJzIwMjYtMDEtMDEnDQpPUkRFUiBCWSBzby5jcmVhdGVkX2F0IERFU0M7DQoNCi0tIFNURVAgMjogVVBEQVRFIChVbmNvbW1lbnQgYW5kIHJ1biB0byBhcHBseSBjaGFuZ2VzKQ0KLyoNClVQREFURSBwcmludF9jb250cm9sIHBjDQpTRVQgc3RhdHVzID0gJ0lNUFJFU1NPJw0KRlJPTSBzYXZlZF9vcmRlcnMgc28NCldIRVJFIHBjLm9yZGVyX2lkID0gc28uaWQNCiAgQU5EIChwYy5zdGF0dXMgPSAnRkFaRVIgQVJURScgT1IgcGMuc3RhdHVzIElTIE5VTEwpDQogIEFORCAoDQogICAgc28uZGF0YV9qc29uLT4+J3N0YXR1cycgSUxJS0UgJyVlbnZpYWRvJScgDQogICAgT1Igc28uZGF0YV9qc29uLT4+J3N0YXR1cycgSUxJS0UgJyVlbnRyZWd1ZSUnIA0KICAgIE9SIHNvLmRhdGFfanNvbi0+PidzdGF0dXMnIElMSUtFICclYSBjYW1pbmhvJScNCiAgKQ0KICBBTkQgc28uY3JlYXRlZF9hdCA+PSAnMjAyNS0xMi0wMScgDQogIEFORCBzby5jcmVhdGVkX2F0IDwgJzIwMjYtMDEtMDEnOw0KKi8NCg==}
+-- Migration: Backfill December 2025 orders to IMPRESSO
+-- Purpose: Update print_control status for orders from December that are already shipped/delivered in Tiny
+
+-- STEP 1: PREVIEW (Safe to run anytime)
+-- This will show you which orders will be updated
+SELECT 
+  pc.order_id,
+  pc.status as db_status,
+  so.data_json->>'status' as tiny_status,
+  so.created_at as imported_at
+FROM print_control pc
+INNER JOIN saved_orders so ON pc.order_id = so.id
+WHERE (pc.status = 'FAZER ARTE' OR pc.status IS NULL)
+  AND (
+    so.data_json->>'status' ILIKE '%enviado%' 
+    OR so.data_json->>'status' ILIKE '%entregue%' 
+    OR so.data_json->>'status' ILIKE '%a caminho%'
+  )
+  -- Filtro para Dezembro de 2025 (considerando a data de importação no sistema)
+  AND so.created_at >= '2025-12-01' 
+  AND so.created_at < '2026-01-01'
+ORDER BY so.created_at DESC;
+
+-- STEP 2: UPDATE (Uncomment and run to apply changes)
+/*
+UPDATE print_control pc
+SET status = 'IMPRESSO'
+FROM saved_orders so
+WHERE pc.order_id = so.id
+  AND (pc.status = 'FAZER ARTE' OR pc.status IS NULL)
+  AND (
+    so.data_json->>'status' ILIKE '%enviado%' 
+    OR so.data_json->>'status' ILIKE '%entregue%' 
+    OR so.data_json->>'status' ILIKE '%a caminho%'
+  )
+  AND so.created_at >= '2025-12-01' 
+  AND so.created_at < '2026-01-01';
+*/

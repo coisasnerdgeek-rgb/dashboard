@@ -1,1 +1,84 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KLy8gTWFudWFsbHkgbG9hZCAuZW52LmxvY2FsDQpjb25zdCBlbnZQYXRoID0gcGF0aC5qb2luKF9fZGlybmFtZSwgJy4uJywgJy5lbnYubG9jYWwnKTsNCmNvbnN0IGVudkNvbnRlbnQgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0Zi04Jyk7DQplbnZDb250ZW50LnNwbGl0KCdcbicpLmZvckVhY2gobGluZSA9PiB7DQogICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePV0rKT0oLiopJC8pOw0KICAgIGlmIChtYXRjaCkgew0KICAgICAgICBjb25zdCBrZXkgPSBtYXRjaFsxXS50cmltKCk7DQogICAgICAgIGNvbnN0IHZhbHVlID0gbWF0Y2hbMl0udHJpbSgpOw0KICAgICAgICBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgfQ0KfSk7DQoNCmNvbnN0IFNVUEFCQVNFX1VSTCA9IHByb2Nlc3MuZW52LlZJVEVfU1VQQUJBU0VfVVJMIHx8IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTDsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlZJVEVfU1VQQUJBU0VfQU5PTl9LRVkgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWTsNCg0KYXN5bmMgZnVuY3Rpb24gYW5hbHl6ZVN0YXR1c2VzKCkgew0KICAgIGNvbnNvbGUubG9nKCfwn5SNIEFuw6FsaXNlIGRlIFN0YXR1cyBkb3MgUGVkaWRvc1xuJyk7DQoNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICAvLyBHZXQgYWxsIG9yZGVycyB3aXRoIHRoZWlyIHN0YXR1cyAoc2l0dWFjYW8pDQogICAgY29uc3QgeyBkYXRhOiBvcmRlcnMsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJ3Jvd19kYXRhJyk7DQoNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcignRXJybzonLCBlcnJvci5tZXNzYWdlKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKGDwn5OKIFRvdGFsIGRlIHBlZGlkb3Mgbm8gYmFuY286ICR7b3JkZXJzLmxlbmd0aH1cbmApOw0KDQogICAgLy8gQW5hbHl6ZSBzdGF0dXMgZGlzdHJpYnV0aW9uDQogICAgY29uc3Qgc3RhdHVzQ291bnRzID0ge307DQogICAgbGV0IG5vU3RhdHVzID0gMDsNCg0KICAgIG9yZGVycy5mb3JFYWNoKG9yZGVyID0+IHsNCiAgICAgICAgY29uc3Qgcm93RGF0YSA9IG9yZGVyLnJvd19kYXRhOw0KICAgICAgICBjb25zdCBzaXR1YWNhbyA9IChyb3dEYXRhWydTaXR1YcOnw6NvJ10gfHwgcm93RGF0YVsnc2l0dWFjYW8nXSB8fCByb3dEYXRhWydTdGF0dXMnXSB8fCByb3dEYXRhWydzdGF0dXMnXSB8fCAnJykudG9Mb3dlckNhc2UoKS50cmltKCk7DQoNCiAgICAgICAgaWYgKCFzaXR1YWNhbykgew0KICAgICAgICAgICAgbm9TdGF0dXMrKzsNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIHN0YXR1c0NvdW50c1tzaXR1YWNhb10gPSAoc3RhdHVzQ291bnRzW3NpdHVhY2FvXSB8fCAwKSArIDE7DQogICAgICAgIH0NCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKCfwn5OIIERpc3RyaWJ1acOnw6NvIHBvciBTdGF0dXM6Jyk7DQogICAgY29uc3Qgc29ydGVkU3RhdHVzZXMgPSBPYmplY3QuZW50cmllcyhzdGF0dXNDb3VudHMpLnNvcnQoKGEsIGIpID0+IGJbMV0gLSBhWzFdKTsNCiAgICBzb3J0ZWRTdGF0dXNlcy5mb3JFYWNoKChbc3RhdHVzLCBjb3VudF0pID0+IHsNCiAgICAgICAgY29uc29sZS5sb2coYCAgICR7c3RhdHVzfTogJHtjb3VudH1gKTsNCiAgICB9KTsNCiAgICBpZiAobm9TdGF0dXMgPiAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICBbU0VNIFNUQVRVU106ICR7bm9TdGF0dXN9YCk7DQogICAgfQ0KDQogICAgLy8gQ2hlY2sgZmlsdGVyIGltcGFjdA0KICAgIGNvbnN0IGFsbG93ZWRTdGF0dXNlcyA9IFsnYXByb3ZhZG8nLCAnZmF0dXJhZG8nLCAncHJlcGFyYW5kbyddOw0KICAgIGxldCB3b3VsZEJlRmlsdGVyZWQgPSAwOw0KICAgIGxldCB3b3VsZFBhc3MgPSAwOw0KDQogICAgb3JkZXJzLmZvckVhY2gob3JkZXIgPT4gew0KICAgICAgICBjb25zdCByb3dEYXRhID0gb3JkZXIucm93X2RhdGE7DQogICAgICAgIGNvbnN0IHNpdHVhY2FvID0gKHJvd0RhdGFbJ1NpdHVhw6fDo28nXSB8fCByb3dEYXRhWydzaXR1YWNhbyddIHx8IHJvd0RhdGFbJ1N0YXR1cyddIHx8IHJvd0RhdGFbJ3N0YXR1cyddIHx8ICcnKS50b0xvd2VyQ2FzZSgpLnRyaW0oKTsNCiAgICAgICAgY29uc3QgaXNBbGxvd2VkID0gYWxsb3dlZFN0YXR1c2VzLnNvbWUocyA9PiBzaXR1YWNhby5pbmNsdWRlcyhzKSk7DQoNCiAgICAgICAgaWYgKGlzQWxsb3dlZCkgew0KICAgICAgICAgICAgd291bGRQYXNzKys7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICB3b3VsZEJlRmlsdGVyZWQrKzsNCiAgICAgICAgfQ0KICAgIH0pOw0KDQogICAgY29uc29sZS5sb2coYFxu4pqg77iPICBJbXBhY3RvIGRvIEZpbHRybyBbImFwcm92YWRvIiwgImZhdHVyYWRvIiwgInByZXBhcmFuZG8iXTpgKTsNCiAgICBjb25zb2xlLmxvZyhgICAg4pyFIFBhc3NhcmlhbTogJHt3b3VsZFBhc3N9YCk7DQogICAgY29uc29sZS5sb2coYCAgIOKdjCBTZXJpYW0gYmxvcXVlYWRvczogJHt3b3VsZEJlRmlsdGVyZWR9YCk7DQogICAgY29uc29sZS5sb2coYCAgIPCfk4kgJSBmaWx0cmFkbzogJHsoKHdvdWxkQmVGaWx0ZXJlZCAvIG9yZGVycy5sZW5ndGgpICogMTAwKS50b0ZpeGVkKDEpfSVgKTsNCn0NCg0KYW5hbHl6ZVN0YXR1c2VzKCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+// Manually load .env.local
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) {
+        const key = match[1].trim();
+        const value = match[2].trim();
+        process.env[key] = value;
+    }
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function analyzeStatuses() {
+    console.log('🔍 Análise de Status dos Pedidos\n');
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    // Get all orders with their status (situacao)
+    const { data: orders, error } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data');
+
+    if (error) {
+        console.error('Erro:', error.message);
+        return;
+    }
+
+    console.log(`📊 Total de pedidos no banco: ${orders.length}\n`);
+
+    // Analyze status distribution
+    const statusCounts = {};
+    let noStatus = 0;
+
+    orders.forEach(order => {
+        const rowData = order.row_data;
+        const situacao = (rowData['Situação'] || rowData['situacao'] || rowData['Status'] || rowData['status'] || '').toLowerCase().trim();
+
+        if (!situacao) {
+            noStatus++;
+        } else {
+            statusCounts[situacao] = (statusCounts[situacao] || 0) + 1;
+        }
+    });
+
+    console.log('📈 Distribuição por Status:');
+    const sortedStatuses = Object.entries(statusCounts).sort((a, b) => b[1] - a[1]);
+    sortedStatuses.forEach(([status, count]) => {
+        console.log(`   ${status}: ${count}`);
+    });
+    if (noStatus > 0) {
+        console.log(`   [SEM STATUS]: ${noStatus}`);
+    }
+
+    // Check filter impact
+    const allowedStatuses = ['aprovado', 'faturado', 'preparando'];
+    let wouldBeFiltered = 0;
+    let wouldPass = 0;
+
+    orders.forEach(order => {
+        const rowData = order.row_data;
+        const situacao = (rowData['Situação'] || rowData['situacao'] || rowData['Status'] || rowData['status'] || '').toLowerCase().trim();
+        const isAllowed = allowedStatuses.some(s => situacao.includes(s));
+
+        if (isAllowed) {
+            wouldPass++;
+        } else {
+            wouldBeFiltered++;
+        }
+    });
+
+    console.log(`\n⚠️  Impacto do Filtro ["aprovado", "faturado", "preparando"]:`);
+    console.log(`   ✅ Passariam: ${wouldPass}`);
+    console.log(`   ❌ Seriam bloqueados: ${wouldBeFiltered}`);
+    console.log(`   📉 % filtrado: ${((wouldBeFiltered / orders.length) * 100).toFixed(1)}%`);
+}
+
+analyzeStatuses().catch(console.error);

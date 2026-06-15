@@ -1,1 +1,34 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIEVYUE9SVEFSIE9TIDUgUEVESURPUyBBVElWT1MgKFNFTSBBUkNISVZFRF9EQVRFKQ0KLS0gRXhlY3V0ZSBubyBTUUwgRWRpdG9yIGRvIEJBTkNPIEFOVElHTyAobmJ4dWJkbXNlcG5oaGhzYnB6b3EpDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQotLSBDb25maXJtYXIgcXVhbnRvcyBwZWRpZG9zIGF0aXZvcyBleGlzdGVtDQpTRUxFQ1QgQ09VTlQoKikgYXMgdG90YWxfYXRpdm9zIEZST00gcHVibGljLnNhdmVkX29yZGVycyBXSEVSRSBhcmNoaXZlZF9kYXRlIElTIE5VTEw7DQoNCi0tIFZlciBxdWFpcyBzw6NvIG9zIHBlZGlkb3MgYXRpdm9zDQpTRUxFQ1QgaWQsIGNyZWF0ZWRfYXQsIExFRlQoZGF0YV9qc29uOjp0ZXh0LCAxMDApIGFzIHByZXZpZXcNCkZST00gcHVibGljLnNhdmVkX29yZGVycyANCldIRVJFIGFyY2hpdmVkX2RhdGUgSVMgTlVMTA0KT1JERVIgQlkgY3JlYXRlZF9hdCBERVNDOw0KDQotLSBFeHBvcnRhciBvcyBwZWRpZG9zIGF0aXZvcyBlbSBmb3JtYXRvIElOU0VSVA0KU0VMRUNUIA0KICAgICdJTlNFUlQgSU5UTyBwdWJsaWMuc2F2ZWRfb3JkZXJzIChhcmNoaXZlZF9kYXRlLCBjcmVhdGVkX2F0LCBkYXRhX2pzb24sIGlkLCB1cGRhdGVkX2F0KSBWQUxVRVMnIHx8IEUnXG4nIHx8DQogICAgc3RyaW5nX2FnZygNCiAgICAgICAgZm9ybWF0KA0KICAgICAgICAgICAgJyglTCwgJUwsICVMLCAlTCwgJUwpJywNCiAgICAgICAgICAgIGFyY2hpdmVkX2RhdGUsDQogICAgICAgICAgICBjcmVhdGVkX2F0LA0KICAgICAgICAgICAgZGF0YV9qc29uOjp0ZXh0LA0KICAgICAgICAgICAgaWQsDQogICAgICAgICAgICB1cGRhdGVkX2F0DQogICAgICAgICksDQogICAgICAgICcsJyB8fCBFJ1xuJw0KICAgICkgfHwgRSdcbk9OIENPTkZMSUNUIChpZCkgRE8gVVBEQVRFIFNFVFxuJyB8fA0KICAgICcgIGFyY2hpdmVkX2RhdGUgPSBFWENMVURFRC5hcmNoaXZlZF9kYXRlLFxuJyB8fA0KICAgICcgIGNyZWF0ZWRfYXQgPSBFWENMVURFRC5jcmVhdGVkX2F0LFxuJyB8fA0KICAgICcgIGRhdGFfanNvbiA9IEVYQ0xVREVELmRhdGFfanNvbixcbicgfHwNCiAgICAnICB1cGRhdGVkX2F0ID0gRVhDTFVERUQudXBkYXRlZF9hdDsnDQpGUk9NIHB1YmxpYy5zYXZlZF9vcmRlcnMNCldIRVJFIGFyY2hpdmVkX2RhdGUgSVMgTlVMTDsNCg==}
+-- ========================================================
+-- EXPORTAR OS 5 PEDIDOS ATIVOS (SEM ARCHIVED_DATE)
+-- Execute no SQL Editor do BANCO ANTIGO (nbxubdmsepnhhhsbpzoq)
+-- ========================================================
+
+-- Confirmar quantos pedidos ativos existem
+SELECT COUNT(*) as total_ativos FROM public.saved_orders WHERE archived_date IS NULL;
+
+-- Ver quais são os pedidos ativos
+SELECT id, created_at, LEFT(data_json::text, 100) as preview
+FROM public.saved_orders 
+WHERE archived_date IS NULL
+ORDER BY created_at DESC;
+
+-- Exportar os pedidos ativos em formato INSERT
+SELECT 
+    'INSERT INTO public.saved_orders (archived_date, created_at, data_json, id, updated_at) VALUES' || E'\n' ||
+    string_agg(
+        format(
+            '(%L, %L, %L, %L, %L)',
+            archived_date,
+            created_at,
+            data_json::text,
+            id,
+            updated_at
+        ),
+        ',' || E'\n'
+    ) || E'\nON CONFLICT (id) DO UPDATE SET\n' ||
+    '  archived_date = EXCLUDED.archived_date,\n' ||
+    '  created_at = EXCLUDED.created_at,\n' ||
+    '  data_json = EXCLUDED.data_json,\n' ||
+    '  updated_at = EXCLUDED.updated_at;'
+FROM public.saved_orders
+WHERE archived_date IS NULL;

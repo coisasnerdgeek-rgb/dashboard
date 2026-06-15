@@ -1,1 +1,105 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gTkVXIERCIENyZWRlbnRpYWxzDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KDQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gZGVkdXBsaWNhdGUoKSB7DQogICAgY29uc29sZS5sb2coJy0tLSBEZWR1cGxpY2F0aW5nIHNwcmVhZHNoZWV0X2RhdGEgLS0tJyk7DQoNCiAgICAvLyBGZXRjaCBhbGwgcm93cw0KICAgIGxldCBhbGxTaGVldHM6IGFueVtdID0gW107DQogICAgbGV0IGZyb20gPSAwOw0KICAgIGNvbnN0IGxpbWl0ID0gMTAwMDsNCiAgICBsZXQgaGFzTW9yZSA9IHRydWU7DQoNCiAgICB3aGlsZSAoaGFzTW9yZSkgew0KICAgICAgICAvLyBGZXRjaCBJRCwgSW1wb3J0IERhdGUsIGFuZCBDb250ZW50DQogICAgICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAuc2VsZWN0KCdpZCwgaW1wb3J0X2RhdGUsIHJvd19kYXRhJykNCiAgICAgICAgICAgIC5yYW5nZShmcm9tLCBmcm9tICsgbGltaXQgLSAxKTsNCg0KICAgICAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGZldGNoaW5nOicsIGVycm9yLm1lc3NhZ2UpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgaWYgKGRhdGEgJiYgZGF0YS5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICBhbGxTaGVldHMgPSBbLi4uYWxsU2hlZXRzLCAuLi5kYXRhXTsNCiAgICAgICAgICAgIGZyb20gKz0gbGltaXQ7DQogICAgICAgICAgICBpZiAoZGF0YS5sZW5ndGggPCBsaW1pdCkgaGFzTW9yZSA9IGZhbHNlOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgaGFzTW9yZSA9IGZhbHNlOw0KICAgICAgICB9DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coYEZldGNoZWQgJHthbGxTaGVldHMubGVuZ3RofSByb3dzLmApOw0KDQogICAgLy8gR3JvdXAgYnkgQ29udGVudCBLZXkNCiAgICBjb25zdCBncm91cHM6IFJlY29yZDxzdHJpbmcsIGFueVtdPiA9IHt9Ow0KDQogICAgYWxsU2hlZXRzLmZvckVhY2goc2hlZXQgPT4gew0KICAgICAgICBjb25zdCByb3cgPSBzaGVldC5yb3dfZGF0YTsNCiAgICAgICAgaWYgKCFyb3cpIHJldHVybjsNCg0KICAgICAgICAvLyBDb250ZW50IEtleQ0KICAgICAgICBjb25zdCBjdXN0b21lciA9IHJvdy5DbGllbnRlIHx8IHJvdy5Ob21lIHx8IHJvdy5jbGllbnRlIHx8IHJvdy5ub21lIHx8ICcnOw0KICAgICAgICBjb25zdCBwcm9kdWN0ID0gcm93LlByb2R1dG8gfHwgcm93LnByb2R1dG8gfHwgJyc7DQogICAgICAgIGNvbnN0IHNpemUgPSByb3cuVGFtYW5obyB8fCByb3cudGFtYW5obyB8fCAnJzsNCiAgICAgICAgY29uc3QgY29sb3IgPSByb3cuQ29yIHx8IHJvdy5jb3IgfHwgJyc7DQogICAgICAgIGNvbnN0IGRhdGUgPSByb3cuRGF0YSB8fCByb3cuZGF0YSB8fCAnJzsNCg0KICAgICAgICAvLyBPbmx5IGtleSBpZiB3ZSBoYXZlIG1pbmltYWwgZGF0YQ0KICAgICAgICBpZiAoY3VzdG9tZXIgJiYgcHJvZHVjdCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gYCR7Y3VzdG9tZXJ9fCR7cHJvZHVjdH18JHtzaXplfXwke2NvbG9yfXwke2RhdGV9YDsNCiAgICAgICAgICAgIGlmICghZ3JvdXBzW2tleV0pIGdyb3Vwc1trZXldID0gW107DQogICAgICAgICAgICBncm91cHNba2V5XS5wdXNoKHNoZWV0KTsNCiAgICAgICAgfQ0KICAgIH0pOw0KDQogICAgLy8gSWRlbnRpZnkgSURzIHRvIGRlbGV0ZQ0KICAgIGNvbnN0IGlkc1RvRGVsZXRlOiBzdHJpbmdbXSA9IFtdOw0KDQogICAgT2JqZWN0LmVudHJpZXMoZ3JvdXBzKS5mb3JFYWNoKChba2V5LCBpdGVtc10pID0+IHsNCiAgICAgICAgaWYgKGl0ZW1zLmxlbmd0aCA+IDEpIHsNCiAgICAgICAgICAgIC8vIFNvcnQgYnkgaW1wb3J0X2RhdGUgREVTQyAoS2VlcCBuZXdlc3QpDQogICAgICAgICAgICAvLyBJZiBpbXBvcnRfZGF0ZSBpcyBzYW1lLCBrZWVwIGZpcnN0IElEIChkb2Vzbid0IG1hdHRlcikNCiAgICAgICAgICAgIGl0ZW1zLnNvcnQoKGEsIGIpID0+IHsNCiAgICAgICAgICAgICAgICBjb25zdCBkYXRlQSA9IG5ldyBEYXRlKGEuaW1wb3J0X2RhdGUgfHwgMCkuZ2V0VGltZSgpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGRhdGVCID0gbmV3IERhdGUoYi5pbXBvcnRfZGF0ZSB8fCAwKS5nZXRUaW1lKCk7DQogICAgICAgICAgICAgICAgcmV0dXJuIGRhdGVCIC0gZGF0ZUE7DQogICAgICAgICAgICB9KTsNCg0KICAgICAgICAgICAgLy8gS2VlcCBpbmRleCAwLCBkZWxldGUgb3RoZXJzDQogICAgICAgICAgICBmb3IgKGxldCBpID0gMTsgaSA8IGl0ZW1zLmxlbmd0aDsgaSsrKSB7DQogICAgICAgICAgICAgICAgaWRzVG9EZWxldGUucHVzaChpdGVtc1tpXS5pZCk7DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKGBGb3VuZCAke2lkc1RvRGVsZXRlLmxlbmd0aH0gZHVwbGljYXRlIHJvd3MgdG8gZGVsZXRlLmApOw0KDQogICAgaWYgKGlkc1RvRGVsZXRlLmxlbmd0aCA+IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coJ0RlbGV0aW5nIGR1cGxpY2F0ZXMuLi4nKTsNCg0KICAgICAgICAvLyBCYXRjaCBkZWxldGUNCiAgICAgICAgY29uc3QgREVMRVRFX0JBVENIID0gMTAwOw0KICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGlkc1RvRGVsZXRlLmxlbmd0aDsgaSArPSBERUxFVEVfQkFUQ0gpIHsNCiAgICAgICAgICAgIGNvbnN0IGJhdGNoID0gaWRzVG9EZWxldGUuc2xpY2UoaSwgaSArIERFTEVURV9CQVRDSCk7DQogICAgICAgICAgICBjb25zdCB7IGVycm9yOiBkZWxldGVFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UNCiAgICAgICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAgICAgLmRlbGV0ZSgpDQogICAgICAgICAgICAgICAgLmluKCdpZCcsIGJhdGNoKTsNCg0KICAgICAgICAgICAgaWYgKGRlbGV0ZUVycm9yKSBjb25zb2xlLmVycm9yKGBFcnJvciBkZWxldGluZyBiYXRjaCAke2l9OmAsIGRlbGV0ZUVycm9yLm1lc3NhZ2UpOw0KICAgICAgICAgICAgZWxzZSBjb25zb2xlLmxvZyhgICAgRGVsZXRlZCBpdGVtcyAke2kgKyAxfSB0byAke01hdGgubWluKGkgKyBERUxFVEVfQkFUQ0gsIGlkc1RvRGVsZXRlLmxlbmd0aCl9YCk7DQogICAgICAgIH0NCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZygnTm8gZHVwbGljYXRlcyB0byBkZWxldGUuJyk7DQogICAgfQ0KfQ0KDQpkZWR1cGxpY2F0ZSgpOw0K}
+import { createClient } from '@supabase/supabase-js';
+
+// NEW DB Credentials
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function deduplicate() {
+    console.log('--- Deduplicating spreadsheet_data ---');
+
+    // Fetch all rows
+    let allSheets: any[] = [];
+    let from = 0;
+    const limit = 1000;
+    let hasMore = true;
+
+    while (hasMore) {
+        // Fetch ID, Import Date, and Content
+        const { data, error } = await newSupabase
+            .from('spreadsheet_data')
+            .select('id, import_date, row_data')
+            .range(from, from + limit - 1);
+
+        if (error) {
+            console.error('Error fetching:', error.message);
+            return;
+        }
+
+        if (data && data.length > 0) {
+            allSheets = [...allSheets, ...data];
+            from += limit;
+            if (data.length < limit) hasMore = false;
+        } else {
+            hasMore = false;
+        }
+    }
+
+    console.log(`Fetched ${allSheets.length} rows.`);
+
+    // Group by Content Key
+    const groups: Record<string, any[]> = {};
+
+    allSheets.forEach(sheet => {
+        const row = sheet.row_data;
+        if (!row) return;
+
+        // Content Key
+        const customer = row.Cliente || row.Nome || row.cliente || row.nome || '';
+        const product = row.Produto || row.produto || '';
+        const size = row.Tamanho || row.tamanho || '';
+        const color = row.Cor || row.cor || '';
+        const date = row.Data || row.data || '';
+
+        // Only key if we have minimal data
+        if (customer && product) {
+            const key = `${customer}|${product}|${size}|${color}|${date}`;
+            if (!groups[key]) groups[key] = [];
+            groups[key].push(sheet);
+        }
+    });
+
+    // Identify IDs to delete
+    const idsToDelete: string[] = [];
+
+    Object.entries(groups).forEach(([key, items]) => {
+        if (items.length > 1) {
+            // Sort by import_date DESC (Keep newest)
+            // If import_date is same, keep first ID (doesn't matter)
+            items.sort((a, b) => {
+                const dateA = new Date(a.import_date || 0).getTime();
+                const dateB = new Date(b.import_date || 0).getTime();
+                return dateB - dateA;
+            });
+
+            // Keep index 0, delete others
+            for (let i = 1; i < items.length; i++) {
+                idsToDelete.push(items[i].id);
+            }
+        }
+    });
+
+    console.log(`Found ${idsToDelete.length} duplicate rows to delete.`);
+
+    if (idsToDelete.length > 0) {
+        console.log('Deleting duplicates...');
+
+        // Batch delete
+        const DELETE_BATCH = 100;
+        for (let i = 0; i < idsToDelete.length; i += DELETE_BATCH) {
+            const batch = idsToDelete.slice(i, i + DELETE_BATCH);
+            const { error: deleteError } = await newSupabase
+                .from('spreadsheet_data')
+                .delete()
+                .in('id', batch);
+
+            if (deleteError) console.error(`Error deleting batch ${i}:`, deleteError.message);
+            else console.log(`   Deleted items ${i + 1} to ${Math.min(i + DELETE_BATCH, idsToDelete.length)}`);
+        }
+    } else {
+        console.log('No duplicates to delete.');
+    }
+}
+
+deduplicate();

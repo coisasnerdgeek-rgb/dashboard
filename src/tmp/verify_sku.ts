@@ -1,1 +1,19 @@
-﻿@{data=CmltcG9ydCB7IHBhcnNlU2t1LCBnZXRTa3VFcnJvciB9IGZyb20gJy4vc2VydmljZXMvc2t1U2VydmljZSc7Cgpjb25zdCB0ZXN0U2t1cyA9IFsKICAgICdiYWJ5bG9vay1tZW5pbmFzLXN1cGVyLXBvZGVyb3Nhcy1wcmV0by1wJywKICAgICdraXQzLWJhYnlsb29rLWJyYW5jYS1tJywKICAgICdjYW0tbWFzYy1yb3lhbC1nJywKICAgICdwb2xvLWZlbS1wbHVzLXZpbmhvLXhnJwpdOwoKY29uc29sZS5sb2coJy0tLSBDdXJyZW50IFNLVSBWYWxpZGF0aW9uIC0tLScpOwp0ZXN0U2t1cy5mb3JFYWNoKHNrdSA9PiB7CiAgICBjb25zdCBwYXJzZWQgPSBwYXJzZVNrdShza3UpOwogICAgY29uc3QgZXJyb3IgPSBnZXRTa3VFcnJvcihza3UpOwogICAgY29uc29sZS5sb2coYFNLVTogJHtza3V9YCk7CiAgICBjb25zb2xlLmxvZyhgUGFyc2VkOmAsIHBhcnNlZCk7CiAgICBjb25zb2xlLmxvZyhgRXJyb3I6YCwgZXJyb3IgPyBlcnJvci5tZXNzYWdlIDogJ05PTkUnKTsKICAgIGNvbnNvbGUubG9nKCctLS0tLS0tLS0tLS0tLS0tLS0tJyk7Cn0pOwo=}
+
+import { parseSku, getSkuError } from './services/skuService';
+
+const testSkus = [
+    'babylook-meninas-super-poderosas-preto-p',
+    'kit3-babylook-branca-m',
+    'cam-masc-royal-g',
+    'polo-fem-plus-vinho-xg'
+];
+
+console.log('--- Current SKU Validation ---');
+testSkus.forEach(sku => {
+    const parsed = parseSku(sku);
+    const error = getSkuError(sku);
+    console.log(`SKU: ${sku}`);
+    console.log(`Parsed:`, parsed);
+    console.log(`Error:`, error ? error.message : 'NONE');
+    console.log('-------------------');
+});

@@ -1,1 +1,30 @@
-﻿@{data=LS0gRW5zdXJlIGJhY2tvcmRlcmVkX2l0ZW1zIHRhYmxlIGhhcyB0aGUgY29ycmVjdCBzY2hlbWENCi0tIFRoaXMgc2NyaXB0IGFkZHMgdGhlIGlzX3Jlc29sdmVkIGNvbHVtbiBpZiBpdCBkb2Vzbid0IGV4aXN0DQotLSBhbmQgZW5zdXJpbmcgdGhlIHJlc29sdmVkX2F0IGNvbHVtbiBpcyBwcmVzZW50Lg0KDQpETyAkJCANCkJFR0lODQogICAgLS0gQ2hlY2sgZm9yIGlzX3Jlc29sdmVkIGNvbHVtbg0KICAgIElGIE5PVCBFWElTVFMgKA0KICAgICAgICBTRUxFQ1QgRlJPTSBpbmZvcm1hdGlvbl9zY2hlbWEuY29sdW1ucyANCiAgICAgICAgV0hFUkUgdGFibGVfbmFtZSA9ICdiYWNrb3JkZXJlZF9pdGVtcycgQU5EIGNvbHVtbl9uYW1lID0gJ2lzX3Jlc29sdmVkJw0KICAgICkgVEhFTg0KICAgICAgICBBTFRFUiBUQUJMRSBiYWNrb3JkZXJlZF9pdGVtcyBBREQgQ09MVU1OIGlzX3Jlc29sdmVkIEJPT0xFQU4gREVGQVVMVCBGQUxTRTsNCiAgICBFTkQgSUY7DQoNCiAgICAtLSBDaGVjayBmb3IgcmVzb2x2ZWRfYXQgY29sdW1uDQogICAgSUYgTk9UIEVYSVNUUyAoDQogICAgICAgIFNFTEVDVCBGUk9NIGluZm9ybWF0aW9uX3NjaGVtYS5jb2x1bW5zIA0KICAgICAgICBXSEVSRSB0YWJsZV9uYW1lID0gJ2JhY2tvcmRlcmVkX2l0ZW1zJyBBTkQgY29sdW1uX25hbWUgPSAncmVzb2x2ZWRfYXQnDQogICAgKSBUSEVODQogICAgICAgIEFMVEVSIFRBQkxFIGJhY2tvcmRlcmVkX2l0ZW1zIEFERCBDT0xVTU4gcmVzb2x2ZWRfYXQgVElNRVNUQU1QIFdJVEggVElNRSBaT05FOw0KICAgIEVORCBJRjsNCiAgICANCiAgICAtLSBTeW5jIGV4aXN0aW5nIGRhdGEgaWYgbmVjZXNzYXJ5IChpZiAncmVzb2x2ZWQnIHdhcyBiZWluZyB1c2VkIGluc3RlYWQpDQogICAgSUYgRVhJU1RTICgNCiAgICAgICAgU0VMRUNUIEZST00gaW5mb3JtYXRpb25fc2NoZW1hLmNvbHVtbnMgDQogICAgICAgIFdIRVJFIHRhYmxlX25hbWUgPSAnYmFja29yZGVyZWRfaXRlbXMnIEFORCBjb2x1bW5fbmFtZSA9ICdyZXNvbHZlZCcNCiAgICApIFRIRU4NCiAgICAgICAgVVBEQVRFIGJhY2tvcmRlcmVkX2l0ZW1zIFNFVCBpc19yZXNvbHZlZCA9IHJlc29sdmVkIFdIRVJFIGlzX3Jlc29sdmVkIElTIE5VTEw7DQogICAgRU5EIElGOw0KRU5EICQkOw0K}
+-- Ensure backordered_items table has the correct schema
+-- This script adds the is_resolved column if it doesn't exist
+-- and ensuring the resolved_at column is present.
+
+DO $$ 
+BEGIN
+    -- Check for is_resolved column
+    IF NOT EXISTS (
+        SELECT FROM information_schema.columns 
+        WHERE table_name = 'backordered_items' AND column_name = 'is_resolved'
+    ) THEN
+        ALTER TABLE backordered_items ADD COLUMN is_resolved BOOLEAN DEFAULT FALSE;
+    END IF;
+
+    -- Check for resolved_at column
+    IF NOT EXISTS (
+        SELECT FROM information_schema.columns 
+        WHERE table_name = 'backordered_items' AND column_name = 'resolved_at'
+    ) THEN
+        ALTER TABLE backordered_items ADD COLUMN resolved_at TIMESTAMP WITH TIME ZONE;
+    END IF;
+    
+    -- Sync existing data if necessary (if 'resolved' was being used instead)
+    IF EXISTS (
+        SELECT FROM information_schema.columns 
+        WHERE table_name = 'backordered_items' AND column_name = 'resolved'
+    ) THEN
+        UPDATE backordered_items SET is_resolved = resolved WHERE is_resolved IS NULL;
+    END IF;
+END $$;

@@ -1,1 +1,75 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGZpeFNwcmVhZHNoZWV0RGF0YVNhZmUoKSB7DQogICAgY29uc29sZS5sb2coJ0ZpeGluZyBjb3JydXB0ZWQgc3ByZWFkc2hlZXRfZGF0YSAoU0FGRSBNT0RFKS4uLicpOw0KDQogICAgbGV0IHRvdGFsRGVsZXRlZCA9IDA7DQoNCiAgICAvLyBDaGVjayB0b3AgMjAwMCByb3dzLCBkZWxldGUgaW4gYmF0Y2hlcyBvZiAyMA0KICAgIGZvciAobGV0IHJvdW5kID0gMTsgcm91bmQgPD0gMjAwOyByb3VuZCsrKSB7DQogICAgICAgIGNvbnN0IHsgZGF0YTogcm93cywgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAuc2VsZWN0KCcqJykNCiAgICAgICAgICAgIC5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQ0KICAgICAgICAgICAgLmxpbWl0KDEwMCk7IC8vIEZldGNoIDEwMA0KDQogICAgICAgIGlmIChlcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgZmV0Y2hpbmc6JywgZXJyb3IpOw0KICAgICAgICAgICAgYnJlYWs7DQogICAgICAgIH0NCg0KICAgICAgICBpZiAoIXJvd3MgfHwgcm93cy5sZW5ndGggPT09IDApIGJyZWFrOw0KDQogICAgICAgIGNvbnN0IHRvRGVsZXRlOiBzdHJpbmdbXSA9IFtdOw0KDQogICAgICAgIHJvd3MuZm9yRWFjaChyb3cgPT4gew0KICAgICAgICAgICAgY29uc3QgZCA9IHJvdy5yb3dfZGF0YTsNCiAgICAgICAgICAgIGlmICghZCkgcmV0dXJuOw0KDQogICAgICAgICAgICBjb25zdCBpZCA9IGRbJ0lkZW50aWZpY2Fkb3IgZG8gcGVkaWRvIGUtY29tbWVyY2UnXSB8fCBkWydJRCBQZWRpZG8nXSB8fCBkWydpZCddOw0KICAgICAgICAgICAgY29uc3QgY2xpZW50ID0gZFsnQ2xpZW50ZSddIHx8IGRbJ2NsaWVudGUnXSB8fCBkWydOb21lJ107DQoNCiAgICAgICAgICAgIGNvbnN0IGlzVW5kZWZpbmVkID0gU3RyaW5nKGlkKS5pbmNsdWRlcygndW5kZWZpbmVkJykgfHwgU3RyaW5nKGNsaWVudCkuaW5jbHVkZXMoJ3VuZGVmaW5lZCcpOw0KICAgICAgICAgICAgY29uc3QgaXNFbXB0eUlkID0gIWlkIHx8IGlkID09PSAnLScgfHwgaWQgPT09ICcnOw0KDQogICAgICAgICAgICBpZiAoaXNVbmRlZmluZWQgfHwgaXNFbXB0eUlkKSB7DQogICAgICAgICAgICAgICAgdG9EZWxldGUucHVzaChyb3cuaWQpOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9KTsNCg0KICAgICAgICBpZiAodG9EZWxldGUubGVuZ3RoID09PSAwKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgUm91bmQgJHtyb3VuZH06IENsZWFuIGJhdGNoLiBTdG9wcGluZy5gKTsNCiAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coYFJvdW5kICR7cm91bmR9OiBGb3VuZCAke3RvRGVsZXRlLmxlbmd0aH0gYmFkIHJvd3MuYCk7DQoNCiAgICAgICAgLy8gRGVsZXRlIGluIHNtYWxsIHN1Yi1iYXRjaGVzDQogICAgICAgIGNvbnN0IERFTEVURV9CQVRDSCA9IDIwOw0KICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IHRvRGVsZXRlLmxlbmd0aDsgaSArPSBERUxFVEVfQkFUQ0gpIHsNCiAgICAgICAgICAgIGNvbnN0IGNodW5rID0gdG9EZWxldGUuc2xpY2UoaSwgaSArIERFTEVURV9CQVRDSCk7DQogICAgICAgICAgICBjb25zdCB7IGVycm9yOiBkZWxFcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAgICAgLmRlbGV0ZSgpDQogICAgICAgICAgICAgICAgLmluKCdpZCcsIGNodW5rKTsNCg0KICAgICAgICAgICAgaWYgKGRlbEVycm9yKSBjb25zb2xlLmVycm9yKCdEZWxldGUgZXJyb3I6JywgZGVsRXJyb3IpOw0KICAgICAgICAgICAgZWxzZSB0b3RhbERlbGV0ZWQgKz0gY2h1bmsubGVuZ3RoOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coYERlbGV0ZWQgc28gZmFyOiAke3RvdGFsRGVsZXRlZH1gKTsNCiAgICAgICAgaWYgKHRvdGFsRGVsZXRlZCA+IDUwMDApIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCdTYWZldHkgbGltaXQgcmVhY2hlZC4nKTsNCiAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICB9DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coYERvbmUuIFRvdGFsIGRlbGV0ZWQ6ICR7dG90YWxEZWxldGVkfWApOw0KfQ0KDQpmaXhTcHJlYWRzaGVldERhdGFTYWZlKCk7DQo=}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function fixSpreadsheetDataSafe() {
+    console.log('Fixing corrupted spreadsheet_data (SAFE MODE)...');
+
+    let totalDeleted = 0;
+
+    // Check top 2000 rows, delete in batches of 20
+    for (let round = 1; round <= 200; round++) {
+        const { data: rows, error } = await supabase
+            .from('spreadsheet_data')
+            .select('*')
+            .order('created_at', { ascending: false })
+            .limit(100); // Fetch 100
+
+        if (error) {
+            console.error('Error fetching:', error);
+            break;
+        }
+
+        if (!rows || rows.length === 0) break;
+
+        const toDelete: string[] = [];
+
+        rows.forEach(row => {
+            const d = row.row_data;
+            if (!d) return;
+
+            const id = d['Identificador do pedido e-commerce'] || d['ID Pedido'] || d['id'];
+            const client = d['Cliente'] || d['cliente'] || d['Nome'];
+
+            const isUndefined = String(id).includes('undefined') || String(client).includes('undefined');
+            const isEmptyId = !id || id === '-' || id === '';
+
+            if (isUndefined || isEmptyId) {
+                toDelete.push(row.id);
+            }
+        });
+
+        if (toDelete.length === 0) {
+            console.log(`Round ${round}: Clean batch. Stopping.`);
+            break;
+        }
+
+        console.log(`Round ${round}: Found ${toDelete.length} bad rows.`);
+
+        // Delete in small sub-batches
+        const DELETE_BATCH = 20;
+        for (let i = 0; i < toDelete.length; i += DELETE_BATCH) {
+            const chunk = toDelete.slice(i, i + DELETE_BATCH);
+            const { error: delError } = await supabase
+                .from('spreadsheet_data')
+                .delete()
+                .in('id', chunk);
+
+            if (delError) console.error('Delete error:', delError);
+            else totalDeleted += chunk.length;
+        }
+
+        console.log(`Deleted so far: ${totalDeleted}`);
+        if (totalDeleted > 5000) {
+            console.log('Safety limit reached.');
+            break;
+        }
+    }
+
+    console.log(`Done. Total deleted: ${totalDeleted}`);
+}
+
+fixSpreadsheetDataSafe();

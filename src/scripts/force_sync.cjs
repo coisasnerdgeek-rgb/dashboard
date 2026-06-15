@@ -1,1 +1,39 @@
-﻿@{data=Y29uc3QgaHR0cHMgPSByZXF1aXJlKCdodHRwcycpOw0KDQpjb25zdCBwb3N0RGF0YSA9IEpTT04uc3RyaW5naWZ5KHsNCiAgICBkYXlzQmFjazogMiwNCiAgICBmb3JjZVJlcHJvY2VzczogdHJ1ZSAgLy8gS0VZOiBUaGlzIHNraXBzIHNwcmVhZHNoZWV0X2RhdGEgY2hlY2shDQp9KTsNCg0KY29uc3Qgb3B0aW9ucyA9IHsNCiAgICBob3N0bmFtZTogJ2Rhc2hib2FyZC1wZWRpZG9zLnZlcmNlbC5hcHAnLA0KICAgIHBvcnQ6IDQ0MywNCiAgICBwYXRoOiAnL2FwaS9zeW5jLXRpbnknLA0KICAgIG1ldGhvZDogJ1BPU1QnLA0KICAgIGhlYWRlcnM6IHsNCiAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywNCiAgICAgICAgJ0NvbnRlbnQtTGVuZ3RoJzogQnVmZmVyLmJ5dGVMZW5ndGgocG9zdERhdGEpDQogICAgfQ0KfTsNCg0KY29uc29sZS5sb2coJ/Cfk6EgQ2FsbGluZyBzeW5jIHdpdGggZm9yY2VSZXByb2Nlc3M9VFJVRS4uLlxuJyk7DQoNCmNvbnN0IHJlcSA9IGh0dHBzLnJlcXVlc3Qob3B0aW9ucywgKHJlcykgPT4gew0KICAgIGxldCBkYXRhID0gJyc7DQogICAgcmVzLm9uKCdkYXRhJywgY2h1bmsgPT4gZGF0YSArPSBjaHVuayk7DQogICAgcmVzLm9uKCdlbmQnLCAoKSA9PiB7DQogICAgICAgIGNvbnN0IHJlc3VsdCA9IEpTT04ucGFyc2UoZGF0YSk7DQogICAgICAgIGNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5KHJlc3VsdCwgbnVsbCwgMikpOw0KDQogICAgICAgIGlmIChyZXN1bHQuc3RhdHM/LmFkZGVkID4gMCkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coYFxu8J+OiSBTVUNDRVNTISAke3Jlc3VsdC5zdGF0cy5hZGRlZH0gb3JkZXJzIGFkZGVkIWApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coJ/Cfk4wgTm93IGNsaWNrICJQcm9jZXNzYXIgRmlsYSIgaW4gdGhlIGRhc2hib2FyZCFcbicpOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgY29uc29sZS5sb2coYFxu4p2MIFN0aWxsIGJsb2NrZWQ6ICR7cmVzdWx0LnN0YXRzPy5rbm93biB8fCAwfSBtYXJrZWQgYXMga25vd25cbmApOw0KICAgICAgICB9DQogICAgfSk7DQp9KTsNCg0KcmVxLm9uKCdlcnJvcicsIGVyciA9PiBjb25zb2xlLmVycm9yKCdFcnJvcjonLCBlcnIubWVzc2FnZSkpOw0KcmVxLndyaXRlKHBvc3REYXRhKTsNCnJlcS5lbmQoKTsNCg==}
+const https = require('https');
+
+const postData = JSON.stringify({
+    daysBack: 2,
+    forceReprocess: true  // KEY: This skips spreadsheet_data check!
+});
+
+const options = {
+    hostname: 'dashboard-pedidos.vercel.app',
+    port: 443,
+    path: '/api/sync-tiny',
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(postData)
+    }
+};
+
+console.log('📡 Calling sync with forceReprocess=TRUE...\n');
+
+const req = https.request(options, (res) => {
+    let data = '';
+    res.on('data', chunk => data += chunk);
+    res.on('end', () => {
+        const result = JSON.parse(data);
+        console.log(JSON.stringify(result, null, 2));
+
+        if (result.stats?.added > 0) {
+            console.log(`\n🎉 SUCCESS! ${result.stats.added} orders added!`);
+            console.log('📌 Now click "Processar Fila" in the dashboard!\n');
+        } else {
+            console.log(`\n❌ Still blocked: ${result.stats?.known || 0} marked as known\n`);
+        }
+    });
+});
+
+req.on('error', err => console.error('Error:', err.message));
+req.write(postData);
+req.end();

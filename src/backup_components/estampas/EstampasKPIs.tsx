@@ -1,1 +1,151 @@
-﻿@{data=aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsNCg0KaW50ZXJmYWNlIEVzdGFtcGFzS1BJc1Byb3BzIHsNCiAgICBzdW1tYXJ5RGF0YTogUmVjb3JkPHN0cmluZywgbnVtYmVyPjsNCiAgICBoYW5kbGVDYXJkQ2xpY2s6IChzdGF0dXM6IHN0cmluZykgPT4gdm9pZDsNCiAgICBjYXJkRmlsdGVyOiBzdHJpbmcgfCBudWxsOw0KICAgIGlzU3luY2luZzogYm9vbGVhbjsNCiAgICBzeW5jUHJvZ3Jlc3M6IHsgY3VycmVudDogbnVtYmVyOyB0b3RhbDogbnVtYmVyIH07DQp9DQoNCmV4cG9ydCBjb25zdCBFc3RhbXBhc0tQSXM6IFJlYWN0LkZDPEVzdGFtcGFzS1BJc1Byb3BzPiA9ICh7DQogICAgc3VtbWFyeURhdGEsDQogICAgaGFuZGxlQ2FyZENsaWNrLA0KICAgIGNhcmRGaWx0ZXIsDQogICAgaXNTeW5jaW5nLA0KICAgIHN5bmNQcm9ncmVzcw0KfSkgPT4gew0KICAgIHJldHVybiAoDQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzdGlja3kgdG9wLTAgei0zMCBiZy13aGl0ZSBkYXJrOmJnLWdyYXktOTAwIHBiLTMgLW14LTQgcHgtNCBzbTotbXgtOCBzbTpweC04IGJvcmRlci1iIGRhcms6Ym9yZGVyLWdyYXktODAwIHNoYWRvdy1zbSB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0zMDAiPg0KICAgICAgICAgICAgey8qIENhcmRzIEtQSSAtIEF0dWFsaXphZG8gY29tIERlc2lnbiBNb2Rlcm5vIC8gR2xhc3Ntb3JwaGlzbSBDbGVhbiAqL30NCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIG1kOmdyaWQtY29scy0zIGxnOmdyaWQtY29scy02IGdhcC0zIG1iLTQgcHQtNCI+DQogICAgICAgICAgICAgICAgey8qIFRPVEFMIENBUkQgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFuaW1hdGUtZmFkZS1pbi1zY2FsZSIgc3R5bGU9e3sgYW5pbWF0aW9uRGVsYXk6ICcwLjFzJyB9fT4NCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gaGFuZGxlQ2FyZENsaWNrKCdUT0RPUycpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIHctZnVsbCB0ZXh0LWNlbnRlciBwLTIgcm91bmRlZC1sZyBzaGFkb3ctc20gdHJhbnNpdGlvbi1hbGwgYmctZ3JhZGllbnQtdG8tYnIgZnJvbS1pbmRpZ28tNTAwIHRvLWluZGlnby02MDAgdGV4dC13aGl0ZSBob3ZlcjpzY2FsZS0xMDUgYWN0aXZlOnNjYWxlLTk1IGgtZnVsbCBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBtaW4taC1bNTBweF0gJHshY2FyZEZpbHRlciA/ICdyaW5nLTIgcmluZy13aGl0ZSByaW5nLW9mZnNldC0xIHJpbmctb2Zmc2V0LWluZGlnby02MDAgc2hhZG93LWxnIHNjYWxlLTEwNSB6LTIwIGZvbnQtYm9sZCcgOiAnb3BhY2l0eS05MCBob3ZlcjpvcGFjaXR5LTEwMCd9YH0NCiAgICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHRvcC0wIHJpZ2h0LTAgcC0xIG9wYWNpdHktMjAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtNiB3LTYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPSIyIiBkPSJNMTkgMTFINW0xNCAwYTIgMiAwIDAxMiAydjZhMiAyIDAgMDEtMiAySDVhMiAyIDAgMDEtMi0ydi02YTIgMiAwIDAxMi0ybTE0IDBWOWEyIDIgMCAwMC0yLTJNNSAxMVY5YTIgMiAwIDAxMi0ybTAgMFY1YTIgMiAwIDAxMi0yaDZhMiAyIDAgMDEyIDJ2Mk03IDdoMTAiIC8+PC9zdmc+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB6LTEwIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bOXB4XSBmb250LWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXRpZ2h0IG9wYWNpdHktODAgbGVhZGluZy10aWdodCI+VE9UQUw8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC14bCBmb250LWJsYWNrIGxlYWRpbmctdGlnaHQgdHJhY2tpbmctdGlnaHQiPntzdW1tYXJ5RGF0YVsnVE9UQUwnXX08L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bOHB4XSBvcGFjaXR5LTcwIG10LTAuNSBmb250LW1lZGl1bSBiZy1ibGFjay8yMCBweC0xLjUgcHktcHggcm91bmRlZC1mdWxsIj5JdGVuczwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICAgICAgey8qIElNUFJFU1NPIENBUkQgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFuaW1hdGUtZmFkZS1pbi1zY2FsZSIgc3R5bGU9e3sgYW5pbWF0aW9uRGVsYXk6ICcwLjJzJyB9fT4NCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gaGFuZGxlQ2FyZENsaWNrKCdJTVBSRVNTTycpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIHctZnVsbCB0ZXh0LWNlbnRlciBwLTIgcm91bmRlZC1sZyBzaGFkb3ctc20gdHJhbnNpdGlvbi1hbGwgYmctZW1lcmFsZC02MDAgdGV4dC13aGl0ZSBob3ZlcjpzY2FsZS0xMDUgYWN0aXZlOnNjYWxlLTk1IGgtZnVsbCBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBtaW4taC1bNTBweF0gJHtjYXJkRmlsdGVyID09PSAnSU1QUkVTU08nID8gJ3JpbmctMiByaW5nLXdoaXRlIHJpbmctb2Zmc2V0LTEgcmluZy1vZmZzZXQtZW1lcmFsZC02MDAgei0yMCcgOiAnJ31gfQ0KICAgICAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgLXJpZ2h0LTEuNSAtYm90dG9tLTEuNSBvcGFjaXR5LTIwIHRyYW5zZm9ybSAtcm90YXRlLTEyIHNjYWxlLVsxLjhdIHBvaW50ZXItZXZlbnRzLW5vbmUiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtNSB3LTUiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPSIyIiBkPSJNMTcgMTdoMmEyIDIgMCAwMDItMnYtNGEyIDIgMCAwMC0yLTJINWEyIDIgMCAwMC0yIDJ2NGEyIDIgMCAwMDIgMmgybTIgNGg2YTIgMiAwIDAwMi0ydi00YTIgMiAwIDAwLTItMkg5YTIgMiAwIDAwLTIgMnY0YTIgMiAwIDAwMiAyem04LTEyVjVhMiAyIDAgMDAtMi0ySDlhMiAyIDAgMDAtMiAydjRoMTB6IiAvPjwvc3ZnPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgei0xMCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzlweF0gZm9udC1ib2xkIHVwcGVyY2FzZSB0cmFja2luZy10aWdodCBvcGFjaXR5LTgwIGxlYWRpbmctdGlnaHQiPklNUFJFU1NPPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ibGFjayBsZWFkaW5nLXRpZ2h0Ij57c3VtbWFyeURhdGFbJ0lNUFJFU1NPJ119PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+DQogICAgICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgICAgICB7LyogQUpVU1RFIENBUkQgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFuaW1hdGUtZmFkZS1pbi1zY2FsZSIgc3R5bGU9e3sgYW5pbWF0aW9uRGVsYXk6ICcwLjNzJyB9fT4NCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gaGFuZGxlQ2FyZENsaWNrKCdBSlVTVEUnKX0NCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiB3LWZ1bGwgdGV4dC1jZW50ZXIgcC0yIHJvdW5kZWQtbGcgc2hhZG93LXNtIHRyYW5zaXRpb24tYWxsIGJnLWZ1Y2hzaWEtNjAwIHRleHQtd2hpdGUgaG92ZXI6c2NhbGUtMTA1IGFjdGl2ZTpzY2FsZS05NSBoLWZ1bGwgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgbWluLWgtWzUwcHhdICR7Y2FyZEZpbHRlciA9PT0gJ0FKVVNURScgPyAncmluZy0yIHJpbmctd2hpdGUgcmluZy1vZmZzZXQtMSByaW5nLW9mZnNldC1mdWNoc2lhLTYwMCB6LTIwJyA6ICcnfWB9DQogICAgICAgICAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtMS41IC1ib3R0b20tMS41IG9wYWNpdHktMjAgdHJhbnNmb3JtIC1yb3RhdGUtMTIgc2NhbGUtWzEuOF0gcG9pbnRlci1ldmVudHMtbm9uZSI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT0iaC01IHctNSIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9IjIiIGQ9Ik0xNS4yMzIgNS4yMzJsMy41MzYgMy41MzZtLTIuMDM2LTUuMDM2YTIuNSAyLjUgMCAxMTMuNTM2IDMuNTM2TDYuNSAyMS4wMzZIM3YtMy41NzJMMTYuNzMyIDMuNzMyeiIgLz48L3N2Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHotMTAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIGZvbnQtYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctdGlnaHQgb3BhY2l0eS04MCBsZWFkaW5nLXRpZ2h0Ij5BSlVTVEU8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWJsYWNrIGxlYWRpbmctdGlnaHQiPntzdW1tYXJ5RGF0YVsnQUpVU1RFJ119PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+DQogICAgICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgICAgICB7LyogU0VNIElNQUdFTSBDQVJEICovfQ0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhbmltYXRlLWZhZGUtaW4tc2NhbGUiIHN0eWxlPXt7IGFuaW1hdGlvbkRlbGF5OiAnMC4zNXMnIH19Pg0KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uDQogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBoYW5kbGVDYXJkQ2xpY2soJ1NFTSBJTUFHRU0nKX0NCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiB3LWZ1bGwgdGV4dC1jZW50ZXIgcC0yIHJvdW5kZWQtbGcgc2hhZG93LXNtIHRyYW5zaXRpb24tYWxsIGJnLXJlZC03MDAgdGV4dC13aGl0ZSBob3ZlcjpzY2FsZS0xMDUgYWN0aXZlOnNjYWxlLTk1IGgtZnVsbCBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBtaW4taC1bNTBweF0gJHtjYXJkRmlsdGVyID09PSAnU0VNIElNQUdFTScgPyAncmluZy0yIHJpbmctd2hpdGUgcmluZy1vZmZzZXQtMSByaW5nLW9mZnNldC1yZWQtNzAwJyA6ICcnfWB9DQogICAgICAgICAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtMS41IC1ib3R0b20tMS41IG9wYWNpdHktMjAgdHJhbnNmb3JtIC1yb3RhdGUtMTIgc2NhbGUtWzEuOF0gcG9pbnRlci1ldmVudHMtbm9uZSI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT0iaC01IHctNSIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9IjIiIGQ9Ik00IDE2bDQuNTg2LTQuNTg2YTIgMiAwIDAxMi44MjggMEwxNiAxNm0tMi0ybDEuNTg2LTEuNTg2YTIgMiAwIDAxMi44MjggMEwyMCAxNG0tNi02aC4wMU02IDIwaDEyYTIgMiAwIDAwMi0yVjZhMiAyIDAgMDAtMi0ySDZhMiAyIDAgMDAtMiAydjEyYTIgMiAwIDAwMiAyeiIgLz48L3N2Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHotMTAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIGZvbnQtYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctdGlnaHQgb3BhY2l0eS04MCBsZWFkaW5nLXRpZ2h0Ij5TRU0gSU1BR0VNPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ibGFjayBsZWFkaW5nLXRpZ2h0Ij57c3VtbWFyeURhdGFbJ1NFTSBJTUFHRU0nXX08L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCg0KICAgICAgICAgICAgICAgIHsvKiBFUlJPIENBUkQgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFuaW1hdGUtZmFkZS1pbi1zY2FsZSIgc3R5bGU9e3sgYW5pbWF0aW9uRGVsYXk6ICcwLjRzJyB9fT4NCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gaGFuZGxlQ2FyZENsaWNrKCdFUlJPIElNUFJFU1PDg08nKX0NCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiB3LWZ1bGwgdGV4dC1jZW50ZXIgcC0yIHJvdW5kZWQtbGcgc2hhZG93LXNtIHRyYW5zaXRpb24tYWxsIGJnLXJlZC02MDAgdGV4dC13aGl0ZSBob3ZlcjpzY2FsZS0xMDUgYWN0aXZlOnNjYWxlLTk1IGgtZnVsbCBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBtaW4taC1bNTBweF0gJHtjYXJkRmlsdGVyID09PSAnRVJSTyBJTVBSRVNTw4NPJyA/ICdyaW5nLTIgcmluZy13aGl0ZSByaW5nLW9mZnNldC0xIHJpbmctb2Zmc2V0LXJlZC02MDAnIDogJyd9YH0NCiAgICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC1yaWdodC0xLjUgLWJvdHRvbS0xLjUgb3BhY2l0eS0yMCB0cmFuc2Zvcm0gLXJvdGF0ZS0xMiBzY2FsZS1bMS44XSBwb2ludGVyLWV2ZW50cy1ub25lIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3NOYW1lPSJoLTUgdy01IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIj48cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD0iMiIgZD0iTTEyIDh2NG0wIDRoLjAxTTIxIDEyYTkgOSAwIDExLTE4IDAgOSA5IDAgMDExOCAweiIgLz48L3N2Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHotMTAiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIGZvbnQtYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctdGlnaHQgb3BhY2l0eS04MCBsZWFkaW5nLXRpZ2h0Ij5FUlJPPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ibGFjayBsZWFkaW5nLXRpZ2h0Ij57c3VtbWFyeURhdGFbJ0VSUk8gSU1QUkVTU8ODTyddfTwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICAgICAgey8qIFJJU0NPIC8gQVRSQVNPIENBUkQgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFuaW1hdGUtZmFkZS1pbi1zY2FsZSIgc3R5bGU9e3sgYW5pbWF0aW9uRGVsYXk6ICcwLjQ1cycgfX0+DQogICAgICAgICAgICAgICAgICAgIDxidXR0b24NCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IGhhbmRsZUNhcmRDbGljayhjYXJkRmlsdGVyID09PSAnUklTQ08nID8gJ0FUUkFTQURPJyA6ICdSSVNDTycpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIHctZnVsbCB0ZXh0LWNlbnRlciBwLTIgcm91bmRlZC1sZyBzaGFkb3ctc20gdHJhbnNpdGlvbi1hbGwgYmctYW1iZXItNjAwIHRleHQtd2hpdGUgaG92ZXI6c2NhbGUtMTA1IGFjdGl2ZTpzY2FsZS05NSBoLWZ1bGwgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgbWluLWgtWzUwcHhdICR7KGNhcmRGaWx0ZXIgPT09ICdSSVNDTycgfHwgY2FyZEZpbHRlciA9PT0gJ0FUUkFTQURPJykgPyAncmluZy0yIHJpbmctd2hpdGUgcmluZy1vZmZzZXQtMSByaW5nLW9mZnNldC1hbWJlci02MDAgei0yMCcgOiAnJ31gfQ0KICAgICAgICAgICAgICAgICAgICA+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgLXJpZ2h0LTEuNSAtYm90dG9tLTEuNSBvcGFjaXR5LTIwIHRyYW5zZm9ybSAtcm90YXRlLTEyIHNjYWxlLVsxLjhdIHBvaW50ZXItZXZlbnRzLW5vbmUiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtNSB3LTUiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPSIyIiBkPSJNMTIgOXYybTAgNGguMDFtLTYuOTM4IDRoMTMuODU2YzEuNTQgMCAyLjUwMi0xLjY2NyAxLjczMi0zTDEzLjczMiA0Yy0uNzctMS4zMzMtMi42OTQtMS4zMzMtMy40NjQgMEwzLjM0IDE2Yy0uNzcgMS4zMzMuMTkyIDMgMS43MzIgM3oiIC8+PC9zdmc+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB6LTEwIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bOXB4XSBmb250LWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXRpZ2h0IG9wYWNpdHktODAgbGVhZGluZy10aWdodCI+UklTQ08gLyBBVFJBU088L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWJsYWNrIGxlYWRpbmctdGlnaHQiPntzdW1tYXJ5RGF0YVsnUklTQ08nXX0gLyB7c3VtbWFyeURhdGFbJ0FUUkFTQURPJ119PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+DQogICAgICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgICAgICB7LyogQ0FOQ0VMQURPIENBUkQgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFuaW1hdGUtZmFkZS1pbi1zY2FsZSIgc3R5bGU9e3sgYW5pbWF0aW9uRGVsYXk6ICcwLjVzJyB9fT4NCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gaGFuZGxlQ2FyZENsaWNrKCdDQU5DRUxBRE8nKX0NCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiB3LWZ1bGwgdGV4dC1jZW50ZXIgcC0yIHJvdW5kZWQtbGcgc2hhZG93LXNtIHRyYW5zaXRpb24tYWxsIGJnLXNsYXRlLTcwMCB0ZXh0LXdoaXRlIGhvdmVyOnNjYWxlLTEwNSBhY3RpdmU6c2NhbGUtOTUgaC1mdWxsIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG1pbi1oLVs1MHB4XSAke2NhcmRGaWx0ZXIgPT09ICdDQU5DRUxBRE8nID8gJ3JpbmctMiByaW5nLXdoaXRlIHJpbmctb2Zmc2V0LTEgcmluZy1vZmZzZXQtc2xhdGUtNzAwIHotMjAnIDogJyd9YH0NCiAgICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC1yaWdodC0xLjUgLWJvdHRvbS0xLjUgb3BhY2l0eS0yMCB0cmFuc2Zvcm0gLXJvdGF0ZS0xMiBzY2FsZS1bMS44XSBwb2ludGVyLWV2ZW50cy1ub25lIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3NOYW1lPSJoLTUgdy01IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIj48cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBzdHJva2VXaWR0aD0iMiIgZD0iTTYgMThMMTggNk02IDZsMTIgMTIiIC8+PC9zdmc+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB6LTEwIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bOXB4XSBmb250LWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXRpZ2h0IG9wYWNpdHktODAgbGVhZGluZy10aWdodCI+Q0FOQ0VMQURPPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ibGFjayBsZWFkaW5nLXRpZ2h0Ij57c3VtbWFyeURhdGFbJ0NBTkNFTEFETyddfTwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgPC9kaXY+DQoNCiAgICAgICAgICAgIHtpc1N5bmNpbmcgJiYgKA0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi00IHAtMyBiZy1ibHVlLTUwIGRhcms6YmctYmx1ZS05MDAvMzAgYm9yZGVyIGJvcmRlci1ibHVlLTIwMCBkYXJrOmJvcmRlci1ibHVlLTcwMCByb3VuZGVkLWxnIGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIGFuaW1hdGUtcHVsc2UiPg0KICAgICAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0iYW5pbWF0ZS1zcGluIGgtNSB3LTUgdGV4dC1ibHVlLTUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGNpcmNsZSBjbGFzc05hbWU9Im9wYWNpdHktMjUiIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPSI0Ij48L2NpcmNsZT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGNsYXNzTmFtZT0ib3BhY2l0eS03NSIgZmlsbD0iY3VycmVudENvbG9yIiBkPSJNNCAxMmE4IDggMCAwMTgtOFYwQzUuMzczIDAgMCA1LjM3MyAwIDEyaDR6bTIgNS4yOTFBNy45NjIgNy45NjIgMCAwMTQgMTJIMGMwIDMuMDQyIDEuMTM1IDUuODI0IDMgNy45MzhsMy0yLjY0N3oiPjwvcGF0aD4NCiAgICAgICAgICAgICAgICAgICAgPC9zdmc+DQogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWJsdWUtNzAwIGRhcms6dGV4dC1ibHVlLTMwMCBmb250LW1lZGl1bSI+DQogICAgICAgICAgICAgICAgICAgICAgICBTaW5jcm9uaXphbmRvIGltYWdlbnMgZG8gR29vZ2xlIERyaXZlLi4uICh7c3luY1Byb2dyZXNzLmN1cnJlbnR9L3tzeW5jUHJvZ3Jlc3MudG90YWx9KQ0KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+DQogICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICApfQ0KDQogICAgICAgICAgICB7LyogTyBjb250ZcO6ZG8gc3RpY2t5IGNvbnRpbnVhIGVtIEVzdGFtcGFzRmlsdGVyQmFyICovfQ0KICAgICAgICA8L2Rpdj4NCiAgICApOw0KfTsNCg==}
+import React from 'react';
+
+interface EstampasKPIsProps {
+    summaryData: Record<string, number>;
+    handleCardClick: (status: string) => void;
+    cardFilter: string | null;
+    isSyncing: boolean;
+    syncProgress: { current: number; total: number };
+}
+
+export const EstampasKPIs: React.FC<EstampasKPIsProps> = ({
+    summaryData,
+    handleCardClick,
+    cardFilter,
+    isSyncing,
+    syncProgress
+}) => {
+    return (
+        <div className="sticky top-0 z-30 bg-white dark:bg-gray-900 pb-3 -mx-4 px-4 sm:-mx-8 sm:px-8 border-b dark:border-gray-800 shadow-sm transition-all duration-300">
+            {/* Cards KPI - Atualizado com Design Moderno / Glassmorphism Clean */}
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-4 pt-4">
+                {/* TOTAL CARD */}
+                <div className="animate-fade-in-scale" style={{ animationDelay: '0.1s' }}>
+                    <button
+                        onClick={() => handleCardClick('TODOS')}
+                        className={`relative overflow-hidden w-full text-center p-2 rounded-lg shadow-sm transition-all bg-gradient-to-br from-indigo-500 to-indigo-600 text-white hover:scale-105 active:scale-95 h-full flex flex-col items-center justify-center min-h-[50px] ${!cardFilter ? 'ring-2 ring-white ring-offset-1 ring-offset-indigo-600 shadow-lg scale-105 z-20 font-bold' : 'opacity-90 hover:opacity-100'}`}
+                    >
+                        <div className="absolute top-0 right-0 p-1 opacity-20">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                        </div>
+                        <div className="relative z-10 flex flex-col items-center">
+                            <div className="text-[9px] font-bold uppercase tracking-tight opacity-80 leading-tight">TOTAL</div>
+                            <div className="text-xl font-black leading-tight tracking-tight">{summaryData['TOTAL']}</div>
+                            <div className="text-[8px] opacity-70 mt-0.5 font-medium bg-black/20 px-1.5 py-px rounded-full">Itens</div>
+                        </div>
+                    </button>
+                </div>
+
+                {/* IMPRESSO CARD */}
+                <div className="animate-fade-in-scale" style={{ animationDelay: '0.2s' }}>
+                    <button
+                        onClick={() => handleCardClick('IMPRESSO')}
+                        className={`relative overflow-hidden w-full text-center p-2 rounded-lg shadow-sm transition-all bg-emerald-600 text-white hover:scale-105 active:scale-95 h-full flex flex-col items-center justify-center min-h-[50px] ${cardFilter === 'IMPRESSO' ? 'ring-2 ring-white ring-offset-1 ring-offset-emerald-600 z-20' : ''}`}
+                    >
+                        <div className="absolute -right-1.5 -bottom-1.5 opacity-20 transform -rotate-12 scale-[1.8] pointer-events-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" /></svg>
+                        </div>
+                        <div className="relative z-10">
+                            <div className="text-[9px] font-bold uppercase tracking-tight opacity-80 leading-tight">IMPRESSO</div>
+                            <div className="text-lg font-black leading-tight">{summaryData['IMPRESSO']}</div>
+                        </div>
+                    </button>
+                </div>
+
+                {/* AJUSTE CARD */}
+                <div className="animate-fade-in-scale" style={{ animationDelay: '0.3s' }}>
+                    <button
+                        onClick={() => handleCardClick('AJUSTE')}
+                        className={`relative overflow-hidden w-full text-center p-2 rounded-lg shadow-sm transition-all bg-fuchsia-600 text-white hover:scale-105 active:scale-95 h-full flex flex-col items-center justify-center min-h-[50px] ${cardFilter === 'AJUSTE' ? 'ring-2 ring-white ring-offset-1 ring-offset-fuchsia-600 z-20' : ''}`}
+                    >
+                        <div className="absolute -right-1.5 -bottom-1.5 opacity-20 transform -rotate-12 scale-[1.8] pointer-events-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" /></svg>
+                        </div>
+                        <div className="relative z-10">
+                            <div className="text-[9px] font-bold uppercase tracking-tight opacity-80 leading-tight">AJUSTE</div>
+                            <div className="text-lg font-black leading-tight">{summaryData['AJUSTE']}</div>
+                        </div>
+                    </button>
+                </div>
+
+                {/* SEM IMAGEM CARD */}
+                <div className="animate-fade-in-scale" style={{ animationDelay: '0.35s' }}>
+                    <button
+                        onClick={() => handleCardClick('SEM IMAGEM')}
+                        className={`relative overflow-hidden w-full text-center p-2 rounded-lg shadow-sm transition-all bg-red-700 text-white hover:scale-105 active:scale-95 h-full flex flex-col items-center justify-center min-h-[50px] ${cardFilter === 'SEM IMAGEM' ? 'ring-2 ring-white ring-offset-1 ring-offset-red-700' : ''}`}
+                    >
+                        <div className="absolute -right-1.5 -bottom-1.5 opacity-20 transform -rotate-12 scale-[1.8] pointer-events-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        </div>
+                        <div className="relative z-10">
+                            <div className="text-[9px] font-bold uppercase tracking-tight opacity-80 leading-tight">SEM IMAGEM</div>
+                            <div className="text-lg font-black leading-tight">{summaryData['SEM IMAGEM']}</div>
+                        </div>
+                    </button>
+                </div>
+
+                {/* ERRO CARD */}
+                <div className="animate-fade-in-scale" style={{ animationDelay: '0.4s' }}>
+                    <button
+                        onClick={() => handleCardClick('ERRO IMPRESSÃO')}
+                        className={`relative overflow-hidden w-full text-center p-2 rounded-lg shadow-sm transition-all bg-red-600 text-white hover:scale-105 active:scale-95 h-full flex flex-col items-center justify-center min-h-[50px] ${cardFilter === 'ERRO IMPRESSÃO' ? 'ring-2 ring-white ring-offset-1 ring-offset-red-600' : ''}`}
+                    >
+                        <div className="absolute -right-1.5 -bottom-1.5 opacity-20 transform -rotate-12 scale-[1.8] pointer-events-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </div>
+                        <div className="relative z-10">
+                            <div className="text-[9px] font-bold uppercase tracking-tight opacity-80 leading-tight">ERRO</div>
+                            <div className="text-lg font-black leading-tight">{summaryData['ERRO IMPRESSÃO']}</div>
+                        </div>
+                    </button>
+                </div>
+
+                {/* RISCO / ATRASO CARD */}
+                <div className="animate-fade-in-scale" style={{ animationDelay: '0.45s' }}>
+                    <button
+                        onClick={() => handleCardClick(cardFilter === 'RISCO' ? 'ATRASADO' : 'RISCO')}
+                        className={`relative overflow-hidden w-full text-center p-2 rounded-lg shadow-sm transition-all bg-amber-600 text-white hover:scale-105 active:scale-95 h-full flex flex-col items-center justify-center min-h-[50px] ${(cardFilter === 'RISCO' || cardFilter === 'ATRASADO') ? 'ring-2 ring-white ring-offset-1 ring-offset-amber-600 z-20' : ''}`}
+                    >
+                        <div className="absolute -right-1.5 -bottom-1.5 opacity-20 transform -rotate-12 scale-[1.8] pointer-events-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+                        </div>
+                        <div className="relative z-10">
+                            <div className="text-[9px] font-bold uppercase tracking-tight opacity-80 leading-tight">RISCO / ATRASO</div>
+                            <div className="text-lg font-black leading-tight">{summaryData['RISCO']} / {summaryData['ATRASADO']}</div>
+                        </div>
+                    </button>
+                </div>
+
+                {/* CANCELADO CARD */}
+                <div className="animate-fade-in-scale" style={{ animationDelay: '0.5s' }}>
+                    <button
+                        onClick={() => handleCardClick('CANCELADO')}
+                        className={`relative overflow-hidden w-full text-center p-2 rounded-lg shadow-sm transition-all bg-slate-700 text-white hover:scale-105 active:scale-95 h-full flex flex-col items-center justify-center min-h-[50px] ${cardFilter === 'CANCELADO' ? 'ring-2 ring-white ring-offset-1 ring-offset-slate-700 z-20' : ''}`}
+                    >
+                        <div className="absolute -right-1.5 -bottom-1.5 opacity-20 transform -rotate-12 scale-[1.8] pointer-events-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" /></svg>
+                        </div>
+                        <div className="relative z-10">
+                            <div className="text-[9px] font-bold uppercase tracking-tight opacity-80 leading-tight">CANCELADO</div>
+                            <div className="text-lg font-black leading-tight">{summaryData['CANCELADO']}</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            {isSyncing && (
+                <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-700 rounded-lg flex items-center gap-3 animate-pulse">
+                    <svg className="animate-spin h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span className="text-sm text-blue-700 dark:text-blue-300 font-medium">
+                        Sincronizando imagens do Google Drive... ({syncProgress.current}/{syncProgress.total})
+                    </span>
+                </div>
+            )}
+
+            {/* O conteúdo sticky continua em EstampasFilterBar */}
+        </div>
+    );
+};

@@ -1,1 +1,67 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrQ29ycnVwdGVkSlNPTigpIHsNCiAgICBjb25zb2xlLmxvZygnQ2hlY2tpbmcgc3ByZWFkc2hlZXRfZGF0YSAoSlNPTkIpLi4uJyk7DQoNCiAgICAvLyAxLiBGZXRjaCBhbGwgcm93cyBhbmQgZmlsdGVyIGluIG1lbW9yeSAoc2FmZXIgZm9yIGNvbXBsZXggSlNPTiBjaGVja3MgaWYgZGF0YXNldCA8IDEwaykNCiAgICAvLyBPciB0cnkgZmlsdGVyaW5nIHZpYSBBUEkgaWYgcG9zc2libGUuDQoNCiAgICAvLyBMZXQncyBmZXRjaCB0aGUgbGFzdCAxMDAwIHJvd3MsIGFzc3VtaW5nIGNvcnJ1cHRpb24gaXMgcmVjZW50Lg0KICAgIGNvbnN0IHsgZGF0YTogcm93cywgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQ0KICAgICAgICAubGltaXQoMjAwMCk7DQoNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgZmV0Y2hpbmcgZGF0YTonLCBlcnJvcik7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBsZXQgdW5kZWZpbmVkQ291bnQgPSAwOw0KICAgIGxldCBjb3JydXB0ZWRWaXRvckNvdW50ID0gMDsNCiAgICBjb25zdCB0b0RlbGV0ZTogc3RyaW5nW10gPSBbXTsNCg0KICAgIHJvd3MuZm9yRWFjaChyb3cgPT4gew0KICAgICAgICBjb25zdCBkID0gcm93LnJvd19kYXRhOw0KICAgICAgICBpZiAoIWQpIHJldHVybjsNCg0KICAgICAgICAvLyBDaGVjayBmb3IgbGl0ZXJhbCAidW5kZWZpbmVkIiBpbiBJRCBmaWVsZA0KICAgICAgICAvLyBOb3RlOiBGaWVsZCBuYW1lIGRlcGVuZHMgb24gQ1NWIGhlYWRlciBtYXBwaW5nLiBVc3VhbGx5ICJJZGVudGlmaWNhZG9yIGRvIHBlZGlkbyBlLWNvbW1lcmNlIg0KICAgICAgICBjb25zdCBpZCA9IGRbJ0lkZW50aWZpY2Fkb3IgZG8gcGVkaWRvIGUtY29tbWVyY2UnXSB8fCBkWydJRCBQZWRpZG8nXSB8fCBkWydpZCddOw0KICAgICAgICBjb25zdCBjbGllbnQgPSBkWydDbGllbnRlJ10gfHwgZFsnY2xpZW50ZSddIHx8IGRbJ05vbWUnXTsNCg0KICAgICAgICBjb25zdCBpc1VuZGVmaW5lZCA9IFN0cmluZyhpZCkuaW5jbHVkZXMoJ3VuZGVmaW5lZCcpIHx8IFN0cmluZyhjbGllbnQpLmluY2x1ZGVzKCd1bmRlZmluZWQnKTsNCiAgICAgICAgY29uc3QgaXNWaXRvciA9IFN0cmluZyhjbGllbnQpLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoJ3ZpdG9yIGJydWVsJyk7DQoNCiAgICAgICAgLy8gQ2hlY2sgZm9yIHRoZSAiVml0b3IgQnJ1ZWwiIGJhZCByb3dzIHNlZW4gaW4gc2NyZWVuc2hvdCAobWlzc2luZyBJRC9TS1UgdXN1YWxseSBpbXBsaWVzIGVtcHR5IG9yICItIikNCiAgICAgICAgLy8gU2NyZWVuc2hvdCBzaG93ZWQgSUQgIi0iIGFuZCBTS1UgIi0iDQogICAgICAgIGNvbnN0IGlzRW1wdHlJZCA9ICFpZCB8fCBpZCA9PT0gJy0nIHx8IGlkID09PSAnJzsNCg0KICAgICAgICBpZiAoaXNVbmRlZmluZWQpIHsNCiAgICAgICAgICAgIHVuZGVmaW5lZENvdW50Kys7DQogICAgICAgICAgICB0b0RlbGV0ZS5wdXNoKHJvdy5pZCk7DQogICAgICAgIH0NCg0KICAgICAgICBpZiAoaXNWaXRvciAmJiBpc0VtcHR5SWQpIHsNCiAgICAgICAgICAgIGNvcnJ1cHRlZFZpdG9yQ291bnQrKzsNCiAgICAgICAgICAgIHRvRGVsZXRlLnB1c2gocm93LmlkKTsNCiAgICAgICAgfQ0KICAgIH0pOw0KDQogICAgY29uc29sZS5sb2coYFNjYW5uZWQgJHtyb3dzLmxlbmd0aH0gcmVjZW50IHJvd3MuYCk7DQogICAgY29uc29sZS5sb2coYEZvdW5kICR7dW5kZWZpbmVkQ291bnR9IHJvd3Mgd2l0aCAndW5kZWZpbmVkJyB2YWx1ZXMuYCk7DQogICAgY29uc29sZS5sb2coYEZvdW5kICR7Y29ycnVwdGVkVml0b3JDb3VudH0gY29ycnVwdGVkICdWaXRvciBCcnVlbCcgcm93cy5gKTsNCiAgICBjb25zb2xlLmxvZyhgVG90YWwgY2FuZGlkYXRlcyBmb3IgZGVsZXRpb246ICR7dG9EZWxldGUubGVuZ3RofWApOw0KDQogICAgaWYgKHRvRGVsZXRlLmxlbmd0aCA+IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coJ1NhbXBsZSBJRHMgdG8gZGVsZXRlOicsIHRvRGVsZXRlLnNsaWNlKDAsIDUpKTsNCiAgICB9DQp9DQoNCmNoZWNrQ29ycnVwdGVkSlNPTigpOw0K}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function checkCorruptedJSON() {
+    console.log('Checking spreadsheet_data (JSONB)...');
+
+    // 1. Fetch all rows and filter in memory (safer for complex JSON checks if dataset < 10k)
+    // Or try filtering via API if possible.
+
+    // Let's fetch the last 1000 rows, assuming corruption is recent.
+    const { data: rows, error } = await supabase
+        .from('spreadsheet_data')
+        .select('*')
+        .order('created_at', { ascending: false })
+        .limit(2000);
+
+    if (error) {
+        console.error('Error fetching data:', error);
+        return;
+    }
+
+    let undefinedCount = 0;
+    let corruptedVitorCount = 0;
+    const toDelete: string[] = [];
+
+    rows.forEach(row => {
+        const d = row.row_data;
+        if (!d) return;
+
+        // Check for literal "undefined" in ID field
+        // Note: Field name depends on CSV header mapping. Usually "Identificador do pedido e-commerce"
+        const id = d['Identificador do pedido e-commerce'] || d['ID Pedido'] || d['id'];
+        const client = d['Cliente'] || d['cliente'] || d['Nome'];
+
+        const isUndefined = String(id).includes('undefined') || String(client).includes('undefined');
+        const isVitor = String(client).toLowerCase().includes('vitor bruel');
+
+        // Check for the "Vitor Bruel" bad rows seen in screenshot (missing ID/SKU usually implies empty or "-")
+        // Screenshot showed ID "-" and SKU "-"
+        const isEmptyId = !id || id === '-' || id === '';
+
+        if (isUndefined) {
+            undefinedCount++;
+            toDelete.push(row.id);
+        }
+
+        if (isVitor && isEmptyId) {
+            corruptedVitorCount++;
+            toDelete.push(row.id);
+        }
+    });
+
+    console.log(`Scanned ${rows.length} recent rows.`);
+    console.log(`Found ${undefinedCount} rows with 'undefined' values.`);
+    console.log(`Found ${corruptedVitorCount} corrupted 'Vitor Bruel' rows.`);
+    console.log(`Total candidates for deletion: ${toDelete.length}`);
+
+    if (toDelete.length > 0) {
+        console.log('Sample IDs to delete:', toDelete.slice(0, 5));
+    }
+}
+
+checkCorruptedJSON();

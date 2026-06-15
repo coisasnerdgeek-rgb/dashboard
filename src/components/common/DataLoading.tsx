@@ -1,1 +1,100 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOw0KDQpjb25zdCBMT0FESU5HX01FU1NBR0VTID0gWw0KICAgICJJbmljaWFuZG8gb3MgbW90b3Jlcy4uLiIsDQogICAgIkFjb3JkYW5kbyBvcyBoYW1zdGVycyBxdWUgbW92ZW0gbyBzZXJ2aWRvci4uLiIsDQogICAgIkNvbnZlbmNlbmRvIG9zIGRhZG9zIGEgY29vcGVyYXIuLi4iLA0KICAgICJBanVzdGFuZG8gb3MgcGl4ZWxzIHJlYmVsZGVzLi4uIiwNCiAgICAiRmF6ZW5kbyB1bSBjYWbDqSBwYXJhIGEgQ1BVLi4uIiwNCiAgICAiT3JnYW5pemFuZG8gYXMgcGxhbmlsaGFzLi4uIiwNCiAgICAiUHJvY3VyYW5kbyBhcXVlbGUgcGVkaWRvIHF1ZSBzdW1pdS4uLiIsDQogICAgIkNvbmZlcmluZG8gc2UgdHVkbyBlc3TDoSBubyBsdWdhciBjZXJ0by4uLiIsDQogICAgIlF1YXNlIGzDoSEgU8OzIG1haXMgdW0gcG91cXVpbmhvLi4uIiwNCiAgICAiw5psdGltb3MgYWp1c3Rlcy4uLiIsDQogICAgIlByb250byEgU8OzIGZhbHRhIG8gY2Fmw6l6aW5oby4uLiIsDQogICAgIkNvbnRhbmRvIGFzIGVzdGFtcGFzIHVtYSBwb3IgdW1hLi4uIiwNCiAgICAiRGVzZW1iYXJhw6dhbmRvIG9zIGZpb3MgZGEgaW50ZXJuZXQuLi4iLA0KICAgICJDYWxpYnJhbmRvIG8gZ2VyYWRvciBkZSBzb3J0ZS4uLiIsDQogICAgIk5lZ29jaWFuZG8gY29tIG8gYmFuY28gZGUgZGFkb3MuLi4iLA0KICAgICJBcXVlY2VuZG8gb3Mgc2Vydmlkb3Jlcy4uLiIsDQogICAgIlBvbGluZG8gb3MgZGFkb3MgcGFyYSB2b2PDqi4uLiIsDQogICAgIlNpbmNyb25pemFuZG8gY29tIGFzIGVzdHJlbGFzLi4uIiwNCiAgICAiQ2FycmVnYW5kbyB0b25lbGFkYXMgZGUgcGl4ZWxzLi4uIiwNCiAgICAiRGFuZG8gY29yZGEgbm9zIHJlbMOzZ2lvcyBkbyBzaXN0ZW1hLi4uIiwNCiAgICAiRW5jaGVuZG8gbyB0YW5xdWUgZGUgZW5lcmdpYS4uLiIsDQogICAgIlRlc3RhbmRvIGEgcGFjacOqbmNpYSBkbyBjb21wdXRhZG9yLi4uIiwNCiAgICAiQWp1c3RhbmRvIGEgYW50ZW5hIGRlIFdpLUZpLi4uIiwNCiAgICAiQ29uZmVyaW5kbyBkdWFzIHZlemVzIHPDsyBwb3IgZ2FyYW50aWEuLi4iLA0KICAgICJQcmVwYXJhbmRvIHR1ZG8gY29tIGNhcmluaG8uLi4iLA0KICAgICJTZXBhcmFuZG8gb3MgcGVkaWRvcyB1cmdlbnRlcy4uLiIsDQogICAgIkNhbGN1bGFuZG8gYSB2ZWxvY2lkYWRlIGRhIGx1ei4uLiIsDQogICAgIkNyaWFuZG8gdW0gcG9ydGFsIGRpbWVuc2lvbmFsLi4uIiwNCiAgICAiVmVyaWZpY2FuZG8gc2UgZXN0w6EgdHVkbyBjZXJ0by4uLiIsDQogICAgIlF1YXNlIHByb250bywgcHJvbWV0byEiLA0KICAgICJTw7MgbWFpcyBhbGd1bnMgbmFub3NlZ3VuZG9zLi4uIg0KXTsNCg0KaW50ZXJmYWNlIERhdGFMb2FkaW5nUHJvcHMgew0KICAgIG1lc3NhZ2U/OiBzdHJpbmc7DQogICAgZnVsbFNjcmVlbj86IGJvb2xlYW47DQp9DQoNCmNvbnN0IERhdGFMb2FkaW5nOiBSZWFjdC5GQzxEYXRhTG9hZGluZ1Byb3BzPiA9ICh7IG1lc3NhZ2UsIGZ1bGxTY3JlZW4gPSB0cnVlIH0pID0+IHsNCiAgICBjb25zdCBbbWVzc2FnZUluZGV4LCBzZXRNZXNzYWdlSW5kZXhdID0gUmVhY3QudXNlU3RhdGUoMCk7DQoNCiAgICBSZWFjdC51c2VFZmZlY3QoKCkgPT4gew0KICAgICAgICBjb25zdCBpbnRlcnZhbCA9IHNldEludGVydmFsKCgpID0+IHsNCiAgICAgICAgICAgIHNldE1lc3NhZ2VJbmRleChwcmV2ID0+IHsNCiAgICAgICAgICAgICAgICBsZXQgbmV4dEluZGV4ID0gTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogTE9BRElOR19NRVNTQUdFUy5sZW5ndGgpOw0KICAgICAgICAgICAgICAgIGlmIChMT0FESU5HX01FU1NBR0VTLmxlbmd0aCA+IDEgJiYgbmV4dEluZGV4ID09PSBwcmV2KSB7DQogICAgICAgICAgICAgICAgICAgIG5leHRJbmRleCA9IChuZXh0SW5kZXggKyAxKSAlIExPQURJTkdfTUVTU0FHRVMubGVuZ3RoOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICByZXR1cm4gbmV4dEluZGV4Ow0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0sIDMwMDApOw0KICAgICAgICByZXR1cm4gKCkgPT4gY2xlYXJJbnRlcnZhbChpbnRlcnZhbCk7DQogICAgfSwgW10pOw0KDQogICAgY29uc3QgY29udGVudCA9ICgNCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIG1heC13LXNtIHctZnVsbCBteC00IGFuaW1hdGUtaW4gZmFkZS1pbiB6b29tLWluIGR1cmF0aW9uLTMwMCI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgbWItOCI+DQogICAgICAgICAgICAgICAgey8qIFB1bHNpbmcgRGlzayBHcmFwaGljICovfQ0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWdyYWRpZW50LXRvLXRyIGZyb20tYmx1ZS01MDAgdmlhLWluZGlnby01MDAgdG8tcHVycGxlLTYwMCByb3VuZGVkLWZ1bGwgYW5pbWF0ZS1waW5nIG9wYWNpdHktMjUiPjwvZGl2Pg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC1bLThweF0gYmctZ3JhZGllbnQtdG8tdHIgZnJvbS1ibHVlLTQwMCB0by1wdXJwbGUtNDAwIHJvdW5kZWQtZnVsbCBhbmltYXRlLXB1bHNlIG9wYWNpdHktMTAgYmx1ci14bCI+PC9kaXY+DQoNCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgYmctd2hpdGUgZGFyazpiZy1ncmF5LTgwMCByb3VuZGVkLWZ1bGwgcC00IHNoYWRvdy0yeGwgYm9yZGVyIGJvcmRlci13aGl0ZS8yMCBkYXJrOmJvcmRlci1ncmF5LTcwMC81MCI+DQogICAgICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJhbmltYXRlLXNwaW4gaC0xNCB3LTE0IHRleHQtYmx1ZS02MDAgZGFyazp0ZXh0LWJsdWUtNDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogICAgICAgICAgICAgICAgICAgICAgICA8Y2lyY2xlIGNsYXNzTmFtZT0ib3BhY2l0eS0xMCIgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlV2lkdGg9IjMiPjwvY2lyY2xlPg0KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggY2xhc3NOYW1lPSJvcGFjaXR5LTgwIiBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik00IDEyYTggOCAwIDAxOC04VjBDNS4zNzMgMCAwIDUuMzczIDAgMTJoNHptMiA1LjI5MUE3Ljk2MiA3Ljk2MiAwIDAxNCAxMkgwYzAgMy4wNDIgMS4xMzUgNS44MjQgMyA3LjkzOGwzLTIuNjQ3eiI+PC9wYXRoPg0KICAgICAgICAgICAgICAgICAgICA8L3N2Zz4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgc3BhY2UteS0zIj4NCiAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJsYWNrIHRleHQtZ3JheS05MDAgZGFyazp0ZXh0LXdoaXRlIHRyYWNraW5nLXRpZ2h0Ij4NCiAgICAgICAgICAgICAgICAgICAgUHJvY2Vzc2FuZG8gRGFkb3MNCiAgICAgICAgICAgICAgICA8L2gyPg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLTEgdy0yNCBiZy1ncmFkaWVudC10by1yIGZyb20tYmx1ZS01MDAgdG8tcHVycGxlLTUwMCBteC1hdXRvIHJvdW5kZWQtZnVsbCBvcGFjaXR5LTUwIj48L2Rpdj4NCiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtZ3JheS01MDAgZGFyazp0ZXh0LWdyYXktNDAwIGZvbnQtbWVkaXVtIGFuaW1hdGUtcHVsc2UgbWluLWgtWzEuNWVtXSB0ZXh0LXNtIG1kOnRleHQtYmFzZSBweC00Ij4NCiAgICAgICAgICAgICAgICAgICAge21lc3NhZ2UgfHwgTE9BRElOR19NRVNTQUdFU1ttZXNzYWdlSW5kZXhdfQ0KICAgICAgICAgICAgICAgIDwvcD4NCiAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICA8L2Rpdj4NCiAgICApOw0KDQogICAgaWYgKCFmdWxsU2NyZWVuKSB7DQogICAgICAgIHJldHVybiAoDQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcC0xMiB3LWZ1bGwgaC1mdWxsIG1pbi1oLVs0MDBweF0iPg0KICAgICAgICAgICAgICAgIHtjb250ZW50fQ0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICk7DQogICAgfQ0KDQogICAgcmV0dXJuICgNCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgYmctZ3JheS05MDAvODAgYmFja2Ryb3AtYmx1ci1tZCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciB6LVsxMDBdIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTUwMCI+DQogICAgICAgICAgICB7Y29udGVudH0NCiAgICAgICAgPC9kaXY+DQogICAgKTsNCn07DQoNCmV4cG9ydCBkZWZhdWx0IERhdGFMb2FkaW5nOw0K}
+import * as React from 'react';
+
+const LOADING_MESSAGES = [
+    "Iniciando os motores...",
+    "Acordando os hamsters que movem o servidor...",
+    "Convencendo os dados a cooperar...",
+    "Ajustando os pixels rebeldes...",
+    "Fazendo um café para a CPU...",
+    "Organizando as planilhas...",
+    "Procurando aquele pedido que sumiu...",
+    "Conferindo se tudo está no lugar certo...",
+    "Quase lá! Só mais um pouquinho...",
+    "Últimos ajustes...",
+    "Pronto! Só falta o cafézinho...",
+    "Contando as estampas uma por uma...",
+    "Desembaraçando os fios da internet...",
+    "Calibrando o gerador de sorte...",
+    "Negociando com o banco de dados...",
+    "Aquecendo os servidores...",
+    "Polindo os dados para você...",
+    "Sincronizando com as estrelas...",
+    "Carregando toneladas de pixels...",
+    "Dando corda nos relógios do sistema...",
+    "Enchendo o tanque de energia...",
+    "Testando a paciência do computador...",
+    "Ajustando a antena de Wi-Fi...",
+    "Conferindo duas vezes só por garantia...",
+    "Preparando tudo com carinho...",
+    "Separando os pedidos urgentes...",
+    "Calculando a velocidade da luz...",
+    "Criando um portal dimensional...",
+    "Verificando se está tudo certo...",
+    "Quase pronto, prometo!",
+    "Só mais alguns nanosegundos..."
+];
+
+interface DataLoadingProps {
+    message?: string;
+    fullScreen?: boolean;
+}
+
+const DataLoading: React.FC<DataLoadingProps> = ({ message, fullScreen = true }) => {
+    const [messageIndex, setMessageIndex] = React.useState(0);
+
+    React.useEffect(() => {
+        const interval = setInterval(() => {
+            setMessageIndex(prev => {
+                let nextIndex = Math.floor(Math.random() * LOADING_MESSAGES.length);
+                if (LOADING_MESSAGES.length > 1 && nextIndex === prev) {
+                    nextIndex = (nextIndex + 1) % LOADING_MESSAGES.length;
+                }
+                return nextIndex;
+            });
+        }, 3000);
+        return () => clearInterval(interval);
+    }, []);
+
+    const content = (
+        <div className="flex flex-col items-center max-w-sm w-full mx-4 animate-in fade-in zoom-in duration-300">
+            <div className="relative mb-8">
+                {/* Pulsing Disk Graphic */}
+                <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 via-indigo-500 to-purple-600 rounded-full animate-ping opacity-25"></div>
+                <div className="absolute inset-[-8px] bg-gradient-to-tr from-blue-400 to-purple-400 rounded-full animate-pulse opacity-10 blur-xl"></div>
+
+                <div className="relative bg-white dark:bg-gray-800 rounded-full p-4 shadow-2xl border border-white/20 dark:border-gray-700/50">
+                    <svg className="animate-spin h-14 w-14 text-blue-600 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-10" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3"></circle>
+                        <path className="opacity-80" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div className="text-center space-y-3">
+                <h2 className="text-2xl font-black text-gray-900 dark:text-white tracking-tight">
+                    Processando Dados
+                </h2>
+                <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full opacity-50"></div>
+                <p className="text-gray-500 dark:text-gray-400 font-medium animate-pulse min-h-[1.5em] text-sm md:text-base px-4">
+                    {message || LOADING_MESSAGES[messageIndex]}
+                </p>
+            </div>
+        </div>
+    );
+
+    if (!fullScreen) {
+        return (
+            <div className="flex items-center justify-center p-12 w-full h-full min-h-[400px]">
+                {content}
+            </div>
+        );
+    }
+
+    return (
+        <div className="fixed inset-0 bg-gray-900/80 backdrop-blur-md flex items-center justify-center z-[100] transition-all duration-500">
+            {content}
+        </div>
+    );
+};
+
+export default DataLoading;

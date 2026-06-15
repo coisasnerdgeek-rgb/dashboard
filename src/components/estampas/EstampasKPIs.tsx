@@ -1,1 +1,177 @@
-﻿@{data=aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsNCg0KaW50ZXJmYWNlIEVzdGFtcGFzS1BJc1Byb3BzIHsNCiAgICBzdW1tYXJ5RGF0YTogUmVjb3JkPHN0cmluZywgbnVtYmVyPjsNCiAgICBoYW5kbGVDYXJkQ2xpY2s6IChzdGF0dXM6IHN0cmluZykgPT4gdm9pZDsNCiAgICBjYXJkRmlsdGVyOiBzdHJpbmcgfCBudWxsOw0KICAgIGlzU3luY2luZzogYm9vbGVhbjsNCiAgICBzeW5jUHJvZ3Jlc3M6IHsgY3VycmVudDogbnVtYmVyOyB0b3RhbDogbnVtYmVyIH07DQp9DQoNCmV4cG9ydCBjb25zdCBFc3RhbXBhc0tQSXM6IFJlYWN0LkZDPEVzdGFtcGFzS1BJc1Byb3BzPiA9ICh7DQogICAgc3VtbWFyeURhdGEsDQogICAgaGFuZGxlQ2FyZENsaWNrLA0KICAgIGNhcmRGaWx0ZXIsDQogICAgaXNTeW5jaW5nLA0KICAgIHN5bmNQcm9ncmVzcw0KfSkgPT4gew0KICAgIC8vIENhbGN1bGF0ZSBzcGVjaWZpYyBtZXRyaWNzIGZvciBzcGVjaWZpYyBjYXJkcw0KICAgIGNvbnN0IHRvdGFsQ291bnQgPSBzdW1tYXJ5RGF0YVsnVE9UQUwnXSB8fCAwOw0KICAgIGNvbnN0IGltcHJlc3NvQ291bnQgPSBzdW1tYXJ5RGF0YVsnSU1QUkVTU08nXSB8fCAwOw0KICAgIGNvbnN0IHByb2dyZXNzb1BlcmNlbnQgPSB0b3RhbENvdW50ID4gMCA/IE1hdGgucm91bmQoKGltcHJlc3NvQ291bnQgLyB0b3RhbENvdW50KSAqIDEwMCkgOiAwOw0KDQogICAgY29uc3QgY2FyZHMgPSBbDQogICAgICAgIHsNCiAgICAgICAgICAgIGlkOiAnUFJPR1JFU1NPJywNCiAgICAgICAgICAgIGxhYmVsOiAnUFJPR1JFU1NPJywNCiAgICAgICAgICAgIHZhbHVlOiBgJHtwcm9ncmVzc29QZXJjZW50fSVgLA0KICAgICAgICAgICAgc3ViVmFsdWU6IGAke2ltcHJlc3NvQ291bnR9LyR7dG90YWxDb3VudH1gLA0KICAgICAgICAgICAgYmdDb2xvcjogJ2JnLXRlYWwtNTAwJywNCiAgICAgICAgICAgIHRleHRDb2xvcjogJ3RleHQtd2hpdGUnLA0KICAgICAgICAgICAgb25DbGljazogKCkgPT4gaGFuZGxlQ2FyZENsaWNrKCdUT0RPUycpLA0KICAgICAgICAgICAgaWNvbjogKA0KICAgICAgICAgICAgICAgIDxzdmcgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtMiAtYm90dG9tLTIgaC0xNiB3LTE2IHRleHQtd2hpdGUvMTAiIGZpbGw9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij4NCiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bS0yIDE1bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6IiAvPg0KICAgICAgICAgICAgICAgIDwvc3ZnPg0KICAgICAgICAgICAgKQ0KICAgICAgICB9LA0KICAgICAgICB7DQogICAgICAgICAgICBpZDogJ0ZBWkVSIEFSVEUnLA0KICAgICAgICAgICAgbGFiZWw6ICdGQVpFUiBBUlRFJywNCiAgICAgICAgICAgIHZhbHVlOiBzdW1tYXJ5RGF0YVsnRkFaRVIgQVJURSddIHx8IDAsDQogICAgICAgICAgICBiZ0NvbG9yOiAnYmctb3JhbmdlLTUwMCcsDQogICAgICAgICAgICB0ZXh0Q29sb3I6ICd0ZXh0LXdoaXRlJywNCiAgICAgICAgICAgIGljb246IDxzdmcgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtMSAtYm90dG9tLTEgaC0xMiB3LTEyIHRleHQtd2hpdGUvMTAiIGZpbGw9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMyAxNy4yNVYyMWgzLjc1TDE3LjgxIDkuOTRsLTMuNzUtMy43NUwzIDE3LjI1ek0yMC43MSA3LjA0Yy4zOS0uMzkuMzktMS4wMiAwLTEuNDFsLTIuMzQtMi4zNGMtLjM5LS4zOS0xLjAyLS4zOS0xLjQxIDBsLTEuODMgMS44MyAzLjc1IDMuNzUgMS44My0xLjgzeiIgLz48L3N2Zz4NCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgaWQ6ICdQUk9OVEEnLA0KICAgICAgICAgICAgbGFiZWw6ICdQUk9OVEEnLA0KICAgICAgICAgICAgdmFsdWU6IHN1bW1hcnlEYXRhWydQUk9OVEEnXSB8fCAwLA0KICAgICAgICAgICAgYmdDb2xvcjogJ2JnLXllbGxvdy00MDAnLA0KICAgICAgICAgICAgdGV4dENvbG9yOiAndGV4dC13aGl0ZScsDQogICAgICAgICAgICBpY29uOiA8c3ZnIGNsYXNzTmFtZT0iYWJzb2x1dGUgLXJpZ2h0LTEgLWJvdHRvbS0xIGgtMTIgdy0xMiB0ZXh0LXdoaXRlLzEwIiBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bS0yIDE1bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6IiAvPjwvc3ZnPg0KICAgICAgICB9LA0KICAgICAgICB7DQogICAgICAgICAgICBpZDogJ0FQUk9WQcOHw4NPJywNCiAgICAgICAgICAgIGxhYmVsOiAnQVBST1ZBw4fDg08nLA0KICAgICAgICAgICAgdmFsdWU6IHN1bW1hcnlEYXRhWydBUFJPVkHDh8ODTyddIHx8IDAsDQogICAgICAgICAgICBiZ0NvbG9yOiAnYmctYmx1ZS01MDAnLA0KICAgICAgICAgICAgdGV4dENvbG9yOiAndGV4dC13aGl0ZScsDQogICAgICAgICAgICBpY29uOiA8c3ZnIGNsYXNzTmFtZT0iYWJzb2x1dGUgLXJpZ2h0LTEgLWJvdHRvbS0xIGgtMTIgdy0xMiB0ZXh0LXdoaXRlLzEwIiBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDIyYzEuMSAwIDItLjkgMi0yaC00YzAgMS4xLjg5IDIgMiAyem02LTZ2LTVjMC0zLjA3LTEuNjQtNS42NC00LjUtNi4zMlY0YzAtLjgzLS42Ny0xLjUtMS41LTEuNXMtMS41LjY3LTEuNSAxLjV2LjY4QzcuNjMgNS4zNiA2IDcuOTIgNiAxMXY1bC0yIDJ2MWgxNnYtMWwtMi0yeiIgLz48L3N2Zz4NCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgaWQ6ICdBUFJPVkFETycsDQogICAgICAgICAgICBsYWJlbDogJ0FQUk9WQURPJywNCiAgICAgICAgICAgIHZhbHVlOiBzdW1tYXJ5RGF0YVsnQVBST1ZBRE8nXSB8fCAwLA0KICAgICAgICAgICAgYmdDb2xvcjogJ2JnLXB1cnBsZS02MDAnLA0KICAgICAgICAgICAgdGV4dENvbG9yOiAndGV4dC13aGl0ZScsDQogICAgICAgICAgICBpY29uOiA8c3ZnIGNsYXNzTmFtZT0iYWJzb2x1dGUgLXJpZ2h0LTEgLWJvdHRvbS0xIGgtMTIgdy0xMiB0ZXh0LXdoaXRlLzEwIiBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04czMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4em00LjU5LTEyLjQyTDEwIDE0LjE3bC0yLjU5LTIuNThMNiAxM2w0IDQgOC04eiIgLz48L3N2Zz4NCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgaWQ6ICdJTVBSRVNTTycsDQogICAgICAgICAgICBsYWJlbDogJ0lNUFJFU1NPJywNCiAgICAgICAgICAgIHZhbHVlOiBzdW1tYXJ5RGF0YVsnSU1QUkVTU08nXSB8fCAwLA0KICAgICAgICAgICAgYmdDb2xvcjogJ2JnLWVtZXJhbGQtNjAwJywNCiAgICAgICAgICAgIHRleHRDb2xvcjogJ3RleHQtd2hpdGUnLA0KICAgICAgICAgICAgaWNvbjogPHN2ZyBjbGFzc05hbWU9ImFic29sdXRlIC1yaWdodC0xIC1ib3R0b20tMSBoLTEyIHctMTIgdGV4dC13aGl0ZS8xMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xOSA4SDVjLTEuNjYgMC0zIDEuMzQtMyAzdjZoNHY0aDEydi00aDR2LTZjMC0xLjY2LTEuMzQtMy0zLTN6bS0zIDExSDh2LTVoOHY1em0zLTdjLS41NSAwLTEtLjQ1LTEtMXMuNDUtMSAxLTEgMSAuNDUgMSAxLS40NSAxLTEgMXptLTEtOUg2djRoMTJWM3oiIC8+PC9zdmc+DQogICAgICAgIH0sDQogICAgICAgIHsNCiAgICAgICAgICAgIGlkOiAnQUpVU1RFJywNCiAgICAgICAgICAgIGxhYmVsOiAnQUpVU1RFJywNCiAgICAgICAgICAgIHZhbHVlOiBzdW1tYXJ5RGF0YVsnQUpVU1RFJ10gfHwgMCwNCiAgICAgICAgICAgIGJnQ29sb3I6ICdiZy1mdWNoc2lhLTUwMCcsDQogICAgICAgICAgICB0ZXh0Q29sb3I6ICd0ZXh0LXdoaXRlJywNCiAgICAgICAgICAgIGljb246IDxzdmcgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtMSAtYm90dG9tLTEgaC0xMiB3LTEyIHRleHQtd2hpdGUvMTAiIGZpbGw9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMyAxNy4yNVYyMWgzLjc1TDE3LjgxIDkuOTRsLTMuNzUtMy43NUwzIDE3LjI1ek0yMC43MSA3LjA0Yy4zOS0uMzkuMzktMS4wMiAwLTEuNDFsLTIuMzQtMi4zNGMtLjM5LS4zOS0xLjAyLS4zOS0xLjQxIDBsLTEuODMgMS44MyAzLjc1IDMuNzUgMS44My0xLjgzeiIgLz48L3N2Zz4NCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgaWQ6ICdTRU0gSU1BR0VNJywNCiAgICAgICAgICAgIGxhYmVsOiAnU0VNIElNQUdFTScsDQogICAgICAgICAgICB2YWx1ZTogc3VtbWFyeURhdGFbJ1NFTSBJTUFHRU0nXSB8fCAwLA0KICAgICAgICAgICAgYmdDb2xvcjogJ2JnLXJlZC02MDAnLA0KICAgICAgICAgICAgdGV4dENvbG9yOiAndGV4dC13aGl0ZScsDQogICAgICAgICAgICBpY29uOiA8c3ZnIGNsYXNzTmFtZT0iYWJzb2x1dGUgLXJpZ2h0LTEgLWJvdHRvbS0xIGgtMTIgdy0xMiB0ZXh0LXdoaXRlLzEwIiBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIxIDE5VjVjMC0xLjEtLjktMi0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnpNOC41IDEzLjVsMi41IDMuMDFMMTQuNSAxMmw0LjUgNkg1bDMuNS00LjV6IiAvPjwvc3ZnPg0KICAgICAgICB9LA0KICAgICAgICB7DQogICAgICAgICAgICBpZDogJ0VSUk8nLA0KICAgICAgICAgICAgbGFiZWw6ICdFUlJPJywNCiAgICAgICAgICAgIHZhbHVlOiBzdW1tYXJ5RGF0YVsnRVJSTyBJTVBSRVNTw4NPJ10gfHwgMCwNCiAgICAgICAgICAgIGJnQ29sb3I6ICdiZy1yZWQtNzAwJywNCiAgICAgICAgICAgIHRleHRDb2xvcjogJ3RleHQtd2hpdGUnLA0KICAgICAgICAgICAgaWNvbjogPHN2ZyBjbGFzc05hbWU9ImFic29sdXRlIC1yaWdodC0xIC1ib3R0b20tMSBoLTEyIHctMTIgdGV4dC13aGl0ZS8xMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0xIDE1aC0ydi0yaDJ2MnptMC00aC0yVjdoMnY2eiIgLz48L3N2Zz4NCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgaWQ6ICdOw4NPIENIRUdPVScsDQogICAgICAgICAgICBsYWJlbDogJ07Dg08gQ0hFR09VJywNCiAgICAgICAgICAgIHZhbHVlOiBzdW1tYXJ5RGF0YVsnTsODTyBDSEVHT1UnXSB8fCAwLA0KICAgICAgICAgICAgYmdDb2xvcjogJ2JnLVsjNzIyZjM3XScsDQogICAgICAgICAgICB0ZXh0Q29sb3I6ICd0ZXh0LXdoaXRlJywNCiAgICAgICAgICAgIGljb246IDxzdmcgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtMSAtYm90dG9tLTEgaC0xMiB3LTEyIHRleHQtd2hpdGUvMTAiIGZpbGw9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTEgMTVoMnYyaC0yem0wLThoMnY2aC0yem0uOTktNUM2LjQ3IDIgMiA2LjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIgMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4eiIgLz48L3N2Zz4NCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgaWQ6ICdSSVNDTycsDQogICAgICAgICAgICBsYWJlbDogJ1JJU0NPIC8gQVRSQVNPJywNCiAgICAgICAgICAgIHZhbHVlOiBgJHtzdW1tYXJ5RGF0YVsnUklTQ08nXSB8fCAwfSAvICR7c3VtbWFyeURhdGFbJ0FUUkFTQURPJ10gfHwgMH1gLA0KICAgICAgICAgICAgYmdDb2xvcjogJ2JnLWFtYmVyLTYwMCcsDQogICAgICAgICAgICB0ZXh0Q29sb3I6ICd0ZXh0LXdoaXRlJywNCiAgICAgICAgICAgIG9uQ2xpY2s6ICgpID0+IGhhbmRsZUNhcmRDbGljayhjYXJkRmlsdGVyID09PSAnUklTQ08nID8gJ0FUUkFTQURPJyA6ICdSSVNDTycpLA0KICAgICAgICAgICAgaWNvbjogPHN2ZyBjbGFzc05hbWU9ImFic29sdXRlIC1yaWdodC0xIC1ib3R0b20tMSBoLTEyIHctMTIgdGV4dC13aGl0ZS8xMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMyAxNGgtMlY5aDJ2NXptMCA0aC0ydi0yaDJ2MnptLTEyIDNoMjJMMTIgMiAxIDIxeiIgLz48L3N2Zz4NCiAgICAgICAgfSwNCiAgICAgICAgew0KICAgICAgICAgICAgaWQ6ICdDQU5DRUxBRE8nLA0KICAgICAgICAgICAgbGFiZWw6ICdDQU5DL1BFw4dBUycsDQogICAgICAgICAgICB2YWx1ZTogc3VtbWFyeURhdGFbJ0NBTkNFTEFETyddIHx8IDAsDQogICAgICAgICAgICBiZ0NvbG9yOiAnYmctYmxhY2snLA0KICAgICAgICAgICAgdGV4dENvbG9yOiAndGV4dC13aGl0ZScsDQogICAgICAgICAgICBpY29uOiA8c3ZnIGNsYXNzTmFtZT0iYWJzb2x1dGUgLXJpZ2h0LTEgLWJvdHRvbS0xIGgtMTIgdy0xMiB0ZXh0LXdoaXRlLzEwIiBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40NyAyIDIgNi40NyAyIDEyczQuNDcgMTAgMTAgMTAgMTAtNC40NyAxMC0xMFMxNy41MyAyIDEyIDJ6bTUgMTMuNTlMMTUuNTkgMTcgMTIgMTMuNDEgOC40MSAxNyA3IDE1LjU5IDEwLjU5IDEyIDcgOC40MSA4LjQxIDcgMTIgMTAuNTkgMTUuNTkgNyAxNyA4LjQxIDEzLjQxIDEyIDE3IDE1LjU5eiIgLz48L3N2Zz4NCiAgICAgICAgfSwNCiAgICBdOw0KDQogICAgcmV0dXJuICgNCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InotMzAgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwIj4NCiAgICAgICAgICAgIHsvKiBSZXNwb25zaXZlIENhcmRzIENvbnRhaW5lciAtIEZ1bGwgV2lkdGggRGlzdHJpYnV0ZWQgKi99DQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgZ2FwLTIiPg0KICAgICAgICAgICAgICAgIHtjYXJkcy5tYXAoKGNhcmQpID0+ICgNCiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtjYXJkLmlkfQ0KICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17Y2FyZC5vbkNsaWNrIHx8ICgoKSA9PiBoYW5kbGVDYXJkQ2xpY2soY2FyZC5pZCkpfQ0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVsYXRpdmUgZmxleC0xIG1pbi13LVs5MHB4XSBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBvdmVyZmxvdy1oaWRkZW4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoLVs2NXB4XSByb3VuZGVkLXhsIHNoYWRvdy1zbSB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0yMDANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAke2NhcmQuYmdDb2xvcn0gJHtjYXJkLnRleHRDb2xvcn0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBob3ZlcjpzY2FsZS0xMDUgYWN0aXZlOnNjYWxlLTk1DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgJHtjYXJkRmlsdGVyID09PSBjYXJkLmlkID8gJ3JpbmctMiByaW5nLWJsdWUtNTAwIHJpbmctb2Zmc2V0LTIgcmluZy1vZmZzZXQtWyMwZjE3MmFdIHotMTAnIDogJ29wYWNpdHktMTAwJ30NCiAgICAgICAgICAgICAgICAgICAgICAgIGB9DQogICAgICAgICAgICAgICAgICAgID4NCiAgICAgICAgICAgICAgICAgICAgICAgIHtjYXJkLmljb259DQoNCiAgICAgICAgICAgICAgICAgICAgICAgIHtjYXJkLmlkID09PSAnUFJPR1JFU1NPJyA/ICgNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgbGVhZGluZy1ub25lIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtWzEwcHhdIGZvbnQtZXh0cmFib2xkIHVwcGVyY2FzZSBtYi0xLjUgb3BhY2l0eS05MCB0cmFja2luZy13aWRlciI+e2NhcmQubGFiZWx9PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWJhc2VsaW5lIGdhcC0xLjUgbWItMiI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ibGFjayI+e2NhcmQudmFsdWV9PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSBvcGFjaXR5LTgwIGZvbnQtYm9sZCI+e2NhcmQuc3ViVmFsdWV9PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMjAgaC0xLjUgYmctYmxhY2svMjAgcm91bmRlZC1mdWxsIG92ZXJmbG93LWhpZGRlbiI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaC1mdWxsIGJnLXdoaXRlLzkwIiBzdHlsZT17eyB3aWR0aDogY2FyZC52YWx1ZSB9fT48L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICApIDogKA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBsZWFkaW5nLW5vbmUiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1leHRyYWJvbGQgdXBwZXJjYXNlIG1iLTEuNSBvcGFjaXR5LTkwIHRyYWNraW5nLXdpZGVyIHctZnVsbCBweC0yIHRydW5jYXRlIHRleHQtY2VudGVyIj57Y2FyZC5sYWJlbH08L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteGwgZm9udC1ibGFjayI+e2NhcmQudmFsdWV9PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICApfQ0KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4NCiAgICAgICAgICAgICAgICApKX0NCiAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICB7aXNTeW5jaW5nICYmICgNCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMSB0ZXh0LWNlbnRlciI+DQogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LWJsdWUtNjAwIGRhcms6dGV4dC1ibHVlLTQwMCBmb250LW1lZGl1bSBhbmltYXRlLXB1bHNlIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIFNpbmNyb25pemFuZG8gaW1hZ2Vuczoge01hdGgucm91bmQoKHN5bmNQcm9ncmVzcy5jdXJyZW50IC8gc3luY1Byb2dyZXNzLnRvdGFsKSAqIDEwMCl9JSAoe3N5bmNQcm9ncmVzcy5jdXJyZW50fS97c3luY1Byb2dyZXNzLnRvdGFsfSkNCiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgKX0NCiAgICAgICAgPC9kaXY+DQogICAgKTsNCn07DQo=}
+import React from 'react';
+
+interface EstampasKPIsProps {
+    summaryData: Record<string, number>;
+    handleCardClick: (status: string) => void;
+    cardFilter: string | null;
+    isSyncing: boolean;
+    syncProgress: { current: number; total: number };
+}
+
+export const EstampasKPIs: React.FC<EstampasKPIsProps> = ({
+    summaryData,
+    handleCardClick,
+    cardFilter,
+    isSyncing,
+    syncProgress
+}) => {
+    // Calculate specific metrics for specific cards
+    const totalCount = summaryData['TOTAL'] || 0;
+    const impressoCount = summaryData['IMPRESSO'] || 0;
+    const progressoPercent = totalCount > 0 ? Math.round((impressoCount / totalCount) * 100) : 0;
+
+    const cards = [
+        {
+            id: 'PROGRESSO',
+            label: 'PROGRESSO',
+            value: `${progressoPercent}%`,
+            subValue: `${impressoCount}/${totalCount}`,
+            bgColor: 'bg-teal-500',
+            textColor: 'text-white',
+            onClick: () => handleCardClick('TODOS'),
+            icon: (
+                <svg className="absolute -right-2 -bottom-2 h-16 w-16 text-white/10" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                </svg>
+            )
+        },
+        {
+            id: 'FAZER ARTE',
+            label: 'FAZER ARTE',
+            value: summaryData['FAZER ARTE'] || 0,
+            bgColor: 'bg-orange-500',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" /></svg>
+        },
+        {
+            id: 'PRONTA',
+            label: 'PRONTA',
+            value: summaryData['PRONTA'] || 0,
+            bgColor: 'bg-yellow-400',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" /></svg>
+        },
+        {
+            id: 'APROVAÇÃO',
+            label: 'APROVAÇÃO',
+            value: summaryData['APROVAÇÃO'] || 0,
+            bgColor: 'bg-blue-500',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z" /></svg>
+        },
+        {
+            id: 'APROVADO',
+            label: 'APROVADO',
+            value: summaryData['APROVADO'] || 0,
+            bgColor: 'bg-purple-600',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z" /></svg>
+        },
+        {
+            id: 'IMPRESSO',
+            label: 'IMPRESSO',
+            value: summaryData['IMPRESSO'] || 0,
+            bgColor: 'bg-emerald-600',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z" /></svg>
+        },
+        {
+            id: 'AJUSTE',
+            label: 'AJUSTE',
+            value: summaryData['AJUSTE'] || 0,
+            bgColor: 'bg-fuchsia-500',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" /></svg>
+        },
+        {
+            id: 'SEM IMAGEM',
+            label: 'SEM IMAGEM',
+            value: summaryData['SEM IMAGEM'] || 0,
+            bgColor: 'bg-red-600',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z" /></svg>
+        },
+        {
+            id: 'ERRO',
+            label: 'ERRO',
+            value: summaryData['ERRO IMPRESSÃO'] || 0,
+            bgColor: 'bg-red-700',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" /></svg>
+        },
+        {
+            id: 'NÃO CHEGOU',
+            label: 'NÃO CHEGOU',
+            value: summaryData['NÃO CHEGOU'] || 0,
+            bgColor: 'bg-[#722f37]',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" /></svg>
+        },
+        {
+            id: 'RISCO',
+            label: 'RISCO / ATRASO',
+            value: `${summaryData['RISCO'] || 0} / ${summaryData['ATRASADO'] || 0}`,
+            bgColor: 'bg-amber-600',
+            textColor: 'text-white',
+            onClick: () => handleCardClick(cardFilter === 'RISCO' ? 'ATRASADO' : 'RISCO'),
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M13 14h-2V9h2v5zm0 4h-2v-2h2v2zm-12 3h22L12 2 1 21z" /></svg>
+        },
+        {
+            id: 'CANCELADO',
+            label: 'CANC/PEÇAS',
+            value: summaryData['CANCELADO'] || 0,
+            bgColor: 'bg-black',
+            textColor: 'text-white',
+            icon: <svg className="absolute -right-1 -bottom-1 h-12 w-12 text-white/10" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z" /></svg>
+        },
+    ];
+
+    return (
+        <div className="z-30 transition-all duration-300">
+            {/* Responsive Cards Container - Full Width Distributed */}
+            <div className="flex flex-wrap gap-2">
+                {cards.map((card) => (
+                    <button
+                        key={card.id}
+                        onClick={card.onClick || (() => handleCardClick(card.id))}
+                        className={`
+                            relative flex-1 min-w-[90px] flex flex-col items-center justify-center overflow-hidden
+                            h-[65px] rounded-xl shadow-sm transition-all duration-200
+                            ${card.bgColor} ${card.textColor}
+                            hover:scale-105 active:scale-95
+                            ${cardFilter === card.id ? 'ring-2 ring-blue-500 ring-offset-2 ring-offset-[#0f172a] z-10' : 'opacity-100'}
+                        `}
+                    >
+                        {card.icon}
+
+                        {card.id === 'PROGRESSO' ? (
+                            <div className="flex flex-col items-center leading-none">
+                                <div className="text-[10px] font-extrabold uppercase mb-1.5 opacity-90 tracking-wider">{card.label}</div>
+                                <div className="flex items-baseline gap-1.5 mb-2">
+                                    <span className="text-lg font-black">{card.value}</span>
+                                    <span className="text-[11px] opacity-80 font-bold">{card.subValue}</span>
+                                </div>
+                                <div className="w-20 h-1.5 bg-black/20 rounded-full overflow-hidden">
+                                    <div className="h-full bg-white/90" style={{ width: card.value }}></div>
+                                </div>
+                            </div>
+                        ) : (
+                            <div className="flex flex-col items-center leading-none">
+                                <div className="text-[10px] font-extrabold uppercase mb-1.5 opacity-90 tracking-wider w-full px-2 truncate text-center">{card.label}</div>
+                                <div className="text-xl font-black">{card.value}</div>
+                            </div>
+                        )}
+                    </button>
+                ))}
+            </div>
+
+            {isSyncing && (
+                <div className="mt-1 text-center">
+                    <span className="text-xs text-blue-600 dark:text-blue-400 font-medium animate-pulse">
+                        Sincronizando imagens: {Math.round((syncProgress.current / syncProgress.total) * 100)}% ({syncProgress.current}/{syncProgress.total})
+                    </span>
+                </div>
+            )}
+        </div>
+    );
+};

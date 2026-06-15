@@ -1,1 +1,197 @@
-﻿@{data=LyoqDQogKiBDb3JyaWdpciBUT0RPUyBvcyBwZWRpZG9zIGNvbSBkYWRvcyBpbmNvcnJldG9zIChFY29tbWVyY2UgSUQsIENsaWVudGUsIExvamEpDQogKiBJbmNsdWkgcGVkaWRvcyBkbyBkaWEgMjcgcXVlIG7Do28gZm9yYW0gY29ycmlnaWRvcyBhbnRlcmlvcm1lbnRlDQogKi8NCg0KaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCmltcG9ydCAqIGFzIHBhdGggZnJvbSAncGF0aCc7DQoNCi8vIExvYWQgLmVudi5sb2NhbA0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpOw0KaWYgKGZzLmV4aXN0c1N5bmMoZW52UGF0aCkpIHsNCiAgICBjb25zdCBlbnZGaWxlID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGY4Jyk7DQogICAgZW52RmlsZS5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgICAgICBjb25zdCBtYXRjaCA9IGxpbmUubWF0Y2goL14oW149OiNdKyk9KC4qKSQvKTsNCiAgICAgICAgaWYgKG1hdGNoKSB7DQogICAgICAgICAgICBjb25zdCBrZXkgPSBtYXRjaFsxXS50cmltKCk7DQogICAgICAgICAgICBjb25zdCB2YWx1ZSA9IG1hdGNoWzJdLnRyaW0oKS5yZXBsYWNlKC9eWyInXXxbIiddJC9nLCAnJyk7DQogICAgICAgICAgICBpZiAoIXByb2Nlc3MuZW52W2tleV0pIHByb2Nlc3MuZW52W2tleV0gPSB2YWx1ZTsNCiAgICAgICAgfQ0KICAgIH0pOw0KfQ0KDQpjb25zdCBTVVBBQkFTRV9VUkwgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkwhOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSE7DQpjb25zdCBUSU5ZX1RPS0VOX01NID0gcHJvY2Vzcy5lbnYuVElOWV9BUElfVE9LRU5fTU0gfHwgcHJvY2Vzcy5lbnYuVElOWV9BUElfVE9LRU47DQpjb25zdCBUSU5ZX1RPS0VOX01WRiA9IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOX01WRjsNCg0KY29uc3QgaW5mZXJTdG9yZSA9IChvcmRlcklkOiBzdHJpbmcgfCBudW1iZXIgfCB1bmRlZmluZWQsIGZpbGVDbnBqPzogc3RyaW5nKTogc3RyaW5nID0+IHsNCiAgICBjb25zdCBpZCA9IFN0cmluZyhvcmRlcklkID8/ICcnKS50cmltKCk7DQogICAgaWYgKCFpZCkgcmV0dXJuICdCVVNJTkVTUyc7DQoNCiAgICBjb25zdCBpc1Nob3BlZSA9IFsnMjYnLCAnMjUxMCcsICdJRDInLCAnMjUwOTEnLCAnMjUwMTAnLCAnMjUwMTEnLCAnMjUwOScsICcyNTAxJywgJzI1MDInLCAnMjUwJywgJzI1MScsICcyNTInLCAnMjUzJywgJzI1NCcsICcyNTUnLCAnMjU2JywgJzI1NycsICcyNTgnLCAnMjU5JywgJzI2MCddLnNvbWUocHJlZml4ID0+IGlkLnN0YXJ0c1dpdGgocHJlZml4KSk7DQogICAgaWYgKGlzU2hvcGVlKSB7DQogICAgICAgIGlmIChmaWxlQ25waiA9PT0gJ01NJyB8fCBmaWxlQ25waj8uaW5jbHVkZXMoJzM5NDQ3MjkxJykpIHJldHVybiAnU0ggTU0nOw0KICAgICAgICByZXR1cm4gJ1NIIFZFU1QnOw0KICAgIH0NCg0KICAgIGxldCBsb2phQmFzZTogc3RyaW5nOw0KICAgIGlmIChpZC5zdGFydHNXaXRoKCcyMDAwJykgfHwgaWQuc3RhcnRzV2l0aCgnMiwwMDAnKSB8fCBpZC5zdGFydHNXaXRoKCcwMjAwJykgfHwgaWQuc3RhcnRzV2l0aCgnTUxCJykpIHsNCiAgICAgICAgbG9qYUJhc2UgPSAnTUwgVkVTVCc7DQogICAgfSBlbHNlIGlmIChpZC5zdGFydHNXaXRoKCdMVS0nKSkgew0KICAgICAgICBsb2phQmFzZSA9ICdNRyBWRVNUJzsNCiAgICB9IGVsc2UgaWYgKGlkLnN0YXJ0c1dpdGgoJzE0JykpIHsNCiAgICAgICAgbG9qYUJhc2UgPSAnTlQgVkVTVCc7DQogICAgfSBlbHNlIGlmIChpZC5zdGFydHNXaXRoKCdHU0gnKSkgew0KICAgICAgICBsb2phQmFzZSA9ICdTTiBWRVNUJzsNCiAgICB9IGVsc2UgaWYgKGlkLm1hdGNoKC9eXGR7M30tXGR7N30tXGR7N30kLykgfHwgaWQuc3RhcnRzV2l0aCgnNzAxJykgfHwgaWQuc3RhcnRzV2l0aCgnNzAyJykpIHsNCiAgICAgICAgbG9qYUJhc2UgPSAnQU0gVkVTVCc7DQogICAgfSBlbHNlIGlmIChpZC5zdGFydHNXaXRoKCcxMicpKSB7DQogICAgICAgIGxvamFCYXNlID0gJ0tXIFZFU1QnOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGxvamFCYXNlID0gJ0JVU0lORVNTJzsNCiAgICB9DQoNCiAgICBpZiAoKGZpbGVDbnBqID09PSAnTU0nIHx8IGZpbGVDbnBqPy5pbmNsdWRlcygnMzk0NDcyOTEnKSkgJiYgbG9qYUJhc2UgIT09ICdCVVNJTkVTUycpIHsNCiAgICAgICAgcmV0dXJuIGxvamFCYXNlLnJlcGxhY2UoJ1ZFU1QnLCAnTU0nKTsNCiAgICB9DQoNCiAgICByZXR1cm4gbG9qYUJhc2U7DQp9Ow0KDQphc3luYyBmdW5jdGlvbiBmaXhBbGxJbmNvcnJlY3REYXRhKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCflKcgQ29ycmlnaW5kbyBUT0RPUyBvcyBQZWRpZG9zIGNvbSBEYWRvcyBJbmNvcnJldG9zXG4nKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSArICdcbicpOw0KDQogICAgY29uc3QgZGF0ZXMgPSBbJzI3LzAxLzIwMjYnLCAnMjgvMDEvMjAyNicsICcyOS8wMS8yMDI2J107DQoNCiAgICBsZXQgdG90YWxGaXhlZCA9IDA7DQoNCiAgICBmb3IgKGNvbnN0IGRhdGUgb2YgZGF0ZXMpIHsNCiAgICAgICAgY29uc29sZS5sb2coYPCfk4UgUHJvY2Vzc2FuZG8gJHtkYXRlfS4uLlxuYCk7DQoNCiAgICAgICAgLy8gQnVzY2FyIHBlZGlkb3MgY29tIExvamEgPSBCVVNJTkVTUw0KICAgICAgICBjb25zdCB7IGRhdGE6IG9yZGVycyB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgIC5zZWxlY3QoJ2lkLCByb3dfZGF0YSwgZmlsZW5hbWUnKQ0KICAgICAgICAgICAgLmVxKCdyb3dfZGF0YS0+PkRhdGEnLCBkYXRlKQ0KICAgICAgICAgICAgLmVxKCdyb3dfZGF0YS0+PkxvamEnLCAnQlVTSU5FU1MnKTsNCg0KICAgICAgICBpZiAoIW9yZGVycyB8fCBvcmRlcnMubGVuZ3RoID09PSAwKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAg4pyFIE5lbmh1bSBwZWRpZG8gYSBjb3JyaWdpclxuYCk7DQogICAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgfQ0KDQogICAgICAgIC8vIEFncnVwYXIgcG9yIFRpbnkgSUQNCiAgICAgICAgY29uc3Qgb3JkZXJzQnlUaW55SWQ6IFJlY29yZDxzdHJpbmcsIHsgb3JkZXJzOiBhbnlbXSwgY29tcGFueTogJ01NJyB8ICdNVkYnIH0+ID0ge307DQoNCiAgICAgICAgZm9yIChjb25zdCBvcmRlciBvZiBvcmRlcnMpIHsNCiAgICAgICAgICAgIGNvbnN0IHRpbnlJZCA9IG9yZGVyLnJvd19kYXRhWydJRCBUaW55J107DQoNCiAgICAgICAgICAgIGlmICghb3JkZXJzQnlUaW55SWRbdGlueUlkXSkgew0KICAgICAgICAgICAgICAgIGxldCBjb21wYW55OiAnTU0nIHwgJ01WRicgPSAnTU0nOw0KDQogICAgICAgICAgICAgICAgaWYgKG9yZGVyLmZpbGVuYW1lPy5pbmNsdWRlcygnTVZGJykgfHwgb3JkZXIuZmlsZW5hbWU/LmluY2x1ZGVzKCdWRVNUJykpIHsNCiAgICAgICAgICAgICAgICAgICAgY29tcGFueSA9ICdNVkYnOw0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgIG9yZGVyc0J5VGlueUlkW3RpbnlJZF0gPSB7IG9yZGVyczogW10sIGNvbXBhbnkgfTsNCiAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgb3JkZXJzQnlUaW55SWRbdGlueUlkXS5vcmRlcnMucHVzaChvcmRlcik7DQogICAgICAgIH0NCg0KICAgICAgICBjb25zdCB1bmlxdWVDb3VudCA9IE9iamVjdC5rZXlzKG9yZGVyc0J5VGlueUlkKS5sZW5ndGg7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICAke29yZGVycy5sZW5ndGh9IHJlZ2lzdHJvcyAoJHt1bmlxdWVDb3VudH0gcGVkaWRvcyDDum5pY29zKVxuYCk7DQoNCiAgICAgICAgLy8gUHJvY2Vzc2FyIHBvciBlbXByZXNhDQogICAgICAgIGZvciAoY29uc3QgY29tcGFueSBvZiBbJ01NJywgJ01WRiddIGFzIGNvbnN0KSB7DQogICAgICAgICAgICBjb25zdCBjb21wYW55T3JkZXJzID0gT2JqZWN0LmVudHJpZXMob3JkZXJzQnlUaW55SWQpLmZpbHRlcigoW18sIGRhdGFdKSA9PiBkYXRhLmNvbXBhbnkgPT09IGNvbXBhbnkpOw0KDQogICAgICAgICAgICBpZiAoY29tcGFueU9yZGVycy5sZW5ndGggPT09IDApIGNvbnRpbnVlOw0KDQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAg8J+TpiAke2NvbXBhbnl9OiAke2NvbXBhbnlPcmRlcnMubGVuZ3RofSBwZWRpZG9zXG5gKTsNCg0KICAgICAgICAgICAgY29uc3QgdG9rZW4gPSBjb21wYW55ID09PSAnTU0nID8gVElOWV9UT0tFTl9NTSA6IFRJTllfVE9LRU5fTVZGOw0KICAgICAgICAgICAgbGV0IGZpeGVkID0gMDsNCg0KICAgICAgICAgICAgZm9yIChjb25zdCBbdGlueUlkLCB7IG9yZGVyczogb3JkZXJzR3JvdXAgfV0gb2YgY29tcGFueU9yZGVycykgew0KICAgICAgICAgICAgICAgIHRyeSB7DQogICAgICAgICAgICAgICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goDQogICAgICAgICAgICAgICAgICAgICAgICBgaHR0cHM6Ly9hcGkudGlueS5jb20uYnIvYXBpMi9wZWRpZG8ub2J0ZXIucGhwP3Rva2VuPSR7dG9rZW59JmlkPSR7dGlueUlkfSZmb3JtYXRvPUpTT05gDQogICAgICAgICAgICAgICAgICAgICk7DQogICAgICAgICAgICAgICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7DQoNCiAgICAgICAgICAgICAgICAgICAgaWYgKGRhdGEucmV0b3Jubz8uc3RhdHVzICE9PSAnT0snKSB7DQogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBlcnJvID0gZGF0YS5yZXRvcm5vPy5lcnJvcz8uWzBdPy5lcnJvIHx8ICcnOw0KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGVycm8uaW5jbHVkZXMoJ2Jsb3F1ZWFkYScpIHx8IGVycm8uaW5jbHVkZXMoJ0V4Y2VkaWRvJykpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgICAg4o+477iPICBSYXRlIGxpbWl0IC0gQWd1YXJkYW5kbyA5MHMuLi5gKTsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgOTAwMDApKTsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICAgICAgY29uc3QgcGVkaWRvID0gZGF0YS5yZXRvcm5vLnBlZGlkbzsNCiAgICAgICAgICAgICAgICAgICAgY29uc3QgaXRlbnMgPSBBcnJheS5pc0FycmF5KHBlZGlkby5pdGVucykgPyBwZWRpZG8uaXRlbnMgOiBbcGVkaWRvLml0ZW5zXTsNCg0KICAgICAgICAgICAgICAgICAgICAvLyBFeHRyYWlyIGRhZG9zIGNvcnJldG9zDQogICAgICAgICAgICAgICAgICAgIGNvbnN0IGVjb21tZXJjZUlkID0gcGVkaWRvLm51bWVyb19wZWRpZG9fZWNvbW1lcmNlIHx8DQogICAgICAgICAgICAgICAgICAgICAgICBwZWRpZG8ubnVtZXJvX2Vjb21tZXJjZSB8fA0KICAgICAgICAgICAgICAgICAgICAgICAgcGVkaWRvLmVjb21tZXJjZT8ubnVtZXJvX2Vjb21tZXJjZSB8fA0KICAgICAgICAgICAgICAgICAgICAgICAgJyc7DQoNCiAgICAgICAgICAgICAgICAgICAgY29uc3QgY2xpZW50ZSA9IHBlZGlkby5jbGllbnRlPy5ub21lIHx8ICcnOw0KICAgICAgICAgICAgICAgICAgICBjb25zdCBjb3JyZWN0TG9qYSA9IGluZmVyU3RvcmUoZWNvbW1lcmNlSWQsIGNvbXBhbnkpOw0KDQogICAgICAgICAgICAgICAgICAgIC8vIEF0dWFsaXphciBjYWRhIHJlZ2lzdHJvIChwb2RlIGhhdmVyIG3Dumx0aXBsb3MgaXRlbnMgZG8gbWVzbW8gcGVkaWRvKQ0KICAgICAgICAgICAgICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IG9yZGVyc0dyb3VwLmxlbmd0aCAmJiBpIDwgaXRlbnMubGVuZ3RoOyBpKyspIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IG9yZGVyID0gb3JkZXJzR3JvdXBbaV07DQogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBpdGVtID0gaXRlbnNbaV0uaXRlbTsNCg0KICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgdXBkYXRlZFJvd0RhdGEgPSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLi4ub3JkZXIucm93X2RhdGEsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ0Vjb21tZXJjZSBJRCc6IGVjb21tZXJjZUlkLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICdDbGllbnRlJzogY2xpZW50ZSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnTG9qYSc6IGNvcnJlY3RMb2phLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICdQcm9kdXRvJzogaXRlbS5kZXNjcmljYW8gfHwgb3JkZXIucm93X2RhdGFbJ1Byb2R1dG8nXSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnU0tVJzogaXRlbS5jb2RpZ28gfHwgb3JkZXIucm93X2RhdGFbJ1NLVSddLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICdRdWFudGlkYWRlJzogaXRlbS5xdWFudGlkYWRlIHx8IG9yZGVyLnJvd19kYXRhWydRdWFudGlkYWRlJ10sDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ09ic2VydmHDp8O1ZXMnOiBwZWRpZG8ub2JzIHx8IG9yZGVyLnJvd19kYXRhWydPYnNlcnZhw6fDtWVzJ10gfHwgJycsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ09ic2VydmHDp8O1ZXMgSW50ZXJuYXMnOiBwZWRpZG8ub2JzX2ludGVybmEgfHwgb3JkZXIucm93X2RhdGFbJ09ic2VydmHDp8O1ZXMgSW50ZXJuYXMnXSB8fCAnJywNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnU2l0dWHDp8Ojbyc6IHBlZGlkby5zaXR1YWNhbyB8fCBvcmRlci5yb3dfZGF0YVsnU2l0dWHDp8OjbyddDQogICAgICAgICAgICAgICAgICAgICAgICB9Ow0KDQogICAgICAgICAgICAgICAgICAgICAgICBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudXBkYXRlKHsgcm93X2RhdGE6IHVwZGF0ZWRSb3dEYXRhIH0pDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmVxKCdpZCcsIG9yZGVyLmlkKTsNCiAgICAgICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgICAgIGZpeGVkKys7DQogICAgICAgICAgICAgICAgICAgIHRvdGFsRml4ZWQrKzsNCg0KICAgICAgICAgICAgICAgICAgICBpZiAoZml4ZWQgPD0gMyB8fCBmaXhlZCAlIDIwID09PSAwKSB7DQogICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgICAg4pyFICMke3RpbnlJZH06ICR7ZWNvbW1lcmNlSWR9IOKGkiAke2NvcnJlY3RMb2phfSAoJHtjbGllbnRlLnN1YnN0cmluZygwLCAyNSl9Li4uKWApOw0KICAgICAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICAgICAgYXdhaXQgbmV3IFByb21pc2UociA9PiBzZXRUaW1lb3V0KHIsIDQwMCkpOw0KDQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgew0KICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKGAgICAgICDinYwgIyR7dGlueUlkfTpgLCBlcnJvci5tZXNzYWdlKTsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGBcbiAgICAgIOKcqCAke2NvbXBhbnl9OiAke2ZpeGVkfSBjb3JyaWdpZG9zXG5gKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCc9Jy5yZXBlYXQoNjApKTsNCiAgICBjb25zb2xlLmxvZyhgXG7wn46vIFRPVEFMIENPUlJJR0lETzogJHt0b3RhbEZpeGVkfVxuYCk7DQogICAgY29uc29sZS5sb2coJ+KchSBDb25jbHXDrWRvISBBdHVhbGl6ZSBvIHNpdGUuXG4nKTsNCn0NCg0KZml4QWxsSW5jb3JyZWN0RGF0YSgpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+/**
+ * Corrigir TODOS os pedidos com dados incorretos (Ecommerce ID, Cliente, Loja)
+ * Inclui pedidos do dia 27 que não foram corrigidos anteriormente
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const TINY_TOKEN_MM = process.env.TINY_API_TOKEN_MM || process.env.TINY_API_TOKEN;
+const TINY_TOKEN_MVF = process.env.TINY_API_TOKEN_MVF;
+
+const inferStore = (orderId: string | number | undefined, fileCnpj?: string): string => {
+    const id = String(orderId ?? '').trim();
+    if (!id) return 'BUSINESS';
+
+    const isShopee = ['26', '2510', 'ID2', '25091', '25010', '25011', '2509', '2501', '2502', '250', '251', '252', '253', '254', '255', '256', '257', '258', '259', '260'].some(prefix => id.startsWith(prefix));
+    if (isShopee) {
+        if (fileCnpj === 'MM' || fileCnpj?.includes('39447291')) return 'SH MM';
+        return 'SH VEST';
+    }
+
+    let lojaBase: string;
+    if (id.startsWith('2000') || id.startsWith('2,000') || id.startsWith('0200') || id.startsWith('MLB')) {
+        lojaBase = 'ML VEST';
+    } else if (id.startsWith('LU-')) {
+        lojaBase = 'MG VEST';
+    } else if (id.startsWith('14')) {
+        lojaBase = 'NT VEST';
+    } else if (id.startsWith('GSH')) {
+        lojaBase = 'SN VEST';
+    } else if (id.match(/^\d{3}-\d{7}-\d{7}$/) || id.startsWith('701') || id.startsWith('702')) {
+        lojaBase = 'AM VEST';
+    } else if (id.startsWith('12')) {
+        lojaBase = 'KW VEST';
+    } else {
+        lojaBase = 'BUSINESS';
+    }
+
+    if ((fileCnpj === 'MM' || fileCnpj?.includes('39447291')) && lojaBase !== 'BUSINESS') {
+        return lojaBase.replace('VEST', 'MM');
+    }
+
+    return lojaBase;
+};
+
+async function fixAllIncorrectData() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🔧 Corrigindo TODOS os Pedidos com Dados Incorretos\n');
+    console.log('='.repeat(60) + '\n');
+
+    const dates = ['27/01/2026', '28/01/2026', '29/01/2026'];
+
+    let totalFixed = 0;
+
+    for (const date of dates) {
+        console.log(`📅 Processando ${date}...\n`);
+
+        // Buscar pedidos com Loja = BUSINESS
+        const { data: orders } = await supabase
+            .from('spreadsheet_data')
+            .select('id, row_data, filename')
+            .eq('row_data->>Data', date)
+            .eq('row_data->>Loja', 'BUSINESS');
+
+        if (!orders || orders.length === 0) {
+            console.log(`   ✅ Nenhum pedido a corrigir\n`);
+            continue;
+        }
+
+        // Agrupar por Tiny ID
+        const ordersByTinyId: Record<string, { orders: any[], company: 'MM' | 'MVF' }> = {};
+
+        for (const order of orders) {
+            const tinyId = order.row_data['ID Tiny'];
+
+            if (!ordersByTinyId[tinyId]) {
+                let company: 'MM' | 'MVF' = 'MM';
+
+                if (order.filename?.includes('MVF') || order.filename?.includes('VEST')) {
+                    company = 'MVF';
+                }
+
+                ordersByTinyId[tinyId] = { orders: [], company };
+            }
+
+            ordersByTinyId[tinyId].orders.push(order);
+        }
+
+        const uniqueCount = Object.keys(ordersByTinyId).length;
+        console.log(`   ${orders.length} registros (${uniqueCount} pedidos únicos)\n`);
+
+        // Processar por empresa
+        for (const company of ['MM', 'MVF'] as const) {
+            const companyOrders = Object.entries(ordersByTinyId).filter(([_, data]) => data.company === company);
+
+            if (companyOrders.length === 0) continue;
+
+            console.log(`   📦 ${company}: ${companyOrders.length} pedidos\n`);
+
+            const token = company === 'MM' ? TINY_TOKEN_MM : TINY_TOKEN_MVF;
+            let fixed = 0;
+
+            for (const [tinyId, { orders: ordersGroup }] of companyOrders) {
+                try {
+                    const response = await fetch(
+                        `https://api.tiny.com.br/api2/pedido.obter.php?token=${token}&id=${tinyId}&formato=JSON`
+                    );
+                    const data = await response.json();
+
+                    if (data.retorno?.status !== 'OK') {
+                        const erro = data.retorno?.erros?.[0]?.erro || '';
+                        if (erro.includes('bloqueada') || erro.includes('Excedido')) {
+                            console.log(`      ⏸️  Rate limit - Aguardando 90s...`);
+                            await new Promise(r => setTimeout(r, 90000));
+                            continue;
+                        }
+                        continue;
+                    }
+
+                    const pedido = data.retorno.pedido;
+                    const itens = Array.isArray(pedido.itens) ? pedido.itens : [pedido.itens];
+
+                    // Extrair dados corretos
+                    const ecommerceId = pedido.numero_pedido_ecommerce ||
+                        pedido.numero_ecommerce ||
+                        pedido.ecommerce?.numero_ecommerce ||
+                        '';
+
+                    const cliente = pedido.cliente?.nome || '';
+                    const correctLoja = inferStore(ecommerceId, company);
+
+                    // Atualizar cada registro (pode haver múltiplos itens do mesmo pedido)
+                    for (let i = 0; i < ordersGroup.length && i < itens.length; i++) {
+                        const order = ordersGroup[i];
+                        const item = itens[i].item;
+
+                        const updatedRowData = {
+                            ...order.row_data,
+                            'Ecommerce ID': ecommerceId,
+                            'Cliente': cliente,
+                            'Loja': correctLoja,
+                            'Produto': item.descricao || order.row_data['Produto'],
+                            'SKU': item.codigo || order.row_data['SKU'],
+                            'Quantidade': item.quantidade || order.row_data['Quantidade'],
+                            'Observações': pedido.obs || order.row_data['Observações'] || '',
+                            'Observações Internas': pedido.obs_interna || order.row_data['Observações Internas'] || '',
+                            'Situação': pedido.situacao || order.row_data['Situação']
+                        };
+
+                        await supabase
+                            .from('spreadsheet_data')
+                            .update({ row_data: updatedRowData })
+                            .eq('id', order.id);
+                    }
+
+                    fixed++;
+                    totalFixed++;
+
+                    if (fixed <= 3 || fixed % 20 === 0) {
+                        console.log(`      ✅ #${tinyId}: ${ecommerceId} → ${correctLoja} (${cliente.substring(0, 25)}...)`);
+                    }
+
+                    await new Promise(r => setTimeout(r, 400));
+
+                } catch (error: any) {
+                    console.error(`      ❌ #${tinyId}:`, error.message);
+                }
+            }
+
+            console.log(`\n      ✨ ${company}: ${fixed} corrigidos\n`);
+        }
+    }
+
+    console.log('='.repeat(60));
+    console.log(`\n🎯 TOTAL CORRIGIDO: ${totalFixed}\n`);
+    console.log('✅ Concluído! Atualize o site.\n');
+}
+
+fixAllIncorrectData().catch(console.error);

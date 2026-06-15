@@ -1,1 +1,52 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0IGRvdGVudiBmcm9tICdkb3RlbnYnOw0KaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7DQoNCi8vIExvYWQgLmVudi5sb2NhbA0KZG90ZW52LmNvbmZpZyh7IHBhdGg6IHBhdGgucmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpIH0pOw0KDQpjb25zdCBTVVBBQkFTRV9VUkwgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkw7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZIHx8IHByb2Nlc3MuZW52LlZJVEVfU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWTsNCg0KaWYgKCFTVVBBQkFTRV9VUkwgfHwgIVNVUEFCQVNFX0tFWSkgew0KICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBNaXNzaW5nIFN1cGFiYXNlIGNyZWRlbnRpYWxzIGluIC5lbnYubG9jYWwnKTsNCiAgICBwcm9jZXNzLmV4aXQoMSk7DQp9DQoNCmNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gY2xlYXJRdWV1ZSgpIHsNCiAgICBjb25zb2xlLmxvZygn8J+nuSBDbGVhcmluZyB3ZWJob29rX3JldHJ5X3F1ZXVlLi4uJyk7DQoNCiAgICAvLyBDb3VudCBmaXJzdA0KICAgIGNvbnN0IHsgY291bnQsIGVycm9yOiBjb3VudEVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KDQogICAgaWYgKGNvdW50RXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcign4p2MIEVycm9yIGNvdW50aW5nIHF1ZXVlOicsIGNvdW50RXJyb3IpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coYPCfk4ogRm91bmQgJHtjb3VudH0gaXRlbXMgaW4gcXVldWUuYCk7DQoNCiAgICBpZiAoY291bnQgPT09IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coJ+KchSBRdWV1ZSBpcyBhbHJlYWR5IGVtcHR5LicpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgLy8gRGVsZXRlIGFsbA0KICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLmRlbGV0ZSgpDQogICAgICAgIC5uZXEoJ2lkJywgJzAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCcpOyAvLyBEZWxldGUgZXZlcnl0aGluZw0KDQogICAgaWYgKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvciBkZWxldGluZyBxdWV1ZTonLCBlcnJvcik7DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coJ+KchSBRdWV1ZSBjbGVhcmVkIHN1Y2Nlc3NmdWxseSEnKTsNCiAgICB9DQp9DQoNCmNsZWFyUXVldWUoKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+import dotenv from 'dotenv';
+import path from 'path';
+
+// Load .env.local
+dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+
+const SUPABASE_URL = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_SERVICE_ROLE_KEY;
+
+if (!SUPABASE_URL || !SUPABASE_KEY) {
+    console.error('❌ Missing Supabase credentials in .env.local');
+    process.exit(1);
+}
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+async function clearQueue() {
+    console.log('🧹 Clearing webhook_retry_queue...');
+
+    // Count first
+    const { count, error: countError } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true });
+
+    if (countError) {
+        console.error('❌ Error counting queue:', countError);
+        return;
+    }
+
+    console.log(`📊 Found ${count} items in queue.`);
+
+    if (count === 0) {
+        console.log('✅ Queue is already empty.');
+        return;
+    }
+
+    // Delete all
+    const { error } = await supabase
+        .from('webhook_retry_queue')
+        .delete()
+        .neq('id', '00000000-0000-0000-0000-000000000000'); // Delete everything
+
+    if (error) {
+        console.error('❌ Error deleting queue:', error);
+    } else {
+        console.log('✅ Queue cleared successfully!');
+    }
+}
+
+clearQueue();

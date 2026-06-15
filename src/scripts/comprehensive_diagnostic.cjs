@@ -1,1 +1,115 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQphc3luYyBmdW5jdGlvbiBjb21wcmVoZW5zaXZlRGlhZ25vc3RpYygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygn8J+UjSBESUFHTsOTU1RJQ08gQUJSQU5HRU5URVxuJyk7DQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkpOw0KDQogICAgLy8gMS4gUXVldWUgc3RhdHVzDQogICAgY29uc3QgeyBkYXRhOiBxdWV1ZURhdGEgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnc3RhdHVzJyk7DQoNCiAgICBjb25zdCBxdWV1ZVN0YXRzID0ge307DQogICAgcXVldWVEYXRhPy5mb3JFYWNoKHEgPT4gew0KICAgICAgICBjb25zdCBzdGF0dXMgPSBxLnN0YXR1cyB8fCAndW5rbm93bic7DQogICAgICAgIHF1ZXVlU3RhdHNbc3RhdHVzXSA9IChxdWV1ZVN0YXRzW3N0YXR1c10gfHwgMCkgKyAxOw0KICAgIH0pOw0KDQogICAgY29uc29sZS5sb2coJ1xu8J+TiyBGSUxBICh3ZWJob29rX3JldHJ5X3F1ZXVlKTonKTsNCiAgICBPYmplY3QuZW50cmllcyhxdWV1ZVN0YXRzKS5mb3JFYWNoKChbc3RhdHVzLCBjb3VudF0pID0+IHsNCiAgICAgICAgY29uc29sZS5sb2coYCAgICR7c3RhdHVzfTogJHtjb3VudH1gKTsNCiAgICB9KTsNCiAgICBjb25zb2xlLmxvZyhgICAgVE9UQUw6ICR7cXVldWVEYXRhPy5sZW5ndGggfHwgMH1gKTsNCg0KICAgIC8vIDIuIFNwcmVhZHNoZWV0IHRvdGFsDQogICAgY29uc3QgeyBjb3VudDogdG90YWxDb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCfk4ogU1BSRUFEU0hFRVRfREFUQTonKTsNCiAgICBjb25zb2xlLmxvZyhgICAgVG90YWwgZGUgcmVnaXN0cm9zOiAke3RvdGFsQ291bnR9YCk7DQoNCiAgICAvLyAzLiBTYW1wbGUgNSByZWNvcmRzIHRvIGNoZWNrIHN0cnVjdHVyZQ0KICAgIGNvbnN0IHsgZGF0YTogc2FtcGxlRGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCdyb3dfZGF0YScpDQogICAgICAgIC5saW1pdCg1KTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCflKwgQU1PU1RSQSBERSBEQURPUyAoNSByZWdpc3Ryb3MpOicpOw0KICAgIHNhbXBsZURhdGE/LmZvckVhY2goKHJvdywgaSkgPT4gew0KICAgICAgICBjb25zdCBkYXRhID0gdHlwZW9mIHJvdy5yb3dfZGF0YSA9PT0gJ3N0cmluZycgPyBKU09OLnBhcnNlKHJvdy5yb3dfZGF0YSkgOiByb3cucm93X2RhdGE7DQogICAgICAgIGNvbnNvbGUubG9nKGBcbiAgIFJlZ2lzdHJvICR7aSArIDF9OmApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgLSBQcm9kdXRvOiAke2RhdGFbJ1Byb2R1dG8nXSB8fCAnTi9BJ31gKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIC0gU0tVOiAke2RhdGFbJ1NLVSddIHx8ICdOL0EnfWApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgLSBQZWRpZG86ICR7ZGF0YVsnTsO6bWVybyBkYSBvcmRlbSBkZSBjb21wcmEnXSB8fCAnTi9BJ31gKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIC0gUXVhbnRpZGFkZTogJHtkYXRhWydRdWFudGlkYWRlJ10gfHwgJ04vQSd9YCk7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICAtIE9yaWdlbTogJHtkYXRhWydPcmlnZW0nXSB8fCAnTi9BJ31gKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIC0gQ2FuYWw6ICR7ZGF0YVsnQ2FuYWwnXSB8fCAnTi9BJ31gKTsNCiAgICB9KTsNCg0KICAgIC8vIDQuIENvdW50IGJ5IG9yaWdpbg0KICAgIGNvbnN0IHsgZGF0YTogYWxsRGF0YSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCdyb3dfZGF0YScpOw0KDQogICAgY29uc3QgYnlPcmlnaW4gPSB7fTsNCiAgICBjb25zdCBieUNhbmFsID0ge307DQogICAgY29uc3QgdW5pcXVlUHJvZHVjdHMgPSBuZXcgU2V0KCk7DQogICAgY29uc3QgdW5pcXVlT3JkZXJzID0gbmV3IFNldCgpOw0KDQogICAgYWxsRGF0YT8uZm9yRWFjaChyb3cgPT4gew0KICAgICAgICB0cnkgew0KICAgICAgICAgICAgY29uc3QgZGF0YSA9IHR5cGVvZiByb3cucm93X2RhdGEgPT09ICdzdHJpbmcnID8gSlNPTi5wYXJzZShyb3cucm93X2RhdGEpIDogcm93LnJvd19kYXRhOw0KICAgICAgICAgICAgY29uc3Qgb3JpZ2luID0gZGF0YVsnT3JpZ2VtJ10gfHwgJ1Vua25vd24nOw0KICAgICAgICAgICAgY29uc3QgY2FuYWwgPSBkYXRhWydDYW5hbCddIHx8ICdVbmtub3duJzsNCiAgICAgICAgICAgIGNvbnN0IHByb2R1Y3QgPSBkYXRhWydQcm9kdXRvJ107DQogICAgICAgICAgICBjb25zdCBvcmRlciA9IGRhdGFbJ07Dum1lcm8gZGEgb3JkZW0gZGUgY29tcHJhJ107DQoNCiAgICAgICAgICAgIGJ5T3JpZ2luW29yaWdpbl0gPSAoYnlPcmlnaW5bb3JpZ2luXSB8fCAwKSArIDE7DQogICAgICAgICAgICBieUNhbmFsW2NhbmFsXSA9IChieUNhbmFsW2NhbmFsXSB8fCAwKSArIDE7DQogICAgICAgICAgICBpZiAocHJvZHVjdCkgdW5pcXVlUHJvZHVjdHMuYWRkKHByb2R1Y3QpOw0KICAgICAgICAgICAgaWYgKG9yZGVyKSB1bmlxdWVPcmRlcnMuYWRkKG9yZGVyKTsNCiAgICAgICAgfSBjYXRjaCAoZSkgeyB9DQogICAgfSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5OIIEJSRUFLRE9XTiBQT1IgT1JJR0VNOicpOw0KICAgIE9iamVjdC5lbnRyaWVzKGJ5T3JpZ2luKS5mb3JFYWNoKChbb3JpZ2luLCBjb3VudF0pID0+IHsNCiAgICAgICAgY29uc29sZS5sb2coYCAgICR7b3JpZ2lufTogJHtjb3VudH1gKTsNCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCfj6ogQlJFQUtET1dOIFBPUiBDQU5BTDonKTsNCiAgICBPYmplY3QuZW50cmllcyhieUNhbmFsKS5mb3JFYWNoKChbY2FuYWwsIGNvdW50XSkgPT4gew0KICAgICAgICBjb25zb2xlLmxvZyhgICAgJHtjYW5hbH06ICR7Y291bnR9YCk7DQogICAgfSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5OmIEFHUkVHQURPUzonKTsNCiAgICBjb25zb2xlLmxvZyhgICAgUHJvZHV0b3Mgw7puaWNvczogJHt1bmlxdWVQcm9kdWN0cy5zaXplfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICBQZWRpZG9zIMO6bmljb3M6ICR7dW5pcXVlT3JkZXJzLnNpemV9YCk7DQoNCiAgICBjb25zb2xlLmxvZygnXG4nICsgJz0nLnJlcGVhdCg2MCkpOw0KICAgIGNvbnNvbGUubG9nKCdcbvCfkqEgQU7DgUxJU0U6Jyk7DQogICAgY29uc29sZS5sb2coYCAgIFNlIHZvY8OqIHbDqiBhcGVuYXMgfjEwJSBkb3MgcGVkaWRvcyBubyBhcHA6YCk7DQogICAgY29uc29sZS5sb2coYCAgIC0gRGF0YWJhc2UgdGVtOiAke3RvdGFsQ291bnR9IGl0ZW5zYCk7DQogICAgY29uc29sZS5sb2coYCAgIC0gUGVkaWRvcyDDum5pY29zOiAke3VuaXF1ZU9yZGVycy5zaXplfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICBcbiAgIFZlcmlmaXF1ZTpgKTsNCiAgICBjb25zb2xlLmxvZyhgICAgMS4gRmlsdHJvcyBkZSBkYXRhIG5vIGFwcD9gKTsNCiAgICBjb25zb2xlLmxvZyhgICAgMi4gRmlsdHJvcyBkZSBzdGF0dXMvc2l0dWHDp8Ojbz9gKTsNCiAgICBjb25zb2xlLmxvZyhgICAgMy4gQ29tcG9uZW50IGxvYWRpbmcgbGltaXQ/YCk7DQogICAgY29uc29sZS5sb2coYCAgIDQuIHNlbGVjdGVkQ25waiBmaWx0ZXIgYWN0aXZlP2ApOw0KfQ0KDQpjb21wcmVoZW5zaXZlRGlhZ25vc3RpYygpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function comprehensiveDiagnostic() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('🔍 DIAGNÓSTICO ABRANGENTE\n');
+    console.log('='.repeat(60));
+
+    // 1. Queue status
+    const { data: queueData } = await supabase
+        .from('webhook_retry_queue')
+        .select('status');
+
+    const queueStats = {};
+    queueData?.forEach(q => {
+        const status = q.status || 'unknown';
+        queueStats[status] = (queueStats[status] || 0) + 1;
+    });
+
+    console.log('\n📋 FILA (webhook_retry_queue):');
+    Object.entries(queueStats).forEach(([status, count]) => {
+        console.log(`   ${status}: ${count}`);
+    });
+    console.log(`   TOTAL: ${queueData?.length || 0}`);
+
+    // 2. Spreadsheet total
+    const { count: totalCount } = await supabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true });
+
+    console.log('\n📊 SPREADSHEET_DATA:');
+    console.log(`   Total de registros: ${totalCount}`);
+
+    // 3. Sample 5 records to check structure
+    const { data: sampleData } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data')
+        .limit(5);
+
+    console.log('\n🔬 AMOSTRA DE DADOS (5 registros):');
+    sampleData?.forEach((row, i) => {
+        const data = typeof row.row_data === 'string' ? JSON.parse(row.row_data) : row.row_data;
+        console.log(`\n   Registro ${i + 1}:`);
+        console.log(`   - Produto: ${data['Produto'] || 'N/A'}`);
+        console.log(`   - SKU: ${data['SKU'] || 'N/A'}`);
+        console.log(`   - Pedido: ${data['Número da ordem de compra'] || 'N/A'}`);
+        console.log(`   - Quantidade: ${data['Quantidade'] || 'N/A'}`);
+        console.log(`   - Origem: ${data['Origem'] || 'N/A'}`);
+        console.log(`   - Canal: ${data['Canal'] || 'N/A'}`);
+    });
+
+    // 4. Count by origin
+    const { data: allData } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data');
+
+    const byOrigin = {};
+    const byCanal = {};
+    const uniqueProducts = new Set();
+    const uniqueOrders = new Set();
+
+    allData?.forEach(row => {
+        try {
+            const data = typeof row.row_data === 'string' ? JSON.parse(row.row_data) : row.row_data;
+            const origin = data['Origem'] || 'Unknown';
+            const canal = data['Canal'] || 'Unknown';
+            const product = data['Produto'];
+            const order = data['Número da ordem de compra'];
+
+            byOrigin[origin] = (byOrigin[origin] || 0) + 1;
+            byCanal[canal] = (byCanal[canal] || 0) + 1;
+            if (product) uniqueProducts.add(product);
+            if (order) uniqueOrders.add(order);
+        } catch (e) { }
+    });
+
+    console.log('\n📈 BREAKDOWN POR ORIGEM:');
+    Object.entries(byOrigin).forEach(([origin, count]) => {
+        console.log(`   ${origin}: ${count}`);
+    });
+
+    console.log('\n🏪 BREAKDOWN POR CANAL:');
+    Object.entries(byCanal).forEach(([canal, count]) => {
+        console.log(`   ${canal}: ${count}`);
+    });
+
+    console.log('\n📦 AGREGADOS:');
+    console.log(`   Produtos únicos: ${uniqueProducts.size}`);
+    console.log(`   Pedidos únicos: ${uniqueOrders.size}`);
+
+    console.log('\n' + '='.repeat(60));
+    console.log('\n💡 ANÁLISE:');
+    console.log(`   Se você vê apenas ~10% dos pedidos no app:`);
+    console.log(`   - Database tem: ${totalCount} itens`);
+    console.log(`   - Pedidos únicos: ${uniqueOrders.size}`);
+    console.log(`   \n   Verifique:`);
+    console.log(`   1. Filtros de data no app?`);
+    console.log(`   2. Filtros de status/situação?`);
+    console.log(`   3. Component loading limit?`);
+    console.log(`   4. selectedCnpj filter active?`);
+}
+
+comprehensiveDiagnostic().catch(console.error);

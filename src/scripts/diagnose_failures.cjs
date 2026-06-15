@@ -1,1 +1,60 @@
-﻿@{data=DQpjb25zdCB7IGNyZWF0ZUNsaWVudCB9ID0gcmVxdWlyZSgnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJyk7DQpjb25zdCBmcyA9IHJlcXVpcmUoJ2ZzJyk7DQpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOw0KDQovLyBMb2FkIGVudg0KdHJ5IHsNCiAgICBjb25zdCBlbnZQYXRoID0gcGF0aC5yZXNvbHZlKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQogICAgaWYgKGZzLmV4aXN0c1N5bmMoZW52UGF0aCkpIHsNCiAgICAgICAgY29uc3QgZW52Q29uZmlnID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGY4Jyk7DQogICAgICAgIGVudkNvbmZpZy5zcGxpdCgnXG4nKS5mb3JFYWNoKChsaW5lKSA9PiB7DQogICAgICAgICAgICBjb25zdCBba2V5LCAuLi52YWx1ZVBhcnRzXSA9IGxpbmUuc3BsaXQoJz0nKTsNCiAgICAgICAgICAgIGlmIChrZXkgJiYgdmFsdWVQYXJ0cy5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICAgICAgY29uc3QgdmFsdWUgPSB2YWx1ZVBhcnRzLmpvaW4oJz0nKS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgICAgIHByb2Nlc3MuZW52W2tleS50cmltKCldID0gdmFsdWU7DQogICAgICAgICAgICB9DQogICAgICAgIH0pOw0KICAgIH0NCn0gY2F0Y2ggKGUpIHsgfQ0KDQpjb25zdCBzdXBhYmFzZVVybCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCB8fCBwcm9jZXNzLmVudi5WSVRFX1NVUEFCQVNFX1VSTDsNCmNvbnN0IHN1cGFiYXNlS2V5ID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSB8fCBwcm9jZXNzLmVudi5WSVRFX1NVUEFCQVNFX0FOT05fS0VZOw0KDQppZiAoIXN1cGFiYXNlVXJsIHx8ICFzdXBhYmFzZUtleSkgew0KICAgIGNvbnNvbGUuZXJyb3IoJ01pc3NpbmcgQ3JlZGVudGlhbHMnKTsNCiAgICBwcm9jZXNzLmV4aXQoMSk7DQp9DQoNCmFzeW5jIGZ1bmN0aW9uIGRpYWdub3NlKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KHN1cGFiYXNlVXJsLCBzdXBhYmFzZUtleSk7DQoNCiAgICAvLyBHZXQgZmFpbGVkIGl0ZW1zDQogICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAuc2VsZWN0KCdsYXN0X2Vycm9yLCBzdGF0dXMsIHJldHJ5X2NvdW50JykNCiAgICAgICAgLmluKCdzdGF0dXMnLCBbJ2ZhaWxlZCcsICdlcnJvciddKTsNCg0KICAgIGlmIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZzonLCBlcnJvcik7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBjb25zdCBlcnJvckNvdW50cyA9IHt9Ow0KICAgIGRhdGEuZm9yRWFjaChyb3cgPT4gew0KICAgICAgICBjb25zdCBtc2cgPSByb3cubGFzdF9lcnJvciB8fCAnVW5rbm93biBFcnJvcic7DQogICAgICAgIGVycm9yQ291bnRzW21zZ10gPSAoZXJyb3JDb3VudHNbbXNnXSB8fCAwKSArIDE7DQogICAgfSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG5cbvCflI0gRElBR05PU1RJQyBSRVBPUlQgKEZhaWxlZCBPcmRlcnMpOicpOw0KICAgIGNvbnNvbGUubG9nKCctLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLScpOw0KICAgIE9iamVjdC5lbnRyaWVzKGVycm9yQ291bnRzKQ0KICAgICAgICAuc29ydCgoYSwgYikgPT4gYlsxXSAtIGFbMV0pIC8vIFNvcnQgYnkgY291bnQgZGVzY2VuZGluZw0KICAgICAgICAuZm9yRWFjaCgoW21zZywgY291bnRdKSA9PiB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgWyR7Y291bnR9eF0gJHttc2d9YCk7DQogICAgICAgIH0pOw0KICAgIGNvbnNvbGUubG9nKCctLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLScpOw0KICAgIGNvbnNvbGUubG9nKGBUT1RBTCBGQUlMRUQ6ICR7ZGF0YS5sZW5ndGh9YCk7DQp9DQoNCmRpYWdub3NlKCk7DQo=}
+
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+// Load env
+try {
+    const envPath = path.resolve(process.cwd(), '.env.local');
+    if (fs.existsSync(envPath)) {
+        const envConfig = fs.readFileSync(envPath, 'utf8');
+        envConfig.split('\n').forEach((line) => {
+            const [key, ...valueParts] = line.split('=');
+            if (key && valueParts.length > 0) {
+                const value = valueParts.join('=').trim().replace(/^["']|["']$/g, '');
+                process.env[key.trim()] = value;
+            }
+        });
+    }
+} catch (e) { }
+
+const supabaseUrl = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_ANON_KEY;
+
+if (!supabaseUrl || !supabaseKey) {
+    console.error('Missing Credentials');
+    process.exit(1);
+}
+
+async function diagnose() {
+    const supabase = createClient(supabaseUrl, supabaseKey);
+
+    // Get failed items
+    const { data, error } = await supabase
+        .from('webhook_retry_queue')
+        .select('last_error, status, retry_count')
+        .in('status', ['failed', 'error']);
+
+    if (error) {
+        console.error('Error fetching:', error);
+        return;
+    }
+
+    const errorCounts = {};
+    data.forEach(row => {
+        const msg = row.last_error || 'Unknown Error';
+        errorCounts[msg] = (errorCounts[msg] || 0) + 1;
+    });
+
+    console.log('\n\n🔍 DIAGNOSTIC REPORT (Failed Orders):');
+    console.log('-----------------------------------');
+    Object.entries(errorCounts)
+        .sort((a, b) => b[1] - a[1]) // Sort by count descending
+        .forEach(([msg, count]) => {
+            console.log(`[${count}x] ${msg}`);
+        });
+    console.log('-----------------------------------');
+    console.log(`TOTAL FAILED: ${data.length}`);
+}
+
+diagnose();

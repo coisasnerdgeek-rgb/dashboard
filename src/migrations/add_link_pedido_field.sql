@@ -1,1 +1,9 @@
-﻿@{data=LS0gTWlncmHDp8OjbzogQWRpY2lvbmFyIGNhbXBvIGxpbmtfcGVkaWRvIHBhcmEgVVJMcyBwZXJzb25hbGl6YWRhcyBkZSBwZWRpZG9zCi0tIEV4ZWN1dGUgZXN0ZSBTUUwgbm8gU3VwYWJhc2UgU1FMIEVkaXRvcgoKLS0gQWRpY2lvbmFyIGNvbHVuYSBsaW5rX3BlZGlkbyAoVVJMIHBlcnNvbmFsaXphZGEgZG8gcGVkaWRvKQpBTFRFUiBUQUJMRSBwcmludF9jb250cm9sIApBREQgQ09MVU1OIElGIE5PVCBFWElTVFMgbGlua19wZWRpZG8gVEVYVDsKCi0tIENvbWVudMOhcmlvIGV4cGxpY2F0aXZvCkNPTU1FTlQgT04gQ09MVU1OIHByaW50X2NvbnRyb2wubGlua19wZWRpZG8gSVMgJ1VSTCBwZXJzb25hbGl6YWRhIGRvIHBlZGlkbyAocGFyYSBjYW5haXMgU0ggTU0gZSBTSCBWRVNUKSc7Cg==}
+-- Migração: Adicionar campo link_pedido para URLs personalizadas de pedidos
+-- Execute este SQL no Supabase SQL Editor
+
+-- Adicionar coluna link_pedido (URL personalizada do pedido)
+ALTER TABLE print_control 
+ADD COLUMN IF NOT EXISTS link_pedido TEXT;
+
+-- Comentário explicativo
+COMMENT ON COLUMN print_control.link_pedido IS 'URL personalizada do pedido (para canais SH MM e SH VEST)';

@@ -1,1 +1,9 @@
-﻿@{data=Ci8vIEhlbHBlciBmdW5jdGlvbiB0byBub3JtYWxpemUgc3RyaW5ncyBmb3IgY29tcGFyaXNvbiAobG93ZXJjYXNlLCBubyBhY2NlbnRzKQpleHBvcnQgY29uc3Qgbm9ybWFsaXplU3RyaW5nID0gKHN0cjogc3RyaW5nKTogc3RyaW5nID0+IHsKICAgIGlmICh0eXBlb2Ygc3RyICE9PSAnc3RyaW5nJykgcmV0dXJuICcnOwogICAgcmV0dXJuIHN0cgogICAgICAgIC50b0xvd2VyQ2FzZSgpCiAgICAgICAgLm5vcm1hbGl6ZSgiTkZEIikKICAgICAgICAucmVwbGFjZSgvW1x1MDMwMC1cdTAzNmZdL2csICIiKTsKfTsK}
+
+// Helper function to normalize strings for comparison (lowercase, no accents)
+export const normalizeString = (str: string): string => {
+    if (typeof str !== 'string') return '';
+    return str
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+};

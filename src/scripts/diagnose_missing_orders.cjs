@@ -1,1 +1,113 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQphc3luYyBmdW5jdGlvbiBkaWFnbm9zZSgpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygn8J+UjSBESUFHTsOTU1RJQ086IFBlZGlkb3MgRGVzYXBhcmVjaWRvc1xuJyk7DQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkpOw0KDQogICAgLy8gR2V0IHF1ZXVlIHN0YXRzDQogICAgY29uc3QgeyBkYXRhOiBxdWV1ZURhdGEgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnc3RhdHVzLCBvcmRlcl9pZCcpOw0KDQogICAgY29uc3QgcXVldWVTdGF0cyA9IHsNCiAgICAgICAgcGVuZGluZzogMCwNCiAgICAgICAgY29tcGxldGVkOiAwLA0KICAgICAgICBmYWlsZWQ6IDAsDQogICAgICAgIGVycm9yOiAwDQogICAgfTsNCg0KICAgIGNvbnN0IGNvbXBsZXRlZE9yZGVySWRzID0gbmV3IFNldCgpOw0KDQogICAgcXVldWVEYXRhPy5mb3JFYWNoKHEgPT4gew0KICAgICAgICBjb25zdCBzdGF0dXMgPSBxLnN0YXR1cyB8fCAndW5rbm93bic7DQogICAgICAgIHF1ZXVlU3RhdHNbc3RhdHVzXSA9IChxdWV1ZVN0YXRzW3N0YXR1c10gfHwgMCkgKyAxOw0KDQogICAgICAgIGlmIChzdGF0dXMgPT09ICdjb21wbGV0ZWQnKSB7DQogICAgICAgICAgICBjb21wbGV0ZWRPcmRlcklkcy5hZGQocS5vcmRlcl9pZCk7DQogICAgICAgIH0NCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCfk4sgRklMQSAod2ViaG9va19yZXRyeV9xdWV1ZSk6Jyk7DQogICAgY29uc29sZS5sb2coYCAgIFBlbmRpbmc6ICAgJHtxdWV1ZVN0YXRzLnBlbmRpbmd9YCk7DQogICAgY29uc29sZS5sb2coYCAgIENvbXBsZXRlZDogJHtxdWV1ZVN0YXRzLmNvbXBsZXRlZH1gKTsNCiAgICBjb25zb2xlLmxvZyhgICAgRmFpbGVkOiAgICAke3F1ZXVlU3RhdHMuZmFpbGVkfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICBFcnJvcjogICAgICR7cXVldWVTdGF0cy5lcnJvcn1gKTsNCiAgICBjb25zb2xlLmxvZyhgICAgVG90YWw6ICAgICAke3F1ZXVlRGF0YT8ubGVuZ3RoIHx8IDB9YCk7DQoNCiAgICAvLyBHZXQgc3ByZWFkc2hlZXQgY291bnQNCiAgICBjb25zdCB7IGNvdW50OiBzcHJlYWRzaGVldENvdW50IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KDQogICAgY29uc29sZS5sb2coJ1xu8J+TiiBTUFJFQURTSEVFVF9EQVRBOicpOw0KICAgIGNvbnNvbGUubG9nKGAgICBUb3RhbDogJHtzcHJlYWRzaGVldENvdW50fWApOw0KDQogICAgLy8gR2V0IGFjdHVhbCBvcmRlciBJRHMgZnJvbSBzcHJlYWRzaGVldA0KICAgIGNvbnN0IHsgZGF0YTogc3ByZWFkc2hlZXREYXRhIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJ3Jvd19kYXRhJyk7DQoNCiAgICBjb25zdCBzcHJlYWRzaGVldE9yZGVySWRzID0gbmV3IFNldCgpOw0KICAgIHNwcmVhZHNoZWV0RGF0YT8uZm9yRWFjaChyb3cgPT4gew0KICAgICAgICB0cnkgew0KICAgICAgICAgICAgY29uc3QgZGF0YSA9IHR5cGVvZiByb3cucm93X2RhdGEgPT09ICdzdHJpbmcnID8gSlNPTi5wYXJzZShyb3cucm93X2RhdGEpIDogcm93LnJvd19kYXRhOw0KICAgICAgICAgICAgLy8gVXNlIHRoZSBjb3JyZWN0IGZpZWxkIG5hbWUgZnJvbSB0aGUgYWN0dWFsIGRhdGEgc3RydWN0dXJlDQogICAgICAgICAgICBjb25zdCBvcmRlcklkID0gZGF0YVsnTsO6bWVybyBkYSBvcmRlbSBkZSBjb21wcmEnXSB8fCBkYXRhWydJZGVudGlmaWNhZG9yIGRvIHBlZGlkbyBlLWNvbW1lcmNlJ107DQogICAgICAgICAgICBpZiAob3JkZXJJZCkgew0KICAgICAgICAgICAgICAgIHNwcmVhZHNoZWV0T3JkZXJJZHMuYWRkKFN0cmluZyhvcmRlcklkKSk7DQogICAgICAgICAgICB9DQogICAgICAgIH0gY2F0Y2ggKGUpIHsNCiAgICAgICAgICAgIC8vIGlnbm9yZSBwYXJzZSBlcnJvcnMNCiAgICAgICAgfQ0KICAgIH0pOw0KDQogICAgY29uc29sZS5sb2coYCAgIFVuaXF1ZSBPcmRlciBJRHM6ICR7c3ByZWFkc2hlZXRPcmRlcklkcy5zaXplfWApOw0KDQogICAgLy8gRmluZCBjb21wbGV0ZWQgb3JkZXJzIE5PVCBpbiBzcHJlYWRzaGVldA0KICAgIGNvbnN0IG1pc3NpbmdPcmRlcnMgPSBbXTsNCiAgICBjb21wbGV0ZWRPcmRlcklkcy5mb3JFYWNoKGlkID0+IHsNCiAgICAgICAgaWYgKCFzcHJlYWRzaGVldE9yZGVySWRzLmhhcyhTdHJpbmcoaWQpKSkgew0KICAgICAgICAgICAgbWlzc2luZ09yZGVycy5wdXNoKGlkKTsNCiAgICAgICAgfQ0KICAgIH0pOw0KDQogICAgY29uc29sZS5sb2coJ1xu4p2MIFBST0JMRU1BIEVOQ09OVFJBRE86Jyk7DQogICAgY29uc29sZS5sb2coYCAgIENvbXBsZXRlZCBuYSBmaWxhOiAke2NvbXBsZXRlZE9yZGVySWRzLnNpemV9YCk7DQogICAgY29uc29sZS5sb2coYCAgIE5vIHNwcmVhZHNoZWV0OiAgICAke3NwcmVhZHNoZWV0T3JkZXJJZHMuc2l6ZX1gKTsNCiAgICBjb25zb2xlLmxvZyhgICAgRkFMVEFORE86ICAgICAgICAgICR7bWlzc2luZ09yZGVycy5sZW5ndGh9YCk7DQoNCiAgICBpZiAobWlzc2luZ09yZGVycy5sZW5ndGggPiAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCdcbvCfk50gQW1vc3RyYXMgZGUgSURzIGZhbHRhbmRvOicpOw0KICAgICAgICBtaXNzaW5nT3JkZXJzLnNsaWNlKDAsIDEwKS5mb3JFYWNoKGlkID0+IGNvbnNvbGUubG9nKGAgICAtICR7aWR9YCkpOw0KICAgICAgICBpZiAobWlzc2luZ09yZGVycy5sZW5ndGggPiAxMCkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIC4uLiBlIG1haXMgJHttaXNzaW5nT3JkZXJzLmxlbmd0aCAtIDEwfWApOw0KICAgICAgICB9DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coJ1xuJyArICc9Jy5yZXBlYXQoNjApKTsNCiAgICBjb25zb2xlLmxvZygnXG7wn5KhIENPTkNMVVPDg086Jyk7DQogICAgaWYgKG1pc3NpbmdPcmRlcnMubGVuZ3RoID4gMCkgew0KICAgICAgICBjb25zb2xlLmxvZyhgICAg4pqg77iPICAke21pc3NpbmdPcmRlcnMubGVuZ3RofSBwZWRpZG9zIGZvcmFtIG1hcmNhZG9zIGNvbW8gImNvbXBsZXRlZCJgKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIG1hcyBOw4NPIGZvcmFtIGluc2VyaWRvcyBubyBzcHJlYWRzaGVldF9kYXRhIWApOw0KICAgICAgICBjb25zb2xlLmxvZyhgXG4gICBJc3NvIGV4cGxpY2EgcG9yIHF1ZSB2b2PDqiB2w6ogJHtxdWV1ZVN0YXRzLmNvbXBsZXRlZH0gcHJvY2Vzc2Fkb3NgKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIG1hcyBhcGVuYXMgJHtzcHJlYWRzaGVldENvdW50fSBubyBhcHAuYCk7DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIOKchSBUb2RvcyBvcyBwZWRpZG9zIGNvbXBsZXRlZCBlc3TDo28gbm8gc3ByZWFkc2hlZXQhYCk7DQogICAgfQ0KfQ0KDQpkaWFnbm9zZSgpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function diagnose() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('🔍 DIAGNÓSTICO: Pedidos Desaparecidos\n');
+    console.log('='.repeat(60));
+
+    // Get queue stats
+    const { data: queueData } = await supabase
+        .from('webhook_retry_queue')
+        .select('status, order_id');
+
+    const queueStats = {
+        pending: 0,
+        completed: 0,
+        failed: 0,
+        error: 0
+    };
+
+    const completedOrderIds = new Set();
+
+    queueData?.forEach(q => {
+        const status = q.status || 'unknown';
+        queueStats[status] = (queueStats[status] || 0) + 1;
+
+        if (status === 'completed') {
+            completedOrderIds.add(q.order_id);
+        }
+    });
+
+    console.log('\n📋 FILA (webhook_retry_queue):');
+    console.log(`   Pending:   ${queueStats.pending}`);
+    console.log(`   Completed: ${queueStats.completed}`);
+    console.log(`   Failed:    ${queueStats.failed}`);
+    console.log(`   Error:     ${queueStats.error}`);
+    console.log(`   Total:     ${queueData?.length || 0}`);
+
+    // Get spreadsheet count
+    const { count: spreadsheetCount } = await supabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true });
+
+    console.log('\n📊 SPREADSHEET_DATA:');
+    console.log(`   Total: ${spreadsheetCount}`);
+
+    // Get actual order IDs from spreadsheet
+    const { data: spreadsheetData } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data');
+
+    const spreadsheetOrderIds = new Set();
+    spreadsheetData?.forEach(row => {
+        try {
+            const data = typeof row.row_data === 'string' ? JSON.parse(row.row_data) : row.row_data;
+            // Use the correct field name from the actual data structure
+            const orderId = data['Número da ordem de compra'] || data['Identificador do pedido e-commerce'];
+            if (orderId) {
+                spreadsheetOrderIds.add(String(orderId));
+            }
+        } catch (e) {
+            // ignore parse errors
+        }
+    });
+
+    console.log(`   Unique Order IDs: ${spreadsheetOrderIds.size}`);
+
+    // Find completed orders NOT in spreadsheet
+    const missingOrders = [];
+    completedOrderIds.forEach(id => {
+        if (!spreadsheetOrderIds.has(String(id))) {
+            missingOrders.push(id);
+        }
+    });
+
+    console.log('\n❌ PROBLEMA ENCONTRADO:');
+    console.log(`   Completed na fila: ${completedOrderIds.size}`);
+    console.log(`   No spreadsheet:    ${spreadsheetOrderIds.size}`);
+    console.log(`   FALTANDO:          ${missingOrders.length}`);
+
+    if (missingOrders.length > 0) {
+        console.log('\n📝 Amostras de IDs faltando:');
+        missingOrders.slice(0, 10).forEach(id => console.log(`   - ${id}`));
+        if (missingOrders.length > 10) {
+            console.log(`   ... e mais ${missingOrders.length - 10}`);
+        }
+    }
+
+    console.log('\n' + '='.repeat(60));
+    console.log('\n💡 CONCLUSÃO:');
+    if (missingOrders.length > 0) {
+        console.log(`   ⚠️  ${missingOrders.length} pedidos foram marcados como "completed"`);
+        console.log(`   mas NÃO foram inseridos no spreadsheet_data!`);
+        console.log(`\n   Isso explica por que você vê ${queueStats.completed} processados`);
+        console.log(`   mas apenas ${spreadsheetCount} no app.`);
+    } else {
+        console.log(`   ✅ Todos os pedidos completed estão no spreadsheet!`);
+    }
+}
+
+diagnose().catch(console.error);

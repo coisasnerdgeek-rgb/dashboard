@@ -1,1 +1,160 @@
-﻿@{data=77u/ICAgICAgICBzd2l0Y2ggKGN1cnJlbnRWaWV3KSB7CiAgICAgICAgICAgIGNhc2UgJ2Rhc2hib2FyZCc6CiAgICAgICAgICAgICAgICByZXR1cm4gZGFzaGJvYXJkTWV0cmljcyA/IDxEYXNoYm9hcmQKICAgICAgICAgICAgICAgICAgICBtZXRyaWNzPXtkYXNoYm9hcmRNZXRyaWNzfQogICAgICAgICAgICAgICAgICAgIHNldEN1cnJlbnRWaWV3PXtoYW5kbGVWaWV3Q2hhbmdlfQogICAgICAgICAgICAgICAgICAgIHBlbmRpbmdDYXBpbmhhc0NvdW50PXtwZW5kaW5nQ2FwaW5oYXNDb3VudH0KICAgICAgICAgICAgICAgICAgICBpbnZhbGlkU2t1Q291bnQ9e2ludmFsaWRTa3VDb3VudH0KICAgICAgICAgICAgICAgICAgICBzYXZlZE9yZGVyc0NvdW50PXtzYXZlZE9yZGVycy5sZW5ndGh9CiAgICAgICAgICAgICAgICAgICAgZmF6ZXJBcnRlQ291bnQ9e2ZhemVyQXJ0ZUNvdW50fQogICAgICAgICAgICAgICAgLz4gOiBudWxsOwogICAgICAgICAgICBjYXNlICd1cGxvYWQnOgogICAgICAgICAgICAgICAgcmV0dXJuIDxGaWxlVXBsb2FkIHsuLi5maWxlVXBsb2FkUHJvcHN9IC8+OwogICAgICAgICAgICBjYXNlICdkYXRhJzoKICAgICAgICAgICAgICAgIHJldHVybiA8RGF0YVRhYmxlIGhlYWRlcnM9e2hlYWRlcnN9IGRhdGE9e2dsb2JhbEZpbHRlcmVkRGF0YX0gaW5pdGlhbEZpbHRlcj17aW5pdGlhbEZpbHRlckZvckRhdGFUYWJsZX0gb25GaWx0ZXJBcHBsaWVkPXtyZXNldEluaXRpYWxGaWx0ZXJ9IHNhdmVkUHJvZHVjdE5hbWVzPXtzYXZlZFByb2R1Y3ROYW1lc30gdHJhY2tpbmdNYXBwaW5ncz17dHJhY2tpbmdNYXBwaW5nc30gLz47CiAgICAgICAgICAgIGNhc2UgJ3BlZGlkb3MnOgogICAgICAgICAgICAgICAgcmV0dXJuIDxQZWRpZG9zCiAgICAgICAgICAgICAgICAgICAgaGVhZGVycz17aGVhZGVyc30KICAgICAgICAgICAgICAgICAgICBkYXRhPXthbGxQcm9jZXNzZWREYXRhfQogICAgICAgICAgICAgICAgICAgIGdsb2JhbEZpbHRlcnM9e2dsb2JhbEZpbHRlcnN9CiAgICAgICAgICAgICAgICAgICAgb25GaWx0ZXJzQ2hhbmdlPXtzZXRHbG9iYWxGaWx0ZXJzfQogICAgICAgICAgICAgICAgICAgIG9uRmlsdGVyZWREYXRhQ2hhbmdlPXtoYW5kbGVGaWx0ZXJlZERhdGFDaGFuZ2V9CiAgICAgICAgICAgICAgICAgICAgb25Sb3dDbGljaz17aGFuZGxlVmlld09yZGVyRGV0YWlsc30KICAgICAgICAgICAgICAgICAgICBpbWFnZU1hcHBpbmdzPXtpbWFnZU1hcHBpbmdzfQogICAgICAgICAgICAgICAgICAgIHNob3dNb2RhbD17c2hvd01vZGFsfQogICAgICAgICAgICAgICAgICAgIHRyYWNraW5nTWFwcGluZ3M9e3RyYWNraW5nTWFwcGluZ3N9CiAgICAgICAgICAgICAgICAvPjsKICAgICAgICAgICAgY2FzZSAnbW9udGFyLXBlZGlkbyc6CiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnW0FQUF0gUmVuZGVyaW5nIENyaWFyUGVkaWRvIChNb250YXIgVmlldykuIERhdGEgbGVuZ3RoOicsIG9wZXJhdGlvbmFsRmlsdGVyZWREYXRhLmxlbmd0aCk7CiAgICAgICAgICAgICAgICByZXR1cm4gPENyaWFyUGVkaWRvCiAgICAgICAgICAgICAgICAgICAgaGVhZGVycz17aGVhZGVyc30KICAgICAgICAgICAgICAgICAgICBkYXRhPXtvcGVyYXRpb25hbEZpbHRlcmVkRGF0YX0KICAgICAgICAgICAgICAgICAgICBvblNhdmVPcmRlcj17aGFuZGxlU2F2ZU9yZGVyfQogICAgICAgICAgICAgICAgICAgIHNhdmVkT3JkZXJzPXtzYXZlZE9yZGVyc30KICAgICAgICAgICAgICAgICAgICBhcmNoaXZlZFNhdmVkT3JkZXJzPXthcmNoaXZlZFNhdmVkT3JkZXJzfQogICAgICAgICAgICAgICAgICAgIHBlbmRpbmdQYXltZW50cz17cGVuZGluZ1BheW1lbnRzfQogICAgICAgICAgICAgICAgICAgIGFyY2hpdmVkUGF5bWVudHM9e2FyY2hpdmVkUGF5bWVudHN9CiAgICAgICAgICAgICAgICAgICAgb25Sb3dDbGljaz17aGFuZGxlUm93Q2xpY2t9CiAgICAgICAgICAgICAgICAgICAgb25WaWV3T3JkZXJEZXRhaWxzPXtoYW5kbGVWaWV3T3JkZXJEZXRhaWxzfQogICAgICAgICAgICAgICAgICAgIGJhY2tvcmRlcmVkSXRlbXM9e2JhY2tvcmRlcmVkSXRlbXN9CiAgICAgICAgICAgICAgICAgICAgb25BZGRUb0JhY2tvcmRlcj17aGFuZGxlQWRkVG9CYWNrb3JkZXJ9CiAgICAgICAgICAgICAgICAgICAgc2V0Q3VycmVudFZpZXc9e2hhbmRsZVZpZXdDaGFuZ2V9CiAgICAgICAgICAgICAgICAgICAgb25SZXNvbHZlQmFja29yZGVyPXtoYW5kbGVSZXNvbHZlQmFja29yZGVyfQogICAgICAgICAgICAgICAgICAgIHNob3dNb2RhbD17c2hvd01vZGFsfQogICAgICAgICAgICAgICAgICAgIHByaWNlVGFibGU9e3ByaWNlVGFibGV9CiAgICAgICAgICAgICAgICAgICAgb25VcGRhdGVSb3c9e2hhbmRsZVVwZGF0ZVJvd30KICAgICAgICAgICAgICAgICAgICBvbkJ1bGtVcGRhdGVSb3dzPXtoYW5kbGVCdWxrVXBkYXRlUm93c30KICAgICAgICAgICAgICAgICAgICBvbkRlbGV0ZVJvdz17aGFuZGxlRGVsZXRlUm93fQogICAgICAgICAgICAgICAgICAgIG9uQWRkUm93PXtoYW5kbGVBZGRSb3d9CiAgICAgICAgICAgICAgICAgICAgYWxsU2t1UHJvZHVjdE5hbWVzPXtyb3VwYXNTa3VQcm9kdWN0TmFtZXN9CiAgICAgICAgICAgICAgICAgICAgbWFzdGVyRGF0YT17cm91cGFzTWFzdGVyRGF0YX0KICAgICAgICAgICAgICAgICAgICBpbWFnZU1hcHBpbmdzPXtpbWFnZU1hcHBpbmdzfQogICAgICAgICAgICAgICAgICAgIHRyYWNraW5nTWFwcGluZ3M9e3RyYWNraW5nTWFwcGluZ3N9CiAgICAgICAgICAgICAgICAgICAgZGVsZXRlZE9yZGVySWRzPXttb250YXJFeGNsdWRlZE9yZGVySWRzfQogICAgICAgICAgICAgICAgICAgIG9uU2V0RGVsZXRlZE9yZGVySWRzPXtzZXRNb250YXJFeGNsdWRlZE9yZGVySWRzfQogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkU3RvcmU9e2NyaWFyUGVkaWRvU2VsZWN0ZWRTdG9yZX0KICAgICAgICAgICAgICAgICAgICBvblNldFNlbGVjdGVkU3RvcmU9e29uVXBkYXRlQ3JpYXJQZWRpZG9TZWxlY3RlZFN0b3JlfQogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkUHJvZHVjdD17Y3JpYXJQZWRpZG9TZWxlY3RlZFByb2R1Y3R9CiAgICAgICAgICAgICAgICAgICAgb25TZXRTZWxlY3RlZFByb2R1Y3Q9e29uVXBkYXRlQ3JpYXJQZWRpZG9TZWxlY3RlZFByb2R1Y3R9CiAgICAgICAgICAgICAgICAvPjsKICAgICAgICAgICAgY2FzZSAnZW52aWFyLXBlZGlkbyc6CiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnW0FQUF0gUGFzc2luZyB0byBFbnZpYXJQZWRpZG8gLSBhbGxQcm9jZXNzZWREYXRhIGxlbmd0aDonLCBhbGxQcm9jZXNzZWREYXRhLmxlbmd0aCk7CiAgICAgICAgICAgICAgICByZXR1cm4gPEVudmlhclBlZGlkbwogICAgICAgICAgICAgICAgICAgIHNhdmVkT3JkZXJzPXtzYXZlZE9yZGVyc30KICAgICAgICAgICAgICAgICAgICBhcmNoaXZlZFNhdmVkT3JkZXJzPXthcmNoaXZlZFNhdmVkT3JkZXJzfQogICAgICAgICAgICAgICAgICAgIG9uRGVsZXRlT3JkZXI9e2hhbmRsZURlbGV0ZU9yZGVyfQogICAgICAgICAgICAgICAgICAgIG9uUmVjb3Zlck9yZGVyPXtoYW5kbGVSZWNvdmVyT3JkZXJ9CiAgICAgICAgICAgICAgICAgICAgb25EZWxldGVBcmNoaXZlZE9yZGVyPXtoYW5kbGVEZWxldGVBcmNoaXZlZE9yZGVyfQogICAgICAgICAgICAgICAgICAgIHByaWNlVGFibGU9e3ByaWNlVGFibGV9CiAgICAgICAgICAgICAgICAgICAgb25TZW5kT3JkZXJzPXtoYW5kbGVTZW5kT3JkZXJzfQogICAgICAgICAgICAgICAgICAgIHNob3dNb2RhbD17c2hvd01vZGFsfQogICAgICAgICAgICAgICAgICAgIGNvbnRhY3RzPXtjb250YWN0c30KICAgICAgICAgICAgICAgICAgICBvblNwbGl0T3JkZXI9e2hhbmRsZVNwbGl0T3JkZXJ9CiAgICAgICAgICAgICAgICAgICAgb25SZXN0b3JlRnJvbUZhbHRhbnRlPXtoYW5kbGVSZXN0b3JlRnJvbUZhbHRhbnRlfQogICAgICAgICAgICAgICAgICAgIGFsbFJvd3M9e2FsbFByb2Nlc3NlZERhdGF9CiAgICAgICAgICAgICAgICAgICAgaGVhZGVycz17aGVhZGVyc30KICAgICAgICAgICAgICAgICAgICBvblVwZGF0ZVJvdz17aGFuZGxlVXBkYXRlUm93fQogICAgICAgICAgICAgICAgICAgIG9uRGVsZXRlUm93PXtoYW5kbGVEZWxldGVSb3d9CiAgICAgICAgICAgICAgICAgICAgb25BZGRSb3c9e2hhbmRsZUFkZFJvd30KICAgICAgICAgICAgICAgICAgICBhbGxTa3VQcm9kdWN0TmFtZXM9e2FsbFNrdVByb2R1Y3ROYW1lc30KICAgICAgICAgICAgICAgICAgICBtYXN0ZXJEYXRhPXttYXN0ZXJEYXRhfQogICAgICAgICAgICAgICAgICAgIGltYWdlTWFwcGluZ3M9e2ltYWdlTWFwcGluZ3N9CiAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRPcmRlcnM9e2VudmlhclNlbGVjdGVkT3JkZXJzfQogICAgICAgICAgICAgICAgICAgIG9uU2VsZWN0aW9uQ2hhbmdlPXtvblVwZGF0ZUVudmlhclNlbGVjdGVkT3JkZXJzfQogICAgICAgICAgICAgICAgICAgIGNucGpGaWx0ZXJNb2RlPXtlbnZpYXJDbnBqRmlsdGVyTW9kZSBhcyBhbnl9CiAgICAgICAgICAgICAgICAgICAgb25DbnBqRmlsdGVyQ2hhbmdlPXtvblVwZGF0ZUVudmlhckNucGpGaWx0ZXJNb2RlfQogICAgICAgICAgICAgICAgLz47CiAgICAgICAgICAgIGNhc2UgJ2F0cmFzYWRvcyc6CiAgICAgICAgICAgICAgICByZXR1cm4gPEF0cmFzYWRvcwogICAgICAgICAgICAgICAgICAgIGFsbFJvd3M9e2dsb2JhbEZpbHRlcmVkRGF0YX0KICAgICAgICAgICAgICAgICAgICBiYWNrb3JkZXJlZEl0ZW1zPXtiYWNrb3JkZXJlZEl0ZW1zfQogICAgICAgICAgICAgICAgICAgIHJlc29sdmVkSXRlbXM9e3Jlc29sdmVkSXRlbXN9CiAgICAgICAgICAgICAgICAgICAgb25BZGRUb0JhY2tvcmRlcj17aGFuZGxlQWRkVG9CYWNrb3JkZXJ9CiAgICAgICAgICAgICAgICAgICAgb25SZXNvbHZlQmFja29yZGVyPXtoYW5kbGVSZXNvbHZlQmFja29yZGVyfQogICAgICAgICAgICAgICAgICAgIG9uVW5yZXNvbHZlQmFja29yZGVyPXtoYW5kbGVVbnJlc29sdmVCYWNrb3JkZXJ9CiAgICAgICAgICAgICAgICAgICAgb25FZGl0QmFja29yZGVyPXtoYW5kbGVFZGl0QmFja29yZGVyfQogICAgICAgICAgICAgICAgICAgIG9uRGVsZXRlUmVzb2x2ZWRJdGVtPXtoYW5kbGVEZWxldGVSZXNvbHZlZEl0ZW19CiAgICAgICAgICAgICAgICAgICAgb25EZWxldGVCYWNrb3JkZXI9e2hhbmRsZURlbGV0ZUJhY2tvcmRlcn0KICAgICAgICAgICAgICAgICAgICBpZFZlbmRhSGVhZGVyPXtpZFZlbmRhSGVhZGVyIHx8ICcnfQogICAgICAgICAgICAgICAgICAgIHNrdUhlYWRlcj17c2t1SGVhZGVyIHx8ICcnfQogICAgICAgICAgICAgICAgICAgIHF1YW50aWRhZGVIZWFkZXI9e3F1YW50aWRhZGVIZWFkZXIgfHwgJyd9CiAgICAgICAgICAgICAgICAgICAgYWxsU2t1UHJvZHVjdE5hbWVzPXtyb3VwYXNTa3VQcm9kdWN0TmFtZXN9CiAgICAgICAgICAgICAgICAgICAgbWFzdGVyRGF0YT17cm91cGFzTWFzdGVyRGF0YX0KICAgICAgICAgICAgICAgICAgICBub21lSGVhZGVyPXtub21lSGVhZGVyIHx8ICcnfQogICAgICAgICAgICAgICAgICAgIGRhdGFIZWFkZXI9e2RhdGFIZWFkZXIgfHwgJyd9CiAgICAgICAgICAgICAgICAgICAgc2hvd01vZGFsPXtzaG93TW9kYWx9CiAgICAgICAgICAgICAgICAgICAgaW1hZ2VNYXBwaW5ncz17aW1hZ2VNYXBwaW5nc30KICAgICAgICAgICAgICAgIC8+OwogICAgICAgICAgICBjYXNlICdlc3RhbXBhcyc6CiAgICAgICAgICAgICAgICByZXR1cm4gPEVzdGFtcGFzCiAgICAgICAgICAgICAgICAgICAgZGF0YT17ZXN0YW1wYXNSb3dzfQogICAgICAgICAgICAgICAgICAgIG9uUm93VXBkYXRlPXtoYW5kbGVFc3RhbXBhQ2hhbmdlfQogICAgICAgICAgICAgICAgICAgIG9uQnVsa1Jvd1VwZGF0ZT17aGFuZGxlQnVsa0VzdGFtcGFDaGFuZ2V9CiAgICAgICAgICAgICAgICAgICAgb25BZGRSb3c9e2hhbmRsZUFkZFJvd30KICAgICAgICAgICAgICAgICAgICBkZWxheVJ1bGVzPXtkZWxheVJ1bGVzfQogICAgICAgICAgICAgICAgICAgIGltYWdlTWFwcGluZ3M9e2ltYWdlTWFwcGluZ3N9CiAgICAgICAgICAgICAgICAgICAgYWN0aXZlVGFiPXtjdXJyZW50U3ViVmlldyBhcyBhbnl9CiAgICAgICAgICAgICAgICAgICAgaXNMb2FkaW5nPXtpc0xvYWRpbmcgfHwgaXNPcmRlcnNMb2FkaW5nfQogICAgICAgICAgICAgICAgICAgIHNldEN1cnJlbnRWaWV3PXtoYW5kbGVWaWV3Q2hhbmdlfQogICAgICAgICAgICAgICAgLz47CiAgICAgICAgICAgIGNhc2UgJ3BhZ2FtZW50byc6CiAgICAgICAgICAgICAgICByZXR1cm4gPFBhZ2FtZW50bwogICAgICAgICAgICAgICAgICAgIHBlbmRpbmdQYXltZW50cz17cGVuZGluZ1BheW1lbnRzfQogICAgICAgICAgICAgICAgICAgIGFyY2hpdmVkUGF5bWVudHM9e2FyY2hpdmVkUGF5bWVudHN9CiAgICAgICAgICAgICAgICAgICAgb25NdWx0aXBsZVBheW1lbnRVcGRhdGU9e2hhbmRsZU11bHRpcGxlUGF5bWVudFVwZGF0ZXN9CiAgICAgICAgICAgICAgICAgICAgc2hvd01vZGFsPXtzaG93TW9kYWx9CiAgICAgICAgICAgICAgICAgICAgYWN0aXZlVGFiPXtjdXJyZW50U3ViVmlldyBhcyBhbnl9CiAgICAgICAgICAgICAgICAgICAgb25PcGVuRHJpdmVTZWxlY3Rpb249eyhjYWxsYmFjaykgPT4gewogICAgICAgICAgICAgICAgICAgICAgICBzZXREcml2ZVNlbGVjdENhbGxiYWNrKCgpID0+IGNhbGxiYWNrKTsKICAgICAgICAgICAgICAgICAgICAgICAgc2V0SXNHb29nbGVEcml2ZU9wZW4odHJ1ZSk7CiAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIC8+OwogICAgICAgICAgICBjYXNlICd2ZXJpZmljYWNhbyc6CiAgICAgICAgICAgICAgICBjb25zdCBmaWx0ZXJlZEFyY2hpdmVkT3JkZXJzID0gYXJjaGl2ZWRTYXZlZE9yZGVycy5maWx0ZXIob3JkZXIgPT4gewogICAgICAgICAgICAgICAgICAgIGlmIChzZWxlY3RlZENucGogIT09ICdUb2RvcycgJiYgb3JkZXIuY25waiAhPT0gc2VsZWN0ZWRDbnBqICYmIG9yZGVyLmNucGogIT09ICdBbWJvcycpIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgICAgICBjb25zdCBjaGFubmVsRmlsdGVyID0gZ2xvYmFsRmlsdGVyc1snY2FuYWwnXSBhcyBzdHJpbmc7CiAgICAgICAgICAgICAgICAgICAgaWYgKGNoYW5uZWxGaWx0ZXIgJiYgb3JkZXIuc3RvcmUgIT09IGNoYW5uZWxGaWx0ZXIpIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgcmV0dXJuIDxWZXJpZmljYWNhbyBhcmNoaXZlZFNhdmVkT3JkZXJzPXtmaWx0ZXJlZEFyY2hpdmVkT3JkZXJzfSB2ZXJpZmljYXRpb25TdGF0dXM9e3ZlcmlmaWNhdGlvblN0YXR1c30gb25TYXZlVmVyaWZpY2F0aW9uPXtoYW5kbGVTYXZlVmVyaWZpY2F0aW9ufSBvblVuZG89e2hhbmRsZVVuZG9WZXJpZmljYXRpb259IHByaWNlVGFibGU9e3ByaWNlVGFibGV9IGFsbFJvd3M9e2dsb2JhbEZpbHRlcmVkRGF0YX0gaGVhZGVycz17aGVhZGVyc30gc2hvd01vZGFsPXtzaG93TW9kYWx9IG9uVXBkYXRlUm93PXtoYW5kbGVVcGRhdGVSb3d9IGltYWdlTWFwcGluZ3M9e2ltYWdlTWFwcGluZ3N9IC8+OwogICAgICAgICAgICBjYXNlICdzZXBhcmFjYW8nOgogICAgICAgICAgICAgICAgcmV0dXJuIDxTZXBhcmFjYW8KICAgICAgICAgICAgICAgICAgICBwaWNraW5nUHJvcHM9e3sKICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyczogaGVhZGVycywKICAgICAgICAgICAgICAgICAgICAgICAgZGF0YTogb3BlcmF0aW9uYWxGaWx0ZXJlZERhdGEsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uUm93Q2xpY2s6IGhhbmRsZVZpZXdPcmRlckRldGFpbHMsCiAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNraW5nTWFwcGluZ3M6IHRyYWNraW5nTWFwcGluZ3MsCiAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlTWFwcGluZ3M6IGltYWdlTWFwcGluZ3MKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgIHBpY2tpbmdSb3VwYXNQcm9wcz17ewogICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXJzOiBoZWFkZXJzLAogICAgICAgICAgICAgICAgICAgICAgICBkYXRhOiBvcGVyYXRpb25hbEZpbHRlcmVkRGF0YSwKICAgICAgICAgICAgICAgICAgICAgICAgb25Sb3dDbGljazogaGFuZGxlVmlld09yZGVyRGV0YWlscywKICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2tpbmdNYXBwaW5nczogdHJhY2tpbmdNYXBwaW5ncywKICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2VNYXBwaW5nczogaW1hZ2VNYXBwaW5ncwogICAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgICAgcGVuZGluZ0Nhc2VzQ291bnQ9e3BlbmRpbmdDYXBpbmhhc0NvdW50fQogICAgICAgICAgICAgICAgICAgIHBlbmRpbmdSb3VwYXNDb3VudD17cGVuZGluZ1JvdXBhc0NvdW50fQogICAgICAgICAgICAgICAgICAgIGFjdGl2ZVRhYj17Y3VycmVudFN1YlZpZXcgYXMgJ3JvdXBhcycgfCAnY2FwaW5oYXMnIHwgdW5kZWZpbmVkfQogICAgICAgICAgICAgICAgLz47CiAgICAgICAgICAgIGRlZmF1bHQ6DQo=}
+        switch (currentView) {
+            case 'dashboard':
+                return dashboardMetrics ? <Dashboard
+                    metrics={dashboardMetrics}
+                    setCurrentView={handleViewChange}
+                    pendingCapinhasCount={pendingCapinhasCount}
+                    invalidSkuCount={invalidSkuCount}
+                    savedOrdersCount={savedOrders.length}
+                    fazerArteCount={fazerArteCount}
+                /> : null;
+            case 'upload':
+                return <FileUpload {...fileUploadProps} />;
+            case 'data':
+                return <DataTable headers={headers} data={globalFilteredData} initialFilter={initialFilterForDataTable} onFilterApplied={resetInitialFilter} savedProductNames={savedProductNames} trackingMappings={trackingMappings} />;
+            case 'pedidos':
+                return <Pedidos
+                    headers={headers}
+                    data={allProcessedData}
+                    globalFilters={globalFilters}
+                    onFiltersChange={setGlobalFilters}
+                    onFilteredDataChange={handleFilteredDataChange}
+                    onRowClick={handleViewOrderDetails}
+                    imageMappings={imageMappings}
+                    showModal={showModal}
+                    trackingMappings={trackingMappings}
+                />;
+            case 'montar-pedido':
+                console.log('[APP] Rendering CriarPedido (Montar View). Data length:', operationalFilteredData.length);
+                return <CriarPedido
+                    headers={headers}
+                    data={operationalFilteredData}
+                    onSaveOrder={handleSaveOrder}
+                    savedOrders={savedOrders}
+                    archivedSavedOrders={archivedSavedOrders}
+                    pendingPayments={pendingPayments}
+                    archivedPayments={archivedPayments}
+                    onRowClick={handleRowClick}
+                    onViewOrderDetails={handleViewOrderDetails}
+                    backorderedItems={backorderedItems}
+                    onAddToBackorder={handleAddToBackorder}
+                    setCurrentView={handleViewChange}
+                    onResolveBackorder={handleResolveBackorder}
+                    showModal={showModal}
+                    priceTable={priceTable}
+                    onUpdateRow={handleUpdateRow}
+                    onBulkUpdateRows={handleBulkUpdateRows}
+                    onDeleteRow={handleDeleteRow}
+                    onAddRow={handleAddRow}
+                    allSkuProductNames={roupasSkuProductNames}
+                    masterData={roupasMasterData}
+                    imageMappings={imageMappings}
+                    trackingMappings={trackingMappings}
+                    deletedOrderIds={montarExcludedOrderIds}
+                    onSetDeletedOrderIds={setMontarExcludedOrderIds}
+                    selectedStore={criarPedidoSelectedStore}
+                    onSetSelectedStore={onUpdateCriarPedidoSelectedStore}
+                    selectedProduct={criarPedidoSelectedProduct}
+                    onSetSelectedProduct={onUpdateCriarPedidoSelectedProduct}
+                />;
+            case 'enviar-pedido':
+                console.log('[APP] Passing to EnviarPedido - allProcessedData length:', allProcessedData.length);
+                return <EnviarPedido
+                    savedOrders={savedOrders}
+                    archivedSavedOrders={archivedSavedOrders}
+                    onDeleteOrder={handleDeleteOrder}
+                    onRecoverOrder={handleRecoverOrder}
+                    onDeleteArchivedOrder={handleDeleteArchivedOrder}
+                    priceTable={priceTable}
+                    onSendOrders={handleSendOrders}
+                    showModal={showModal}
+                    contacts={contacts}
+                    onSplitOrder={handleSplitOrder}
+                    onRestoreFromFaltante={handleRestoreFromFaltante}
+                    allRows={allProcessedData}
+                    headers={headers}
+                    onUpdateRow={handleUpdateRow}
+                    onDeleteRow={handleDeleteRow}
+                    onAddRow={handleAddRow}
+                    allSkuProductNames={allSkuProductNames}
+                    masterData={masterData}
+                    imageMappings={imageMappings}
+                    selectedOrders={enviarSelectedOrders}
+                    onSelectionChange={onUpdateEnviarSelectedOrders}
+                    cnpjFilterMode={enviarCnpjFilterMode as any}
+                    onCnpjFilterChange={onUpdateEnviarCnpjFilterMode}
+                />;
+            case 'atrasados':
+                return <Atrasados
+                    allRows={globalFilteredData}
+                    backorderedItems={backorderedItems}
+                    resolvedItems={resolvedItems}
+                    onAddToBackorder={handleAddToBackorder}
+                    onResolveBackorder={handleResolveBackorder}
+                    onUnresolveBackorder={handleUnresolveBackorder}
+                    onEditBackorder={handleEditBackorder}
+                    onDeleteResolvedItem={handleDeleteResolvedItem}
+                    onDeleteBackorder={handleDeleteBackorder}
+                    idVendaHeader={idVendaHeader || ''}
+                    skuHeader={skuHeader || ''}
+                    quantidadeHeader={quantidadeHeader || ''}
+                    allSkuProductNames={roupasSkuProductNames}
+                    masterData={roupasMasterData}
+                    nomeHeader={nomeHeader || ''}
+                    dataHeader={dataHeader || ''}
+                    showModal={showModal}
+                    imageMappings={imageMappings}
+                />;
+            case 'estampas':
+                return <Estampas
+                    data={estampasRows}
+                    onRowUpdate={handleEstampaChange}
+                    onBulkRowUpdate={handleBulkEstampaChange}
+                    onAddRow={handleAddRow}
+                    delayRules={delayRules}
+                    imageMappings={imageMappings}
+                    activeTab={currentSubView as any}
+                    isLoading={isLoading || isOrdersLoading}
+                    setCurrentView={handleViewChange}
+                />;
+            case 'pagamento':
+                return <Pagamento
+                    pendingPayments={pendingPayments}
+                    archivedPayments={archivedPayments}
+                    onMultiplePaymentUpdate={handleMultiplePaymentUpdates}
+                    showModal={showModal}
+                    activeTab={currentSubView as any}
+                    onOpenDriveSelection={(callback) => {
+                        setDriveSelectCallback(() => callback);
+                        setIsGoogleDriveOpen(true);
+                    }}
+                />;
+            case 'verificacao':
+                const filteredArchivedOrders = archivedSavedOrders.filter(order => {
+                    if (selectedCnpj !== 'Todos' && order.cnpj !== selectedCnpj && order.cnpj !== 'Ambos') return false;
+                    const channelFilter = globalFilters['canal'] as string;
+                    if (channelFilter && order.store !== channelFilter) return false;
+                    return true;
+                });
+                return <Verificacao archivedSavedOrders={filteredArchivedOrders} verificationStatus={verificationStatus} onSaveVerification={handleSaveVerification} onUndo={handleUndoVerification} priceTable={priceTable} allRows={globalFilteredData} headers={headers} showModal={showModal} onUpdateRow={handleUpdateRow} imageMappings={imageMappings} />;
+            case 'separacao':
+                return <Separacao
+                    pickingProps={{
+                        headers: headers,
+                        data: operationalFilteredData,
+                        onRowClick: handleViewOrderDetails,
+                        trackingMappings: trackingMappings,
+                        imageMappings: imageMappings
+                    }}
+                    pickingRoupasProps={{
+                        headers: headers,
+                        data: operationalFilteredData,
+                        onRowClick: handleViewOrderDetails,
+                        trackingMappings: trackingMappings,
+                        imageMappings: imageMappings
+                    }}
+                    pendingCasesCount={pendingCapinhasCount}
+                    pendingRoupasCount={pendingRoupasCount}
+                    activeTab={currentSubView as 'roupas' | 'capinhas' | undefined}
+                />;
+            default:

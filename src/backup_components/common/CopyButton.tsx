@@ -1,1 +1,39 @@
-﻿@{data=aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOw0KDQppbnRlcmZhY2UgQ29weUJ1dHRvblByb3BzIHsNCiAgICB0ZXh0OiBzdHJpbmc7DQogICAgY2xhc3NOYW1lPzogc3RyaW5nOw0KICAgIGljb25TaXplPzogc3RyaW5nOw0KICAgIHRpdGxlPzogc3RyaW5nOw0KfQ0KDQpleHBvcnQgY29uc3QgQ29weUJ1dHRvbjogUmVhY3QuRkM8Q29weUJ1dHRvblByb3BzPiA9ICh7DQogICAgdGV4dCwNCiAgICBjbGFzc05hbWUsDQogICAgaWNvblNpemUgPSAiaC0zIHctMyIsDQogICAgdGl0bGUgPSAiQ29waWFyIElEIg0KfSkgPT4gew0KICAgIGNvbnN0IFtjb3BpZWQsIHNldENvcGllZF0gPSB1c2VTdGF0ZShmYWxzZSk7DQoNCiAgICBjb25zdCBoYW5kbGVDb3B5ID0gKGU6IFJlYWN0Lk1vdXNlRXZlbnQpID0+IHsNCiAgICAgICAgZS5zdG9wUHJvcGFnYXRpb24oKTsNCiAgICAgICAgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQodGV4dCk7DQogICAgICAgIHNldENvcGllZCh0cnVlKTsNCiAgICAgICAgc2V0VGltZW91dCgoKSA9PiBzZXRDb3BpZWQoZmFsc2UpLCAyMDAwKTsNCiAgICB9Ow0KDQogICAgcmV0dXJuICgNCiAgICAgICAgPGJ1dHRvbg0KICAgICAgICAgICAgb25DbGljaz17aGFuZGxlQ29weX0NCiAgICAgICAgICAgIGNsYXNzTmFtZT17YHRyYW5zaXRpb24tYWxsIGFjdGl2ZTpzY2FsZS05MCAke2NvcGllZCA/ICd0ZXh0LWVtZXJhbGQtNTAwIGJnLWVtZXJhbGQtNTAwLzEwJyA6ICd0ZXh0LWdyYXktNDAwIGhvdmVyOnRleHQtcHJpbWFyeS02MDAgaG92ZXI6YmctcHJpbWFyeS01MDAvMTAnfSAke2NsYXNzTmFtZSB8fCAncC0xIHJvdW5kZWQnfWB9DQogICAgICAgICAgICB0aXRsZT17dGl0bGV9DQogICAgICAgICAgICB0eXBlPSJidXR0b24iDQogICAgICAgID4NCiAgICAgICAgICAgIHtjb3BpZWQgPyAoDQogICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT17aWNvblNpemV9IGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPSIzIj48cGF0aCBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBkPSJNNSAxM2w0IDRMMTkgNyIgLz48L3N2Zz4NCiAgICAgICAgICAgICkgOiAoDQogICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT17aWNvblNpemV9IGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPSIyLjUiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGQ9Ik04IDE2SDZhMiAyIDAgMDEtMi0yVjZhMiAyIDAgMDEyLTJoOGEyIDIgMCAwMTIgMnYybS02IDEyaDhhMiAyIDAgMDAyLTJ2LThhMiAyIDAgMDAtMi0yaC04YTIgMiAwIDAwLTIgMnY4YTIgMiAwIDAwMiAyeiIgLz48L3N2Zz4NCiAgICAgICAgICAgICl9DQogICAgICAgIDwvYnV0dG9uPg0KICAgICk7DQp9Ow0K}
+import React, { useState } from 'react';
+
+interface CopyButtonProps {
+    text: string;
+    className?: string;
+    iconSize?: string;
+    title?: string;
+}
+
+export const CopyButton: React.FC<CopyButtonProps> = ({
+    text,
+    className,
+    iconSize = "h-3 w-3",
+    title = "Copiar ID"
+}) => {
+    const [copied, setCopied] = useState(false);
+
+    const handleCopy = (e: React.MouseEvent) => {
+        e.stopPropagation();
+        navigator.clipboard.writeText(text);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+    };
+
+    return (
+        <button
+            onClick={handleCopy}
+            className={`transition-all active:scale-90 ${copied ? 'text-emerald-500 bg-emerald-500/10' : 'text-gray-400 hover:text-primary-600 hover:bg-primary-500/10'} ${className || 'p-1 rounded'}`}
+            title={title}
+            type="button"
+        >
+            {copied ? (
+                <svg xmlns="http://www.w3.org/2000/svg" className={iconSize} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="3"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
+            ) : (
+                <svg xmlns="http://www.w3.org/2000/svg" className={iconSize} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+            )}
+        </button>
+    );
+};

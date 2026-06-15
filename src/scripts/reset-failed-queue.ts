@@ -1,1 +1,36 @@
-﻿@{data=DQovLyBIYXJkY29kZSBlbnYgdmFycyBmb3IgbG9jYWwgZXhlY3V0aW9uIHNpbmNlIGRvdGVudiBpcyBtaXNzaW5nDQpwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkwgPSAiaHR0cHM6Ly9nZWFidmNxY3ltYXFzcXh4ZnF5dy5zdXBhYmFzZS5jbyI7DQpwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZID0gImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltZGxZV0oyWTNGamVXMWhjWE54ZUhobWNYbDNJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk9URTRNVEE1Tnl3aVpYaHdJam95TURnME56VTNNRGszZlEuV0p4cjllU0R6Zzd3ZlBBZ0JONk5nQUxmaVVIYy1EWWV1RmJFcUc4TjBoVSI7DQpwcm9jZXNzLmVudi5USU5ZX0FQSV9UT0tFTl9NVkYgPSAiMTgzMjU4Y2ZmNDc3ZDM2ZDJiNWQ5MTQ3MzBlOGUzZjc4ODZlNWQxNCI7DQpwcm9jZXNzLmVudi5USU5ZX0FQSV9UT0tFTl9NTSA9ICIwMWMwM2UzOWJjMjU1OWIyZjIxYjllOTc5MjEzNzlhYmNiOWM4YWFkIjsNCg0KLy8gTW9jayBjb25zb2xlIHRvIHNlZSBvdXRwdXQgY2xlYXJseSBvciBqdXN0IGxldCBpdCBsb2cNCmFzeW5jIGZ1bmN0aW9uIHJ1bigpIHsNCiAgICBjb25zb2xlLmxvZygn8J+agCBNYW51YWxseSB0cmlnZ2VyaW5nIFJldHJ5IFF1ZXVlIFByb2Nlc3NpbmcgKExPT1AgTU9ERSkuLi4nKTsNCg0KICAgIC8vIER5bmFtaWMgaW1wb3J0IHRvIGVuc3VyZSBlbnYgdmFycyBhcmUgc2V0IGJlZm9yZSBtb2R1bGUgbG9hZHMNCiAgICBjb25zdCB7IHByb2Nlc3NSZXRyeVF1ZXVlIH0gPSBhd2FpdCBpbXBvcnQoJy4uL2FwaS9wcm9jZXNzLXJldHJ5LXF1ZXVlLmpzJyk7DQoNCiAgICBsZXQgcGVuZGluZyA9IHRydWU7DQogICAgbGV0IGN5Y2xlcyA9IDA7DQogICAgY29uc3QgTUFYX0NZQ0xFUyA9IDUwOyAvLyBTYWZldHkgbGltaXQNCg0KICAgIHdoaWxlIChwZW5kaW5nICYmIGN5Y2xlcyA8IE1BWF9DWUNMRVMpIHsNCiAgICAgICAgY3ljbGVzKys7DQogICAgICAgIGNvbnNvbGUubG9nKGBcbvCflIQgQ3ljbGUgJHtjeWNsZXN9LyR7TUFYX0NZQ0xFU30uLi5gKTsNCiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcHJvY2Vzc1JldHJ5UXVldWUoKTsNCg0KICAgICAgICBpZiAocmVzdWx0LnBlbmRpbmdDb3VudCA9PT0gMCkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coJ/CfjokgUXVldWUgaXMgZW1wdHkhJyk7DQogICAgICAgICAgICBwZW5kaW5nID0gZmFsc2U7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhg8J+TiSBQZW5kaW5nOiAke3Jlc3VsdC5wZW5kaW5nQ291bnR9LiBDb250aW51aW5nLi4uYCk7DQogICAgICAgICAgICAvLyBTbWFsbCBkZWxheSB0byBiZSBuaWNlIHRvIEFQSXMNCiAgICAgICAgICAgIGF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCAxMDAwKSk7DQogICAgICAgIH0NCiAgICB9DQogICAgY29uc29sZS5sb2coJ+KchSBEb25lLicpOw0KfQ0KDQpydW4oKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+
+// Hardcode env vars for local execution since dotenv is missing
+process.env.SUPABASE_URL = "https://geabvcqcymaqsqxxfqyw.supabase.co";
+process.env.SUPABASE_SERVICE_ROLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU";
+process.env.TINY_API_TOKEN_MVF = "183258cff477d36d2b5d914730e8e3f7886e5d14";
+process.env.TINY_API_TOKEN_MM = "01c03e39bc2559b2f21b9e97921379abcb9c8aad";
+
+// Mock console to see output clearly or just let it log
+async function run() {
+    console.log('🚀 Manually triggering Retry Queue Processing (LOOP MODE)...');
+
+    // Dynamic import to ensure env vars are set before module loads
+    const { processRetryQueue } = await import('../api/process-retry-queue.js');
+
+    let pending = true;
+    let cycles = 0;
+    const MAX_CYCLES = 50; // Safety limit
+
+    while (pending && cycles < MAX_CYCLES) {
+        cycles++;
+        console.log(`\n🔄 Cycle ${cycles}/${MAX_CYCLES}...`);
+        const result = await processRetryQueue();
+
+        if (result.pendingCount === 0) {
+            console.log('🎉 Queue is empty!');
+            pending = false;
+        } else {
+            console.log(`📉 Pending: ${result.pendingCount}. Continuing...`);
+            // Small delay to be nice to APIs
+            await new Promise(r => setTimeout(r, 1000));
+        }
+    }
+    console.log('✅ Done.');
+}
+
+run().catch(console.error);

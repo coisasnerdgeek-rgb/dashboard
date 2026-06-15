@@ -1,1 +1,30 @@
-﻿@{data=aW1wb3J0IGZzIGZyb20gJ2ZzJzsNCmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnOw0KDQpjb25zdCBmaWxlUGF0aCA9ICdjOlxcVXNlcnNcXG1pY3JpXFxEb3dubG9hZHNcXGNvcHktb2YtY29weS1vZi1jb3B5LW9mLWRhc2hib2FyZC1kZS1wZWRpZG9zLTQ1XFxjb21wb25lbnRzXFxDcmlhclBlZGlkby50c3gnOw0KbGV0IGNvbnRlbnQgPSBmcy5yZWFkRmlsZVN5bmMoZmlsZVBhdGgsICd1dGY4Jyk7DQoNCi8vIDEuIEFkZCByZW1vdmVNb250YWdlbUV4Y2x1c2lvbiBpbiB0aGUgZmlyc3QgbWF0Y2hpbmcgYmxvY2sgKFJlc3RhdXJhcikNCmNvbnRlbnQgPSBjb250ZW50LnJlcGxhY2UoDQogICAgL29uU2V0RGVsZXRlZE9yZGVySWRzXChwcmV2ID0+IFx7XHMrY29uc3QgbmV4dCA9IG5ldyBTZXRcKHByZXZcKTtccytuZXh0XC5kZWxldGVcKGlkXCk7XHMrcmV0dXJuIG5leHQ7XHMrXH1cKTsvZywNCiAgICBgb25TZXREZWxldGVkT3JkZXJJZHMocHJldiA9PiB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IG5leHQgPSBuZXcgU2V0KHByZXYpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuZXh0LmRlbGV0ZShpZCk7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlbW92ZU1vbnRhZ2VtRXhjbHVzaW9uKFN0cmluZyhpZCkpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gbmV4dDsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KTtgDQopOw0KDQovLyAyLiBGaXggdGhlIHNlY29uZCBibG9jayAoRXhjbHVzw6NvIFBlcm1hbmVudGUpIC0gaXQgdXNlZCBzZXREZWxldGVkT3JkZXJJZHMgaW5jb3JyZWN0bHkNCmNvbnRlbnQgPSBjb250ZW50LnJlcGxhY2UoDQogICAgL3NldERlbGV0ZWRPcmRlcklkc1wocHJldiA9PiBce1xzK2NvbnN0IG5leHQgPSBuZXcgU2V0XChwcmV2XCk7XHMrbmV4dFwuZGVsZXRlXChpZFwpO1xzK3JldHVybiBuZXh0O1xzK1x9XCk7L2csDQogICAgYG9uU2V0RGVsZXRlZE9yZGVySWRzKHByZXYgPT4gew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgbmV4dCA9IG5ldyBTZXQocHJldik7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuZXh0LmRlbGV0ZShpZCk7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZW1vdmVNb250YWdlbUV4Y2x1c2lvbihTdHJpbmcoaWQpKTsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBuZXh0Ow0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KTtgDQopOw0KDQpmcy53cml0ZUZpbGVTeW5jKGZpbGVQYXRoLCBjb250ZW50KTsNCmNvbnNvbGUubG9nKCfinIUgQ3JpYXJQZWRpZG8udHN4IGZpeGVkIHN1Y2Nlc3NmdWxseSEnKTsNCg==}
+import fs from 'fs';
+import path from 'path';
+
+const filePath = 'c:\\Users\\micri\\Downloads\\copy-of-copy-of-copy-of-dashboard-de-pedidos-45\\components\\CriarPedido.tsx';
+let content = fs.readFileSync(filePath, 'utf8');
+
+// 1. Add removeMontagemExclusion in the first matching block (Restaurar)
+content = content.replace(
+    /onSetDeletedOrderIds\(prev => \{\s+const next = new Set\(prev\);\s+next\.delete\(id\);\s+return next;\s+\}\);/g,
+    `onSetDeletedOrderIds(prev => {
+                                                                                                        const next = new Set(prev);
+                                                                                                        next.delete(id);
+                                                                                                        removeMontagemExclusion(String(id));
+                                                                                                        return next;
+                                                                                                    });`
+);
+
+// 2. Fix the second block (Exclusão Permanente) - it used setDeletedOrderIds incorrectly
+content = content.replace(
+    /setDeletedOrderIds\(prev => \{\s+const next = new Set\(prev\);\s+next\.delete\(id\);\s+return next;\s+\}\);/g,
+    `onSetDeletedOrderIds(prev => {
+                                                                                                            const next = new Set(prev);
+                                                                                                            next.delete(id);
+                                                                                                            removeMontagemExclusion(String(id));
+                                                                                                            return next;
+                                                                                                        });`
+);
+
+fs.writeFileSync(filePath, content);
+console.log('✅ CriarPedido.tsx fixed successfully!');

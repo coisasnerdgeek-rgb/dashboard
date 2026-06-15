@@ -1,1 +1,232 @@
-﻿@{data=ZXhwb3J0IHR5cGUgVmlldyA9ICdkYXNoYm9hcmQnIHwgJ3VwbG9hZCcgfCAnZGF0YScgfCAncGVkaWRvcycgfCAnbW9udGFyLXBlZGlkbycgfCAnZW52aWFyLXBlZGlkbycgfCAnYXRyYXNhZG9zJyB8ICdlc3RhbXBhcycgfCAncGFnYW1lbnRvJyB8ICd2ZXJpZmljYWNhbycgfCAnc2VwYXJhY2FvJyB8ICdwcmVwYXJhbmRvLWVudmlvJyB8ICdwcmVjb3MnIHwgJ3NrdScgfCAnY2FwaW5oYXMnIHwgJ2ltYWdlbSc7CgpleHBvcnQgdHlwZSBUYWJsZVJvdyA9IHsKICAvLyBVcGRhdGUgaW5kZXggc2lnbmF0dXJlIHRvIGJlIGNvbXBhdGlibGUgd2l0aCBhbGwgcHJvcGVydGllcywgZXNwZWNpYWxseSBfdXBkYXRlZEZpZWxkcyBhbmQgX2VkaXRIaXN0b3J5LgogIFtrZXk6IHN0cmluZ106IHN0cmluZyB8IG51bWJlciB8IGJvb2xlYW4gfCBSZWNvcmQ8c3RyaW5nLCBib29sZWFuPiB8IFRhYmxlUm93W10gfCB1bmRlZmluZWQgfCBudWxsOwogIGNucGo/OiAnTU0nIHwgJ01WRic7CiAgX3VwZGF0ZWRGaWVsZHM/OiBSZWNvcmQ8c3RyaW5nLCBib29sZWFuPjsKICBfZWRpdEhpc3Rvcnk/OiBUYWJsZVJvd1tdOwogIF9jcmVhdGVkSXRlbXM/OiBUYWJsZVJvd1tdOwogIF91bmlxdWVJZD86IHN0cmluZyB8IG51bWJlcjsKICBfaXNBdnVsc28/OiBib29sZWFuOwogIF9pc0VkaXRlZD86IGJvb2xlYW47Cn07CgpleHBvcnQgdHlwZSBQcm9jZXNzZWRUYWJsZVJvdyA9IFRhYmxlUm93ICYgewogIF9pZFZlbmRhOiBzdHJpbmc7CiAgX2Vjb21tZXJjZVN0b3JlOiBzdHJpbmc7CiAgX3NrdURlc2NyaXB0aW9uOiBzdHJpbmc7CiAgX2NhdGVnb3J5RGlzcGxheTogc3RyaW5nOwogIF9lZmZlY3RpdmVRdWFudGl0eTogbnVtYmVyOwogIF92YWxvclRvdGFsOiBudW1iZXI7CiAgX2lzQ2FuY2VsbGVkOiBib29sZWFuOwogIF9pc0tpdDogYm9vbGVhbjsKICBfcHJvZHVjdE5hbWU6IHN0cmluZzsKICBfY29sb3JOYW1lOiBzdHJpbmc7CiAgX3NpemVOYW1lOiBzdHJpbmc7Cn07CgoKZXhwb3J0IHR5cGUgUHJpY2VEYXRhID0gUmVjb3JkPHN0cmluZywgUmVjb3JkPHN0cmluZywgbnVtYmVyIHwgbnVsbD4+OwoKZXhwb3J0IGludGVyZmFjZSBQcmljZVByb2R1Y3QgewogIGlkOiBzdHJpbmc7CiAgY2F0ZWdvcnk6IHN0cmluZzsKICBwcm9kdWN0OiBzdHJpbmc7CiAgc2t1UHJvZHVjdE5hbWU6IHN0cmluZyB8IG51bGw7CiAgcHJpY2VzOiBQcmljZURhdGE7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQmFja29yZGVyZWRJdGVtIHsKICBpZDogc3RyaW5nOwogIGJhY2tvcmRlckRhdGU6IHN0cmluZzsKICBvcmlnaW5hbFJvdzogVGFibGVSb3c7CiAgZWRpdGVkRGF0YT86IHsKICAgIHNrdTogc3RyaW5nOwogICAgcXVhbnRpdHk6IG51bWJlcjsKICB9W107CiAgcmVzb2x2ZWREYXRlPzogc3RyaW5nOwogIHN0b3JlPzogc3RyaW5nOwogIG9ic2VydmF0aW9uPzogc3RyaW5nOwogIGl0ZW1UeXBlPzogJ2VzdGFtcGEnIHwgJ2NhcGluaGEnOwp9CgpleHBvcnQgaW50ZXJmYWNlIEVzdGFtcGFSb3cgewogIGlkOiBzdHJpbmc7CiAgcmFzdHJlaW86IHN0cmluZzsKICBjb2RWZW5kYTogc3RyaW5nOwogIGxpbms6IHN0cmluZzsKICBjYW5hbDogc3RyaW5nOwogIGZvcm5lY2Vkb3I6IHN0cmluZzsKICBzdGF0dXM6IHN0cmluZzsKICBwZWNhOiBzdHJpbmc7CiAgbG9jYWxFc3RhbXBhOiBzdHJpbmc7CiAgY29yOiBzdHJpbmc7CiAgdGFtYW5obzogc3RyaW5nOwogIHF1YW50aWRhZGU6IG51bWJlcjsKICBvYnNlcnZhY2FvOiBzdHJpbmc7CiAgdHJhdGFkbzogYm9vbGVhbjsKICBkYXRhOiBzdHJpbmc7CiAgTDogc3RyaW5nOwogIGZ1bGxEYXRlOiBzdHJpbmc7CiAgZGF0YVByZXZpc3RhPzogc3RyaW5nOwogIGFyYW1hZG9MZXRyYT86IHN0cmluZzsKICBhcmFtYWRvTnVtZXJvPzogc3RyaW5nOwogIGNsaWVudGU6IHN0cmluZzsKICBub21lRXN0YW1wYT86IHN0cmluZzsKICBza3U6IHN0cmluZzsKICBnb29nbGVEcml2ZUZvbGRlcklkPzogc3RyaW5nOwogIGdvb2dsZURyaXZlSW1hZ2VzPzogc3RyaW5nOyAvLyBKU09OIHN0cmluZyBvZiBEcml2ZUltYWdlW10KICBsaW5rUGVkaWRvPzogc3RyaW5nOyAvLyBVUkwgcGVyc29uYWxpemFkYSBkbyBwZWRpZG8KICBhcnRlUHJvbnRhSWQ/OiBzdHJpbmc7IC8vIElEIGRhIHBhc3RhIG91IHBlZGlkbyBwYXJhIGJ1c2NhciBpbWFnZW5zIGRpcmV0YW1lbnRlCiAgYXJhbWFkb1JldGlyYWRvPzogYm9vbGVhbjsKICBhcmFtYWRvRGF0YUNvbG9jYWNhbz86IHN0cmluZzsKICBhcmFtYWRvRGF0YVJldGlyYWRhPzogc3RyaW5nOwogIHVwZGF0ZWRBdD86IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBPcmRlclRvdGFscyB7CiAgdG90YWxCcmFuY286IG51bWJlcjsKICB0b3RhbENvbG9yaWRvOiBudW1iZXI7CiAgdG90YWxHZXJhbDogbnVtYmVyOwogIHRvdGFsRXNwZWNpYWlzPzogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIFNhdmVkT3JkZXIgewogIGlkOiBzdHJpbmc7CiAgcHJvZHVjdDogc3RyaW5nOwogIHN0b3JlOiBzdHJpbmc7CiAgY25wajogJ01NJyB8ICdNVkYnIHwgJ0FtYm9zJzsKICBxdWFudGl0aWVzOiBSZWNvcmQ8c3RyaW5nLCBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+PjsKICBjb2xvcnM6IHN0cmluZ1tdOwogIHNpemVzOiBzdHJpbmdbXTsKICB0b3RhbHM6IE9yZGVyVG90YWxzOwogIGhhc01pc3NpbmdJdGVtcz86IGJvb2xlYW47CiAgZWRpdGVkQ2VsbHM/OiBSZWNvcmQ8c3RyaW5nLCBSZWNvcmQ8c3RyaW5nLCAnZWRpdGVkJyB8ICdkZWxldGVkJz4+OwogIF9zb3VyY2VSb3dJZHM/OiAoc3RyaW5nIHwgbnVtYmVyKVtdOwogIF9vcmlnaW5hbFN0b3JlPzogc3RyaW5nOyAvLyBPcmlnaW5hbCBzdG9yZSB3aGVuIEZBTFRBTlRFIGluIGRpZmZlcmVudCBzdG9yZQp9CgpleHBvcnQgaW50ZXJmYWNlIEFyY2hpdmVkU2F2ZWRPcmRlciBleHRlbmRzIFNhdmVkT3JkZXIgewogIGFyY2hpdmVkRGF0ZTogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIFBheW1lbnRJdGVtIHsKICBpZDogc3RyaW5nOwogIHByb2R1Y3Q6IHN0cmluZzsKICBzdG9yZTogc3RyaW5nOwogIGNucGo6ICdNTScgfCAnTVZGJyB8ICdBbWJvcyc7CiAgc2VudERhdGU6IHN0cmluZzsgLy8gRGF0YSBlbSBxdWUgbyBwZWRpZG8gZm9pIGNyaWFkby9lbnZpYWRvIHBhcmEgcGFnYW1lbnRvCiAgdG90YWxWYWx1ZTogbnVtYmVyOwogIG9ic2VydmF0aW9uOiBzdHJpbmc7CiAgdG90YWxJdGVtczogbnVtYmVyOwogIC8vIENhbXBvcyBub3Zvcy9hdHVhbGl6YWRvcyBwYXJhIHJhc3RyZWFtZW50byBkZSBwYWdhbWVudG8KICBzdGF0dXM6ICdwZW5kaW5nJyB8ICdwYXJ0aWFsbHlfcGFpZCcgfCAncGFpZCc7CiAgYW1vdW50UGFpZDogbnVtYmVyOwogIHBheW1lbnRIaXN0b3J5OiB7CiAgICBkYXRlOiBzdHJpbmc7CiAgICBhbW91bnQ6IG51bWJlcjsKICAgIHByb29mVXJsPzogc3RyaW5nOyAvLyBMaW5rIHBhcmEgbyBjb21wcm92YW50ZSAoRHJpdmUgb3UgZXh0ZXJubykKICB9W107Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQ29udGFjdCB7CiAgaWQ6IHN0cmluZzsKICBzdG9yZTogc3RyaW5nOwogIG5hbWU/OiBzdHJpbmc7CiAgd2hhdHNhcHA/OiBzdHJpbmc7CiAgZW1haWw/OiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgVmVyaWZpY2F0aW9uSXRlbVN0YXR1cyB7CiAgZXhwZWN0ZWQ6IG51bWJlcjsKICByZWNlaXZlZDogbnVtYmVyIHwgbnVsbDsgLy8gbnVsbCBzaWduaWZpY2EgbsOjbyB2ZXJpZmljYWRvCn0KCmV4cG9ydCBpbnRlcmZhY2UgVmVyaWZpY2F0aW9uU3RhdHVzIHsKICBub3Rlczogc3RyaW5nOwogIGl0ZW1zOiBSZWNvcmQ8c3RyaW5nLCBSZWNvcmQ8c3RyaW5nLCBWZXJpZmljYXRpb25JdGVtU3RhdHVzPj47IC8vIHsgW2NvbG9yXTogeyBbc2l6ZV06IHN0YXR1cyB9IH0KICBzdGF0dXM6ICdwZW5kaW5nJyB8ICdpbi1wcm9ncmVzcycgfCAnZGlzY3JlcGFuY3knIHwgJ3ZlcmlmaWVkJzsKICBsYXN0Q2hlY2tlZD86IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBQaG9uZUNhc2VNb2RlbCB7CiAgbmFtZTogc3RyaW5nOwogIGluU3RvY2s6IGJvb2xlYW47Cn0KCmV4cG9ydCBpbnRlcmZhY2UgSW1hZ2VDYXRlZ29yeSB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgcGFyZW50SWQ/OiBzdHJpbmcgfCBudWxsOyAvLyBudWxsIG9yIHVuZGVmaW5lZCA9IHJvb3QgY2F0ZWdvcnkKfQoKZXhwb3J0IGludGVyZmFjZSBTdG9yZSB7CiAgaWQ/OiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIHR5cGVzOiBzdHJpbmdbXTsKfQoKZXhwb3J0IGludGVyZmFjZSBEZWxheVJ1bGVzIHsKICBbc3RvcmVOYW1lOiBzdHJpbmddOiB7CiAgICBvblRpbWU6IG51bWJlcjsKICAgIGF0UmlzazogbnVtYmVyOwogIH07Cn0KCmV4cG9ydCBpbnRlcmZhY2UgU3luY1Byb2dyZXNzIHsKICBpc1Zpc2libGU6IGJvb2xlYW47CiAgc3RhdHVzOiAnc2VhcmNoaW5nJyB8ICdwcm9jZXNzaW5nJyB8ICdjb21wbGV0ZWQnIHwgJ2Vycm9yJzsKICBtZXNzYWdlOiBzdHJpbmc7CiAgcGVyY2VudGFnZTogbnVtYmVyOwogIHRvdGFsUHJvY2Vzc2VkOiBudW1iZXI7CiAgdG90YWxQZW5kaW5nOiBudW1iZXI7CiAgdG90YWxGYWlsZWQ6IG51bWJlcjsKICBpc01pbmltaXplZD86IGJvb2xlYW47Cn0KCmV4cG9ydCBpbnRlcmZhY2UgRHJpdmVJbWFnZSB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgdGh1bWJuYWlsTGluazogc3RyaW5nOwogIHdlYlZpZXdMaW5rOiBzdHJpbmc7CiAgd2ViQ29udGVudExpbms/OiBzdHJpbmc7CiAgbWltZVR5cGU/OiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTG90ZSB7CiAgaWQ6IHN0cmluZzsKICBudW1lcm9Mb3RlOiBzdHJpbmc7IC8vIE7Dum1lcm8gZG8gbG90ZSAoZXg6ICIxMUEiLCAiMDAxIiwgIkJBVENILTEyMyIsIGV0Yy4pCiAgaW1hZ2VtVXJsOiBzdHJpbmc7IC8vIFByaW1hcnkgaW1hZ2UgVVJMIChmb3IgYmFja3dhcmQgY29tcGF0aWJpbGl0eSkKICBpbWFnZW5zPzogc3RyaW5nW107IC8vIEFycmF5IG9mIGFsbCBpbWFnZSBVUkxzIGZvciB0aGlzIGxvdGUKICBkYXRhQ3JpYWNhbzogc3RyaW5nOyAvLyBJU08gZGF0ZQogIHRodW1ibmFpbD86IHN0cmluZzsgLy8gT3B0aW9uYWwgdGh1bWJuYWlsIFVSTAp9CgpleHBvcnQgaW50ZXJmYWNlIE1hcmtldHBsYWNlRmVlIHsKICBpZD86IHN0cmluZzsKICBtYXJrZXRwbGFjZTogc3RyaW5nOyAvLyBDb2RlOiBTSCwgTUwsIEFNLCBldGMuCiAgbmFtZTogc3RyaW5nOwogIGNvbW1pc3Npb25fcGVyY2VudDogbnVtYmVyOwogIGZpeGVkX2ZlZTogbnVtYmVyOwogIHRheF9yYXRlOiBudW1iZXI7CiAgaXNfYWN0aXZlOiBib29sZWFuOwogIHJ1bGVzX2pzb24/OiBSZWNvcmQ8c3RyaW5nLCBhbnk+OyAvLyBGbGV4aWJsZSBmb3IgYWR2YW5jZWQgcnVsZXMKfQoKZXhwb3J0IGludGVyZmFjZSBNZXRyaWNSb3cgZXh0ZW5kcyBUYWJsZVJvdyB7CiAgY2hhbm5lbDogc3RyaW5nOwogIGlkOiBzdHJpbmc7CiAgcHJvZHVjdDogc3RyaW5nOwogIHNrdTogc3RyaW5nOwogIHZhbG9yOiBudW1iZXI7CiAgdG90YWw6IG51bWJlcjsKICBsdWNybzogbnVtYmVyOwogIGx1Y3JvUGVyY2VudDogbnVtYmVyOwogIHRheGFzOiBudW1iZXI7CiAgaW1wb3N0bzogbnVtYmVyOwogIGN1c3RvOiBudW1iZXI7CiAgcm9pOiBudW1iZXI7CiAgcXVhbnRpZGFkZTogbnVtYmVyOwogIGRldGFpbHM/OiBzdHJpbmdbXTsKfQ==}
+export type View = 'dashboard' | 'upload' | 'data' | 'pedidos' | 'montar-pedido' | 'enviar-pedido' | 'atrasados' | 'estampas' | 'pagamento' | 'verificacao' | 'separacao' | 'preparando-envio' | 'precos' | 'sku' | 'capinhas' | 'imagem';
+
+export type TableRow = {
+  // Update index signature to be compatible with all properties, especially _updatedFields and _editHistory.
+  [key: string]: string | number | boolean | Record<string, boolean> | TableRow[] | undefined | null;
+  cnpj?: 'MM' | 'MVF';
+  _updatedFields?: Record<string, boolean>;
+  _editHistory?: TableRow[];
+  _createdItems?: TableRow[];
+  _uniqueId?: string | number;
+  _isAvulso?: boolean;
+  _isEdited?: boolean;
+};
+
+export type ProcessedTableRow = TableRow & {
+  _idVenda: string;
+  _ecommerceStore: string;
+  _skuDescription: string;
+  _categoryDisplay: string;
+  _effectiveQuantity: number;
+  _valorTotal: number;
+  _isCancelled: boolean;
+  _isKit: boolean;
+  _productName: string;
+  _colorName: string;
+  _sizeName: string;
+};
+
+
+export type PriceData = Record<string, Record<string, number | null>>;
+
+export interface PriceProduct {
+  id: string;
+  category: string;
+  product: string;
+  skuProductName: string | null;
+  prices: PriceData;
+}
+
+export interface BackorderedItem {
+  id: string;
+  backorderDate: string;
+  originalRow: TableRow;
+  editedData?: {
+    sku: string;
+    quantity: number;
+  }[];
+  resolvedDate?: string;
+  store?: string;
+  observation?: string;
+  itemType?: 'estampa' | 'capinha';
+}
+
+export interface EstampaRow {
+  id: string;
+  rastreio: string;
+  codVenda: string;
+  link: string;
+  canal: string;
+  fornecedor: string;
+  status: string;
+  peca: string;
+  localEstampa: string;
+  cor: string;
+  tamanho: string;
+  quantidade: number;
+  observacao: string;
+  tratado: boolean;
+  data: string;
+  L: string;
+  fullDate: string;
+  dataPrevista?: string;
+  aramadoLetra?: string;
+  aramadoNumero?: string;
+  cliente: string;
+  nomeEstampa?: string;
+  sku: string;
+  googleDriveFolderId?: string;
+  googleDriveImages?: string; // JSON string of DriveImage[]
+  linkPedido?: string; // URL personalizada do pedido
+  arteProntaId?: string; // ID da pasta ou pedido para buscar imagens diretamente
+  aramadoRetirado?: boolean;
+  aramadoDataColocacao?: string;
+  aramadoDataRetirada?: string;
+  updatedAt?: string;
+}
+
+export interface OrderTotals {
+  totalBranco: number;
+  totalColorido: number;
+  totalGeral: number;
+  totalEspeciais?: number;
+}
+
+export interface SavedOrder {
+  id: string;
+  product: string;
+  store: string;
+  cnpj: 'MM' | 'MVF' | 'Ambos';
+  quantities: Record<string, Record<string, number>>;
+  colors: string[];
+  sizes: string[];
+  totals: OrderTotals;
+  hasMissingItems?: boolean;
+  editedCells?: Record<string, Record<string, 'edited' | 'deleted'>>;
+  _sourceRowIds?: (string | number)[];
+  _originalStore?: string; // Original store when FALTANTE in different store
+}
+
+export interface ArchivedSavedOrder extends SavedOrder {
+  archivedDate: string;
+}
+
+export interface PaymentItem {
+  id: string;
+  product: string;
+  store: string;
+  cnpj: 'MM' | 'MVF' | 'Ambos';
+  sentDate: string; // Data em que o pedido foi criado/enviado para pagamento
+  totalValue: number;
+  observation: string;
+  totalItems: number;
+  // Campos novos/atualizados para rastreamento de pagamento
+  status: 'pending' | 'partially_paid' | 'paid';
+  amountPaid: number;
+  paymentHistory: {
+    date: string;
+    amount: number;
+    proofUrl?: string; // Link para o comprovante (Drive ou externo)
+  }[];
+}
+
+export interface Contact {
+  id: string;
+  store: string;
+  name?: string;
+  whatsapp?: string;
+  email?: string;
+}
+
+export interface VerificationItemStatus {
+  expected: number;
+  received: number | null; // null significa não verificado
+}
+
+export interface VerificationStatus {
+  notes: string;
+  items: Record<string, Record<string, VerificationItemStatus>>; // { [color]: { [size]: status } }
+  status: 'pending' | 'in-progress' | 'discrepancy' | 'verified';
+  lastChecked?: string;
+}
+
+export interface PhoneCaseModel {
+  name: string;
+  inStock: boolean;
+}
+
+export interface ImageCategory {
+  id: string;
+  name: string;
+  parentId?: string | null; // null or undefined = root category
+}
+
+export interface Store {
+  id?: string;
+  name: string;
+  types: string[];
+}
+
+export interface DelayRules {
+  [storeName: string]: {
+    onTime: number;
+    atRisk: number;
+  };
+}
+
+export interface SyncProgress {
+  isVisible: boolean;
+  status: 'searching' | 'processing' | 'completed' | 'error';
+  message: string;
+  percentage: number;
+  totalProcessed: number;
+  totalPending: number;
+  totalFailed: number;
+  isMinimized?: boolean;
+}
+
+export interface DriveImage {
+  id: string;
+  name: string;
+  thumbnailLink: string;
+  webViewLink: string;
+  webContentLink?: string;
+  mimeType?: string;
+}
+
+export interface Lote {
+  id: string;
+  numeroLote: string; // Número do lote (ex: "11A", "001", "BATCH-123", etc.)
+  imagemUrl: string; // Primary image URL (for backward compatibility)
+  imagens?: string[]; // Array of all image URLs for this lote
+  dataCriacao: string; // ISO date
+  thumbnail?: string; // Optional thumbnail URL
+}
+
+export interface MarketplaceFee {
+  id?: string;
+  marketplace: string; // Code: SH, ML, AM, etc.
+  name: string;
+  commission_percent: number;
+  fixed_fee: number;
+  tax_rate: number;
+  is_active: boolean;
+  rules_json?: Record<string, any>; // Flexible for advanced rules
+}
+
+export interface MetricRow extends TableRow {
+  channel: string;
+  id: string;
+  product: string;
+  sku: string;
+  valor: number;
+  total: number;
+  lucro: number;
+  lucroPercent: number;
+  taxas: number;
+  imposto: number;
+  custo: number;
+  roi: number;
+  quantidade: number;
+  details?: string[];
+}

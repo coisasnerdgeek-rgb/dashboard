@@ -1,1 +1,29 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgU0VSVklDRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCg0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgU0VSVklDRV9LRVksIHsgYXV0aDogeyBhdXRvUmVmcmVzaFRva2VuOiBmYWxzZSwgcGVyc2lzdFNlc3Npb246IGZhbHNlIH0gfSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGh1bnRWYWx1ZXMoKSB7DQogICAgY29uc29sZS5sb2coJ0h1bnRpbmcgZm9yIDI0ayBpdGVtcy4uLicpOw0KDQogICAgLy8gMS4gQ2hlY2sgJ3F1ZXVlJyB0YWJsZSBhZ2Fpbg0KICAgIGNvbnN0IHsgY291bnQ6IHF1ZXVlQ291bnQsIGVycm9yOiBxRXJyIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdxdWV1ZScpLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSk7DQogICAgY29uc29sZS5sb2coYFRhYmxlICdxdWV1ZSc6ICR7cXVldWVDb3VudH0gKEVycm9yOiAke3FFcnI/Lm1lc3NhZ2UgfHwgJ25vbmUnfSlgKTsNCg0KICAgIC8vIDIuIENoZWNrICdzYXZlZF9vcmRlcnMnIHRvdGFsDQogICAgY29uc3QgeyBjb3VudDogc2F2ZWRPcmRlcnNDb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgnc2F2ZWRfb3JkZXJzJykuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCiAgICBjb25zb2xlLmxvZyhgVGFibGUgJ3NhdmVkX29yZGVycyc6ICR7c2F2ZWRPcmRlcnNDb3VudH1gKTsNCg0KICAgIC8vIDMuIENoZWNrICdzcHJlYWRzaGVldF9kYXRhJyB0b3RhbA0KICAgIGNvbnN0IHsgY291bnQ6IHNwcmVhZENvdW50IH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCiAgICBjb25zb2xlLmxvZyhgVGFibGUgJ3NwcmVhZHNoZWV0X2RhdGEnOiAke3NwcmVhZENvdW50fWApOw0KDQogICAgLy8gNC4gQ2hlY2sgJ3ByaW50X2NvbnRyb2wnIChFc3RhbXBhcmlhKQ0KICAgIGNvbnN0IHsgY291bnQ6IHByaW50Q291bnQgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3ByaW50X2NvbnRyb2wnKS5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KICAgIGNvbnNvbGUubG9nKGBUYWJsZSAncHJpbnRfY29udHJvbCc6ICR7cHJpbnRDb3VudH1gKTsNCn0NCg0KaHVudFZhbHVlcygpOw0K}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const SERVICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const supabase = createClient(NEW_SUPABASE_URL, SERVICE_KEY, { auth: { autoRefreshToken: false, persistSession: false } });
+
+async function huntValues() {
+    console.log('Hunting for 24k items...');
+
+    // 1. Check 'queue' table again
+    const { count: queueCount, error: qErr } = await supabase.from('queue').select('*', { count: 'exact', head: true });
+    console.log(`Table 'queue': ${queueCount} (Error: ${qErr?.message || 'none'})`);
+
+    // 2. Check 'saved_orders' total
+    const { count: savedOrdersCount } = await supabase.from('saved_orders').select('*', { count: 'exact', head: true });
+    console.log(`Table 'saved_orders': ${savedOrdersCount}`);
+
+    // 3. Check 'spreadsheet_data' total
+    const { count: spreadCount } = await supabase.from('spreadsheet_data').select('*', { count: 'exact', head: true });
+    console.log(`Table 'spreadsheet_data': ${spreadCount}`);
+
+    // 4. Check 'print_control' (Estamparia)
+    const { count: printCount } = await supabase.from('print_control').select('*', { count: 'exact', head: true });
+    console.log(`Table 'print_control': ${printCount}`);
+}
+
+huntValues();

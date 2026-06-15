@@ -1,1 +1,39 @@
-﻿@{data=IyBHdWlhIGRlIENvbmZpZ3VyYcOnw6NvOiBEYXNoYm9hcmQgZGUgUGVkaWRvcyBubyBWZXJjZWwNCg0KU2lnYSBvcyBwYXNzb3MgYWJhaXhvIHBhcmEgYXR1YWxpemFyIG8gc2l0ZSBvZmljaWFsIGNvbSBvIG5vdm8gYmFuY28gZGUgZGFkb3MuDQoNCiMjIDEuIFZhcmnDoXZlaXMgZGUgQW1iaWVudGUNCkFjZXNzZSBvIHBhaW5lbCBkYSBWZXJjZWwgKCoqU2V0dGluZ3MgPiBFbnZpcm9ubWVudCBWYXJpYWJsZXMqKikgZSBhdHVhbGl6ZSBhcyBzZWd1aW50ZXMgdmFyacOhdmVpczoNCg0KIyMjIE9icmlnYXTDs3JpYXMgKEJhbmNvIE5vdm8pDQp8IE5vbWUgZGEgVmFyacOhdmVsIHwgVmFsb3IgfA0KfCA6LS0tIHwgOi0tLSB8DQp8ICoqVklURV9TVVBBQkFTRV9VUkwqKiB8IGBodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvYCB8DQp8ICoqVklURV9TVVBBQkFTRV9BTk9OX0tFWSoqIHwgYGV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltZGxZV0oyWTNGamVXMWhjWE54ZUhobWNYbDNJaXdpY205c1pTSTZJbUZ1YjI0aUxDSnBZWFFpT2pFM05qa3hPREV3T1Rjc0ltVjRjQ0k2TWpBNE5EYzFOekE1TjMwLlU2SldBVVFnTU1qX3U2UzdaSGlzZjl2Ry1MTDBJd001UXlvRDVPVDk3Um9gIHwNCg0KIyMjIEdvb2dsZSBlIEludGVncmHDp8O1ZXMNCnwgTm9tZSBkYSBWYXJpw6F2ZWwgfCBWYWxvciB8DQp8IDotLS0gfCA6LS0tIHwNCnwgKipWSVRFX0dPT0dMRV9BUElfS0VZKiogfCBgQUl6YVN5QjVuckw2Y2JJbnM4R3RNM1l2d3ExRlJqSmV0RGI3SzNNYCB8DQp8ICoqVklURV9HT09HTEVfQ0xJRU5UX0lEKiogfCBgNzEyNzk1MzA2MzYyLXU2ZzlrbWxxMmFzM2Y3OWZjdW10bWFwbjFmam9nNHZ1LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tYCB8DQoNCi0tLQ0KDQojIyAyLiBDb21vIEFwbGljYXIgYXMgTXVkYW7Dp2FzDQpBcMOzcyBzYWx2YXIgYXMgdmFyacOhdmVpcyBhY2ltYToNCjEuIFbDoSBuYSBhYmEgKipEZXBsb3ltZW50cyoqIG5hIFZlcmNlbC4NCjIuIExvY2FsaXplIG8gw7psdGltbyBkZXBsb3kgKG8gcXVlIGVzdMOhIG5vIHRvcG8gZGEgbGlzdGEpLg0KMy4gQ2xpcXVlIG5vcyB0csOqcyBwb250aW5ob3MgKGAuLi5gKSDDoCBkaXJlaXRhLg0KNC4gU2VsZWNpb25lICoqUmVkZXBsb3kqKi4NCjUuIENsaXF1ZSBubyBib3TDo28gZGUgY29uZmlybWHDp8OjbyAqKlJlZGVwbG95KiouDQoNCi0tLQ0KDQojIyAzLiBWZXJpZmljYcOnw6NvIEZpbmFsDQpBc3NpbSBxdWUgbyBidWlsZCB0ZXJtaW5hcjoNCi0gQWJyYSBvIGxpbmsgZG8gc2V1IHNpdGUgKGRhc2hib2FyZC1wZWRpZG9zLnZlcmNlbC5hcHApLg0KLSBWZXJpZmlxdWUgc2Ugb3MgKio2MC44MjMgcGVkaWRvcyoqIGFwYXJlY2VtLg0KLSBWZXJpZmlxdWUgc2UgYSBhYmEgKioiSW1hZ2VucyIqKiBlc3TDoSBjYXJyZWdhbmRvIHN1YXMgZm90b3MuDQotIFRlc3RlIGEgYWJhICoqIkF0cmFzYWRvcyIqKiBlICoqIlByZcOnb3MiKiouDQoNCuKchSAqKlNlIHR1ZG8gZXN0aXZlciBjb3JyZXRvLCBzZXUgc2lzdGVtYSBlc3TDoSBvZmljaWFsbWVudGUgbWlncmFkbyBlIHByb250byBwYXJhIHVzbyEqKg0K}
+# Guia de Configuração: Dashboard de Pedidos no Vercel
+
+Siga os passos abaixo para atualizar o site oficial com o novo banco de dados.
+
+## 1. Variáveis de Ambiente
+Acesse o painel da Vercel (**Settings > Environment Variables**) e atualize as seguintes variáveis:
+
+### Obrigatórias (Banco Novo)
+| Nome da Variável | Valor |
+| :--- | :--- |
+| **VITE_SUPABASE_URL** | `https://geabvcqcymaqsqxxfqyw.supabase.co` |
+| **VITE_SUPABASE_ANON_KEY** | `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkxODEwOTcsImV4cCI6MjA4NDc1NzA5N30.U6JWAUQgMMj_u6S7ZHisf9vG-LL0IwM5QyoD5OT97Ro` |
+
+### Google e Integrações
+| Nome da Variável | Valor |
+| :--- | :--- |
+| **VITE_GOOGLE_API_KEY** | `AIzaSyB5nrL6cbIns8GtM3Yvwq1FRjJetDb7K3M` |
+| **VITE_GOOGLE_CLIENT_ID** | `712795306362-u6g9kmlq2as3f79fcumtmapn1fjog4vu.apps.googleusercontent.com` |
+
+---
+
+## 2. Como Aplicar as Mudanças
+Após salvar as variáveis acima:
+1. Vá na aba **Deployments** na Vercel.
+2. Localize o último deploy (o que está no topo da lista).
+3. Clique nos três pontinhos (`...`) à direita.
+4. Selecione **Redeploy**.
+5. Clique no botão de confirmação **Redeploy**.
+
+---
+
+## 3. Verificação Final
+Assim que o build terminar:
+- Abra o link do seu site (dashboard-pedidos.vercel.app).
+- Verifique se os **60.823 pedidos** aparecem.
+- Verifique se a aba **"Imagens"** está carregando suas fotos.
+- Teste a aba **"Atrasados"** e **"Preços"**.
+
+✅ **Se tudo estiver correto, seu sistema está oficialmente migrado e pronto para uso!**

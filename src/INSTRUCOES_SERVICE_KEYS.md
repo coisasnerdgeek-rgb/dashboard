@@ -1,1 +1,32 @@
-﻿@{data=IyBDb21vIG9idGVyIGFzIFNlcnZpY2UgUm9sZSBLZXlzIGRvIFN1cGFiYXNlDQoNCiMjIDEuIFNlcnZpY2UgUm9sZSBLZXkgZG8gQkFOQ08gQU5USUdPIChuYnh1YmRtc2VwbmhoaHNicHpvcSkNCg0KMS4gQWNlc3NlOiBodHRwczovL3N1cGFiYXNlLmNvbS9kYXNoYm9hcmQvcHJvamVjdC9uYnh1YmRtc2VwbmhoaHNicHpvcS9zZXR0aW5ncy9hcGkNCjIuIFByb2N1cmUgcG9yICoqIlNlcnZpY2UgUm9sZSBLZXkiKiogKG7Do28gw6kgYSBhbm9uIGtleSEpDQozLiBDbGlxdWUgZW0gIlJldmVhbCIgcGFyYSBtb3N0cmFyIGEgY2hhdmUNCjQuIENvcGllIGEgY2hhdmUgY29tcGxldGEgKGNvbWXDp2EgY29tIGBleUouLi5gKQ0KDQojIyAyLiBTZXJ2aWNlIFJvbGUgS2V5IGRvIEJBTkNPIE5PVk8gKGdlYWJ2Y3FjeW1hcXNxeHhmcXl3KQ0KDQoxLiBBY2Vzc2U6IGh0dHBzOi8vc3VwYWJhc2UuY29tL2Rhc2hib2FyZC9wcm9qZWN0L2dlYWJ2Y3FjeW1hcXNxeHhmcXl3L3NldHRpbmdzL2FwaQ0KMi4gUHJvY3VyZSBwb3IgKioiU2VydmljZSBSb2xlIEtleSIqKiAobsOjbyDDqSBhIGFub24ga2V5ISkNCjMuIENsaXF1ZSBlbSAiUmV2ZWFsIiBwYXJhIG1vc3RyYXIgYSBjaGF2ZQ0KNC4gQ29waWUgYSBjaGF2ZSBjb21wbGV0YSAoY29tZcOnYSBjb20gYGV5Si4uLmApDQoNCiMjIDMuIENvbW8gZXhlY3V0YXIgbyBzY3JpcHQNCg0KMS4gQWJyYSBvIGFycXVpdm8gYHNjcmlwdHMvbWlncmFyLXRvZG9zLXBlZGlkb3MudHNgDQoyLiBDb2xlIGFzIGR1YXMgU2VydmljZSBSb2xlIEtleXMgbmFzIGxpbmhhcyBpbmRpY2FkYXMNCjMuIEV4ZWN1dGUgbyBjb21hbmRvOg0KICAgYGBgYmFzaA0KICAgbnB4IHRzeCBzY3JpcHRzL21pZ3Jhci10b2Rvcy1wZWRpZG9zLnRzDQogICBgYGANCjQuIEFndWFyZGUgYSBtaWdyYcOnw6NvIGNvbXBsZXRhciAocG9kZSBkZW1vcmFyIGFsZ3VucyBtaW51dG9zKQ0KDQojIyDimqDvuI8gSU1QT1JUQU5URQ0KDQotIEEgU2VydmljZSBSb2xlIEtleSB0ZW0gcGVybWlzc8O1ZXMgVE9UQUlTIG5vIGJhbmNvDQotIE7Dg08gY29tcGFydGlsaGUgZXNzYSBjaGF2ZSBwdWJsaWNhbWVudGUNCi0gTsODTyBjb21taXRlIGVsYSBubyBHaXQNCi0gVXNlIEFQRU5BUyBwYXJhIGVzdGEgbWlncmHDp8Ojbw0K}
+# Como obter as Service Role Keys do Supabase
+
+## 1. Service Role Key do BANCO ANTIGO (nbxubdmsepnhhhsbpzoq)
+
+1. Acesse: https://supabase.com/dashboard/project/nbxubdmsepnhhhsbpzoq/settings/api
+2. Procure por **"Service Role Key"** (não é a anon key!)
+3. Clique em "Reveal" para mostrar a chave
+4. Copie a chave completa (começa com `eyJ...`)
+
+## 2. Service Role Key do BANCO NOVO (geabvcqcymaqsqxxfqyw)
+
+1. Acesse: https://supabase.com/dashboard/project/geabvcqcymaqsqxxfqyw/settings/api
+2. Procure por **"Service Role Key"** (não é a anon key!)
+3. Clique em "Reveal" para mostrar a chave
+4. Copie a chave completa (começa com `eyJ...`)
+
+## 3. Como executar o script
+
+1. Abra o arquivo `scripts/migrar-todos-pedidos.ts`
+2. Cole as duas Service Role Keys nas linhas indicadas
+3. Execute o comando:
+   ```bash
+   npx tsx scripts/migrar-todos-pedidos.ts
+   ```
+4. Aguarde a migração completar (pode demorar alguns minutos)
+
+## ⚠️ IMPORTANTE
+
+- A Service Role Key tem permissões TOTAIS no banco
+- NÃO compartilhe essa chave publicamente
+- NÃO commite ela no Git
+- Use APENAS para esta migração

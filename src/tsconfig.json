@@ -1,1 +1,33 @@
-﻿@{data=ewogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAidGFyZ2V0IjogIkVTMjAyMiIsCiAgICAiZXhwZXJpbWVudGFsRGVjb3JhdG9ycyI6IHRydWUsCiAgICAidXNlRGVmaW5lRm9yQ2xhc3NGaWVsZHMiOiBmYWxzZSwKICAgICJtb2R1bGUiOiAiRVNOZXh0IiwKICAgICJsaWIiOiBbCiAgICAgICJFUzIwMjIiLAogICAgICAiRE9NIiwKICAgICAgIkRPTS5JdGVyYWJsZSIKICAgIF0sCiAgICAic2tpcExpYkNoZWNrIjogdHJ1ZSwKICAgICJ0eXBlcyI6IFsKICAgICAgIm5vZGUiCiAgICBdLAogICAgIm1vZHVsZVJlc29sdXRpb24iOiAiYnVuZGxlciIsCiAgICAiaXNvbGF0ZWRNb2R1bGVzIjogdHJ1ZSwKICAgICJtb2R1bGVEZXRlY3Rpb24iOiAiZm9yY2UiLAogICAgImFsbG93SnMiOiB0cnVlLAogICAgImpzeCI6ICJyZWFjdC1qc3giLAogICAgInBhdGhzIjogewogICAgICAiQC8qIjogWwogICAgICAgICIuLyoiCiAgICAgIF0KICAgIH0sCiAgICAiYWxsb3dJbXBvcnRpbmdUc0V4dGVuc2lvbnMiOiB0cnVlLAogICAgIm5vRW1pdCI6IHRydWUKICB9LAogICJleGNsdWRlIjogWwogICAgImFwaSIsCiAgICAiYmFja3VwX2NvbXBvbmVudHMiCiAgXQp9}
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ],
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "exclude": [
+    "api",
+    "backup_components"
+  ]
+}

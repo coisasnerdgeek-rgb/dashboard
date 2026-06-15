@@ -1,1 +1,58 @@
-﻿@{data=aW1wb3J0IG9zDQoNCmRlZiByZXN0b3JlX2FwcCgpOg0KICAgIGFwcF9wYXRoID0gJ0FwcC50c3gnDQogICAgYmxvY2tfcGF0aCA9ICdzd2l0Y2hfYmxvY2sudHh0Jw0KICAgIA0KICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhibG9ja19wYXRoKToNCiAgICAgICAgcHJpbnQoZiJFcnJvcjoge2Jsb2NrX3BhdGh9IG5vdCBmb3VuZC4iKQ0KICAgICAgICByZXR1cm4NCg0KICAgICMgUmVhZCB0aGUgY2xlYW4gYmxvY2sNCiAgICB3aXRoIG9wZW4oYmxvY2tfcGF0aCwgJ3InLCBlbmNvZGluZz0ndXRmLTgnKSBhcyBmOg0KICAgICAgICBuZXdfYmxvY2sgPSBmLnJlYWRsaW5lcygpDQoNCiAgICAjIFJlYWQgdGhlIG9yaWdpbmFsIGZpbGUNCiAgICB3aXRoIG9wZW4oYXBwX3BhdGgsICdyJywgZW5jb2Rpbmc9J3V0Zi04JywgZXJyb3JzPSdpZ25vcmUnKSBhcyBmOg0KICAgICAgICBsaW5lcyA9IGYucmVhZGxpbmVzKCkNCg0KICAgIHN0YXJ0ID0gLTENCiAgICBmb3IgaSwgbGluZSBpbiBlbnVtZXJhdGUobGluZXMpOg0KICAgICAgICBpZiAnc3dpdGNoIChjdXJyZW50VmlldykgeycgaW4gbGluZToNCiAgICAgICAgICAgIHN0YXJ0ID0gaQ0KICAgICAgICAgICAgYnJlYWsNCiAgICANCiAgICBpZiBzdGFydCA9PSAtMToNCiAgICAgICAgcHJpbnQoIkVycm9yOiAnc3dpdGNoIChjdXJyZW50Vmlldykgeycgbm90IGZvdW5kIGluIEFwcC50c3giKQ0KICAgICAgICByZXR1cm4NCg0KICAgIGVuZCA9IC0xDQogICAgZm9yIGkgaW4gcmFuZ2Uoc3RhcnQsIGxlbihsaW5lcykpOg0KICAgICAgICBpZiAnZGVmYXVsdDonIGluIGxpbmVzW2ldOg0KICAgICAgICAgICAgZW5kID0gaQ0KICAgICAgICAgICAgYnJlYWsNCiAgICAgICAgICAgIA0KICAgIGlmIGVuZCA9PSAtMToNCiAgICAgICAgcHJpbnQoIkVycm9yOiAnZGVmYXVsdDonIG5vdCBmb3VuZCBhZnRlciBzd2l0Y2ggc3RhcnQgaW4gQXBwLnRzeCIpDQogICAgICAgIHJldHVybg0KDQogICAgIyBSZXBsYWNlIHRoZSBibG9jaw0KICAgIHByaW50KGYiUmVwbGFjaW5nIGxpbmVzIHtzdGFydCsxfSB0byB7ZW5kKzF9IHdpdGggY2xlYW4gY29udGVudC4iKQ0KICAgIGxpbmVzW3N0YXJ0OmVuZCsxXSA9IG5ld19ibG9jaw0KDQogICAgIyBGaW5hbCBkZWVwIGNsZWFuOiBzdHJpcCBlYWNoIGxpbmUgb2YgdHJhaWxpbmcgZ2FyYmFnZSBhbmQgXHINCiAgICBmaW5hbF9saW5lcyA9IFtdDQogICAgZm9yIGxpbmUgaW4gbGluZXM6DQogICAgICAgICMgSWYgdGhlIGxpbmUgaGFzIG1vcmUgdGhhbiBvbmUgbmV3bGluZSBvciBjYXJyaWFnZSByZXR1cm4gaW4gdGhlIG1pZGRsZSwgaXQncyBzdGlsbCBjb3JydXB0ZWQNCiAgICAgICAgIyBCdXQgb3VyIHNwbGluZXMgbG9naWMgZWFybGllciBzaG91bGQgaGF2ZSBoZWxwZWQuDQogICAgICAgICMgV2UgZW5zdXJlIG9uZSBcbiBhdCB0aGUgZW5kIGFuZCBubyBcci4NCiAgICAgICAgY2xlYW5fbGluZSA9IGxpbmUucnN0cmlwKCdcclxuJykgKyAnXG4nDQogICAgICAgIGZpbmFsX2xpbmVzLmFwcGVuZChjbGVhbl9saW5lKQ0KDQogICAgd2l0aCBvcGVuKGFwcF9wYXRoLCAndycsIGVuY29kaW5nPSd1dGYtOCcpIGFzIGY6DQogICAgICAgIGYud3JpdGVsaW5lcyhmaW5hbF9saW5lcykNCiAgICANCiAgICBwcmludCgiU1VDQ0VTUzogQXBwLnRzeCByZXN0b3JlZC4iKQ0KDQppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOg0KICAgIHJlc3RvcmVfYXBwKCkNCg==}
+import os
+
+def restore_app():
+    app_path = 'App.tsx'
+    block_path = 'switch_block.txt'
+    
+    if not os.path.exists(block_path):
+        print(f"Error: {block_path} not found.")
+        return
+
+    # Read the clean block
+    with open(block_path, 'r', encoding='utf-8') as f:
+        new_block = f.readlines()
+
+    # Read the original file
+    with open(app_path, 'r', encoding='utf-8', errors='ignore') as f:
+        lines = f.readlines()
+
+    start = -1
+    for i, line in enumerate(lines):
+        if 'switch (currentView) {' in line:
+            start = i
+            break
+    
+    if start == -1:
+        print("Error: 'switch (currentView) {' not found in App.tsx")
+        return
+
+    end = -1
+    for i in range(start, len(lines)):
+        if 'default:' in lines[i]:
+            end = i
+            break
+            
+    if end == -1:
+        print("Error: 'default:' not found after switch start in App.tsx")
+        return
+
+    # Replace the block
+    print(f"Replacing lines {start+1} to {end+1} with clean content.")
+    lines[start:end+1] = new_block
+
+    # Final deep clean: strip each line of trailing garbage and \r
+    final_lines = []
+    for line in lines:
+        # If the line has more than one newline or carriage return in the middle, it's still corrupted
+        # But our splines logic earlier should have helped.
+        # We ensure one \n at the end and no \r.
+        clean_line = line.rstrip('\r\n') + '\n'
+        final_lines.append(clean_line)
+
+    with open(app_path, 'w', encoding='utf-8') as f:
+        f.writelines(final_lines)
+    
+    print("SUCCESS: App.tsx restored.")
+
+if __name__ == "__main__":
+    restore_app()

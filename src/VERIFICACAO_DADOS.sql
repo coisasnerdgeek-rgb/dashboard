@@ -1,1 +1,28 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIFNDUklQVCBERSBWRVJJRklDQcOHw4NPIERFIERBRE9TIEUgRVNUUlVUVVJBDQotLSBFeGVjdXRlIG5vIFNRTCBFZGl0b3IgZG8gU3VwYWJhc2UNCi0tID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCi0tIDEuIFBSSU1FSVJPOiBMaXN0YXIgVE9EQVMgYXMgdGFiZWxhcyBxdWUgZXhpc3RlbSBubyBzY2hlbWEgcHVibGljDQpTRUxFQ1QgDQogICAgc2NoZW1hbmFtZSwNCiAgICB0YWJsZW5hbWUsDQogICAgcGdfc2l6ZV9wcmV0dHkocGdfdG90YWxfcmVsYXRpb25fc2l6ZShzY2hlbWFuYW1lfHwnLid8fHRhYmxlbmFtZSkpIEFTIHNpemUNCkZST00gcGdfdGFibGVzDQpXSEVSRSBzY2hlbWFuYW1lID0gJ3B1YmxpYycNCk9SREVSIEJZIHRhYmxlbmFtZTsNCg0KLS0gMi4gQ29udGFyIHJlZ2lzdHJvcyBlbSBzYXZlZF9vcmRlcnMgKHNlIGV4aXN0aXIpDQpTRUxFQ1QgQ09VTlQoKikgYXMgdG90YWxfc2F2ZWRfb3JkZXJzIEZST00gcHVibGljLnNhdmVkX29yZGVyczsNCg0KLS0gMy4gVmVyIGV4ZW1wbG9zIGRlIHNhdmVkX29yZGVycw0KU0VMRUNUIGlkLCBjcmVhdGVkX2F0LCBhcmNoaXZlZF9kYXRlLCBMRUZUKGRhdGFfanNvbjo6dGV4dCwgMTAwKSBhcyBwcmV2aWV3DQpGUk9NIHB1YmxpYy5zYXZlZF9vcmRlcnMNCk9SREVSIEJZIGNyZWF0ZWRfYXQgREVTQw0KTElNSVQgMzsNCg0KLS0gNC4gVmVyaWZpY2FyIHBvbMOtdGljYXMgUkxTDQpTRUxFQ1Qgc2NoZW1hbmFtZSwgdGFibGVuYW1lLCBwb2xpY3luYW1lLCBwZXJtaXNzaXZlLCByb2xlcywgY21kDQpGUk9NIHBnX3BvbGljaWVzDQpXSEVSRSBzY2hlbWFuYW1lID0gJ3B1YmxpYycNCk9SREVSIEJZIHRhYmxlbmFtZSwgcG9saWN5bmFtZTsNCg==}
+-- ========================================================
+-- SCRIPT DE VERIFICAÇÃO DE DADOS E ESTRUTURA
+-- Execute no SQL Editor do Supabase
+-- ========================================================
+
+-- 1. PRIMEIRO: Listar TODAS as tabelas que existem no schema public
+SELECT 
+    schemaname,
+    tablename,
+    pg_size_pretty(pg_total_relation_size(schemaname||'.'||tablename)) AS size
+FROM pg_tables
+WHERE schemaname = 'public'
+ORDER BY tablename;
+
+-- 2. Contar registros em saved_orders (se existir)
+SELECT COUNT(*) as total_saved_orders FROM public.saved_orders;
+
+-- 3. Ver exemplos de saved_orders
+SELECT id, created_at, archived_date, LEFT(data_json::text, 100) as preview
+FROM public.saved_orders
+ORDER BY created_at DESC
+LIMIT 3;
+
+-- 4. Verificar políticas RLS
+SELECT schemaname, tablename, policyname, permissive, roles, cmd
+FROM pg_policies
+WHERE schemaname = 'public'
+ORDER BY tablename, policyname;

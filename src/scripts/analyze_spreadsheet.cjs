@@ -1,1 +1,52 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQphc3luYyBmdW5jdGlvbiBhbmFseXplKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIC8vIEdldCBhbGwgZnJvbSBzcHJlYWRzaGVldA0KICAgIGNvbnN0IHsgZGF0YTogYWxsIH0gPSBhd2FpdCBzdXBhYmFzZS5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykuc2VsZWN0KCdyb3dfZGF0YScpOw0KDQogICAgY29uc3QgdHdvRGF5c0FnbyA9IG5ldyBEYXRlKCk7DQogICAgdHdvRGF5c0Fnby5zZXREYXRlKHR3b0RheXNBZ28uZ2V0RGF0ZSgpIC0gMik7DQoNCiAgICBsZXQgbGFzdDJEYXlzID0gMDsNCiAgICBjb25zdCBvcmRlcklkcyA9IG5ldyBTZXQoKTsNCg0KICAgIGFsbD8uZm9yRWFjaChyb3cgPT4gew0KICAgICAgICBjb25zdCBkYXRlU3RyID0gcm93LnJvd19kYXRhPy5bJ0RhdGEnXTsNCiAgICAgICAgY29uc3QgdGlueUlkID0gcm93LnJvd19kYXRhPy5bJ0lEIFRpbnknXTsNCg0KICAgICAgICBpZiAoZGF0ZVN0cikgew0KICAgICAgICAgICAgY29uc3QgW2RheSwgbW9udGgsIHllYXJdID0gU3RyaW5nKGRhdGVTdHIpLnNwbGl0KCcvJykubWFwKE51bWJlcik7DQogICAgICAgICAgICBpZiAoeWVhciAmJiBtb250aCAmJiBkYXkpIHsNCiAgICAgICAgICAgICAgICBjb25zdCBkYXRlID0gbmV3IERhdGUoeWVhciwgbW9udGggLSAxLCBkYXkpOw0KICAgICAgICAgICAgICAgIGlmIChkYXRlID49IHR3b0RheXNBZ28pIHsNCiAgICAgICAgICAgICAgICAgICAgbGFzdDJEYXlzKys7DQogICAgICAgICAgICAgICAgICAgIGlmICh0aW55SWQpIG9yZGVySWRzLmFkZCh0aW55SWQpOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0pOw0KDQogICAgY29uc29sZS5sb2coYPCfk4ogU3ByZWFkc2hlZXQgQW5hbHlzaXM6YCk7DQogICAgY29uc29sZS5sb2coYCAgIFRvdGFsIG9yZGVyczogJHthbGw/Lmxlbmd0aCB8fCAwfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICBMYXN0IDIgZGF5czogJHtsYXN0MkRheXN9YCk7DQogICAgY29uc29sZS5sb2coYCAgIFVuaXF1ZSBJRCBUaW55IGZyb20gbGFzdCAyIGRheXM6ICR7b3JkZXJJZHMuc2l6ZX1cbmApOw0KDQogICAgY29uc29sZS5sb2coYFNhbXBsZSBJRHMgZnJvbSBsYXN0IDIgZGF5czpgKTsNCiAgICBBcnJheS5mcm9tKG9yZGVySWRzKS5zbGljZSgwLCAxMCkuZm9yRWFjaChpZCA9PiBjb25zb2xlLmxvZyhgICAgLSAke2lkfWApKTsNCn0NCg0KYW5hbHl6ZSgpOw0K}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+async function analyze() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    // Get all from spreadsheet
+    const { data: all } = await supabase.from('spreadsheet_data').select('row_data');
+
+    const twoDaysAgo = new Date();
+    twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+
+    let last2Days = 0;
+    const orderIds = new Set();
+
+    all?.forEach(row => {
+        const dateStr = row.row_data?.['Data'];
+        const tinyId = row.row_data?.['ID Tiny'];
+
+        if (dateStr) {
+            const [day, month, year] = String(dateStr).split('/').map(Number);
+            if (year && month && day) {
+                const date = new Date(year, month - 1, day);
+                if (date >= twoDaysAgo) {
+                    last2Days++;
+                    if (tinyId) orderIds.add(tinyId);
+                }
+            }
+        }
+    });
+
+    console.log(`📊 Spreadsheet Analysis:`);
+    console.log(`   Total orders: ${all?.length || 0}`);
+    console.log(`   Last 2 days: ${last2Days}`);
+    console.log(`   Unique ID Tiny from last 2 days: ${orderIds.size}\n`);
+
+    console.log(`Sample IDs from last 2 days:`);
+    Array.from(orderIds).slice(0, 10).forEach(id => console.log(`   - ${id}`));
+}
+
+analyze();

@@ -1,1 +1,92 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQpsZXQgcHJldmlvdXNQZW5kaW5nID0gbnVsbDsNCmxldCBwcmV2aW91c0NvbXBsZXRlZCA9IG51bGw7DQpsZXQgcHJldmlvdXNGYWlsZWQgPSBudWxsOw0KDQphc3luYyBmdW5jdGlvbiBtb25pdG9yKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIC8vIEdldCBxdWV1ZSBzdGF0cw0KICAgIGNvbnN0IHsgZGF0YTogcXVldWUgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnc3RhdHVzJyk7DQoNCiAgICBjb25zdCBzdGF0cyA9IHsNCiAgICAgICAgcGVuZGluZzogMCwNCiAgICAgICAgY29tcGxldGVkOiAwLA0KICAgICAgICBmYWlsZWQ6IDAsDQogICAgICAgIGVycm9yOiAwDQogICAgfTsNCg0KICAgIHF1ZXVlPy5mb3JFYWNoKHEgPT4gew0KICAgICAgICBjb25zdCBzdGF0dXMgPSBxLnN0YXR1cyB8fCAndW5rbm93bic7DQogICAgICAgIHN0YXRzW3N0YXR1c10gPSAoc3RhdHNbc3RhdHVzXSB8fCAwKSArIDE7DQogICAgfSk7DQoNCiAgICAvLyBHZXQgc3ByZWFkc2hlZXQgY291bnQNCiAgICBjb25zdCB7IGNvdW50OiBzcHJlYWRzaGVldENvdW50IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KDQogICAgLy8gQ2FsY3VsYXRlIGNoYW5nZXMNCiAgICBjb25zdCBwZW5kaW5nRGVsdGEgPSBwcmV2aW91c1BlbmRpbmcgIT09IG51bGwgPyBzdGF0cy5wZW5kaW5nIC0gcHJldmlvdXNQZW5kaW5nIDogMDsNCiAgICBjb25zdCBjb21wbGV0ZWREZWx0YSA9IHByZXZpb3VzQ29tcGxldGVkICE9PSBudWxsID8gc3RhdHMuY29tcGxldGVkIC0gcHJldmlvdXNDb21wbGV0ZWQgOiAwOw0KICAgIGNvbnN0IGZhaWxlZERlbHRhID0gcHJldmlvdXNGYWlsZWQgIT09IG51bGwgPyAoc3RhdHMuZmFpbGVkICsgc3RhdHMuZXJyb3IpIC0gcHJldmlvdXNGYWlsZWQgOiAwOw0KDQogICAgLy8gRGlzcGxheQ0KICAgIGNvbnNvbGUuY2xlYXIoKTsNCiAgICBjb25zb2xlLmxvZygn8J+UhCBNT05JVE9SIERFIElNUE9SVEHDh8ODTyAtIEF0dWFsaXphZG86JywgbmV3IERhdGUoKS50b0xvY2FsZVRpbWVTdHJpbmcoKSk7DQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkpOw0KICAgIGNvbnNvbGUubG9nKCcnKTsNCiAgICBjb25zb2xlLmxvZyhg8J+TiyBGSUxBOmApOw0KICAgIGNvbnNvbGUubG9nKGAgICBQZW5kZW50ZXM6ICAgJHtzdGF0cy5wZW5kaW5nLnRvU3RyaW5nKCkucGFkU3RhcnQoNil9ICR7cGVuZGluZ0RlbHRhICE9PSAwID8gYCgke3BlbmRpbmdEZWx0YSA+IDAgPyAnKycgOiAnJ30ke3BlbmRpbmdEZWx0YX0pYCA6ICcnfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICBDb21wbGV0YWRvczogJHtzdGF0cy5jb21wbGV0ZWQudG9TdHJpbmcoKS5wYWRTdGFydCg2KX0gJHtjb21wbGV0ZWREZWx0YSAhPT0gMCA/IGAoJHtjb21wbGV0ZWREZWx0YSA+IDAgPyAnKycgOiAnJ30ke2NvbXBsZXRlZERlbHRhfSlgIDogJyd9YCk7DQogICAgY29uc29sZS5sb2coYCAgIEZhbGhhZG9zOiAgICAkeyhzdGF0cy5mYWlsZWQgKyBzdGF0cy5lcnJvcikudG9TdHJpbmcoKS5wYWRTdGFydCg2KX0gJHtmYWlsZWREZWx0YSAhPT0gMCA/IGAoJHtmYWlsZWREZWx0YSA+IDAgPyAnKycgOiAnJ30ke2ZhaWxlZERlbHRhfSlgIDogJyd9YCk7DQogICAgY29uc29sZS5sb2coJycpOw0KICAgIGNvbnNvbGUubG9nKGDwn5OKIFNQUkVBRFNIRUVUX0RBVEE6YCk7DQogICAgY29uc29sZS5sb2coYCAgIFRvdGFsOiAgICAgICAke3NwcmVhZHNoZWV0Q291bnQ/LnRvU3RyaW5nKCkucGFkU3RhcnQoNil9YCk7DQogICAgY29uc29sZS5sb2coJycpOw0KDQogICAgLy8gUHJvZ3Jlc3MNCiAgICBjb25zdCB0b3RhbCA9IHN0YXRzLnBlbmRpbmcgKyBzdGF0cy5jb21wbGV0ZWQgKyBzdGF0cy5mYWlsZWQgKyBzdGF0cy5lcnJvcjsNCiAgICBjb25zdCBwcm9jZXNzZWQgPSBzdGF0cy5jb21wbGV0ZWQgKyBzdGF0cy5mYWlsZWQgKyBzdGF0cy5lcnJvcjsNCiAgICBjb25zdCBwcm9ncmVzcyA9IHRvdGFsID4gMCA/ICgocHJvY2Vzc2VkIC8gdG90YWwpICogMTAwKS50b0ZpeGVkKDEpIDogMDsNCg0KICAgIGNvbnNvbGUubG9nKGDwn5OIIFBST0dSRVNTTzogJHtwcm9ncmVzc30lICgke3Byb2Nlc3NlZH0gLyAke3RvdGFsfSlgKTsNCg0KICAgIC8vIEVUQQ0KICAgIGlmIChjb21wbGV0ZWREZWx0YSA+IDAgJiYgc3RhdHMucGVuZGluZyA+IDApIHsNCiAgICAgICAgY29uc3Qgb3JkZXJzUGVyU2Vjb25kID0gY29tcGxldGVkRGVsdGEgLyAxMDsgLy8gMTAgc2Vjb25kIGludGVydmFscw0KICAgICAgICBjb25zdCBzZWNvbmRzUmVtYWluaW5nID0gc3RhdHMucGVuZGluZyAvIG9yZGVyc1BlclNlY29uZDsNCiAgICAgICAgY29uc3QgbWludXRlcyA9IE1hdGguZmxvb3Ioc2Vjb25kc1JlbWFpbmluZyAvIDYwKTsNCiAgICAgICAgY29uc3Qgc2Vjb25kcyA9IE1hdGguZmxvb3Ioc2Vjb25kc1JlbWFpbmluZyAlIDYwKTsNCiAgICAgICAgY29uc29sZS5sb2coYOKPse+4jyAgRVRBOiB+JHttaW51dGVzfW0gJHtzZWNvbmRzfXNgKTsNCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygnJyk7DQogICAgY29uc29sZS5sb2coJ1ByZXNzaW9uZSBDVFJMK0MgcGFyYSBwYXJhciBvIG1vbml0b3InKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSk7DQoNCiAgICAvLyBVcGRhdGUgcHJldmlvdXMgdmFsdWVzDQogICAgcHJldmlvdXNQZW5kaW5nID0gc3RhdHMucGVuZGluZzsNCiAgICBwcmV2aW91c0NvbXBsZXRlZCA9IHN0YXRzLmNvbXBsZXRlZDsNCiAgICBwcmV2aW91c0ZhaWxlZCA9IHN0YXRzLmZhaWxlZCArIHN0YXRzLmVycm9yOw0KfQ0KDQovLyBSdW4gZXZlcnkgMTAgc2Vjb25kcw0KY29uc29sZS5sb2coJ/CfmoAgSW5pY2lhbmRvIG1vbml0b3IuLi5cbicpOw0KbW9uaXRvcigpOw0Kc2V0SW50ZXJ2YWwobW9uaXRvciwgMTAwMDApOw0K}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+let previousPending = null;
+let previousCompleted = null;
+let previousFailed = null;
+
+async function monitor() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    // Get queue stats
+    const { data: queue } = await supabase
+        .from('webhook_retry_queue')
+        .select('status');
+
+    const stats = {
+        pending: 0,
+        completed: 0,
+        failed: 0,
+        error: 0
+    };
+
+    queue?.forEach(q => {
+        const status = q.status || 'unknown';
+        stats[status] = (stats[status] || 0) + 1;
+    });
+
+    // Get spreadsheet count
+    const { count: spreadsheetCount } = await supabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true });
+
+    // Calculate changes
+    const pendingDelta = previousPending !== null ? stats.pending - previousPending : 0;
+    const completedDelta = previousCompleted !== null ? stats.completed - previousCompleted : 0;
+    const failedDelta = previousFailed !== null ? (stats.failed + stats.error) - previousFailed : 0;
+
+    // Display
+    console.clear();
+    console.log('🔄 MONITOR DE IMPORTAÇÃO - Atualizado:', new Date().toLocaleTimeString());
+    console.log('='.repeat(60));
+    console.log('');
+    console.log(`📋 FILA:`);
+    console.log(`   Pendentes:   ${stats.pending.toString().padStart(6)} ${pendingDelta !== 0 ? `(${pendingDelta > 0 ? '+' : ''}${pendingDelta})` : ''}`);
+    console.log(`   Completados: ${stats.completed.toString().padStart(6)} ${completedDelta !== 0 ? `(${completedDelta > 0 ? '+' : ''}${completedDelta})` : ''}`);
+    console.log(`   Falhados:    ${(stats.failed + stats.error).toString().padStart(6)} ${failedDelta !== 0 ? `(${failedDelta > 0 ? '+' : ''}${failedDelta})` : ''}`);
+    console.log('');
+    console.log(`📊 SPREADSHEET_DATA:`);
+    console.log(`   Total:       ${spreadsheetCount?.toString().padStart(6)}`);
+    console.log('');
+
+    // Progress
+    const total = stats.pending + stats.completed + stats.failed + stats.error;
+    const processed = stats.completed + stats.failed + stats.error;
+    const progress = total > 0 ? ((processed / total) * 100).toFixed(1) : 0;
+
+    console.log(`📈 PROGRESSO: ${progress}% (${processed} / ${total})`);
+
+    // ETA
+    if (completedDelta > 0 && stats.pending > 0) {
+        const ordersPerSecond = completedDelta / 10; // 10 second intervals
+        const secondsRemaining = stats.pending / ordersPerSecond;
+        const minutes = Math.floor(secondsRemaining / 60);
+        const seconds = Math.floor(secondsRemaining % 60);
+        console.log(`⏱️  ETA: ~${minutes}m ${seconds}s`);
+    }
+
+    console.log('');
+    console.log('Pressione CTRL+C para parar o monitor');
+    console.log('='.repeat(60));
+
+    // Update previous values
+    previousPending = stats.pending;
+    previousCompleted = stats.completed;
+    previousFailed = stats.failed + stats.error;
+}
+
+// Run every 10 seconds
+console.log('🚀 Iniciando monitor...\n');
+monitor();
+setInterval(monitor, 10000);

@@ -1,1 +1,84 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KLy8gTWFudWFsIC5lbnYubG9jYWwgcmVhZGVyDQpjb25zdCBlbnZQYXRoID0gcGF0aC5yZXNvbHZlKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQpsZXQgZW52Q29udGVudCA9ICcnOw0KdHJ5IHsNCiAgICBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KfSBjYXRjaCAoZSkgew0KICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBDb3VsZCBub3QgcmVhZCAuZW52LmxvY2FsJyk7DQogICAgcHJvY2Vzcy5leGl0KDEpOw0KfQ0KDQpjb25zdCB2YXJzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge307DQplbnZDb250ZW50LnNwbGl0KCdcbicpLmZvckVhY2gobGluZSA9PiB7DQogICAgY29uc3QgW2tleSwgLi4udmFsUGFydHNdID0gbGluZS5zcGxpdCgnPScpOw0KICAgIGlmIChrZXkgJiYgdmFsUGFydHMubGVuZ3RoID4gMCkgew0KICAgICAgICB2YXJzW2tleS50cmltKCldID0gdmFsUGFydHMuam9pbignPScpLnRyaW0oKTsNCiAgICB9DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gdmFyc1snU1VQQUJBU0VfVVJMJ10gfHwgdmFyc1snVklURV9TVVBBQkFTRV9VUkwnXTsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHZhcnNbJ1NVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVknXSB8fCB2YXJzWydWSVRFX1NVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVknXTsNCg0KaWYgKCFTVVBBQkFTRV9VUkwgfHwgIVNVUEFCQVNFX0tFWSkgew0KICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBNaXNzaW5nIFN1cGFiYXNlIGNyZWRlbnRpYWxzIGluIC5lbnYubG9jYWwnKTsNCiAgICBwcm9jZXNzLmV4aXQoMSk7DQp9DQoNCmNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gZGVidWcoKSB7DQogICAgY29uc29sZS5sb2coJ/CflI0gRGVidWdnaW5nIFN1cGFiYXNlIEpTT04gUXVlcnkuLi4nKTsNCg0KICAgIC8vIDEuIEZldGNoIE9ORSByb3cgdG8gc2VlIHdoYXQgdGhlIGRhdGEgbG9va3MgbGlrZQ0KICAgIGNvbnN0IHsgZGF0YTogc2FtcGxlLCBlcnJvcjogc2FtcGxlRXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgncm93X2RhdGEnKQ0KICAgICAgICAubGltaXQoMSkNCiAgICAgICAgLnNpbmdsZSgpOw0KDQogICAgaWYgKHNhbXBsZUVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvciBmZXRjaGluZyBzYW1wbGU6Jywgc2FtcGxlRXJyb3IpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgaWYgKCFzYW1wbGUpIHsNCiAgICAgICAgY29uc29sZS5sb2coJ+KaoO+4jyBObyBkYXRhIGluIHNwcmVhZHNoZWV0X2RhdGEgdGFibGUuJyk7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBjb25zdCB0aW55SWQgPSBzYW1wbGUucm93X2RhdGFbJ0lEIFRpbnknXSB8fCBzYW1wbGUucm93X2RhdGFbJ2lkX3RpbnknXTsNCiAgICBjb25zb2xlLmxvZygn8J+ThCBTYW1wbGUgUm93IElEIFRpbnk6JywgdGlueUlkKTsNCiAgICBjb25zb2xlLmxvZygn8J+ThCBLZXlzIGluIHJvd19kYXRhOicsIE9iamVjdC5rZXlzKHNhbXBsZS5yb3dfZGF0YSkpOw0KDQogICAgaWYgKCF0aW55SWQpIHsNCiAgICAgICAgY29uc29sZS5sb2coJ+KdjCBTYW1wbGUgcm93IGRvZXMgbm90IGhhdmUgIklEIFRpbnkiIG9yICJpZF90aW55IicpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KDQogICAgLy8gMi4gVHJ5IHRoZSBFWEFDVCBxdWVyeSBmcm9tIHN5bmMtdGlueS50cw0KICAgIGNvbnNvbGUubG9nKGBcbvCfp6ogVGVzdGluZyBRdWVyeTogLmluKCdyb3dfZGF0YS0+PklEIFRpbnknLCBbJyR7dGlueUlkfSddKSAuLi5gKTsNCg0KICAgIGNvbnN0IHsgZGF0YTogdGVzdDEsIGVycm9yOiBlcnJvcjEgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgncm93X2RhdGEnKQ0KICAgICAgICAuaW4oJ3Jvd19kYXRhLT4+SUQgVGlueScsIFtTdHJpbmcodGlueUlkKV0pOw0KDQogICAgaWYgKGVycm9yMSkgew0KICAgICAgICBjb25zb2xlLmVycm9yKCfinYwgUXVlcnkgMSBGYWlsZWQ6JywgZXJyb3IxKTsNCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZyhg4pyFIFF1ZXJ5IDEgUmVzdWx0OiBGb3VuZCAke3Rlc3QxPy5sZW5ndGh9IHJvd3MuYCk7DQogICAgfQ0KDQogICAgaWYgKCF0ZXN0MSB8fCB0ZXN0MS5sZW5ndGggPT09IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coJ+KdjCBGQUlMVVJFOiBUaGUgcXVlcnkgc3ludGF4IHVzZWQgaW4gc3luYy10aW55LnRzIGlzIHJldHVybmluZyAwIHJlc3VsdHMgZm9yIGFuIElEIHRoYXQgRVhJU1RTLicpOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGNvbnNvbGUubG9nKCfinIUgU1VDQ0VTUzogVGhlIHF1ZXJ5IGZpbmRzIHRoZSByb3cgY29ycmVjdGx5LicpOw0KICAgIH0NCn0NCg0KZGVidWcoKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Manual .env.local reader
+const envPath = path.resolve(process.cwd(), '.env.local');
+let envContent = '';
+try {
+    envContent = fs.readFileSync(envPath, 'utf-8');
+} catch (e) {
+    console.error('❌ Could not read .env.local');
+    process.exit(1);
+}
+
+const vars: Record<string, string> = {};
+envContent.split('\n').forEach(line => {
+    const [key, ...valParts] = line.split('=');
+    if (key && valParts.length > 0) {
+        vars[key.trim()] = valParts.join('=').trim();
+    }
+});
+
+const SUPABASE_URL = vars['SUPABASE_URL'] || vars['VITE_SUPABASE_URL'];
+const SUPABASE_KEY = vars['SUPABASE_SERVICE_ROLE_KEY'] || vars['VITE_SUPABASE_SERVICE_ROLE_KEY'];
+
+if (!SUPABASE_URL || !SUPABASE_KEY) {
+    console.error('❌ Missing Supabase credentials in .env.local');
+    process.exit(1);
+}
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+async function debug() {
+    console.log('🔍 Debugging Supabase JSON Query...');
+
+    // 1. Fetch ONE row to see what the data looks like
+    const { data: sample, error: sampleError } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data')
+        .limit(1)
+        .single();
+
+    if (sampleError) {
+        console.error('❌ Error fetching sample:', sampleError);
+        return;
+    }
+
+    if (!sample) {
+        console.log('⚠️ No data in spreadsheet_data table.');
+        return;
+    }
+
+    const tinyId = sample.row_data['ID Tiny'] || sample.row_data['id_tiny'];
+    console.log('📄 Sample Row ID Tiny:', tinyId);
+    console.log('📄 Keys in row_data:', Object.keys(sample.row_data));
+
+    if (!tinyId) {
+        console.log('❌ Sample row does not have "ID Tiny" or "id_tiny"');
+        return;
+    }
+
+    // 2. Try the EXACT query from sync-tiny.ts
+    console.log(`\n🧪 Testing Query: .in('row_data->>ID Tiny', ['${tinyId}']) ...`);
+
+    const { data: test1, error: error1 } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data')
+        .in('row_data->>ID Tiny', [String(tinyId)]);
+
+    if (error1) {
+        console.error('❌ Query 1 Failed:', error1);
+    } else {
+        console.log(`✅ Query 1 Result: Found ${test1?.length} rows.`);
+    }
+
+    if (!test1 || test1.length === 0) {
+        console.log('❌ FAILURE: The query syntax used in sync-tiny.ts is returning 0 results for an ID that EXISTS.');
+    } else {
+        console.log('✅ SUCCESS: The query finds the row correctly.');
+    }
+}
+
+debug();

@@ -1,1 +1,36 @@
-﻿@{data=LS0gTWlncmF0aW9uOiBDcmVhdGUgZGVsZXRlZF9vcmRlcnMgdGFibGUNCi0tIERlc2NyaXB0aW9uOiBTdG9yZXMgcGVybWFuZW50bHkgZGVsZXRlZCBvcmRlciBJRHMgdG8gcHJldmVudCB0aGVtIGZyb20gcmVhcHBlYXJpbmcNCi0tIERhdGU6IDIwMjYtMDEtMTYNCg0KLS0gQ3JlYXRlIGRlbGV0ZWRfb3JkZXJzIHRhYmxlDQpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyBwdWJsaWMuZGVsZXRlZF9vcmRlcnMgKA0KICAgIGlkIFVVSUQgUFJJTUFSWSBLRVkgREVGQVVMVCBnZW5fcmFuZG9tX3V1aWQoKSwNCiAgICBvcmRlcl9pZCBURVhUIE5PVCBOVUxMIFVOSVFVRSwNCiAgICB0aW55X2lkIFRFWFQsDQogICAgZGVsZXRlZF9hdCBUSU1FU1RBTVAgV0lUSCBUSU1FIFpPTkUgREVGQVVMVCBOT1coKSwNCiAgICBjcmVhdGVkX2F0IFRJTUVTVEFNUCBXSVRIIFRJTUUgWk9ORSBERUZBVUxUIE5PVygpDQopOw0KDQotLSBBZGQgaW5kZXggZm9yIGZhc3RlciBsb29rdXBzDQpDUkVBVEUgSU5ERVggSUYgTk9UIEVYSVNUUyBpZHhfZGVsZXRlZF9vcmRlcnNfb3JkZXJfaWQgT04gcHVibGljLmRlbGV0ZWRfb3JkZXJzKG9yZGVyX2lkKTsNCg0KLS0gQWRkIGNvbW1lbnQNCkNPTU1FTlQgT04gVEFCTEUgcHVibGljLmRlbGV0ZWRfb3JkZXJzIElTICdTdG9yZXMgSURzIG9mIG9yZGVycyB0aGF0IGhhdmUgYmVlbiBkZWxldGVkIHRvIHByZXZlbnQgdGhlbSBmcm9tIHJlYXBwZWFyaW5nJzsNCg0KLS0gRW5hYmxlIFJMUyAoUm93IExldmVsIFNlY3VyaXR5KQ0KQUxURVIgVEFCTEUgcHVibGljLmRlbGV0ZWRfb3JkZXJzIEVOQUJMRSBST1cgTEVWRUwgU0VDVVJJVFk7DQoNCi0tIENyZWF0ZSBwb2xpY3kgdG8gYWxsb3cgYWxsIG9wZXJhdGlvbnMgZm9yIGF1dGhlbnRpY2F0ZWQgdXNlcnMNCkNSRUFURSBQT0xJQ1kgIkFsbG93IGFsbCBvcGVyYXRpb25zIGZvciBhdXRoZW50aWNhdGVkIHVzZXJzIg0KICAgIE9OIHB1YmxpYy5kZWxldGVkX29yZGVycw0KICAgIEZPUiBBTEwNCiAgICBUTyBhdXRoZW50aWNhdGVkDQogICAgVVNJTkcgKHRydWUpDQogICAgV0lUSCBDSEVDSyAodHJ1ZSk7DQoNCi0tIENyZWF0ZSBwb2xpY3kgdG8gYWxsb3cgcmVhZCBmb3IgYW5vbiB1c2VycyAoaWYgbmVlZGVkKQ0KQ1JFQVRFIFBPTElDWSAiQWxsb3cgcmVhZCBmb3IgYW5vbiB1c2VycyINCiAgICBPTiBwdWJsaWMuZGVsZXRlZF9vcmRlcnMNCiAgICBGT1IgU0VMRUNUDQogICAgVE8gYW5vbg0KICAgIFVTSU5HICh0cnVlKTsNCg==}
+-- Migration: Create deleted_orders table
+-- Description: Stores permanently deleted order IDs to prevent them from reappearing
+-- Date: 2026-01-16
+
+-- Create deleted_orders table
+CREATE TABLE IF NOT EXISTS public.deleted_orders (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    order_id TEXT NOT NULL UNIQUE,
+    tiny_id TEXT,
+    deleted_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- Add index for faster lookups
+CREATE INDEX IF NOT EXISTS idx_deleted_orders_order_id ON public.deleted_orders(order_id);
+
+-- Add comment
+COMMENT ON TABLE public.deleted_orders IS 'Stores IDs of orders that have been deleted to prevent them from reappearing';
+
+-- Enable RLS (Row Level Security)
+ALTER TABLE public.deleted_orders ENABLE ROW LEVEL SECURITY;
+
+-- Create policy to allow all operations for authenticated users
+CREATE POLICY "Allow all operations for authenticated users"
+    ON public.deleted_orders
+    FOR ALL
+    TO authenticated
+    USING (true)
+    WITH CHECK (true);
+
+-- Create policy to allow read for anon users (if needed)
+CREATE POLICY "Allow read for anon users"
+    ON public.deleted_orders
+    FOR SELECT
+    TO anon
+    USING (true);

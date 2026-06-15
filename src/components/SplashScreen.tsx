@@ -1,1 +1,220 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOw0KDQppbnRlcmZhY2UgU3BsYXNoU2NyZWVuUHJvcHMgew0KICAgIG9uRmluaXNoPzogKCkgPT4gdm9pZDsNCiAgICBwcm9ncmVzcz86IG51bWJlcjsNCiAgICBtZXNzYWdlPzogc3RyaW5nOw0KfQ0KDQovLyBCaXNjdWl0cyAoRWFzdGVyIGVnZ3MpIHJlbWFpbiB0aGUgc2FtZQ0KY29uc3QgbG9hZGluZ01lc3NhZ2VzID0gWw0KICAgIHsgcGVyY2VudDogMCwgbWVzc2FnZTogIkluaWNpYW5kbyBvcyBtb3RvcmVzLi4uIiB9LA0KICAgIHsgcGVyY2VudDogMTAsIG1lc3NhZ2U6ICJBY29yZGFuZG8gb3MgaGFtc3RlcnMgcXVlIG1vdmVtIG8gc2Vydmlkb3IuLi4iIH0sDQogICAgeyBwZXJjZW50OiAyMCwgbWVzc2FnZTogIkNvbnZlbmNlbmRvIG9zIGRhZG9zIGEgY29vcGVyYXIuLi4iIH0sDQogICAgeyBwZXJjZW50OiAzMCwgbWVzc2FnZTogIkFqdXN0YW5kbyBvcyBwaXhlbHMgcmViZWxkZXMuLi4iIH0sDQogICAgeyBwZXJjZW50OiA0MCwgbWVzc2FnZTogIkZhemVuZG8gdW0gY2Fmw6kgcGFyYSBhIENQVS4uLiIgfSwNCiAgICB7IHBlcmNlbnQ6IDUwLCBtZXNzYWdlOiAiT3JnYW5pemFuZG8gYXMgcGxhbmlsaGFzLi4uIiB9LA0KICAgIHsgcGVyY2VudDogNjAsIG1lc3NhZ2U6ICJQcm9jdXJhbmRvIGFxdWVsZSBwZWRpZG8gcXVlIHN1bWl1Li4uIiB9LA0KICAgIHsgcGVyY2VudDogNzAsIG1lc3NhZ2U6ICJDb25mZXJpbmRvIHNlIHR1ZG8gZXN0w6Egbm8gbHVnYXIgY2VydG8uLi4iIH0sDQogICAgeyBwZXJjZW50OiA4MCwgbWVzc2FnZTogIlF1YXNlIGzDoSEgU8OzIG1haXMgdW0gcG91cXVpbmhvLi4uIiB9LA0KICAgIHsgcGVyY2VudDogOTAsIG1lc3NhZ2U6ICLDmmx0aW1vcyBhanVzdGVzLi4uIiB9LA0KICAgIHsgcGVyY2VudDogOTUsIG1lc3NhZ2U6ICJQcm9udG8hIFPDsyBmYWx0YSBvIGNhZmV6aW5oby4uLiIgfSwNCl07DQoNCmV4cG9ydCBjb25zdCBTcGxhc2hTY3JlZW46IFJlYWN0LkZDPFNwbGFzaFNjcmVlblByb3BzPiA9ICh7IG9uRmluaXNoLCBwcm9ncmVzczogZXh0ZXJuYWxQcm9ncmVzcywgbWVzc2FnZTogZXh0ZXJuYWxNZXNzYWdlIH0pID0+IHsNCiAgICBjb25zdCBbaW50ZXJuYWxQcm9ncmVzcywgc2V0SW50ZXJuYWxQcm9ncmVzc10gPSBSZWFjdC51c2VTdGF0ZSgwKTsNCiAgICBjb25zdCBbY3VycmVudE1lc3NhZ2UsIHNldEN1cnJlbnRNZXNzYWdlXSA9IFJlYWN0LnVzZVN0YXRlKGxvYWRpbmdNZXNzYWdlc1swXS5tZXNzYWdlKTsNCg0KICAgIC8vIElmIGV4dGVybmFsIHByb2dyZXNzIGlzIHByb3ZpZGVkLCB1c2UgaXQuIE90aGVyd2lzZSwgdXNlIGludGVybmFsIHNpbXVsYXRlZCBwcm9ncmVzcy4NCiAgICBjb25zdCBwcm9ncmVzcyA9IGV4dGVybmFsUHJvZ3Jlc3MgIT09IHVuZGVmaW5lZCA/IGV4dGVybmFsUHJvZ3Jlc3MgOiBpbnRlcm5hbFByb2dyZXNzOw0KDQogICAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHsNCiAgICAgICAgaWYgKGV4dGVybmFsTWVzc2FnZSkgew0KICAgICAgICAgICAgc2V0Q3VycmVudE1lc3NhZ2UoZXh0ZXJuYWxNZXNzYWdlKTsNCiAgICAgICAgfSBlbHNlIGlmIChleHRlcm5hbFByb2dyZXNzID09PSB1bmRlZmluZWQpIHsNCiAgICAgICAgICAgIC8vIE9ubHkgdXBkYXRlIG1lc3NhZ2UgYmFzZWQgb24gaW50ZXJuYWwgcHJvZ3Jlc3MgaWYgbm8gZXh0ZXJuYWwgbWVzc2FnZSBvciBwcm9ncmVzcyBpcyBwcm92aWRlZA0KICAgICAgICAgICAgY29uc3QgbWVzc2FnZSA9IFsuLi5sb2FkaW5nTWVzc2FnZXNdLnJldmVyc2UoKS5maW5kKG0gPT4gcHJvZ3Jlc3MgPj0gbS5wZXJjZW50KTsNCiAgICAgICAgICAgIGlmIChtZXNzYWdlKSB7DQogICAgICAgICAgICAgICAgc2V0Q3VycmVudE1lc3NhZ2UobWVzc2FnZS5tZXNzYWdlKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0sIFtwcm9ncmVzcywgZXh0ZXJuYWxNZXNzYWdlLCBleHRlcm5hbFByb2dyZXNzXSk7DQoNCg0KICAgIFJlYWN0LnVzZUVmZmVjdCgoKSA9PiB7DQogICAgICAgIC8vIE9ubHkgcnVuIHNpbXVsYXRpb24gaWYgZXh0ZXJuYWwgcHJvZ3Jlc3MgaXMgTk9UIHByb3ZpZGVkDQogICAgICAgIGlmIChleHRlcm5hbFByb2dyZXNzICE9PSB1bmRlZmluZWQpIHsNCiAgICAgICAgICAgIGlmIChleHRlcm5hbFByb2dyZXNzID49IDEwMCkgew0KICAgICAgICAgICAgICAgIHNldFRpbWVvdXQoKCkgPT4gb25GaW5pc2g/LigpLCA1MDApOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc3QgaW50ZXJ2YWwgPSBzZXRJbnRlcnZhbCgoKSA9PiB7DQogICAgICAgICAgICBzZXRJbnRlcm5hbFByb2dyZXNzKChwcmV2KSA9PiB7DQogICAgICAgICAgICAgICAgaWYgKHByZXYgPj0gMTAwKSB7DQogICAgICAgICAgICAgICAgICAgIGNsZWFySW50ZXJ2YWwoaW50ZXJ2YWwpOw0KICAgICAgICAgICAgICAgICAgICBzZXRUaW1lb3V0KCgpID0+IG9uRmluaXNoPy4oKSwgMzAwKTsNCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIDEwMDsNCiAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICBjb25zdCBuZXh0UHJvZ3Jlc3MgPSBwcmV2ICsgTWF0aC5yYW5kb20oKSAqIDggKyAyOw0KICAgICAgICAgICAgICAgIGNvbnN0IGZpbmFsUHJvZ3Jlc3MgPSBNYXRoLm1pbihuZXh0UHJvZ3Jlc3MsIDEwMCk7DQogICAgICAgICAgICAgICAgcmV0dXJuIGZpbmFsUHJvZ3Jlc3M7DQogICAgICAgICAgICB9KTsNCiAgICAgICAgfSwgMTUwKTsNCg0KICAgICAgICByZXR1cm4gKCkgPT4gY2xlYXJJbnRlcnZhbChpbnRlcnZhbCk7DQogICAgfSwgW29uRmluaXNoLCBleHRlcm5hbFByb2dyZXNzXSk7DQoNCiAgICByZXR1cm4gKA0KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZml4ZWQgaW5zZXQtMCB6LVs5OTk5XSBiZy1bIzAyMDIwNV0gb3ZlcmZsb3ctaGlkZGVuIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4NCg0KICAgICAgICAgICAgey8qIERlZXAgU3BhY2UgQmFja2dyb3VuZCB3aXRoIHN1YnRsZSBncmFkaWVudCAqL30NCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWdyYWRpZW50LXRvLXIgZnJvbS1ibGFjayB2aWEtWyMwYTBhMWFdIHRvLWJsYWNrIG9wYWNpdHktOTAiPjwvZGl2Pg0KDQogICAgICAgICAgICB7LyogU3RhcnMgLyBTcGVlZCBQYXJ0aWNsZXMgQ29udGFpbmVyICovfQ0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgb3ZlcmZsb3ctaGlkZGVuIHBlcnNwZWN0aXZlLWNvbnRhaW5lciI+DQogICAgICAgICAgICAgICAgey8qIEh5cGVyLXNwZWVkIG5lb24gdHJhaWxzICovfQ0KICAgICAgICAgICAgICAgIHtbLi4uQXJyYXkoMzApXS5tYXAoKF8sIGkpID0+ICgNCiAgICAgICAgICAgICAgICAgICAgPGRpdg0KICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtgdHJhaWwtJHtpfWB9DQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im5lb24tdHJhaWwiDQogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvcDogYCR7TWF0aC5yYW5kb20oKSAqIDEwMH0lYCwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogYCR7TWF0aC5yYW5kb20oKSAqIDMwMCArIDE1MH1weGAsIC8vIExvbmdlciB0cmFpbHMNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IGAke01hdGgucmFuZG9tKCkgKiAyICsgMX1weGAsICAgICAvLyBUaGlubmVyL1RoaWNrZXIgdmFyaWF0aW9uDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uRGVsYXk6IGAke01hdGgucmFuZG9tKCkgKiAxfXNgLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbkR1cmF0aW9uOiBgJHtNYXRoLnJhbmRvbSgpICogMC42ICsgMC4yfXNgLCAvLyBGYXN0ZXINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcGFjaXR5OiBNYXRoLnJhbmRvbSgpICogMC44ICsgMC4yLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IGkgJSAzID09PSAwID8gJ2xpbmVhci1ncmFkaWVudCg5MGRlZywgdHJhbnNwYXJlbnQsICNmZjAwZGUsIHRyYW5zcGFyZW50KScgOiAvLyBQaW5rDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGkgJSAzID09PSAxID8gJ2xpbmVhci1ncmFkaWVudCg5MGRlZywgdHJhbnNwYXJlbnQsICMwMGYyZmYsIHRyYW5zcGFyZW50KScgOiAvLyBDeWFuDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnbGluZWFyLWdyYWRpZW50KDkwZGVnLCB0cmFuc3BhcmVudCwgI2ZmZmZmZiwgdHJhbnNwYXJlbnQpJyAgIC8vIFdoaXRlDQogICAgICAgICAgICAgICAgICAgICAgICB9fQ0KICAgICAgICAgICAgICAgICAgICA+PC9kaXY+DQogICAgICAgICAgICAgICAgKSl9DQogICAgICAgICAgICA8L2Rpdj4NCg0KICAgICAgICAgICAgey8qIFRoZSBSb2NrZXQgQ29udGFpbmVyICovfQ0KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHotMTAgYW5pbWF0ZS1yb2NrZXQtZmxpZ2h0Ij4NCiAgICAgICAgICAgICAgICB7LyogU3R5bGlzaCBTY2ktRmkgUm9ja2V0IFNWRyAoVXNlciBQcm92aWRlZCkgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRyYW5zZm9ybSByb3RhdGUtOTAgc2NhbGUtMTUwIGZpbHRlciBkcm9wLXNoYWRvdy1bMF8wXzE1cHhfcmdiYSgwLDI0MiwyNTUsMC41KV0iPg0KICAgICAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsvKiBGaW5zL0VuZ2luZSBCYXNlICovfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNGRjAwMDAiIGQ9Ik00OSw2OC4yYzgsMCwxNS4xLDUuNywxOC45LDE0LjJjMC44LTIuMiwxLjMtNC41LDEuMy02LjljMC0xMS4xLTktMjAtMjAuMi0yMHMtMjAuMiw5LTIwLjIsMjAgICAgIGMwLDIuNCwwLjUsNC44LDEuMyw2LjlDMzMuOSw3My45LDQxLDY4LjIsNDksNjguMnoiIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgeD0iNDIuOSIgeT0iNjkuNSIgZmlsbD0iIzI2ODNFQSIgd2lkdGg9IjEyLjIiIGhlaWdodD0iNC4yIiAvPg0KDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIEZsYW1lcyAqL30NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyBjbGFzc05hbWU9ImVuZ2luZS1mbGFtZSI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNFOEFCMkUiIGQ9Ik01My4xLDc3LjFjLTAuNiwyLjYtNC4xLDguMy00LjEsOC4zcy0zLjUtNS42LTQuMS04LjNjLTAuNi0yLjgtMC4xLTUuNCwxLjMtNi43YzEuMy0xLjQsMi44LTMuMiwyLjgtMi43ICAgICBjMC0wLjUsMS41LDEuMywyLjgsMi43QzUzLjEsNzEuNyw1My43LDc0LjMsNTMuMSw3Ny4xeiIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0ZGMDAwMCIgZD0iTTUwLjUsNzYuOWMtMC4yLDEuNy0xLjUsNS40LTEuNSw1LjRzLTEuMy0zLjctMS41LTUuNGMtMC4yLTEuOCwwLTMuNSwwLjUtNC40YzAuNS0wLjksMS0yLjEsMS0xLjggICAgIGMwLTAuMywwLjYsMC45LDEsMS44QzUwLjUsNzMuNCw1MC43LDc1LDUwLjUsNzYuOXoiIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9nPg0KDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIEZ1c2VsYWdlIE1haW4gKi99DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZmlsbD0iI0MxQzFDMSIgZD0iTTU4LjUsMjguNUM1Ni4xLDIyLjYsNDksMTQuNiw0OSwxNC42djBjMCwwLTcuMSw4LTkuNSwxMy45QzM3LDM0LjQsMzMuNyw1MSw0Mi4zLDcyLjJINDl2MGg2LjcgICAgIEM2NC4zLDUxLDYxLDM0LjQsNTguNSwyOC41eiIgLz4NCg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsvKiBDb2NrcGl0L1VwcGVyIERldGFpbCAqL30NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBmaWxsPSIjMjk0ODYyIiBkPSJNNTkuNCwzMWMtMi4yLTAuNS02LTAuOS0xMC40LTAuOWMtNC40LDAtOC4yLDAuNC0xMC40LDAuOWMwLjMtMSwwLjYtMS44LDAuOS0yLjVjMi40LTUuOCw5LjUtMTMuOSw5LjUtMTMuOSAgICAgdjBjMCwwLDcsOCw5LjUsMTMuOUM1OC44LDI5LjIsNTkuMSwzMCw1OS40LDMxeiIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBmaWxsPSIjRkYwMDAwIiBkPSJNNTkuNCwzMWMtMi4yLTAuNS02LTAuOS0xMC40LTAuOWMtNC40LDAtOC4yLDAuNC0xMC40LDAuOWMwLjMtMC45LDAuNS0xLjYsMC44LTIuM2MyLjItMC45LDUuNy0xLjQsOS42LTEuNCAgICAgYzMuOSwwLDcuMywwLjUsOS42LDEuNEM1OC45LDI5LjQsNTkuMSwzMC4xLDU5LjQsMzF6IiAvPg0KDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgey8qIERldGFpbHMvV2luZG93cyAqL30NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZWxsaXBzZSBmaWxsPSIjMjk0ODYyIiBjeD0iNDkiIGN5PSI2Ni43IiByeD0iMS42IiByeT0iOS40IiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgZmlsbD0iI0U1QUMyRSIgY3g9IjQ5IiBjeT0iNDEuMyIgcj0iNS41IiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgZmlsbD0iIzI5NDg2MiIgY3g9IjQ5IiBjeT0iNDEuMyIgcj0iNC4yIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgICAgICAgICA8L3N2Zz4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgei0yMCBtdC0xMiB0ZXh0LWNlbnRlciB3LWZ1bGwgbWF4LXctbWQgcHgtOCI+DQoNCg0KICAgICAgICAgICAgICAgIHsvKiBQcm9ncmVzcyBCYXIgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctZnVsbCBiZy1ncmF5LTgwMC81MCByb3VuZGVkLWZ1bGwgaC00IG1iLTQgb3ZlcmZsb3ctaGlkZGVuIGJvcmRlciBib3JkZXItYmx1ZS01MDAvMzAgc2hhZG93LWxnIj4NCiAgICAgICAgICAgICAgICAgICAgPGRpdg0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLWZ1bGwgYmctZ3JhZGllbnQtdG8tciBmcm9tLWJsdWUtNTAwIHZpYS1wdXJwbGUtNTAwIHRvLXBpbmstNTAwIHRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTMwMCBlYXNlLW91dCBzaGFkb3ctaW5uZXIiDQogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyB3aWR0aDogYCR7cHJvZ3Jlc3N9JWAgfX0NCiAgICAgICAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtZnVsbCB3LWZ1bGwgYmctd2hpdGUvMjAgYW5pbWF0ZS1wdWxzZSI+PC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICAgICAgey8qIFBlcmNlbnRhZ2UgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIG1iLTMgdGFidWxhci1udW1zIj4NCiAgICAgICAgICAgICAgICAgICAge01hdGgucm91bmQocHJvZ3Jlc3MpfSUNCiAgICAgICAgICAgICAgICA8L2Rpdj4NCg0KICAgICAgICAgICAgICAgIHsvKiBMb2FkaW5nIE1lc3NhZ2UgKi99DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ibHVlLTMwMCBmb250LW1lZGl1bSBtaW4taC1bNDBweF0gZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYW5pbWF0ZS1mYWRlLWluIj4NCiAgICAgICAgICAgICAgICAgICAge2N1cnJlbnRNZXNzYWdlfQ0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1jZW50ZXIgbXQtNCBzcGFjZS14LTEiPg0KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMiBoLTIgYmctYmx1ZS01MDAgcm91bmRlZC1mdWxsIGFuaW1hdGUtYm91bmNlIiBzdHlsZT17eyBhbmltYXRpb25EZWxheTogJzBzJyB9fT48L3NwYW4+DQogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idy0yIGgtMiBiZy1ibHVlLTUwMCByb3VuZGVkLWZ1bGwgYW5pbWF0ZS1ib3VuY2UiIHN0eWxlPXt7IGFuaW1hdGlvbkRlbGF5OiAnMC4xcycgfX0+PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMiBoLTIgYmctYmx1ZS01MDAgcm91bmRlZC1mdWxsIGFuaW1hdGUtYm91bmNlIiBzdHlsZT17eyBhbmltYXRpb25EZWxheTogJzAuMnMnIH19Pjwvc3Bhbj4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDwvZGl2Pg0KDQogICAgICAgICAgICA8c3R5bGU+e2ANCiAgICAgICAgICAgICAgICAucGVyc3BlY3RpdmUtY29udGFpbmVyIHsNCiAgICAgICAgICAgICAgICAgICAgcGVyc3BlY3RpdmU6IDUwMHB4Ow0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAubmVvbi10cmFpbCB7DQogICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsNCiAgICAgICAgICAgICAgICAgICAgbGVmdDogMTEwJTsgLyogU3RhcnQgb2ZmIHNjcmVlbiByaWdodCAqLw0KICAgICAgICAgICAgICAgICAgICBhbmltYXRpb246IHRyYWlsLW1vdmUgbGluZWFyIGluZmluaXRlOw0KICAgICAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiA5OTlweDsNCiAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAwIDhweCBjdXJyZW50Q29sb3I7DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgQGtleWZyYW1lcyB0cmFpbC1tb3ZlIHsNCiAgICAgICAgICAgICAgICAgICAgMCUgew0KICAgICAgICAgICAgICAgICAgICAgICAgbGVmdDogMTEwJTsNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICAxMDAlIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIGxlZnQ6IC01MCU7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICAvKiBSb2NrZXQgc2xpZ2h0bHkgYm9iYmluZyB1cCBhbmQgZG93biB3aGlsZSBmbHlpbmcgZm9yd2FyZCAqLw0KICAgICAgICAgICAgICAgIEBrZXlmcmFtZXMgcm9ja2V0LWZsaWdodCB7DQogICAgICAgICAgICAgICAgICAgIDAlIHsgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCkgdHJhbnNsYXRlWCgwcHgpOyB9DQogICAgICAgICAgICAgICAgICAgIDI1JSB7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNXB4KSB0cmFuc2xhdGVYKDJweCk7IH0NCiAgICAgICAgICAgICAgICAgICAgNTAlIHsgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCkgdHJhbnNsYXRlWCgwcHgpOyB9DQogICAgICAgICAgICAgICAgICAgIDc1JSB7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSg1cHgpIHRyYW5zbGF0ZVgoLTJweCk7IH0NCiAgICAgICAgICAgICAgICAgICAgMTAwJSB7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwcHgpIHRyYW5zbGF0ZVgoMHB4KTsgfQ0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgIC5hbmltYXRlLXJvY2tldC1mbGlnaHQgew0KICAgICAgICAgICAgICAgICAgICBhbmltYXRpb246IHJvY2tldC1mbGlnaHQgMnMgZWFzZS1pbi1vdXQgaW5maW5pdGU7DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgLyogRW5naW5lIGZsYW1lIGZsaWNrZXJpbmcgKi8NCiAgICAgICAgICAgICAgICBAa2V5ZnJhbWVzIGZsYW1lLXB1bHNlIHsNCiAgICAgICAgICAgICAgICAgICAgMCUgeyB0cmFuc2Zvcm06IHNjYWxlWSgxKTsgb3BhY2l0eTogMC45OyB9DQogICAgICAgICAgICAgICAgICAgIDUwJSB7IHRyYW5zZm9ybTogc2NhbGVZKDEuMik7IG9wYWNpdHk6IDE7IH0NCiAgICAgICAgICAgICAgICAgICAgMTAwJSB7IHRyYW5zZm9ybTogc2NhbGVZKDAuOSk7IG9wYWNpdHk6IDAuODsgfQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAuZW5naW5lLWZsYW1lIHsNCiAgICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtLW9yaWdpbjogY2VudGVyIHRvcDsNCiAgICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtLWJveDogZmlsbC1ib3g7DQogICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogZmxhbWUtcHVsc2UgMC4xcyBpbmZpbml0ZSBhbHRlcm5hdGU7DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgQGtleWZyYW1lcyBmYWRlLWluIHsNCiAgICAgICAgICAgICAgICAgICAgZnJvbSB7IG9wYWNpdHk6IDA7IH0NCiAgICAgICAgICAgICAgICAgICAgdG8geyBvcGFjaXR5OiAxOyB9DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgLmFuaW1hdGUtZmFkZS1pbiB7DQogICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogZmFkZS1pbiAwLjVzIGVhc2UtaW47DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBgfTwvc3R5bGU+DQogICAgICAgIDwvZGl2Pg0KICAgICk7DQp9Ow0K}
+import * as React from 'react';
+
+interface SplashScreenProps {
+    onFinish?: () => void;
+    progress?: number;
+    message?: string;
+}
+
+// Biscuits (Easter eggs) remain the same
+const loadingMessages = [
+    { percent: 0, message: "Iniciando os motores..." },
+    { percent: 10, message: "Acordando os hamsters que movem o servidor..." },
+    { percent: 20, message: "Convencendo os dados a cooperar..." },
+    { percent: 30, message: "Ajustando os pixels rebeldes..." },
+    { percent: 40, message: "Fazendo um café para a CPU..." },
+    { percent: 50, message: "Organizando as planilhas..." },
+    { percent: 60, message: "Procurando aquele pedido que sumiu..." },
+    { percent: 70, message: "Conferindo se tudo está no lugar certo..." },
+    { percent: 80, message: "Quase lá! Só mais um pouquinho..." },
+    { percent: 90, message: "Últimos ajustes..." },
+    { percent: 95, message: "Pronto! Só falta o cafezinho..." },
+];
+
+export const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish, progress: externalProgress, message: externalMessage }) => {
+    const [internalProgress, setInternalProgress] = React.useState(0);
+    const [currentMessage, setCurrentMessage] = React.useState(loadingMessages[0].message);
+
+    // If external progress is provided, use it. Otherwise, use internal simulated progress.
+    const progress = externalProgress !== undefined ? externalProgress : internalProgress;
+
+    React.useEffect(() => {
+        if (externalMessage) {
+            setCurrentMessage(externalMessage);
+        } else if (externalProgress === undefined) {
+            // Only update message based on internal progress if no external message or progress is provided
+            const message = [...loadingMessages].reverse().find(m => progress >= m.percent);
+            if (message) {
+                setCurrentMessage(message.message);
+            }
+        }
+    }, [progress, externalMessage, externalProgress]);
+
+
+    React.useEffect(() => {
+        // Only run simulation if external progress is NOT provided
+        if (externalProgress !== undefined) {
+            if (externalProgress >= 100) {
+                setTimeout(() => onFinish?.(), 500);
+            }
+            return;
+        }
+
+        const interval = setInterval(() => {
+            setInternalProgress((prev) => {
+                if (prev >= 100) {
+                    clearInterval(interval);
+                    setTimeout(() => onFinish?.(), 300);
+                    return 100;
+                }
+
+                const nextProgress = prev + Math.random() * 8 + 2;
+                const finalProgress = Math.min(nextProgress, 100);
+                return finalProgress;
+            });
+        }, 150);
+
+        return () => clearInterval(interval);
+    }, [onFinish, externalProgress]);
+
+    return (
+        <div className="fixed inset-0 z-[9999] bg-[#020205] overflow-hidden flex flex-col items-center justify-center">
+
+            {/* Deep Space Background with subtle gradient */}
+            <div className="absolute inset-0 bg-gradient-to-r from-black via-[#0a0a1a] to-black opacity-90"></div>
+
+            {/* Stars / Speed Particles Container */}
+            <div className="absolute inset-0 overflow-hidden perspective-container">
+                {/* Hyper-speed neon trails */}
+                {[...Array(30)].map((_, i) => (
+                    <div
+                        key={`trail-${i}`}
+                        className="neon-trail"
+                        style={{
+                            top: `${Math.random() * 100}%`,
+                            width: `${Math.random() * 300 + 150}px`, // Longer trails
+                            height: `${Math.random() * 2 + 1}px`,     // Thinner/Thicker variation
+                            animationDelay: `${Math.random() * 1}s`,
+                            animationDuration: `${Math.random() * 0.6 + 0.2}s`, // Faster
+                            opacity: Math.random() * 0.8 + 0.2,
+                            background: i % 3 === 0 ? 'linear-gradient(90deg, transparent, #ff00de, transparent)' : // Pink
+                                i % 3 === 1 ? 'linear-gradient(90deg, transparent, #00f2ff, transparent)' : // Cyan
+                                    'linear-gradient(90deg, transparent, #ffffff, transparent)'   // White
+                        }}
+                    ></div>
+                ))}
+            </div>
+
+            {/* The Rocket Container */}
+            <div className="relative z-10 animate-rocket-flight">
+                {/* Stylish Sci-Fi Rocket SVG (User Provided) */}
+                <div className="transform rotate-90 scale-150 filter drop-shadow-[0_0_15px_rgba(0,242,255,0.5)]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+                        <g>
+                            {/* Fins/Engine Base */}
+                            <path fill="#FF0000" d="M49,68.2c8,0,15.1,5.7,18.9,14.2c0.8-2.2,1.3-4.5,1.3-6.9c0-11.1-9-20-20.2-20s-20.2,9-20.2,20     c0,2.4,0.5,4.8,1.3,6.9C33.9,73.9,41,68.2,49,68.2z" />
+                            <rect x="42.9" y="69.5" fill="#2683EA" width="12.2" height="4.2" />
+
+                            {/* Flames */}
+                            <g className="engine-flame">
+                                <path fill="#E8AB2E" d="M53.1,77.1c-0.6,2.6-4.1,8.3-4.1,8.3s-3.5-5.6-4.1-8.3c-0.6-2.8-0.1-5.4,1.3-6.7c1.3-1.4,2.8-3.2,2.8-2.7     c0-0.5,1.5,1.3,2.8,2.7C53.1,71.7,53.7,74.3,53.1,77.1z" />
+                                <path fill="#FF0000" d="M50.5,76.9c-0.2,1.7-1.5,5.4-1.5,5.4s-1.3-3.7-1.5-5.4c-0.2-1.8,0-3.5,0.5-4.4c0.5-0.9,1-2.1,1-1.8     c0-0.3,0.6,0.9,1,1.8C50.5,73.4,50.7,75,50.5,76.9z" />
+                            </g>
+
+                            {/* Fuselage Main */}
+                            <path fill="#C1C1C1" d="M58.5,28.5C56.1,22.6,49,14.6,49,14.6v0c0,0-7.1,8-9.5,13.9C37,34.4,33.7,51,42.3,72.2H49v0h6.7     C64.3,51,61,34.4,58.5,28.5z" />
+
+                            {/* Cockpit/Upper Detail */}
+                            <path fill="#294862" d="M59.4,31c-2.2-0.5-6-0.9-10.4-0.9c-4.4,0-8.2,0.4-10.4,0.9c0.3-1,0.6-1.8,0.9-2.5c2.4-5.8,9.5-13.9,9.5-13.9     v0c0,0,7,8,9.5,13.9C58.8,29.2,59.1,30,59.4,31z" />
+                            <path fill="#FF0000" d="M59.4,31c-2.2-0.5-6-0.9-10.4-0.9c-4.4,0-8.2,0.4-10.4,0.9c0.3-0.9,0.5-1.6,0.8-2.3c2.2-0.9,5.7-1.4,9.6-1.4     c3.9,0,7.3,0.5,9.6,1.4C58.9,29.4,59.1,30.1,59.4,31z" />
+
+                            {/* Details/Windows */}
+                            <ellipse fill="#294862" cx="49" cy="66.7" rx="1.6" ry="9.4" />
+                            <circle fill="#E5AC2E" cx="49" cy="41.3" r="5.5" />
+                            <circle fill="#294862" cx="49" cy="41.3" r="4.2" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+            <div className="relative z-20 mt-12 text-center w-full max-w-md px-8">
+
+
+                {/* Progress Bar */}
+                <div className="w-full bg-gray-800/50 rounded-full h-4 mb-4 overflow-hidden border border-blue-500/30 shadow-lg">
+                    <div
+                        className="h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 transition-all duration-300 ease-out shadow-inner"
+                        style={{ width: `${progress}%` }}
+                    >
+                        <div className="h-full w-full bg-white/20 animate-pulse"></div>
+                    </div>
+                </div>
+
+                {/* Percentage */}
+                <div className="text-2xl font-bold text-white mb-3 tabular-nums">
+                    {Math.round(progress)}%
+                </div>
+
+                {/* Loading Message */}
+                <div className="text-sm text-blue-300 font-medium min-h-[40px] flex items-center justify-center animate-fade-in">
+                    {currentMessage}
+                </div>
+
+                <div className="flex justify-center mt-4 space-x-1">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0s' }}></span>
+                    <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></span>
+                    <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></span>
+                </div>
+            </div>
+
+            <style>{`
+                .perspective-container {
+                    perspective: 500px;
+                }
+                
+                .neon-trail {
+                    position: absolute;
+                    left: 110%; /* Start off screen right */
+                    animation: trail-move linear infinite;
+                    border-radius: 999px;
+                    box-shadow: 0 0 8px currentColor;
+                }
+
+                @keyframes trail-move {
+                    0% {
+                        left: 110%;
+                    }
+                    100% {
+                        left: -50%;
+                    }
+                }
+
+                /* Rocket slightly bobbing up and down while flying forward */
+                @keyframes rocket-flight {
+                    0% { transform: translateY(0px) translateX(0px); }
+                    25% { transform: translateY(-5px) translateX(2px); }
+                    50% { transform: translateY(0px) translateX(0px); }
+                    75% { transform: translateY(5px) translateX(-2px); }
+                    100% { transform: translateY(0px) translateX(0px); }
+                }
+
+                .animate-rocket-flight {
+                    animation: rocket-flight 2s ease-in-out infinite;
+                }
+
+                /* Engine flame flickering */
+                @keyframes flame-pulse {
+                    0% { transform: scaleY(1); opacity: 0.9; }
+                    50% { transform: scaleY(1.2); opacity: 1; }
+                    100% { transform: scaleY(0.9); opacity: 0.8; }
+                }
+                
+                .engine-flame {
+                    transform-origin: center top;
+                    transform-box: fill-box;
+                    animation: flame-pulse 0.1s infinite alternate;
+                }
+
+                @keyframes fade-in {
+                    from { opacity: 0; }
+                    to { opacity: 1; }
+                }
+
+                .animate-fade-in {
+                    animation: fade-in 0.5s ease-in;
+                }
+
+            `}</style>
+        </div>
+    );
+};

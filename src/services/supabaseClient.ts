@@ -1,1 +1,11 @@
-﻿@{data=Ly8vIDxyZWZlcmVuY2UgdHlwZXM9InZpdGUvY2xpZW50IiAvPg0KaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3Qgc3VwYWJhc2VVcmwgPSBpbXBvcnQubWV0YS5lbnYuVklURV9TVVBBQkFTRV9VUkw7DQpjb25zdCBzdXBhYmFzZUFub25LZXkgPSBpbXBvcnQubWV0YS5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWTsNCg0KaWYgKCFzdXBhYmFzZVVybCB8fCAhc3VwYWJhc2VBbm9uS2V5KSB7DQogICAgY29uc29sZS53YXJuKCdTdXBhYmFzZSBjcmVkZW50aWFscyBub3QgZm91bmQuIFBsZWFzZSBjaGVjayB5b3VyIC5lbnYubG9jYWwgZmlsZS4nKTsNCn0NCg0KZXhwb3J0IGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KHN1cGFiYXNlVXJsIHx8ICcnLCBzdXBhYmFzZUFub25LZXkgfHwgJycpOw0K}
+/// <reference types="vite/client" />
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+if (!supabaseUrl || !supabaseAnonKey) {
+    console.warn('Supabase credentials not found. Please check your .env.local file.');
+}
+
+export const supabase = createClient(supabaseUrl || '', supabaseAnonKey || '');

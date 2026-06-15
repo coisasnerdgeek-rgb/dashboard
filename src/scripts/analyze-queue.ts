@@ -1,1 +1,141 @@
-﻿@{data=LyoqDQogKiBTY3JpcHQgZGV0YWxoYWRvIHBhcmEgYW5hbGlzYXIgZmlsYSBkZSByZXRyeQ0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIC5lbnYubG9jYWwNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KDQphc3luYyBmdW5jdGlvbiBhbmFseXplUXVldWUoKSB7DQogICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoU1VQQUJBU0VfVVJMLCBTVVBBQkFTRV9LRVkpOw0KDQogICAgY29uc29sZS5sb2coJ1xu8J+TiiBBbsOhbGlzZSBEZXRhbGhhZGEgZGEgRmlsYSBkZSBSZXRyeVxuJyk7DQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCg0KICAgIC8vIEdldCBhbGwgaXRlbXMNCiAgICBjb25zdCB7IGRhdGE6IGFsbEl0ZW1zIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJyonKQ0KICAgICAgICAub3JkZXIoJ2NyZWF0ZWRfYXQnLCB7IGFzY2VuZGluZzogZmFsc2UgfSk7DQoNCiAgICBpZiAoIWFsbEl0ZW1zIHx8IGFsbEl0ZW1zLmxlbmd0aCA9PT0gMCkgew0KICAgICAgICBjb25zb2xlLmxvZygn4pyFIEZpbGEgdmF6aWEhXG4nKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIC8vIENvdW50IGJ5IHN0YXR1cw0KICAgIGNvbnN0IGJ5U3RhdHVzID0gYWxsSXRlbXMucmVkdWNlKChhY2M6IGFueSwgaXRlbTogYW55KSA9PiB7DQogICAgICAgIGFjY1tpdGVtLnN0YXR1c10gPSAoYWNjW2l0ZW0uc3RhdHVzXSB8fCAwKSArIDE7DQogICAgICAgIHJldHVybiBhY2M7DQogICAgfSwge30pOw0KDQogICAgY29uc29sZS5sb2coJ/Cfk4ggUmVzdW1vIHBvciBTdGF0dXM6Jyk7DQogICAgT2JqZWN0LmVudHJpZXMoYnlTdGF0dXMpLmZvckVhY2goKFtzdGF0dXMsIGNvdW50XSkgPT4gew0KICAgICAgICBjb25zdCBlbW9qaSA9IHN0YXR1cyA9PT0gJ3BlbmRpbmcnID8gJ+KPsycgOiBzdGF0dXMgPT09ICdjb21wbGV0ZWQnID8gJ+KchScgOiBzdGF0dXMgPT09ICdmYWlsZWQnID8gJ+KdjCcgOiAn8J+UhCc7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICAke2Vtb2ppfSAke3N0YXR1c306ICR7Y291bnR9YCk7DQogICAgfSk7DQoNCiAgICAvLyBQZW5kaW5nIGl0ZW1zIGJ5IGFnZQ0KICAgIGNvbnN0IG5vdyA9IG5ldyBEYXRlKCk7DQogICAgY29uc3QgcGVuZGluZyA9IGFsbEl0ZW1zLmZpbHRlcihpID0+IGkuc3RhdHVzID09PSAncGVuZGluZycpOw0KDQogICAgaWYgKHBlbmRpbmcubGVuZ3RoID4gMCkgew0KICAgICAgICBjb25zb2xlLmxvZyhgXG7ij7MgUGVkaWRvcyBQZW5kZW50ZXMgKCR7cGVuZGluZy5sZW5ndGh9KTpcbmApOw0KDQogICAgICAgIGNvbnN0IGFnZUdyb3VwcyA9IHsNCiAgICAgICAgICAgICdIb2plJzogMCwNCiAgICAgICAgICAgICdPbnRlbSc6IDAsDQogICAgICAgICAgICAnMi03IGRpYXMnOiAwLA0KICAgICAgICAgICAgJzgtMzAgZGlhcyc6IDAsDQogICAgICAgICAgICAnMzArIGRpYXMnOiAwDQogICAgICAgIH07DQoNCiAgICAgICAgcGVuZGluZy5mb3JFYWNoKGl0ZW0gPT4gew0KICAgICAgICAgICAgY29uc3QgY3JlYXRlZEF0ID0gbmV3IERhdGUoaXRlbS5jcmVhdGVkX2F0KTsNCiAgICAgICAgICAgIGNvbnN0IGRpZmZEYXlzID0gTWF0aC5mbG9vcigobm93LmdldFRpbWUoKSAtIGNyZWF0ZWRBdC5nZXRUaW1lKCkpIC8gKDEwMDAgKiA2MCAqIDYwICogMjQpKTsNCg0KICAgICAgICAgICAgaWYgKGRpZmZEYXlzID09PSAwKSBhZ2VHcm91cHNbJ0hvamUnXSsrOw0KICAgICAgICAgICAgZWxzZSBpZiAoZGlmZkRheXMgPT09IDEpIGFnZUdyb3Vwc1snT250ZW0nXSsrOw0KICAgICAgICAgICAgZWxzZSBpZiAoZGlmZkRheXMgPD0gNykgYWdlR3JvdXBzWycyLTcgZGlhcyddKys7DQogICAgICAgICAgICBlbHNlIGlmIChkaWZmRGF5cyA8PSAzMCkgYWdlR3JvdXBzWyc4LTMwIGRpYXMnXSsrOw0KICAgICAgICAgICAgZWxzZSBhZ2VHcm91cHNbJzMwKyBkaWFzJ10rKzsNCiAgICAgICAgfSk7DQoNCiAgICAgICAgT2JqZWN0LmVudHJpZXMoYWdlR3JvdXBzKS5mb3JFYWNoKChbYWdlLCBjb3VudF0pID0+IHsNCiAgICAgICAgICAgIGlmIChjb3VudCA+IDApIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgJHthZ2V9OiAke2NvdW50fSBwZWRpZG9zYCk7DQogICAgICAgICAgICB9DQogICAgICAgIH0pOw0KDQogICAgICAgIC8vIFNob3cgb2xkZXN0IHBlbmRpbmcNCiAgICAgICAgY29uc3Qgb2xkZXN0ID0gcGVuZGluZy5zb3J0KChhLCBiKSA9Pg0KICAgICAgICAgICAgbmV3IERhdGUoYS5jcmVhdGVkX2F0KS5nZXRUaW1lKCkgLSBuZXcgRGF0ZShiLmNyZWF0ZWRfYXQpLmdldFRpbWUoKQ0KICAgICAgICApWzBdOw0KDQogICAgICAgIGlmIChvbGRlc3QpIHsNCiAgICAgICAgICAgIGNvbnN0IGFnZSA9IE1hdGguZmxvb3IoKG5vdy5nZXRUaW1lKCkgLSBuZXcgRGF0ZShvbGRlc3QuY3JlYXRlZF9hdCkuZ2V0VGltZSgpKSAvICgxMDAwICogNjAgKiA2MCAqIDI0KSk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgXG4gICDwn5OFIE1haXMgYW50aWdvOiAke29sZGVzdC5vcmRlcl9pZH0gKCR7YWdlfSBkaWFzIGF0csOhcylgKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8vIEZhaWxlZCBpdGVtcw0KICAgIGNvbnN0IGZhaWxlZCA9IGFsbEl0ZW1zLmZpbHRlcihpID0+IGkuc3RhdHVzID09PSAnZmFpbGVkJyk7DQogICAgaWYgKGZhaWxlZC5sZW5ndGggPiAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKGBcbuKdjCBQZWRpZG9zIEZhbGhhZG9zICgke2ZhaWxlZC5sZW5ndGh9KTpcbmApOw0KDQogICAgICAgIGNvbnN0IGVycm9yR3JvdXBzOiBhbnkgPSB7fTsNCiAgICAgICAgZmFpbGVkLmZvckVhY2goaXRlbSA9PiB7DQogICAgICAgICAgICBjb25zdCBlcnJvciA9IGl0ZW0ubGFzdF9lcnJvciB8fCAnRXJybyBkZXNjb25oZWNpZG8nOw0KICAgICAgICAgICAgY29uc3Qgc2hvcnRFcnJvciA9IGVycm9yLnN1YnN0cmluZygwLCA1MCk7DQogICAgICAgICAgICBlcnJvckdyb3Vwc1tzaG9ydEVycm9yXSA9IChlcnJvckdyb3Vwc1tzaG9ydEVycm9yXSB8fCAwKSArIDE7DQogICAgICAgIH0pOw0KDQogICAgICAgIE9iamVjdC5lbnRyaWVzKGVycm9yR3JvdXBzKQ0KICAgICAgICAgICAgLnNvcnQoKGE6IGFueSwgYjogYW55KSA9PiBiWzFdIC0gYVsxXSkNCiAgICAgICAgICAgIC5zbGljZSgwLCA1KQ0KICAgICAgICAgICAgLmZvckVhY2goKFtlcnJvciwgY291bnRdKSA9PiB7DQogICAgICAgICAgICAgICAgY29uc29sZS5sb2coYCAgICR7Y291bnR9eDogJHtlcnJvcn0uLi5gKTsNCiAgICAgICAgICAgIH0pOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCdcbicgKyAnPScucmVwZWF0KDYwKSk7DQogICAgY29uc29sZS5sb2coJ1xu8J+SoSBSZWNvbWVuZGHDp8O1ZXM6XG4nKTsNCg0KICAgIGlmIChwZW5kaW5nLmxlbmd0aCA+IDEwMDApIHsNCiAgICAgICAgY29uc29sZS5sb2coJyAgIOKaoO+4jyAgRmlsYSBtdWl0byBncmFuZGUgKD4xMDAwIGl0ZW5zKScpOw0KICAgICAgICBjb25zb2xlLmxvZygnICAg4oCiIERlaXhlIG8gcHJvY2Vzc2FtZW50byByb2RhciBhdMOpIGZpbmFsaXphcicpOw0KICAgICAgICBjb25zb2xlLmxvZygnICAg4oCiIEV2aXRlIGFkaWNpb25hciBtYWlzIHBlZGlkb3MgYWdvcmEnKTsNCiAgICB9IGVsc2UgaWYgKHBlbmRpbmcubGVuZ3RoID4gMTAwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCcgICDinIUgRmlsYSBjb20gdm9sdW1lIG1vZGVyYWRvJyk7DQogICAgICAgIGNvbnNvbGUubG9nKCcgICDigKIgUHJvY2Vzc2FtZW50byBkZXZlIGxldmFyIGFsZ3VucyBtaW51dG9zJyk7DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coJyAgIOKchSBGaWxhIHBlcXVlbmEnKTsNCiAgICAgICAgY29uc29sZS5sb2coJyAgIOKAoiBQcm9jZXNzYW1lbnRvIHLDoXBpZG8nKTsNCiAgICB9DQoNCiAgICBpZiAoZmFpbGVkLmxlbmd0aCA+IDUwKSB7DQogICAgICAgIGNvbnNvbGUubG9nKCdcbiAgIOKaoO+4jyAgTXVpdG9zIHBlZGlkb3MgZmFsaGFkb3MnKTsNCiAgICAgICAgY29uc29sZS5sb2coJyAgIOKAoiBSZXZpc2UgZXJyb3MgY29tOiBucHggdHN4IHNjcmlwdHMvZGVidWctc3RhdHVzLXVwZGF0ZS50cyBbSURdJyk7DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coJ1xuJyk7DQp9DQoNCmFuYWx5emVRdWV1ZSgpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+/**
+ * Script detalhado para analisar fila de retry
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function analyzeQueue() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n📊 Análise Detalhada da Fila de Retry\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Get all items
+    const { data: allItems } = await supabase
+        .from('webhook_retry_queue')
+        .select('*')
+        .order('created_at', { ascending: false });
+
+    if (!allItems || allItems.length === 0) {
+        console.log('✅ Fila vazia!\n');
+        return;
+    }
+
+    // Count by status
+    const byStatus = allItems.reduce((acc: any, item: any) => {
+        acc[item.status] = (acc[item.status] || 0) + 1;
+        return acc;
+    }, {});
+
+    console.log('📈 Resumo por Status:');
+    Object.entries(byStatus).forEach(([status, count]) => {
+        const emoji = status === 'pending' ? '⏳' : status === 'completed' ? '✅' : status === 'failed' ? '❌' : '🔄';
+        console.log(`   ${emoji} ${status}: ${count}`);
+    });
+
+    // Pending items by age
+    const now = new Date();
+    const pending = allItems.filter(i => i.status === 'pending');
+
+    if (pending.length > 0) {
+        console.log(`\n⏳ Pedidos Pendentes (${pending.length}):\n`);
+
+        const ageGroups = {
+            'Hoje': 0,
+            'Ontem': 0,
+            '2-7 dias': 0,
+            '8-30 dias': 0,
+            '30+ dias': 0
+        };
+
+        pending.forEach(item => {
+            const createdAt = new Date(item.created_at);
+            const diffDays = Math.floor((now.getTime() - createdAt.getTime()) / (1000 * 60 * 60 * 24));
+
+            if (diffDays === 0) ageGroups['Hoje']++;
+            else if (diffDays === 1) ageGroups['Ontem']++;
+            else if (diffDays <= 7) ageGroups['2-7 dias']++;
+            else if (diffDays <= 30) ageGroups['8-30 dias']++;
+            else ageGroups['30+ dias']++;
+        });
+
+        Object.entries(ageGroups).forEach(([age, count]) => {
+            if (count > 0) {
+                console.log(`   ${age}: ${count} pedidos`);
+            }
+        });
+
+        // Show oldest pending
+        const oldest = pending.sort((a, b) =>
+            new Date(a.created_at).getTime() - new Date(b.created_at).getTime()
+        )[0];
+
+        if (oldest) {
+            const age = Math.floor((now.getTime() - new Date(oldest.created_at).getTime()) / (1000 * 60 * 60 * 24));
+            console.log(`\n   📅 Mais antigo: ${oldest.order_id} (${age} dias atrás)`);
+        }
+    }
+
+    // Failed items
+    const failed = allItems.filter(i => i.status === 'failed');
+    if (failed.length > 0) {
+        console.log(`\n❌ Pedidos Falhados (${failed.length}):\n`);
+
+        const errorGroups: any = {};
+        failed.forEach(item => {
+            const error = item.last_error || 'Erro desconhecido';
+            const shortError = error.substring(0, 50);
+            errorGroups[shortError] = (errorGroups[shortError] || 0) + 1;
+        });
+
+        Object.entries(errorGroups)
+            .sort((a: any, b: any) => b[1] - a[1])
+            .slice(0, 5)
+            .forEach(([error, count]) => {
+                console.log(`   ${count}x: ${error}...`);
+            });
+    }
+
+    console.log('\n' + '='.repeat(60));
+    console.log('\n💡 Recomendações:\n');
+
+    if (pending.length > 1000) {
+        console.log('   ⚠️  Fila muito grande (>1000 itens)');
+        console.log('   • Deixe o processamento rodar até finalizar');
+        console.log('   • Evite adicionar mais pedidos agora');
+    } else if (pending.length > 100) {
+        console.log('   ✅ Fila com volume moderado');
+        console.log('   • Processamento deve levar alguns minutos');
+    } else {
+        console.log('   ✅ Fila pequena');
+        console.log('   • Processamento rápido');
+    }
+
+    if (failed.length > 50) {
+        console.log('\n   ⚠️  Muitos pedidos falhados');
+        console.log('   • Revise erros com: npx tsx scripts/debug-status-update.ts [ID]');
+    }
+
+    console.log('\n');
+}
+
+analyzeQueue().catch(console.error);

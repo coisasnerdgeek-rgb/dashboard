@@ -1,1 +1,70 @@
-﻿@{data=Y29uc3QgaHR0cHMgPSByZXF1aXJlKCdodHRwcycpOw0KDQphc3luYyBmdW5jdGlvbiByZXN5bmNMYXN0M0RheXMoKSB7DQogICAgY29uc29sZS5sb2coJ/CflIQgUmVwcm9jZXNzYW5kbyDDumx0aW1vcyAzIGRpYXMuLi5cbicpOw0KDQogICAgY29uc3QgaG9zdG5hbWUgPSAnZGFzaGJvYXJkLXBlZGlkb3MudmVyY2VsLmFwcCc7DQogICAgY29uc3QgcGF0aCA9ICcvYXBpL3N5bmMtdGlueSc7DQogICAgY29uc3QgcG9zdERhdGEgPSBKU09OLnN0cmluZ2lmeSh7DQogICAgICAgIGRheXNCYWNrOiAzLA0KICAgICAgICBmb3JjZVJlcHJvY2VzczogdHJ1ZQ0KICAgIH0pOw0KDQogICAgY29uc3Qgb3B0aW9ucyA9IHsNCiAgICAgICAgaG9zdG5hbWU6IGhvc3RuYW1lLA0KICAgICAgICBwb3J0OiA0NDMsDQogICAgICAgIHBhdGg6IHBhdGgsDQogICAgICAgIG1ldGhvZDogJ1BPU1QnLA0KICAgICAgICBoZWFkZXJzOiB7DQogICAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLA0KICAgICAgICAgICAgJ0NvbnRlbnQtTGVuZ3RoJzogQnVmZmVyLmJ5dGVMZW5ndGgocG9zdERhdGEpDQogICAgICAgIH0NCiAgICB9Ow0KDQogICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsNCiAgICAgICAgY29uc29sZS5sb2coJ/Cfk6EgQ2hhbWFuZG8gQVBJIGRlIHNpbmNyb25pemHDp8Ojby4uLicpOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgVVJMOiBodHRwczovLyR7aG9zdG5hbWV9JHtwYXRofWApOw0KICAgICAgICBjb25zb2xlLmxvZygnICAgUGFyw6JtZXRyb3M6IGRheXNCYWNrPTMsIGZvcmNlUmVwcm9jZXNzPXRydWVcbicpOw0KDQogICAgICAgIGNvbnN0IHJlcSA9IGh0dHBzLnJlcXVlc3Qob3B0aW9ucywgKHJlcykgPT4gew0KICAgICAgICAgICAgbGV0IGRhdGEgPSAnJzsNCg0KICAgICAgICAgICAgcmVzLm9uKCdkYXRhJywgKGNodW5rKSA9PiB7DQogICAgICAgICAgICAgICAgZGF0YSArPSBjaHVuazsNCiAgICAgICAgICAgIH0pOw0KDQogICAgICAgICAgICByZXMub24oJ2VuZCcsICgpID0+IHsNCiAgICAgICAgICAgICAgICB0cnkgew0KICAgICAgICAgICAgICAgICAgICBjb25zdCByZXN1bHQgPSBKU09OLnBhcnNlKGRhdGEpOw0KDQogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCfwn5OKIFJlc3VsdGFkbzonKTsNCiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coSlNPTi5zdHJpbmdpZnkocmVzdWx0LCBudWxsLCAyKSk7DQoNCiAgICAgICAgICAgICAgICAgICAgaWYgKHJlc3VsdC5hZGRlZCA+IDApIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGBcbuKchSAke3Jlc3VsdC5hZGRlZH0gcGVkaWRvcyBhZGljaW9uYWRvcyDDoCBmaWxhYCk7DQogICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygn8J+TjCBBZ29yYSBjbGlxdWUgZW0gIlByb2Nlc3NhciBGaWxhIiBwYXJhIHByb2Nlc3NhcicpOw0KICAgICAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ1xu4oS577iPICBOZW5odW0gcGVkaWRvIG5vdm8gZW5jb250cmFkbycpOw0KICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coJyAgIElzc28gcG9kZSBzaWduaWZpY2FyIHF1ZSB0b2RvcyBqw6EgZm9yYW0gaW1wb3J0YWRvcycpOw0KICAgICAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgICAgICAgICAgcmVzb2x2ZShyZXN1bHQpOw0KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGVycm9yKSB7DQogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvIGFvIHBhcnNlYXIgcmVzcG9zdGE6JywgZXJyb3IubWVzc2FnZSk7DQogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdSZXNwb3N0YSByYXc6JywgZGF0YSk7DQogICAgICAgICAgICAgICAgICAgIHJlamVjdChlcnJvcik7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0pOw0KDQogICAgICAgIHJlcS5vbignZXJyb3InLCAoZXJyb3IpID0+IHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvIG5hIHJlcXVpc2nDp8OjbzonLCBlcnJvci5tZXNzYWdlKTsNCiAgICAgICAgICAgIHJlamVjdChlcnJvcik7DQogICAgICAgIH0pOw0KDQogICAgICAgIHJlcS53cml0ZShwb3N0RGF0YSk7DQogICAgICAgIHJlcS5lbmQoKTsNCiAgICB9KTsNCn0NCg0KcmVzeW5jTGFzdDNEYXlzKCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+const https = require('https');
+
+async function resyncLast3Days() {
+    console.log('🔄 Reprocessando últimos 3 dias...\n');
+
+    const hostname = 'dashboard-pedidos.vercel.app';
+    const path = '/api/sync-tiny';
+    const postData = JSON.stringify({
+        daysBack: 3,
+        forceReprocess: true
+    });
+
+    const options = {
+        hostname: hostname,
+        port: 443,
+        path: path,
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Content-Length': Buffer.byteLength(postData)
+        }
+    };
+
+    return new Promise((resolve, reject) => {
+        console.log('📡 Chamando API de sincronização...');
+        console.log(`   URL: https://${hostname}${path}`);
+        console.log('   Parâmetros: daysBack=3, forceReprocess=true\n');
+
+        const req = https.request(options, (res) => {
+            let data = '';
+
+            res.on('data', (chunk) => {
+                data += chunk;
+            });
+
+            res.on('end', () => {
+                try {
+                    const result = JSON.parse(data);
+
+                    console.log('📊 Resultado:');
+                    console.log(JSON.stringify(result, null, 2));
+
+                    if (result.added > 0) {
+                        console.log(`\n✅ ${result.added} pedidos adicionados à fila`);
+                        console.log('📌 Agora clique em "Processar Fila" para processar');
+                    } else {
+                        console.log('\nℹ️  Nenhum pedido novo encontrado');
+                        console.log('   Isso pode significar que todos já foram importados');
+                    }
+
+                    resolve(result);
+                } catch (error) {
+                    console.error('❌ Erro ao parsear resposta:', error.message);
+                    console.log('Resposta raw:', data);
+                    reject(error);
+                }
+            });
+        });
+
+        req.on('error', (error) => {
+            console.error('❌ Erro na requisição:', error.message);
+            reject(error);
+        });
+
+        req.write(postData);
+        req.end();
+    });
+}
+
+resyncLast3Days().catch(console.error);

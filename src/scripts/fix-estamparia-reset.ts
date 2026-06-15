@@ -1,1 +1,64 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQovLyBORVcgREINCmNvbnN0IE5FV19TVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly9nZWFidmNxY3ltYXFzcXh4ZnF5dy5zdXBhYmFzZS5jbyc7DQpjb25zdCBORVdfU1VQQUJBU0VfS0VZID0gJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltZGxZV0oyWTNGamVXMWhjWE54ZUhobWNYbDNJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk9URTRNVEE1Tnl3aVpYaHdJam95TURnME56VTNNRGszZlEuV0p4cjllU0R6Zzd3ZlBBZ0JONk5nQUxmaVVIYy1EWWV1RmJFcUc4TjBoVSc7DQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KLy8gT0xEIERCDQpjb25zdCBPTERfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vbmJ4dWJkbXNlcG5oaGhzYnB6b3Euc3VwYWJhc2UuY28nOw0KY29uc3QgT0xEX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbTVpZUhWaVpHMXpaWEJ1YUdob2MySndlbTl4SWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJNVEkxTXpVd01pd2laWGh3SWpveU1EYzJPREk1TlRBeWZRLkx4MkgyZEhicGhwVE9sSDBQS2QtdjRFN2tKR2FyVTRoWU1LTHJXQkg2dXMnOw0KY29uc3Qgb2xkU3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoT0xEX1NVUEFCQVNFX1VSTCwgT0xEX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIHJlc2V0RXN0YW1wYXJpYSgpIHsNCiAgICBjb25zb2xlLmxvZygn8J+aqCBTVEFSVElORyBFU1RBTVBBUklBIFJFU0VULi4uJyk7DQoNCiAgICAvLyAxLiBDbGVhciBORVcgdGFibGUgKG9yIG1heWJlIGp1c3QgZGVsZXRlIHJvd3MgdGhhdCBkb24ndCBzYXRpc2Z5IGNyaXRlcmlhPyBObywgdXNlciB3YW50cyByZW9yZ2FuaXphdGlvbikNCiAgICBjb25zb2xlLmxvZygn8J+Xke+4jyBDbGVhcmluZyBwcmludF9jb250cm9sIG9uIE5FVyBEQi4uLicpOw0KICAgIGNvbnN0IHsgZXJyb3I6IGRlbEVycm9yIH0gPSBhd2FpdCBuZXdTdXBhYmFzZS5mcm9tKCdwcmludF9jb250cm9sJykuZGVsZXRlKCkubmVxKCdpZCcsICcwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAnKTsgLy8gRGVsZXRlIGFsbA0KICAgIGlmIChkZWxFcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBkZWxldGluZzonLCBkZWxFcnJvcik7DQogICAgICAgIHJldHVybjsNCiAgICB9DQogICAgY29uc29sZS5sb2coJ+KchSBUYWJsZSBjbGVhcmVkLicpOw0KDQogICAgLy8gMi4gRmV0Y2ggZnJvbSBPTEQgREINCiAgICBjb25zb2xlLmxvZygn8J+TpSBGZXRjaGluZyBmcm9tIE9MRCBEQi4uLicpOw0KICAgIGNvbnN0IHsgY291bnQgfSA9IGF3YWl0IG9sZFN1cGFiYXNlLmZyb20oJ3ByaW50X2NvbnRyb2wnKS5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KDQogICAgaWYgKCFjb3VudCkgew0KICAgICAgICBjb25zb2xlLmxvZygnTm8gcm93cyBpbiBvbGQgREI/IEFib3J0aW5nLicpOw0KICAgICAgICByZXR1cm47DQogICAgfQ0KICAgIGNvbnNvbGUubG9nKGBGb3VuZCAke2NvdW50fSByb3dzIHRvIG1pZ3JhdGUuYCk7DQoNCiAgICBjb25zdCBCQVRDSF9TSVpFID0gMjAwOw0KICAgIGxldCBvZmZzZXQgPSAwOw0KICAgIGxldCB0b3RhbCA9IDA7DQoNCiAgICB3aGlsZSAob2Zmc2V0IDwgY291bnQpIHsNCiAgICAgICAgY29uc3QgeyBkYXRhOiByb3dzLCBlcnJvcjogZmV0Y2hFcnJvciB9ID0gYXdhaXQgb2xkU3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdwcmludF9jb250cm9sJykNCiAgICAgICAgICAgIC5zZWxlY3QoJyonKQ0KICAgICAgICAgICAgLnJhbmdlKG9mZnNldCwgb2Zmc2V0ICsgQkFUQ0hfU0laRSAtIDEpOw0KDQogICAgICAgIGlmIChmZXRjaEVycm9yKSB0aHJvdyBmZXRjaEVycm9yOw0KDQogICAgICAgIGlmIChyb3dzICYmIHJvd3MubGVuZ3RoID4gMCkgew0KICAgICAgICAgICAgLy8gQ2xlYW4gcm93cyAocmVtb3ZlIGlkIGlmIHdlIHdhbnQgbmV3IG9uZXM/IE5vLCBrZWVwIElEcyBmb3IgY29uc2lzdGVuY3kgaWYgcG9zc2libGUpDQogICAgICAgICAgICAvLyBCdXQgd2UgbWlnaHQgbmVlZCB0byBoYW5kbGUgJ2NyZWF0ZWRfYXQnIGlmIHdlIHdhbnQgdG8gcHJlc2VydmUgaGlzdG9yeS4NCg0KICAgICAgICAgICAgY29uc3QgeyBlcnJvcjogaW5zRXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlLmZyb20oJ3ByaW50X2NvbnRyb2wnKS51cHNlcnQocm93cyk7DQogICAgICAgICAgICBpZiAoaW5zRXJyb3IpIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGluc2VydGluZyBiYXRjaDonLCBpbnNFcnJvcik7DQogICAgICAgICAgICBlbHNlIHRvdGFsICs9IHJvd3MubGVuZ3RoOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coYFByb2dyZXNzOiAke01hdGgubWluKG9mZnNldCArIEJBVENIX1NJWkUsIGNvdW50KX0vJHtjb3VudH1gKTsNCiAgICAgICAgb2Zmc2V0ICs9IEJBVENIX1NJWkU7DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coYOKchSBTdWNjZXNzZnVsbHkgcmVzdG9yZWQgJHt0b3RhbH0gcm93cyBmcm9tIGJhY2t1cC5gKTsNCn0NCg0KcmVzZXRFc3RhbXBhcmlhKCk7DQo=}
+
+import { createClient } from '@supabase/supabase-js';
+
+// NEW DB
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+// OLD DB
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+
+async function resetEstamparia() {
+    console.log('🚨 STARTING ESTAMPARIA RESET...');
+
+    // 1. Clear NEW table (or maybe just delete rows that don't satisfy criteria? No, user wants reorganization)
+    console.log('🗑️ Clearing print_control on NEW DB...');
+    const { error: delError } = await newSupabase.from('print_control').delete().neq('id', '00000000-0000-0000-0000-000000000000'); // Delete all
+    if (delError) {
+        console.error('Error deleting:', delError);
+        return;
+    }
+    console.log('✅ Table cleared.');
+
+    // 2. Fetch from OLD DB
+    console.log('📥 Fetching from OLD DB...');
+    const { count } = await oldSupabase.from('print_control').select('*', { count: 'exact', head: true });
+
+    if (!count) {
+        console.log('No rows in old DB? Aborting.');
+        return;
+    }
+    console.log(`Found ${count} rows to migrate.`);
+
+    const BATCH_SIZE = 200;
+    let offset = 0;
+    let total = 0;
+
+    while (offset < count) {
+        const { data: rows, error: fetchError } = await oldSupabase
+            .from('print_control')
+            .select('*')
+            .range(offset, offset + BATCH_SIZE - 1);
+
+        if (fetchError) throw fetchError;
+
+        if (rows && rows.length > 0) {
+            // Clean rows (remove id if we want new ones? No, keep IDs for consistency if possible)
+            // But we might need to handle 'created_at' if we want to preserve history.
+
+            const { error: insError } = await newSupabase.from('print_control').upsert(rows);
+            if (insError) console.error('Error inserting batch:', insError);
+            else total += rows.length;
+        }
+
+        console.log(`Progress: ${Math.min(offset + BATCH_SIZE, count)}/${count}`);
+        offset += BATCH_SIZE;
+    }
+
+    console.log(`✅ Successfully restored ${total} rows from backup.`);
+}
+
+resetEstamparia();

@@ -1,1 +1,37 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIHZlcmlmeVN5bmNMb2dpYygpIHsNCiAgICBjb25zdCBvcmRlcklkID0gJzI2MDEyM1NDS01BMDlIJzsNCiAgICBjb25zdCBmb3JjZVJlcHJvY2VzcyA9IHRydWU7DQoNCiAgICBjb25zb2xlLmxvZyhg8J+nqiBWZXJpZmljYW5kbyBzdGF0dXMgYXR1YWwgcGFyYSBwZWRpZG8gJHtvcmRlcklkfS4uLmApOw0KDQogICAgY29uc3QgeyBkYXRhOiBxdWV1ZUl0ZW1zIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJ3N0YXR1cycpDQogICAgICAgIC5lcSgnb3JkZXJfaWQnLCBvcmRlcklkKTsNCg0KICAgIGNvbnN0IGN1cnJlbnRTdGF0dXMgPSBxdWV1ZUl0ZW1zPy5bMF0/LnN0YXR1cyB8fCAnbsOjbyBlbmNvbnRyYWRvIG5hIGZpbGEnOw0KICAgIGNvbnNvbGUubG9nKGBTdGF0dXMgYXR1YWwgbmEgZmlsYTogJHtjdXJyZW50U3RhdHVzfWApOw0KDQogICAgLy8gUkVTRVQgUEFSQSBQRU5ESU5HIChTaW11bGFuZG8gbyBxdWUgbyBzeW5jLXRpbnkudHMgYWdvcmEgZmFyw6EpDQogICAgY29uc29sZS5sb2coJ/CflIQgUmVzZXRhbmRvIHBhcmEgcGVuZGluZyBwYXJhIGdhcmFudGlyIGF0dWFsaXphw6fDo28uLi4nKTsNCiAgICBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC51cGRhdGUoew0KICAgICAgICAgICAgc3RhdHVzOiAncGVuZGluZycsDQogICAgICAgICAgICByZXRyeV9jb3VudDogMCwNCiAgICAgICAgICAgIG5leHRfcmV0cnlfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwNCiAgICAgICAgICAgIGxhc3RfZXJyb3I6IG51bGwNCiAgICAgICAgfSkNCiAgICAgICAgLmVxKCdvcmRlcl9pZCcsIG9yZGVySWQpOw0KDQogICAgY29uc29sZS5sb2coJ+KchSBQcm9udG8hIE8gcHJvY2Vzc2Fkb3IgZGUgZmlsYSBwZWdhcsOhIGVzdGUgcGVkaWRvIG5hIHByw7N4aW1hIGV4ZWN1w6fDo28uJyk7DQp9DQoNCnZlcmlmeVN5bmNMb2dpYygpOw0K}
+
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function verifySyncLogic() {
+    const orderId = '260123SCKMA09H';
+    const forceReprocess = true;
+
+    console.log(`🧪 Verificando status atual para pedido ${orderId}...`);
+
+    const { data: queueItems } = await supabase
+        .from('webhook_retry_queue')
+        .select('status')
+        .eq('order_id', orderId);
+
+    const currentStatus = queueItems?.[0]?.status || 'não encontrado na fila';
+    console.log(`Status atual na fila: ${currentStatus}`);
+
+    // RESET PARA PENDING (Simulando o que o sync-tiny.ts agora fará)
+    console.log('🔄 Resetando para pending para garantir atualização...');
+    await supabase
+        .from('webhook_retry_queue')
+        .update({
+            status: 'pending',
+            retry_count: 0,
+            next_retry_at: new Date().toISOString(),
+            last_error: null
+        })
+        .eq('order_id', orderId);
+
+    console.log('✅ Pronto! O processador de fila pegará este pedido na próxima execução.');
+}
+
+verifySyncLogic();

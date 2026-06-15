@@ -1,1 +1,56 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCAqIGFzIGRvdGVudiBmcm9tICdkb3RlbnYnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KLy8gTG9hZCBlbnZpcm9ubWVudCB2YXJpYWJsZXMNCmRvdGVudi5jb25maWcoeyBwYXRoOiBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKSB9KTsNCg0KY29uc3Qgc3VwYWJhc2VVcmwgPSBwcm9jZXNzLmVudi5WSVRFX1NVUEFCQVNFX1VSTCE7DQpjb25zdCBzdXBhYmFzZUtleSA9IHByb2Nlc3MuZW52LlZJVEVfU1VQQUJBU0VfQU5PTl9LRVkhOw0KDQppZiAoIXN1cGFiYXNlVXJsIHx8ICFzdXBhYmFzZUtleSkgew0KICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBWSVRFX1NVUEFCQVNFX1VSTCBvdSBWSVRFX1NVUEFCQVNFX0FOT05fS0VZIG7Do28gZW5jb250cmFkYXMgbm8gLmVudi5sb2NhbCcpOw0KICAgIHByb2Nlc3MuZXhpdCgxKTsNCn0NCg0KY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoc3VwYWJhc2VVcmwsIHN1cGFiYXNlS2V5KTsNCg0KYXN5bmMgZnVuY3Rpb24gY2hlY2tUYWJsZVN0cnVjdHVyZSgpIHsNCiAgICBjb25zb2xlLmxvZygn8J+UjSBWZXJpZmljYW5kbyBlc3RydXR1cmEgZGEgdGFiZWxhIHNhdmVkX29yZGVycy4uLlxuJyk7DQoNCiAgICB0cnkgew0KICAgICAgICAvLyBHZXQgYSBzYW1wbGUgcmVjb3JkIHRvIHNlZSBzdHJ1Y3R1cmUNCiAgICAgICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdzYXZlZF9vcmRlcnMnKQ0KICAgICAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgICAgICAubGltaXQoMSk7DQoNCiAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCfinYwgRXJybyBhbyBidXNjYXIgZGFkb3M6JywgZXJyb3IubWVzc2FnZSk7DQogICAgICAgICAgICByZXR1cm47DQogICAgICAgIH0NCg0KICAgICAgICBpZiAoIWRhdGEgfHwgZGF0YS5sZW5ndGggPT09IDApIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCfimqDvuI8gIE5lbmh1bSByZWdpc3RybyBlbmNvbnRyYWRvIG5hIHRhYmVsYScpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coJ+KchSBFc3RydXR1cmEgZGEgdGFiZWxhIHNhdmVkX29yZGVyczonKTsNCiAgICAgICAgY29uc29sZS5sb2coJ0NvbHVuYXMgZGlzcG9uw612ZWlzOicsIE9iamVjdC5rZXlzKGRhdGFbMF0pKTsNCiAgICAgICAgY29uc29sZS5sb2coJ1xuRXhlbXBsbyBkZSByZWdpc3RybzonKTsNCiAgICAgICAgY29uc29sZS5sb2coSlNPTi5zdHJpbmdpZnkoZGF0YVswXSwgbnVsbCwgMikpOw0KDQogICAgICAgIC8vIENoZWNrIGlmIGNyZWF0ZWRfYXQgZXhpc3RzDQogICAgICAgIGlmICgnY3JlYXRlZF9hdCcgaW4gZGF0YVswXSkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coJ1xu4pyFIENvbHVuYSBjcmVhdGVkX2F0IEVYSVNURScpOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgY29uc29sZS5sb2coJ1xu4pqg77iPICBDb2x1bmEgY3JlYXRlZF9hdCBOw4NPIEVYSVNURScpOw0KICAgICAgICAgICAgY29uc29sZS5sb2coJyAgIFNlcsOhIG5lY2Vzc8OhcmlvIGNyaWFyIGFudGVzIGRlIGltcGxlbWVudGFyIHBhZ2luYcOnw6NvJyk7DQogICAgICAgIH0NCg0KICAgIH0gY2F0Y2ggKGVycikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCfinYwgRXJybyBpbmVzcGVyYWRvOicsIGVycik7DQogICAgfQ0KfQ0KDQpjaGVja1RhYmxlU3RydWN0dXJlKCk7DQo=}
+import { createClient } from '@supabase/supabase-js';
+import * as dotenv from 'dotenv';
+import * as path from 'path';
+
+// Load environment variables
+dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
+
+const supabaseUrl = process.env.VITE_SUPABASE_URL!;
+const supabaseKey = process.env.VITE_SUPABASE_ANON_KEY!;
+
+if (!supabaseUrl || !supabaseKey) {
+    console.error('❌ VITE_SUPABASE_URL ou VITE_SUPABASE_ANON_KEY não encontradas no .env.local');
+    process.exit(1);
+}
+
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+async function checkTableStructure() {
+    console.log('🔍 Verificando estrutura da tabela saved_orders...\n');
+
+    try {
+        // Get a sample record to see structure
+        const { data, error } = await supabase
+            .from('saved_orders')
+            .select('*')
+            .limit(1);
+
+        if (error) {
+            console.error('❌ Erro ao buscar dados:', error.message);
+            return;
+        }
+
+        if (!data || data.length === 0) {
+            console.log('⚠️  Nenhum registro encontrado na tabela');
+            return;
+        }
+
+        console.log('✅ Estrutura da tabela saved_orders:');
+        console.log('Colunas disponíveis:', Object.keys(data[0]));
+        console.log('\nExemplo de registro:');
+        console.log(JSON.stringify(data[0], null, 2));
+
+        // Check if created_at exists
+        if ('created_at' in data[0]) {
+            console.log('\n✅ Coluna created_at EXISTE');
+        } else {
+            console.log('\n⚠️  Coluna created_at NÃO EXISTE');
+            console.log('   Será necessário criar antes de implementar paginação');
+        }
+
+    } catch (err) {
+        console.error('❌ Erro inesperado:', err);
+    }
+}
+
+checkTableStructure();

@@ -1,1 +1,98 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCmltcG9ydCB7IGZldGNoVGlueU9yZGVyIH0gZnJvbSAnLi4vc2VydmljZXMvdGlueVNlcnZpY2UnOw0KDQpjb25zdCBTVVBBQkFTRV9VUkwgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkwhOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSE7DQpjb25zdCBUSU5ZX1RPS0VOX01NID0gcHJvY2Vzcy5lbnYuVElOWV9BUElfVE9LRU5fTU0gfHwgcHJvY2Vzcy5lbnYuVElOWV9BUElfVE9LRU47DQpjb25zdCBUSU5ZX1RPS0VOX01WRiA9IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOX01WRjsNCg0KZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gaGFuZGxlcihyZXE6IGFueSwgcmVzOiBhbnkpIHsNCiAgICBpZiAocmVxLm1ldGhvZCAhPT0gJ1BPU1QnKSB7DQogICAgICAgIHJldHVybiByZXMuc3RhdHVzKDQwNSkuanNvbih7IGVycm9yOiAnTWV0aG9kIG5vdCBhbGxvd2VkJyB9KTsNCiAgICB9DQoNCiAgICBjb25zdCB7IGlkcyB9ID0gcmVxLmJvZHk7IC8vIEV4cGVjdHMgYW4gYXJyYXkgb2YgeyBpZDogc3RyaW5nIHwgbnVtYmVyLCBjbnBqOiBzdHJpbmcgfQ0KDQogICAgaWYgKCFpZHMgfHwgIUFycmF5LmlzQXJyYXkoaWRzKSkgew0KICAgICAgICByZXR1cm4gcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogJ0ludmFsaWQgaW5wdXQuIEV4cGVjdGVkICJpZHMiIGFycmF5LicgfSk7DQogICAgfQ0KDQogICAgaWYgKGlkcy5sZW5ndGggPiA1MCkgew0KICAgICAgICByZXR1cm4gcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogJ0JhdGNoIHNpemUgdG9vIGxhcmdlLiBNYXggNTAgaXRlbXMuJyB9KTsNCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZyhgW1JlZnJlc2hTdGF0dXNdIFJlZnJlc2hpbmcgJHtpZHMubGVuZ3RofSBvcmRlcnMuLi5gKTsNCg0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCiAgICBjb25zdCB1cGRhdGVzOiBhbnlbXSA9IFtdOw0KDQogICAgLy8gUHJvY2VzcyBpbiBwYXJhbGxlbCB3aXRoIGxpbWl0DQogICAgLy8gTm90ZTogVGlueSBBUEkgcmF0ZSBsaW1pdHMgbWlnaHQgYXBwbHksIHNvIHdlIHByb2Nlc3Mgc2VyaWFsbHkgb3IgaW4gc21hbGwgY2h1bmtzIGlmIG5lZWRlZC4NCiAgICAvLyBmZXRjaFRpbnlPcmRlciBpcyByb2J1c3QgYnV0IHdlIHNob3VsZCBiZSBjYXJlZnVsLg0KDQogICAgZm9yIChjb25zdCBpdGVtIG9mIGlkcykgew0KICAgICAgICBjb25zdCBvcmRlcklkID0gU3RyaW5nKGl0ZW0uaWQpOw0KICAgICAgICBjb25zdCBjbnBqID0gaXRlbS5jbnBqOw0KDQogICAgICAgIGxldCB0b2tlbiA9IFRJTllfVE9LRU5fTU07DQogICAgICAgIGlmIChjbnBqID09PSAnMjUxMTY1MTQwMDAxMzgnIHx8IFN0cmluZyhjbnBqKS5pbmNsdWRlcygnMjUxMTY1MTQnKSkgew0KICAgICAgICAgICAgdG9rZW4gPSBUSU5ZX1RPS0VOX01WRjsNCiAgICAgICAgfQ0KDQogICAgICAgIGlmICghdG9rZW4pIHsNCiAgICAgICAgICAgIGNvbnNvbGUud2FybihgW1JlZnJlc2hTdGF0dXNdIE5vIHRva2VuIGZvdW5kIGZvciBDTlBKICR7Y25wan1gKTsNCiAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc3QgdGlueU9yZGVyID0gYXdhaXQgZmV0Y2hUaW55T3JkZXIob3JkZXJJZCwgdG9rZW4pOw0KDQogICAgICAgIGlmICh0aW55T3JkZXIpIHsNCiAgICAgICAgICAgIGNvbnN0IG5ld1N0YXR1cyA9IHRpbnlPcmRlci5zaXR1YWNhbzsNCiAgICAgICAgICAgIC8vIFVwZGF0ZSBTdXBhYmFzZQ0KICAgICAgICAgICAgLy8gV2UgbmVlZCB0byBmaW5kIHRoZSByb3cgYnkgdW5pcXVlIElEIG9yIHNvbWUgb3RoZXIgaWRlbnRpZmllci4NCiAgICAgICAgICAgIC8vIEFzc3VtaW5nIHdlIGhhdmUgdGhlIGRhdGFiYXNlIElEIG9yIHdlIHNlYXJjaCBieSBvcmRlciBJRD8NCiAgICAgICAgICAgIC8vIFRoZSBpdGVtLmlkIHBhc3NlZCBoZXJlICpzaG91bGQqIGJlIHRoZSBvcmRlciBJRCAoaWRWZW5kYSksIG5vdCB0aGUgU3VwYWJhc2Ugcm93IElELA0KICAgICAgICAgICAgLy8gYmVjYXVzZSBmZXRjaFRpbnlPcmRlciBuZWVkcyB0aGUgZ2VuZXJpYyBJRC4NCg0KICAgICAgICAgICAgLy8gSG93ZXZlciwgdG8gdXBkYXRlIFN1cGFiYXNlICdzcHJlYWRzaGVldF9kYXRhJywgd2UgbmVlZCB0byBtYXRjaCB0aGUgcm93Lg0KICAgICAgICAgICAgLy8gTGV0J3MgYXNzdW1lIHRoZSBmcm9udGVuZCBwYXNzZXMgdGhlIG9yZGVyIElELg0KICAgICAgICAgICAgLy8gV2UgbmVlZCB0byB1cGRhdGUgQUxMIHJvd3Mgd2l0aCB0aGlzIElEPw0KICAgICAgICAgICAgLy8gQWN0dWFsbHksIHF1ZXJ5aW5nIHNwcmVhZHNoZWV0X2RhdGEgYnkgb3JkZXIgSUQgKGpzb24gcXVlcnkpIGlzIHNsb3cuDQogICAgICAgICAgICAvLyBJZGVhbGx5IGZyb250ZW5kIHBhc3NlcyB7IGlkOiBvcmRlcklkLCBzdXBhYmFzZUlkOiBzdHJpbmcgfT8NCg0KICAgICAgICAgICAgLy8gTGV0J3MgcmVseSBvbiB0aGUgZnJvbnRlbmQgc2VuZGluZyB7IG9yZGVySWQ6ICcxMjMnLCBzdXBhYmFzZUlkOiAndXVpZCcsIGNucGo6ICcuLi4nIH0NCiAgICAgICAgICAgIC8vIElmIHN1cGFiYXNlSWQgaXMgcHJvdmlkZWQsIHdlIHVwZGF0ZSB0aGF0IHNwZWNpZmljIHJvdy4NCg0KICAgICAgICAgICAgaWYgKGl0ZW0uc3VwYWJhc2VJZCkgew0KICAgICAgICAgICAgICAgIC8vIEZldGNoIGN1cnJlbnQgcm93IHRvIG1lcmdlDQogICAgICAgICAgICAgICAgY29uc3QgeyBkYXRhOiBjdXJyZW50Um93IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAgICAgICAgIC5zZWxlY3QoJ3Jvd19kYXRhJykNCiAgICAgICAgICAgICAgICAgICAgLmVxKCdpZCcsIGl0ZW0uc3VwYWJhc2VJZCkNCiAgICAgICAgICAgICAgICAgICAgLnNpbmdsZSgpOw0KDQogICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRSb3cpIHsNCiAgICAgICAgICAgICAgICAgICAgY29uc3QgdXBkYXRlZFJvd0RhdGEgPSB7IC4uLmN1cnJlbnRSb3cucm93X2RhdGEsIHNpdHVhY2FvOiBuZXdTdGF0dXMgfTsNCg0KICAgICAgICAgICAgICAgICAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgICAgICAgICAgICAgLnVwZGF0ZSh7IHJvd19kYXRhOiB1cGRhdGVkUm93RGF0YSB9KQ0KICAgICAgICAgICAgICAgICAgICAgICAgLmVxKCdpZCcsIGl0ZW0uc3VwYWJhc2VJZCk7DQoNCiAgICAgICAgICAgICAgICAgICAgaWYgKCFlcnJvcikgew0KICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlcy5wdXNoKHsgaWQ6IGl0ZW0uc3VwYWJhc2VJZCwgc3RhdHVzOiBuZXdTdGF0dXMsIG9yZGVySWQgfSk7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9DQoNCiAgICByZXR1cm4gcmVzLnN0YXR1cygyMDApLmpzb24oew0KICAgICAgICBtZXNzYWdlOiBgUHJvY2Vzc2VkICR7aWRzLmxlbmd0aH0gb3JkZXJzYCwNCiAgICAgICAgdXBkYXRlZDogdXBkYXRlcy5sZW5ndGgsDQogICAgICAgIGRldGFpbHM6IHVwZGF0ZXMNCiAgICB9KTsNCn0NCg==}
+import { createClient } from '@supabase/supabase-js';
+import { fetchTinyOrder } from '../services/tinyService';
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const TINY_TOKEN_MM = process.env.TINY_API_TOKEN_MM || process.env.TINY_API_TOKEN;
+const TINY_TOKEN_MVF = process.env.TINY_API_TOKEN_MVF;
+
+export default async function handler(req: any, res: any) {
+    if (req.method !== 'POST') {
+        return res.status(405).json({ error: 'Method not allowed' });
+    }
+
+    const { ids } = req.body; // Expects an array of { id: string | number, cnpj: string }
+
+    if (!ids || !Array.isArray(ids)) {
+        return res.status(400).json({ error: 'Invalid input. Expected "ids" array.' });
+    }
+
+    if (ids.length > 50) {
+        return res.status(400).json({ error: 'Batch size too large. Max 50 items.' });
+    }
+
+    console.log(`[RefreshStatus] Refreshing ${ids.length} orders...`);
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+    const updates: any[] = [];
+
+    // Process in parallel with limit
+    // Note: Tiny API rate limits might apply, so we process serially or in small chunks if needed.
+    // fetchTinyOrder is robust but we should be careful.
+
+    for (const item of ids) {
+        const orderId = String(item.id);
+        const cnpj = item.cnpj;
+
+        let token = TINY_TOKEN_MM;
+        if (cnpj === '25116514000138' || String(cnpj).includes('25116514')) {
+            token = TINY_TOKEN_MVF;
+        }
+
+        if (!token) {
+            console.warn(`[RefreshStatus] No token found for CNPJ ${cnpj}`);
+            continue;
+        }
+
+        const tinyOrder = await fetchTinyOrder(orderId, token);
+
+        if (tinyOrder) {
+            const newStatus = tinyOrder.situacao;
+            // Update Supabase
+            // We need to find the row by unique ID or some other identifier.
+            // Assuming we have the database ID or we search by order ID?
+            // The item.id passed here *should* be the order ID (idVenda), not the Supabase row ID,
+            // because fetchTinyOrder needs the generic ID.
+
+            // However, to update Supabase 'spreadsheet_data', we need to match the row.
+            // Let's assume the frontend passes the order ID.
+            // We need to update ALL rows with this ID?
+            // Actually, querying spreadsheet_data by order ID (json query) is slow.
+            // Ideally frontend passes { id: orderId, supabaseId: string }?
+
+            // Let's rely on the frontend sending { orderId: '123', supabaseId: 'uuid', cnpj: '...' }
+            // If supabaseId is provided, we update that specific row.
+
+            if (item.supabaseId) {
+                // Fetch current row to merge
+                const { data: currentRow } = await supabase
+                    .from('spreadsheet_data')
+                    .select('row_data')
+                    .eq('id', item.supabaseId)
+                    .single();
+
+                if (currentRow) {
+                    const updatedRowData = { ...currentRow.row_data };
+                    // Atualiza ambas as chaves para garantir compatibilidade histórica e normalização correta
+                    updatedRowData["Situação"] = newStatus;
+                    updatedRowData["situacao"] = newStatus;
+
+                    const { error } = await supabase
+                        .from('spreadsheet_data')
+                        .update({ row_data: updatedRowData })
+                        .eq('id', item.supabaseId);
+
+                    if (!error) {
+                        updates.push({ id: item.supabaseId, status: newStatus, orderId });
+                    }
+                }
+            }
+        }
+    }
+
+    return res.status(200).json({
+        message: `Processed ${ids.length} orders`,
+        updated: updates.length,
+        details: updates
+    });
+}

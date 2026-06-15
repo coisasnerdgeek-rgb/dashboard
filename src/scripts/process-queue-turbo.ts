@@ -1,1 +1,101 @@
-﻿@{data=LyoqDQogKiBTY3JpcHQgVFVSQk8gcGFyYSBwcm9jZXNzYXIgZmlsYSBtYWlzIHJhcGlkYW1lbnRlDQogKiBDaGFtYSBBUEkgbcO6bHRpcGxhcyB2ZXplcyBlbSBwYXJhbGVsbw0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIC5lbnYubG9jYWwNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgQVBJX1VSTCA9ICdodHRwczovL2Rhc2hib2FyZC1wZWRpZG9zLnZlcmNlbC5hcHAnOw0KDQphc3luYyBmdW5jdGlvbiBwcm9jZXNzUXVldWVUdXJibygpIHsNCiAgICBjb25zb2xlLmxvZygnXG7imqHimqEgUFJPQ0VTU0FNRU5UTyBUVVJCTyBEQSBGSUxBIOKaoeKaoVxuJyk7DQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCg0KICAgIGxldCB0b3RhbFByb2Nlc3NlZCA9IDA7DQogICAgbGV0IHRvdGFsRmFpbGVkID0gMDsNCiAgICBsZXQgcm91bmQgPSAwOw0KDQogICAgd2hpbGUgKHRydWUpIHsNCiAgICAgICAgcm91bmQrKzsNCiAgICAgICAgY29uc29sZS5sb2coYFxu8J+UpSBSb2RhZGEgJHtyb3VuZH0gLSBDaGFtYW5kbyBBUEkgNXggZW0gcGFyYWxlbG8uLi5gKTsNCg0KICAgICAgICB0cnkgew0KICAgICAgICAgICAgLy8gQ2hhbWFyIEFQSSA1IHZlemVzIGVtIHBhcmFsZWxvIHBhcmEgcHJvY2Vzc2FyIG1haXMgcsOhcGlkbw0KICAgICAgICAgICAgY29uc3QgcHJvbWlzZXMgPSBBcnJheSg1KS5maWxsKG51bGwpLm1hcCgoKSA9Pg0KICAgICAgICAgICAgICAgIGZldGNoKGAke0FQSV9VUkx9L2FwaS9wcm9jZXNzLXJldHJ5LXF1ZXVlYCwgew0KICAgICAgICAgICAgICAgICAgICBtZXRob2Q6ICdQT1NUJywNCiAgICAgICAgICAgICAgICAgICAgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0NCiAgICAgICAgICAgICAgICB9KS50aGVuKHIgPT4gci5qc29uKCkpDQogICAgICAgICAgICApOw0KDQogICAgICAgICAgICBjb25zdCByZXN1bHRzID0gYXdhaXQgUHJvbWlzZS5hbGwocHJvbWlzZXMpOw0KDQogICAgICAgICAgICBsZXQgcm91bmRDb21wbGV0ZWQgPSAwOw0KICAgICAgICAgICAgbGV0IHJvdW5kRmFpbGVkID0gMDsNCiAgICAgICAgICAgIGxldCBtaW5QZW5kaW5nID0gSW5maW5pdHk7DQoNCiAgICAgICAgICAgIHJlc3VsdHMuZm9yRWFjaCgoZGF0YSwgaWR4KSA9PiB7DQogICAgICAgICAgICAgICAgaWYgKGRhdGEuc3VjY2Vzcykgew0KICAgICAgICAgICAgICAgICAgICByb3VuZENvbXBsZXRlZCArPSBkYXRhLmNvbXBsZXRlZCB8fCAwOw0KICAgICAgICAgICAgICAgICAgICByb3VuZEZhaWxlZCArPSBkYXRhLmZhaWxlZCB8fCAwOw0KICAgICAgICAgICAgICAgICAgICBjb25zdCBwZW5kaW5nID0gZGF0YS5wZW5kaW5nQ291bnQgfHwgMDsNCiAgICAgICAgICAgICAgICAgICAgaWYgKHBlbmRpbmcgPCBtaW5QZW5kaW5nKSBtaW5QZW5kaW5nID0gcGVuZGluZzsNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9KTsNCg0KICAgICAgICAgICAgdG90YWxQcm9jZXNzZWQgKz0gcm91bmRDb21wbGV0ZWQ7DQogICAgICAgICAgICB0b3RhbEZhaWxlZCArPSByb3VuZEZhaWxlZDsNCg0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIOKchSBDb21wbGV0YWRvcyBuZXN0YSByb2RhZGE6ICR7cm91bmRDb21wbGV0ZWR9YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAg4p2MIEZhbGhhZG9zIG5lc3RhIHJvZGFkYTogJHtyb3VuZEZhaWxlZH1gKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICDij7MgUGVuZGVudGVzIHJlc3RhbnRlczogJHttaW5QZW5kaW5nfWApOw0KDQogICAgICAgICAgICAvLyBTZSBuw6NvIGjDoSBtYWlzIHBlbmRlbnRlcyBvdSBuYWRhIGZvaSBwcm9jZXNzYWRvLCBwYXJhcg0KICAgICAgICAgICAgaWYgKG1pblBlbmRpbmcgPT09IDAgfHwgcm91bmRDb21wbGV0ZWQgPT09IDApIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgXG7inIUgUHJvY2Vzc2FtZW50byBjb21wbGV0byFgKTsNCiAgICAgICAgICAgICAgICBicmVhazsNCiAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgLy8gU2UgYWluZGEgaMOhIG11aXRvcyBwZW5kZW50ZXMsIGNvbnRpbnVhciBzZW0gZGVsYXkNCiAgICAgICAgICAgIC8vIFNlIHBvdWNvcywgYWRpY2lvbmFyIHBlcXVlbm8gZGVsYXkNCiAgICAgICAgICAgIGlmIChtaW5QZW5kaW5nIDwgNTApIHsNCiAgICAgICAgICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgMjAwMCkpOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYOKdjCBFcnJvIG5hIHJvZGFkYTpgLCBlcnJvci5tZXNzYWdlKTsNCiAgICAgICAgICAgIGJyZWFrOw0KICAgICAgICB9DQoNCiAgICAgICAgLy8gTGltaXRlIGRlIHNlZ3VyYW7Dp2E6IDIwIHJvZGFkYXMNCiAgICAgICAgaWYgKHJvdW5kID49IDIwKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgXG7imqDvuI8gIEF0aW5naWRvIGxpbWl0ZSBkZSAyMCByb2RhZGFzLiBQcm9jZXNzYW1lbnRvIHBhdXNhZG8uYCk7DQogICAgICAgICAgICBicmVhazsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCdcbicgKyAnPScucmVwZWF0KDYwKSk7DQogICAgY29uc29sZS5sb2coYFxu8J+OryBSRVNVTU8gRklOQUw6XG5gKTsNCiAgICBjb25zb2xlLmxvZyhgICAg4pyFIFRvdGFsIHByb2Nlc3NhZG9zOiAke3RvdGFsUHJvY2Vzc2VkfWApOw0KICAgIGNvbnNvbGUubG9nKGAgICDinYwgVG90YWwgZmFsaGFkb3M6ICR7dG90YWxGYWlsZWR9YCk7DQogICAgY29uc29sZS5sb2coYCAgIPCflKUgUm9kYWRhcyBleGVjdXRhZGFzOiAke3JvdW5kfWApOw0KICAgIGNvbnNvbGUubG9nKGBcbmApOw0KfQ0KDQpwcm9jZXNzUXVldWVUdXJibygpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+/**
+ * Script TURBO para processar fila mais rapidamente
+ * Chama API múltiplas vezes em paralelo
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const API_URL = 'https://dashboard-pedidos.vercel.app';
+
+async function processQueueTurbo() {
+    console.log('\n⚡⚡ PROCESSAMENTO TURBO DA FILA ⚡⚡\n');
+    console.log('='.repeat(60) + '\n');
+
+    let totalProcessed = 0;
+    let totalFailed = 0;
+    let round = 0;
+
+    while (true) {
+        round++;
+        console.log(`\n🔥 Rodada ${round} - Chamando API 5x em paralelo...`);
+
+        try {
+            // Chamar API 5 vezes em paralelo para processar mais rápido
+            const promises = Array(5).fill(null).map(() =>
+                fetch(`${API_URL}/api/process-retry-queue`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                }).then(r => r.json())
+            );
+
+            const results = await Promise.all(promises);
+
+            let roundCompleted = 0;
+            let roundFailed = 0;
+            let minPending = Infinity;
+
+            results.forEach((data, idx) => {
+                if (data.success) {
+                    roundCompleted += data.completed || 0;
+                    roundFailed += data.failed || 0;
+                    const pending = data.pendingCount || 0;
+                    if (pending < minPending) minPending = pending;
+                }
+            });
+
+            totalProcessed += roundCompleted;
+            totalFailed += roundFailed;
+
+            console.log(`   ✅ Completados nesta rodada: ${roundCompleted}`);
+            console.log(`   ❌ Falhados nesta rodada: ${roundFailed}`);
+            console.log(`   ⏳ Pendentes restantes: ${minPending}`);
+
+            // Se não há mais pendentes ou nada foi processado, parar
+            if (minPending === 0 || roundCompleted === 0) {
+                console.log(`\n✅ Processamento completo!`);
+                break;
+            }
+
+            // Se ainda há muitos pendentes, continuar sem delay
+            // Se poucos, adicionar pequeno delay
+            if (minPending < 50) {
+                await new Promise(r => setTimeout(r, 2000));
+            }
+
+        } catch (error: any) {
+            console.error(`❌ Erro na rodada:`, error.message);
+            break;
+        }
+
+        // Limite de segurança: 20 rodadas
+        if (round >= 20) {
+            console.log(`\n⚠️  Atingido limite de 20 rodadas. Processamento pausado.`);
+            break;
+        }
+    }
+
+    console.log('\n' + '='.repeat(60));
+    console.log(`\n🎯 RESUMO FINAL:\n`);
+    console.log(`   ✅ Total processados: ${totalProcessed}`);
+    console.log(`   ❌ Total falhados: ${totalFailed}`);
+    console.log(`   🔥 Rodadas executadas: ${round}`);
+    console.log(`\n`);
+}
+
+processQueueTurbo().catch(console.error);

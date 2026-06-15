@@ -1,1 +1,17 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIEVYUE9SVEFSIERBRE9TIERFIFNQUkVBRFNIRUVUX0RBVEENCi0tIEV4ZWN1dGUgbm8gU1FMIEVkaXRvciBkbyBCQU5DTyBBTlRJR08gKG5ieHViZG1zZXBuaGhoc2Jwem9xKQ0KLS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KLS0gUEFTU08gMTogVmVyIGEgZXN0cnV0dXJhIGRhIHRhYmVsYQ0KU0VMRUNUIGNvbHVtbl9uYW1lLCBkYXRhX3R5cGUgDQpGUk9NIGluZm9ybWF0aW9uX3NjaGVtYS5jb2x1bW5zIA0KV0hFUkUgdGFibGVfc2NoZW1hID0gJ3B1YmxpYycgDQogIEFORCB0YWJsZV9uYW1lID0gJ3NwcmVhZHNoZWV0X2RhdGEnDQpPUkRFUiBCWSBvcmRpbmFsX3Bvc2l0aW9uOw0KDQotLSBQQVNTTyAyOiBWZXIgcXVhbnRvcyByZWdpc3Ryb3MgZXhpc3RlbQ0KU0VMRUNUIENPVU5UKCopIGFzIHRvdGFsIEZST00gcHVibGljLnNwcmVhZHNoZWV0X2RhdGE7DQoNCi0tIFBBU1NPIDM6IFZlciBhbGd1bnMgZXhlbXBsb3MgcGFyYSBlbnRlbmRlciBhIGVzdHJ1dHVyYQ0KU0VMRUNUICogRlJPTSBwdWJsaWMuc3ByZWFkc2hlZXRfZGF0YSBMSU1JVCAzOw0K}
+-- ========================================================
+-- EXPORTAR DADOS DE SPREADSHEET_DATA
+-- Execute no SQL Editor do BANCO ANTIGO (nbxubdmsepnhhhsbpzoq)
+-- ========================================================
+
+-- PASSO 1: Ver a estrutura da tabela
+SELECT column_name, data_type 
+FROM information_schema.columns 
+WHERE table_schema = 'public' 
+  AND table_name = 'spreadsheet_data'
+ORDER BY ordinal_position;
+
+-- PASSO 2: Ver quantos registros existem
+SELECT COUNT(*) as total FROM public.spreadsheet_data;
+
+-- PASSO 3: Ver alguns exemplos para entender a estrutura
+SELECT * FROM public.spreadsheet_data LIMIT 3;

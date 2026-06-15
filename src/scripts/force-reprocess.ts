@@ -1,1 +1,88 @@
-﻿@{data=LyoqDQogKiBTY3JpcHQgcGFyYSBmb3LDp2FyIHJlcHJvY2Vzc2FtZW50byBkZSB1bSBwZWRpZG8gZXNwZWPDrWZpY28NCiAqLw0KDQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KLy8gTG9hZCAuZW52LmxvY2FsDQpjb25zdCBlbnZQYXRoID0gcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQppZiAoZnMuZXhpc3RzU3luYyhlbnZQYXRoKSkgew0KICAgIGNvbnN0IGVudkZpbGUgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0ZjgnKTsNCiAgICBlbnZGaWxlLnNwbGl0KCdcbicpLmZvckVhY2gobGluZSA9PiB7DQogICAgICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj06I10rKT0oLiopJC8pOw0KICAgICAgICBpZiAobWF0Y2gpIHsNCiAgICAgICAgICAgIGNvbnN0IGtleSA9IG1hdGNoWzFdLnRyaW0oKTsNCiAgICAgICAgICAgIGNvbnN0IHZhbHVlID0gbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL15bIiddfFsiJ10kL2csICcnKTsNCiAgICAgICAgICAgIGlmICghcHJvY2Vzcy5lbnZba2V5XSkgcHJvY2Vzcy5lbnZba2V5XSA9IHZhbHVlOw0KICAgICAgICB9DQogICAgfSk7DQp9DQoNCmNvbnN0IFNVUEFCQVNFX1VSTCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZITsNCg0KYXN5bmMgZnVuY3Rpb24gZm9yY2VSZXByb2Nlc3ModGlueUlkOiBzdHJpbmcpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZyhgXG7wn5SEIEZvcmNlIFJlcHJvY2Vzc2luZyBPcmRlcjogJHt0aW55SWR9XG5gKTsNCg0KICAgIC8vIENoZWNrIGlmIGV4aXN0cyBpbiBxdWV1ZQ0KICAgIGNvbnN0IHsgZGF0YTogZXhpc3RpbmcgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5lcSgnb3JkZXJfaWQnLCB0aW55SWQpOw0KDQogICAgaWYgKGV4aXN0aW5nICYmIGV4aXN0aW5nLmxlbmd0aCA+IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coYOKchSBGb3VuZCAke2V4aXN0aW5nLmxlbmd0aH0gaXRlbShzKSBpbiBxdWV1ZWApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgU3RhdHVzOiAke2V4aXN0aW5nWzBdLnN0YXR1c31gKTsNCiAgICAgICAgY29uc29sZS5sb2coYCAgIFJldHJ5IENvdW50OiAke2V4aXN0aW5nWzBdLnJldHJ5X2NvdW50fWApOw0KDQogICAgICAgIC8vIFJlc2V0IHRvIHBlbmRpbmcNCiAgICAgICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgIC51cGRhdGUoew0KICAgICAgICAgICAgICAgIHN0YXR1czogJ3BlbmRpbmcnLA0KICAgICAgICAgICAgICAgIHJldHJ5X2NvdW50OiAwLA0KICAgICAgICAgICAgICAgIG5leHRfcmV0cnlfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwNCiAgICAgICAgICAgICAgICBsYXN0X2Vycm9yOiBudWxsDQogICAgICAgICAgICB9KQ0KICAgICAgICAgICAgLmVxKCdvcmRlcl9pZCcsIHRpbnlJZCk7DQoNCiAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICBjb25zb2xlLmVycm9yKCfinYwgRmFpbGVkIHRvIHJlc2V0OicsIGVycm9yKTsNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCdcbuKchSBTdWNjZXNzZnVsbHkgcmVzZXQgdG8gcGVuZGluZyEnKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCcgICBXaWxsIGJlIHByb2Nlc3NlZCBpbiB0aGUgbmV4dCBjeWNsZSAofjEgbWludXRlKScpOw0KICAgICAgICB9DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coJ+KaoO+4jyAgT3JkZXIgbm90IGZvdW5kIGluIHJldHJ5IHF1ZXVlJyk7DQogICAgICAgIGNvbnNvbGUubG9nKCcgICBBZGRpbmcgZnJlc2ggZW50cnkuLi4nKTsNCg0KICAgICAgICAvLyBBZGQgZnJlc2ggZW50cnkNCiAgICAgICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgIC5pbnNlcnQoew0KICAgICAgICAgICAgICAgIG9yZGVyX2lkOiB0aW55SWQsDQogICAgICAgICAgICAgICAgY29tcGFueTogJ01NJywgLy8gRGVmYXVsdCB0byBNTSwgd2lsbCBhdXRvLWRldGVjdCBpZiBuZWVkZWQNCiAgICAgICAgICAgICAgICBzdGF0dXM6ICdwZW5kaW5nJywNCiAgICAgICAgICAgICAgICByZXRyeV9jb3VudDogMCwNCiAgICAgICAgICAgICAgICBtYXhfcmV0cmllczogNSwNCiAgICAgICAgICAgICAgICBuZXh0X3JldHJ5X2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksDQogICAgICAgICAgICAgICAgcGF5bG9hZDogeyBvcmlnaW46ICdNYW51YWwgRm9yY2UnIH0NCiAgICAgICAgICAgIH0pOw0KDQogICAgICAgIGlmIChlcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcign4p2MIEZhaWxlZCB0byBhZGQ6JywgZXJyb3IpOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgY29uc29sZS5sb2coJ1xu4pyFIFN1Y2Nlc3NmdWxseSBhZGRlZCB0byBxdWV1ZSEnKTsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCcgICBXaWxsIGJlIHByb2Nlc3NlZCBpbiB0aGUgbmV4dCBjeWNsZSAofjEgbWludXRlKScpOw0KICAgICAgICB9DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coJ1xuJyArICc9Jy5yZXBlYXQoNjApICsgJ1xuJyk7DQp9DQoNCmNvbnN0IHRpbnlJZCA9IHByb2Nlc3MuYXJndlsyXSB8fCAnOTUwMjc1NzA2JzsNCmZvcmNlUmVwcm9jZXNzKHRpbnlJZCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+/**
+ * Script para forçar reprocessamento de um pedido específico
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function forceReprocess(tinyId: string) {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log(`\n🔄 Force Reprocessing Order: ${tinyId}\n`);
+
+    // Check if exists in queue
+    const { data: existing } = await supabase
+        .from('webhook_retry_queue')
+        .select('*')
+        .eq('order_id', tinyId);
+
+    if (existing && existing.length > 0) {
+        console.log(`✅ Found ${existing.length} item(s) in queue`);
+        console.log(`   Status: ${existing[0].status}`);
+        console.log(`   Retry Count: ${existing[0].retry_count}`);
+
+        // Reset to pending
+        const { error } = await supabase
+            .from('webhook_retry_queue')
+            .update({
+                status: 'pending',
+                retry_count: 0,
+                next_retry_at: new Date().toISOString(),
+                last_error: null
+            })
+            .eq('order_id', tinyId);
+
+        if (error) {
+            console.error('❌ Failed to reset:', error);
+        } else {
+            console.log('\n✅ Successfully reset to pending!');
+            console.log('   Will be processed in the next cycle (~1 minute)');
+        }
+    } else {
+        console.log('⚠️  Order not found in retry queue');
+        console.log('   Adding fresh entry...');
+
+        // Add fresh entry
+        const { error } = await supabase
+            .from('webhook_retry_queue')
+            .insert({
+                order_id: tinyId,
+                company: 'MM', // Default to MM, will auto-detect if needed
+                status: 'pending',
+                retry_count: 0,
+                max_retries: 5,
+                next_retry_at: new Date().toISOString(),
+                payload: { origin: 'Manual Force' }
+            });
+
+        if (error) {
+            console.error('❌ Failed to add:', error);
+        } else {
+            console.log('\n✅ Successfully added to queue!');
+            console.log('   Will be processed in the next cycle (~1 minute)');
+        }
+    }
+
+    console.log('\n' + '='.repeat(60) + '\n');
+}
+
+const tinyId = process.argv[2] || '950275706';
+forceReprocess(tinyId).catch(console.error);

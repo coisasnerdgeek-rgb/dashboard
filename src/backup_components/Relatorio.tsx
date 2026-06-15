@@ -1,1 +1,292 @@
-﻿@{data=aW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnOwppbXBvcnQgeyBUYWJsZVJvdyB9IGZyb20gJy4uL3R5cGVzJzsKaW1wb3J0IHsgZ2V0U2FsZXNDaGFubmVsIH0gZnJvbSAnLi4vc2VydmljZXMvZWNvbW1lcmNlU2VydmljZSc7CmltcG9ydCB7IG5vcm1hbGl6ZVN0cmluZyB9IGZyb20gJy4uL3V0aWxzL3N0cmluZ1V0aWxzJzsKaW1wb3J0IHsgY2xlYW5BbmRQYXJzZSB9IGZyb20gJy4uL3V0aWxzL251bWJlclV0aWxzJzsKaW1wb3J0IHsgc3RvcmVTdHlsZXMsIGRlZmF1bHRTdG9yZVN0eWxlIH0gZnJvbSAnLi4vdXRpbHMvZWNvbW1lcmNlVXRpbHMnOwppbXBvcnQgeyBDaGFydCBhcyBDaGFydEpTLCBDYXRlZ29yeVNjYWxlLCBMaW5lYXJTY2FsZSwgQmFyRWxlbWVudCwgVGl0bGUsIFRvb2x0aXAsIExlZ2VuZCB9IGZyb20gJ2NoYXJ0LmpzJzsKaW1wb3J0IHsgQmFyIH0gZnJvbSAncmVhY3QtY2hhcnRqcy0yJzsKaW1wb3J0IFN0YXRDYXJkIGZyb20gJy4vY29tbW9uL1N0YXRDYXJkJzsKCkNoYXJ0SlMucmVnaXN0ZXIoQ2F0ZWdvcnlTY2FsZSwgTGluZWFyU2NhbGUsIEJhckVsZW1lbnQsIFRpdGxlLCBUb29sdGlwLCBMZWdlbmQpOwoKaW50ZXJmYWNlIFJlbGF0b3Jpb1Byb3BzIHsKICAgIGhlYWRlcnM6IHN0cmluZ1tdOwogICAgZGF0YTogVGFibGVSb3dbXTsKfQoKLy8gRm9ybWF0YSB1bSBuw7ptZXJvIGNvbW8gbW9lZGEgYnJhc2lsZWlyYQpjb25zdCBmb3JtYXRDdXJyZW5jeSA9ICh2YWx1ZTogbnVtYmVyKTogc3RyaW5nID0+IHsKICAgIHJldHVybiBuZXcgSW50bC5OdW1iZXJGb3JtYXQoJ3B0LUJSJywgewogICAgICAgIHN0eWxlOiAnY3VycmVuY3knLAogICAgICAgIGN1cnJlbmN5OiAnQlJMJywKICAgIH0pLmZvcm1hdCh2YWx1ZSk7Cn07Cgp0eXBlIFJlcG9ydFR5cGUgPSAncHJvZHV0bycgfCAnbG9qYSc7CnR5cGUgU29ydGFibGVQcm9kdWN0S2V5cyA9ICdwcm9kdWN0TmFtZScgfCAndG90YWxRdWFudGl0eScgfCAndG90YWxWYWx1ZScgfCAnYXZnVGlja2V0JyB8ICdtbVZhbHVlJyB8ICdtdmZWYWx1ZSc7CnR5cGUgU29ydGFibGVTdG9yZUtleXMgPSAnc3RvcmVOYW1lJyB8ICd0b3RhbE9yZGVycycgfCAndG90YWxJdGVtcycgfCAndG90YWxWYWx1ZScgfCAnYXZnVGlja2V0JzsKCmV4cG9ydCBjb25zdCBSZWxhdG9yaW86IFJlYWN0LkZDPFJlbGF0b3Jpb1Byb3BzPiA9ICh7IGhlYWRlcnMsIGRhdGEgfSkgPT4gewogICAgY29uc3QgW2FjdGl2ZVJlcG9ydCwgc2V0QWN0aXZlUmVwb3J0XSA9IFJlYWN0LnVzZVN0YXRlPFJlcG9ydFR5cGU+KCdwcm9kdXRvJyk7CiAgICBjb25zdCBbc29ydENvbmZpZywgc2V0U29ydENvbmZpZ10gPSBSZWFjdC51c2VTdGF0ZTx7IGtleTogc3RyaW5nOyBkaXJlY3Rpb246ICdhc2NlbmRpbmcnIHwgJ2Rlc2NlbmRpbmcnIH0gfCBudWxsPihudWxsKTsKCiAgICBjb25zdCB7IG5vbWVIZWFkZXIsIHF1YW50aWRhZGVIZWFkZXIsIHZhbG9yVW5pdGFyaW9IZWFkZXIsIGlkVmVuZGFIZWFkZXIgfSA9IFJlYWN0LnVzZU1lbW8oKCkgPT4gewogICAgICAgIGNvbnN0IGZpbmRIZWFkZXIgPSAoa2V5OiBzdHJpbmcpID0+IGhlYWRlcnMuZmluZChoID0+IG5vcm1hbGl6ZVN0cmluZyhoKS5pbmNsdWRlcyhrZXkpKTsKICAgICAgICByZXR1cm4gewogICAgICAgICAgICBub21lSGVhZGVyOiBmaW5kSGVhZGVyKCdub21lJyksCiAgICAgICAgICAgIHF1YW50aWRhZGVIZWFkZXI6IGZpbmRIZWFkZXIoJ3F1YW50aWRhZGUnKSwKICAgICAgICAgICAgdmFsb3JVbml0YXJpb0hlYWRlcjogZmluZEhlYWRlcigndmFsb3IgdW5pdGFyaW8nKSwKICAgICAgICAgICAgaWRWZW5kYUhlYWRlcjogZmluZEhlYWRlcignbnVtZXJvIGRhIG9yZGVtIGRlIGNvbXByYScpLAogICAgICAgIH07CiAgICB9LCBbaGVhZGVyc10pOwoKICAgIGNvbnN0IHsgcHJvZHVjdFJlcG9ydCwgc3RvcmVSZXBvcnQsIG1ldHJpY3MsIHRvcDEwUHJvZHVjdHMsIHRvcDEwU3RvcmVzIH0gPSBSZWFjdC51c2VNZW1vKCgpID0+IHsKICAgICAgICBpZiAoIW5vbWVIZWFkZXIgfHwgIXF1YW50aWRhZGVIZWFkZXIgfHwgIXZhbG9yVW5pdGFyaW9IZWFkZXIgfHwgIWlkVmVuZGFIZWFkZXIpIHsKICAgICAgICAgICAgcmV0dXJuIHsgcHJvZHVjdFJlcG9ydDogW10sIHN0b3JlUmVwb3J0OiBbXSwgbWV0cmljczogeyB0b3RhbFZhbHVlOiAwLCB0b3RhbE9yZGVyczogMCwgdG90YWxJdGVtczogMCB9LCB0b3AxMFByb2R1Y3RzOiBbXSwgdG9wMTBTdG9yZXM6IFtdIH07CiAgICAgICAgfQoKICAgICAgICBjb25zdCBwcm9kdWN0QWdnOiBSZWNvcmQ8c3RyaW5nLCB7IHRvdGFsUXVhbnRpdHk6IG51bWJlcjsgdG90YWxWYWx1ZTogbnVtYmVyOyBjbnBqczogUmVjb3JkPHN0cmluZywgbnVtYmVyPiB9PiA9IHt9OwogICAgICAgIGNvbnN0IHN0b3JlQWdnOiBSZWNvcmQ8c3RyaW5nLCB7IHRvdGFsSXRlbXM6IG51bWJlcjsgdG90YWxWYWx1ZTogbnVtYmVyOyBvcmRlcklkczogU2V0PHN0cmluZyB8IG51bWJlcj4gfT4gPSB7fTsKICAgICAgICBjb25zdCBhbGxPcmRlcklkcyA9IG5ldyBTZXQ8c3RyaW5nIHwgbnVtYmVyPigpOwoKICAgICAgICBkYXRhLmZvckVhY2gocm93ID0+IHsKICAgICAgICAgICAgY29uc3QgcXVhbnRpdHkgPSBjbGVhbkFuZFBhcnNlKHJvd1txdWFudGlkYWRlSGVhZGVyXSk7CiAgICAgICAgICAgIGNvbnN0IHVuaXRWYWx1ZSA9IGNsZWFuQW5kUGFyc2Uocm93W3ZhbG9yVW5pdGFyaW9IZWFkZXJdKTsKICAgICAgICAgICAgY29uc3QgdG90YWxSb3dWYWx1ZSA9IHF1YW50aXR5ICogdW5pdFZhbHVlOwogICAgICAgICAgICBjb25zdCBvcmRlcklkID0gcm93W2lkVmVuZGFIZWFkZXJdOwogICAgICAgICAgICBjb25zdCBjbnBqID0gcm93LmNucGo7CiAgICAgICAgICAgIGNvbnN0IHN0b3JlTmFtZSA9IGdldFNhbGVzQ2hhbm5lbChTdHJpbmcob3JkZXJJZCksIGNucGogfHwgbnVsbCk7CgogICAgICAgICAgICAvLyBGSVg6IEFyZ3VtZW50IG9mIHR5cGUgJ3N0cmluZyB8IG51bWJlciB8IGJvb2xlYW4gfCBSZWNvcmQ8c3RyaW5nLCBib29sZWFuPiB8IFRhYmxlUm93W10gfCB1bmRlZmluZWQnIGlzIG5vdCBhc3NpZ25hYmxlIHRvIHBhcmFtZXRlciBvZiB0eXBlICdzdHJpbmcgfCBudW1iZXInLgogICAgICAgICAgICBpZiAob3JkZXJJZCkgYWxsT3JkZXJJZHMuYWRkKG9yZGVySWQgYXMgc3RyaW5nIHwgbnVtYmVyKTsKCiAgICAgICAgICAgIC8vIEFnZ3JlZ2F0ZSBieSBQcm9kdWN0CiAgICAgICAgICAgIGNvbnN0IHByb2R1Y3ROYW1lID0gU3RyaW5nKHJvd1tub21lSGVhZGVyXSA/PyAnRGVzY29uaGVjaWRvJyk7CiAgICAgICAgICAgIGlmIChwcm9kdWN0TmFtZSkgewogICAgICAgICAgICAgICAgaWYgKCFwcm9kdWN0QWdnW3Byb2R1Y3ROYW1lXSkgewogICAgICAgICAgICAgICAgICAgIHByb2R1Y3RBZ2dbcHJvZHVjdE5hbWVdID0geyB0b3RhbFF1YW50aXR5OiAwLCB0b3RhbFZhbHVlOiAwLCBjbnBqczogeyBNTTogMCwgTVZGOiAwIH0gfTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHByb2R1Y3RBZ2dbcHJvZHVjdE5hbWVdLnRvdGFsUXVhbnRpdHkgKz0gcXVhbnRpdHk7CiAgICAgICAgICAgICAgICBwcm9kdWN0QWdnW3Byb2R1Y3ROYW1lXS50b3RhbFZhbHVlICs9IHRvdGFsUm93VmFsdWU7CiAgICAgICAgICAgICAgICBpZiAoY25waikgewogICAgICAgICAgICAgICAgICAgIHByb2R1Y3RBZ2dbcHJvZHVjdE5hbWVdLmNucGpzW2NucGpdID0gKHByb2R1Y3RBZ2dbcHJvZHVjdE5hbWVdLmNucGpzW2NucGpdIHx8IDApICsgdG90YWxSb3dWYWx1ZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gQWdncmVnYXRlIGJ5IFN0b3JlCiAgICAgICAgICAgIGlmIChzdG9yZU5hbWUgIT09ICdOL0EnKSB7CiAgICAgICAgICAgICAgICBpZiAoIXN0b3JlQWdnW3N0b3JlTmFtZV0pIHsKICAgICAgICAgICAgICAgICAgICBzdG9yZUFnZ1tzdG9yZU5hbWVdID0geyB0b3RhbEl0ZW1zOiAwLCB0b3RhbFZhbHVlOiAwLCBvcmRlcklkczogbmV3IFNldCgpIH07CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzdG9yZUFnZ1tzdG9yZU5hbWVdLnRvdGFsSXRlbXMgKz0gcXVhbnRpdHk7CiAgICAgICAgICAgICAgICBzdG9yZUFnZ1tzdG9yZU5hbWVdLnRvdGFsVmFsdWUgKz0gdG90YWxSb3dWYWx1ZTsKICAgICAgICAgICAgICAgIC8vIEZJWDogQXJndW1lbnQgb2YgdHlwZSAnc3RyaW5nIHwgbnVtYmVyIHwgYm9vbGVhbiB8IFJlY29yZDxzdHJpbmcsIGJvb2xlYW4+IHwgVGFibGVSb3dbXSB8IHVuZGVmaW5lZCcgaXMgbm90IGFzc2lnbmFibGUgdG8gcGFyYW1ldGVyIG9mIHR5cGUgJ3N0cmluZyB8IG51bWJlcicuCiAgICAgICAgICAgICAgICBpZiAob3JkZXJJZCkgc3RvcmVBZ2dbc3RvcmVOYW1lXS5vcmRlcklkcy5hZGQob3JkZXJJZCBhcyBzdHJpbmcgfCBudW1iZXIpOwogICAgICAgICAgICB9CiAgICAgICAgfSk7CgogICAgICAgIGNvbnN0IGZpbmFsUHJvZHVjdFJlcG9ydCA9IE9iamVjdC5lbnRyaWVzKHByb2R1Y3RBZ2cpLm1hcCgoW25hbWUsIGRhdGFdKSA9PiAoewogICAgICAgICAgICBwcm9kdWN0TmFtZTogbmFtZSwKICAgICAgICAgICAgdG90YWxRdWFudGl0eTogZGF0YS50b3RhbFF1YW50aXR5LAogICAgICAgICAgICB0b3RhbFZhbHVlOiBkYXRhLnRvdGFsVmFsdWUsCiAgICAgICAgICAgIGF2Z1RpY2tldDogZGF0YS50b3RhbFF1YW50aXR5ID4gMCA/IGRhdGEudG90YWxWYWx1ZSAvIGRhdGEudG90YWxRdWFudGl0eSA6IDAsCiAgICAgICAgICAgIG1tVmFsdWU6IGRhdGEuY25wanMuTU0gfHwgMCwKICAgICAgICAgICAgbXZmVmFsdWU6IGRhdGEuY25wanMuTVZGIHx8IDAsCiAgICAgICAgfSkpOwoKICAgICAgICBjb25zdCBmaW5hbFN0b3JlUmVwb3J0ID0gT2JqZWN0LmVudHJpZXMoc3RvcmVBZ2cpLm1hcCgoW25hbWUsIGRhdGFdKSA9PiAoewogICAgICAgICAgICBzdG9yZU5hbWU6IG5hbWUsCiAgICAgICAgICAgIHRvdGFsT3JkZXJzOiBkYXRhLm9yZGVySWRzLnNpemUsCiAgICAgICAgICAgIHRvdGFsSXRlbXM6IGRhdGEudG90YWxJdGVtcywKICAgICAgICAgICAgdG90YWxWYWx1ZTogZGF0YS50b3RhbFZhbHVlLAogICAgICAgICAgICBhdmdUaWNrZXQ6IGRhdGEub3JkZXJJZHMuc2l6ZSA+IDAgPyBkYXRhLnRvdGFsVmFsdWUgLyBkYXRhLm9yZGVySWRzLnNpemUgOiAwLAogICAgICAgIH0pKTsKCiAgICAgICAgY29uc3QgdG90YWxWYWx1ZSA9IGZpbmFsU3RvcmVSZXBvcnQucmVkdWNlKChzdW0sIHN0b3JlKSA9PiBzdW0gKyBzdG9yZS50b3RhbFZhbHVlLCAwKTsKICAgICAgICBjb25zdCB0b3RhbEl0ZW1zID0gZmluYWxTdG9yZVJlcG9ydC5yZWR1Y2UoKHN1bSwgc3RvcmUpID0+IHN1bSArIHN0b3JlLnRvdGFsSXRlbXMsIDApOwoKICAgICAgICBjb25zdCB0b3AxMFByb2R1Y3RzRGF0YSA9IFsuLi5maW5hbFByb2R1Y3RSZXBvcnRdLnNvcnQoKGEsIGIpID0+IGIudG90YWxWYWx1ZSAtIGEudG90YWxWYWx1ZSkuc2xpY2UoMCwgMTApOwogICAgICAgIGNvbnN0IHRvcDEwU3RvcmVzRGF0YSA9IFsuLi5maW5hbFN0b3JlUmVwb3J0XS5zb3J0KChhLCBiKSA9PiBiLnRvdGFsVmFsdWUgLSBhLnRvdGFsVmFsdWUpLnNsaWNlKDAsIDEwKTsKCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgcHJvZHVjdFJlcG9ydDogZmluYWxQcm9kdWN0UmVwb3J0LAogICAgICAgICAgICBzdG9yZVJlcG9ydDogZmluYWxTdG9yZVJlcG9ydCwKICAgICAgICAgICAgbWV0cmljczogewogICAgICAgICAgICAgICAgdG90YWxWYWx1ZSwKICAgICAgICAgICAgICAgIHRvdGFsT3JkZXJzOiBhbGxPcmRlcklkcy5zaXplLAogICAgICAgICAgICAgICAgdG90YWxJdGVtcywKICAgICAgICAgICAgfSwKICAgICAgICAgICAgdG9wMTBQcm9kdWN0czogdG9wMTBQcm9kdWN0c0RhdGEsCiAgICAgICAgICAgIHRvcDEwU3RvcmVzOiB0b3AxMFN0b3Jlc0RhdGEKICAgICAgICB9OwoKICAgIH0sIFtkYXRhLCBub21lSGVhZGVyLCBxdWFudGlkYWRlSGVhZGVyLCB2YWxvclVuaXRhcmlvSGVhZGVyLCBpZFZlbmRhSGVhZGVyXSk7CgogICAgY29uc3QgcmVxdWVzdFNvcnQgPSAoa2V5OiBzdHJpbmcpID0+IHsKICAgICAgICBsZXQgZGlyZWN0aW9uOiAnYXNjZW5kaW5nJyB8ICdkZXNjZW5kaW5nJyA9ICdhc2NlbmRpbmcnOwogICAgICAgIGlmIChzb3J0Q29uZmlnICYmIHNvcnRDb25maWcua2V5ID09PSBrZXkgJiYgc29ydENvbmZpZy5kaXJlY3Rpb24gPT09ICdhc2NlbmRpbmcnKSB7CiAgICAgICAgICAgIGRpcmVjdGlvbiA9ICdkZXNjZW5kaW5nJzsKICAgICAgICB9CiAgICAgICAgc2V0U29ydENvbmZpZyh7IGtleSwgZGlyZWN0aW9uIH0pOwogICAgfTsKCiAgICBjb25zdCBzb3J0ZWRQcm9kdWN0UmVwb3J0ID0gUmVhY3QudXNlTWVtbygoKSA9PiB7CiAgICAgICAgY29uc3Qgc29ydGFibGVEYXRhID0gWy4uLnByb2R1Y3RSZXBvcnRdOwogICAgICAgIGlmIChzb3J0Q29uZmlnICYmIGFjdGl2ZVJlcG9ydCA9PT0gJ3Byb2R1dG8nKSB7CiAgICAgICAgICAgIHNvcnRhYmxlRGF0YS5zb3J0KChhLCBiKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBrZXkgPSBzb3J0Q29uZmlnLmtleSBhcyBTb3J0YWJsZVByb2R1Y3RLZXlzOwogICAgICAgICAgICAgICAgY29uc3QgdmFsQSA9IGFba2V5XTsKICAgICAgICAgICAgICAgIGNvbnN0IHZhbEIgPSBiW2tleV07CgogICAgICAgICAgICAgICAgaWYgKHR5cGVvZiB2YWxBID09PSAnbnVtYmVyJyAmJiB0eXBlb2YgdmFsQiA9PT0gJ251bWJlcicpIHsKICAgICAgICAgICAgICAgICAgICAvLyBGSVg6IFJlcGxhY2VkIGFuIHVuc2FmZSBzdWJ0cmFjdGlvbiB3aXRoIGEgc2FmZSBjb25kaXRpb25hbCBjb21wYXJpc29uIHRvIHByZXZlbnQgYXJpdGhtZXRpYyBlcnJvcnMuCiAgICAgICAgICAgICAgICAgICAgY29uc3QgY29tcGFyaXNvbiA9IHZhbEEgPCB2YWxCID8gLTEgOiAodmFsQSA+IHZhbEIgPyAxIDogMCk7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHNvcnRDb25maWcuZGlyZWN0aW9uID09PSAnYXNjZW5kaW5nJyA/IGNvbXBhcmlzb24gOiAtY29tcGFyaXNvbjsKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBjb25zdCBjb21wYXJpc29uID0gU3RyaW5nKHZhbEEpLmxvY2FsZUNvbXBhcmUoU3RyaW5nKHZhbEIpLCB1bmRlZmluZWQsIHsgbnVtZXJpYzogdHJ1ZSB9KTsKICAgICAgICAgICAgICAgIHJldHVybiBzb3J0Q29uZmlnLmRpcmVjdGlvbiA9PT0gJ2FzY2VuZGluZycgPyBjb21wYXJpc29uIDogLWNvbXBhcmlzb247CiAgICAgICAgICAgIH0pOwogICAgICAgIH0KICAgICAgICByZXR1cm4gc29ydGFibGVEYXRhOwogICAgfSwgW3Byb2R1Y3RSZXBvcnQsIHNvcnRDb25maWcsIGFjdGl2ZVJlcG9ydF0pOwoKICAgIGNvbnN0IHNvcnRlZFN0b3JlUmVwb3J0ID0gUmVhY3QudXNlTWVtbygoKSA9PiB7CiAgICAgICAgY29uc3Qgc29ydGFibGVEYXRhID0gWy4uLnN0b3JlUmVwb3J0XTsKICAgICAgICBpZiAoc29ydENvbmZpZyAmJiBhY3RpdmVSZXBvcnQgPT09ICdsb2phJykgewogICAgICAgICAgICBzb3J0YWJsZURhdGEuc29ydCgoYSwgYikgPT4gewogICAgICAgICAgICAgICAgY29uc3Qga2V5ID0gc29ydENvbmZpZy5rZXkgYXMgU29ydGFibGVTdG9yZUtleXM7CiAgICAgICAgICAgICAgICBjb25zdCB2YWxBID0gYVtrZXldOwogICAgICAgICAgICAgICAgY29uc3QgdmFsQiA9IGJba2V5XTsKCiAgICAgICAgICAgICAgICBpZiAodHlwZW9mIHZhbEEgPT09ICdudW1iZXInICYmIHR5cGVvZiB2YWxCID09PSAnbnVtYmVyJykgewogICAgICAgICAgICAgICAgICAgIC8vIEZJWDogUmVwbGFjZWQgYW4gdW5zYWZlIHN1YnRyYWN0aW9uIHdpdGggYSBzYWZlIGNvbmRpdGlvbmFsIGNvbXBhcmlzb24gdG8gcHJldmVudCBhcml0aG1ldGljIGVycm9ycy4KICAgICAgICAgICAgICAgICAgICBjb25zdCBjb21wYXJpc29uID0gdmFsQSA8IHZhbEIgPyAtMSA6ICh2YWxBID4gdmFsQiA/IDEgOiAwKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gc29ydENvbmZpZy5kaXJlY3Rpb24gPT09ICdhc2NlbmRpbmcnID8gY29tcGFyaXNvbiA6IC1jb21wYXJpc29uOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGNvbnN0IGNvbXBhcmlzb24gPSBTdHJpbmcodmFsQSkubG9jYWxlQ29tcGFyZShTdHJpbmcodmFsQiksIHVuZGVmaW5lZCwgeyBudW1lcmljOiB0cnVlIH0pOwogICAgICAgICAgICAgICAgcmV0dXJuIHNvcnRDb25maWcuZGlyZWN0aW9uID09PSAnYXNjZW5kaW5nJyA/IGNvbXBhcmlzb24gOiAtY29tcGFyaXNvbjsKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBzb3J0YWJsZURhdGE7CiAgICB9LCBbc3RvcmVSZXBvcnQsIHNvcnRDb25maWcsIGFjdGl2ZVJlcG9ydF0pOwoKCiAgICBjb25zdCBiYXJDaGFydERhdGEgPSBSZWFjdC51c2VNZW1vKCgpID0+IHsKICAgICAgICBjb25zdCBkYXRhU2V0ID0gYWN0aXZlUmVwb3J0ID09PSAncHJvZHV0bycgPyB0b3AxMFByb2R1Y3RzIDogdG9wMTBTdG9yZXM7CiAgICAgICAgY29uc3QgbGFiZWxzID0gZGF0YVNldC5tYXAoaXRlbSA9PiAncHJvZHVjdE5hbWUnIGluIGl0ZW0gPyBpdGVtLnByb2R1Y3ROYW1lIDogaXRlbS5zdG9yZU5hbWUpOwogICAgICAgIGNvbnN0IGRhdGFWYWx1ZXMgPSBkYXRhU2V0Lm1hcChpdGVtID0+IGl0ZW0udG90YWxWYWx1ZSk7CgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgIGxhYmVscywKICAgICAgICAgICAgZGF0YXNldHM6IFsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBsYWJlbDogJ1ZhbG9yIFRvdGFsJywKICAgICAgICAgICAgICAgICAgICBkYXRhOiBkYXRhVmFsdWVzLAogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmRDb2xvcjogJ3JnYmEoNTksIDEzMCwgMjQ2LCAwLjUpJywKICAgICAgICAgICAgICAgICAgICBib3JkZXJDb2xvcjogJ3JnYmEoNTksIDEzMCwgMjQ2LCAxKScsCiAgICAgICAgICAgICAgICAgICAgYm9yZGVyV2lkdGg6IDEsCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICBdLAogICAgICAgIH07CiAgICB9LCBbYWN0aXZlUmVwb3J0LCB0b3AxMFByb2R1Y3RzLCB0b3AxMFN0b3Jlc10pOwoKICAgIGNvbnN0IGJhckNoYXJ0T3B0aW9ucyA9IHsKICAgICAgICByZXNwb25zaXZlOiB0cnVlLAogICAgICAgIG1haW50YWluQXNwZWN0UmF0aW86IGZhbHNlLAogICAgICAgIGluZGV4QXhpczogJ3knIGFzIGNvbnN0LAogICAgICAgIHBsdWdpbnM6IHsKICAgICAgICAgICAgbGVnZW5kOiB7IGRpc3BsYXk6IGZhbHNlIH0sCiAgICAgICAgICAgIHRpdGxlOiB7IGRpc3BsYXk6IHRydWUsIHRleHQ6IGBUb3AgMTAgcG9yIFZhbG9yIFRvdGFsYCB9LAogICAgICAgIH0sCiAgICB9OwoKICAgIGNvbnN0IHJlbmRlclByb2R1Y3RUYWJsZSA9ICgpID0+ICgKICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJtaW4tdy1mdWxsIGRpdmlkZS15IGRpdmlkZS1ncmF5LTIwMCBkYXJrOmRpdmlkZS1ncmF5LTcwMCI+CiAgICAgICAgICAgIDx0aGVhZCBjbGFzc05hbWU9ImJnLWdyYXktNTAgZGFyazpiZy1ncmF5LTgwMCI+CiAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgey8qIEhlYWRlcnMgZm9yIFByb2R1Y3QgVGFibGUgKi99CiAgICAgICAgICAgICAgICAgICAgPHRoIG9uQ2xpY2s9eygpID0+IHJlcXVlc3RTb3J0KCdwcm9kdWN0TmFtZScpfSBjbGFzc05hbWU9ImN1cnNvci1wb2ludGVyIj5Qcm9kdXRvPC90aD4KICAgICAgICAgICAgICAgICAgICA8dGggb25DbGljaz17KCkgPT4gcmVxdWVzdFNvcnQoJ3RvdGFsUXVhbnRpdHknKX0gY2xhc3NOYW1lPSJjdXJzb3ItcG9pbnRlciI+UXQuIEl0ZW5zPC90aD4KICAgICAgICAgICAgICAgICAgICA8dGggb25DbGljaz17KCkgPT4gcmVxdWVzdFNvcnQoJ3RvdGFsVmFsdWUnKX0gY2xhc3NOYW1lPSJjdXJzb3ItcG9pbnRlciI+VmFsb3IgVG90YWw8L3RoPgogICAgICAgICAgICAgICAgICAgIDx0aCBvbkNsaWNrPXsoKSA9PiByZXF1ZXN0U29ydCgnYXZnVGlja2V0Jyl9IGNsYXNzTmFtZT0iY3Vyc29yLXBvaW50ZXIiPlRpY2tldCBNw6lkaW88L3RoPgogICAgICAgICAgICAgICAgICAgIDx0aCBvbkNsaWNrPXsoKSA9PiByZXF1ZXN0U29ydCgnbW1WYWx1ZScpfSBjbGFzc05hbWU9ImN1cnNvci1wb2ludGVyIj5WYWxvciBNTTwvdGg+CiAgICAgICAgICAgICAgICAgICAgPHRoIG9uQ2xpY2s9eygpID0+IHJlcXVlc3RTb3J0KCdtdmZWYWx1ZScpfSBjbGFzc05hbWU9ImN1cnNvci1wb2ludGVyIj5WYWxvciBNVkY8L3RoPgogICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgPC90aGVhZD4KICAgICAgICAgICAgPHRib2R5IGNsYXNzTmFtZT0iYmctd2hpdGUgZGFyazpiZy1ncmF5LTgwMC81MCBkaXZpZGUteSBkaXZpZGUtZ3JheS0yMDAgZGFyazpkaXZpZGUtZ3JheS03MDAiPgogICAgICAgICAgICAgICAge3NvcnRlZFByb2R1Y3RSZXBvcnQubWFwKChpdGVtLCBpbmRleCkgPT4gKAogICAgICAgICAgICAgICAgICAgIDx0ciBrZXk9e2luZGV4fT4KICAgICAgICAgICAgICAgICAgICAgICAgPHRkPntpdGVtLnByb2R1Y3ROYW1lfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD57aXRlbS50b3RhbFF1YW50aXR5fTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD57Zm9ybWF0Q3VycmVuY3koaXRlbS50b3RhbFZhbHVlKX08L3RkPgogICAgICAgICAgICAgICAgICAgICAgICA8dGQ+e2Zvcm1hdEN1cnJlbmN5KGl0ZW0uYXZnVGlja2V0KX08L3RkPgogICAgICAgICAgICAgICAgICAgICAgICA8dGQ+e2Zvcm1hdEN1cnJlbmN5KGl0ZW0ubW1WYWx1ZSl9PC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgPHRkPntmb3JtYXRDdXJyZW5jeShpdGVtLm12ZlZhbHVlKX08L3RkPgogICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICA8L3RhYmxlPgogICAgKTsKCiAgICBjb25zdCByZW5kZXJTdG9yZVRhYmxlID0gKCkgPT4gKAogICAgICAgIDx0YWJsZSBjbGFzc05hbWU9Im1pbi13LWZ1bGwgZGl2aWRlLXkgZGl2aWRlLWdyYXktMjAwIGRhcms6ZGl2aWRlLWdyYXktNzAwIj4KICAgICAgICAgICAgPHRoZWFkIGNsYXNzTmFtZT0iYmctZ3JheS01MCBkYXJrOmJnLWdyYXktODAwIj4KICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgICB7LyogSGVhZGVycyBmb3IgU3RvcmUgVGFibGUgKi99CiAgICAgICAgICAgICAgICAgICAgPHRoIG9uQ2xpY2s9eygpID0+IHJlcXVlc3RTb3J0KCdzdG9yZU5hbWUnKX0gY2xhc3NOYW1lPSJjdXJzb3ItcG9pbnRlciI+TG9qYTwvdGg+CiAgICAgICAgICAgICAgICAgICAgPHRoIG9uQ2xpY2s9eygpID0+IHJlcXVlc3RTb3J0KCd0b3RhbE9yZGVycycpfSBjbGFzc05hbWU9ImN1cnNvci1wb2ludGVyIj5OwrogUGVkaWRvczwvdGg+CiAgICAgICAgICAgICAgICAgICAgPHRoIG9uQ2xpY2s9eygpID0+IHJlcXVlc3RTb3J0KCd0b3RhbEl0ZW1zJyl9IGNsYXNzTmFtZT0iY3Vyc29yLXBvaW50ZXIiPlF0LiBJdGVuczwvdGg+CiAgICAgICAgICAgICAgICAgICAgPHRoIG9uQ2xpY2s9eygpID0+IHJlcXVlc3RTb3J0KCd0b3RhbFZhbHVlJyl9IGNsYXNzTmFtZT0iY3Vyc29yLXBvaW50ZXIiPlZhbG9yIFRvdGFsPC90aD4KICAgICAgICAgICAgICAgICAgICA8dGggb25DbGljaz17KCkgPT4gcmVxdWVzdFNvcnQoJ2F2Z1RpY2tldCcpfSBjbGFzc05hbWU9ImN1cnNvci1wb2ludGVyIj5UaWNrZXQgTcOpZGlvPC90aD4KICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgIDwvdGhlYWQ+CiAgICAgICAgICAgIDx0Ym9keSBjbGFzc05hbWU9ImJnLXdoaXRlIGRhcms6YmctZ3JheS04MDAvNTAgZGl2aWRlLXkgZGl2aWRlLWdyYXktMjAwIGRhcms6ZGl2aWRlLWdyYXktNzAwIj4KICAgICAgICAgICAgICAgIHtzb3J0ZWRTdG9yZVJlcG9ydC5tYXAoKGl0ZW0sIGluZGV4KSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPHRyIGtleT17aW5kZXh9PgogICAgICAgICAgICAgICAgICAgICAgICA8dGQ+PHNwYW4gY2xhc3NOYW1lPXtgcHgtMiBweS0wLjUgcm91bmRlZC1mdWxsIHRleHQteHMgZm9udC1zZW1pYm9sZCAkeyhzdG9yZVN0eWxlc1tpdGVtLnN0b3JlTmFtZV0gfHwgZGVmYXVsdFN0b3JlU3R5bGUpLmJnfSAkeyhzdG9yZVN0eWxlc1tpdGVtLnN0b3JlTmFtZV0gfHwgZGVmYXVsdFN0b3JlU3R5bGUpLnRleHR9YH0+e2l0ZW0uc3RvcmVOYW1lfTwvc3Bhbj48L3RkPgogICAgICAgICAgICAgICAgICAgICAgICA8dGQ+e2l0ZW0udG90YWxPcmRlcnN9PC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgPHRkPntpdGVtLnRvdGFsSXRlbXN9PC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgPHRkPntmb3JtYXRDdXJyZW5jeShpdGVtLnRvdGFsVmFsdWUpfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD57Zm9ybWF0Q3VycmVuY3koaXRlbS5hdmdUaWNrZXQpfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3Rib2R5PgogICAgICAgIDwvdGFibGU+CiAgICApOwoKICAgIC8vIEZJWDogQWRkZWQgcmV0dXJuIHN0YXRlbWVudCBmb3IgdGhlIGNvbXBvbmVudCdzIEpTWC4KICAgIHJldHVybiAoCiAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtZ3JheS05MDAgZGFyazp0ZXh0LXdoaXRlIG1iLTYiPlJlbGF0w7NyaW8gR2VyZW5jaWFsPC9oMT4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIHNtOmdyaWQtY29scy0yIGxnOmdyaWQtY29scy0zIGdhcC02IG1iLTgiPgogICAgICAgICAgICAgICAgPFN0YXRDYXJkIHRpdGxlPSJWYWxvciBUb3RhbCIgdmFsdWU9e2Zvcm1hdEN1cnJlbmN5KG1ldHJpY3MudG90YWxWYWx1ZSl9IGljb249ezxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtNiB3LTYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPSIyIiBkPSJNMTIgOGMtMS42NTcgMC0zIC44OTUtMyAyczEuMzQzIDIgMyAyIDMgLjg5NSAzIDItMS4zNDMgMi0zIDJtMC04YzEuMTEgMCAyLjA4LjQwMiAyLjU5OSAxTTEyIDhWN20wIDF2LjAxIiAvPjwvc3ZnPn0gLz4KICAgICAgICAgICAgICAgIDxTdGF0Q2FyZCB0aXRsZT0iVG90YWwgZGUgUGVkaWRvcyIgdmFsdWU9e21ldHJpY3MudG90YWxPcmRlcnMudG9Mb2NhbGVTdHJpbmcoJ3B0LUJSJyl9IGljb249ezxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzc05hbWU9ImgtNiB3LTYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiPjxwYXRoIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIHN0cm9rZVdpZHRoPSIyIiBkPSJNOSA1SDdhMiAyIDAgMDAtMiAydjEyYTIgMiAwIDAwMiAyaDEwYTIgMiAwIDAwMi0yVjdhMiAyIDAgMDAtMi0yaC0yTTkgNWEyIDIgMCAwMDIgMmgyYTIgMiAwIDAwMi0yTTkgNWEyIDIgMCAwMTItMmgyYTIgMiAwIDAxMiAybS0zIDdoM20tMyA0aDNtLTYtNGguMDFNOSAxNmguMDEiIC8+PC9zdmc+fSAvPgogICAgICAgICAgICAgICAgPFN0YXRDYXJkIHRpdGxlPSJUb3RhbCBkZSBJdGVucyIgdmFsdWU9e21ldHJpY3MudG90YWxJdGVtcy50b0xvY2FsZVN0cmluZygncHQtQlInKX0gaWNvbj17PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzTmFtZT0iaC02IHctNiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciI+PHBhdGggc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlV2lkdGg9IjIiIGQ9Ik0zIDNoMmwuNCAyTTcgMTNoMTBsNC04SDUuNE03IDEzTDUuNCA1TTcgMTNsLTIuMjkzIDIuMjkzYy0uNjMuNjMtLjE4NCAxLjcwNy43MDcgMS43MDdIMTdtMCAwYTIgMiAwIDEwMCA0IDIgMiAwIDAwMC00em0tOCAyYTIgMiAwIDExLTQgMCAyIDIgMCAwMTQgMHoiIC8+PC9zdmc+fSAvPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktY2VudGVyIG1iLTYiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIHJvdW5kZWQtbGcgYmctZ3JheS0xMDAgZGFyazpiZy1ncmF5LTcwMC81MCBwLTEgYm9yZGVyIGRhcms6Ym9yZGVyLWdyYXktNjAwIj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldEFjdGl2ZVJlcG9ydCgncHJvZHV0bycpfSBjbGFzc05hbWU9e2BweC00IHB5LTEuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHJvdW5kZWQtbWQgdHJhbnNpdGlvbi1jb2xvcnMgJHthY3RpdmVSZXBvcnQgPT09ICdwcm9kdXRvJyA/ICdiZy13aGl0ZSBkYXJrOmJnLWdyYXktOTAwIHRleHQtcHJpbWFyeS02MDAgZGFyazp0ZXh0LXByaW1hcnktNDAwIHNoYWRvdy1zbScgOiAndGV4dC1ncmF5LTYwMCBkYXJrOnRleHQtZ3JheS0zMDAgaG92ZXI6YmctZ3JheS0yMDAgZGFyazpob3ZlcjpiZy1ncmF5LTYwMCd9YH0+CiAgICAgICAgICAgICAgICAgICAgICAgIFBvciBQcm9kdXRvCiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRBY3RpdmVSZXBvcnQoJ2xvamEnKX0gY2xhc3NOYW1lPXtgcHgtNCBweS0xLjUgdGV4dC1zbSBmb250LW1lZGl1bSByb3VuZGVkLW1kIHRyYW5zaXRpb24tY29sb3JzICR7YWN0aXZlUmVwb3J0ID09PSAnbG9qYScgPyAnYmctd2hpdGUgZGFyazpiZy1ncmF5LTkwMCB0ZXh0LXByaW1hcnktNjAwIGRhcms6dGV4dC1wcmltYXJ5LTQwMCBzaGFkb3ctc20nIDogJ3RleHQtZ3JheS02MDAgZGFyazp0ZXh0LWdyYXktMzAwIGhvdmVyOmJnLWdyYXktMjAwIGRhcms6aG92ZXI6YmctZ3JheS02MDAnfWB9PgogICAgICAgICAgICAgICAgICAgICAgICBQb3IgTG9qYQogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgeGw6Z3JpZC1jb2xzLTMgZ2FwLTggaXRlbXMtc3RhcnQiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InhsOmNvbC1zcGFuLTIgb3ZlcmZsb3cteC1hdXRvIj4KICAgICAgICAgICAgICAgICAgICB7YWN0aXZlUmVwb3J0ID09PSAncHJvZHV0bycgPyByZW5kZXJQcm9kdWN0VGFibGUoKSA6IHJlbmRlclN0b3JlVGFibGUoKX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InhsOmNvbC1zcGFuLTEgaC1bNTAwcHhdIHAtNCBiZy13aGl0ZSBkYXJrOmJnLWdyYXktODAwLzUwIHJvdW5kZWQteGwgc2hhZG93LWxnIGJvcmRlciBib3JkZXItZ3JheS0yMDAgZGFyazpib3JkZXItZ3JheS03MDAiPgogICAgICAgICAgICAgICAgICAgIDxCYXIgb3B0aW9ucz17YmFyQ2hhcnRPcHRpb25zfSBkYXRhPXtiYXJDaGFydERhdGF9IC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICApOwp9Ow==}
+import * as React from 'react';
+import { TableRow } from '../types';
+import { getSalesChannel } from '../services/ecommerceService';
+import { normalizeString } from '../utils/stringUtils';
+import { cleanAndParse } from '../utils/numberUtils';
+import { storeStyles, defaultStoreStyle } from '../utils/ecommerceUtils';
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
+import { Bar } from 'react-chartjs-2';
+import StatCard from './common/StatCard';
+
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+
+interface RelatorioProps {
+    headers: string[];
+    data: TableRow[];
+}
+
+// Formata um número como moeda brasileira
+const formatCurrency = (value: number): string => {
+    return new Intl.NumberFormat('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+    }).format(value);
+};
+
+type ReportType = 'produto' | 'loja';
+type SortableProductKeys = 'productName' | 'totalQuantity' | 'totalValue' | 'avgTicket' | 'mmValue' | 'mvfValue';
+type SortableStoreKeys = 'storeName' | 'totalOrders' | 'totalItems' | 'totalValue' | 'avgTicket';
+
+export const Relatorio: React.FC<RelatorioProps> = ({ headers, data }) => {
+    const [activeReport, setActiveReport] = React.useState<ReportType>('produto');
+    const [sortConfig, setSortConfig] = React.useState<{ key: string; direction: 'ascending' | 'descending' } | null>(null);
+
+    const { nomeHeader, quantidadeHeader, valorUnitarioHeader, idVendaHeader } = React.useMemo(() => {
+        const findHeader = (key: string) => headers.find(h => normalizeString(h).includes(key));
+        return {
+            nomeHeader: findHeader('nome'),
+            quantidadeHeader: findHeader('quantidade'),
+            valorUnitarioHeader: findHeader('valor unitario'),
+            idVendaHeader: findHeader('numero da ordem de compra'),
+        };
+    }, [headers]);
+
+    const { productReport, storeReport, metrics, top10Products, top10Stores } = React.useMemo(() => {
+        if (!nomeHeader || !quantidadeHeader || !valorUnitarioHeader || !idVendaHeader) {
+            return { productReport: [], storeReport: [], metrics: { totalValue: 0, totalOrders: 0, totalItems: 0 }, top10Products: [], top10Stores: [] };
+        }
+
+        const productAgg: Record<string, { totalQuantity: number; totalValue: number; cnpjs: Record<string, number> }> = {};
+        const storeAgg: Record<string, { totalItems: number; totalValue: number; orderIds: Set<string | number> }> = {};
+        const allOrderIds = new Set<string | number>();
+
+        data.forEach(row => {
+            const quantity = cleanAndParse(row[quantidadeHeader]);
+            const unitValue = cleanAndParse(row[valorUnitarioHeader]);
+            const totalRowValue = quantity * unitValue;
+            const orderId = row[idVendaHeader];
+            const cnpj = row.cnpj;
+            const storeName = getSalesChannel(String(orderId), cnpj || null);
+
+            // FIX: Argument of type 'string | number | boolean | Record<string, boolean> | TableRow[] | undefined' is not assignable to parameter of type 'string | number'.
+            if (orderId) allOrderIds.add(orderId as string | number);
+
+            // Aggregate by Product
+            const productName = String(row[nomeHeader] ?? 'Desconhecido');
+            if (productName) {
+                if (!productAgg[productName]) {
+                    productAgg[productName] = { totalQuantity: 0, totalValue: 0, cnpjs: { MM: 0, MVF: 0 } };
+                }
+                productAgg[productName].totalQuantity += quantity;
+                productAgg[productName].totalValue += totalRowValue;
+                if (cnpj) {
+                    productAgg[productName].cnpjs[cnpj] = (productAgg[productName].cnpjs[cnpj] || 0) + totalRowValue;
+                }
+            }
+
+            // Aggregate by Store
+            if (storeName !== 'N/A') {
+                if (!storeAgg[storeName]) {
+                    storeAgg[storeName] = { totalItems: 0, totalValue: 0, orderIds: new Set() };
+                }
+                storeAgg[storeName].totalItems += quantity;
+                storeAgg[storeName].totalValue += totalRowValue;
+                // FIX: Argument of type 'string | number | boolean | Record<string, boolean> | TableRow[] | undefined' is not assignable to parameter of type 'string | number'.
+                if (orderId) storeAgg[storeName].orderIds.add(orderId as string | number);
+            }
+        });
+
+        const finalProductReport = Object.entries(productAgg).map(([name, data]) => ({
+            productName: name,
+            totalQuantity: data.totalQuantity,
+            totalValue: data.totalValue,
+            avgTicket: data.totalQuantity > 0 ? data.totalValue / data.totalQuantity : 0,
+            mmValue: data.cnpjs.MM || 0,
+            mvfValue: data.cnpjs.MVF || 0,
+        }));
+
+        const finalStoreReport = Object.entries(storeAgg).map(([name, data]) => ({
+            storeName: name,
+            totalOrders: data.orderIds.size,
+            totalItems: data.totalItems,
+            totalValue: data.totalValue,
+            avgTicket: data.orderIds.size > 0 ? data.totalValue / data.orderIds.size : 0,
+        }));
+
+        const totalValue = finalStoreReport.reduce((sum, store) => sum + store.totalValue, 0);
+        const totalItems = finalStoreReport.reduce((sum, store) => sum + store.totalItems, 0);
+
+        const top10ProductsData = [...finalProductReport].sort((a, b) => b.totalValue - a.totalValue).slice(0, 10);
+        const top10StoresData = [...finalStoreReport].sort((a, b) => b.totalValue - a.totalValue).slice(0, 10);
+
+        return {
+            productReport: finalProductReport,
+            storeReport: finalStoreReport,
+            metrics: {
+                totalValue,
+                totalOrders: allOrderIds.size,
+                totalItems,
+            },
+            top10Products: top10ProductsData,
+            top10Stores: top10StoresData
+        };
+
+    }, [data, nomeHeader, quantidadeHeader, valorUnitarioHeader, idVendaHeader]);
+
+    const requestSort = (key: string) => {
+        let direction: 'ascending' | 'descending' = 'ascending';
+        if (sortConfig && sortConfig.key === key && sortConfig.direction === 'ascending') {
+            direction = 'descending';
+        }
+        setSortConfig({ key, direction });
+    };
+
+    const sortedProductReport = React.useMemo(() => {
+        const sortableData = [...productReport];
+        if (sortConfig && activeReport === 'produto') {
+            sortableData.sort((a, b) => {
+                const key = sortConfig.key as SortableProductKeys;
+                const valA = a[key];
+                const valB = b[key];
+
+                if (typeof valA === 'number' && typeof valB === 'number') {
+                    // FIX: Replaced an unsafe subtraction with a safe conditional comparison to prevent arithmetic errors.
+                    const comparison = valA < valB ? -1 : (valA > valB ? 1 : 0);
+                    return sortConfig.direction === 'ascending' ? comparison : -comparison;
+                }
+
+                const comparison = String(valA).localeCompare(String(valB), undefined, { numeric: true });
+                return sortConfig.direction === 'ascending' ? comparison : -comparison;
+            });
+        }
+        return sortableData;
+    }, [productReport, sortConfig, activeReport]);
+
+    const sortedStoreReport = React.useMemo(() => {
+        const sortableData = [...storeReport];
+        if (sortConfig && activeReport === 'loja') {
+            sortableData.sort((a, b) => {
+                const key = sortConfig.key as SortableStoreKeys;
+                const valA = a[key];
+                const valB = b[key];
+
+                if (typeof valA === 'number' && typeof valB === 'number') {
+                    // FIX: Replaced an unsafe subtraction with a safe conditional comparison to prevent arithmetic errors.
+                    const comparison = valA < valB ? -1 : (valA > valB ? 1 : 0);
+                    return sortConfig.direction === 'ascending' ? comparison : -comparison;
+                }
+
+                const comparison = String(valA).localeCompare(String(valB), undefined, { numeric: true });
+                return sortConfig.direction === 'ascending' ? comparison : -comparison;
+            });
+        }
+        return sortableData;
+    }, [storeReport, sortConfig, activeReport]);
+
+
+    const barChartData = React.useMemo(() => {
+        const dataSet = activeReport === 'produto' ? top10Products : top10Stores;
+        const labels = dataSet.map(item => 'productName' in item ? item.productName : item.storeName);
+        const dataValues = dataSet.map(item => item.totalValue);
+
+        return {
+            labels,
+            datasets: [
+                {
+                    label: 'Valor Total',
+                    data: dataValues,
+                    backgroundColor: 'rgba(59, 130, 246, 0.5)',
+                    borderColor: 'rgba(59, 130, 246, 1)',
+                    borderWidth: 1,
+                },
+            ],
+        };
+    }, [activeReport, top10Products, top10Stores]);
+
+    const barChartOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        indexAxis: 'y' as const,
+        plugins: {
+            legend: { display: false },
+            title: { display: true, text: `Top 10 por Valor Total` },
+        },
+    };
+
+    const renderProductTable = () => (
+        <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+            <thead className="bg-gray-50 dark:bg-gray-800">
+                <tr>
+                    {/* Headers for Product Table */}
+                    <th onClick={() => requestSort('productName')} className="cursor-pointer">Produto</th>
+                    <th onClick={() => requestSort('totalQuantity')} className="cursor-pointer">Qt. Itens</th>
+                    <th onClick={() => requestSort('totalValue')} className="cursor-pointer">Valor Total</th>
+                    <th onClick={() => requestSort('avgTicket')} className="cursor-pointer">Ticket Médio</th>
+                    <th onClick={() => requestSort('mmValue')} className="cursor-pointer">Valor MM</th>
+                    <th onClick={() => requestSort('mvfValue')} className="cursor-pointer">Valor MVF</th>
+                </tr>
+            </thead>
+            <tbody className="bg-white dark:bg-gray-800/50 divide-y divide-gray-200 dark:divide-gray-700">
+                {sortedProductReport.map((item, index) => (
+                    <tr key={index}>
+                        <td>{item.productName}</td>
+                        <td>{item.totalQuantity}</td>
+                        <td>{formatCurrency(item.totalValue)}</td>
+                        <td>{formatCurrency(item.avgTicket)}</td>
+                        <td>{formatCurrency(item.mmValue)}</td>
+                        <td>{formatCurrency(item.mvfValue)}</td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    );
+
+    const renderStoreTable = () => (
+        <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+            <thead className="bg-gray-50 dark:bg-gray-800">
+                <tr>
+                    {/* Headers for Store Table */}
+                    <th onClick={() => requestSort('storeName')} className="cursor-pointer">Loja</th>
+                    <th onClick={() => requestSort('totalOrders')} className="cursor-pointer">Nº Pedidos</th>
+                    <th onClick={() => requestSort('totalItems')} className="cursor-pointer">Qt. Itens</th>
+                    <th onClick={() => requestSort('totalValue')} className="cursor-pointer">Valor Total</th>
+                    <th onClick={() => requestSort('avgTicket')} className="cursor-pointer">Ticket Médio</th>
+                </tr>
+            </thead>
+            <tbody className="bg-white dark:bg-gray-800/50 divide-y divide-gray-200 dark:divide-gray-700">
+                {sortedStoreReport.map((item, index) => (
+                    <tr key={index}>
+                        <td><span className={`px-2 py-0.5 rounded-full text-xs font-semibold ${(storeStyles[item.storeName] || defaultStoreStyle).bg} ${(storeStyles[item.storeName] || defaultStoreStyle).text}`}>{item.storeName}</span></td>
+                        <td>{item.totalOrders}</td>
+                        <td>{item.totalItems}</td>
+                        <td>{formatCurrency(item.totalValue)}</td>
+                        <td>{formatCurrency(item.avgTicket)}</td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    );
+
+    // FIX: Added return statement for the component's JSX.
+    return (
+        <div>
+            <h1 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">Relatório Gerencial</h1>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                <StatCard title="Valor Total" value={formatCurrency(metrics.totalValue)} icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01" /></svg>} />
+                <StatCard title="Total de Pedidos" value={metrics.totalOrders.toLocaleString('pt-BR')} icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" /></svg>} />
+                <StatCard title="Total de Itens" value={metrics.totalItems.toLocaleString('pt-BR')} icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>} />
+            </div>
+
+            <div className="flex justify-center mb-6">
+                <div className="flex items-center rounded-lg bg-gray-100 dark:bg-gray-700/50 p-1 border dark:border-gray-600">
+                    <button onClick={() => setActiveReport('produto')} className={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors ${activeReport === 'produto' ? 'bg-white dark:bg-gray-900 text-primary-600 dark:text-primary-400 shadow-sm' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'}`}>
+                        Por Produto
+                    </button>
+                    <button onClick={() => setActiveReport('loja')} className={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors ${activeReport === 'loja' ? 'bg-white dark:bg-gray-900 text-primary-600 dark:text-primary-400 shadow-sm' : 'text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'}`}>
+                        Por Loja
+                    </button>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 items-start">
+                <div className="xl:col-span-2 overflow-x-auto">
+                    {activeReport === 'produto' ? renderProductTable() : renderStoreTable()}
+                </div>
+                <div className="xl:col-span-1 h-[500px] p-4 bg-white dark:bg-gray-800/50 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
+                    <Bar options={barChartOptions} data={barChartData} />
+                </div>
+            </div>
+        </div>
+    );
+};

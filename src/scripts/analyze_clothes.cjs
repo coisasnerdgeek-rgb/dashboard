@@ -1,1 +1,81 @@
-﻿@{data=Y29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IHJlcXVpcmUoJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcycpOw0KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOw0KY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICcuZW52LmxvY2FsJyk7DQpjb25zdCBlbnZDb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGYtOCcpOw0KZW52Q29udGVudC5zcGxpdCgnXG4nKS5mb3JFYWNoKGxpbmUgPT4gew0KICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj1dKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIHByb2Nlc3MuZW52W21hdGNoWzFdLnRyaW0oKV0gPSBtYXRjaFsyXS50cmltKCk7DQp9KTsNCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9VUkwgfHwgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMOw0KY29uc3QgU1VQQUJBU0VfS0VZID0gcHJvY2Vzcy5lbnYuVklURV9TVVBBQkFTRV9BTk9OX0tFWSB8fCBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZOw0KDQovLyBTaW11bGF0ZSBjYXRlZ29yeSBsb2dpYw0KY29uc3QgZ2V0Q2F0ZWdvcnkgPSAoc2t1KSA9PiB7DQogICAgaWYgKCFza3UpIHJldHVybiAnVW5rbm93bic7DQogICAgaWYgKHNrdS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKCdjYXAnKSkgcmV0dXJuICdDYXBpbmhhJzsNCiAgICByZXR1cm4gJ1JvdXBhJzsgLy8gU2ltcGxlIHNpbXVsYXRpb24NCn07DQoNCmFzeW5jIGZ1bmN0aW9uIGFuYWx5emVDbG90aGVzKCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIGNvbnNvbGUubG9nKCfwn6eqIEFOQUxJU0U6IFBlZGlkb3MgZGUgUm91cGFzIG5vIEJhbmNvXG4nKTsNCg0KICAgIGxldCBhbGxEYXRhID0gW107DQogICAgbGV0IGZyb20gPSAwOw0KICAgIGxldCB0byA9IDk5OTsNCiAgICBsZXQgaGFzTW9yZSA9IHRydWU7DQoNCiAgICB3aGlsZSAoaGFzTW9yZSkgew0KICAgICAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgLnNlbGVjdCgncm93X2RhdGEsIGltcG9ydF9kYXRlLCBmaWxlbmFtZScpDQogICAgICAgICAgICAucmFuZ2UoZnJvbSwgdG8pOw0KDQogICAgICAgIGlmIChlcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcignRXJybzonLCBlcnJvcik7DQogICAgICAgICAgICBicmVhazsNCiAgICAgICAgfQ0KDQogICAgICAgIGlmIChkYXRhLmxlbmd0aCA8IDEwMDApIGhhc01vcmUgPSBmYWxzZTsNCiAgICAgICAgYWxsRGF0YSA9IFsuLi5hbGxEYXRhLCAuLi5kYXRhXTsNCiAgICAgICAgZnJvbSArPSAxMDAwOw0KICAgICAgICB0byArPSAxMDAwOw0KDQogICAgICAgIGlmIChhbGxEYXRhLmxlbmd0aCA+IDIwMDAwKSBicmVhazsgLy8gTGltaXQgZm9yIHNhZmV0eQ0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKGBUb3RhbCBnZXJhbCBubyBiYW5jbzogJHthbGxEYXRhLmxlbmd0aH1gKTsNCg0KICAgIGNvbnN0IGNsb3RoZXMgPSBhbGxEYXRhLmZpbHRlcihyb3cgPT4gew0KICAgICAgICBjb25zdCBkID0gdHlwZW9mIHJvdy5yb3dfZGF0YSA9PT0gJ3N0cmluZycgPyBKU09OLnBhcnNlKHJvdy5yb3dfZGF0YSkgOiByb3cucm93X2RhdGE7DQogICAgICAgIGNvbnN0IHNrdSA9IGRbJ1NLVSddIHx8ICcnOw0KICAgICAgICByZXR1cm4gZ2V0Q2F0ZWdvcnkoc2t1KSA9PT0gJ1JvdXBhJzsNCiAgICB9KTsNCg0KICAgIGNvbnNvbGUubG9nKGBUb3RhbCByb3VwYXMgbm8gYmFuY286ICR7Y2xvdGhlcy5sZW5ndGh9YCk7DQoNCiAgICAvLyBHcm91cHMgYnkgRmlsZW5hbWUNCiAgICBjb25zdCBmaWxlcyA9IHt9Ow0KICAgIGNsb3RoZXMuZm9yRWFjaChyb3cgPT4gew0KICAgICAgICBmaWxlc1tyb3cuZmlsZW5hbWVdID0gKGZpbGVzW3Jvdy5maWxlbmFtZV0gfHwgMCkgKyAxOw0KICAgIH0pOw0KDQogICAgY29uc29sZS5sb2coJ1xu8J+TgSBBcnF1aXZvcyBjb250ZW5kbyByb3VwYXM6Jyk7DQogICAgT2JqZWN0LmVudHJpZXMoZmlsZXMpLmZvckVhY2goKFtmLCBjXSkgPT4gew0KICAgICAgICBjb25zb2xlLmxvZyhgICAgLSAke2Z9OiAke2N9IGl0ZW5zYCk7DQogICAgfSk7DQoNCiAgICAvLyBDaGVjayByZWNlbnQgY2xvdGhlcw0KICAgIGNvbnN0IHJlY2VudENsb3RoZXMgPSBjbG90aGVzLnNvcnQoKGEsIGIpID0+IG5ldyBEYXRlKGIuaW1wb3J0X2RhdGUpIC0gbmV3IERhdGUoYS5pbXBvcnRfZGF0ZSkpLnNsaWNlKDAsIDEwKTsNCiAgICBjb25zb2xlLmxvZygnXG7wn4aVIEFtb3N0cmEgZGUgcm91cGFzIHJlY2VudGVzIChJRCBWZW5kYSArIERhdGEpOicpOw0KICAgIHJlY2VudENsb3RoZXMuZm9yRWFjaChyb3cgPT4gew0KICAgICAgICBjb25zdCBkID0gdHlwZW9mIHJvdy5yb3dfZGF0YSA9PT0gJ3N0cmluZycgPyBKU09OLnBhcnNlKHJvdy5yb3dfZGF0YSkgOiByb3cucm93X2RhdGE7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICAtIElEOiAke2RbJ07Dum1lcm8gZGEgb3JkZW0gZGUgY29tcHJhJ10gfHwgZFsnSUQgVmVuZGEnXX0gfCBEYXRhOiAke2RbJ0RhdGEnXX0gfCBJbXBvcnQ6ICR7cm93LmltcG9ydF9kYXRlfWApOw0KICAgIH0pOw0KfQ0KDQphbmFseXplQ2xvdGhlcygpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+const { createClient } = require('@supabase/supabase-js');
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.join(__dirname, '..', '.env.local');
+const envContent = fs.readFileSync(envPath, 'utf-8');
+envContent.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+});
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+// Simulate category logic
+const getCategory = (sku) => {
+    if (!sku) return 'Unknown';
+    if (sku.toLowerCase().includes('cap')) return 'Capinha';
+    return 'Roupa'; // Simple simulation
+};
+
+async function analyzeClothes() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('🧪 ANALISE: Pedidos de Roupas no Banco\n');
+
+    let allData = [];
+    let from = 0;
+    let to = 999;
+    let hasMore = true;
+
+    while (hasMore) {
+        const { data, error } = await supabase
+            .from('spreadsheet_data')
+            .select('row_data, import_date, filename')
+            .range(from, to);
+
+        if (error) {
+            console.error('Erro:', error);
+            break;
+        }
+
+        if (data.length < 1000) hasMore = false;
+        allData = [...allData, ...data];
+        from += 1000;
+        to += 1000;
+
+        if (allData.length > 20000) break; // Limit for safety
+    }
+
+    console.log(`Total geral no banco: ${allData.length}`);
+
+    const clothes = allData.filter(row => {
+        const d = typeof row.row_data === 'string' ? JSON.parse(row.row_data) : row.row_data;
+        const sku = d['SKU'] || '';
+        return getCategory(sku) === 'Roupa';
+    });
+
+    console.log(`Total roupas no banco: ${clothes.length}`);
+
+    // Groups by Filename
+    const files = {};
+    clothes.forEach(row => {
+        files[row.filename] = (files[row.filename] || 0) + 1;
+    });
+
+    console.log('\n📁 Arquivos contendo roupas:');
+    Object.entries(files).forEach(([f, c]) => {
+        console.log(`   - ${f}: ${c} itens`);
+    });
+
+    // Check recent clothes
+    const recentClothes = clothes.sort((a, b) => new Date(b.import_date) - new Date(a.import_date)).slice(0, 10);
+    console.log('\n🆕 Amostra de roupas recentes (ID Venda + Data):');
+    recentClothes.forEach(row => {
+        const d = typeof row.row_data === 'string' ? JSON.parse(row.row_data) : row.row_data;
+        console.log(`   - ID: ${d['Número da ordem de compra'] || d['ID Venda']} | Data: ${d['Data']} | Import: ${row.import_date}`);
+    });
+}
+
+analyzeClothes().catch(console.error);

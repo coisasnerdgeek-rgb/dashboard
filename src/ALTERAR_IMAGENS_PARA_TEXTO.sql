@@ -1,1 +1,37 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIFNDUklQVCBERSBBSlVTVEU6IEJJQkxJT1RFQ0EgREUgSU1BR0VOUyAoVVVJRCAtPiBURVhUKQ0KLS0gRXhlY3V0ZSBlc3RlIHNjcmlwdCBubyBTUUwgRWRpdG9yIGRvIHNldSBOT1ZPIHByb2pldG8gU3VwYWJhc2UuDQotLSBJc3NvIHBlcm1pdGlyw6EgaW1wb3J0YXIgSURzIGRlIGNhdGVnb3JpYSBlbSBmb3JtYXRvIGRlIHRleHRvIChleDogY2F0LTEyMykuDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQotLSAxLiBEZXNjb2JyaXIgbyBub21lIGRhIGNvbnN0cmFpbnQgZGUgY2hhdmUgZXN0cmFuZ2VpcmEgKG5vcm1hbG1lbnRlIGltYWdlX21hcHBpbmdzX2NhdGVnb3J5X2lkX2ZrZXkpDQotLSBlIHJlbW92w6otbGEgdGVtcG9yYXJpYW1lbnRlIHBhcmEgcGVybWl0aXIgYSBhbHRlcmHDp8OjbyBkZSB0aXBvcy4NCkRPICQkIA0KREVDTEFSRQ0KICAgIGNvbnN0X25hbWUgVEVYVDsNCkJFR0lODQogICAgU0VMRUNUIGNvbnN0cmFpbnRfbmFtZSBJTlRPIGNvbnN0X25hbWUNCiAgICBGUk9NIGluZm9ybWF0aW9uX3NjaGVtYS5rZXlfY29sdW1uX3VzYWdlDQogICAgV0hFUkUgdGFibGVfbmFtZSA9ICdpbWFnZV9tYXBwaW5ncycgQU5EIGNvbHVtbl9uYW1lID0gJ2NhdGVnb3J5X2lkJw0KICAgIEFORCB0YWJsZV9zY2hlbWEgPSAncHVibGljJzsNCg0KICAgIElGIGNvbnN0X25hbWUgSVMgTk9UIE5VTEwgVEhFTg0KICAgICAgICBFWEVDVVRFICdBTFRFUiBUQUJMRSBwdWJsaWMuaW1hZ2VfbWFwcGluZ3MgRFJPUCBDT05TVFJBSU5UICcgfHwgY29uc3RfbmFtZTsNCiAgICBFTkQgSUY7DQpFTkQgJCQ7DQoNCi0tIDIuIEFsdGVyYXIgbyB0aXBvIGRhIGNvbHVuYSBpZCBuYSB0YWJlbGEgaW1hZ2VfY2F0ZWdvcmllcw0KQUxURVIgVEFCTEUgcHVibGljLmltYWdlX2NhdGVnb3JpZXMgDQpBTFRFUiBDT0xVTU4gaWQgVFlQRSBURVhUOw0KDQotLSAzLiBBbHRlcmFyIG8gdGlwbyBkYSBjb2x1bmEgY2F0ZWdvcnlfaWQgbmEgdGFiZWxhIGltYWdlX21hcHBpbmdzDQpBTFRFUiBUQUJMRSBwdWJsaWMuaW1hZ2VfbWFwcGluZ3MgDQpBTFRFUiBDT0xVTU4gY2F0ZWdvcnlfaWQgVFlQRSBURVhUOw0KDQotLSA0LiBSZS1hZGljaW9uYXIgYSBjaGF2ZSBlc3RyYW5nZWlyYQ0KQUxURVIgVEFCTEUgcHVibGljLmltYWdlX21hcHBpbmdzDQpBREQgQ09OU1RSQUlOVCBpbWFnZV9tYXBwaW5nc19jYXRlZ29yeV9pZF9ma2V5IA0KRk9SRUlHTiBLRVkgKGNhdGVnb3J5X2lkKSBSRUZFUkVOQ0VTIHB1YmxpYy5pbWFnZV9jYXRlZ29yaWVzKGlkKSBPTiBERUxFVEUgU0VUIE5VTEw7DQoNCi0tIDUuIEF0dWFsaXphciBvIGNhY2hlIGRvIFBvc3RnUkVTVA0KTk9USUZZIHBncnN0LCAncmVsb2FkIHNjaGVtYSc7DQo=}
+-- ========================================================
+-- SCRIPT DE AJUSTE: BIBLIOTECA DE IMAGENS (UUID -> TEXT)
+-- Execute este script no SQL Editor do seu NOVO projeto Supabase.
+-- Isso permitirá importar IDs de categoria em formato de texto (ex: cat-123).
+-- ========================================================
+
+-- 1. Descobrir o nome da constraint de chave estrangeira (normalmente image_mappings_category_id_fkey)
+-- e removê-la temporariamente para permitir a alteração de tipos.
+DO $$ 
+DECLARE
+    const_name TEXT;
+BEGIN
+    SELECT constraint_name INTO const_name
+    FROM information_schema.key_column_usage
+    WHERE table_name = 'image_mappings' AND column_name = 'category_id'
+    AND table_schema = 'public';
+
+    IF const_name IS NOT NULL THEN
+        EXECUTE 'ALTER TABLE public.image_mappings DROP CONSTRAINT ' || const_name;
+    END IF;
+END $$;
+
+-- 2. Alterar o tipo da coluna id na tabela image_categories
+ALTER TABLE public.image_categories 
+ALTER COLUMN id TYPE TEXT;
+
+-- 3. Alterar o tipo da coluna category_id na tabela image_mappings
+ALTER TABLE public.image_mappings 
+ALTER COLUMN category_id TYPE TEXT;
+
+-- 4. Re-adicionar a chave estrangeira
+ALTER TABLE public.image_mappings
+ADD CONSTRAINT image_mappings_category_id_fkey 
+FOREIGN KEY (category_id) REFERENCES public.image_categories(id) ON DELETE SET NULL;
+
+-- 5. Atualizar o cache do PostgREST
+NOTIFY pgrst, 'reload schema';

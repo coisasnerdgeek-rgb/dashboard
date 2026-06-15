@@ -1,1 +1,38 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCmNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE5FV19TVVBBQkFTRV9VUkwsIE5FV19TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBmb3JjZU9yZGVyUmVwcm9jZXNzKCkgew0KICAgIGNvbnN0IG9yZGVySWQgPSAnMjYwMTIzU0NLTUEwOUgnOw0KICAgIGNvbnNvbGUubG9nKGDwn5qAIEZvcsOnYW5kbyByZXByb2Nlc3NhbWVudG8gZG8gcGVkaWRvICR7b3JkZXJJZH0uLi5gKTsNCg0KICAgIC8vIDEuIERlbGV0YXIgZGEgZmlsYSBkZSByZXRyeSBzZSBleGlzdGlyIChwYXJhIHJlaW5zZXJpciBsaW1wbykNCiAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykuZGVsZXRlKCkuZXEoJ29yZGVyX2lkJywgb3JkZXJJZCk7DQoNCiAgICAvLyAyLiBJbnNlcmlyIG5hIGZpbGEgY29tbyBwZW5kZW50ZQ0KICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKS5pbnNlcnQoew0KICAgICAgICBvcmRlcl9pZDogb3JkZXJJZCwNCiAgICAgICAgY29tcGFueTogJ01WRicsIC8vIE8gbG9nIGFudGVyaW9yIG1vc3Ryb3UgTVZGDQogICAgICAgIHN0YXR1czogJ3BlbmRpbmcnLA0KICAgICAgICByZXRyeV9jb3VudDogMCwNCiAgICAgICAgbWF4X3JldHJpZXM6IDUsDQogICAgICAgIG5leHRfcmV0cnlfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwNCiAgICAgICAgcGF5bG9hZDogeyBjbnBqOiAnMjUxMTY1MTQwMDAxMzgnLCBvcmlnaW46ICdNYW51YWwgRm9yY2UgRml4JyB9DQogICAgfSk7DQoNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcign4p2MIEVycm8gYW8gaW5zZXJpciBuYSBmaWxhOicsIGVycm9yKTsNCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZygn4pyFIFBlZGlkbyBhZGljaW9uYWRvIMOgIGZpbGEgY29tIHN1Y2Vzc28hJyk7DQogICAgICAgIGNvbnNvbGUubG9nKCfij7MgQWdvcmEgY2hhbWFuZG8gbyBwcm9jZXNzYWRvciBkZSBmaWxhLi4uJyk7DQoNCiAgICAgICAgLy8gQ2hhbWFyIG8gcHJvY2Vzc2Fkb3IgKHZpYSBBUEkgbG9jYWwgb3UgcmVtb3RhKQ0KICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKCdodHRwczovL2Rhc2hib2FyZC1wZWRpZG9zLnZlcmNlbC5hcHAvYXBpL3Byb2Nlc3MtcmV0cnktcXVldWUnKTsNCiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcmVzcG9uc2UuanNvbigpOw0KICAgICAgICBjb25zb2xlLmxvZygn8J+TiiBSZXN1bHRhZG8gZG8gcHJvY2Vzc2FtZW50bzonLCByZXN1bHQpOw0KICAgIH0NCn0NCg0KZm9yY2VPcmRlclJlcHJvY2VzcygpOw0K}
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function forceOrderReprocess() {
+    const orderId = '260123SCKMA09H';
+    console.log(`🚀 Forçando reprocessamento do pedido ${orderId}...`);
+
+    // 1. Deletar da fila de retry se existir (para reinserir limpo)
+    await supabase.from('webhook_retry_queue').delete().eq('order_id', orderId);
+
+    // 2. Inserir na fila como pendente
+    const { error } = await supabase.from('webhook_retry_queue').insert({
+        order_id: orderId,
+        company: 'MVF', // O log anterior mostrou MVF
+        status: 'pending',
+        retry_count: 0,
+        max_retries: 5,
+        next_retry_at: new Date().toISOString(),
+        payload: { cnpj: '25116514000138', origin: 'Manual Force Fix' }
+    });
+
+    if (error) {
+        console.error('❌ Erro ao inserir na fila:', error);
+    } else {
+        console.log('✅ Pedido adicionado à fila com sucesso!');
+        console.log('⏳ Agora chamando o processador de fila...');
+
+        // Chamar o processador (via API local ou remota)
+        const response = await fetch('https://dashboard-pedidos.vercel.app/api/process-retry-queue');
+        const result = await response.json();
+        console.log('📊 Resultado do processamento:', result);
+    }
+}
+
+forceOrderReprocess();

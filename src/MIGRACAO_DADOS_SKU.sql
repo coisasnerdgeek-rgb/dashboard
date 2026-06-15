@@ -1,1 +1,26 @@
-﻿@{data=LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCi0tIE1JR1JBQ0FPIERFIERBRE9TOiBTS1UgTUFQUElOR1MgKFByb2pldG8gQW50aWdvIC0+IE5vdm8pDQotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpJTlNFUlQgSU5UTyBwdWJsaWMuc2t1X21hcHBpbmdzIChtYXBwaW5nX3R5cGUsIG1hcHBpbmdfa2V5LCBtYXBwaW5nX3ZhbHVlKQ0KVkFMVUVTDQooJ2NvbG9yJywgJ3BvbG8nLCAnUm9zYSBCZWLDqicpLA0KKCdwcm9kdWN0JywgJ3N0YXJ3YXJzJywgJ0NhbWlzZXRhIE1hc2N1bGluYScpLA0KKCdjb2xvcicsICdjaGVmYW8nLCAnUHJldG8nKSwNCigncHJvZHVjdCcsICdzb25pYycsICdDYW1pc2V0YSBNYXNjdWxpbmEnKSwNCignY29sb3InLCAnc2t1bGwnLCAnTWFyaW5obycpLA0KKCdjb2xvcicsICdjYW0nLCAnQnJhbmNvJyksDQooJ3Byb2R1Y3QnLCAnY2FtaScsICdDYW1pc2V0YSBNYXNjdWxpbmEnKSwNCignY29sb3InLCAnbWFzYycsICdNdXNnbycpLA0KKCdwcm9kdWN0JywgJ21lZ2FtYW4nLCAnQ2FtaXNldGEgTWFzY3VsaW5hJyksDQooJ2NvbG9yJywgJ3BsdXMnLCAnQnJhbmNvJyksDQooJ3Byb2R1Y3QnLCAnc3RyYXkga2lkcyB3YXknLCAnQmFieWxvb2sgUG9saWVzdGVyJyksDQooJ3Byb2R1Y3QnLCAneW91IG1ha2Ugc3RyYXkga2lkcyBzdGF5JywgJ0JhYnlsb29rIFBvbGllc3RlcicpLA0KKCdjb2xvcicsICdwb2xpYScsICdUdXJxdWVzYScpLA0KKCdwcm9kdWN0JywgJ2pva2VyJywgJ0NhbWlzZXRhIE1hc2N1bGluYScpLA0KKCdjb2xvcicsICdjb2tlJywgJ1ByZXRvJyksDQooJ2NvbG9yJywgJ3N1YmxpbWEnLCAnQnJhbmNvJyksDQooJ3NpemUnLCAnbicsICdNJyksDQooJ3NpemUnLCAnbW0nLCAnTScpLA0KKCdjb2xvcicsICdzdXBlcm1hbicsICdQcmV0bycpDQpPTiBDT05GTElDVCAobWFwcGluZ190eXBlLCBtYXBwaW5nX2tleSkgRE8gTk9USElORzsNCg==}
+-- ========================================================
+-- MIGRACAO DE DADOS: SKU MAPPINGS (Projeto Antigo -> Novo)
+-- ========================================================
+
+INSERT INTO public.sku_mappings (mapping_type, mapping_key, mapping_value)
+VALUES
+('color', 'polo', 'Rosa Bebê'),
+('product', 'starwars', 'Camiseta Masculina'),
+('color', 'chefao', 'Preto'),
+('product', 'sonic', 'Camiseta Masculina'),
+('color', 'skull', 'Marinho'),
+('color', 'cam', 'Branco'),
+('product', 'cami', 'Camiseta Masculina'),
+('color', 'masc', 'Musgo'),
+('product', 'megaman', 'Camiseta Masculina'),
+('color', 'plus', 'Branco'),
+('product', 'stray kids way', 'Babylook Poliester'),
+('product', 'you make stray kids stay', 'Babylook Poliester'),
+('color', 'polia', 'Turquesa'),
+('product', 'joker', 'Camiseta Masculina'),
+('color', 'coke', 'Preto'),
+('color', 'sublima', 'Branco'),
+('size', 'n', 'M'),
+('size', 'mm', 'M'),
+('color', 'superman', 'Preto')
+ON CONFLICT (mapping_type, mapping_key) DO NOTHING;

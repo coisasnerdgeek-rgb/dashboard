@@ -1,1 +1,95 @@
-﻿@{data=aW1wb3J0IHR5cGUgeyBWZXJjZWxSZXF1ZXN0LCBWZXJjZWxSZXNwb25zZSB9IGZyb20gJ0B2ZXJjZWwvbm9kZSc7DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KDQpjb25zdCBzdXBhYmFzZVVybCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBzdXBhYmFzZVNlcnZpY2VLZXkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZITsNCg0KZXhwb3J0IGRlZmF1bHQgYXN5bmMgZnVuY3Rpb24gaGFuZGxlcihyZXE6IFZlcmNlbFJlcXVlc3QsIHJlczogVmVyY2VsUmVzcG9uc2UpIHsNCiAgICByZXMuc2V0SGVhZGVyKCdBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW4nLCAnKicpOw0KICAgIHJlcy5zZXRIZWFkZXIoJ0FjY2Vzcy1Db250cm9sLUFsbG93LU1ldGhvZHMnLCAnUE9TVCwgT1BUSU9OUycpOw0KICAgIHJlcy5zZXRIZWFkZXIoJ0FjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMnLCAnQ29udGVudC1UeXBlJyk7DQoNCiAgICBpZiAocmVxLm1ldGhvZCA9PT0gJ09QVElPTlMnKSB7DQogICAgICAgIHJldHVybiByZXMuc3RhdHVzKDIwMCkuZW5kKCk7DQogICAgfQ0KDQogICAgaWYgKHJlcS5tZXRob2QgIT09ICdQT1NUJykgew0KICAgICAgICByZXR1cm4gcmVzLnN0YXR1cyg0MDUpLmpzb24oeyBlcnJvcjogJ01ldGhvZCBub3QgYWxsb3dlZCcgfSk7DQogICAgfQ0KDQogICAgdHJ5IHsNCiAgICAgICAgY29uc3QgeyBkYXRhIH0gPSByZXEuYm9keTsNCg0KICAgICAgICAvLyBERUJVRyBJTkZPIENPTExFQ1RJT04NCiAgICAgICAgY29uc3QgZGVidWdJbmZvOiBhbnkgPSB7DQogICAgICAgICAgICBib2R5VHlwZTogdHlwZW9mIHJlcS5ib2R5LA0KICAgICAgICAgICAgYm9keUtleXM6IHJlcS5ib2R5ID8gT2JqZWN0LmtleXMocmVxLmJvZHkpIDogW10sDQogICAgICAgICAgICBkYXRhUHJvdmlkZWQ6ICEhZGF0YSwNCiAgICAgICAgICAgIGRhdGFLZXlzOiBkYXRhID8gT2JqZWN0LmtleXMoZGF0YSkgOiBbXSwNCiAgICAgICAgICAgIGZpbGVEZXRhaWxzOiBbXQ0KICAgICAgICB9Ow0KDQogICAgICAgIGlmICghZGF0YSkgew0KICAgICAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgZXJyb3I6ICdObyBkYXRhIHByb3ZpZGVkJywgZGVidWc6IGRlYnVnSW5mbyB9KTsNCiAgICAgICAgfQ0KDQogICAgICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KHN1cGFiYXNlVXJsLCBzdXBhYmFzZVNlcnZpY2VLZXkpOw0KICAgICAgICBsZXQgdG90YWxJbnNlcnRlZCA9IDA7DQogICAgICAgIGxldCBlcnJvcnMgPSBbXTsNCg0KICAgICAgICAvLyBJdGVyYXRlIG92ZXIgZmlsZXMgaW4gdGhlIGRhdGEgb2JqZWN0DQogICAgICAgIGZvciAoY29uc3QgW2ZpbGVuYW1lLCBmaWxlRGF0YV0gb2YgT2JqZWN0LmVudHJpZXMoZGF0YSkpIHsNCiAgICAgICAgICAgIGNvbnN0IHJvd3MgPSAoZmlsZURhdGEgYXMgYW55KS5yb3dzOw0KICAgICAgICAgICAgY29uc3QgaW1wb3J0RGF0ZSA9IChmaWxlRGF0YSBhcyBhbnkpLmltcG9ydERhdGUgfHwgbmV3IERhdGUoKS50b0lTT1N0cmluZygpOw0KDQogICAgICAgICAgICBjb25zdCBmaWxlRGVidWcgPSB7DQogICAgICAgICAgICAgICAgZmlsZW5hbWUsDQogICAgICAgICAgICAgICAgaGFzUm93czogISFyb3dzLA0KICAgICAgICAgICAgICAgIGlzQXJyYXk6IEFycmF5LmlzQXJyYXkocm93cyksDQogICAgICAgICAgICAgICAgY291bnQ6IEFycmF5LmlzQXJyYXkocm93cykgPyByb3dzLmxlbmd0aCA6IDAsDQogICAgICAgICAgICAgICAgaW1wb3J0RGF0ZQ0KICAgICAgICAgICAgfTsNCiAgICAgICAgICAgIGRlYnVnSW5mby5maWxlRGV0YWlscy5wdXNoKGZpbGVEZWJ1Zyk7DQoNCiAgICAgICAgICAgIGlmICghQXJyYXkuaXNBcnJheShyb3dzKSkgY29udGludWU7DQoNCiAgICAgICAgICAgIC8vIFByZXBhcmUgcm93cyBmb3IgaW5zZXJ0aW9uDQogICAgICAgICAgICBjb25zdCBkYlJvd3MgPSByb3dzLm1hcCgocm93OiBhbnkpID0+ICh7DQogICAgICAgICAgICAgICAgZmlsZW5hbWU6IGZpbGVuYW1lLA0KICAgICAgICAgICAgICAgIHJvd19kYXRhOiByb3csDQogICAgICAgICAgICAgICAgaW1wb3J0X2RhdGU6IGltcG9ydERhdGUsDQogICAgICAgICAgICAgICAgY3JlYXRlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpDQogICAgICAgICAgICB9KSk7DQoNCiAgICAgICAgICAgIC8vIEluc2VydCBpbiBiYXRjaGVzIG9mIDUwDQogICAgICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IGRiUm93cy5sZW5ndGg7IGkgKz0gNTApIHsNCiAgICAgICAgICAgICAgICBjb25zdCBiYXRjaCA9IGRiUm93cy5zbGljZShpLCBpICsgNTApOw0KICAgICAgICAgICAgICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKS5pbnNlcnQoYmF0Y2gpOw0KDQogICAgICAgICAgICAgICAgaWYgKGVycm9yKSB7DQogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGluc2VydGluZyBiYXRjaDonLCBlcnJvcik7DQogICAgICAgICAgICAgICAgICAgIGVycm9ycy5wdXNoKGAke2ZpbGVuYW1lfTogJHtlcnJvci5tZXNzYWdlfWApOw0KICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgIHRvdGFsSW5zZXJ0ZWQgKz0gYmF0Y2gubGVuZ3RoOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KDQogICAgICAgIHJldHVybiByZXMuc3RhdHVzKDIwMCkuanNvbih7DQogICAgICAgICAgICBtZXNzYWdlOiAnU3luYyBzdWNjZXNzZnVsJywNCiAgICAgICAgICAgIGluc2VydGVkOiB0b3RhbEluc2VydGVkLA0KICAgICAgICAgICAgZXJyb3JzOiBlcnJvcnMubGVuZ3RoID4gMCA/IGVycm9ycyA6IHVuZGVmaW5lZCwNCiAgICAgICAgICAgIGRlYnVnOiBkZWJ1Z0luZm8NCiAgICAgICAgfSk7DQoNCiAgICB9IGNhdGNoIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdTeW5jIGVycm9yOicsIGVycm9yKTsNCiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsNCiAgICAgICAgICAgIGVycm9yOiBTdHJpbmcoZXJyb3IpLA0KICAgICAgICAgICAgZGVidWc6IHsNCiAgICAgICAgICAgICAgICBib2R5VHlwZTogdHlwZW9mIHJlcS5ib2R5LA0KICAgICAgICAgICAgICAgIGJvZHlLZXlzOiByZXEuYm9keSA/IE9iamVjdC5rZXlzKHJlcS5ib2R5KSA6IFtdDQogICAgICAgICAgICB9DQogICAgICAgIH0pOw0KICAgIH0NCn0NCg==}
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = process.env.SUPABASE_URL!;
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+    if (req.method === 'OPTIONS') {
+        return res.status(200).end();
+    }
+
+    if (req.method !== 'POST') {
+        return res.status(405).json({ error: 'Method not allowed' });
+    }
+
+    try {
+        const { data } = req.body;
+
+        // DEBUG INFO COLLECTION
+        const debugInfo: any = {
+            bodyType: typeof req.body,
+            bodyKeys: req.body ? Object.keys(req.body) : [],
+            dataProvided: !!data,
+            dataKeys: data ? Object.keys(data) : [],
+            fileDetails: []
+        };
+
+        if (!data) {
+            return res.status(400).json({ error: 'No data provided', debug: debugInfo });
+        }
+
+        const supabase = createClient(supabaseUrl, supabaseServiceKey);
+        let totalInserted = 0;
+        let errors = [];
+
+        // Iterate over files in the data object
+        for (const [filename, fileData] of Object.entries(data)) {
+            const rows = (fileData as any).rows;
+            const importDate = (fileData as any).importDate || new Date().toISOString();
+
+            const fileDebug = {
+                filename,
+                hasRows: !!rows,
+                isArray: Array.isArray(rows),
+                count: Array.isArray(rows) ? rows.length : 0,
+                importDate
+            };
+            debugInfo.fileDetails.push(fileDebug);
+
+            if (!Array.isArray(rows)) continue;
+
+            // Prepare rows for insertion
+            const dbRows = rows.map((row: any) => ({
+                filename: filename,
+                row_data: row,
+                import_date: importDate,
+                created_at: new Date().toISOString()
+            }));
+
+            // Insert in batches of 50
+            for (let i = 0; i < dbRows.length; i += 50) {
+                const batch = dbRows.slice(i, i + 50);
+                const { error } = await supabase.from('spreadsheet_data').insert(batch);
+
+                if (error) {
+                    console.error('Error inserting batch:', error);
+                    errors.push(`${filename}: ${error.message}`);
+                } else {
+                    totalInserted += batch.length;
+                }
+            }
+        }
+
+        return res.status(200).json({
+            message: 'Sync successful',
+            inserted: totalInserted,
+            errors: errors.length > 0 ? errors : undefined,
+            debug: debugInfo
+        });
+
+    } catch (error) {
+        console.error('Sync error:', error);
+        return res.status(500).json({
+            error: String(error),
+            debug: {
+                bodyType: typeof req.body,
+                bodyKeys: req.body ? Object.keys(req.body) : []
+            }
+        });
+    }
+}

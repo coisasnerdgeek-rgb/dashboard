@@ -1,1 +1,48 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gQmFuY28gQU5USUdPIChuYnh1YmRtc2VwbmhoaHNicHpvcSkNCmNvbnN0IE9MRF9TVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly9uYnh1YmRtc2VwbmhoaHNicHpvcS5zdXBhYmFzZS5jbyc7DQpjb25zdCBPTERfU1VQQUJBU0VfS0VZID0gJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltNWllSFZpWkcxelpYQnVhR2hvYzJKd2VtOXhJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk1USTFNelV3TWl3aVpYaHdJam95TURjMk9ESTVOVEF5ZlEuTHgySDJkSGJwaHBUT2xIMFBLZC12NEU3a0pHYXJVNGhZTUtMcldCSDZ1cyc7DQoNCi8vIEJhbmNvIE5PVk8gKGdlYWJ2Y3FjeW1hcXNxeHhmcXl3KQ0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCg0KY29uc3Qgb2xkU3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoT0xEX1NVUEFCQVNFX1VSTCwgT0xEX1NVUEFCQVNFX0tFWSk7DQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gbWlncmFyQmFja29yZGVyKCkgew0KICAgIGNvbnNvbGUubG9nKCfwn5OmIEluaWNpYW5kbyBtaWdyYcOnw6NvIGRlIEJBQ0tPUkRFUkVEX0lURU1TLi4uXG4nKTsNCg0KICAgIHRyeSB7DQogICAgICAgIGNvbnN0IHsgZGF0YTogaXRlbnMsIGVycm9yOiBmZXRjaEVycm9yIH0gPSBhd2FpdCBvbGRTdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ2JhY2tvcmRlcmVkX2l0ZW1zJykNCiAgICAgICAgICAgIC5zZWxlY3QoJyonKTsNCg0KICAgICAgICBpZiAoZmV0Y2hFcnJvcikgdGhyb3cgZmV0Y2hFcnJvcjsNCiAgICAgICAgY29uc29sZS5sb2coYPCfk4ogRW5jb250cmFkb3MgJHtpdGVucy5sZW5ndGh9IGl0ZW5zIG5hIHRhYmVsYSBkZSBiYWNrb3JkZXIuYCk7DQoNCiAgICAgICAgLy8gVGVzdGFyIHNlIG8gYmFuY28gbm92byBhY2VpdGEgJ29yaWdpbmFsX3JvdycgZW0gdmV6IGRlICdkYXRhX2pzb24nDQogICAgICAgIGNvbnN0IGl0ZW5zUHJvY2Vzc2Fkb3MgPSBpdGVucy5tYXAoaXRlbSA9PiB7DQogICAgICAgICAgICBjb25zdCB7IGRhdGFfanNvbiwgdXBkYXRlZF9hdCwgLi4ucmVzdG8gfSA9IGl0ZW07DQogICAgICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgICAgIC4uLnJlc3RvLA0KICAgICAgICAgICAgICAgIG9yaWdpbmFsX3JvdzogZGF0YV9qc29uIC8vIFRlbnRhciBjb2x1bmEgZG8gc2NoZW1hIHF1ZSBjb3N0dW1hIGV4aXN0aXINCiAgICAgICAgICAgIH07DQogICAgICAgIH0pOw0KDQogICAgICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlLmZyb20oJ2JhY2tvcmRlcmVkX2l0ZW1zJykudXBzZXJ0KGl0ZW5zUHJvY2Vzc2Fkb3MsIHsgb25Db25mbGljdDogJ2lkJyB9KTsNCg0KICAgICAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBBbWJvcyBmYWxoYXJhbSAoZGF0YV9qc29uIGUgb3JpZ2luYWxfcm93KTonLCBlcnJvcik7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnXG7wn5KhIFN1Z2VzdMOjbzogRXhlY3V0ZSBvIFNRTCBkZSBjcmlhw6fDo28gZGUgdGFiZWxhIG1hbnVhbG1lbnRlIG5vIGRhc2hib2FyZCBkbyBTdXBhYmFzZSBwYXJhIGNvcnJpZ2lyIG8gY2FjaGUuJyk7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhg4pyFICR7aXRlbnMubGVuZ3RofSByZWdpc3Ryb3MgZGUgYmFja29yZGVyIG1pZ3JhZG9zIGNvbSBzdWNlc3NvICh2aWEgb3JpZ2luYWxfcm93KSFgKTsNCiAgICAgICAgfQ0KDQogICAgfSBjYXRjaCAoZSkgew0KICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvOicsIGUpOw0KICAgIH0NCn0NCg0KbWlncmFyQmFja29yZGVyKCk7DQo=}
+import { createClient } from '@supabase/supabase-js';
+
+// Banco ANTIGO (nbxubdmsepnhhhsbpzoq)
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+
+// Banco NOVO (geabvcqcymaqsqxxfqyw)
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function migrarBackorder() {
+    console.log('📦 Iniciando migração de BACKORDERED_ITEMS...\n');
+
+    try {
+        const { data: itens, error: fetchError } = await oldSupabase
+            .from('backordered_items')
+            .select('*');
+
+        if (fetchError) throw fetchError;
+        console.log(`📊 Encontrados ${itens.length} itens na tabela de backorder.`);
+
+        // Testar se o banco novo aceita 'original_row' em vez de 'data_json'
+        const itensProcessados = itens.map(item => {
+            const { data_json, updated_at, ...resto } = item;
+            return {
+                ...resto,
+                original_row: data_json // Tentar coluna do schema que costuma existir
+            };
+        });
+
+        const { error } = await newSupabase.from('backordered_items').upsert(itensProcessados, { onConflict: 'id' });
+
+        if (error) {
+            console.error('❌ Ambos falharam (data_json e original_row):', error);
+            console.log('\n💡 Sugestão: Execute o SQL de criação de tabela manualmente no dashboard do Supabase para corrigir o cache.');
+        } else {
+            console.log(`✅ ${itens.length} registros de backorder migrados com sucesso (via original_row)!`);
+        }
+
+    } catch (e) {
+        console.error('Erro:', e);
+    }
+}
+
+migrarBackorder();

@@ -1,1 +1,39 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0IGZzIGZyb20gJ2ZzJzsNCmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIGVudg0KdHJ5IHsNCiAgICBjb25zdCBlbnZQYXRoID0gcGF0aC5yZXNvbHZlKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQogICAgaWYgKGZzLmV4aXN0c1N5bmMoZW52UGF0aCkpIHsNCiAgICAgICAgY29uc3QgZW52Q29uZmlnID0gZnMucmVhZEZpbGVTeW5jKGVudlBhdGgsICd1dGY4Jyk7DQogICAgICAgIGVudkNvbmZpZy5zcGxpdCgnXG4nKS5mb3JFYWNoKChsaW5lKSA9PiB7DQogICAgICAgICAgICBjb25zdCBba2V5LCAuLi52YWx1ZVBhcnRzXSA9IGxpbmUuc3BsaXQoJz0nKTsNCiAgICAgICAgICAgIGlmIChrZXkgJiYgdmFsdWVQYXJ0cy5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICAgICAgY29uc3QgdmFsdWUgPSB2YWx1ZVBhcnRzLmpvaW4oJz0nKS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgICAgIHByb2Nlc3MuZW52W2tleS50cmltKCldID0gdmFsdWU7DQogICAgICAgICAgICB9DQogICAgICAgIH0pOw0KICAgIH0NCn0gY2F0Y2ggKGUpIHsgfQ0KDQpjb25zdCBzdXBhYmFzZVVybCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBzdXBhYmFzZUtleSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KDQphc3luYyBmdW5jdGlvbiBjb3VudE9yZGVycygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChzdXBhYmFzZVVybCwgc3VwYWJhc2VLZXkpOw0KDQogICAgLy8gQ291bnQgc3ByZWFkc2hlZXRfZGF0YQ0KICAgIGNvbnN0IHsgY291bnQsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KDQogICAgaWYgKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGNvdW50aW5nOicsIGVycm9yKTsNCiAgICB9IGVsc2Ugew0KICAgICAgICBjb25zb2xlLmxvZyhgXG5cbvCfk4ogVE9UQUwgUEVESURPUyBOTyBCQU5DTyBERSBEQURPUzogJHtjb3VudH1gKTsNCiAgICB9DQp9DQoNCmNvdW50T3JkZXJzKCk7DQo=}
+
+import { createClient } from '@supabase/supabase-js';
+import fs from 'fs';
+import path from 'path';
+
+// Load env
+try {
+    const envPath = path.resolve(process.cwd(), '.env.local');
+    if (fs.existsSync(envPath)) {
+        const envConfig = fs.readFileSync(envPath, 'utf8');
+        envConfig.split('\n').forEach((line) => {
+            const [key, ...valueParts] = line.split('=');
+            if (key && valueParts.length > 0) {
+                const value = valueParts.join('=').trim().replace(/^["']|["']$/g, '');
+                process.env[key.trim()] = value;
+            }
+        });
+    }
+} catch (e) { }
+
+const supabaseUrl = process.env.SUPABASE_URL!;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function countOrders() {
+    const supabase = createClient(supabaseUrl, supabaseKey);
+
+    // Count spreadsheet_data
+    const { count, error } = await supabase
+        .from('spreadsheet_data')
+        .select('*', { count: 'exact', head: true });
+
+    if (error) {
+        console.error('Error counting:', error);
+    } else {
+        console.log(`\n\n📊 TOTAL PEDIDOS NO BANCO DE DADOS: ${count}`);
+    }
+}
+
+countOrders();

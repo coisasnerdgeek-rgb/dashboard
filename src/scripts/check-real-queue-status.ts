@@ -1,1 +1,79 @@
-﻿@{data=LyoqDQogKiBWZXJpZmljYXIgZXN0YWRvIFJFQUwgZGEgZmlsYSBkZSByZXRyeQ0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOw0KDQpjb25zdCBlbnZQYXRoID0gcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQppZiAoZnMuZXhpc3RzU3luYyhlbnZQYXRoKSkgew0KICAgIGNvbnN0IGVudkZpbGUgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0ZjgnKTsNCiAgICBlbnZGaWxlLnNwbGl0KCdcbicpLmZvckVhY2gobGluZSA9PiB7DQogICAgICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj06I10rKT0oLiopJC8pOw0KICAgICAgICBpZiAobWF0Y2gpIHsNCiAgICAgICAgICAgIGNvbnN0IGtleSA9IG1hdGNoWzFdLnRyaW0oKTsNCiAgICAgICAgICAgIGNvbnN0IHZhbHVlID0gbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL15bIiddfFsiJ10kL2csICcnKTsNCiAgICAgICAgICAgIGlmICghcHJvY2Vzcy5lbnZba2V5XSkgcHJvY2Vzcy5lbnZba2V5XSA9IHZhbHVlOw0KICAgICAgICB9DQogICAgfSk7DQp9DQoNCmNvbnN0IFNVUEFCQVNFX1VSTCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZITsNCg0KYXN5bmMgZnVuY3Rpb24gY2hlY2tRdWV1ZVN0YXR1cygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5OKIFZFUklGSUNBTkRPIEZJTEEgREUgUkVUUllcbicpOw0KICAgIGNvbnNvbGUubG9nKCc9Jy5yZXBlYXQoNjApICsgJ1xuJyk7DQoNCiAgICAvLyBUb3RhbCBnZXJhbA0KICAgIGNvbnN0IHsgY291bnQ6IHRvdGFsIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pOw0KDQogICAgY29uc29sZS5sb2coYCAgIPCfk4sgVG90YWwgbmEgZmlsYTogJHt0b3RhbCB8fCAwfVxuYCk7DQoNCiAgICAvLyBQb3Igc3RhdHVzDQogICAgY29uc3Qgc3RhdHVzZXMgPSBbJ3BlbmRpbmcnLCAncHJvY2Vzc2luZycsICdjb21wbGV0ZWQnLCAnZmFpbGVkJ107DQoNCiAgICBmb3IgKGNvbnN0IHN0YXR1cyBvZiBzdGF0dXNlcykgew0KICAgICAgICBjb25zdCB7IGNvdW50IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgICAgIC5lcSgnc3RhdHVzJywgc3RhdHVzKTsNCg0KICAgICAgICBjb25zb2xlLmxvZyhgICAgICAgJHtzdGF0dXN9OiAke2NvdW50IHx8IDB9YCk7DQogICAgfQ0KDQogICAgY29uc29sZS5sb2coJycpOw0KDQogICAgLy8gUGVkaWRvcyByZWNlbnRlcyAoPj0gMjYvMDEvMjAyNikNCiAgICBjb25zdCB7IGNvdW50OiByZWNlbnQgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkNCiAgICAgICAgLmd0ZSgnb3JkZXJfZGF0ZScsICcyMDI2LTAxLTI2Jyk7DQoNCiAgICBjb25zb2xlLmxvZyhgICAg8J+ThSBQZWRpZG9zID49IDI2LzAxLzIwMjY6ICR7cmVjZW50IHx8IDB9YCk7DQoNCiAgICAvLyBQZWRpZG9zIHNlbSBkYXRhDQogICAgY29uc3QgeyBjb3VudDogbm9EYXRlIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pDQogICAgICAgIC5pcygnb3JkZXJfZGF0ZScsIG51bGwpOw0KDQogICAgY29uc29sZS5sb2coYCAgIOKdkyBQZWRpZG9zIHNlbSBkYXRhOiAke25vRGF0ZSB8fCAwfWApOw0KDQogICAgLy8gUGVkaWRvcyBhbnRpZ29zDQogICAgY29uc3QgeyBjb3VudDogb2xkIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnLCBoZWFkOiB0cnVlIH0pDQogICAgICAgIC5sdCgnb3JkZXJfZGF0ZScsICcyMDI2LTAxLTI2Jyk7DQoNCiAgICBjb25zb2xlLmxvZyhgICAg8J+Xke+4jyAgUGVkaWRvcyA8IDI2LzAxLzIwMjY6ICR7b2xkIHx8IDB9XG5gKTsNCg0KICAgIGNvbnNvbGUubG9nKCc9Jy5yZXBlYXQoNjApICsgJ1xuJyk7DQp9DQoNCmNoZWNrUXVldWVTdGF0dXMoKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+/**
+ * Verificar estado REAL da fila de retry
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function checkQueueStatus() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n📊 VERIFICANDO FILA DE RETRY\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Total geral
+    const { count: total } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true });
+
+    console.log(`   📋 Total na fila: ${total || 0}\n`);
+
+    // Por status
+    const statuses = ['pending', 'processing', 'completed', 'failed'];
+
+    for (const status of statuses) {
+        const { count } = await supabase
+            .from('webhook_retry_queue')
+            .select('*', { count: 'exact', head: true })
+            .eq('status', status);
+
+        console.log(`      ${status}: ${count || 0}`);
+    }
+
+    console.log('');
+
+    // Pedidos recentes (>= 26/01/2026)
+    const { count: recent } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true })
+        .gte('order_date', '2026-01-26');
+
+    console.log(`   📅 Pedidos >= 26/01/2026: ${recent || 0}`);
+
+    // Pedidos sem data
+    const { count: noDate } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true })
+        .is('order_date', null);
+
+    console.log(`   ❓ Pedidos sem data: ${noDate || 0}`);
+
+    // Pedidos antigos
+    const { count: old } = await supabase
+        .from('webhook_retry_queue')
+        .select('*', { count: 'exact', head: true })
+        .lt('order_date', '2026-01-26');
+
+    console.log(`   🗑️  Pedidos < 26/01/2026: ${old || 0}\n`);
+
+    console.log('='.repeat(60) + '\n');
+}
+
+checkQueueStatus().catch(console.error);

@@ -1,1 +1,218 @@
-﻿@{data=Ly8gc2VydmljZXMvcHJpY2VUYWJsZVNlcnZpY2UudHMKaW1wb3J0IHsgUHJpY2VQcm9kdWN0LCBTYXZlZE9yZGVyIH0gZnJvbSAnLi4vRGFzaGJvYXJkL3R5cGVzJzsKaW1wb3J0IHsgbm9ybWFsaXplU3RyaW5nIH0gZnJvbSAnLi4vdXRpbHMvc3RyaW5nVXRpbHMnOwppbXBvcnQgeyBnZXRQcmljZVRhYmxlcywgc2F2ZVByaWNlVGFibGUgYXMgc2F2ZVByaWNlVGFibGVTdXBhYmFzZSB9IGZyb20gJy4vc3VwYWJhc2VTZXJ2aWNlJzsKCmV4cG9ydCBjb25zdCBpbml0aWFsU3RvcmVzRGF0YSA9IFsKICAgIHsgbmFtZTogJ0VST04nLCB0eXBlczogWydDT1InXSB9LAogICAgeyBuYW1lOiAnTUFHSUMnLCB0eXBlczogWydCUkFOQ08nLCAnQ09SJ10gfSwKICAgIHsgbmFtZTogJ0dVU0hJJywgdHlwZXM6IFsnQlJBTkNPJywgJ0NPUicsICdFU1BFQ0lBTCddIH0sCiAgICB7IG5hbWU6ICdHTE9CQUwnLCB0eXBlczogWydCUkFOQ08nLCAnQ09SJ10gfSwKICAgIHsgbmFtZTogJ01JS09OT1MnLCB0eXBlczogWydCUkFOQ08nLCAnQ09SJ10gfSwKICAgIHsgbmFtZTogJ0lORElDRScsIHR5cGVzOiBbJ0JSQU5DTycsICdDT1InXSB9LAogICAgeyBuYW1lOiAnRkVOT01FTkFMJywgdHlwZXM6IFsnQlJBTkNPJywgJ0NPUiddIH0sCiAgICB7IG5hbWU6ICdBTEZBIERFWicsIHR5cGVzOiBbJ0NPUiddIH0sCiAgICB7IG5hbWU6ICdTSVRFJywgdHlwZXM6IFsnQlJBTkNPJ10gfSwKXTsKCmV4cG9ydCBjb25zdCBkZWZhdWx0UHJpY2VEYXRhOiBQcmljZVByb2R1Y3RbXSA9IFsKICAgIHsKICAgICAgICBpZDogJ3AxJywKICAgICAgICBjYXRlZ29yeTogIk91dHJvcyIsCiAgICAgICAgcHJvZHVjdDogIlFVQURSTyBBNCBVViIsCiAgICAgICAgc2t1UHJvZHVjdE5hbWU6IG51bGwsCiAgICAgICAgcHJpY2VzOiB7ICdTSVRFJzogeyAnQlJBTkNPJzogMTAuNTAgfSB9CiAgICB9LAogICAgewogICAgICAgIGlkOiAncDInLAogICAgICAgIGNhdGVnb3J5OiAiRmVtaW5pbm8iLAogICAgICAgIHByb2R1Y3Q6ICJCQUJZTE9PSyIsCiAgICAgICAgc2t1UHJvZHVjdE5hbWU6IG51bGwsCiAgICAgICAgcHJpY2VzOiB7CiAgICAgICAgICAgICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDEzLjUwLCAnQ09SJzogMTUuMDAgfSwKICAgICAgICAgICAgJ0dVU0hJJzogeyAnQlJBTkNPJzogMTUuMDAsICdDT1InOiAxNi4zMCwgJ0VTUEVDSUFMJzogMTYuMzAgfSwKICAgICAgICAgICAgJ01JS09OT1MnOiB7ICdCUkFOQ08nOiAxNC41MCB9LAogICAgICAgICAgICAnU0lURSc6IHsgJ0JSQU5DTyc6IDEyLjAwIH0KICAgICAgICB9CiAgICB9LAogICAgewogICAgICAgIGlkOiAncDMnLAogICAgICAgIGNhdGVnb3J5OiAiRmVtaW5pbm8iLAogICAgICAgIHByb2R1Y3Q6ICJCQUJZTE9PSyBWIiwKICAgICAgICBza3VQcm9kdWN0TmFtZTogbnVsbCwKICAgICAgICBwcmljZXM6IHsKICAgICAgICAgICAgJ01BR0lDJzogeyAnQlJBTkNPJzogMTMuNTAsICdDT1InOiAxMy41MCB9LAogICAgICAgICAgICAnR1VTSEknOiB7ICdCUkFOQ08nOiAxNi4yMCwgJ0NPUic6IDE3LjgwLCAnRVNQRUNJQUwnOiAxNy44MCB9LAogICAgICAgICAgICAnR0xPQkFMJzogeyAnQlJBTkNPJzogMTMuOTksICdDT1InOiAxMy45OSB9CiAgICAgICAgfQogICAgfSwKICAgIHsgaWQ6ICdwNCcsIGNhdGVnb3J5OiAiRmVtaW5pbm8iLCBwcm9kdWN0OiAiQkxVU0EgR09MQSBDQVJFQ0EgUExVUyBTSVpFIEZFTk9NRU5BTCIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDM3LjAwLCAnQ09SJzogMzcuMDAgfSB9IH0sCiAgICB7IGlkOiAncDUnLCBjYXRlZ29yeTogIkZlbWluaW5vIiwgcHJvZHVjdDogIkJMVVNBIEdPTEEgViBNQUlPUiBQTFVTIFNJWkUiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdGRU5PTUVOQUwnOiB7ICdCUkFOQ08nOiAzNy4wMCwgJ0NPUic6IDM3LjAwIH0gfSB9LAogICAgeyBpZDogJ3A2JywgY2F0ZWdvcnk6ICJGZW1pbmlubyIsIHByb2R1Y3Q6ICJCTFVTQSBMT05HTElORSBERSBWSVNDTyIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDM3LjAwLCAnQ09SJzogMzcuMDAgfSB9IH0sCiAgICB7IGlkOiAncDcnLCBjYXRlZ29yeTogIkZlbWluaW5vIiwgcHJvZHVjdDogIkJMVVNBIE1BTEhBIEZSSUEgTU9ERVJOQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0lORElDRSc6IHsgJ0JSQU5DTyc6IDIxLjAwLCAnQ09SJzogMjEuMDAgfSB9IH0sCiAgICB7IGlkOiAncDgnLCBjYXRlZ29yeTogIkZlbWluaW5vIiwgcHJvZHVjdDogIkJMVVNBIFYgTE9OR0EgQsOBU0lDQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0lORElDRSc6IHsgJ0JSQU5DTyc6IDIxLjAwLCAnQ09SJzogMjEuMDAgfSB9IH0sCiAgICB7IGlkOiAncDknLCBjYXRlZ29yeTogIk91dHJvcyIsIHByb2R1Y3Q6ICJCT1RUT04iLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7fSB9LAogICAgeyBpZDogJ3AxMCcsIGNhdGVnb3J5OiAiT3V0cm9zIiwgcHJvZHVjdDogIkNBTMOHQSBERSBNT0xFVE9NIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnTUFHSUMnOiB7ICdDT1InOiA0MC45OSB9IH0gfSwKICAgIHsgaWQ6ICdwMTEnLCBjYXRlZ29yeTogIk91dHJvcyIsIHByb2R1Y3Q6ICJDQUzDh0EgREUgTU9MRVRPTSBYRyIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ01BR0lDJzogeyAnQ09SJzogNDQuOTkgfSB9IH0sCiAgICB7CiAgICAgICAgaWQ6ICdwMTInLAogICAgICAgIGNhdGVnb3J5OiAiRmVtaW5pbm8iLAogICAgICAgIHByb2R1Y3Q6ICJDQU1JU0VUQSBCQUJZTE9PSyBQTFVTIFNJWkUiLAogICAgICAgIHNrdVByb2R1Y3ROYW1lOiBudWxsLAogICAgICAgIHByaWNlczogewogICAgICAgICAgICAnTUFHSUMnOiB7ICdCUkFOQ08nOiAxNC41MCwgJ0NPUic6IDE0LjUwIH0sCiAgICAgICAgICAgICdHVVNISSc6IHsgJ0JSQU5DTyc6IDE4LjIwLCAnQ09SJzogMTguMjAsICdFU1BFQ0lBTCc6IDE4LjIwIH0sCiAgICAgICAgICAgICdTSVRFJzogeyAnQlJBTkNPJzogMTIuNTAgfQogICAgICAgIH0KICAgIH0sCiAgICB7IGlkOiAncDEzJywgY2F0ZWdvcnk6ICJNYXNjdWxpbm8iLCBwcm9kdWN0OiAiQ0FNSVNFVEEgR09MQSBWIE1BTEhBIEZSSUEgUExVUyBTSVpFIE1BU0NVTElOQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0dVU0hJJzogeyAnQlJBTkNPJzogMjkuOTAsICdDT1InOiAyOS45MCwgJ0VTUEVDSUFMJzogMjkuOTAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAyMS4wMCB9IH0gfSwKICAgIHsgaWQ6ICdwMTQnLCBjYXRlZ29yeTogIkZlbWluaW5vIiwgcHJvZHVjdDogIkNBTUlTRVRBIEdPTEEgViBQTFVTIFNJWkUgRkVNSU5JTkEiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdHVVNISSc6IHsgJ0JSQU5DTyc6IDIwLjUwLCAnQ09SJzogMjAuNTAsICdFU1BFQ0lBTCc6IDIwLjUwIH0sICdTSVRFJzogeyAnQlJBTkNPJzogMTUuMDAgfSB9IH0sCiAgICB7CiAgICAgICAgaWQ6ICdwMTUnLAogICAgICAgIGNhdGVnb3J5OiAiSW5mYW50aWwiLAogICAgICAgIHByb2R1Y3Q6ICJDQU1JU0VUQSBJTkZBTlRJTCIsCiAgICAgICAgc2t1UHJvZHVjdE5hbWU6IG51bGwsCiAgICAgICAgcHJpY2VzOiB7CiAgICAgICAgICAgICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDE0LjUwLCAnQ09SJzogMTQuNTAgfSwKICAgICAgICAgICAgJ0dVU0hJJzogeyAnQlJBTkNPJzogMTQuNDAsICdDT1InOiAxNi44MCwgJ0VTUEVDSUFMJzogMTYuODAgfSwKICAgICAgICAgICAgJ0dMT0JBTCc6IHsgJ0JSQU5DTyc6IDEwLjkzLCAnQ09SJzogMTAuOTMgfSwKICAgICAgICAgICAgJ1NJVEUnOiB7ICdCUkFOQ08nOiA4LjAwIH0KICAgICAgICB9CiAgICB9LAogICAgeyBpZDogJ3AxNicsIGNhdGVnb3J5OiAiSW5mYW50aWwiLCBwcm9kdWN0OiAiQ0FNSVNFVEEgSU5GQU5USUwgTUFOR0EgTE9OR0EiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdHVVNISSc6IHsgJ0JSQU5DTyc6IDIyLjYwLCAnQ09SJzogMjIuNjAsICdFU1BFQ0lBTCc6IDIyLjYwIH0sICdGRU5PTUVOQUwnOiB7ICdCUkFOQ08nOiAyOS42MCwgJ0NPUic6IDI5LjYwIH0sICdTSVRFJzogeyAnQlJBTkNPJzogMTIuMDAgfSB9IH0sCiAgICB7IGlkOiAncDE3JywgY2F0ZWdvcnk6ICJNYXNjdWxpbm8iLCBwcm9kdWN0OiAiQ0FNSVNFVEEgTUFMSEEgRlJJQSBNQVNDVUxJTkEiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDE1LjUwLCAnQ09SJzogMTYuNTAgfSwgJ0dVU0hJJzogeyAnQlJBTkNPJzogMTYuNzAsICdDT1InOiAxOC45MCwgJ0VTUEVDSUFMJzogMjAuMDAgfSwgJ0lORElDRSc6IHsgJ0JSQU5DTyc6IDIxLjAwLCAnQ09SJzogMjEuMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAxMS41MCB9IH0gfSwKICAgIHsgaWQ6ICdwMTgnLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJDQU1JU0VUQSBNQUxIQSBGUklBIFBMVVMgU0laRSBNQVNDVUxJTkEiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdHVVNISSc6IHsgJ0JSQU5DTyc6IDI3LjAwLCAnQ09SJzogMjcuMDAsICdFU1BFQ0lBTCc6IDI3LjAwIH0sICdGRU5PTUVOQUwnOiB7ICdCUkFOQ08nOiAyOC4wMCwgJ0NPUic6IDI4LjAwIH0sICdTSVRFJzogeyAnQlJBTkNPJzogMjQuMDAgfSB9IH0sCiAgICB7CiAgICAgICAgaWQ6ICdwMTknLAogICAgICAgIGNhdGVnb3J5OiAiTWFzY3VsaW5vIiwKICAgICAgICBwcm9kdWN0OiAiQ0FNSVNFVEEgTUFTQ1VMSU5BIiwKICAgICAgICBza3VQcm9kdWN0TmFtZTogbnVsbCwKICAgICAgICBwcmljZXM6IHsKICAgICAgICAgICAgJ01BR0lDJzogeyAnQlJBTkNPJzogMTguNTAsICdDT1InOiAxOS41MCB9LAogICAgICAgICAgICAnR1VTSEknOiB7ICdCUkFOQ08nOiAxOC40MCwgJ0NPUic6IDIwLjMwLCAnRVNQRUNJQUwnOiAyMS4wMCB9LAogICAgICAgICAgICAnR0xPQkFMJzogeyAnQlJBTkNPJzogMTYuMDAsICdDT1InOiAxNy41MCB9LAogICAgICAgICAgICAnTUlLT05PUyc6IHsgJ0JSQU5DTyc6IDEzLjUwIH0sCiAgICAgICAgICAgICdTSVRFJzogeyAnQlJBTkNPJzogMTIuNTAgfQogICAgICAgIH0KICAgIH0sCiAgICB7IGlkOiAncDIwJywgY2F0ZWdvcnk6ICJNYXNjdWxpbm8iLCBwcm9kdWN0OiAiQ0FNSVNFVEEgTUFTQ1VMSU5BIE1BTkdBIExPTkdBIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnTUFHSUMnOiB7ICdCUkFOQ08nOiAyMi4wMCwgJ0NPUic6IDIzLjAwIH0sICdHVVNISSc6IHsgJ0JSQU5DTyc6IDI1LjIwLCAnQ09SJzogMjYuOTAsICdFU1BFQ0lBTCc6IDI2LjkwIH0sICdHTE9CQUwnOiB7ICdCUkFOQ08nOiAyMC45MCwgJ0NPUic6IDIwLjkwIH0sICdTSVRFJzogeyAnQlJBTkNPJzogMTguOTAgfSB9IH0sCiAgICB7IGlkOiAncDIxJywgY2F0ZWdvcnk6ICJNYXNjdWxpbm8iLCBwcm9kdWN0OiAiQ0FNSVNFVEEgTUFTQ1VMSU5BIE1BTkdBIExPTkdBIFBMVVMiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDI3LjAwLCAnQ09SJzogMjcuMDAgfSwgJ0dVU0hJJzogeyAnQlJBTkNPJzogMzMuNjAsICdDT1InOiAzMy42MCwgJ0VTUEVDSUFMJzogMzMuNjAgfSwgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDQyLjAwLCAnQ09SJzogNDIuMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAyNS4wMCB9IH0gfSwKICAgIHsgaWQ6ICdwMjInLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJDQU1JU0VUQSBNQVNDVUxJTkEgUExVUyIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ01BR0lDJzogeyAnQlJBTkNPJzogMjEuMDAsICdDT1InOiAyMS4wMCB9LCAnR1VTSEknOiB7ICdCUkFOQ08nOiAyOC45MCwgJ0NPUic6IDI4LjkwLCAnRVNQRUNJQUwnOiAyOC45MCB9LCAnRkVOT01FTkFMJzogeyAnQlJBTkNPJzogMjguMDAsICdDT1InOiAyOC4wMCB9LCAnU0lURSc6IHsgJ0JSQU5DTyc6IDIxLjAwIH0gfSB9LAogICAgeyBpZDogJ3AyMycsIGNhdGVnb3J5OiAiTWFzY3VsaW5vIiwgcHJvZHVjdDogIkNBTUlTRVRBIE1BU0NVTElOQSBQT0xJQU1JREEiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDIyLjkwLCAnQ09SJzogMjIuOTAgfSB9IH0sCiAgICB7IGlkOiAncDI0JywgY2F0ZWdvcnk6ICJNYXNjdWxpbm8iLCBwcm9kdWN0OiAiQ0FNSVNFVEEgTUFTQ1VMSU5BIFYiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdHVVNISSc6IHsgJ0JSQU5DTyc6IDE4LjkwLCAnQ09SJzogMjAuODAsICdFU1BFQ0lBTCc6IDIyLjYwIH0sICdHTE9CQUwnOiB7ICdCUkFOQ08nOiAxNi41MCwgJ0NPUic6IDE2LjUwIH0sICdTSVRFJzogeyAnQlJBTkNPJzogMTMuMjAgfSB9IH0sCiAgICB7IGlkOiAncDI1JywgY2F0ZWdvcnk6ICJNYXNjdWxpbm8iLCBwcm9kdWN0OiAiQ0FNSVNFVEEgTUFTQ1VMSU5BIFYgTUFMSEEgRlJJQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0dVU0hJJzogeyAnQlJBTkNPJzogMTcuODAsICdDT1InOiAyMC4wMCwgJ0VTUEVDSUFMJzogMjEuNTAgfSwgJ0lORElDRSc6IHsgJ0JSQU5DTyc6IDIxLjAwLCAnQ09SJzogMjEuMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAxMi40MCB9IH0gfSwKICAgIHsgaWQ6ICdwMjYnLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJDQU1JU0VUQSBNQVNDVUxJTkEgViBQTFVTIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnR1VTSEknOiB7ICdCUkFOQ08nOiAzMi4wMCwgJ0NPUic6IDMyLjAwLCAnRVNQRUNJQUwnOiAzMi4wMCB9LCAnU0lURSc6IHsgJ0JSQU5DTyc6IDIzLjUwIH0gfSB9LAogICAgeyBpZDogJ3AyNycsIGNhdGVnb3J5OiAiT3V0cm9zIiwgcHJvZHVjdDogIkNBTUlTRVRBIFAvIFNVQkxJTUHDh0FPIEdSQU5ERSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ01BR0lDJzogeyAnQlJBTkNPJzogMTUuMDAsICdDT1InOiAxNS4wMCB9IH0gfSwKICAgIHsgaWQ6ICdwMjgnLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJDQU1JU0VUQSBQT0xJRVNURVIiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDE0LjAwLCAnQ09SJzogMTUuMDAgfSwgJ0dVU0hJJzogeyAnQlJBTkNPJzogMjUuMjAsICdDT1InOiAxNS4yMCwgJ0VTUEVDSUFMJzogMTUuMjAgfSwgJ0lORElDRSc6IHsgJ0JSQU5DTyc6IDIxLjAwLCAnQ09SJzogMjEuMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAxMS4yMCB9IH0gfSwKICAgIHsgaWQ6ICdwMjknLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJDQU1JU0VUQSBSQUdMQU4iLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNSUtPTk9TJzogeyAnQlJBTkNPJzogMTguMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAwLjAwIH0gfSB9LAogICAgeyBpZDogJ3AzMCcsIGNhdGVnb3J5OiAiRmVtaW5pbm8iLCBwcm9kdWN0OiAiQkFCWUxPT0sgRE8gQlJBU0lMIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnTUFHSUMnOiB7ICdDT1InOiAxNC41MCB9IH0gfSwKICAgIHsgaWQ6ICdwMzEnLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJDQU1TRVRBIFBPTElFU1RFUiBQTFVTIFNJWkUgTUFTQ1VMSU5BIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnR1VTSEknOiB7ICdCUkFOQ08nOiAyNS4yMCwgJ0NPUic6IDI1LjIwLCAnRVNQRUNJQUwnOiAyNS4yMCB9LCAnU0lURSc6IHsgJ0JSQU5DTyc6IDIxLjAwIH0gfSB9LAogICAgeyBpZDogJ3AzMicsIGNhdGVnb3J5OiAiT3V0cm9zIiwgcHJvZHVjdDogIkNBUElOSEEgRVNUQU1QQURBIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczoge30gfSwKICAgIHsgaWQ6ICdwMzMnLCBjYXRlZ29yeTogIk91dHJvcyIsIHByb2R1Y3Q6ICJJUEhPTkUgUEVMSUNVTEEgUFJJVkFDSURBREUiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7fSB9LAogICAgeyBpZDogJ3AzNCcsIGNhdGVnb3J5OiAiT3V0cm9zIiwgcHJvZHVjdDogIkxFR0dJTkcgQ09UVE9OIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnR0xPQkFMJzogeyAnQlJBTkNPJzogMC4wMCwgJ0NPUic6IDAuMDAgfSB9IH0sCiAgICB7IGlkOiAncDM1JywgY2F0ZWdvcnk6ICJGZW1pbmlubyIsIHByb2R1Y3Q6ICJNQVhJIFRTSElSVCIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0lORElDRSc6IHsgJ0JSQU5DTyc6IDIxLjAwLCAnQ09SJzogMjEuMDAgfSB9IH0sCiAgICB7IGlkOiAncDM2JywgY2F0ZWdvcnk6ICJGZW1pbmlubyIsIHByb2R1Y3Q6ICJNQVhJIFRTSElSVCBQTFVTIFNJWkUiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdGRU5PTUVOQUwnOiB7ICdCUkFOQ08nOiAzNy4wMCwgJ0NPUic6IDM3LjAwIH0gfSB9LAogICAgeyBpZDogJ3AzNycsIGNhdGVnb3J5OiAiTW9sZXRvbiIsIHByb2R1Y3Q6ICJNT0xFVE9NIENBTkdVUlUiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDQzLjk5LCAnQ09SJzogNDMuOTkgfSwgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDk4LjAwLCAnQ09SJzogOTguMDAgfSB9IH0sCiAgICB7IGlkOiAncDM4JywgY2F0ZWdvcnk6ICJNb2xldG9uIiwgcHJvZHVjdDogIk1PTEVUT00gQ0FSRUNBIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnTUFHSUMnOiB7ICdCUkFOQ08nOiAzMy45OSwgJ0NPUic6IDMzLjk5IH0sICdHTE9CQUwnOiB7ICdCUkFOQ08nOiAzNy4wMCwgJ0NPUic6IDM3LjAwIH0gfSB9LAogICAgeyBpZDogJ3AzOScsIGNhdGVnb3J5OiAiTW9sZXRvbiIsIHByb2R1Y3Q6ICJNT0xFVE9NIENBUkVDQSBQTFVTIFNJWkUiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDM4Ljk5LCAnQ09SJzogMzguOTkgfSwgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDc5LjEwLCAnQ09SJzogNzkuMTAgfSB9IH0sCiAgICB7IGlkOiAncDQwJywgY2F0ZWdvcnk6ICJNb2xldG9uIiwgcHJvZHVjdDogIk1PTEVUT00gWklQRVIiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDQ4Ljk5LCAnQ09SJzogNDguOTkgfSwgJ0dMT0JBTCc6IHsgJ0JSQU5DTyc6IDQ5LjAwLCAnQ09SJzogNDkuMDAgfSB9IH0sCiAgICB7IGlkOiAncDQxJywgY2F0ZWdvcnk6ICJGZW1pbmlubyIsIHByb2R1Y3Q6ICJNVUxMRVQiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdJTkRJQ0UnOiB7ICdCUkFOQ08nOiAyMS4wMCwgJ0NPUic6IDIxLjAwIH0gfSB9LAogICAgeyBpZDogJ3A0MicsIGNhdGVnb3J5OiAiRmVtaW5pbm8iLCBwcm9kdWN0OiAiTVVMTEVUIEdPTEEgUkVET05EQSBQTFVTIFNJWkUiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdGRU5PTUVOQUwnOiB7ICdCUkFOQ08nOiAzNy4wMCwgJ0NPUic6IDM3LjAwIH0gfSB9LAogICAgeyBpZDogJ3A0MycsIGNhdGVnb3J5OiAiRmVtaW5pbm8iLCBwcm9kdWN0OiAiTVVMTEVUIEdPTEEgViIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0lORElDRSc6IHsgJ0JSQU5DTyc6IDIxLjAwLCAnQ09SJzogMjEuMDAgfSB9IH0sCiAgICB7IGlkOiAncDQ0JywgY2F0ZWdvcnk6ICJGZW1pbmlubyIsIHByb2R1Y3Q6ICJNVUxMRVQgVEoiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdJTkRJQ0UnOiB7ICdCUkFOQ08nOiAyMS4wMCwgJ0NPUic6IDIxLjAwIH0gfSB9LAogICAgeyBpZDogJ3A0NScsIGNhdGVnb3J5OiAiRmVtaW5pbm8iLCBwcm9kdWN0OiAiTVVMTEVUIFRKIFBMVVMgU0laRSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDM3LjAwLCAnQ09SJzogMzcuMDAgfSB9IH0sCiAgICB7IGlkOiAncDQ2JywgY2F0ZWdvcnk6ICJGZW1pbmlubyIsIHByb2R1Y3Q6ICJPTUJSTyBDQcONRE8iLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdHTE9CQUwnOiB7ICdCUkFOQ08nOiAxNC43MywgJ0NPUic6IDE0LjczIH0gfSB9LAogICAgeyBpZDogJ3A0NycsIGNhdGVnb3J5OiAiT3V0cm9zIiwgcHJvZHVjdDogIlBFTElDVUxBIDNEIFZJRFJPIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczoge30gfSwKICAgIHsgaWQ6ICdwNDgnLCBjYXRlZ29yeTogIkZlbWluaW5vIiwgcHJvZHVjdDogIlBPTE8gRkVNSU5JTkEiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDI0Ljk5LCAnQ09SJzogMjYuNTAgfSwgJ0dVU0hJJzogeyAnQlJBTkNPJzogMjMuNjAsICdDT1InOiAyNS4yMCwgJ0VTUEVDSUFMJzogMjUuMjAgfSwgJ0dMT0JBTCc6IHsgJ0JSQU5DTyc6IDIwLjkwLCAnQ09SJzogMjAuOTAgfSwgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDMwLjAwLCAnQ09SJzogMzAuMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAxNy4wMCB9IH0gfSwKICAgIHsgaWQ6ICdwNDknLCBjYXRlZ29yeTogIkZlbWluaW5vIiwgcHJvZHVjdDogIlBPTE8gRkVNSU5JTkEgUExVUyIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ01BR0lDJzogeyAnQlJBTkNPJzogMjUuMDAsICdDT1InOiAyNS4wMCB9LCAnR1VTSEknOiB7ICdCUkFOQ08nOiAyMy42MCwgJ0NPUic6IDI1LjIwLCAnRVNQRUNJQUwnOiAyNS4yMCB9LCAnR0xPQkFMJzogeyAnQlJBTkNPJzogMjEuODUsICdDT1InOiAyMS44NSB9LCAnRkVOT01FTkFMJzogeyAnQlJBTkNPJzogMzcuMDAsICdDT1InOiAzNy4wMCB9LCAnU0lURSc6IHsgJ0JSQU5DTyc6IDE3LjAwIH0gfSB9LAogICAgeyBpZDogJ3A1MCcsIGNhdGVnb3J5OiAiSW5mYW50aWwiLCBwcm9kdWN0OiAiUE9MTyBJTkZBTlRJTCBMSVNUUkFEQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0FMRkEgREVaJzogeyAnQ09SJzogOS44MCB9IH0gfSwKICAgIHsgaWQ6ICdwNTEnLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJQT0xPIExJU1RSQURBIE1BU0NVTElOQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ1NJVEUnOiB7ICdCUkFOQ08nOiAxNS4wMCB9IH0gfSwKICAgIHsgaWQ6ICdwNTInLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJQT0xPIE1BTEhBIEZSSUEgTUFTQ1VMSU5BIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnRkVOT01FTkFMJzogeyAnQlJBTkNPJzogMzAuMDAsICdDT1InOiAzMC4wMCB9IH0gfSwKICAgIHsgaWQ6ICdwNTMnLCBjYXRlZ29yeTogIkZlbWluaW5vIiwgcHJvZHVjdDogIlBPTE8gTUFMSEEgRlJJQSBGRU1JTklOQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDMwLjAwLCAnQ09SJzogMzAuMDAgfSB9IH0sCiAgICB7IGlkOiAncDU0JywgY2F0ZWdvcnk6ICJGZW1pbmlubyIsIHByb2R1Y3Q6ICJQT0xPIE1BTEhBIEZSSUEgUExVUyBTSVpFIEZFTUlOSU5BIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnRkVOT01FTkFMJzogeyAnQlJBTkNPJzogMzcuMDAsICdDT1InOiAzNy4wMCB9IH0gfSwKICAgIHsgaWQ6ICdwNTUnLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJQT0xPIE1BU0NVTElOQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ01BR0lDJzogeyAnQlJBTkNPJzogMjguOTksICdDT1InOiAyOS45OSB9LCAnR1VTSEknOiB7ICdCUkFOQ08nOiAyOC40MCwgJ0NPUic6IDMxLjAwLCAnRVNQRUNJQUwnOiAzMS4wMCB9LCAnR0xPQkFMJzogeyAnQlJBTkNPJzogMjguNDksICdDT1InOiAyOC40OSB9LCAnRkVOT01FTkFMJzogeyAnQlJBTkNPJzogMzAuMDAsICdDT1InOiAzMC4wMCB9LCAnU0lURSc6IHsgJ0JSQU5DTyc6IDIxLjAwIH0gfSB9LAogICAgeyBpZDogJ3A1NicsIGNhdGVnb3J5OiAiTWFzY3VsaW5vIiwgcHJvZHVjdDogIlBPTE8gTUFTQ1VMSU5BIFBMVVMgTUFMSEEgRlJJQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0dVU0hJJzogeyAnQlJBTkNPJzogMzAuNTAsICdDT1InOiAzMC41MCwgJ0VTUEVDSUFMJzogMzAuNTAgfSwgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDM3LjAwLCAnQ09SJzogMzcuMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAyOS41MCB9IH0gfSwKICAgIHsgaWQ6ICdwNTcnLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJQT0xPIE1BU0NVTElOQSBQTFVTIFNJWkUiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDMxLjAwLCAnQ09SJzogMzEuMDAgfSwgJ0dVU0hJJzogeyAnQlJBTkNPJzogMzIuMDAsICdDT1InOiAzMi4wMCwgJ0VTUEVDSUFMJzogMzIuMDAgfSwgJ0dMT0JBTCc6IHsgJ0JSQU5DTyc6IDMxLjg1LCAnQ09SJzogMzEuODUgfSwgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDM3LjAwLCAnQ09SJzogMzcuMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAzMi4wMCB9IH0gfSwKICAgIHsgaWQ6ICdwNTgnLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJQT0xPIE1BU0NVTElOQSBQT0xJw4lTVEVSIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnRkVOT01FTkFMJzogeyAnQlJBTkNPJzogMzAuMDAsICdDT1InOiAzMC4wMCB9IH0gfSwKICAgIHsgaWQ6ICdwNTknLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJSRUdBVEEiLCBza3VQcm9kdWN0TmFtZTogbnVsbCwgcHJpY2VzOiB7ICdNQUdJQyc6IHsgJ0JSQU5DTyc6IDE0LjAwLCAnQ09SJzogMTQuMDAgfSwgJ0dVU0hJJzogeyAnQlJBTkNPJzogMTQuOTAsICdDT1InOiAxNi4wMCwgJ0VTUEVDSUFMJzogMTYuMDAgfSwgJ0dMT0JBTCc6IHsgJ0JSQU5DTyc6IDE1LjAwLCAnQ09SJzogMTUuMDAgfSwgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDI4LjAwLCAnQ09SJzogMjguMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAxMC45MCB9IH0gfSwKICAgIHsgaWQ6ICdwNjAnLCBjYXRlZ29yeTogIk1hc2N1bGlubyIsIHByb2R1Y3Q6ICJSRUdBVEEgTUFDSMODTyIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDE5LjAwLCAnQ09SJzogMTkuMDAgfSB9IH0sCiAgICB7IGlkOiAncDYxJywgY2F0ZWdvcnk6ICJNYXNjdWxpbm8iLCBwcm9kdWN0OiAiUkVHQVRBIE1BQ0jDg08gUExVUyBTSVpFIEZFTk9NRU5BTCIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ0dVU0hJJzogeyAnQlJBTkNPJzogMC4wMCwgJ0NPUic6IDAuMDAsICdFU1BFQ0lBTCc6IDAuMDAgfSwgJ0ZFTk9NRU5BTCc6IHsgJ0JSQU5DTyc6IDI3LjAwLCAnQ09SJzogMjcuMDAgfSwgJ1NJVEUnOiB7ICdCUkFOQ08nOiAwLjAwIH0gfSB9LAogICAgeyBpZDogJ3A2MicsIGNhdGVnb3J5OiAiTWFzY3VsaW5vIiwgcHJvZHVjdDogIlJFR0FUQSBQTFVTIFNJWkUgTUFTQ1VMSU5BIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczogeyAnR1VTSEknOiB7ICdCUkFOQ08nOiAxNy4wMCwgJ0NPUic6IDE3LjAwLCAnRVNQRUNJQUwnOiAxNy4wMCB9LCAnRkVOT01FTkFMJzogeyAnQlJBTkNPJzogMjcuMDAsICdDT1InOiAyNy4wMCB9LCAnU0lURSc6IHsgJ0JSQU5DTyc6IDEyLjgwIH0gfSB9LAogICAgeyBpZDogJ3A2MycsIGNhdGVnb3J5OiAiTWFzY3VsaW5vIiwgcHJvZHVjdDogIkNBTUlTRVRBIE1BU0NVTElOQSBNQU5HQSBMT05HQSBWIiwgc2t1UHJvZHVjdE5hbWU6IG51bGwsIHByaWNlczoge30gfSwKICAgIHsgaWQ6ICdwNjQnLCBjYXRlZ29yeTogIkZlbWluaW5vIiwgcHJvZHVjdDogIkJBQllMT09LIFBPTElFU1RFUiIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHt9IH0sCiAgICB7IGlkOiAncDY1JywgY2F0ZWdvcnk6ICJGZW1pbmlubyIsIHByb2R1Y3Q6ICJNT0xFVE9NIENBUkVDQSIsIHNrdVByb2R1Y3ROYW1lOiBudWxsLCBwcmljZXM6IHsgJ01BR0lDJzogeyAnQlJBTkNPJzogMzMuOTksICdDT1InOiAzMy45OSB9IH0gfSwKXS5tYXAocCA9PiAoeyAuLi5wLCBpZDogcC5pZCB8fCBgcHJvZHVjdC0ke01hdGgucmFuZG9tKCl9YCB9KSk7CgovLyBEeW5hbWljIFByaWNlIFRhYmxlIE1hbmFnZW1lbnQKbGV0IHByaWNlVGFibGVDYWNoZTogUHJpY2VQcm9kdWN0W10gfCBudWxsID0gbnVsbDsKCmV4cG9ydCBjb25zdCBpbml0aWFsaXplUHJpY2VUYWJsZSA9IGFzeW5jICgpOiBQcm9taXNlPFByaWNlUHJvZHVjdFtdPiA9PiB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBnZXRQcmljZVRhYmxlcygpOwogICAgICAgIGlmIChkYXRhICYmIGRhdGEubGVuZ3RoID4gMCkgewogICAgICAgICAgICBwcmljZVRhYmxlQ2FjaGUgPSBkYXRhOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGNvbnNvbGUud2FybigiTm8gcHJpY2UgdGFibGUgZm91bmQgaW4gU3VwYWJhc2UsIHVzaW5nIGRlZmF1bHQuIik7CiAgICAgICAgICAgIHByaWNlVGFibGVDYWNoZSA9IGRlZmF1bHRQcmljZURhdGE7CiAgICAgICAgfQogICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICBjb25zb2xlLmVycm9yKCJGYWlsZWQgdG8gaW5pdGlhbGl6ZSBwcmljZSB0YWJsZSBmcm9tIFN1cGFiYXNlOiIsIGVycm9yKTsKICAgICAgICBwcmljZVRhYmxlQ2FjaGUgPSBkZWZhdWx0UHJpY2VEYXRhOwogICAgfQogICAgcmV0dXJuIHByaWNlVGFibGVDYWNoZTsKfTsKCmV4cG9ydCBjb25zdCBnZXRQcmljZVRhYmxlID0gKCk6IFByaWNlUHJvZHVjdFtdID0+IHsKICAgIHJldHVybiBwcmljZVRhYmxlQ2FjaGUgfHwgZGVmYXVsdFByaWNlRGF0YTsKfTsKCmV4cG9ydCBjb25zdCBzYXZlUHJpY2VUYWJsZSA9IGFzeW5jIChuZXdUYWJsZTogUHJpY2VQcm9kdWN0W10pID0+IHsKICAgIHByaWNlVGFibGVDYWNoZSA9IG5ld1RhYmxlOwogICAgLy8gU2F2ZSBlYWNoIGl0ZW0gdG8gU3VwYWJhc2UKICAgIC8vIElkZWFsbHkgd2Ugc2hvdWxkIGJhdGNoIHRoaXMgb3Igb25seSBzYXZlIGNoYW5nZWQgaXRlbXMuCiAgICAvLyBGb3Igbm93LCB3ZSdsbCBpdGVyYXRlIGFuZCBzYXZlIGFsbC4KICAgIGZvciAoY29uc3QgaXRlbSBvZiBuZXdUYWJsZSkgewogICAgICAgIGF3YWl0IHNhdmVQcmljZVRhYmxlU3VwYWJhc2UoaXRlbSk7CiAgICB9Cn07CgpleHBvcnQgY29uc3QgY2FsY3VsYXRlQ29zdCA9IChvcmRlcjogT21pdDxTYXZlZE9yZGVyLCAnaWQnPiB8IFNhdmVkT3JkZXIsIHByaWNlVGFibGU6IFByaWNlUHJvZHVjdFtdLCBmb3JTdG9yZT86IHN0cmluZyk6IG51bWJlciA9PiB7CiAgICBjb25zdCBjb3N0TG9va3VwID0gbmV3IE1hcDxzdHJpbmcsIFByaWNlUHJvZHVjdD4oKTsKICAgIHByaWNlVGFibGUuZm9yRWFjaChwID0+IHsKICAgICAgICBjb3N0TG9va3VwLnNldChub3JtYWxpemVTdHJpbmcocC5wcm9kdWN0KSwgcCk7CiAgICB9KTsKCiAgICBjb25zdCBwcmljZVByb2R1Y3QgPSBjb3N0TG9va3VwLmdldChub3JtYWxpemVTdHJpbmcob3JkZXIucHJvZHVjdCkpOwogICAgaWYgKCFwcmljZVByb2R1Y3QpIHJldHVybiAwOwoKICAgIGxldCBjb3N0ID0gMDsKICAgIGNvbnN0IHRhcmdldFN0b3JlID0gZm9yU3RvcmUgfHwgb3JkZXIuc3RvcmU7CiAgICBjb25zdCBzdG9yZVByaWNlcyA9IHByaWNlUHJvZHVjdC5wcmljZXNbdGFyZ2V0U3RvcmVdOwogICAgaWYgKCFzdG9yZVByaWNlcykgcmV0dXJuIDA7CgogICAgY29uc3QgY29yZXNFc3BlY2lhaXMgPSBuZXcgU2V0KFsndmVybWVsaG8nLCAnbXVzZ28nLCAndmVyZGUnLCAncm95YWwnLCAnbWVzY2xhJ10pOwoKICAgIGZvciAoY29uc3QgY29sb3IgaW4gb3JkZXIucXVhbnRpdGllcykgewogICAgICAgIGNvbnN0IG5vcm1hbGl6ZWRDb2xvciA9IG5vcm1hbGl6ZVN0cmluZyhjb2xvcik7CiAgICAgICAgbGV0IHByaWNlVHlwZSA9ICdDT1InOwogICAgICAgIGlmIChub3JtYWxpemVkQ29sb3IgPT09ICdicmFuY28nKSB7CiAgICAgICAgICAgIHByaWNlVHlwZSA9ICdCUkFOQ08nOwogICAgICAgIH0gZWxzZSBpZiAodGFyZ2V0U3RvcmUgPT09ICdHVVNISScgJiYgY29yZXNFc3BlY2lhaXMuaGFzKG5vcm1hbGl6ZWRDb2xvcikpIHsKICAgICAgICAgICAgcHJpY2VUeXBlID0gJ0VTUEVDSUFMJzsKICAgICAgICB9CgogICAgICAgIGxldCBwcmljZSA9IHN0b3JlUHJpY2VzW3ByaWNlVHlwZV07CiAgICAgICAgaWYgKHByaWNlID09PSBudWxsIHx8IHByaWNlID09PSB1bmRlZmluZWQpIHsKICAgICAgICAgICAgcHJpY2UgPSBzdG9yZVByaWNlc1snQ09SJ107IC8vIEZhbGxiYWNrIHRvICdDT1InCiAgICAgICAgfQogICAgICAgIGlmIChwcmljZSA9PT0gbnVsbCB8fCBwcmljZSA9PT0gdW5kZWZpbmVkKSB7CiAgICAgICAgICAgIHByaWNlID0gc3RvcmVQcmljZXNbJ0JSQU5DTyddOyAvLyBGYWxsYmFjayB0byAnQlJBTkNPJyBpZiAnQ09SJyBhbHNvIG1pc3NpbmcKICAgICAgICB9CgogICAgICAgIGlmICh0eXBlb2YgcHJpY2UgPT09ICdudW1iZXInKSB7CiAgICAgICAgICAgIGNvbnN0IHRvdGFsUXVhbnRpdHlGb3JDb2xvciA9IE9iamVjdC52YWx1ZXMob3JkZXIucXVhbnRpdGllc1tjb2xvcl0pLnJlZHVjZSgoc3VtLCBxKSA9PiBzdW0gKyBxLCAwKTsKICAgICAgICAgICAgY29zdCArPSB0b3RhbFF1YW50aXR5Rm9yQ29sb3IgKiBwcmljZTsKICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gY29zdDsKfTsK}
+// services/priceTableService.ts
+import { PriceProduct, SavedOrder } from '../Dashboard/types';
+import { normalizeString } from '../utils/stringUtils';
+import { getPriceTables, savePriceTable as savePriceTableSupabase } from './supabaseService';
+
+export const initialStoresData = [
+    { name: 'ERON', types: ['COR'] },
+    { name: 'MAGIC', types: ['BRANCO', 'COR'] },
+    { name: 'GUSHI', types: ['BRANCO', 'COR', 'ESPECIAL'] },
+    { name: 'GLOBAL', types: ['BRANCO', 'COR'] },
+    { name: 'MIKONOS', types: ['BRANCO', 'COR'] },
+    { name: 'INDICE', types: ['BRANCO', 'COR'] },
+    { name: 'FENOMENAL', types: ['BRANCO', 'COR'] },
+    { name: 'ALFA DEZ', types: ['COR'] },
+    { name: 'SITE', types: ['BRANCO'] },
+];
+
+export const defaultPriceData: PriceProduct[] = [
+    {
+        id: 'p1',
+        category: "Outros",
+        product: "QUADRO A4 UV",
+        skuProductName: null,
+        prices: { 'SITE': { 'BRANCO': 10.50 } }
+    },
+    {
+        id: 'p2',
+        category: "Feminino",
+        product: "BABYLOOK",
+        skuProductName: null,
+        prices: {
+            'MAGIC': { 'BRANCO': 13.50, 'COR': 15.00 },
+            'GUSHI': { 'BRANCO': 15.00, 'COR': 16.30, 'ESPECIAL': 16.30 },
+            'MIKONOS': { 'BRANCO': 14.50 },
+            'SITE': { 'BRANCO': 12.00 }
+        }
+    },
+    {
+        id: 'p3',
+        category: "Feminino",
+        product: "BABYLOOK V",
+        skuProductName: null,
+        prices: {
+            'MAGIC': { 'BRANCO': 13.50, 'COR': 13.50 },
+            'GUSHI': { 'BRANCO': 16.20, 'COR': 17.80, 'ESPECIAL': 17.80 },
+            'GLOBAL': { 'BRANCO': 13.99, 'COR': 13.99 }
+        }
+    },
+    { id: 'p4', category: "Feminino", product: "BLUSA GOLA CARECA PLUS SIZE FENOMENAL", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 } } },
+    { id: 'p5', category: "Feminino", product: "BLUSA GOLA V MAIOR PLUS SIZE", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 } } },
+    { id: 'p6', category: "Feminino", product: "BLUSA LONGLINE DE VISCO", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 } } },
+    { id: 'p7', category: "Feminino", product: "BLUSA MALHA FRIA MODERNA", skuProductName: null, prices: { 'INDICE': { 'BRANCO': 21.00, 'COR': 21.00 } } },
+    { id: 'p8', category: "Feminino", product: "BLUSA V LONGA BÁSICA", skuProductName: null, prices: { 'INDICE': { 'BRANCO': 21.00, 'COR': 21.00 } } },
+    { id: 'p9', category: "Outros", product: "BOTTON", skuProductName: null, prices: {} },
+    { id: 'p10', category: "Outros", product: "CALÇA DE MOLETOM", skuProductName: null, prices: { 'MAGIC': { 'COR': 40.99 } } },
+    { id: 'p11', category: "Outros", product: "CALÇA DE MOLETOM XG", skuProductName: null, prices: { 'MAGIC': { 'COR': 44.99 } } },
+    {
+        id: 'p12',
+        category: "Feminino",
+        product: "CAMISETA BABYLOOK PLUS SIZE",
+        skuProductName: null,
+        prices: {
+            'MAGIC': { 'BRANCO': 14.50, 'COR': 14.50 },
+            'GUSHI': { 'BRANCO': 18.20, 'COR': 18.20, 'ESPECIAL': 18.20 },
+            'SITE': { 'BRANCO': 12.50 }
+        }
+    },
+    { id: 'p13', category: "Masculino", product: "CAMISETA GOLA V MALHA FRIA PLUS SIZE MASCULINA", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 29.90, 'COR': 29.90, 'ESPECIAL': 29.90 }, 'SITE': { 'BRANCO': 21.00 } } },
+    { id: 'p14', category: "Feminino", product: "CAMISETA GOLA V PLUS SIZE FEMININA", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 20.50, 'COR': 20.50, 'ESPECIAL': 20.50 }, 'SITE': { 'BRANCO': 15.00 } } },
+    {
+        id: 'p15',
+        category: "Infantil",
+        product: "CAMISETA INFANTIL",
+        skuProductName: null,
+        prices: {
+            'MAGIC': { 'BRANCO': 14.50, 'COR': 14.50 },
+            'GUSHI': { 'BRANCO': 14.40, 'COR': 16.80, 'ESPECIAL': 16.80 },
+            'GLOBAL': { 'BRANCO': 10.93, 'COR': 10.93 },
+            'SITE': { 'BRANCO': 8.00 }
+        }
+    },
+    { id: 'p16', category: "Infantil", product: "CAMISETA INFANTIL MANGA LONGA", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 22.60, 'COR': 22.60, 'ESPECIAL': 22.60 }, 'FENOMENAL': { 'BRANCO': 29.60, 'COR': 29.60 }, 'SITE': { 'BRANCO': 12.00 } } },
+    { id: 'p17', category: "Masculino", product: "CAMISETA MALHA FRIA MASCULINA", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 15.50, 'COR': 16.50 }, 'GUSHI': { 'BRANCO': 16.70, 'COR': 18.90, 'ESPECIAL': 20.00 }, 'INDICE': { 'BRANCO': 21.00, 'COR': 21.00 }, 'SITE': { 'BRANCO': 11.50 } } },
+    { id: 'p18', category: "Masculino", product: "CAMISETA MALHA FRIA PLUS SIZE MASCULINA", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 27.00, 'COR': 27.00, 'ESPECIAL': 27.00 }, 'FENOMENAL': { 'BRANCO': 28.00, 'COR': 28.00 }, 'SITE': { 'BRANCO': 24.00 } } },
+    {
+        id: 'p19',
+        category: "Masculino",
+        product: "CAMISETA MASCULINA",
+        skuProductName: null,
+        prices: {
+            'MAGIC': { 'BRANCO': 18.50, 'COR': 19.50 },
+            'GUSHI': { 'BRANCO': 18.40, 'COR': 20.30, 'ESPECIAL': 21.00 },
+            'GLOBAL': { 'BRANCO': 16.00, 'COR': 17.50 },
+            'MIKONOS': { 'BRANCO': 13.50 },
+            'SITE': { 'BRANCO': 12.50 }
+        }
+    },
+    { id: 'p20', category: "Masculino", product: "CAMISETA MASCULINA MANGA LONGA", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 22.00, 'COR': 23.00 }, 'GUSHI': { 'BRANCO': 25.20, 'COR': 26.90, 'ESPECIAL': 26.90 }, 'GLOBAL': { 'BRANCO': 20.90, 'COR': 20.90 }, 'SITE': { 'BRANCO': 18.90 } } },
+    { id: 'p21', category: "Masculino", product: "CAMISETA MASCULINA MANGA LONGA PLUS", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 27.00, 'COR': 27.00 }, 'GUSHI': { 'BRANCO': 33.60, 'COR': 33.60, 'ESPECIAL': 33.60 }, 'FENOMENAL': { 'BRANCO': 42.00, 'COR': 42.00 }, 'SITE': { 'BRANCO': 25.00 } } },
+    { id: 'p22', category: "Masculino", product: "CAMISETA MASCULINA PLUS", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 21.00, 'COR': 21.00 }, 'GUSHI': { 'BRANCO': 28.90, 'COR': 28.90, 'ESPECIAL': 28.90 }, 'FENOMENAL': { 'BRANCO': 28.00, 'COR': 28.00 }, 'SITE': { 'BRANCO': 21.00 } } },
+    { id: 'p23', category: "Masculino", product: "CAMISETA MASCULINA POLIAMIDA", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 22.90, 'COR': 22.90 } } },
+    { id: 'p24', category: "Masculino", product: "CAMISETA MASCULINA V", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 18.90, 'COR': 20.80, 'ESPECIAL': 22.60 }, 'GLOBAL': { 'BRANCO': 16.50, 'COR': 16.50 }, 'SITE': { 'BRANCO': 13.20 } } },
+    { id: 'p25', category: "Masculino", product: "CAMISETA MASCULINA V MALHA FRIA", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 17.80, 'COR': 20.00, 'ESPECIAL': 21.50 }, 'INDICE': { 'BRANCO': 21.00, 'COR': 21.00 }, 'SITE': { 'BRANCO': 12.40 } } },
+    { id: 'p26', category: "Masculino", product: "CAMISETA MASCULINA V PLUS", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 32.00, 'COR': 32.00, 'ESPECIAL': 32.00 }, 'SITE': { 'BRANCO': 23.50 } } },
+    { id: 'p27', category: "Outros", product: "CAMISETA P/ SUBLIMAÇAO GRANDE", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 15.00, 'COR': 15.00 } } },
+    { id: 'p28', category: "Masculino", product: "CAMISETA POLIESTER", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 14.00, 'COR': 15.00 }, 'GUSHI': { 'BRANCO': 25.20, 'COR': 15.20, 'ESPECIAL': 15.20 }, 'INDICE': { 'BRANCO': 21.00, 'COR': 21.00 }, 'SITE': { 'BRANCO': 11.20 } } },
+    { id: 'p29', category: "Masculino", product: "CAMISETA RAGLAN", skuProductName: null, prices: { 'MIKONOS': { 'BRANCO': 18.00 }, 'SITE': { 'BRANCO': 0.00 } } },
+    { id: 'p30', category: "Feminino", product: "BABYLOOK DO BRASIL", skuProductName: null, prices: { 'MAGIC': { 'COR': 14.50 } } },
+    { id: 'p31', category: "Masculino", product: "CAMSETA POLIESTER PLUS SIZE MASCULINA", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 25.20, 'COR': 25.20, 'ESPECIAL': 25.20 }, 'SITE': { 'BRANCO': 21.00 } } },
+    { id: 'p32', category: "Outros", product: "CAPINHA ESTAMPADA", skuProductName: null, prices: {} },
+    { id: 'p33', category: "Outros", product: "IPHONE PELICULA PRIVACIDADE", skuProductName: null, prices: {} },
+    { id: 'p34', category: "Outros", product: "LEGGING COTTON", skuProductName: null, prices: { 'GLOBAL': { 'BRANCO': 0.00, 'COR': 0.00 } } },
+    { id: 'p35', category: "Feminino", product: "MAXI TSHIRT", skuProductName: null, prices: { 'INDICE': { 'BRANCO': 21.00, 'COR': 21.00 } } },
+    { id: 'p36', category: "Feminino", product: "MAXI TSHIRT PLUS SIZE", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 } } },
+    { id: 'p37', category: "Moleton", product: "MOLETOM CANGURU", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 43.99, 'COR': 43.99 }, 'FENOMENAL': { 'BRANCO': 98.00, 'COR': 98.00 } } },
+    { id: 'p38', category: "Moleton", product: "MOLETOM CARECA", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 33.99, 'COR': 33.99 }, 'GLOBAL': { 'BRANCO': 37.00, 'COR': 37.00 } } },
+    { id: 'p39', category: "Moleton", product: "MOLETOM CARECA PLUS SIZE", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 38.99, 'COR': 38.99 }, 'FENOMENAL': { 'BRANCO': 79.10, 'COR': 79.10 } } },
+    { id: 'p40', category: "Moleton", product: "MOLETOM ZIPER", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 48.99, 'COR': 48.99 }, 'GLOBAL': { 'BRANCO': 49.00, 'COR': 49.00 } } },
+    { id: 'p41', category: "Feminino", product: "MULLET", skuProductName: null, prices: { 'INDICE': { 'BRANCO': 21.00, 'COR': 21.00 } } },
+    { id: 'p42', category: "Feminino", product: "MULLET GOLA REDONDA PLUS SIZE", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 } } },
+    { id: 'p43', category: "Feminino", product: "MULLET GOLA V", skuProductName: null, prices: { 'INDICE': { 'BRANCO': 21.00, 'COR': 21.00 } } },
+    { id: 'p44', category: "Feminino", product: "MULLET TJ", skuProductName: null, prices: { 'INDICE': { 'BRANCO': 21.00, 'COR': 21.00 } } },
+    { id: 'p45', category: "Feminino", product: "MULLET TJ PLUS SIZE", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 } } },
+    { id: 'p46', category: "Feminino", product: "OMBRO CAÍDO", skuProductName: null, prices: { 'GLOBAL': { 'BRANCO': 14.73, 'COR': 14.73 } } },
+    { id: 'p47', category: "Outros", product: "PELICULA 3D VIDRO", skuProductName: null, prices: {} },
+    { id: 'p48', category: "Feminino", product: "POLO FEMININA", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 24.99, 'COR': 26.50 }, 'GUSHI': { 'BRANCO': 23.60, 'COR': 25.20, 'ESPECIAL': 25.20 }, 'GLOBAL': { 'BRANCO': 20.90, 'COR': 20.90 }, 'FENOMENAL': { 'BRANCO': 30.00, 'COR': 30.00 }, 'SITE': { 'BRANCO': 17.00 } } },
+    { id: 'p49', category: "Feminino", product: "POLO FEMININA PLUS", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 25.00, 'COR': 25.00 }, 'GUSHI': { 'BRANCO': 23.60, 'COR': 25.20, 'ESPECIAL': 25.20 }, 'GLOBAL': { 'BRANCO': 21.85, 'COR': 21.85 }, 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 }, 'SITE': { 'BRANCO': 17.00 } } },
+    { id: 'p50', category: "Infantil", product: "POLO INFANTIL LISTRADA", skuProductName: null, prices: { 'ALFA DEZ': { 'COR': 9.80 } } },
+    { id: 'p51', category: "Masculino", product: "POLO LISTRADA MASCULINA", skuProductName: null, prices: { 'SITE': { 'BRANCO': 15.00 } } },
+    { id: 'p52', category: "Masculino", product: "POLO MALHA FRIA MASCULINA", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 30.00, 'COR': 30.00 } } },
+    { id: 'p53', category: "Feminino", product: "POLO MALHA FRIA FEMININA", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 30.00, 'COR': 30.00 } } },
+    { id: 'p54', category: "Feminino", product: "POLO MALHA FRIA PLUS SIZE FEMININA", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 } } },
+    { id: 'p55', category: "Masculino", product: "POLO MASCULINA", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 28.99, 'COR': 29.99 }, 'GUSHI': { 'BRANCO': 28.40, 'COR': 31.00, 'ESPECIAL': 31.00 }, 'GLOBAL': { 'BRANCO': 28.49, 'COR': 28.49 }, 'FENOMENAL': { 'BRANCO': 30.00, 'COR': 30.00 }, 'SITE': { 'BRANCO': 21.00 } } },
+    { id: 'p56', category: "Masculino", product: "POLO MASCULINA PLUS MALHA FRIA", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 30.50, 'COR': 30.50, 'ESPECIAL': 30.50 }, 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 }, 'SITE': { 'BRANCO': 29.50 } } },
+    { id: 'p57', category: "Masculino", product: "POLO MASCULINA PLUS SIZE", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 31.00, 'COR': 31.00 }, 'GUSHI': { 'BRANCO': 32.00, 'COR': 32.00, 'ESPECIAL': 32.00 }, 'GLOBAL': { 'BRANCO': 31.85, 'COR': 31.85 }, 'FENOMENAL': { 'BRANCO': 37.00, 'COR': 37.00 }, 'SITE': { 'BRANCO': 32.00 } } },
+    { id: 'p58', category: "Masculino", product: "POLO MASCULINA POLIÉSTER", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 30.00, 'COR': 30.00 } } },
+    { id: 'p59', category: "Masculino", product: "REGATA", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 14.00, 'COR': 14.00 }, 'GUSHI': { 'BRANCO': 14.90, 'COR': 16.00, 'ESPECIAL': 16.00 }, 'GLOBAL': { 'BRANCO': 15.00, 'COR': 15.00 }, 'FENOMENAL': { 'BRANCO': 28.00, 'COR': 28.00 }, 'SITE': { 'BRANCO': 10.90 } } },
+    { id: 'p60', category: "Masculino", product: "REGATA MACHÃO", skuProductName: null, prices: { 'FENOMENAL': { 'BRANCO': 19.00, 'COR': 19.00 } } },
+    { id: 'p61', category: "Masculino", product: "REGATA MACHÃO PLUS SIZE FENOMENAL", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 0.00, 'COR': 0.00, 'ESPECIAL': 0.00 }, 'FENOMENAL': { 'BRANCO': 27.00, 'COR': 27.00 }, 'SITE': { 'BRANCO': 0.00 } } },
+    { id: 'p62', category: "Masculino", product: "REGATA PLUS SIZE MASCULINA", skuProductName: null, prices: { 'GUSHI': { 'BRANCO': 17.00, 'COR': 17.00, 'ESPECIAL': 17.00 }, 'FENOMENAL': { 'BRANCO': 27.00, 'COR': 27.00 }, 'SITE': { 'BRANCO': 12.80 } } },
+    { id: 'p63', category: "Masculino", product: "CAMISETA MASCULINA MANGA LONGA V", skuProductName: null, prices: {} },
+    { id: 'p64', category: "Feminino", product: "BABYLOOK POLIESTER", skuProductName: null, prices: {} },
+    { id: 'p65', category: "Feminino", product: "MOLETOM CARECA", skuProductName: null, prices: { 'MAGIC': { 'BRANCO': 33.99, 'COR': 33.99 } } },
+].map(p => ({ ...p, id: p.id || `product-${Math.random()}` }));
+
+// Dynamic Price Table Management
+let priceTableCache: PriceProduct[] | null = null;
+
+export const initializePriceTable = async (): Promise<PriceProduct[]> => {
+    try {
+        const data = await getPriceTables();
+        if (data && data.length > 0) {
+            priceTableCache = data;
+        } else {
+            console.warn("No price table found in Supabase, using default.");
+            priceTableCache = defaultPriceData;
+        }
+    } catch (error) {
+        console.error("Failed to initialize price table from Supabase:", error);
+        priceTableCache = defaultPriceData;
+    }
+    return priceTableCache;
+};
+
+export const getPriceTable = (): PriceProduct[] => {
+    return priceTableCache || defaultPriceData;
+};
+
+export const savePriceTable = async (newTable: PriceProduct[]) => {
+    priceTableCache = newTable;
+    // Save each item to Supabase
+    // Ideally we should batch this or only save changed items.
+    // For now, we'll iterate and save all.
+    for (const item of newTable) {
+        await savePriceTableSupabase(item);
+    }
+};
+
+export const calculateCost = (order: Omit<SavedOrder, 'id'> | SavedOrder, priceTable: PriceProduct[], forStore?: string): number => {
+    const costLookup = new Map<string, PriceProduct>();
+    priceTable.forEach(p => {
+        costLookup.set(normalizeString(p.product), p);
+    });
+
+    const priceProduct = costLookup.get(normalizeString(order.product));
+    if (!priceProduct) return 0;
+
+    let cost = 0;
+    const targetStore = forStore || order.store;
+    const storePrices = priceProduct.prices[targetStore];
+    if (!storePrices) return 0;
+
+    const coresEspeciais = new Set(['vermelho', 'musgo', 'verde', 'royal', 'mescla']);
+
+    for (const color in order.quantities) {
+        const normalizedColor = normalizeString(color);
+        let priceType = 'COR';
+        if (normalizedColor === 'branco') {
+            priceType = 'BRANCO';
+        } else if (targetStore === 'GUSHI' && coresEspeciais.has(normalizedColor)) {
+            priceType = 'ESPECIAL';
+        }
+
+        let price = storePrices[priceType];
+        if (price === null || price === undefined) {
+            price = storePrices['COR']; // Fallback to 'COR'
+        }
+        if (price === null || price === undefined) {
+            price = storePrices['BRANCO']; // Fallback to 'BRANCO' if 'COR' also missing
+        }
+
+        if (typeof price === 'number') {
+            const totalQuantityForColor = Object.values(order.quantities[color]).reduce((sum, q) => sum + q, 0);
+            cost += totalQuantityForColor * price;
+        }
+    }
+    return cost;
+};

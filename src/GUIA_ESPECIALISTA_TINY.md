@@ -1,1 +1,45 @@
-﻿@{data=IyDwn5GUIEd1aWEgRXNwZWNpYWxpc3RhOiBJbnRlZ3Jhw6fDo28gVGlueSBFUlAgJiBXZWJob29rcw0KDQpFc3RlIGd1aWEgY29udMOpbSBhcyBpbmZvcm1hw6fDtWVzIG5lY2Vzc8OhcmlhcyBwYXJhIGdlcmVuY2lhciBlIGRlcHVyYXIgYSBpbnRlZ3Jhw6fDo28gZW50cmUgZXN0ZSBEYXNoYm9hcmQgZSBvIFRpbnkgRVJQIChNVkYgZSBNTSkuDQoNCiMjIPCfmoAgQ29tbyBSZWF0aXZhciBXZWJob29rcw0KDQpTZSBvcyB3ZWJob29rcyBwYXJhcmVtIGRlIGNoZWdhciAobyBUaW55IGNvc3R1bWEgZGVzYXRpdsOhLWxvcyBhdXRvbWF0aWNhbWVudGUgc2UgaG91dmVyIGVycm8gb3UgbGVudGlkw6NvKSwgc2lnYSBlc3RlcyBwYXNzb3M6DQoNCjEuIEFjZXNzZSBvIHBhaW5lbCBkbyBUaW55Lg0KMi4gVsOhIGVtICoqQ29uZmlndXJhw6fDtWVzKiogPiAqKkUtY29tbWVyY2UqKiA+ICoqV2ViaG9va3MqKi4NCjMuIExvY2FsaXplIGFzIGNvbmZpZ3VyYcOnw7VlcyBkZSAqKlBlZGlkb3MqKiBlICoqQWx0ZXJhw6fDo28gZGUgU2l0dWHDp8OjbyoqLg0KNC4gVmVyaWZpcXVlIHNlIGEgVVJMIGVzdMOhIGNvcnJldGE6IGBodHRwczovL2Rhc2hib2FyZC1wZWRpZG9zLnZlcmNlbC5hcHAvYXBpL3dlYmhvb2stdGlueWANCiAgIC0gKipJTVBPUlRBTlRFKio6IEFudGVzIGRlIGNvbGFyIG5vIFRpbnksIGFicmEgbyBsaW5rIGFjaW1hIG5vIHNldSBuYXZlZ2Fkb3IuIFNlIGFwYXJlY2VyIHVtYSBtZW5zYWdlbTogYHsic3RhdHVzIjoib25saW5lIiwibWVzc2FnZSI6IlRpbnkgV2ViaG9vayBMaXN0ZW5lciBpcyBhY3RpdmUuIn1gLCBzaWduaWZpY2EgcXVlIG8gbGluayBlc3TDoSBjZXJ0by4NCjUuIENsaXF1ZSBlbSAqKlRlc3RhcioqIG91ICoqVmFsaWRhcioqLiBTZSBvIFRpbnkgcmV0b3JuYXIgIk9LIiwgbyBsaW5rIGRldmUgcGVybWFuZWNlciBhdGl2by4NCjYuIFNlIG8gbGluayBzdW1pciwgYmFzdGEgY29sw6EtbG8gbm92YW1lbnRlIGUgc2FsdmFyLg0KDQo+IFshVElQXQ0KPiBPIHNpc3RlbWEgYWdvcmEgcmVzcG9uZGUgaW5zdGFudGFuZWFtZW50ZSAoMjAwIE9LKSBhbyBUaW55LCBtZXNtbyBxdWUgbyBwcm9jZXNzYW1lbnRvIGRlbW9yZSwgcGFyYSBldml0YXIgcXVlIG8gbGluayBzZWphICJhcGFnYWRvIi4NCg0KIyMg8J+TiiBFc3RydXR1cmEgZGUgSW50ZWdyYcOnw6NvDQoNCk8gc2lzdGVtYSB1dGlsaXphIG9zIHNlZ3VpbnRlcyB0b2tlbnMgKGNvbmZpZ3VyYWRvcyBuYXMgdmFyacOhdmVpcyBkZSBhbWJpZW50ZSBkbyBWZXJjZWwpOg0KLSBgVElOWV9BUElfVE9LRU5gIChNVkYpDQotIGBUSU5ZX0FQSV9UT0tFTl9NTWAgKE1NKQ0KDQojIyMgQ2FuYWlzIElkZW50aWZpY2Fkb3MNCnwgUHJlZml4byAvIFBhZHLDo28gfCBDYW5hbCB8IEVtcHJlc2EgfA0KfCA6LS0tIHwgOi0tLSB8IDotLS0gfA0KfCBgMjAwMC4uLmAgLyBgTUxCLi4uYCB8IE1lcmNhZG8gTGl2cmUgfCBWRVNUIChNVkYpIG91IE1NIHwNCnwgYDI2Li4uYCAvIGAyNTEwLi4uYCB8IFNob3BlZSB8IFZFU1QgKE1WRikgb3UgTU0gfA0KfCBgTFUtLi4uYCB8IE1hZ2FsdSB8IFZFU1QgfA0KfCBPdXRyb3MgfCBCVVNJTkVTUyB8IC0gfA0KDQojIyDwn5ug77iPIERlcHVyYcOnw6NvIFTDqWNuaWNhDQoNCiMjIyBXZWJob29rIExpc3RlbmVyDQpPIGFycXVpdm8gW3dlYmhvb2stdGlueS50c10oZmlsZTovLy9jOi9Vc2Vycy9taWNyaS9Eb3dubG9hZHMvY29weS1vZi1jb3B5LW9mLWNvcHktb2YtZGFzaGJvYXJkLWRlLXBlZGlkb3MtNDUvYXBpL3dlYmhvb2stdGlueS50cykgw6kgYSBwb3J0YSBkZSBlbnRyYWRhLg0KLSBTZSBvIHBlZGlkbyBuw6NvIGVzdGl2ZXIgcHJvbnRvIG5vIFRpbnkgcXVhbmRvIG8gd2ViaG9vayBiYXRlLCBlbGUgZW50cmEgbmEgKipGaWxhIGRlIFJldGVudGF0aXZhKiogKGB3ZWJob29rX3JldHJ5X3F1ZXVlYCBubyBTdXBhYmFzZSkuDQotIE8gcHJvY2Vzc2FtZW50byBkZSByZXRlbnRhdGl2YXMgb2NvcnJlIGEgY2FkYSAyIG1pbnV0b3MgdmlhIENyb24uDQoNCiMjIyBMb2dzDQpWZXJpZmlxdWUgb3MgbG9ncyBubyBWZXJjZWwgYnVzY2FuZG8gcG9yOg0KLSBg8J+UlCBXZWJob29rIHJlY2VpdmVkYA0KLSBg4pyFIE9yZGVyIHByb2Nlc3NlZCBzdWNjZXNzZnVsbHlgDQotIGDimqDvuI8gT3JkZXIgbm90IGZvdW5kIC0gYWRkaW5nIHRvIHJldHJ5IHF1ZXVlYA0K}
+# 👔 Guia Especialista: Integração Tiny ERP & Webhooks
+
+Este guia contém as informações necessárias para gerenciar e depurar a integração entre este Dashboard e o Tiny ERP (MVF e MM).
+
+## 🚀 Como Reativar Webhooks
+
+Se os webhooks pararem de chegar (o Tiny costuma desativá-los automaticamente se houver erro ou lentidão), siga estes passos:
+
+1. Acesse o painel do Tiny.
+2. Vá em **Configurações** > **E-commerce** > **Webhooks**.
+3. Localize as configurações de **Pedidos** e **Alteração de Situação**.
+4. Verifique se a URL está correta: `https://dashboard-pedidos.vercel.app/api/webhook-tiny`
+   - **IMPORTANTE**: Antes de colar no Tiny, abra o link acima no seu navegador. Se aparecer uma mensagem: `{"status":"online","message":"Tiny Webhook Listener is active."}`, significa que o link está certo.
+5. Clique em **Testar** ou **Validar**. Se o Tiny retornar "OK", o link deve permanecer ativo.
+6. Se o link sumir, basta colá-lo novamente e salvar.
+
+> [!TIP]
+> O sistema agora responde instantaneamente (200 OK) ao Tiny, mesmo que o processamento demore, para evitar que o link seja "apagado".
+
+## 📊 Estrutura de Integração
+
+O sistema utiliza os seguintes tokens (configurados nas variáveis de ambiente do Vercel):
+- `TINY_API_TOKEN` (MVF)
+- `TINY_API_TOKEN_MM` (MM)
+
+### Canais Identificados
+| Prefixo / Padrão | Canal | Empresa |
+| :--- | :--- | :--- |
+| `2000...` / `MLB...` | Mercado Livre | VEST (MVF) ou MM |
+| `26...` / `2510...` | Shopee | VEST (MVF) ou MM |
+| `LU-...` | Magalu | VEST |
+| Outros | BUSINESS | - |
+
+## 🛠️ Depuração Técnica
+
+### Webhook Listener
+O arquivo [webhook-tiny.ts](file:///c:/Users/micri/Downloads/copy-of-copy-of-copy-of-dashboard-de-pedidos-45/api/webhook-tiny.ts) é a porta de entrada.
+- Se o pedido não estiver pronto no Tiny quando o webhook bate, ele entra na **Fila de Retentativa** (`webhook_retry_queue` no Supabase).
+- O processamento de retentativas ocorre a cada 2 minutos via Cron.
+
+### Logs
+Verifique os logs no Vercel buscando por:
+- `🔔 Webhook received`
+- `✅ Order processed successfully`
+- `⚠️ Order not found - adding to retry queue`

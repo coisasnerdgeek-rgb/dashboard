@@ -1,1 +1,119 @@
-﻿@{data=LyoqDQogKiBTY3JpcHQgcGFyYSBtaWdyYXIgVE9ET1Mgb3MgZGFkb3MgZGUgU1BSRUFEU0hFRVRfREFUQSBkbyBiYW5jbyBhbnRpZ28gcGFyYSBvIG5vdm8NCiAqIE1pZ3JhIGVtIGxvdGVzIGRlIDEwMCByZWdpc3Ryb3MgcG9yIHZleiBwYXJhIGV2aXRhciB0aW1lb3V0DQogKi8NCg0KaW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gQmFuY28gQU5USUdPIChuYnh1YmRtc2VwbmhoaHNicHpvcSkNCmNvbnN0IE9MRF9TVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly9uYnh1YmRtc2VwbmhoaHNicHpvcS5zdXBhYmFzZS5jbyc7DQpjb25zdCBPTERfU1VQQUJBU0VfS0VZID0gJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltNWllSFZpWkcxelpYQnVhR2hvYzJKd2VtOXhJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk1USTFNelV3TWl3aVpYaHdJam95TURjMk9ESTVOVEF5ZlEuTHgySDJkSGJwaHBUT2xIMFBLZC12NEU3a0pHYXJVNGhZTUtMcldCSDZ1cyc7DQoNCi8vIEJhbmNvIE5PVk8gKGdlYWJ2Y3FjeW1hcXNxeHhmcXl3KQ0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCg0KY29uc3Qgb2xkU3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoT0xEX1NVUEFCQVNFX1VSTCwgT0xEX1NVUEFCQVNFX0tFWSk7DQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KY29uc3QgQkFUQ0hfU0laRSA9IDEwMDsNCg0KYXN5bmMgZnVuY3Rpb24gbWlncmFyU3ByZWFkc2hlZXREYXRhKCkgew0KICAgIGNvbnNvbGUubG9nKCfwn5qAIEluaWNpYW5kbyBtaWdyYcOnw6NvIGRlIFNQUkVBRFNIRUVUX0RBVEEuLi5cbicpOw0KDQogICAgdHJ5IHsNCiAgICAgICAgLy8gMS4gQ29udGFyIHRvdGFsIGRlIHJlZ2lzdHJvcyBubyBiYW5jbyBhbnRpZ28NCiAgICAgICAgY29uc3QgeyBjb3VudCwgZXJyb3I6IGNvdW50RXJyb3IgfSA9IGF3YWl0IG9sZFN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCg0KICAgICAgICBpZiAoY291bnRFcnJvcikgew0KICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKGBFcnJvIGFvIGNvbnRhciByZWdpc3Ryb3M6ICR7Y291bnRFcnJvci5tZXNzYWdlfWApOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coYPCfk4ogVG90YWwgZGUgcmVnaXN0cm9zIG5vIGJhbmNvIGFudGlnbzogJHtjb3VudH1gKTsNCg0KICAgICAgICBpZiAoIWNvdW50IHx8IGNvdW50ID09PSAwKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZygn4pqg77iPICBOZW5odW0gcmVnaXN0cm8gZW5jb250cmFkbyBubyBiYW5jbyBhbnRpZ28hJyk7DQogICAgICAgICAgICByZXR1cm47DQogICAgICAgIH0NCg0KICAgICAgICAvLyAyLiBNaWdyYXIgZW0gbG90ZXMNCiAgICAgICAgbGV0IG9mZnNldCA9IDA7DQogICAgICAgIGxldCB0b3RhbE1pZ3JhZG9zID0gMDsNCiAgICAgICAgbGV0IHRvdGFsRXJyb3MgPSAwOw0KDQogICAgICAgIHdoaWxlIChvZmZzZXQgPCBjb3VudCkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coYFxu8J+TpiBQcm9jZXNzYW5kbyBsb3RlICR7b2Zmc2V0ICsgMX0gYSAke01hdGgubWluKG9mZnNldCArIEJBVENIX1NJWkUsIGNvdW50KX0uLi5gKTsNCg0KICAgICAgICAgICAgLy8gQnVzY2FyIGxvdGUgZG8gYmFuY28gYW50aWdvDQogICAgICAgICAgICBjb25zdCB7IGRhdGE6IHJlZ2lzdHJvcywgZXJyb3I6IGZldGNoRXJyb3IgfSA9IGF3YWl0IG9sZFN1cGFiYXNlDQogICAgICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgICAgIC5zZWxlY3QoJyonKQ0KICAgICAgICAgICAgICAgIC5yYW5nZShvZmZzZXQsIG9mZnNldCArIEJBVENIX1NJWkUgLSAxKQ0KICAgICAgICAgICAgICAgIC5vcmRlcignY3JlYXRlZF9hdCcsIHsgYXNjZW5kaW5nOiB0cnVlIH0pOw0KDQogICAgICAgICAgICBpZiAoZmV0Y2hFcnJvcikgew0KICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYOKdjCBFcnJvIGFvIGJ1c2NhciBsb3RlOiAke2ZldGNoRXJyb3IubWVzc2FnZX1gKTsNCiAgICAgICAgICAgICAgICB0b3RhbEVycm9zICs9IEJBVENIX1NJWkU7DQogICAgICAgICAgICAgICAgb2Zmc2V0ICs9IEJBVENIX1NJWkU7DQogICAgICAgICAgICAgICAgY29udGludWU7DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIGlmICghcmVnaXN0cm9zIHx8IHJlZ2lzdHJvcy5sZW5ndGggPT09IDApIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygn4pyFIE5lbmh1bSByZWdpc3RybyBuZXN0ZSBsb3RlLCBhdmFuw6dhbmRvLi4uJyk7DQogICAgICAgICAgICAgICAgYnJlYWs7DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIC8vIEluc2VyaXIgbm8gYmFuY28gbm92bw0KICAgICAgICAgICAgY29uc3QgeyBlcnJvcjogaW5zZXJ0RXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlDQogICAgICAgICAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAgICAgICAgIC51cHNlcnQocmVnaXN0cm9zLCB7IG9uQ29uZmxpY3Q6ICdpZCcgfSk7DQoNCiAgICAgICAgICAgIGlmIChpbnNlcnRFcnJvcikgew0KICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoYOKdjCBFcnJvIGFvIGluc2VyaXIgbG90ZTogJHtpbnNlcnRFcnJvci5tZXNzYWdlfWApOw0KICAgICAgICAgICAgICAgIHRvdGFsRXJyb3MgKz0gcmVnaXN0cm9zLmxlbmd0aDsNCiAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgdG90YWxNaWdyYWRvcyArPSByZWdpc3Ryb3MubGVuZ3RoOw0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGDinIUgTWlncmFkb3MgJHtyZWdpc3Ryb3MubGVuZ3RofSByZWdpc3Ryb3MgY29tIHN1Y2Vzc28hYCk7DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIG9mZnNldCArPSBCQVRDSF9TSVpFOw0KDQogICAgICAgICAgICAvLyBBZ3VhcmRhciB1bSBwb3VjbyBwYXJhIG7Do28gc29icmVjYXJyZWdhciBvIFN1cGFiYXNlDQogICAgICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZShyZXNvbHZlID0+IHNldFRpbWVvdXQocmVzb2x2ZSwgNTAwKSk7DQogICAgICAgIH0NCg0KICAgICAgICAvLyAzLiBSZXN1bW8gZmluYWwNCiAgICAgICAgY29uc29sZS5sb2coJ1xuJyArICc9Jy5yZXBlYXQoNTApKTsNCiAgICAgICAgY29uc29sZS5sb2coJ/Cfk4ogUkVTVU1PIERBIE1JR1JBw4fDg08nKTsNCiAgICAgICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg1MCkpOw0KICAgICAgICBjb25zb2xlLmxvZyhg4pyFIFJlZ2lzdHJvcyBtaWdyYWRvcyBjb20gc3VjZXNzbzogJHt0b3RhbE1pZ3JhZG9zfWApOw0KICAgICAgICBjb25zb2xlLmxvZyhg4p2MIFJlZ2lzdHJvcyBjb20gZXJybzogJHt0b3RhbEVycm9zfWApOw0KICAgICAgICBjb25zb2xlLmxvZyhg8J+TiiBUb3RhbCBwcm9jZXNzYWRvOiAke3RvdGFsTWlncmFkb3MgKyB0b3RhbEVycm9zfWApOw0KICAgICAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDUwKSk7DQoNCiAgICAgICAgLy8gNC4gVmVyaWZpY2FyIG5vIGJhbmNvIG5vdm8NCiAgICAgICAgY29uc3QgeyBjb3VudDogbmV3Q291bnQgfSA9IGF3YWl0IG5ld1N1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAuc2VsZWN0KCcqJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KTsNCg0KICAgICAgICBjb25zb2xlLmxvZyhgXG7inIUgVG90YWwgZGUgcmVnaXN0cm9zIG5vIGJhbmNvIE5PVk86ICR7bmV3Q291bnR9YCk7DQoNCiAgICB9IGNhdGNoIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCfwn5KlIEVycm8gZmF0YWwgbmEgbWlncmHDp8OjbzonLCBlcnJvcik7DQogICAgICAgIHByb2Nlc3MuZXhpdCgxKTsNCiAgICB9DQp9DQoNCi8vIEV4ZWN1dGFyDQptaWdyYXJTcHJlYWRzaGVldERhdGEoKQ0KICAgIC50aGVuKCgpID0+IHsNCiAgICAgICAgY29uc29sZS5sb2coJ1xu4pyFIE1pZ3Jhw6fDo28gY29uY2x1w61kYSEnKTsNCiAgICAgICAgY29uc29sZS5sb2coJ1xu8J+ToiBJTVBPUlRBTlRFOiBSZWNhcnJlZ3VlIGEgcMOhZ2luYSBkbyBkYXNoYm9hcmQgKEN0cmwrU2hpZnQrUikgcGFyYSB2ZXIgb3MgcGVkaWRvcyEnKTsNCiAgICAgICAgcHJvY2Vzcy5leGl0KDApOw0KICAgIH0pDQogICAgLmNhdGNoKChlcnJvcikgPT4gew0KICAgICAgICBjb25zb2xlLmVycm9yKCfwn5KlIEVycm86JywgZXJyb3IpOw0KICAgICAgICBwcm9jZXNzLmV4aXQoMSk7DQogICAgfSk7DQo=}
+/**
+ * Script para migrar TODOS os dados de SPREADSHEET_DATA do banco antigo para o novo
+ * Migra em lotes de 100 registros por vez para evitar timeout
+ */
+
+import { createClient } from '@supabase/supabase-js';
+
+// Banco ANTIGO (nbxubdmsepnhhhsbpzoq)
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+
+// Banco NOVO (geabvcqcymaqsqxxfqyw)
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+const BATCH_SIZE = 100;
+
+async function migrarSpreadsheetData() {
+    console.log('🚀 Iniciando migração de SPREADSHEET_DATA...\n');
+
+    try {
+        // 1. Contar total de registros no banco antigo
+        const { count, error: countError } = await oldSupabase
+            .from('spreadsheet_data')
+            .select('*', { count: 'exact', head: true });
+
+        if (countError) {
+            throw new Error(`Erro ao contar registros: ${countError.message}`);
+        }
+
+        console.log(`📊 Total de registros no banco antigo: ${count}`);
+
+        if (!count || count === 0) {
+            console.log('⚠️  Nenhum registro encontrado no banco antigo!');
+            return;
+        }
+
+        // 2. Migrar em lotes
+        let offset = 0;
+        let totalMigrados = 0;
+        let totalErros = 0;
+
+        while (offset < count) {
+            console.log(`\n📦 Processando lote ${offset + 1} a ${Math.min(offset + BATCH_SIZE, count)}...`);
+
+            // Buscar lote do banco antigo
+            const { data: registros, error: fetchError } = await oldSupabase
+                .from('spreadsheet_data')
+                .select('*')
+                .range(offset, offset + BATCH_SIZE - 1)
+                .order('created_at', { ascending: true });
+
+            if (fetchError) {
+                console.error(`❌ Erro ao buscar lote: ${fetchError.message}`);
+                totalErros += BATCH_SIZE;
+                offset += BATCH_SIZE;
+                continue;
+            }
+
+            if (!registros || registros.length === 0) {
+                console.log('✅ Nenhum registro neste lote, avançando...');
+                break;
+            }
+
+            // Inserir no banco novo
+            const { error: insertError } = await newSupabase
+                .from('spreadsheet_data')
+                .upsert(registros, { onConflict: 'id' });
+
+            if (insertError) {
+                console.error(`❌ Erro ao inserir lote: ${insertError.message}`);
+                totalErros += registros.length;
+            } else {
+                totalMigrados += registros.length;
+                console.log(`✅ Migrados ${registros.length} registros com sucesso!`);
+            }
+
+            offset += BATCH_SIZE;
+
+            // Aguardar um pouco para não sobrecarregar o Supabase
+            await new Promise(resolve => setTimeout(resolve, 500));
+        }
+
+        // 3. Resumo final
+        console.log('\n' + '='.repeat(50));
+        console.log('📊 RESUMO DA MIGRAÇÃO');
+        console.log('='.repeat(50));
+        console.log(`✅ Registros migrados com sucesso: ${totalMigrados}`);
+        console.log(`❌ Registros com erro: ${totalErros}`);
+        console.log(`📊 Total processado: ${totalMigrados + totalErros}`);
+        console.log('='.repeat(50));
+
+        // 4. Verificar no banco novo
+        const { count: newCount } = await newSupabase
+            .from('spreadsheet_data')
+            .select('*', { count: 'exact', head: true });
+
+        console.log(`\n✅ Total de registros no banco NOVO: ${newCount}`);
+
+    } catch (error) {
+        console.error('💥 Erro fatal na migração:', error);
+        process.exit(1);
+    }
+}
+
+// Executar
+migrarSpreadsheetData()
+    .then(() => {
+        console.log('\n✅ Migração concluída!');
+        console.log('\n📢 IMPORTANTE: Recarregue a página do dashboard (Ctrl+Shift+R) para ver os pedidos!');
+        process.exit(0);
+    })
+    .catch((error) => {
+        console.error('💥 Erro:', error);
+        process.exit(1);
+    });

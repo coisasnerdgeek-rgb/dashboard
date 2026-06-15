@@ -1,1 +1,65 @@
-﻿@{data=LyoqDQogKiBTY3JpcHQgcGFyYSBtaWdyYXIgTU9ERUxPUyBERSBDQVBJTkhBUyBjb20gdHJhdGFtZW50byBkZSBjb25mbGl0byBicmFuZC9tb2RlbA0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQoNCi8vIEJhbmNvIEFOVElHTyAobmJ4dWJkbXNlcG5oaGhzYnB6b3EpDQpjb25zdCBPTERfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vbmJ4dWJkbXNlcG5oaGhzYnB6b3Euc3VwYWJhc2UuY28nOw0KY29uc3QgT0xEX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbTVpZUhWaVpHMXpaWEJ1YUdob2MySndlbTl4SWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJNVEkxTXpVd01pd2laWGh3SWpveU1EYzJPREk1TlRBeWZRLkx4MkgyZEhicGhwVE9sSDBQS2QtdjRFN2tKR2FyVTRoWU1LTHJXQkg2dXMnOw0KDQovLyBCYW5jbyBOT1ZPIChnZWFidmNxY3ltYXFzcXh4ZnF5dykNCmNvbnN0IE5FV19TVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly9nZWFidmNxY3ltYXFzcXh4ZnF5dy5zdXBhYmFzZS5jbyc7DQpjb25zdCBORVdfU1VQQUJBU0VfS0VZID0gJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltZGxZV0oyWTNGamVXMWhjWE54ZUhobWNYbDNJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk9URTRNVEE1Tnl3aVpYaHdJam95TURnME56VTNNRGszZlEuV0p4cjllU0R6Zzd3ZlBBZ0JONk5nQUxmaVVIYy1EWWV1RmJFcUc4TjBoVSc7DQoNCmNvbnN0IG9sZFN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE9MRF9TVVBBQkFTRV9VUkwsIE9MRF9TVVBBQkFTRV9LRVkpOw0KY29uc3QgbmV3U3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIG1pZ3Jhck1vZGVsb3MoKSB7DQogICAgY29uc29sZS5sb2coJ/Cfk7EgTWlncmFuZG8gbW9kZWxvcyBkZSBjYXBpbmhhcy4uLlxuJyk7DQoNCiAgICB0cnkgew0KICAgICAgICBjb25zdCB7IGRhdGE6IG1vZGVsb3MsIGVycm9yOiBmZXRjaEVycm9yIH0gPSBhd2FpdCBvbGRTdXBhYmFzZS5mcm9tKCdwaG9uZV9jYXNlX21vZGVscycpLnNlbGVjdCgnKicpOw0KICAgICAgICBpZiAoZmV0Y2hFcnJvcikgdGhyb3cgZmV0Y2hFcnJvcjsNCg0KICAgICAgICBpZiAoIW1vZGVsb3MgfHwgbW9kZWxvcy5sZW5ndGggPT09IDApIHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCfimqDvuI8gTmVuaHVtIG1vZGVsbyBlbmNvbnRyYWRvLicpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coYPCfk4ogRW5jb250cmFkb3MgJHttb2RlbG9zLmxlbmd0aH0gbW9kZWxvcy5gKTsNCg0KICAgICAgICAvLyBBanVzdGFyIHBhcmEgbyBzY2hlbWEgZG8gYmFuY28gbm92byAocXVlIHBvZGUgdXNhciAnbW9kZWwnIGVtIHZleiBkZSAnbmFtZScpDQogICAgICAgIC8vIFZhbW9zIHZlcmlmaWNhciBvcyBjYW1wb3MgZG8gcHJpbWVpcm8gcmVnaXN0cm8NCiAgICAgICAgY29uc3Qga2V5cyA9IE9iamVjdC5rZXlzKG1vZGVsb3NbMF0pOw0KICAgICAgICBjb25zb2xlLmxvZygnQ2FtcG9zIGRldGVjdGFkb3Mgbm8gYW50aWdvOicsIGtleXMpOw0KDQogICAgICAgIGNvbnN0IGRhZG9zQWp1c3RhZG9zID0gbW9kZWxvcy5tYXAobSA9PiB7DQogICAgICAgICAgICBjb25zdCB7IHVwZGF0ZWRfYXQsIC4uLnJlc3RvIH0gPSBtOw0KICAgICAgICAgICAgcmV0dXJuIHJlc3RvOw0KICAgICAgICB9KTsNCg0KICAgICAgICBjb25zdCB7IGVycm9yOiBpbnNFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdwaG9uZV9jYXNlX21vZGVscycpDQogICAgICAgICAgICAudXBzZXJ0KGRhZG9zQWp1c3RhZG9zLCB7IG9uQ29uZmxpY3Q6ICdicmFuZCwgbmFtZScgfSk7IC8vIFRlbnRhciBicmFuZCwgbmFtZSBwcmltZWlybw0KDQogICAgICAgIGlmIChpbnNFcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5sb2coJ+KaoO+4jyBGYWxoYSBubyBVcHNlcnQgKGJyYW5kLCBuYW1lKS4gVGVudGFuZG8gb3V0cm8gbWFwZWFtZW50by4uLicpOw0KICAgICAgICAgICAgY29uc3QgZGFkb3NGaW5hbCA9IG1vZGVsb3MubWFwKG0gPT4gKHsNCiAgICAgICAgICAgICAgICBicmFuZDogbS5icmFuZCwNCiAgICAgICAgICAgICAgICBuYW1lOiBtLm5hbWUgfHwgbS5tb2RlbCwNCiAgICAgICAgICAgICAgICBpbl9zdG9jazogbS5pbl9zdG9jayA/PyB0cnVlDQogICAgICAgICAgICB9KSk7DQoNCiAgICAgICAgICAgIGNvbnN0IHsgZXJyb3I6IGZpbmFsRXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlLmZyb20oJ3Bob25lX2Nhc2VfbW9kZWxzJykudXBzZXJ0KGRhZG9zRmluYWwsIHsgb25Db25mbGljdDogJ2JyYW5kLCBuYW1lJyB9KTsNCiAgICAgICAgICAgIGlmIChmaW5hbEVycm9yKSB0aHJvdyBmaW5hbEVycm9yOw0KICAgICAgICB9DQoNCiAgICAgICAgY29uc29sZS5sb2coYOKchSAke21vZGVsb3MubGVuZ3RofSBtb2RlbG9zIG1pZ3JhZG9zIGNvbSBzdWNlc3NvIWApOw0KDQogICAgfSBjYXRjaCAoZSkgew0KICAgICAgICBjb25zb2xlLmVycm9yKCfwn5KlIEVycm86JywgZSk7DQogICAgfQ0KfQ0KDQptaWdyYXJNb2RlbG9zKCk7DQo=}
+/**
+ * Script para migrar MODELOS DE CAPINHAS com tratamento de conflito brand/model
+ */
+
+import { createClient } from '@supabase/supabase-js';
+
+// Banco ANTIGO (nbxubdmsepnhhhsbpzoq)
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+
+// Banco NOVO (geabvcqcymaqsqxxfqyw)
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function migrarModelos() {
+    console.log('📱 Migrando modelos de capinhas...\n');
+
+    try {
+        const { data: modelos, error: fetchError } = await oldSupabase.from('phone_case_models').select('*');
+        if (fetchError) throw fetchError;
+
+        if (!modelos || modelos.length === 0) {
+            console.log('⚠️ Nenhum modelo encontrado.');
+            return;
+        }
+
+        console.log(`📊 Encontrados ${modelos.length} modelos.`);
+
+        // Ajustar para o schema do banco novo (que pode usar 'model' em vez de 'name')
+        // Vamos verificar os campos do primeiro registro
+        const keys = Object.keys(modelos[0]);
+        console.log('Campos detectados no antigo:', keys);
+
+        const dadosAjustados = modelos.map(m => {
+            const { updated_at, ...resto } = m;
+            return resto;
+        });
+
+        const { error: insError } = await newSupabase
+            .from('phone_case_models')
+            .upsert(dadosAjustados, { onConflict: 'brand, name' }); // Tentar brand, name primeiro
+
+        if (insError) {
+            console.log('⚠️ Falha no Upsert (brand, name). Tentando outro mapeamento...');
+            const dadosFinal = modelos.map(m => ({
+                brand: m.brand,
+                name: m.name || m.model,
+                in_stock: m.in_stock ?? true
+            }));
+
+            const { error: finalError } = await newSupabase.from('phone_case_models').upsert(dadosFinal, { onConflict: 'brand, name' });
+            if (finalError) throw finalError;
+        }
+
+        console.log(`✅ ${modelos.length} modelos migrados com sucesso!`);
+
+    } catch (e) {
+        console.error('💥 Erro:', e);
+    }
+}
+
+migrarModelos();

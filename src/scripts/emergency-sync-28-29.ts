@@ -1,1 +1,154 @@
-﻿@{data=LyoqDQogKiBTQ1JJUFQgRU1FUkdFTkNJQUw6IFNpbmNyb25pemFyIHBlZGlkb3MgZG9zIGRpYXMgMjggZSAyOSBkZSBKYW5laXJvDQogKiBQdXhhIHBlZGlkb3MgZXNwZWPDrWZpY29zIHNlbSBhbHRlcmFyIGPDs2RpZ28gZG8gc2l0ZQ0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIC5lbnYubG9jYWwNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KY29uc3QgVElOWV9UT0tFTl9NTSA9IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOX01NIHx8IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOOw0KY29uc3QgVElOWV9UT0tFTl9NVkYgPSBwcm9jZXNzLmVudi5USU5ZX0FQSV9UT0tFTl9NVkY7DQoNCmNvbnN0IENPTVBBTklFUyA9IFsNCiAgICB7DQogICAgICAgIG5hbWU6ICdNTScsDQogICAgICAgIGNucGo6ICczOTQ0NzI5MTAwMDEwNCcsDQogICAgICAgIHRva2VuOiBUSU5ZX1RPS0VOX01NLA0KICAgICAgICBlbmFibGVkOiAhIVRJTllfVE9LRU5fTU0NCiAgICB9LA0KICAgIHsNCiAgICAgICAgbmFtZTogJ01WRicsDQogICAgICAgIGNucGo6ICcyNTExNjUxNDAwMDEzOCcsDQogICAgICAgIHRva2VuOiBUSU5ZX1RPS0VOX01WRiwNCiAgICAgICAgZW5hYmxlZDogISFUSU5ZX1RPS0VOX01WRg0KICAgIH0NCl07DQoNCmFzeW5jIGZ1bmN0aW9uIHN5bmNFbWVyZ2VuY3koKSB7DQogICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoU1VQQUJBU0VfVVJMLCBTVVBBQkFTRV9LRVkpOw0KDQogICAgY29uc29sZS5sb2coJ1xu8J+aqCBTSU5DUk9OSVpBw4fDg08gRU1FUkdFTkNJQUwgLSBEaWFzIDI4IGUgMjkgZGUgSmFuZWlyb1xuJyk7DQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCg0KICAgIC8vIERhdGFzOiAyOC8wMS8yMDI2IGUgMjkvMDEvMjAyNg0KICAgIGNvbnN0IGRhdGVzID0gWw0KICAgICAgICB7IGRheTogJzI4JywgZGF0ZTogJzI4LzAxLzIwMjYnIH0sDQogICAgICAgIHsgZGF5OiAnMjknLCBkYXRlOiAnMjkvMDEvMjAyNicgfQ0KICAgIF07DQoNCiAgICBsZXQgdG90YWxBZGRlZCA9IDA7DQoNCiAgICBmb3IgKGNvbnN0IGNvbXBhbnkgb2YgQ09NUEFOSUVTLmZpbHRlcihjID0+IGMuZW5hYmxlZCkpIHsNCiAgICAgICAgY29uc29sZS5sb2coYFxu8J+TpiBQcm9jZXNzYW5kbyAke2NvbXBhbnkubmFtZX0uLi5cbmApOw0KDQogICAgICAgIGZvciAoY29uc3QgeyBkYXksIGRhdGUgfSBvZiBkYXRlcykgew0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIPCfk4UgQnVzY2FuZG8gcGVkaWRvcyBkZSAke2RhdGV9Li4uYCk7DQoNCiAgICAgICAgICAgIHRyeSB7DQogICAgICAgICAgICAgICAgLy8gQnVzY2FyIHBlZGlkb3MgZG8gZGlhIGVzcGVjw61maWNvDQogICAgICAgICAgICAgICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCgNCiAgICAgICAgICAgICAgICAgICAgYGh0dHBzOi8vYXBpLnRpbnkuY29tLmJyL2FwaTIvcGVkaWRvcy5wZXNxdWlzYS5waHA/dG9rZW49JHtjb21wYW55LnRva2VufSZmb3JtYXRvPUpTT04mZGF0YUluaWNpYWw9JHtkYXRlfSZkYXRhRmluYWw9JHtkYXRlfWANCiAgICAgICAgICAgICAgICApOw0KDQogICAgICAgICAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsNCg0KICAgICAgICAgICAgICAgIGlmIChkYXRhLnJldG9ybm8/LnN0YXR1cyAhPT0gJ09LJykgew0KICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAg4pqg77iPICBTZW0gcGVkaWRvcyBvdSBlcnJvOiAke2RhdGEucmV0b3Jubz8uZXJyb3M/LlswXT8uZXJybyB8fCAnRGVzY29uaGVjaWRvJ31gKTsNCiAgICAgICAgICAgICAgICAgICAgY29udGludWU7DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgY29uc3Qgb3JkZXJzID0gZGF0YS5yZXRvcm5vLnBlZGlkb3MgfHwgW107DQogICAgICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIOKchSBFbmNvbnRyYWRvcyAke29yZGVycy5sZW5ndGh9IHBlZGlkb3NgKTsNCg0KICAgICAgICAgICAgICAgIGlmIChvcmRlcnMubGVuZ3RoID09PSAwKSBjb250aW51ZTsNCg0KICAgICAgICAgICAgICAgIC8vIENvbGV0YXIgSURzIGRvcyBwZWRpZG9zDQogICAgICAgICAgICAgICAgY29uc3Qgb3JkZXJJZHMgPSBvcmRlcnMubWFwKChvOiBhbnkpID0+IFN0cmluZyhvLnBlZGlkby5pZCB8fCBvLnBlZGlkby5udW1lcm8pKTsNCg0KICAgICAgICAgICAgICAgIC8vIFZlcmlmaWNhciBxdWFpcyBqw6EgZXhpc3RlbSBubyBiYW5jbw0KICAgICAgICAgICAgICAgIGNvbnN0IHsgZGF0YTogZXhpc3RpbmcgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgICAgICAgICAgLnNlbGVjdCgncm93X2RhdGEnKQ0KICAgICAgICAgICAgICAgICAgICAuaW4oJ3Jvd19kYXRhLT4+SUQgVGlueScsIG9yZGVySWRzKTsNCg0KICAgICAgICAgICAgICAgIGNvbnN0IGV4aXN0aW5nSWRzID0gbmV3IFNldChleGlzdGluZz8ubWFwKChyOiBhbnkpID0+IFN0cmluZyhyLnJvd19kYXRhWydJRCBUaW55J10pKSB8fCBbXSk7DQoNCiAgICAgICAgICAgICAgICAvLyBWZXJpZmljYXIgcXVhaXMgasOhIGVzdMOjbyBuYSBmaWxhDQogICAgICAgICAgICAgICAgY29uc3QgeyBkYXRhOiBpblF1ZXVlIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAgICAgICAgIC5zZWxlY3QoJ29yZGVyX2lkJykNCiAgICAgICAgICAgICAgICAgICAgLmluKCdvcmRlcl9pZCcsIG9yZGVySWRzKTsNCg0KICAgICAgICAgICAgICAgIGNvbnN0IHF1ZXVlSWRzID0gbmV3IFNldChpblF1ZXVlPy5tYXAociA9PiByLm9yZGVyX2lkKSB8fCBbXSk7DQoNCiAgICAgICAgICAgICAgICAvLyBGaWx0cmFyIG5vdm9zIHBlZGlkb3MNCiAgICAgICAgICAgICAgICBjb25zdCBuZXdPcmRlcnMgPSBvcmRlcklkcy5maWx0ZXIoaWQgPT4gIWV4aXN0aW5nSWRzLmhhcyhpZCkgJiYgIXF1ZXVlSWRzLmhhcyhpZCkpOw0KDQogICAgICAgICAgICAgICAgaWYgKG5ld09yZGVycy5sZW5ndGggPT09IDApIHsNCiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIOKEue+4jyAgVG9kb3Mgb3MgcGVkaWRvcyBqw6EgZXN0w6NvIG5vIHNpc3RlbWFgKTsNCiAgICAgICAgICAgICAgICAgICAgY29udGludWU7DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgLy8gQWRpY2lvbmFyIMOgIGZpbGEgZGUgcHJvY2Vzc2FtZW50bw0KICAgICAgICAgICAgICAgIGNvbnN0IHRvSW5zZXJ0ID0gbmV3T3JkZXJzLm1hcChvcmRlcklkID0+ICh7DQogICAgICAgICAgICAgICAgICAgIG9yZGVyX2lkOiBvcmRlcklkLA0KICAgICAgICAgICAgICAgICAgICBjb21wYW55OiBjb21wYW55Lm5hbWUsDQogICAgICAgICAgICAgICAgICAgIHN0YXR1czogJ3BlbmRpbmcnLA0KICAgICAgICAgICAgICAgICAgICByZXRyeV9jb3VudDogMCwNCiAgICAgICAgICAgICAgICAgICAgbWF4X3JldHJpZXM6IDUsDQogICAgICAgICAgICAgICAgICAgIG5leHRfcmV0cnlfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwNCiAgICAgICAgICAgICAgICAgICAgb3JkZXJfZGF0ZTogZGF0ZSwNCiAgICAgICAgICAgICAgICAgICAgcGF5bG9hZDogeyBjbnBqOiBjb21wYW55LmNucGosIG9yaWdpbjogJ0VtZXJnZW5jeSBTeW5jIDI4LTI5IEphbicgfQ0KICAgICAgICAgICAgICAgIH0pKTsNCg0KICAgICAgICAgICAgICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgICAgICAgICAgLmluc2VydCh0b0luc2VydCk7DQoNCiAgICAgICAgICAgICAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcihgICAg4p2MIEVycm8gYW8gYWRpY2lvbmFyIMOgIGZpbGE6YCwgZXJyb3IpOw0KICAgICAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgICAgIHRvdGFsQWRkZWQgKz0gdG9JbnNlcnQubGVuZ3RoOw0KICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAg4pyFIEFkaWNpb25hZG9zICR7dG9JbnNlcnQubGVuZ3RofSBub3ZvcyBwZWRpZG9zIMOgIGZpbGFgKTsNCiAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKGAgICDinYwgRXJybyBhbyBidXNjYXIgcGVkaWRvcyBkZSAke2RhdGV9OmAsIGVycm9yLm1lc3NhZ2UpOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAvLyBEZWxheSBlbnRyZSByZXF1ZXN0cw0KICAgICAgICAgICAgYXdhaXQgbmV3IFByb21pc2UociA9PiBzZXRUaW1lb3V0KHIsIDEwMDApKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKCdcbicgKyAnPScucmVwZWF0KDYwKSk7DQogICAgY29uc29sZS5sb2coYFxu8J+OryBSRVNVTU86XG5gKTsNCiAgICBjb25zb2xlLmxvZyhgICAg4pyFIFRvdGFsIGRlIHBlZGlkb3Mgbm92b3MgYWRpY2lvbmFkb3M6ICR7dG90YWxBZGRlZH1gKTsNCg0KICAgIGlmICh0b3RhbEFkZGVkID4gMCkgew0KICAgICAgICBjb25zb2xlLmxvZyhgXG7wn5KhIFBSw5NYSU1PIFBBU1NPOmApOw0KICAgICAgICBjb25zb2xlLmxvZyhgICAgRXhlY3V0ZSBvIHByb2Nlc3NhbWVudG8gZGEgZmlsYSBwYXJhIGltcG9ydGFyIG9zIHBlZGlkb3M6YCk7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICBcbiAgIG5weCB0c3ggc2NyaXB0cy9wcm9jZXNzLXF1ZXVlLW1hbnVhbC50c1xuYCk7DQogICAgfSBlbHNlIHsNCiAgICAgICAgY29uc29sZS5sb2coYFxuICAg4oS577iPICBOZW5odW0gcGVkaWRvIG5vdm8gZW5jb250cmFkbyAodG9kb3MgasOhIGVzdMOjbyBubyBzaXN0ZW1hKVxuYCk7DQogICAgfQ0KfQ0KDQpzeW5jRW1lcmdlbmN5KCkuY2F0Y2goY29uc29sZS5lcnJvcik7DQo=}
+/**
+ * SCRIPT EMERGENCIAL: Sincronizar pedidos dos dias 28 e 29 de Janeiro
+ * Puxa pedidos específicos sem alterar código do site
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const TINY_TOKEN_MM = process.env.TINY_API_TOKEN_MM || process.env.TINY_API_TOKEN;
+const TINY_TOKEN_MVF = process.env.TINY_API_TOKEN_MVF;
+
+const COMPANIES = [
+    {
+        name: 'MM',
+        cnpj: '39447291000104',
+        token: TINY_TOKEN_MM,
+        enabled: !!TINY_TOKEN_MM
+    },
+    {
+        name: 'MVF',
+        cnpj: '25116514000138',
+        token: TINY_TOKEN_MVF,
+        enabled: !!TINY_TOKEN_MVF
+    }
+];
+
+async function syncEmergency() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🚨 SINCRONIZAÇÃO EMERGENCIAL - Dias 28 e 29 de Janeiro\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Datas: 28/01/2026 e 29/01/2026
+    const dates = [
+        { day: '28', date: '28/01/2026' },
+        { day: '29', date: '29/01/2026' }
+    ];
+
+    let totalAdded = 0;
+
+    for (const company of COMPANIES.filter(c => c.enabled)) {
+        console.log(`\n📦 Processando ${company.name}...\n`);
+
+        for (const { day, date } of dates) {
+            console.log(`   📅 Buscando pedidos de ${date}...`);
+
+            try {
+                // Buscar pedidos do dia específico
+                const response = await fetch(
+                    `https://api.tiny.com.br/api2/pedidos.pesquisa.php?token=${company.token}&formato=JSON&dataInicial=${date}&dataFinal=${date}`
+                );
+
+                const data = await response.json();
+
+                if (data.retorno?.status !== 'OK') {
+                    console.log(`   ⚠️  Sem pedidos ou erro: ${data.retorno?.erros?.[0]?.erro || 'Desconhecido'}`);
+                    continue;
+                }
+
+                const orders = data.retorno.pedidos || [];
+                console.log(`   ✅ Encontrados ${orders.length} pedidos`);
+
+                if (orders.length === 0) continue;
+
+                // Coletar IDs dos pedidos
+                const orderIds = orders.map((o: any) => String(o.pedido.id || o.pedido.numero));
+
+                // Verificar quais já existem no banco
+                const { data: existing } = await supabase
+                    .from('spreadsheet_data')
+                    .select('row_data')
+                    .in('row_data->>ID Tiny', orderIds);
+
+                const existingIds = new Set(existing?.map((r: any) => String(r.row_data['ID Tiny'])) || []);
+
+                // Verificar quais já estão na fila
+                const { data: inQueue } = await supabase
+                    .from('webhook_retry_queue')
+                    .select('order_id')
+                    .in('order_id', orderIds);
+
+                const queueIds = new Set(inQueue?.map(r => r.order_id) || []);
+
+                // Filtrar novos pedidos
+                const newOrders = orderIds.filter(id => !existingIds.has(id) && !queueIds.has(id));
+
+                if (newOrders.length === 0) {
+                    console.log(`   ℹ️  Todos os pedidos já estão no sistema`);
+                    continue;
+                }
+
+                // Adicionar à fila de processamento
+                const toInsert = newOrders.map(orderId => ({
+                    order_id: orderId,
+                    company: company.name,
+                    status: 'pending',
+                    retry_count: 0,
+                    max_retries: 5,
+                    next_retry_at: new Date().toISOString(),
+                    order_date: date,
+                    payload: { cnpj: company.cnpj, origin: 'Emergency Sync 28-29 Jan' }
+                }));
+
+                const { error } = await supabase
+                    .from('webhook_retry_queue')
+                    .insert(toInsert);
+
+                if (error) {
+                    console.error(`   ❌ Erro ao adicionar à fila:`, error);
+                } else {
+                    totalAdded += toInsert.length;
+                    console.log(`   ✅ Adicionados ${toInsert.length} novos pedidos à fila`);
+                }
+
+            } catch (error: any) {
+                console.error(`   ❌ Erro ao buscar pedidos de ${date}:`, error.message);
+            }
+
+            // Delay entre requests
+            await new Promise(r => setTimeout(r, 1000));
+        }
+    }
+
+    console.log('\n' + '='.repeat(60));
+    console.log(`\n🎯 RESUMO:\n`);
+    console.log(`   ✅ Total de pedidos novos adicionados: ${totalAdded}`);
+
+    if (totalAdded > 0) {
+        console.log(`\n💡 PRÓXIMO PASSO:`);
+        console.log(`   Execute o processamento da fila para importar os pedidos:`);
+        console.log(`   \n   npx tsx scripts/process-queue-manual.ts\n`);
+    } else {
+        console.log(`\n   ℹ️  Nenhum pedido novo encontrado (todos já estão no sistema)\n`);
+    }
+}
+
+syncEmergency().catch(console.error);

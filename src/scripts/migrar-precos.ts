@@ -1,1 +1,54 @@
-﻿@{data=LyoqDQogKiBTY3JpcHQgcGFyYSBtaWdyYXIgYSB0YWJlbGEgUFJJQ0VfVEFCTEVTIGRvIGJhbmNvIGFudGlnbyBwYXJhIG8gbm92bw0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQoNCi8vIEJhbmNvIEFOVElHTyAobmJ4dWJkbXNlcG5oaGhzYnB6b3EpDQpjb25zdCBPTERfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vbmJ4dWJkbXNlcG5oaGhzYnB6b3Euc3VwYWJhc2UuY28nOw0KY29uc3QgT0xEX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbTVpZUhWaVpHMXpaWEJ1YUdob2MySndlbTl4SWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJNVEkxTXpVd01pd2laWGh3SWpveU1EYzJPREk1TlRBeWZRLkx4MkgyZEhicGhwVE9sSDBQS2QtdjRFN2tKR2FyVTRoWU1LTHJXQkg2dXMnOw0KDQovLyBCYW5jbyBOT1ZPIChnZWFidmNxY3ltYXFzcXh4ZnF5dykNCmNvbnN0IE5FV19TVVBBQkFTRV9VUkwgPSAnaHR0cHM6Ly9nZWFidmNxY3ltYXFzcXh4ZnF5dy5zdXBhYmFzZS5jbyc7DQpjb25zdCBORVdfU1VQQUJBU0VfS0VZID0gJ2V5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwYzNNaU9pSnpkWEJoWW1GelpTSXNJbkpsWmlJNkltZGxZV0oyWTNGamVXMWhjWE54ZUhobWNYbDNJaXdpY205c1pTSTZJbk5sY25acFkyVmZjbTlzWlNJc0ltbGhkQ0k2TVRjMk9URTRNVEE1Tnl3aVpYaHdJam95TURnME56VTNNRGszZlEuV0p4cjllU0R6Zzd3ZlBBZ0JONk5nQUxmaVVIYy1EWWV1RmJFcUc4TjBoVSc7DQoNCmNvbnN0IG9sZFN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE9MRF9TVVBBQkFTRV9VUkwsIE9MRF9TVVBBQkFTRV9LRVkpOw0KY29uc3QgbmV3U3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoTkVXX1NVUEFCQVNFX1VSTCwgTkVXX1NVUEFCQVNFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIG1pZ3JhclByZWNvcygpIHsNCiAgICBjb25zb2xlLmxvZygn8J+SsCBJbmljaWFuZG8gbWlncmHDp8OjbyBkZSBQUklDRV9UQUJMRVMuLi5cbicpOw0KDQogICAgdHJ5IHsNCiAgICAgICAgY29uc3QgeyBkYXRhOiBwcmVjb3MsIGVycm9yOiBmZXRjaEVycm9yIH0gPSBhd2FpdCBvbGRTdXBhYmFzZQ0KICAgICAgICAgICAgLmZyb20oJ3ByaWNlX3RhYmxlcycpDQogICAgICAgICAgICAuc2VsZWN0KCcqJyk7DQoNCiAgICAgICAgaWYgKGZldGNoRXJyb3IpIHRocm93IGZldGNoRXJyb3I7DQoNCiAgICAgICAgaWYgKCFwcmVjb3MgfHwgcHJlY29zLmxlbmd0aCA9PT0gMCkgew0KICAgICAgICAgICAgY29uc29sZS5sb2coJ+KaoO+4jyBOZW5odW0gcHJlw6dvIGVuY29udHJhZG8gcGFyYSBtaWdyYXIuJyk7DQogICAgICAgICAgICByZXR1cm47DQogICAgICAgIH0NCg0KICAgICAgICBjb25zb2xlLmxvZyhg8J+TiiBFbmNvbnRyYWRvcyAke3ByZWNvcy5sZW5ndGh9IHByb2R1dG9zIG5hIHRhYmVsYSBkZSBwcmXDp29zLmApOw0KDQogICAgICAgIC8vIFJlbW92ZXIgY2FtcG9zIHF1ZSBjYXVzYW0gZXJybyBkZSBzY2hlbWEgbm8gYmFuY28gbm92bw0KICAgICAgICBjb25zdCBwcmVjb3NBanVzdGFkb3MgPSBwcmVjb3MubWFwKHAgPT4gew0KICAgICAgICAgICAgY29uc3QgeyB1cGRhdGVkX2F0LCAuLi5yZXN0byB9ID0gcDsNCiAgICAgICAgICAgIHJldHVybiByZXN0bzsNCiAgICAgICAgfSk7DQoNCiAgICAgICAgY29uc3QgeyBlcnJvcjogaW5zRXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgncHJpY2VfdGFibGVzJykNCiAgICAgICAgICAgIC51cHNlcnQocHJlY29zQWp1c3RhZG9zLCB7IG9uQ29uZmxpY3Q6ICdpZCcgfSk7DQoNCiAgICAgICAgaWYgKGluc0Vycm9yKSB0aHJvdyBpbnNFcnJvcjsNCg0KICAgICAgICBjb25zb2xlLmxvZyhg4pyFICR7cHJlY29zLmxlbmd0aH0gcmVnaXN0cm9zIGRlIHByZcOnb3MgbWlncmFkb3MgY29tIHN1Y2Vzc28hYCk7DQoNCiAgICB9IGNhdGNoIChlcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKCfwn5KlIEVycm8gbmEgbWlncmHDp8OjbyBkZSBwcmXDp29zOicsIGVycm9yKTsNCiAgICB9DQp9DQoNCm1pZ3JhclByZWNvcygpOw0K}
+/**
+ * Script para migrar a tabela PRICE_TABLES do banco antigo para o novo
+ */
+
+import { createClient } from '@supabase/supabase-js';
+
+// Banco ANTIGO (nbxubdmsepnhhhsbpzoq)
+const OLD_SUPABASE_URL = 'https://nbxubdmsepnhhhsbpzoq.supabase.co';
+const OLD_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ieHViZG1zZXBuaGhoc2Jwem9xIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTI1MzUwMiwiZXhwIjoyMDc2ODI5NTAyfQ.Lx2H2dHbphpTOlH0PKd-v4E7kJGarU4hYMKLrWBH6us';
+
+// Banco NOVO (geabvcqcymaqsqxxfqyw)
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const oldSupabase = createClient(OLD_SUPABASE_URL, OLD_SUPABASE_KEY);
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function migrarPrecos() {
+    console.log('💰 Iniciando migração de PRICE_TABLES...\n');
+
+    try {
+        const { data: precos, error: fetchError } = await oldSupabase
+            .from('price_tables')
+            .select('*');
+
+        if (fetchError) throw fetchError;
+
+        if (!precos || precos.length === 0) {
+            console.log('⚠️ Nenhum preço encontrado para migrar.');
+            return;
+        }
+
+        console.log(`📊 Encontrados ${precos.length} produtos na tabela de preços.`);
+
+        // Remover campos que causam erro de schema no banco novo
+        const precosAjustados = precos.map(p => {
+            const { updated_at, ...resto } = p;
+            return resto;
+        });
+
+        const { error: insError } = await newSupabase
+            .from('price_tables')
+            .upsert(precosAjustados, { onConflict: 'id' });
+
+        if (insError) throw insError;
+
+        console.log(`✅ ${precos.length} registros de preços migrados com sucesso!`);
+
+    } catch (error) {
+        console.error('💥 Erro na migração de preços:', error);
+    }
+}
+
+migrarPrecos();

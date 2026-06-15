@@ -1,1 +1,40 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3Qgc3VwYWJhc2VVcmwgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkwhOw0KY29uc3Qgc3VwYWJhc2VTZXJ2aWNlS2V5ID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSE7DQoNCmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIGhhbmRsZXIocmVxOiBhbnksIHJlczogYW55KSB7DQogICAgcmVzLnNldEhlYWRlcignQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luJywgJyonKTsNCiAgICByZXMuc2V0SGVhZGVyKCdBY2Nlc3MtQ29udHJvbC1BbGxvdy1NZXRob2RzJywgJ0dFVCcpOw0KDQogICAgdHJ5IHsNCiAgICAgICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoc3VwYWJhc2VVcmwsIHN1cGFiYXNlU2VydmljZUtleSk7DQogICAgICAgIGNvbnN0IHJlc3VsdHM6IGFueSA9IHt9Ow0KDQogICAgICAgIC8vIDEuIENoZWNrIHNwcmVhZHNoZWV0X2RhdGENCiAgICAgICAgY29uc3QgeyBjb3VudDogc3ByZWFkQ291bnQsIGRhdGE6IHNwcmVhZFNhbXBsZSB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnIH0pDQogICAgICAgICAgICAubGltaXQoNSk7DQoNCiAgICAgICAgcmVzdWx0cy5zcHJlYWRzaGVldF9kYXRhID0gew0KICAgICAgICAgICAgY291bnQ6IHNwcmVhZENvdW50LA0KICAgICAgICAgICAgc2FtcGxlOiBzcHJlYWRTYW1wbGUNCiAgICAgICAgfTsNCg0KICAgICAgICAvLyAyLiBDaGVjayBzYXZlZF9vcmRlcnMNCiAgICAgICAgY29uc3QgeyBjb3VudDogc2F2ZWRDb3VudCwgZGF0YTogc2F2ZWRTYW1wbGUgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAuZnJvbSgnc2F2ZWRfb3JkZXJzJykNCiAgICAgICAgICAgIC5zZWxlY3QoJyonLCB7IGNvdW50OiAnZXhhY3QnIH0pDQogICAgICAgICAgICAubGltaXQoNSk7DQoNCiAgICAgICAgcmVzdWx0cy5zYXZlZF9vcmRlcnMgPSB7DQogICAgICAgICAgICBjb3VudDogc2F2ZWRDb3VudCwNCiAgICAgICAgICAgIHNhbXBsZTogc2F2ZWRTYW1wbGUNCiAgICAgICAgfTsNCg0KICAgICAgICByZXR1cm4gcmVzLnN0YXR1cygyMDApLmpzb24ocmVzdWx0cyk7DQogICAgfSBjYXRjaCAoZXJyb3IpIHsNCiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsgZXJyb3I6IFN0cmluZyhlcnJvcikgfSk7DQogICAgfQ0KfQ0K}
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = process.env.SUPABASE_URL!;
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+export default async function handler(req: any, res: any) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET');
+
+    try {
+        const supabase = createClient(supabaseUrl, supabaseServiceKey);
+        const results: any = {};
+
+        // 1. Check spreadsheet_data
+        const { count: spreadCount, data: spreadSample } = await supabase
+            .from('spreadsheet_data')
+            .select('*', { count: 'exact' })
+            .limit(5);
+
+        results.spreadsheet_data = {
+            count: spreadCount,
+            sample: spreadSample
+        };
+
+        // 2. Check saved_orders
+        const { count: savedCount, data: savedSample } = await supabase
+            .from('saved_orders')
+            .select('*', { count: 'exact' })
+            .limit(5);
+
+        results.saved_orders = {
+            count: savedCount,
+            sample: savedSample
+        };
+
+        return res.status(200).json(results);
+    } catch (error) {
+        return res.status(500).json({ error: String(error) });
+    }
+}

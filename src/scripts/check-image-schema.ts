@@ -1,1 +1,19 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCmNvbnN0IG5ld1N1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE5FV19TVVBBQkFTRV9VUkwsIE5FV19TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBjaGVja0ltYWdlU2NoZW1hKCkgew0KICAgIGNvbnNvbGUubG9nKCctLS0gaW1hZ2VfY2F0ZWdvcmllcyAtLS0nKTsNCiAgICBjb25zdCB7IGRhdGE6IGNhdERhdGEsIGVycm9yOiBjYXRFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UuZnJvbSgnaW1hZ2VfY2F0ZWdvcmllcycpLnNlbGVjdCgnKicpLmxpbWl0KDEpOw0KICAgIGNvbnNvbGUubG9nKCdEYXRhOicsIGNhdERhdGEpOw0KICAgIGNvbnNvbGUubG9nKCdFcnJvcjonLCBjYXRFcnJvcik7DQoNCiAgICBjb25zb2xlLmxvZygnXG4tLS0gaW1hZ2VfbWFwcGluZ3MgLS0tJyk7DQogICAgY29uc3QgeyBkYXRhOiBtYXBEYXRhLCBlcnJvcjogbWFwRXJyb3IgfSA9IGF3YWl0IG5ld1N1cGFiYXNlLmZyb20oJ2ltYWdlX21hcHBpbmdzJykuc2VsZWN0KCcqJykubGltaXQoMSk7DQogICAgY29uc29sZS5sb2coJ0RhdGE6JywgbWFwRGF0YSk7DQogICAgY29uc29sZS5sb2coJ0Vycm9yOicsIG1hcEVycm9yKTsNCn0NCg0KY2hlY2tJbWFnZVNjaGVtYSgpOw0K}
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function checkImageSchema() {
+    console.log('--- image_categories ---');
+    const { data: catData, error: catError } = await newSupabase.from('image_categories').select('*').limit(1);
+    console.log('Data:', catData);
+    console.log('Error:', catError);
+
+    console.log('\n--- image_mappings ---');
+    const { data: mapData, error: mapError } = await newSupabase.from('image_mappings').select('*').limit(1);
+    console.log('Data:', mapData);
+    console.log('Error:', mapError);
+}
+
+checkImageSchema();

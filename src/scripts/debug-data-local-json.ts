@@ -1,1 +1,34 @@
-﻿@{data=DQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KY29uc3QgZW52UGF0aCA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAnLmVudi5sb2NhbCcpOw0KY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KY29uc3QgZW52OiBhbnkgPSB7fTsNCmVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICBjb25zdCBtYXRjaCA9IGxpbmUubWF0Y2goL14oW149OiNdKyk9KC4qKSQvKTsNCiAgICBpZiAobWF0Y2gpIGVudlttYXRjaFsxXS50cmltKCldID0gbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL15bIiddfFsiJ10kL2csICcnKTsNCn0pOw0KDQpjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChlbnYuU1VQQUJBU0VfVVJMLCBlbnYuU1VQQUJBU0VfU0VSVklDRV9ST0xFX0tFWSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGNoZWNrKCkgew0KICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgncm93X2RhdGEnKQ0KICAgICAgICAubGltaXQoMyk7DQoNCiAgICBpZiAoZXJyb3IpIHsNCiAgICAgICAgY29uc29sZS5lcnJvcihlcnJvcik7DQogICAgICAgIHJldHVybjsNCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5OmIEFtb3N0cmFzIGRvIEJhbmNvIE5vdm8gKEZVTEwgSlNPTik6XG4nKTsNCiAgICBkYXRhLmZvckVhY2goKGl0ZW0sIGlkeCkgPT4gew0KICAgICAgICBjb25zb2xlLmxvZyhgLS0tIEFtb3N0cmEgIyR7aWR4ICsgMX0gLS0tYCk7DQogICAgICAgIGNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5KGl0ZW0ucm93X2RhdGEsIG51bGwsIDIpKTsNCiAgICB9KTsNCn0NCg0KY2hlY2soKTsNCg==}
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const envPath = path.join(process.cwd(), '.env.local');
+const envFile = fs.readFileSync(envPath, 'utf8');
+const env: any = {};
+envFile.split('\n').forEach(line => {
+    const match = line.match(/^([^=:#]+)=(.*)$/);
+    if (match) env[match[1].trim()] = match[2].trim().replace(/^["']|["']$/g, '');
+});
+
+const supabase = createClient(env.SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY);
+
+async function check() {
+    const { data, error } = await supabase
+        .from('spreadsheet_data')
+        .select('row_data')
+        .limit(3);
+
+    if (error) {
+        console.error(error);
+        return;
+    }
+
+    console.log('\n📦 Amostras do Banco Novo (FULL JSON):\n');
+    data.forEach((item, idx) => {
+        console.log(`--- Amostra #${idx + 1} ---`);
+        console.log(JSON.stringify(item.row_data, null, 2));
+    });
+}
+
+check();

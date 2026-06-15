@@ -1,1 +1,57 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCmNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE5FV19TVVBBQkFTRV9VUkwsIE5FV19TVVBBQkFTRV9LRVkpOw0KDQpjb25zdCBUSU5ZX1RPS0VOX01WRiA9ICc5MmNhY2E5NmMzMTA5YTkwYTIwMjg2ODg4YzNhNTA0MzUzYmI4ZjhlJzsgLy8gUGVndW50byBkbyBsb2cgYW50ZXJpb3Igb3UgZW52DQoNCmFzeW5jIGZ1bmN0aW9uIHRlc3RGaXgoKSB7DQogICAgY29uc3Qgb3JkZXJJZCA9ICcyNjAxMjNTQ0tNQTA5SCc7DQogICAgY29uc3QgaWRUaW55ID0gJzk0NjA1NjExMSc7DQoNCiAgICBjb25zb2xlLmxvZyhg8J+nqiBUZXN0YW5kbyBjb3JyZcOnw6NvIHBhcmEgbyBwZWRpZG8gJHtvcmRlcklkfS4uLmApOw0KDQogICAgLy8gMS4gQnVzY2FyIHN0YXR1cyBhdHVhbCBubyBUaW55DQogICAgY29uc29sZS5sb2coJ/Cfk6EgQnVzY2FuZG8gc3RhdHVzIGF0dWFsIG5vIFRpbnkgRVJQLi4uJyk7DQogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaChgaHR0cHM6Ly9hcGkudGlueS5jb20uYnIvYXBpMi9wZWRpZG8ub2J0ZXIucGhwP3Rva2VuPSR7VElOWV9UT0tFTl9NVkZ9JmlkPSR7aWRUaW55fSZmb3JtYXRvPWpzb25gKTsNCiAgICBjb25zdCB0aW55RGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsNCiAgICBjb25zdCBjdXJyZW50U3RhdHVzID0gdGlueURhdGEucmV0b3Juby5wZWRpZG8uc2l0dWFjYW87DQogICAgY29uc29sZS5sb2coYOKchSBTdGF0dXMgbm8gVGlueTogJHtjdXJyZW50U3RhdHVzfWApOw0KDQogICAgLy8gMi4gQnVzY2FyIGl0ZW5zIG5vIFN1cGFiYXNlDQogICAgY29uc3QgeyBkYXRhOiBleGlzdGluZ1Jvd3MgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgLnNlbGVjdCgnaWQsIHJvd19kYXRhJykNCiAgICAgICAgLmVxKCdyb3dfZGF0YS0+PklEIFRpbnknLCBpZFRpbnkpOw0KDQogICAgaWYgKCFleGlzdGluZ1Jvd3MgfHwgZXhpc3RpbmdSb3dzLmxlbmd0aCA9PT0gMCkgew0KICAgICAgICBjb25zb2xlLmxvZygn4p2MIFBlZGlkbyBuw6NvIGVuY29udHJhZG8gbm8gYmFuY28gbm92by4nKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKGDwn5OKIEVuY29udHJhZG9zICR7ZXhpc3RpbmdSb3dzLmxlbmd0aH0gaXRlbnMgbm8gYmFuY28uYCk7DQoNCiAgICAvLyAzLiBBcGxpY2FyIGEgbMOzZ2ljYSBkZSBhdHVhbGl6YcOnw6NvIChpZ3VhbCBhbyBxdWUgcHVzIG5vIHByb2Nlc3MtcmV0cnktcXVldWUpDQogICAgY29uc29sZS5sb2coJ/CflIQgQXBsaWNhbmRvIGNvcnJlw6fDo28gZGUgc3RhdHVzLi4uJyk7DQogICAgZm9yIChjb25zdCByb3cgb2YgZXhpc3RpbmdSb3dzKSB7DQogICAgICAgIGlmIChyb3cucm93X2RhdGFbIlNpdHVhw6fDo28iXSAhPT0gY3VycmVudFN0YXR1cykgew0KICAgICAgICAgICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAgICAgLnVwZGF0ZSh7DQogICAgICAgICAgICAgICAgICAgIHJvd19kYXRhOiB7IC4uLnJvdy5yb3dfZGF0YSwgIlNpdHVhw6fDo28iOiBjdXJyZW50U3RhdHVzIH0sDQogICAgICAgICAgICAgICAgICAgIHVwZGF0ZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKQ0KICAgICAgICAgICAgICAgIH0pDQogICAgICAgICAgICAgICAgLmVxKCdpZCcsIHJvdy5pZCk7DQoNCiAgICAgICAgICAgIGlmIChlcnJvcikgY29uc29sZS5lcnJvcignRXJybyBuYSBhdHVhbGl6YcOnw6NvOicsIGVycm9yKTsNCiAgICAgICAgICAgIGVsc2UgY29uc29sZS5sb2coYOKchSBJdGVtICR7cm93LmlkfSBhdHVhbGl6YWRvIHBhcmEgJHtjdXJyZW50U3RhdHVzfWApOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgY29uc29sZS5sb2coYOKEue+4jyBJdGVtICR7cm93LmlkfSBqw6EgZXN0w6EgY29tIHN0YXR1cyAke2N1cnJlbnRTdGF0dXN9YCk7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygn4pyoIFRlc3RlIGZpbmFsaXphZG8hJyk7DQp9DQoNCnRlc3RGaXgoKTsNCg==}
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const supabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+const TINY_TOKEN_MVF = '92caca96c3109a90a20286888c3a504353bb8f8e'; // Pegunto do log anterior ou env
+
+async function testFix() {
+    const orderId = '260123SCKMA09H';
+    const idTiny = '946056111';
+
+    console.log(`🧪 Testando correção para o pedido ${orderId}...`);
+
+    // 1. Buscar status atual no Tiny
+    console.log('📡 Buscando status atual no Tiny ERP...');
+    const response = await fetch(`https://api.tiny.com.br/api2/pedido.obter.php?token=${TINY_TOKEN_MVF}&id=${idTiny}&formato=json`);
+    const tinyData = await response.json();
+    const currentStatus = tinyData.retorno.pedido.situacao;
+    console.log(`✅ Status no Tiny: ${currentStatus}`);
+
+    // 2. Buscar itens no Supabase
+    const { data: existingRows } = await supabase
+        .from('spreadsheet_data')
+        .select('id, row_data')
+        .eq('row_data->>ID Tiny', idTiny);
+
+    if (!existingRows || existingRows.length === 0) {
+        console.log('❌ Pedido não encontrado no banco novo.');
+        return;
+    }
+
+    console.log(`📊 Encontrados ${existingRows.length} itens no banco.`);
+
+    // 3. Aplicar a lógica de atualização (igual ao que pus no process-retry-queue)
+    console.log('🔄 Aplicando correção de status...');
+    for (const row of existingRows) {
+        if (row.row_data["Situação"] !== currentStatus) {
+            const { error } = await supabase
+                .from('spreadsheet_data')
+                .update({
+                    row_data: { ...row.row_data, "Situação": currentStatus },
+                    updated_at: new Date().toISOString()
+                })
+                .eq('id', row.id);
+
+            if (error) console.error('Erro na atualização:', error);
+            else console.log(`✅ Item ${row.id} atualizado para ${currentStatus}`);
+        } else {
+            console.log(`ℹ️ Item ${row.id} já está com status ${currentStatus}`);
+        }
+    }
+
+    console.log('✨ Teste finalizado!');
+}
+
+testFix();

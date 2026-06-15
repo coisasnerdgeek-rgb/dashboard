@@ -1,1 +1,192 @@
-﻿@{data=LyoqDQogKiBQcm9jZXNzYXIgQVBFTkFTIHBlZGlkb3MgZG9zIGRpYXMgMjgtMjkgZGEgZmlsYSBkZSByZXRyeQ0KICogSWdub3JhIG9zIDM0ayBwZWRpZG9zIGFudGlnb3MgYWN1bXVsYWRvcw0KICovDQoNCmltcG9ydCB7IGNyZWF0ZUNsaWVudCB9IGZyb20gJ0BzdXBhYmFzZS9zdXBhYmFzZS1qcyc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOw0KDQovLyBMb2FkIC5lbnYubG9jYWwNCmNvbnN0IGVudlBhdGggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJy5lbnYubG9jYWwnKTsNCmlmIChmcy5leGlzdHNTeW5jKGVudlBhdGgpKSB7DQogICAgY29uc3QgZW52RmlsZSA9IGZzLnJlYWRGaWxlU3luYyhlbnZQYXRoLCAndXRmOCcpOw0KICAgIGVudkZpbGUuc3BsaXQoJ1xuJykuZm9yRWFjaChsaW5lID0+IHsNCiAgICAgICAgY29uc3QgbWF0Y2ggPSBsaW5lLm1hdGNoKC9eKFtePTojXSspPSguKikkLyk7DQogICAgICAgIGlmIChtYXRjaCkgew0KICAgICAgICAgICAgY29uc3Qga2V5ID0gbWF0Y2hbMV0udHJpbSgpOw0KICAgICAgICAgICAgY29uc3QgdmFsdWUgPSBtYXRjaFsyXS50cmltKCkucmVwbGFjZSgvXlsiJ118WyInXSQvZywgJycpOw0KICAgICAgICAgICAgaWYgKCFwcm9jZXNzLmVudltrZXldKSBwcm9jZXNzLmVudltrZXldID0gdmFsdWU7DQogICAgICAgIH0NCiAgICB9KTsNCn0NCg0KY29uc3QgU1VQQUJBU0VfVVJMID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMITsNCmNvbnN0IFNVUEFCQVNFX0tFWSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVkhOw0KY29uc3QgVElOWV9UT0tFTl9NTSA9IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOX01NIHx8IHByb2Nlc3MuZW52LlRJTllfQVBJX1RPS0VOOw0KY29uc3QgVElOWV9UT0tFTl9NVkYgPSBwcm9jZXNzLmVudi5USU5ZX0FQSV9UT0tFTl9NVkY7DQoNCmFzeW5jIGZ1bmN0aW9uIHByb2Nlc3NPbmx5UmVjZW50KCkgew0KICAgIGNvbnN0IHN1cGFiYXNlID0gY3JlYXRlQ2xpZW50KFNVUEFCQVNFX1VSTCwgU1VQQUJBU0VfS0VZKTsNCg0KICAgIGNvbnNvbGUubG9nKCdcbvCfjq8gUHJvY2Vzc2FuZG8gQVBFTkFTIFBlZGlkb3MgZG9zIERpYXMgMjgtMjlcbicpOw0KICAgIGNvbnNvbGUubG9nKCc9Jy5yZXBlYXQoNjApICsgJ1xuJyk7DQoNCiAgICBjb25zdCBkYXRlcyA9IFsnMjgvMDEvMjAyNicsICcyOS8wMS8yMDI2J107DQoNCiAgICAvLyBCdXNjYXIgQVBFTkFTIHBlZGlkb3MgZG9zIGRpYXMgMjgtMjkgcXVlIGVzdMOjbyBwZW5kZW50ZXMNCiAgICBjb25zdCB7IGRhdGE6IHRhcmdldE9yZGVycywgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlDQogICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgLnNlbGVjdCgnKicpDQogICAgICAgIC5pbignb3JkZXJfZGF0ZScsIGRhdGVzKQ0KICAgICAgICAuZXEoJ3N0YXR1cycsICdwZW5kaW5nJykNCiAgICAgICAgLm9yZGVyKCdjcmVhdGVkX2F0JywgeyBhc2NlbmRpbmc6IGZhbHNlIH0pOw0KDQogICAgaWYgKGVycm9yKSB7DQogICAgICAgIGNvbnNvbGUuZXJyb3IoJ+KdjCBFcnJvIGFvIGJ1c2NhciBmaWxhOicsIGVycm9yKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGlmICghdGFyZ2V0T3JkZXJzIHx8IHRhcmdldE9yZGVycy5sZW5ndGggPT09IDApIHsNCiAgICAgICAgY29uc29sZS5sb2coJ+KchSBOZW5odW0gcGVkaWRvIGRvcyBkaWFzIDI4LTI5IHBlbmRlbnRlIG5hIGZpbGEhXG4nKTsNCiAgICAgICAgY29uc29sZS5sb2coJ/CfkqEgUHJvdmF2ZWxtZW50ZSBqw6EgZm9yYW0gdG9kb3MgcHJvY2Vzc2Fkb3MuXG4nKTsNCiAgICAgICAgcmV0dXJuOw0KICAgIH0NCg0KICAgIGNvbnNvbGUubG9nKGDwn5OKIEVuY29udHJhZG9zICR7dGFyZ2V0T3JkZXJzLmxlbmd0aH0gcGVkaWRvcyBkb3MgZGlhcyAyOC0yOSBwYXJhIHByb2Nlc3NhcjpcbmApOw0KDQogICAgY29uc3QgYnlDb21wYW55ID0gdGFyZ2V0T3JkZXJzLnJlZHVjZSgoYWNjOiBhbnksIG9yZGVyOiBhbnkpID0+IHsNCiAgICAgICAgYWNjW29yZGVyLmNvbXBhbnldID0gKGFjY1tvcmRlci5jb21wYW55XSB8fCAwKSArIDE7DQogICAgICAgIHJldHVybiBhY2M7DQogICAgfSwge30pOw0KDQogICAgT2JqZWN0LmVudHJpZXMoYnlDb21wYW55KS5mb3JFYWNoKChbY29tcGFueSwgY291bnRdKSA9PiB7DQogICAgICAgIGNvbnNvbGUubG9nKGAgICAke2NvbXBhbnl9OiAke2NvdW50fSBwZWRpZG9zYCk7DQogICAgfSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG4nICsgJy0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCg0KICAgIGxldCBwcm9jZXNzZWQgPSAwOw0KICAgIGxldCBmYWlsZWQgPSAwOw0KICAgIGxldCByYXRlTGltaXRIaXRzID0gMDsNCg0KICAgIGZvciAoY29uc3QgcXVldWVJdGVtIG9mIHRhcmdldE9yZGVycykgew0KICAgICAgICBjb25zdCBvcmRlcklkID0gcXVldWVJdGVtLm9yZGVyX2lkOw0KICAgICAgICBjb25zdCBjb21wYW55ID0gcXVldWVJdGVtLmNvbXBhbnk7DQogICAgICAgIGNvbnN0IHRva2VuID0gY29tcGFueSA9PT0gJ01NJyA/IFRJTllfVE9LRU5fTU0gOiBUSU5ZX1RPS0VOX01WRjsNCg0KICAgICAgICBjb25zb2xlLmxvZyhgWyR7cHJvY2Vzc2VkICsgZmFpbGVkICsgMX0vJHt0YXJnZXRPcmRlcnMubGVuZ3RofV0gUHJvY2Vzc2FuZG8gIyR7b3JkZXJJZH0gKCR7Y29tcGFueX0pLi4uYCk7DQoNCiAgICAgICAgdHJ5IHsNCiAgICAgICAgICAgIC8vIFZlcmlmaWNhciBzZSBqw6EgZXhpc3RlIG5vIGJhbmNvDQogICAgICAgICAgICBjb25zdCB7IGRhdGE6IGV4aXN0aW5nIH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgICAgICAuc2VsZWN0KCdpZCcpDQogICAgICAgICAgICAgICAgLmVxKCdyb3dfZGF0YS0+PklEIFRpbnknLCBvcmRlcklkKQ0KICAgICAgICAgICAgICAgIC5saW1pdCgxKTsNCg0KICAgICAgICAgICAgaWYgKGV4aXN0aW5nICYmIGV4aXN0aW5nLmxlbmd0aCA+IDApIHsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAg4o+t77iPICBKw6EgZXhpc3RlIG5vIGJhbmNvIC0gbWFyY2FuZG8gY29tbyBjb21wbGV0ZWRgKTsNCg0KICAgICAgICAgICAgICAgIGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAgICAgICAgIC5mcm9tKCd3ZWJob29rX3JldHJ5X3F1ZXVlJykNCiAgICAgICAgICAgICAgICAgICAgLnVwZGF0ZSh7IHN0YXR1czogJ2NvbXBsZXRlZCcgfSkNCiAgICAgICAgICAgICAgICAgICAgLmVxKCdpZCcsIHF1ZXVlSXRlbS5pZCk7DQoNCiAgICAgICAgICAgICAgICBwcm9jZXNzZWQrKzsNCiAgICAgICAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgLy8gQnVzY2FyIGRvIFRpbnkNCiAgICAgICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goDQogICAgICAgICAgICAgICAgYGh0dHBzOi8vYXBpLnRpbnkuY29tLmJyL2FwaTIvcGVkaWRvLm9idGVyLnBocD90b2tlbj0ke3Rva2VufSZpZD0ke29yZGVySWR9JmZvcm1hdG89SlNPTmANCiAgICAgICAgICAgICk7DQoNCiAgICAgICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7DQoNCiAgICAgICAgICAgIGlmIChkYXRhLnJldG9ybm8/LnN0YXR1cyAhPT0gJ09LJykgew0KICAgICAgICAgICAgICAgIGNvbnN0IGVycm8gPSBkYXRhLnJldG9ybm8/LmVycm9zPy5bMF0/LmVycm8gfHwgJ0Vycm8gZGVzY29uaGVjaWRvJzsNCg0KICAgICAgICAgICAgICAgIGlmIChlcnJvLmluY2x1ZGVzKCdibG9xdWVhZGEnKSB8fCBlcnJvLmluY2x1ZGVzKCdFeGNlZGlkbycpKSB7DQogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICDij7jvuI8gIFJBVEUgTElNSVQgLSBBZ3VhcmRhbmRvIDYwcy4uLmApOw0KICAgICAgICAgICAgICAgICAgICByYXRlTGltaXRIaXRzKys7DQogICAgICAgICAgICAgICAgICAgIGF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCA2MDAwMCkpOw0KICAgICAgICAgICAgICAgICAgICAvLyBOw6NvIGluY3JlbWVudGFyIGNvbnRhZG9yIC0gdmFpIHRlbnRhciBkZSBub3ZvDQogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOw0KICAgICAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICDinYwgRXJybzogJHtlcnJvLnN1YnN0cmluZygwLCA1MCl9Li4uYCk7DQoNCiAgICAgICAgICAgICAgICBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAuZnJvbSgnd2ViaG9va19yZXRyeV9xdWV1ZScpDQogICAgICAgICAgICAgICAgICAgIC51cGRhdGUoew0KICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzOiAnZmFpbGVkJywNCiAgICAgICAgICAgICAgICAgICAgICAgIGxhc3RfZXJyb3I6IGVycm8sDQogICAgICAgICAgICAgICAgICAgICAgICByZXRyeV9jb3VudDogcXVldWVJdGVtLnJldHJ5X2NvdW50ICsgMQ0KICAgICAgICAgICAgICAgICAgICB9KQ0KICAgICAgICAgICAgICAgICAgICAuZXEoJ2lkJywgcXVldWVJdGVtLmlkKTsNCg0KICAgICAgICAgICAgICAgIGZhaWxlZCsrOw0KICAgICAgICAgICAgICAgIGF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCA1MDApKTsNCiAgICAgICAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgICAgIH0NCg0KICAgICAgICAgICAgY29uc3QgcGVkaWRvID0gZGF0YS5yZXRvcm5vLnBlZGlkbzsNCiAgICAgICAgICAgIGNvbnN0IGl0ZW5zID0gQXJyYXkuaXNBcnJheShwZWRpZG8uaXRlbnMpID8gcGVkaWRvLml0ZW5zIDogW3BlZGlkby5pdGVuc107DQoNCiAgICAgICAgICAgIC8vIEluc2VyaXIgbm8gYmFuY28NCiAgICAgICAgICAgIGZvciAoY29uc3QgaXRlbVdyYXBwZXIgb2YgaXRlbnMpIHsNCiAgICAgICAgICAgICAgICBjb25zdCBpdGVtID0gaXRlbVdyYXBwZXIuaXRlbTsNCg0KICAgICAgICAgICAgICAgIGNvbnN0IHJvd0RhdGEgPSB7DQogICAgICAgICAgICAgICAgICAgICJJRCBUaW55Ijogb3JkZXJJZCwNCiAgICAgICAgICAgICAgICAgICAgIkVjb21tZXJjZSBJRCI6IHBlZGlkby5lY29tbWVyY2U/Lm51bWVyb19lY29tbWVyY2UgfHwgJycsDQogICAgICAgICAgICAgICAgICAgICJEYXRhIjogcGVkaWRvLmRhdGFfcGVkaWRvIHx8ICcnLA0KICAgICAgICAgICAgICAgICAgICAiQ2xpZW50ZSI6IHBlZGlkby5jbGllbnRlPy5ub21lIHx8ICcnLA0KICAgICAgICAgICAgICAgICAgICAiU0tVIjogaXRlbS5jb2RpZ28gfHwgJycsDQogICAgICAgICAgICAgICAgICAgICJQcm9kdXRvIjogaXRlbS5kZXNjcmljYW8gfHwgJycsDQogICAgICAgICAgICAgICAgICAgICJRdWFudGlkYWRlIjogaXRlbS5xdWFudGlkYWRlIHx8ICcnLA0KICAgICAgICAgICAgICAgICAgICAiT2JzZXJ2YcOnw7VlcyI6IHBlZGlkby5vYnMgfHwgJycsDQogICAgICAgICAgICAgICAgICAgICJPYnNlcnZhw6fDtWVzIEludGVybmFzIjogcGVkaWRvLm9ic19pbnRlcm5hIHx8ICcnLA0KICAgICAgICAgICAgICAgICAgICAiU2l0dWHDp8OjbyI6IHBlZGlkby5zaXR1YWNhbyB8fCAnJywNCiAgICAgICAgICAgICAgICAgICAgIkxvamEiOiBgJHtwZWRpZG8ubm9tZV92ZW5kZWRvciB8fCAnJ30gJHtjb21wYW55fWAudHJpbSgpLA0KICAgICAgICAgICAgICAgICAgICAiVmFsb3IgVW5pdMOhcmlvIjogaXRlbS52YWxvcl91bml0YXJpbyB8fCAnJywNCiAgICAgICAgICAgICAgICAgICAgIlZhbG9yIFRvdGFsIjogcGVkaWRvLnZhbG9yX3BlZGlkbyB8fCAnJw0KICAgICAgICAgICAgICAgIH07DQoNCiAgICAgICAgICAgICAgICBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAgICAgICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgICAgICAgICAgICAgIC5pbnNlcnQoew0KICAgICAgICAgICAgICAgICAgICAgICAgZmlsZW5hbWU6IGBUaW55ICR7Y29tcGFueX0gLSBFbWVyZ2VuY3kgU3luY2AsDQogICAgICAgICAgICAgICAgICAgICAgICBpbXBvcnRfZGF0ZTogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLA0KICAgICAgICAgICAgICAgICAgICAgICAgcm93X2RhdGE6IHJvd0RhdGENCiAgICAgICAgICAgICAgICAgICAgfSk7DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIC8vIE1hcmNhciBjb21vIGNvbXBsZXRhZG8NCiAgICAgICAgICAgIGF3YWl0IHN1cGFiYXNlDQogICAgICAgICAgICAgICAgLmZyb20oJ3dlYmhvb2tfcmV0cnlfcXVldWUnKQ0KICAgICAgICAgICAgICAgIC51cGRhdGUoeyBzdGF0dXM6ICdjb21wbGV0ZWQnIH0pDQogICAgICAgICAgICAgICAgLmVxKCdpZCcsIHF1ZXVlSXRlbS5pZCk7DQoNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAgICDinIUgSW1wb3J0YWRvIGNvbSBzdWNlc3NvICgke2l0ZW5zLmxlbmd0aH0gaXRlbnMpYCk7DQogICAgICAgICAgICBwcm9jZXNzZWQrKzsNCg0KICAgICAgICAgICAgLy8gRGVsYXkgYW50aS1yYXRlLWxpbWl0DQogICAgICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgNDAwKSk7DQoNCiAgICAgICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcihgICAg4p2MIEVycm8gYW8gcHJvY2Vzc2FyOmAsIGVycm9yLm1lc3NhZ2UpOw0KICAgICAgICAgICAgZmFpbGVkKys7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICBjb25zb2xlLmxvZygnXG4nICsgJz0nLnJlcGVhdCg2MCkpOw0KICAgIGNvbnNvbGUubG9nKGBcbvCfjq8gUkVTVU1POlxuYCk7DQogICAgY29uc29sZS5sb2coYCAgIOKchSBQcm9jZXNzYWRvczogJHtwcm9jZXNzZWR9YCk7DQogICAgY29uc29sZS5sb2coYCAgIOKdjCBGYWxoYWRvczogJHtmYWlsZWR9YCk7DQogICAgY29uc29sZS5sb2coYCAgIOKPuO+4jyAgUmF0ZSBsaW1pdHMgZW5jb250cmFkb3M6ICR7cmF0ZUxpbWl0SGl0c31gKTsNCiAgICBjb25zb2xlLmxvZyhgXG7inIUgQ29uY2x1w61kbyEgQXR1YWxpemUgbyBzaXRlIHBhcmEgdmVyIG9zIHBlZGlkb3MuXG5gKTsNCn0NCg0KcHJvY2Vzc09ubHlSZWNlbnQoKS5jYXRjaChjb25zb2xlLmVycm9yKTsNCg==}
+/**
+ * Processar APENAS pedidos dos dias 28-29 da fila de retry
+ * Ignora os 34k pedidos antigos acumulados
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+const TINY_TOKEN_MM = process.env.TINY_API_TOKEN_MM || process.env.TINY_API_TOKEN;
+const TINY_TOKEN_MVF = process.env.TINY_API_TOKEN_MVF;
+
+async function processOnlyRecent() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🎯 Processando APENAS Pedidos dos Dias 28-29\n');
+    console.log('='.repeat(60) + '\n');
+
+    const dates = ['28/01/2026', '29/01/2026'];
+
+    // Buscar APENAS pedidos dos dias 28-29 que estão pendentes
+    const { data: targetOrders, error } = await supabase
+        .from('webhook_retry_queue')
+        .select('*')
+        .in('order_date', dates)
+        .eq('status', 'pending')
+        .order('created_at', { ascending: false });
+
+    if (error) {
+        console.error('❌ Erro ao buscar fila:', error);
+        return;
+    }
+
+    if (!targetOrders || targetOrders.length === 0) {
+        console.log('✅ Nenhum pedido dos dias 28-29 pendente na fila!\n');
+        console.log('💡 Provavelmente já foram todos processados.\n');
+        return;
+    }
+
+    console.log(`📊 Encontrados ${targetOrders.length} pedidos dos dias 28-29 para processar:\n`);
+
+    const byCompany = targetOrders.reduce((acc: any, order: any) => {
+        acc[order.company] = (acc[order.company] || 0) + 1;
+        return acc;
+    }, {});
+
+    Object.entries(byCompany).forEach(([company, count]) => {
+        console.log(`   ${company}: ${count} pedidos`);
+    });
+
+    console.log('\n' + '-'.repeat(60) + '\n');
+
+    let processed = 0;
+    let failed = 0;
+    let rateLimitHits = 0;
+
+    for (const queueItem of targetOrders) {
+        const orderId = queueItem.order_id;
+        const company = queueItem.company;
+        const token = company === 'MM' ? TINY_TOKEN_MM : TINY_TOKEN_MVF;
+
+        console.log(`[${processed + failed + 1}/${targetOrders.length}] Processando #${orderId} (${company})...`);
+
+        try {
+            // Verificar se já existe no banco
+            const { data: existing } = await supabase
+                .from('spreadsheet_data')
+                .select('id')
+                .eq('row_data->>ID Tiny', orderId)
+                .limit(1);
+
+            if (existing && existing.length > 0) {
+                console.log(`   ⏭️  Já existe no banco - marcando como completed`);
+
+                await supabase
+                    .from('webhook_retry_queue')
+                    .update({ status: 'completed' })
+                    .eq('id', queueItem.id);
+
+                processed++;
+                continue;
+            }
+
+            // Buscar do Tiny
+            const response = await fetch(
+                `https://api.tiny.com.br/api2/pedido.obter.php?token=${token}&id=${orderId}&formato=JSON`
+            );
+
+            const data = await response.json();
+
+            if (data.retorno?.status !== 'OK') {
+                const erro = data.retorno?.erros?.[0]?.erro || 'Erro desconhecido';
+
+                if (erro.includes('bloqueada') || erro.includes('Excedido')) {
+                    console.log(`   ⏸️  RATE LIMIT - Aguardando 60s...`);
+                    rateLimitHits++;
+                    await new Promise(r => setTimeout(r, 60000));
+                    // Não incrementar contador - vai tentar de novo
+                    continue;
+                }
+
+                console.log(`   ❌ Erro: ${erro.substring(0, 50)}...`);
+
+                await supabase
+                    .from('webhook_retry_queue')
+                    .update({
+                        status: 'failed',
+                        last_error: erro,
+                        retry_count: queueItem.retry_count + 1
+                    })
+                    .eq('id', queueItem.id);
+
+                failed++;
+                await new Promise(r => setTimeout(r, 500));
+                continue;
+            }
+
+            const pedido = data.retorno.pedido;
+            const itens = Array.isArray(pedido.itens) ? pedido.itens : [pedido.itens];
+
+            // Inserir no banco
+            for (const itemWrapper of itens) {
+                const item = itemWrapper.item;
+
+                const rowData = {
+                    "ID Tiny": orderId,
+                    "Ecommerce ID": pedido.ecommerce?.numero_ecommerce || '',
+                    "Data": pedido.data_pedido || '',
+                    "Cliente": pedido.cliente?.nome || '',
+                    "SKU": item.codigo || '',
+                    "Produto": item.descricao || '',
+                    "Quantidade": item.quantidade || '',
+                    "Observações": pedido.obs || '',
+                    "Observações Internas": pedido.obs_interna || '',
+                    "Situação": pedido.situacao || '',
+                    "Loja": `${pedido.nome_vendedor || ''} ${company}`.trim(),
+                    "Valor Unitário": item.valor_unitario || '',
+                    "Valor Total": pedido.valor_pedido || ''
+                };
+
+                await supabase
+                    .from('spreadsheet_data')
+                    .insert({
+                        filename: `Tiny ${company} - Emergency Sync`,
+                        import_date: new Date().toISOString(),
+                        row_data: rowData
+                    });
+            }
+
+            // Marcar como completado
+            await supabase
+                .from('webhook_retry_queue')
+                .update({ status: 'completed' })
+                .eq('id', queueItem.id);
+
+            console.log(`   ✅ Importado com sucesso (${itens.length} itens)`);
+            processed++;
+
+            // Delay anti-rate-limit
+            await new Promise(r => setTimeout(r, 400));
+
+        } catch (error: any) {
+            console.error(`   ❌ Erro ao processar:`, error.message);
+            failed++;
+        }
+    }
+
+    console.log('\n' + '='.repeat(60));
+    console.log(`\n🎯 RESUMO:\n`);
+    console.log(`   ✅ Processados: ${processed}`);
+    console.log(`   ❌ Falhados: ${failed}`);
+    console.log(`   ⏸️  Rate limits encontrados: ${rateLimitHits}`);
+    console.log(`\n✅ Concluído! Atualize o site para ver os pedidos.\n`);
+}
+
+processOnlyRecent().catch(console.error);

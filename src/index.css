@@ -1,1 +1,3 @@
-﻿@{data=QHRhaWx3aW5kIGJhc2U7DQpAdGFpbHdpbmQgY29tcG9uZW50czsNCkB0YWlsd2luZCB1dGlsaXRpZXM7DQo=}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

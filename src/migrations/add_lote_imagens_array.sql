@@ -1,1 +1,14 @@
-﻿@{data=LS0gTWlncmF0aW9uOiBBZGQgaW1hZ2VucyBhcnJheSBmaWVsZCB0byBsb3RlcyB0YWJsZQ0KLS0gRXhlY3V0ZSB0aGlzIGluIFN1cGFiYXNlIFNRTCBFZGl0b3INCg0KLS0gQWRkIGltYWdlbnMgY29sdW1uIHRvIHN0b3JlIGFycmF5IG9mIGltYWdlIFVSTHMNCkFMVEVSIFRBQkxFIGxvdGVzIA0KQUREIENPTFVNTiBJRiBOT1QgRVhJU1RTIGltYWdlbnMgVEVYVFtdOw0KDQotLSBDb21tZW50DQpDT01NRU5UIE9OIENPTFVNTiBsb3Rlcy5pbWFnZW5zIElTICdBcnJheSBvZiBhbGwgaW1hZ2UgVVJMcyBmb3IgdGhpcyBsb3RlIChzdXBwb3J0cyBtdWx0aXBsZSBpbWFnZXMgcGVyIGxvdGUpJzsNCg0KLS0gTWlncmF0ZSBleGlzdGluZyBkYXRhOiBjb252ZXJ0IHNpbmdsZSBpbWFnZW1fdXJsIHRvIGFycmF5DQpVUERBVEUgbG90ZXMgDQpTRVQgaW1hZ2VucyA9IEFSUkFZW2ltYWdlbV91cmxdDQpXSEVSRSBpbWFnZW5zIElTIE5VTEwgQU5EIGltYWdlbV91cmwgSVMgTk9UIE5VTEw7DQo=}
+-- Migration: Add imagens array field to lotes table
+-- Execute this in Supabase SQL Editor
+
+-- Add imagens column to store array of image URLs
+ALTER TABLE lotes 
+ADD COLUMN IF NOT EXISTS imagens TEXT[];
+
+-- Comment
+COMMENT ON COLUMN lotes.imagens IS 'Array of all image URLs for this lote (supports multiple images per lote)';
+
+-- Migrate existing data: convert single imagem_url to array
+UPDATE lotes 
+SET imagens = ARRAY[imagem_url]
+WHERE imagens IS NULL AND imagem_url IS NOT NULL;

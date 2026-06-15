@@ -1,1 +1,37 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KY29uc3QgTkVXX1NVUEFCQVNFX1VSTCA9ICdodHRwczovL2dlYWJ2Y3FjeW1hcXNxeHhmcXl3LnN1cGFiYXNlLmNvJzsNCmNvbnN0IE5FV19TVVBBQkFTRV9LRVkgPSAnZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmhZbUZ6WlNJc0luSmxaaUk2SW1kbFlXSjJZM0ZqZVcxaGNYTnhlSGhtY1hsM0lpd2ljbTlzWlNJNkluTmxjblpwWTJWZmNtOXNaU0lzSW1saGRDSTZNVGMyT1RFNE1UQTVOeXdpWlhod0lqb3lNRGcwTnpVM01EazNmUS5XSnhyOWVTRHpnN3dmUEFnQk42TmdBTGZpVUhjLURZZXVGYkVxRzhOMGhVJzsNCmNvbnN0IG5ld1N1cGFiYXNlID0gY3JlYXRlQ2xpZW50KE5FV19TVVBBQkFTRV9VUkwsIE5FV19TVVBBQkFTRV9LRVkpOw0KDQphc3luYyBmdW5jdGlvbiBpbnNwZWN0T3JkZXIoKSB7DQogICAgY29uc3Qgb3JkZXJJZCA9ICcyNjAxMjNTQ0tNQTA5SCc7DQogICAgY29uc29sZS5sb2coYPCflI0gSW5zcGVjaW9uYW5kbyBwZWRpZG86ICR7b3JkZXJJZH0uLi5gKTsNCg0KICAgIC8vIFByb2N1cmFyIGVtIHNwcmVhZHNoZWV0X2RhdGENCiAgICBjb25zdCB7IGRhdGE6IHNwcmVhZHNoZWV0LCBlcnJvcjogc0Vycm9yIH0gPSBhd2FpdCBuZXdTdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJyonKQ0KICAgICAgICAuaWxpa2UoJ3Jvd19kYXRhLT4+TsO6bWVybyBkYSBvcmRlbSBkZSBjb21wcmEnLCBgJSR7b3JkZXJJZH0lYCk7DQoNCiAgICBjb25zb2xlLmxvZygnLS0tIHNwcmVhZHNoZWV0X2RhdGEgLS0tJyk7DQogICAgaWYgKHNFcnJvcikgew0KICAgICAgICBjb25zb2xlLmVycm9yKHNFcnJvcik7DQogICAgfSBlbHNlIGlmIChzcHJlYWRzaGVldCAmJiBzcHJlYWRzaGVldC5sZW5ndGggPiAwKSB7DQogICAgICAgIHNwcmVhZHNoZWV0LmZvckVhY2gocm93ID0+IHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGBJRDogJHtyb3cuaWR9YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgU3RhdHVzIEJhbmNvOiAke3Jvdy5zdGF0dXN9YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgRGF0YSBCYW5jbzogJHtKU09OLnN0cmluZ2lmeShyb3cucm93X2RhdGEsIG51bGwsIDIpfWApOw0KICAgICAgICAgICAgY29uc29sZS5sb2coYFVwZGF0ZWQgQXQ6ICR7cm93LnVwZGF0ZWRfYXR9YCk7DQogICAgICAgICAgICBjb25zb2xlLmxvZygnLS0tJyk7DQogICAgICAgIH0pOw0KICAgIH0gZWxzZSB7DQogICAgICAgIGNvbnNvbGUubG9nKCdOw6NvIGVuY29udHJhZG8gZW0gc3ByZWFkc2hlZXRfZGF0YSBwb3IgTsO6bWVybyBkYSBvcmRlbSBkZSBjb21wcmEuJyk7DQoNCiAgICAgICAgLy8gVGVudGFyIHBvciBJRCBleGF0byBzZSBvIGZvcm1hdG8gZm9yIGRpZmVyZW50ZQ0KICAgICAgICBjb25zdCB7IGRhdGE6IHMyIH0gPSBhd2FpdCBuZXdTdXBhYmFzZS5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykuc2VsZWN0KCcqJykuZXEoJ2lkJywgb3JkZXJJZCk7DQogICAgICAgIGlmIChzMiAmJiBzMi5sZW5ndGggPiAwKSBjb25zb2xlLmxvZygnRW5jb250cmFkbyBwb3IgSUQgZXhhdG86JywgczJbMF0pOw0KICAgIH0NCn0NCg0KaW5zcGVjdE9yZGVyKCk7DQo=}
+import { createClient } from '@supabase/supabase-js';
+
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function inspectOrder() {
+    const orderId = '260123SCKMA09H';
+    console.log(`🔍 Inspecionando pedido: ${orderId}...`);
+
+    // Procurar em spreadsheet_data
+    const { data: spreadsheet, error: sError } = await newSupabase
+        .from('spreadsheet_data')
+        .select('*')
+        .ilike('row_data->>Número da ordem de compra', `%${orderId}%`);
+
+    console.log('--- spreadsheet_data ---');
+    if (sError) {
+        console.error(sError);
+    } else if (spreadsheet && spreadsheet.length > 0) {
+        spreadsheet.forEach(row => {
+            console.log(`ID: ${row.id}`);
+            console.log(`Status Banco: ${row.status}`);
+            console.log(`Data Banco: ${JSON.stringify(row.row_data, null, 2)}`);
+            console.log(`Updated At: ${row.updated_at}`);
+            console.log('---');
+        });
+    } else {
+        console.log('Não encontrado em spreadsheet_data por Número da ordem de compra.');
+
+        // Tentar por ID exato se o formato for diferente
+        const { data: s2 } = await newSupabase.from('spreadsheet_data').select('*').eq('id', orderId);
+        if (s2 && s2.length > 0) console.log('Encontrado por ID exato:', s2[0]);
+    }
+}
+
+inspectOrder();

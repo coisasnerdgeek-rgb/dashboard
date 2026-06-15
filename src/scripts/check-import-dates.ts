@@ -1,1 +1,100 @@
-﻿@{data=LyoqDQogKiBWZXJpZmljYXIgaW1wb3J0X2RhdGUgZG9zIHBlZGlkb3MgcmVjZW50ZXMNCiAqLw0KDQppbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tICdAc3VwYWJhc2Uvc3VwYWJhc2UtanMnOw0KaW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOw0KaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCg0KLy8gTG9hZCAuZW52LmxvY2FsDQpjb25zdCBlbnZQYXRoID0gcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksICcuZW52LmxvY2FsJyk7DQppZiAoZnMuZXhpc3RzU3luYyhlbnZQYXRoKSkgew0KICAgIGNvbnN0IGVudkZpbGUgPSBmcy5yZWFkRmlsZVN5bmMoZW52UGF0aCwgJ3V0ZjgnKTsNCiAgICBlbnZGaWxlLnNwbGl0KCdcbicpLmZvckVhY2gobGluZSA9PiB7DQogICAgICAgIGNvbnN0IG1hdGNoID0gbGluZS5tYXRjaCgvXihbXj06I10rKT0oLiopJC8pOw0KICAgICAgICBpZiAobWF0Y2gpIHsNCiAgICAgICAgICAgIGNvbnN0IGtleSA9IG1hdGNoWzFdLnRyaW0oKTsNCiAgICAgICAgICAgIGNvbnN0IHZhbHVlID0gbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL15bIiddfFsiJ10kL2csICcnKTsNCiAgICAgICAgICAgIGlmICghcHJvY2Vzcy5lbnZba2V5XSkgcHJvY2Vzcy5lbnZba2V5XSA9IHZhbHVlOw0KICAgICAgICB9DQogICAgfSk7DQp9DQoNCmNvbnN0IFNVUEFCQVNFX1VSTCA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1VSTCE7DQpjb25zdCBTVVBBQkFTRV9LRVkgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZITsNCg0KYXN5bmMgZnVuY3Rpb24gY2hlY2tJbXBvcnREYXRlcygpIHsNCiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChTVVBBQkFTRV9VUkwsIFNVUEFCQVNFX0tFWSk7DQoNCiAgICBjb25zb2xlLmxvZygnXG7wn5SNIFZlcmlmaWNhbmRvIGltcG9ydF9kYXRlIGRvcyBQZWRpZG9zIFJlY2VudGVzXG4nKTsNCiAgICBjb25zb2xlLmxvZygnPScucmVwZWF0KDYwKSArICdcbicpOw0KDQogICAgLy8gQnVzY2FyIHBlZGlkb3MgZG9zIGRpYXMgMjggZSAyOQ0KICAgIGNvbnN0IGRhdGVzID0gWycyOC8wMS8yMDI2JywgJzI5LzAxLzIwMjYnXTsNCg0KICAgIGZvciAoY29uc3QgZGF0ZSBvZiBkYXRlcykgew0KICAgICAgICBjb25zb2xlLmxvZyhg8J+ThSBQZWRpZG9zIGRlICR7ZGF0ZX06XG5gKTsNCg0KICAgICAgICBjb25zdCB7IGRhdGEsIGVycm9yLCBjb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgICAgIC5mcm9tKCdzcHJlYWRzaGVldF9kYXRhJykNCiAgICAgICAgICAgIC5zZWxlY3QoJ2lkLCBpbXBvcnRfZGF0ZSwgcm93X2RhdGEnLCB7IGNvdW50OiAnZXhhY3QnIH0pDQogICAgICAgICAgICAuZXEoJ3Jvd19kYXRhLT4+RGF0YScsIGRhdGUpDQogICAgICAgICAgICAub3JkZXIoJ2ltcG9ydF9kYXRlJywgeyBhc2NlbmRpbmc6IGZhbHNlIH0pDQogICAgICAgICAgICAubGltaXQoMTApOw0KDQogICAgICAgIGlmIChlcnJvcikgew0KICAgICAgICAgICAgY29uc29sZS5lcnJvcihgICAg4p2MIEVycm86YCwgZXJyb3IpOw0KICAgICAgICAgICAgY29udGludWU7DQogICAgICAgIH0NCg0KICAgICAgICBjb25zb2xlLmxvZyhgICAgVG90YWw6ICR7Y291bnQgfHwgMH0gcGVkaWRvc1xuYCk7DQoNCiAgICAgICAgaWYgKGRhdGEgJiYgZGF0YS5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgUHJpbWVpcm9zIHJlZ2lzdHJvczpgKTsNCiAgICAgICAgICAgIGRhdGEuZm9yRWFjaCgocm93OiBhbnksIGlkeDogbnVtYmVyKSA9PiB7DQogICAgICAgICAgICAgICAgY29uc3QgaW1wb3J0RGF0ZSA9IG5ldyBEYXRlKHJvdy5pbXBvcnRfZGF0ZSk7DQogICAgICAgICAgICAgICAgY29uc3Qgbm93ID0gbmV3IERhdGUoKTsNCiAgICAgICAgICAgICAgICBjb25zdCBkaWZmSG91cnMgPSBNYXRoLmZsb29yKChub3cuZ2V0VGltZSgpIC0gaW1wb3J0RGF0ZS5nZXRUaW1lKCkpIC8gKDEwMDAgKiA2MCAqIDYwKSk7DQoNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgJHtpZHggKyAxfS4gSUQgVGlueTogJHtyb3cucm93X2RhdGFbJ0lEIFRpbnknXX1gKTsNCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZyhgICAgICAgaW1wb3J0X2RhdGU6ICR7cm93LmltcG9ydF9kYXRlfSAoJHtkaWZmSG91cnN9aCBhdHLDoXMpYCk7DQogICAgICAgICAgICAgICAgY29uc29sZS5sb2coYCAgICAgIFNLVTogJHtyb3cucm93X2RhdGFbJ1NLVSddfWApOw0KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGBgKTsNCiAgICAgICAgICAgIH0pOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgY29uc29sZS5sb2coYCAgIOKaoO+4jyAgTmVuaHVtIHBlZGlkbyBlbmNvbnRyYWRvIVxuYCk7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICAvLyBWZXJpZmljYXIgZmlsdHJvIGRlIDYwIGRpYXMNCiAgICBjb25zb2xlLmxvZygn4o+wIFZlcmlmaWNhbmRvIEZpbHRybyBkZSA2MCBEaWFzOlxuJyk7DQoNCiAgICBjb25zdCBzaXh0eURheXNBZ28gPSBuZXcgRGF0ZSgpOw0KICAgIHNpeHR5RGF5c0Fnby5zZXREYXRlKHNpeHR5RGF5c0Fnby5nZXREYXRlKCkgLSA2MCk7DQogICAgY29uc3QgY3V0T2ZmRGF0ZSA9IHNpeHR5RGF5c0Fnby50b0lTT1N0cmluZygpOw0KDQogICAgY29uc29sZS5sb2coYCAgIERhdGEgZGUgY29ydGU6ICR7Y3V0T2ZmRGF0ZX1gKTsNCiAgICBjb25zb2xlLmxvZyhgICAgKEFwZW5hcyBwZWRpZG9zIENPTSBpbXBvcnRfZGF0ZSBBUMOTUyBlc3NhIGRhdGEgc8OjbyBjYXJyZWdhZG9zKVxuYCk7DQoNCiAgICAvLyBDb250YXIgcXVhbnRvcyBwZWRpZG9zIHTDqm0gaW1wb3J0X2RhdGUgcmVjZW50ZQ0KICAgIGNvbnN0IHsgY291bnQ6IHJlY2VudENvdW50IH0gPSBhd2FpdCBzdXBhYmFzZQ0KICAgICAgICAuZnJvbSgnc3ByZWFkc2hlZXRfZGF0YScpDQogICAgICAgIC5zZWxlY3QoJ2lkJywgeyBjb3VudDogJ2V4YWN0JywgaGVhZDogdHJ1ZSB9KQ0KICAgICAgICAuZ3QoJ2ltcG9ydF9kYXRlJywgY3V0T2ZmRGF0ZSk7DQoNCiAgICBjb25zb2xlLmxvZyhgICAg4pyFIFBlZGlkb3MgZGVudHJvIGRvIGZpbHRybyBkZSA2MCBkaWFzOiAke3JlY2VudENvdW50IHx8IDB9XG5gKTsNCg0KICAgIC8vIENvbnRhciB0b3RhbCBkZSBwZWRpZG9zDQogICAgY29uc3QgeyBjb3VudDogdG90YWxDb3VudCB9ID0gYXdhaXQgc3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCdpZCcsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSk7DQoNCiAgICBjb25zb2xlLmxvZyhgICAg8J+TiiBUb3RhbCBkZSBwZWRpZG9zIG5vIGJhbmNvOiAke3RvdGFsQ291bnQgfHwgMH1cbmApOw0KDQogICAgY29uc3QgcGVyY2VudGFnZUxvYWRlZCA9IHJlY2VudENvdW50ICYmIHRvdGFsQ291bnQgPyAoKHJlY2VudENvdW50IC8gdG90YWxDb3VudCkgKiAxMDApLnRvRml4ZWQoMSkgOiAwOw0KICAgIGNvbnNvbGUubG9nKGAgICDwn5OIIFBvcmNlbnRhZ2VtIGNhcnJlZ2FkYSBwZWxvIGZpbHRybzogJHtwZXJjZW50YWdlTG9hZGVkfSVcbmApOw0KDQogICAgY29uc29sZS5sb2coJz0nLnJlcGVhdCg2MCkgKyAnXG4nKTsNCn0NCg0KY2hlY2tJbXBvcnREYXRlcygpLmNhdGNoKGNvbnNvbGUuZXJyb3IpOw0K}
+/**
+ * Verificar import_date dos pedidos recentes
+ */
+
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
+
+// Load .env.local
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+    const envFile = fs.readFileSync(envPath, 'utf8');
+    envFile.split('\n').forEach(line => {
+        const match = line.match(/^([^=:#]+)=(.*)$/);
+        if (match) {
+            const key = match[1].trim();
+            const value = match[2].trim().replace(/^["']|["']$/g, '');
+            if (!process.env[key]) process.env[key] = value;
+        }
+    });
+}
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+
+async function checkImportDates() {
+    const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+
+    console.log('\n🔍 Verificando import_date dos Pedidos Recentes\n');
+    console.log('='.repeat(60) + '\n');
+
+    // Buscar pedidos dos dias 28 e 29
+    const dates = ['28/01/2026', '29/01/2026'];
+
+    for (const date of dates) {
+        console.log(`📅 Pedidos de ${date}:\n`);
+
+        const { data, error, count } = await supabase
+            .from('spreadsheet_data')
+            .select('id, import_date, row_data', { count: 'exact' })
+            .eq('row_data->>Data', date)
+            .order('import_date', { ascending: false })
+            .limit(10);
+
+        if (error) {
+            console.error(`   ❌ Erro:`, error);
+            continue;
+        }
+
+        console.log(`   Total: ${count || 0} pedidos\n`);
+
+        if (data && data.length > 0) {
+            console.log(`   Primeiros registros:`);
+            data.forEach((row: any, idx: number) => {
+                const importDate = new Date(row.import_date);
+                const now = new Date();
+                const diffHours = Math.floor((now.getTime() - importDate.getTime()) / (1000 * 60 * 60));
+
+                console.log(`   ${idx + 1}. ID Tiny: ${row.row_data['ID Tiny']}`);
+                console.log(`      import_date: ${row.import_date} (${diffHours}h atrás)`);
+                console.log(`      SKU: ${row.row_data['SKU']}`);
+                console.log(``);
+            });
+        } else {
+            console.log(`   ⚠️  Nenhum pedido encontrado!\n`);
+        }
+    }
+
+    // Verificar filtro de 60 dias
+    console.log('⏰ Verificando Filtro de 60 Dias:\n');
+
+    const sixtyDaysAgo = new Date();
+    sixtyDaysAgo.setDate(sixtyDaysAgo.getDate() - 60);
+    const cutOffDate = sixtyDaysAgo.toISOString();
+
+    console.log(`   Data de corte: ${cutOffDate}`);
+    console.log(`   (Apenas pedidos COM import_date APÓS essa data são carregados)\n`);
+
+    // Contar quantos pedidos têm import_date recente
+    const { count: recentCount } = await supabase
+        .from('spreadsheet_data')
+        .select('id', { count: 'exact', head: true })
+        .gt('import_date', cutOffDate);
+
+    console.log(`   ✅ Pedidos dentro do filtro de 60 dias: ${recentCount || 0}\n`);
+
+    // Contar total de pedidos
+    const { count: totalCount } = await supabase
+        .from('spreadsheet_data')
+        .select('id', { count: 'exact', head: true });
+
+    console.log(`   📊 Total de pedidos no banco: ${totalCount || 0}\n`);
+
+    const percentageLoaded = recentCount && totalCount ? ((recentCount / totalCount) * 100).toFixed(1) : 0;
+    console.log(`   📈 Porcentagem carregada pelo filtro: ${percentageLoaded}%\n`);
+
+    console.log('='.repeat(60) + '\n');
+}
+
+checkImportDates().catch(console.error);

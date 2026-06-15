@@ -1,1 +1,27 @@
-﻿@{data=aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsNCg0KLy8gTkVXIERCIENyZWRlbnRpYWxzDQpjb25zdCBORVdfU1VQQUJBU0VfVVJMID0gJ2h0dHBzOi8vZ2VhYnZjcWN5bWFxc3F4eGZxeXcuc3VwYWJhc2UuY28nOw0KY29uc3QgTkVXX1NVUEFCQVNFX0tFWSA9ICdleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWRsWVdKMlkzRmplVzFoY1hOeGVIaG1jWGwzSWl3aWNtOXNaU0k2SW5ObGNuWnBZMlZmY205c1pTSXNJbWxoZENJNk1UYzJPVEU0TVRBNU55d2laWGh3SWpveU1EZzBOelUzTURrM2ZRLldKeHI5ZVNEemc3d2ZQQWdCTjZOZ0FMZmlVSGMtRFlldUZiRXFHOE4waFUnOw0KDQpjb25zdCBuZXdTdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChORVdfU1VQQUJBU0VfVVJMLCBORVdfU1VQQUJBU0VfS0VZKTsNCg0KYXN5bmMgZnVuY3Rpb24gaW5zcGVjdCgpIHsNCiAgICBjb25zb2xlLmxvZygnLS0tIEluc3BlY3RpbmcgTkVXIERCIERhdGEgU3RydWN0dXJlIC0tLScpOw0KDQogICAgLy8gQ2hlY2sgU3ByZWFkc2hlZXQgRGF0YQ0KICAgIGNvbnN0IHsgZGF0YTogc2hlZXREYXRhLCBlcnJvcjogc2hlZXRFcnJvciB9ID0gYXdhaXQgbmV3U3VwYWJhc2UNCiAgICAgICAgLmZyb20oJ3NwcmVhZHNoZWV0X2RhdGEnKQ0KICAgICAgICAuc2VsZWN0KCcqJykNCiAgICAgICAgLmxpbWl0KDEpOw0KDQogICAgaWYgKHNoZWV0RGF0YSAmJiBzaGVldERhdGEubGVuZ3RoID4gMCkgew0KICAgICAgICBjb25zb2xlLmxvZygnXG5bU3ByZWFkc2hlZXQgRGF0YSBTYW1wbGVdJyk7DQogICAgICAgIGNvbnN0IHJvdyA9IHNoZWV0RGF0YVswXS5yb3dfZGF0YSB8fCB7fTsNCiAgICAgICAgT2JqZWN0LmVudHJpZXMocm93KS5mb3JFYWNoKChba2V5LCB2YWx1ZV0pID0+IHsNCiAgICAgICAgICAgIGNvbnNvbGUubG9nKGAiJHtrZXl9IjogIiR7dmFsdWV9ImApOw0KICAgICAgICB9KTsNCiAgICB9DQp9DQoNCmluc3BlY3QoKTsNCg==}
+import { createClient } from '@supabase/supabase-js';
+
+// NEW DB Credentials
+const NEW_SUPABASE_URL = 'https://geabvcqcymaqsqxxfqyw.supabase.co';
+const NEW_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdlYWJ2Y3FjeW1hcXNxeHhmcXl3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2OTE4MTA5NywiZXhwIjoyMDg0NzU3MDk3fQ.WJxr9eSDzg7wfPAgBN6NgALfiUHc-DYeuFbEqG8N0hU';
+
+const newSupabase = createClient(NEW_SUPABASE_URL, NEW_SUPABASE_KEY);
+
+async function inspect() {
+    console.log('--- Inspecting NEW DB Data Structure ---');
+
+    // Check Spreadsheet Data
+    const { data: sheetData, error: sheetError } = await newSupabase
+        .from('spreadsheet_data')
+        .select('*')
+        .limit(1);
+
+    if (sheetData && sheetData.length > 0) {
+        console.log('\n[Spreadsheet Data Sample]');
+        const row = sheetData[0].row_data || {};
+        Object.entries(row).forEach(([key, value]) => {
+            console.log(`"${key}": "${value}"`);
+        });
+    }
+}
+
+inspect();
